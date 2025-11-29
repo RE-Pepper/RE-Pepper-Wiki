@@ -1,0 +1,78 @@
+
+
+site_name: RedPepper Wiki
+siteurl: https://prp.moddi.dev/
+#siteurl: http://127.0.0.1:8000/
+ 
+nav:
+  - Files: files.md
+  - Classes: classes.md
+  - "Full Wiki": wiki.md
+theme:
+  name: null
+  custom_dir: 'theme/'
+  highlightjs: false
+
+plugins:
+  - search
+  - macros
+  - mkdoxy:
+      projects:
+        game: &doxy-cfg
+          src-dirs: Game
+          doxy-cfg:
+            PROJECT_NAME: "RedPepper"
+            FULL_PATH_NAMES: NO
+            STRIP_FROM_PATH: "/home/runner/work/RedPepper/RedPepper/"
+            CASE_SENSE_NAMES: NO
+            JAVADOC_AUTOBRIEF: YES
+            DETAILS_AT_TOP: YES
+            EXTRACT_ALL: YES
+            EXTRACT_PRIVATE: YES
+            EXTRACT_STATIC: YES
+            EXTRACT_LOCAL_CLASSES: YES
+            HIDE_UNDOC_MEMBERS: NO
+            HIDE_UNDOC_CLASSES: NO
+            HIDE_FRIEND_COMPOUNDS: NO
+            HIDE_IN_BODY_DOCS: NO
+            INLINE_INFO: YES
+            FILE_PATTERNS: "*"
+            EXCLUDE_PATTERNS: "*.md *.gitkeep" 
+            EXCLUDE_SYMBOLS: "static_assert*"
+            RECURSIVE: True
+            REFERENCED_BY_RELATION: YES
+            REFERENCES_RELATION: YES
+            PREDEFINED: __cplusplus NN_PLATFORM_CTR NON_MATCHING DOXYGEN=1
+            CLASS_GRAPH: YES
+            COLLABORATION_GRAPH: YES
+            TEMPLATE_RELATIONS: YES
+            CALL_GRAPH: YES
+            SEARCHENGINE: YES
+        al:
+          <<: *doxy-cfg
+          src-dirs: lib/al
+          doxy-cfg:
+            PROJECT_NAME: "ActorLib"
+        sead:
+          <<: *doxy-cfg
+          src-dirs: lib/sead
+          doxy-cfg:
+            PROJECT_NAME: "SEAD Framework"
+        nw:
+          <<: *doxy-cfg
+          src-dirs: lib/NintendoWare
+          doxy-cfg:
+            PROJECT_NAME: "NintendoWare"
+        nn:
+          <<: *doxy-cfg
+          src-dirs: lib/CTRSDK
+          doxy-cfg:
+            PROJECT_NAME: "CTR SDK"
+  - redirects:
+      redirect_maps:
+        "test": "files"
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
