@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Project RedPepper: Decompilation of Super Mario 3D Land.">
     <link rel="stylesheet" href="{{ config.site_url }}assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&disp=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&disp=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
     <link rel="icon" href="{{ config.site_url }}assets/favicon.ico" type="image/x-icon">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
   </head>
@@ -17,18 +17,37 @@
         </ul>
       </nav>
 
-      <!--Upper bar-->
       <div id="bar">
 
           <a id="barTitle" href="{{ config.site_url }}"><b>{{ config.project_name }}</b></a>
-          
-          <p> </p>
-          
+ 
           {%- for item in nav %}
-            <li>
-              <button onclick="window.location.href='{{ config.site_url }}{{ item.url }}'">{{ item.title }}</button>
+            <li class="nav-item">
+              {%- if item.children %}
+                <div class="dropdown">
+                  {%- set main_child = item.children[0] %}
+                  <button class="dropdown-btn"
+                          onclick="window.location.href='{{ config.site_url }}{{ main_child.url }}'">
+                    {{ item.title }}
+                  </button>
+                  <ul class="dropdown-menu">
+                    {%- for child in item.children[1:] %} {# skip the first/main child #}
+                      <li>
+                        <button onclick="window.location.href='{{ config.site_url }}{{ child.url }}'">
+                          {{ child.title }}
+                        </button>
+                      </li>
+                    {%- endfor %}
+                  </ul>
+                </div>
+              {%- else %}
+                <button onclick="window.location.href='{{ config.site_url }}{{ item.url }}'">
+                  {{ item.title }}
+                </button>
+              {%- endif %}
             </li>
           {%- endfor %}
+
       </div>
       
       {{ page.content }}

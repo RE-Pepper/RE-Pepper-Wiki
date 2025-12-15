@@ -7,17 +7,19 @@ nav:
   - Files: files.md
   - Classes: classes.md
   - "Full Wiki": wiki.md
-  - "Versions": ver.md
-    - "Europe": ver/eu.md
-    - "Europe Demo": ver/eu_d.md
-    - "Japan": ver/jp.md
-    - "Japan Demo": ver/jp_d.md
-    - "US R0": ver/us_0.md
-    - "US R1": ver/us_1.md
-    - "US Demo": ver/us_d.md
-    - "China": ver/cn.md
-    - "Korea": ver/kr.md
-    - "Taiwan": ver/tw.md
+  - "Versions":
+      - "main": ver.md
+      - "EU": ver/eu.md
+      - "EU D": ver/eu_d.md
+      - "JP": ver/jp.md
+      - "JP D": ver/jp_d.md
+      - "US R0": ver/us_0.md
+      - "US R1": ver/us_1.md
+      - "US D": ver/us_d.md
+      - "CN": ver/cn.md
+      - "KR": ver/kr.md
+      - "TW": ver/tw.md
+
 theme:
   name: null
   custom_dir: 'theme/'
