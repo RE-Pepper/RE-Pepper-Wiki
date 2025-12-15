@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Project RedPepper: Decompilation of Super Mario 3D Land.">
-    <link rel="stylesheet" href="{{ config.siteurl }}assets/style.css">
+    <link rel="stylesheet" href="{{ config.site_url }}assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Reggae+One&disp=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&disp=swap" rel="stylesheet">
-    <link rel="icon" href="{{ config.siteurl }}assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ config.site_url }}assets/favicon.ico" type="image/x-icon">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
   </head>
   <body>
@@ -20,25 +20,13 @@
       <!--Upper bar-->
       <div id="bar">
 
-          <!--Project text / logo-->
-          <a id="barTitle" href="{{ config.siteurl }}"><b>Project Yasiki</b></a>
-          <div style="display: flex; flex-direction: column; align-items: start;">
-            
-            <!--Both progress badges-->
-            <a href="https://github.com/RedPepperDec">
-              <img style="padding-top:10px; width: 90px;" src="https://decomp.dev/Moddimation/Yasiki.svg?mode=shield&measure=code&label=Code" alt="Go to github repo">
-            </a>
-            <a href="https://decomp.dev/RedPepperDec">
-              <img style="padding-bottom:0px; width: 123px;" src="https://decomp.dev/Moddimation/Yasiki.svg?mode=shield&measure=functions&label=Progress" alt="Go to progress page">
-            </a>
-          </div>
+          <a id="barTitle" href="{{ config.site_url }}"><b>{{ config.project_name }}</b></a>
           
           <p> </p>
           
-          <!--Add each nav head here-->
           {%- for item in nav %}
             <li>
-              <button onclick="window.location.href='{{ config.siteurl }}{{ item.url }}'">{{ item.title }}</button>
+              <button onclick="window.location.href='{{ config.site_url }}{{ item.url }}'">{{ item.title }}</button>
             </li>
           {%- endfor %}
       </div>

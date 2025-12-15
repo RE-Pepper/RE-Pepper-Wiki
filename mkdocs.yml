@@ -1,13 +1,23 @@
-
-
 site_name: RedPepper Wiki
-siteurl: https://prp.moddi.dev/
-#siteurl: http://127.0.0.1:8000/
- 
+project_name: Project RedPepper
+#site_url: https://prp.moddi.dev/
+site_url: http://127.0.0.1:8000/
+
 nav:
   - Files: files.md
   - Classes: classes.md
   - "Full Wiki": wiki.md
+  - "Versions": ver.md
+    - "Europe": ver/eu.md
+    - "Europe Demo": ver/eu_d.md
+    - "Japan": ver/jp.md
+    - "Japan Demo": ver/jp_d.md
+    - "US R0": ver/us_0.md
+    - "US R1": ver/us_1.md
+    - "US Demo": ver/us_d.md
+    - "China": ver/cn.md
+    - "Korea": ver/kr.md
+    - "Taiwan": ver/tw.md
 theme:
   name: null
   custom_dir: 'theme/'
@@ -48,6 +58,7 @@ plugins:
             TEMPLATE_RELATIONS: YES
             CALL_GRAPH: YES
             SEARCHENGINE: YES
+            INPUT_ENCODING: SHIFT_JIS
         al:
           <<: *doxy-cfg
           src-dirs: lib/al
@@ -68,11 +79,4 @@ plugins:
           src-dirs: lib/CTRSDK
           doxy-cfg:
             PROJECT_NAME: "CTR SDK"
-  - redirects:
-      redirect_maps:
-        "test": "files"
 
-markdown_extensions:
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
