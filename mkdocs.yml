@@ -1,7 +1,7 @@
 site_name: RedPepper Wiki
 project_name: Project RedPepper
-#site_url: https://prp.moddi.dev/
-site_url: http://127.0.0.1:8000/
+site_url: https://prp.moddi.dev/
+#site_url: http://127.0.0.1:8000/
 
 nav:
   - Files: files.md
