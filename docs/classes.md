@@ -2,8 +2,8 @@
 
 > **Overview of C++ Classes**
 <br>
-[Game Code]({{ config.siteurl }}/game/classes)<br>  
-[SEAD Framework]({{ config.siteurl }}/sead/classes)<br>  
-[ActorLibrary]({{ config.siteurl }}/al/classes)<br>  
-[NintendoWare]({{ config.siteurl }}/nw/classes)<br>  
-[CTR SDK]({{ config.siteurl }}/nn/classes)<br>  
+[Game Code]({{ config.site_url }}/game/classes)<br>  
+[SEAD Framework]({{ config.site_url }}/sead/classes)<br>  
+[ActorLibrary]({{ config.site_url }}/al/classes)<br>  
+[NintendoWare]({{ config.site_url }}/nw/classes)<br>  
+[CTR SDK]({{ config.site_url }}/nn/classes)<br>  

@@ -7,13 +7,14 @@
 
 An in-progress decompilation of [*Super Mario 3D Land*](https://wikipedia.org/wiki/Super_Mario_3D_Land) for the [*Nintendo 3DS*](https://wikipedia.org/wiki/Nintendo_3DS).  
 The focus is currently laid on the European release, but multiversion groundwork was made for all [available versions](#versions).  
-<br />
-There are no known symbol maps for this game, however, you can use affiliated games, such as:
- - Super Mario Galaxy: The game was based on SMG2, and while we dont have its symbol map, we have that of SMG1. It was put into al::
- - Captain Toad Treasure Tracker (SW): Switch version provides symbols, while the direct 3DS version does not.
- - Super Mario 3D World (SW): It is a mix of Super Mario Odyssey and Super Mario 3D World, which came after 3DL.
- - Super Mario Odyssey: Has a full function map, including private functions.
-For SEAD you can explore debugging.games for 3DS games with sead or just use pead from libpia_pead.a
+  
+There are no known symbol maps for this game, however, you can use affiliated games, such as:  
+
+- Super Mario Galaxy: The game was based on SMG2, and while we dont have its symbol map, we have that of SMG1. It was put into al::
+- Captain Toad Treasure Tracker (SW): Switch version provides symbols, while the direct 3DS version does not.
+- Super Mario 3D World (SW): It is a mix of Super Mario Odyssey and Super Mario 3D World, which came after 3DL.
+- Super Mario Odyssey: Has a full function map, including private functions.
+- SEAD: explore [debugging.games](https://debugging.games/3DS) for 3DS games with SEAD (MK7,Nintendogs,Zelda Tri-Force at Unmatched/3DS) or just use PEAD from [libpia_pead.a](https://debugging.games/_files/Other/Nintendo%20EAD%20Standard%20Library/[3DS]%20Nintendo%20EAD%20Standard%20Library%20(P2P%20+%20Pia%20Port%20+%20Rewrite)%20(DWARF+SYMTAB)%20[2014-09-17].7z)
 
 
 Code Variants
@@ -35,9 +36,9 @@ Libraries
 ---
 - AL
 - SEAD
-  - NintendoWare
-  - MessageSystem
-  - CTR SDK
+    - NintendoWare
+    - MessageSystem
+    - CTR SDK
 
 External resources
 ---
