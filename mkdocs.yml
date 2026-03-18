@@ -1,24 +1,16 @@
 site_name: RE:Pepper Wiki
 project_name: RE:Pepper Project
+project_short: RE:Pepper
+ext_url: https://github.com/RE-Pepper
 site_url: https://rep.moddi.dev/
 #site_url: http://127.0.0.1:8000/
 
 nav:
-  - Files: files.md
-  - Classes: classes.md
-  - "Full Wiki": wiki.md
-  - "Versions":
-      - "main": ver.md
-      - "EU": ver/eu.md
-      - "EU D": ver/eu_d.md
-      - "JP": ver/jp.md
-      - "JP D": ver/jp_d.md
-      - "US R0": ver/us_0.md
-      - "US R1": ver/us_1.md
-      - "US D": ver/us_d.md
-      - "CN": ver/cn.md
-      - "KR": ver/kr.md
-      - "TW": ver/tw.md
+  - "About Project": about_me.md
+  - "About Game": about_it.md
+  - "Full Docs": wiki.md
+  - Filelist: files.md
+  - Classlist: classes.md
 
 theme:
   name: null
@@ -33,7 +25,7 @@ plugins:
         game: &doxy-cfg
           src-dirs: Game
           doxy-cfg:
-            PROJECT_NAME: "RedPepper"
+            PROJECT_NAME: "RE-Pepper"
             GENERATE_XML: YES
             FULL_PATH_NAMES: NO
             STRIP_FROM_PATH: "/home/runner/work/RE-Pepper/RE-Pepper/"
