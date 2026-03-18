@@ -1,6 +1,6 @@
-site_name: RedPepper Wiki
-project_name: Project RedPepper
-site_url: https://prp.moddi.dev/
+site_name: RE:Pepper Wiki
+project_name: RE:Pepper Project
+site_url: https://rep.moddi.dev/
 #site_url: http://127.0.0.1:8000/
 
 nav:
@@ -36,7 +36,7 @@ plugins:
             PROJECT_NAME: "RedPepper"
             GENERATE_XML: YES
             FULL_PATH_NAMES: NO
-            STRIP_FROM_PATH: "/home/runner/work/RedPepper/RedPepper/"
+            STRIP_FROM_PATH: "/home/runner/work/RE-Pepper/RE-Pepper/"
             CASE_SENSE_NAMES: NO
             JAVADOC_AUTOBRIEF: YES
             DETAILS_AT_TOP: YES
@@ -66,7 +66,7 @@ plugins:
             PROJECT_NAME: "ActorLib"
             GENERATE_XML: YES
             FULL_PATH_NAMES: NO
-            STRIP_FROM_PATH: "/home/runner/work/RedPepper/RedPepper/"
+            STRIP_FROM_PATH: "/home/runner/work/RE-Pepper/RE_Pepper/"
             CASE_SENSE_NAMES: NO
             JAVADOC_AUTOBRIEF: YES
             DETAILS_AT_TOP: YES
@@ -96,7 +96,7 @@ plugins:
             PROJECT_NAME: "SEAD Framework"
             GENERATE_XML: YES
             FULL_PATH_NAMES: NO
-            STRIP_FROM_PATH: "/home/runner/work/RedPepper/RedPepper/"
+            STRIP_FROM_PATH: "/home/runner/work/RE-Pepper/RE-Pepper/"
             CASE_SENSE_NAMES: NO
             JAVADOC_AUTOBRIEF: YES
             DETAILS_AT_TOP: YES
@@ -126,7 +126,7 @@ plugins:
             PROJECT_NAME: "NintendoWare"
             GENERATE_XML: YES
             FULL_PATH_NAMES: NO
-            STRIP_FROM_PATH: "/home/runner/work/RedPepper/RedPepper/"
+            STRIP_FROM_PATH: "/home/runner/work/RE-Pepper/RE-Pepper/"
             CASE_SENSE_NAMES: NO
             JAVADOC_AUTOBRIEF: YES
             DETAILS_AT_TOP: YES
@@ -151,12 +151,12 @@ plugins:
             CALL_GRAPH: YES
             SEARCHENGINE: YES
         nn:
-          src-dirs: lib/CTRSDK
+          src-dirs: lib/CtrSDK
           doxy-cfg:
             PROJECT_NAME: "CTR SDK"
             GENERATE_XML: YES
             FULL_PATH_NAMES: NO
-            STRIP_FROM_PATH: "/home/runner/work/RedPepper/RedPepper/"
+            STRIP_FROM_PATH: "/home/runner/work/RE-Pepper/RE-Pepper/"
             CASE_SENSE_NAMES: NO
             JAVADOC_AUTOBRIEF: YES
             DETAILS_AT_TOP: YES
