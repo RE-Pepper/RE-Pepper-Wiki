@@ -2,8 +2,8 @@ site_name: RE:Pepper Wiki
 project_name: RE:Pepper Project
 project_short: RE:Pepper
 ext_url: https://github.com/RE-Pepper
-site_url: https://rep.moddi.dev/
-#site_url: http://127.0.0.1:8000/
+#site_url: https://rep.moddi.dev/
+site_url: http://127.0.0.1:8000/
 
 nav:
   - "About Project": about_me.md
