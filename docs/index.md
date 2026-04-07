@@ -1,4 +1,4 @@
-# **{{ config.project_name }}**
+# {{ config.project_name }}
 
 ![Code](https://img.shields.io/endpoint?url=https://_github.moddi.dev/RE-Pepper/RE-Pepper/releases/download/stats-eu/Code.json&style=flat-square)
 ![OK](https://img.shields.io/endpoint?url=https://_github.moddi.dev/RE-Pepper/RE-Pepper/releases/download/stats-eu/OK.json&style=flat-square)
@@ -21,6 +21,8 @@ There are no known symbol maps for this game, however, you can use affiliated ga
   
 Note: I fixed the map for tri-force, which has sead debug. For that, msg me on discord (moddimation)  
 Note: RedPepper is the internal codename for Super Mario 3D Land.  
+
+![Progress](https://github.com/RE-Pepper/RE-Pepper/releases/download/stats-eu/Progress.png)
 
 Code Variants
 ---
