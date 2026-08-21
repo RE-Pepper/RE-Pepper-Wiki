@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File seadTaskID.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-seadtaskidh">File seadTaskID.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_979677a47ea60edf45c582211eb7937f/"><strong>framework</strong></a> <strong>&gt;</strong> <a href="../sead_task_i_d_8h/"><strong>seadTaskID.h</strong></a></p>
+<p><a href="../sead_task_i_d_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#ifndef SEAD_TASK_ID_H_
+#define SEAD_TASK_ID_H_
+
+#include &lt;basis/seadTypes.h&gt;
+
+namespace sead {
+class HeapArray;
+class TaskBase;
+class TaskMgr;
+class TaskParameter;
+
+struct TaskConstructArg {
+    TaskConstructArg() {};
+
+    HeapArray* heap_array;
+    TaskMgr* mgr;
+    TaskParameter* param;
+};
+
+template &lt;typename T&gt;
+TaskBase* TTaskFactory(const TaskConstructArg&amp;);
+
+typedef TaskBase* (*TaskFactory)(const TaskConstructArg&amp;);
+
+class TaskClassID {
+public:
+    enum Type { cInvalid = 0, cInt = 1, cFactory = 2, cString = 3 };
+
+public:
+    Type mType;
+
+    union {
+        s32 mInt;
+        TaskFactory mFactory;
+        const char* mString;
+    } mID;
+};
+
+class TaskUserID {
+public:
+    s32 mID;
+};
+
+}  // namespace sead
+
+#endif  // SEAD_TASK_ID_H_
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

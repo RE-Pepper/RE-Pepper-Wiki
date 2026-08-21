@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::UserNameCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data_1a256f0b1ec670d6d6279dc0556e524d69" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1cfg_1_1_c_t_r_1_1_user_name" kindref="compound">UserName</ref></type>
+        <definition>UserName nn::cfg::CTR::detail::UserNameCfgData::userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <qualifiedname>nn::cfg::CTR::detail::UserNameCfgData::userName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="175" column="18" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data_1a7d474d22df897b7c11f55ddf8611c60d" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::UserNameCfgData::ngWordCheckVersion</definition>
+        <argsstring></argsstring>
+        <name>ngWordCheckVersion</name>
+        <qualifiedname>nn::cfg::CTR::detail::UserNameCfgData::ngWordCheckVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="176" column="18" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::cfg::CTR::UserName</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1_user_name"/>
+      </node>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::UserNameCfgData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>userName</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="173" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="174" bodyend="177"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data_1a7d474d22df897b7c11f55ddf8611c60d" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UserNameCfgData</scope><name>ngWordCheckVersion</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data_1a256f0b1ec670d6d6279dc0556e524d69" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UserNameCfgData</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

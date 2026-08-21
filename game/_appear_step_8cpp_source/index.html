@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File AppearStep.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-appearstepcpp">File AppearStep.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_47d28cd3eb946f860e1fe0f4e720b9c2/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_d5af9f6f62d27d9e3db1b7ff0fb6c0e1/"><strong>MapObj</strong></a> <strong>&gt;</strong> <a href="../_appear_step_8cpp/"><strong>AppearStep.cpp</strong></a></p>
+<p><a href="../_appear_step_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &quot;MapObj/AppearStep.h&quot;
+
+#include &lt;Functor/alFunctorV0M.h&gt;
+#include &lt;LiveActor/alActorInitUtil.h&gt;
+#include &lt;LiveActor/alActorPoseKeeper.h&gt;
+#include &lt;LiveActor/alLiveActorFunction.h&gt;
+#include &lt;Nerve/alNerve.h&gt;
+#include &lt;Nerve/alNerveFunction.h&gt;
+#include &lt;Stage/alStageSwitchKeeper.h&gt;
+
+namespace NrvAppearStep
+{
+
+NERVE_DEF( AppearStep, Appear )
+NERVE_DEF( AppearStep, Wait )
+NERVE_DEF( AppearStep, Disappear )
+NERVE_DEF( AppearStep, End )
+
+} // namespace NrvAppearStep
+
+AppearStep::AppearStep( const sead::SafeString&amp; name ) : MapObjActor( name )
+{
+}
+
+#ifdef NON_MATCHING
+
+void AppearStep::init( const al::ActorInitInfo&amp; info )
+{
+        al::initActorPoseTQSV( this );
+        al::initMapPartsActor( this, info );
+        al::initNerve( this, &amp;NrvAppearStep::End );
+        al::initStageSwitchAppear( this, info );
+        al::listenStageSwitchOnAppear(
+                this, al::FunctorV0M&lt;AppearStep*, void ( AppearStep::* )()&gt;( this, &amp;AppearStep::startAppear ), al::FunctorV0M&lt;AppearStep*, void ( AppearStep::* )()&gt;( this, &amp;AppearStep::startDisappear ) )
+                ? makeActorDead()
+                : makeActorAppeared();
+}
+
+#endif
+
+void AppearStep::startAppear()
+{
+        if ( al::isNerve( this, &amp;NrvAppearStep::Disappear ) || al::isNerve( this, &amp;NrvAppearStep::End ) )
+        {
+                al::invalidateClipping( this );
+                al::setNerve( this, &amp;NrvAppearStep::Appear );
+                makeActorAppeared();
+        }
+}
+
+void AppearStep::startDisappear()
+{
+        if ( al::isNerve( this, &amp;NrvAppearStep::Appear ) || al::isNerve( this, &amp;NrvAppearStep::Wait ) )
+        {
+                al::invalidateClipping( this );
+                al::setNerve( this, &amp;NrvAppearStep::Disappear );
+        }
+}
+
+void AppearStep::exeAppear()
+{
+        if ( al::isFirstStep( this ) )
+                al::tryStartAction( this, &quot;Appear&quot; );
+
+        if ( al::isActionEnd( this ) )
+                al::setNerve( this, &amp;NrvAppearStep::Wait );
+}
+
+void AppearStep::exeWait()
+{
+        if ( al::isFirstStep( this ) )
+                al::validateClipping( this );
+}
+
+void AppearStep::exeDisappear()
+{
+        if ( al::isFirstStep( this ) )
+                al::tryStartAction( this, &quot;Disappear&quot; );
+
+        if ( al::isActionEnd( this ) )
+                al::setNerve( this, &amp;NrvAppearStep::End );
+}
+
+void AppearStep::exeEnd()
+{
+        if ( al::isFirstStep( this ) )
+        {
+                al::validateClipping( this );
+                kill();
+        }
+}
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

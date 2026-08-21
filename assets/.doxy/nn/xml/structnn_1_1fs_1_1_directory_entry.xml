@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_directory_entry" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::DirectoryEntry</compoundname>
+    <includes refid="fs___parameters_8h" local="no">fs_Parameters.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_directory_entry_1a617cded43c2553814f39107f05fa0408" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short nn::fs::DirectoryEntry::entryName[262]</definition>
+        <argsstring>[262]</argsstring>
+        <name>entryName</name>
+        <qualifiedname>nn::fs::DirectoryEntry::entryName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="29" column="24" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_directory_entry_1a072567f91a1991ce1badf9ba506642f1" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fs_1_1_short_name" kindref="compound">ShortName</ref></type>
+        <definition>ShortName nn::fs::DirectoryEntry::shortName</definition>
+        <argsstring></argsstring>
+        <name>shortName</name>
+        <qualifiedname>nn::fs::DirectoryEntry::shortName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="30" column="24" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_directory_entry_1a4819fcf5daec7ca0b127ff7dd63a3ab8" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fs_1_1_attributes" kindref="compound">Attributes</ref></type>
+        <definition>Attributes nn::fs::DirectoryEntry::attributes</definition>
+        <argsstring></argsstring>
+        <name>attributes</name>
+        <qualifiedname>nn::fs::DirectoryEntry::attributes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="31" column="24" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_directory_entry_1a380e10f7841d865cbf3843511eac2ceb" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fs::DirectoryEntry::entrySize</definition>
+        <argsstring></argsstring>
+        <name>entrySize</name>
+        <qualifiedname>nn::fs::DirectoryEntry::entrySize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="32" column="24" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>nn::fs::Attributes</label>
+        <link refid="structnn_1_1fs_1_1_attributes"/>
+      </node>
+      <node id="1">
+        <label>nn::fs::DirectoryEntry</label>
+        <link refid="structnn_1_1fs_1_1_directory_entry"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>shortName</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>attributes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fs::ShortName</label>
+        <link refid="structnn_1_1fs_1_1_short_name"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="27" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="28" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_directory_entry_1a4819fcf5daec7ca0b127ff7dd63a3ab8" prot="public" virt="non-virtual"><scope>nn::fs::DirectoryEntry</scope><name>attributes</name></member>
+      <member refid="structnn_1_1fs_1_1_directory_entry_1a617cded43c2553814f39107f05fa0408" prot="public" virt="non-virtual"><scope>nn::fs::DirectoryEntry</scope><name>entryName</name></member>
+      <member refid="structnn_1_1fs_1_1_directory_entry_1a380e10f7841d865cbf3843511eac2ceb" prot="public" virt="non-virtual"><scope>nn::fs::DirectoryEntry</scope><name>entrySize</name></member>
+      <member refid="structnn_1_1fs_1_1_directory_entry_1a072567f91a1991ce1badf9ba506642f1" prot="public" virt="non-virtual"><scope>nn::fs::DirectoryEntry</scope><name>shortName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

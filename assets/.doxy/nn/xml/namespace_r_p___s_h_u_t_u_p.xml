@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_r_p___s_h_u_t_u_p" kind="namespace" language="C++">
+    <compoundname>RP_SHUTUP</compoundname>
+    <innerclass refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" prot="public">RP_SHUTUP::TVSNPrintfImpl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="5" column="1"/>
+  </compounddef>
+</doxygen>

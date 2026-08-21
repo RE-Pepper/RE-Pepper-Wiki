@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cfg___sound_8h" kind="file" language="C++">
+    <compoundname>cfg_Sound.h</compoundname>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg">nn::cfg</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg_1_1_c_t_r">nn::cfg::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">cfg<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7" kindref="member">CfgSoundOutputMode</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7ad9405edec328ff7cc7f30e837224d982" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7ad9405edec328ff7cc7f30e837224d982" kindref="member">CFG_SOUND_OUTPUT_MODE_MONO</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7ab2b6996c27f1f3bc40f6f0d16ee46de0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7ab2b6996c27f1f3bc40f6f0d16ee46de0" kindref="member">CFG_SOUND_OUTPUT_MODE_STEREO</ref><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7a0c5740cab8cad6c62f8e725d729d0e8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7a0c5740cab8cad6c62f8e725d729d0e8e" kindref="member">CFG_SOUND_OUTPUT_MODE_SURROUND</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>cfg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_Sound.h"/>
+  </compounddef>
+</doxygen>

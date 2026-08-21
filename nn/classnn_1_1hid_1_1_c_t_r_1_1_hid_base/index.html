@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::hid::CTR::HidBase - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnhidctrhidbase">Class nn::hid::CTR::HidBase</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1hid/"><strong>hid</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1hid_1_1_c_t_r/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="./"><strong>HidBase</strong></a></p>
+<ul>
+<li><code>#include &lt;hid_HidBase.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../classnn_1_1os_1_1_event_base/">nn::os::EventBase</a></p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-uptr"><strong>uptr</strong></a></td>
+<td style="text-align: left;"><a href="#function-getresource"><strong>GetResource</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-hidbase"><strong>HidBase</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-setresource"><strong>SetResource</strong></a> (<a href="../types_8h/#typedef-uptr"><strong>uptr</strong></a> resource) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-hidbase"><strong>~HidBase</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-inherited-from-nnoseventbase">Public Functions inherited from nn::os::EventBase</h2>
+<p>See <a href="../classnn_1_1os_1_1_event_base/">nn::os::EventBase</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-clearsignal"><strong>ClearSignal</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-eventbase-12"><strong>EventBase</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-eventbase-22"><strong>EventBase</strong></a> (<a href="../namespacenn_1_1os/#enum-resettype"><strong>ResetType</strong></a> resetType) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-initialize"><strong>Initialize</strong></a> (<a href="../namespacenn_1_1os/#enum-resettype"><strong>ResetType</strong></a> resetType) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-signal"><strong>Signal</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-tryinitialize"><strong>TryInitialize</strong></a> (<a href="../namespacenn_1_1os/#enum-resettype"><strong>ResetType</strong></a> resetType) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-tryinitializeimpl"><strong>TryInitializeImpl</strong></a> (<a href="../namespacenn_1_1os/#enum-resettype"><strong>ResetType</strong></a> resetType) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_event_base/#function-eventbase"><strong>~EventBase</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-inherited-from-nnosinterruptevent">Public Functions inherited from nn::os::InterruptEvent</h2>
+<p>See <a href="../classnn_1_1os_1_1_interrupt_event/">nn::os::InterruptEvent</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_interrupt_event/#function-interruptevent"><strong>InterruptEvent</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_interrupt_event/#function-interruptevent"><strong>~InterruptEvent</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-inherited-from-nnoswaitobject">Public Functions inherited from nn::os::WaitObject</h2>
+<p>See <a href="../classnn_1_1os_1_1_wait_object/">nn::os::WaitObject</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_wait_object/#function-waitobject"><strong>WaitObject</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_wait_object/#function-waitone-12"><strong>WaitOne</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_wait_object/#function-waitone-22"><strong>WaitOne</strong></a> (<a href="../classnn_1_1fnd_1_1_time_span/"><strong>fnd::TimeSpan</strong></a> timeout) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_wait_object/#function-waitoneimpl"><strong>WaitOneImpl</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> nanoSecondsTimeout) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_wait_object/#function-waitobject"><strong>~WaitObject</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-inherited-from-nnoshandleobject">Public Functions inherited from nn::os::HandleObject</h2>
+<p>See <a href="../classnn_1_1os_1_1_handle_object/">nn::os::HandleObject</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-clearhandle"><strong>ClearHandle</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-close"><strong>Close</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-finalize"><strong>Finalize</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-handleobject"><strong>HandleObject</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-sethandle"><strong>SetHandle</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> handle) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-handleobject"><strong>~HandleObject</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions-inherited-from-nnoswaitobject">Public Static Functions inherited from nn::os::WaitObject</h2>
+<p>See <a href="../classnn_1_1os_1_1_wait_object/">nn::os::WaitObject</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_wait_object/#function-waitany"><strong>WaitAny</strong></a> (<a href="../classnn_1_1os_1_1_wait_object/"><strong>WaitObject</strong></a> ** objs, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a> numObjects) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-functions-inherited-from-nnoshandleobject">Protected Functions inherited from nn::os::HandleObject</h2>
+<p>See <a href="../classnn_1_1os_1_1_handle_object/">nn::os::HandleObject</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_handle/"><strong>Handle</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-gethandle"><strong>GetHandle</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-isvalid"><strong>IsValid</strong></a> () const<br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-functions-inherited-from-nnutiladlfirewallnoncopyable">Protected Functions inherited from nn::util::ADLFireWall::NonCopyable</h2>
+<p>See <a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/">nn::util::ADLFireWall::NonCopyable</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable-12"><strong>NonCopyable</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable"><strong>~NonCopyable</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-getresource">function GetResource</h3>
+<pre><code class="language-C++">inline uptr nn::hid::CTR::HidBase::GetResource () const
+</code></pre>
+<hr>
+
+<h3 id="function-hidbase">function HidBase</h3>
+<pre><code class="language-C++">inline nn::hid::CTR::HidBase::HidBase () 
+</code></pre>
+<hr>
+
+<h3 id="function-setresource">function SetResource</h3>
+<pre><code class="language-C++">inline void nn::hid::CTR::HidBase::SetResource (
+    uptr resource
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-hidbase_1">function ~HidBase</h3>
+<pre><code class="language-C++">inline nn::hid::CTR::HidBase::~HidBase () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

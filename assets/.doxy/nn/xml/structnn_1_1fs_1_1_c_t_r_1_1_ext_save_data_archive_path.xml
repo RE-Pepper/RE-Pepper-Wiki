@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::CTR::ExtSaveDataArchivePath</compoundname>
+    <includes refid="fs___archive_types_8h" local="no">fs_ArchiveTypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4</ref>&lt; <ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref> &gt;</type>
+        <definition>util::SizedEnum4&lt;MediaType&gt; nn::fs::CTR::ExtSaveDataArchivePath::mediaType</definition>
+        <argsstring></argsstring>
+        <name>mediaType</name>
+        <qualifiedname>nn::fs::CTR::ExtSaveDataArchivePath::mediaType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="36" column="26" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1aae3b9e6c450843368b9ade6443e6121e" compoundref="fs___archive_types_8h" startline="39" endline="45">Make</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">util::Int64</ref>&lt; <ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref> &gt;</type>
+        <definition>util::Int64&lt;bit64&gt; nn::fs::CTR::ExtSaveDataArchivePath::extSaveDataId</definition>
+        <argsstring></argsstring>
+        <name>extSaveDataId</name>
+        <qualifiedname>nn::fs::CTR::ExtSaveDataArchivePath::extSaveDataId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="37" column="30" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1aae3b9e6c450843368b9ade6443e6121e" compoundref="fs___archive_types_8h" startline="39" endline="45">Make</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1aae3b9e6c450843368b9ade6443e6121e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" kindref="compound">ExtSaveDataArchivePath</ref></type>
+        <definition>static ExtSaveDataArchivePath nn::fs::CTR::ExtSaveDataArchivePath::Make</definition>
+        <argsstring>(MediaType mediaType, ExtSaveDataId extSaveDataId)</argsstring>
+        <name>Make</name>
+        <qualifiedname>nn::fs::CTR::ExtSaveDataArchivePath::Make</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref></type>
+          <declname>mediaType</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a62973311b2c3ccdf9acdc77b7aba2049" kindref="member">ExtSaveDataId</ref></type>
+          <declname>extSaveDataId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="39" column="39" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="39" bodyend="45"/>
+        <references refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" compoundref="fs___archive_types_8h" startline="37">extSaveDataId</references>
+        <references refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" compoundref="fs___archive_types_8h" startline="36">mediaType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>nn::util::Int64&lt; bit64 &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; bit64 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::util::SizedEnum4&lt; MediaType &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::ExtSaveDataArchivePath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mediaType</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>extSaveDataId</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::util::Int64&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+      <node id="4">
+        <label>nn::util::SizedEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="34" column="1" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="35" bodyend="46"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ExtSaveDataArchivePath</scope><name>extSaveDataId</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1aae3b9e6c450843368b9ade6443e6121e" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ExtSaveDataArchivePath</scope><name>Make</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ExtSaveDataArchivePath</scope><name>mediaType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

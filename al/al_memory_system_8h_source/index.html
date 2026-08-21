@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alMemorySystem.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-almemorysystemh">File alMemorySystem.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_f7e8efec570a34efc8a6993e55383954/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_dd069ce51d170189eb34db5caaceae51/"><strong>Memory</strong></a> <strong>&gt;</strong> <a href="../al_memory_system_8h/"><strong>alMemorySystem.h</strong></a></p>
+<p><a href="../al_memory_system_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;heap/seadExpHeap.h&gt;
+#include &lt;heap/seadFrameHeap.h&gt;
+#include &lt;heap/seadHeap.h&gt;
+#include &lt;heap/seadHeapMgr.h&gt;
+
+namespace al
+{
+
+class MemorySystem
+{
+private:
+        sead::ExpHeap*   mStationedHeap;
+        sead::Heap*      _4;
+        sead::ExpHeap*   mSequenceHeap;
+        sead::FrameHeap* mSceneResourceHeap;
+        sead::FrameHeap* mSceneHeap;
+        sead::Heap*      _14;
+        sead::FrameHeap* mCourseSelectResourceHeap;
+        sead::FrameHeap* mCourseSelectHeap;
+        u8               unk1[ 0x20 ];
+
+public:
+        sead::ExpHeap* getStationedHeap() const
+        {
+                return mStationedHeap;
+        }
+
+        sead::ExpHeap* getSequenceHeap() const
+        {
+                return mSequenceHeap;
+        }
+
+        sead::FrameHeap* getSceneResourceHeap() const
+        {
+                return mSceneResourceHeap;
+        }
+
+        sead::FrameHeap* getSceneHeap() const
+        {
+                return mSceneHeap;
+        }
+
+        sead::FrameHeap* getCourseSelectHeap() const
+        {
+                return mCourseSelectHeap;
+        }
+
+        void createSequenceHeap();
+        void createSceneHeap( const char* stageName );
+        void createSceneResourceHeap( const char* stageName );
+
+        void destroySceneHeap( bool destroyResource );
+        void destroyCourseSelect();
+
+        void freeAllSequenceHeap();
+};
+
+void createSequenceHeap();
+void createSceneResourceHeap( const char* stageName );
+void createSceneHeap( const char* stageName );
+void createCourseSelectHeap();
+
+sead::ExpHeap*   getStationedHeap();
+sead::ExpHeap*   getSequenceHeap();
+sead::FrameHeap* getSceneResourceHeap();
+sead::FrameHeap* getSceneHeap();
+sead::FrameHeap* getCourseSelectHeap();
+sead::FrameHeap* getCourseSelectResourceHeap();
+
+void destroySceneHeap();
+
+bool isCreatedSceneResourceHeap();
+
+class SceneHeapSetter : public sead::ScopedCurrentHeapSetter
+{
+private:
+        sead::Heap* _8;
+
+public:
+        SceneHeapSetter();
+};
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

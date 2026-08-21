@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File nstd_Printf.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-nstd_printfcpp">File nstd_Printf.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_6ad72fc0abbc32b2f59992fddd21f3c1/"><strong>sources</strong></a> <strong>&gt;</strong> <a href="../dir_80d58af41f6b82f04b97d791f7cfcb5d/"><strong>libraries</strong></a> <strong>&gt;</strong> <a href="../dir_9715559b47b1245820ffeea5f32f66cc/"><strong>nstd</strong></a> <strong>&gt;</strong> <a href="../nstd___printf_8cpp/"><strong>nstd_Printf.cpp</strong></a></p>
+<p><a href="../nstd___printf_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;string&gt;
+
+RP_SHUTUP
+
+namespace {
+template &lt;typename Type&gt;
+struct TVSNPrintfImpl
+{
+        typedef typename Type::char_type CharT;
+
+        struct dst_string
+        {
+                size_t len;  // remaining capacity
+                CharT* cur;  // current write cursor
+                CharT* base; // start of destination
+        };
+
+        static void string_put_char (dst_string* p, CharT c)
+        {
+                if (p-&gt;len) {
+                        *p-&gt;cur = c;
+                        --p-&gt;len;
+                }
+                ++p-&gt;cur;
+        }
+        static void string_fill_char (dst_string* p, CharT c, int n)
+        {
+                if (n &gt; 0) {
+                        size_t len;
+                        size_t i;
+
+                        len = p-&gt;len;
+                        if (p-&gt;len &gt; n) {
+                                len = n;
+                        }
+                        for (i = 0; i &lt; len; ++i) {
+                                p-&gt;cur[i] = c;
+                        }
+                        p-&gt;len -= len;
+                        p-&gt;cur += n;
+                }
+        }
+        static void string_put_string (dst_string* p, const CharT* s, int n)
+        {
+                if (n &gt; 0) {
+                        size_t len;
+                        size_t i;
+
+                        len = p-&gt;len;
+                        if (p-&gt;len &gt; n) {
+                                len = n;
+                        }
+                        for (i = 0; i &lt; len; ++i) {
+                                p-&gt;cur[i] = s[i];
+                        }
+                        p-&gt;len -= len;
+                        p-&gt;cur += n;
+                }
+        }
+
+        // Observed function with locals:
+        //   buf[24], n_buf, prefix[2], s, str,
+        //   flag, width, precision, radix, hex_char, p_start,
+        //   c, pad, n_buf2, p_buf, n_pad,
+        //   plus nested integer temporaries: val (u64), d (int), v (u32), r (u64)
+        static s32 TVSNPrintf (char* dst, size_t len, const CharT* fmt, va_list vlist)
+        {
+                // This is the main formatter body inferred from the debug info.
+                // The DWARF shows a classic printf-style formatter:
+                //   - parses flags / width / precision / radix
+                //   - uses a small local conversion buffer buf[24]
+                //   - formats signed/unsigned values via u32/u64 temporaries
+                //   - handles padding via pad / n_pad
+                //   - consumes strings through p_buf / s
+                //   - writes into dst_string str
+
+                dst_string str NN_UNUSED;
+                str.len  = len;
+                str.cur  = dst;
+                str.base = dst;
+
+                // Body not fully recoverable from the DWARF dump alone.
+                // The locals strongly indicate standard printf semantics:
+                //   %d/%i, %u, %x/%X, %o, %s, %c, width, precision, zero/space padding,
+                //   sign handling, and alternate-prefix handling.
+                //
+                // The function returns the number of characters written, or similar s32.
+                //
+                // At the end, the destination is NUL-terminated if space remains.
+
+                return 0;
+        }
+};
+} // namespace
+
+namespace nn {
+namespace nstd {
+
+s32 TVSNPrintf (char* dst, size_t len, const char* fmt, va_list vlist)
+{
+        return TVSNPrintfImpl&lt;std::char_traits&lt;char&gt; &gt;::TVSNPrintf (dst, len, fmt, vlist);
+}
+
+s32 TSNPrintf (char* dst, size_t len, const char* fmt, ...)
+{
+        va_list vlist;
+        s32     ret;
+
+        va_start (vlist, fmt);
+        ret = TVSNPrintf (dst, len, fmt, vlist);
+        va_end (vlist);
+
+        return ret;
+}
+
+s32 TSPrintf (char* dst, const char* fmt, ...)
+{
+        va_list vlist;
+        s32     ret;
+
+        va_start (vlist, fmt);
+        ret = TVSNPrintf (dst, 0x7FFFFFFF, fmt, vlist);
+        va_end (vlist);
+
+        return ret;
+}
+
+} // namespace nstd
+} // namespace nn
+
+extern &quot;C&quot; {
+
+s32 nnnstdTVSNPrintf (char* dst, size_t len, const char* fmt, va_list vlist)
+{
+        return nn::nstd::TVSNPrintf (dst, len, fmt, vlist);
+}
+
+s32 nnnstdTSNPrintf (char* dst, size_t len, const char* fmt, ...)
+{
+        va_list vlist;
+        s32     ret;
+
+        va_start (vlist, fmt);
+        ret = nn::nstd::TSNPrintf (dst, len, fmt, vlist);
+        va_end (vlist);
+
+        return ret;
+}
+
+s32 nnnstdTSPrintf (char* dst, const char* fmt, ...)
+{
+        va_list vlist;
+        s32     ret;
+
+        va_start (vlist, fmt);
+        ret = nn::nstd::TSPrintf (dst, fmt, vlist);
+        va_end (vlist);
+
+        return ret;
+}
+}
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

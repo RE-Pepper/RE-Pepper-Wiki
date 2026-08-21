@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_scene_obj_factory" kind="class" language="C++" prot="public">
+    <compoundname>SceneObjFactory</compoundname>
+    <includes refid="_scene_obj_factory_8h" local="no">SceneObjFactory.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_scene_obj_factory_1a1ad46e6cd13da287d7be4d7aadcf30c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>al::SceneObjHolder *</type>
+        <definition>al::SceneObjHolder * SceneObjFactory::createSceneObjHolder</definition>
+        <argsstring>()</argsstring>
+        <name>createSceneObjHolder</name>
+        <qualifiedname>SceneObjFactory::createSceneObjHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="31" column="29" bodyfile="Game/backup/src/Scene/SceneObjFactory.cpp" bodystart="11" bodyend="13"/>
+        <references refid="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220af1d12b465b7357ec3331880923d31652" compoundref="_scene_obj_factory_8h" startline="40">SceneObj_Max</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Game/backup/include/Scene/SceneObjFactory.h" line="29" column="1" bodyfile="Game/backup/include/Scene/SceneObjFactory.h" bodystart="29" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_scene_obj_factory_1a1ad46e6cd13da287d7be4d7aadcf30c3" prot="public" virt="non-virtual"><scope>SceneObjFactory</scope><name>createSceneObjHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

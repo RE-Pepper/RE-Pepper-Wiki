@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1os_1_1_stack_buffer" kind="class" language="C++" prot="public">
+    <compoundname>nn::os::StackBuffer</compoundname>
+    <includes refid="os___thread_8h" local="no">os_Thread.h</includes>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>Size</declname>
+        <defname>Size</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_stack_buffer_1a8db24571c6a7f8df5b0df7ebfb1f82c0" prot="private" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1aligned__storage" kindref="compound">util::aligned_storage</ref>&lt; Size, 8 &gt;</type>
+        <definition>util::aligned_storage&lt;Size, 8&gt; nn::os::StackBuffer&lt; Size &gt;::m_Buffer</definition>
+        <argsstring></argsstring>
+        <name>m_Buffer</name>
+        <qualifiedname>nn::os::StackBuffer::m_Buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="27" column="31" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_stack_buffer_1ab569bc7c957eefe401b8d526d5f284e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::StackBuffer&lt; Size &gt;::GetStackBottom</definition>
+        <argsstring>()</argsstring>
+        <name>GetStackBottom</name>
+        <qualifiedname>nn::os::StackBuffer::GetStackBottom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="30" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_stack_buffer_1a0dcd910555f7e024fb416dc535408d8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::StackBuffer&lt; Size &gt;::StackBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>StackBuffer</name>
+        <qualifiedname>nn::os::StackBuffer::StackBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="32" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::os::StackBuffer&lt; 1 &gt;</label>
+        <link refid="classnn_1_1os_1_1_stack_buffer"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; 1 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::StackBuffer&lt; Size &gt;</label>
+        <link refid="classnn_1_1os_1_1_stack_buffer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::aligned_storage&lt; Size, 8 &gt;</label>
+        <link refid="structnn_1_1util_1_1aligned__storage"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; Size, 8 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::StackBuffer&lt; Size &gt;</label>
+        <link refid="classnn_1_1os_1_1_stack_buffer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_Buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::aligned_storage&lt; Size, Alignment &gt;</label>
+        <link refid="structnn_1_1util_1_1aligned__storage"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="24" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="25" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_stack_buffer_1ab569bc7c957eefe401b8d526d5f284e7" prot="public" virt="non-virtual"><scope>nn::os::StackBuffer</scope><name>GetStackBottom</name></member>
+      <member refid="classnn_1_1os_1_1_stack_buffer_1a8db24571c6a7f8df5b0df7ebfb1f82c0" prot="private" virt="non-virtual"><scope>nn::os::StackBuffer</scope><name>m_Buffer</name></member>
+      <member refid="classnn_1_1os_1_1_stack_buffer_1a0dcd910555f7e024fb416dc535408d8e" prot="public" virt="non-virtual"><scope>nn::os::StackBuffer</scope><name>StackBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

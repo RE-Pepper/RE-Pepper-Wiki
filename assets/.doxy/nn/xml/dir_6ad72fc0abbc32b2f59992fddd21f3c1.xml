@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_6ad72fc0abbc32b2f59992fddd21f3c1" kind="dir">
+    <compoundname>sources</compoundname>
+    <innerdir refid="dir_80d58af41f6b82f04b97d791f7cfcb5d">libraries</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/"/>
+  </compounddef>
+</doxygen>

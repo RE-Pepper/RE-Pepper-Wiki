@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kind="class" language="C++" prot="public">
+    <compoundname>nn::fnd::IntrusiveLinkedList::Item</compoundname>
+    <basecompoundref refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" prot="private" virt="non-virtual">nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</basecompoundref>
+    <derivedcompoundref refid="classnn_1_1fnd_1_1_heap_base" prot="private" virt="non-virtual">nn::fnd::HeapBase</derivedcompoundref>
+    <derivedcompoundref refid="classnn_1_1srv_1_1_notification_handler" prot="public" virt="non-virtual">nn::srv::NotificationHandler</derivedcompoundref>
+    <includes refid="fnd___linked_list_8h" local="no">fnd_LinkedList.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref> *</type>
+        <definition>Item* nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::m_PreviousLink</definition>
+        <argsstring></argsstring>
+        <name>m_PreviousLink</name>
+        <qualifiedname>nn::fnd::IntrusiveLinkedList::Item::m_PreviousLink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" line="41" column="22" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a895fa2b9ad736ddacb8f718c9799fd00" compoundref="fnd___linked_list_8h" startline="24" endline="28">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::ClearLinks</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a583c147fe90d50beabdb946cc53963ff" compoundref="fnd___linked_list_8h" startline="150" endline="169">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Erase</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1aa1c218722f32330016a60fbf0125dab1" compoundref="fnd___linked_list_8h" startline="110" endline="124">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::GetNext</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae45ab8a1f6c39e9a3b0d5f88654ccf1c" compoundref="fnd___linked_list_8h" startline="126" endline="140">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::GetPrevious</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae71345b904f56561738af6a823d511e6" compoundref="fnd___linked_list_8h" startline="29" endline="35">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::InsertBefore</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a6ab907398349af8dc7a26792a9f27ea1" compoundref="fnd___linked_list_8h" startline="55" endline="71">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::PushBack</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae371514f22970702e623c7f42348d5c1" compoundref="fnd___linked_list_8h" startline="73" endline="89">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::PushFront</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" compoundref="fnd___linked_list_8h" startline="49" endline="52">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::~Item</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref> *</type>
+        <definition>Item* nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::m_NextLink</definition>
+        <argsstring></argsstring>
+        <name>m_NextLink</name>
+        <qualifiedname>nn::fnd::IntrusiveLinkedList::Item::m_NextLink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" line="42" column="22" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a381b5815351f1b259ba4dde82a7bdfe3" compoundref="fnd___linked_list_8h" startline="171" endline="182">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Clear</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a895fa2b9ad736ddacb8f718c9799fd00" compoundref="fnd___linked_list_8h" startline="24" endline="28">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::ClearLinks</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a583c147fe90d50beabdb946cc53963ff" compoundref="fnd___linked_list_8h" startline="150" endline="169">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Erase</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1af8ff7f7cdbdbfe1e76207125c7557d4a" compoundref="fnd___linked_list_8h" startline="91" endline="99">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::GetFront</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1aa1c218722f32330016a60fbf0125dab1" compoundref="fnd___linked_list_8h" startline="110" endline="124">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::GetNext</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae45ab8a1f6c39e9a3b0d5f88654ccf1c" compoundref="fnd___linked_list_8h" startline="126" endline="140">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::GetPrevious</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae71345b904f56561738af6a823d511e6" compoundref="fnd___linked_list_8h" startline="29" endline="35">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::InsertBefore</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a6ab907398349af8dc7a26792a9f27ea1" compoundref="fnd___linked_list_8h" startline="55" endline="71">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::PushBack</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae371514f22970702e623c7f42348d5c1" compoundref="fnd___linked_list_8h" startline="73" endline="89">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::PushFront</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" compoundref="fnd___linked_list_8h" startline="49" endline="52">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::~Item</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a1c96ba27bb76986d9b501d89557fd7cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::Item</definition>
+        <argsstring>()</argsstring>
+        <name>Item</name>
+        <qualifiedname>nn::fnd::IntrusiveLinkedList::Item::Item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" line="45" column="17" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::~Item</definition>
+        <argsstring>()</argsstring>
+        <name>~Item</name>
+        <qualifiedname>nn::fnd::IntrusiveLinkedList::Item::~Item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" line="49" column="17" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" bodystart="49" bodyend="52"/>
+        <references refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" compoundref="fnd___linked_list_8h" startline="42">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::m_NextLink</references>
+        <references refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" compoundref="fnd___linked_list_8h" startline="41">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item::m_PreviousLink</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; Item &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::fnd::HeapBase</label>
+        <link refid="classnn_1_1fnd_1_1_heap_base"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::srv::NotificationHandler</label>
+        <link refid="classnn_1_1srv_1_1_notification_handler"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; Item &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_NextLink</edgelabel>
+          <edgelabel>m_PreviousLink</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_NextLink</edgelabel>
+          <edgelabel>m_PreviousLink</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" line="38" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h" bodystart="39" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a1c96ba27bb76986d9b501d89557fd7cd" prot="public" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>Item</name></member>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" prot="private" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>m_NextLink</name></member>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" prot="private" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>m_PreviousLink</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="private" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>NonCopyable</name></member>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" prot="public" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>~Item</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="private" virt="non-virtual"><scope>nn::fnd::IntrusiveLinkedList::Item</scope><name>~NonCopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

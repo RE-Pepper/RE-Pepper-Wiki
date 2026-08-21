@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dbg___debug_string_8cpp" kind="file" language="C++">
+    <compoundname>dbg_DebugString.cpp</compoundname>
+    <includes local="no">cstdio</includes>
+    <includes refid="module_8h" local="no">nn/module.h</includes>
+    <includes refid="nstd___printf_8h" local="no">nn/nstd/nstd_Printf.h</includes>
+    <includes refid="svc___stub_dbg_8h" local="no">nn/svc/svc_StubDbg.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="8">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/module.h</label>
+        <link refid="module_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/nstd/nstd_Printf.h</label>
+        <link refid="nstd___printf_8h"/>
+      </node>
+      <node id="6">
+        <label>nn/svc/svc_StubDbg.h</label>
+        <link refid="svc___stub_dbg_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn/util/detail/util_Symbol.h</label>
+        <link refid="util___symbol_8h"/>
+      </node>
+      <node id="1">
+        <label>dbg_DebugString.cpp</label>
+        <link refid="dbg___debug_string_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdio</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1dbg">nn::dbg</innernamespace>
+    <innernamespace refid="namespacenn_1_1dbg_1_1detail">nn::dbg::detail</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1a2d30988abd444aa45f1eefa7c3178e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgPrintWarning_</definition>
+        <argsstring>(const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nndbgPrintWarning_</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="69" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="69" bodyend="77"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" compoundref="dbg___debug_string_8cpp" startline="25" endline="34">nn::dbg::detail::VPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1a2593bde0817153806f991730394a870d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgTPrintWarning_</definition>
+        <argsstring>(const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nndbgTPrintWarning_</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="79" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="79" bodyend="87"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" compoundref="dbg___debug_string_8cpp" startline="36" endline="45">nn::dbg::detail::TVPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1a2f6ca64637106878e4de682162f9578f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgDetailPutString</definition>
+        <argsstring>(const char *text, int length)</argsstring>
+        <name>nndbgDetailPutString</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="89" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="89" bodyend="92"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" compoundref="dbg___debug_string_8cpp" startline="14" endline="18">nn::dbg::detail::PutString</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1a261807fb80b2d7d8139368faf92ca9a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgDetailVPrintf</definition>
+        <argsstring>(const char *fmt, va_list arg)</argsstring>
+        <name>nndbgDetailVPrintf</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="94" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="94" bodyend="97"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" compoundref="dbg___debug_string_8cpp" startline="25" endline="34">nn::dbg::detail::VPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1a9d5c67eb6c6a479af17f2b611c365657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgDetailTVPrintf</definition>
+        <argsstring>(const char *fmt, va_list arg)</argsstring>
+        <name>nndbgDetailTVPrintf</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="99" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="99" bodyend="102"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" compoundref="dbg___debug_string_8cpp" startline="36" endline="45">nn::dbg::detail::TVPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1afc895b764a8a3b93f87fec865fafe5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgDetailPrintf</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>nndbgDetailPrintf</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="104" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="104" bodyend="110"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" compoundref="dbg___debug_string_8cpp" startline="47" endline="53">nn::dbg::detail::Printf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___debug_string_8cpp_1a2f5faddd419ceca7df66b8ab4ad44070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgDetailTPrintf</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>nndbgDetailTPrintf</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="112" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="112" bodyend="118"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;cstdio&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="module_8h" kindref="compound">nn/module.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="nstd___printf_8h" kindref="compound">nn/nstd/nstd_Printf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="svc___stub_dbg_8h" kindref="compound">nn/svc/svc_StubDbg.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">dbg<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="module_8h_1a7c958140f3df1350635cd9accd90bad9" kindref="member">NN_MAKE_MODULE_SDK</ref><sp/>(s_UsePutString,<sp/></highlight><highlight class="stringliteral">&quot;DebugPrint&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" kindref="member">PutString</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>text,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length)<sp/></highlight><highlight class="comment">//<sp/>36</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="module_8h_1ae7b82ff3026fe627ba0ca8ef9bbf7038" kindref="member">NN_REFER_MODULE</ref><sp/>(s_UsePutString);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d" kindref="member">nn::svc::OutputDebugString</ref><sp/>(text,<sp/>length);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespacenn_1_1dbg_1_1detail_1a9a6f73d868a5794a79de858cbc5c6ba3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" kindref="member">PutString</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>text)<sp/></highlight><highlight class="comment">//<sp/>36</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" kindref="member">PutString</ref><sp/>(text,<sp/>0);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" kindref="member">VPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>arg)<sp/></highlight><highlight class="comment">//<sp/>47</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[256];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>length<sp/>=<sp/>vsnprintf<sp/>(buf,<sp/>256,<sp/>fmt,<sp/>arg);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(length<sp/>&gt;=<sp/>256)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>length<sp/>=<sp/>255;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" kindref="member">PutString</ref><sp/>(buf,<sp/>length);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" kindref="member">TVPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>arg)<sp/></highlight><highlight class="comment">//<sp/>58</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[128];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>length<sp/>=<sp/><ref refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" kindref="member">nn::nstd::TVSNPrintf</ref><sp/>(buf,<sp/>0x80,<sp/>fmt,<sp/>arg);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(length<sp/>&gt;=<sp/>128)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>length<sp/>=<sp/>127;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" kindref="member">PutString</ref><sp/>(buf,<sp/>length);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" kindref="member">Printf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)<sp/></highlight><highlight class="comment">//<sp/>69</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" kindref="member">VPrintf</ref><sp/>(fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" kindref="member">TPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)<sp/></highlight><highlight class="comment">//<sp/>78</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" kindref="member">TVPrintf</ref><sp/>(fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>dbg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="dbg___debug_string_8cpp_1a2d30988abd444aa45f1eefa7c3178e19" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1a2d30988abd444aa45f1eefa7c3178e19" kindref="member">nndbgPrintWarning_</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)<sp/></highlight><highlight class="comment">//<sp/>126</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" kindref="member">nn::dbg::detail::TPrintf</ref><sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d<sp/>[WARN]<sp/>&quot;</highlight><highlight class="normal">,<sp/>filename,<sp/>lineno);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" kindref="member">nn::dbg::detail::VPrintf</ref><sp/>(fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" kindref="member">nn::dbg::detail::TPrintf</ref><sp/>(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="dbg___debug_string_8cpp_1a2593bde0817153806f991730394a870d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1a2593bde0817153806f991730394a870d" kindref="member">nndbgTPrintWarning_</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)<sp/></highlight><highlight class="comment">//<sp/>137</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" kindref="member">nn::dbg::detail::TPrintf</ref><sp/>(</highlight><highlight class="stringliteral">&quot;%s:%d<sp/>[WARN]<sp/>&quot;</highlight><highlight class="normal">,<sp/>filename,<sp/>lineno);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" kindref="member">nn::dbg::detail::TVPrintf</ref><sp/>(fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" kindref="member">nn::dbg::detail::TPrintf</ref><sp/>(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="dbg___debug_string_8cpp_1a2f6ca64637106878e4de682162f9578f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1a2f6ca64637106878e4de682162f9578f" kindref="member">nndbgDetailPutString</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>text,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" kindref="member">nn::dbg::detail::PutString</ref><sp/>(text,<sp/>length);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="dbg___debug_string_8cpp_1a261807fb80b2d7d8139368faf92ca9a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1a261807fb80b2d7d8139368faf92ca9a0" kindref="member">nndbgDetailVPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>arg)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" kindref="member">nn::dbg::detail::VPrintf</ref><sp/>(fmt,<sp/>arg);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="dbg___debug_string_8cpp_1a9d5c67eb6c6a479af17f2b611c365657" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1a9d5c67eb6c6a479af17f2b611c365657" kindref="member">nndbgDetailTVPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>arg)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" kindref="member">nn::dbg::detail::TVPrintf</ref><sp/>(fmt,<sp/>arg);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="dbg___debug_string_8cpp_1afc895b764a8a3b93f87fec865fafe5c1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1afc895b764a8a3b93f87fec865fafe5c1" kindref="member">nndbgDetailPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" kindref="member">nn::dbg::detail::Printf</ref><sp/>(fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="dbg___debug_string_8cpp_1a2f5faddd419ceca7df66b8ab4ad44070" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dbg___debug_string_8cpp_1a2f5faddd419ceca7df66b8ab4ad44070" kindref="member">nndbgDetailTPrintf</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" kindref="member">nn::dbg::detail::TPrintf</ref><sp/>(fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp"/>
+  </compounddef>
+</doxygen>

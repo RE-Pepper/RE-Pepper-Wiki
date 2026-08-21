@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::BacklightPwmTableCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1aff1c097daf12824b3e60318a07a4b22e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::BacklightPwmTableCfgData::coef[3][3]</definition>
+        <argsstring>[3][3]</argsstring>
+        <name>coef</name>
+        <qualifiedname>nn::cfg::CTR::detail::BacklightPwmTableCfgData::coef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="19" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1a21d7b7eb439ed6b440889e243766962a" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::BacklightPwmTableCfgData::numLevels</definition>
+        <argsstring></argsstring>
+        <name>numLevels</name>
+        <qualifiedname>nn::cfg::CTR::detail::BacklightPwmTableCfgData::numLevels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="20" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1a192566ba85ec6ede913d7b2d3b8a81d6" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::cfg::CTR::detail::BacklightPwmTableCfgData::control</definition>
+        <argsstring></argsstring>
+        <name>control</name>
+        <qualifiedname>nn::cfg::CTR::detail::BacklightPwmTableCfgData::control</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="21" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1a7567d273640c6b3476b6dfc3b8884912" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::BacklightPwmTableCfgData::luminanceLevel[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>luminanceLevel</name>
+        <qualifiedname>nn::cfg::CTR::detail::BacklightPwmTableCfgData::luminanceLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="22" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1adb04018f1af2e59cf361e62cb7580823" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::BacklightPwmTableCfgData::brightnessBase</definition>
+        <argsstring></argsstring>
+        <name>brightnessBase</name>
+        <qualifiedname>nn::cfg::CTR::detail::BacklightPwmTableCfgData::brightnessBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="23" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1aa2cfa77eff98a30dae8208e5353e5647" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::BacklightPwmTableCfgData::brightnessMinimum</definition>
+        <argsstring></argsstring>
+        <name>brightnessMinimum</name>
+        <qualifiedname>nn::cfg::CTR::detail::BacklightPwmTableCfgData::brightnessMinimum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="24" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="17" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="18" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1adb04018f1af2e59cf361e62cb7580823" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BacklightPwmTableCfgData</scope><name>brightnessBase</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1aa2cfa77eff98a30dae8208e5353e5647" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BacklightPwmTableCfgData</scope><name>brightnessMinimum</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1aff1c097daf12824b3e60318a07a4b22e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BacklightPwmTableCfgData</scope><name>coef</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1a192566ba85ec6ede913d7b2d3b8a81d6" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BacklightPwmTableCfgData</scope><name>control</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1a7567d273640c6b3476b6dfc3b8884912" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BacklightPwmTableCfgData</scope><name>luminanceLevel</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data_1a21d7b7eb439ed6b440889e243766962a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BacklightPwmTableCfgData</scope><name>numLevels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_80d58af41f6b82f04b97d791f7cfcb5d" kind="dir">
+    <compoundname>libraries</compoundname>
+    <innerdir refid="dir_9c5855700a773cc6d47223506890609d">cfg</innerdir>
+    <innerdir refid="dir_2e40bb914eb64b354eaaaa48387a7993">crt0</innerdir>
+    <innerdir refid="dir_f5f58bbdde99f1620da85a5357502216">dbg</innerdir>
+    <innerdir refid="dir_560a6cc5d6df315094c0d1c837639e89">fnd</innerdir>
+    <innerdir refid="dir_de8ede82c2f9cd7e5bfa0bd1bd2294ca">fs</innerdir>
+    <innerdir refid="dir_c7386c615566c444dc954695d2e7bbc4">init</innerdir>
+    <innerdir refid="dir_68bcfd8977fdf21ff1be1de1cc37a3c2">math</innerdir>
+    <innerdir refid="dir_9715559b47b1245820ffeea5f32f66cc">nstd</innerdir>
+    <innerdir refid="dir_56153499d95e77076f83f9f8405b15c2">os</innerdir>
+    <innerdir refid="dir_53d6a9bf16b96d25f9c91e79a4c5362a">rtport</innerdir>
+    <innerdir refid="dir_e41bca9e34f140eb41e3a5a069765b4a">srv</innerdir>
+    <innerdir refid="dir_59832afd1c9c1fa5430655f47e77de4f">svc</innerdir>
+    <innerdir refid="dir_92e3bd37cee8e5ee85095acfa042971c">util</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/"/>
+  </compounddef>
+</doxygen>

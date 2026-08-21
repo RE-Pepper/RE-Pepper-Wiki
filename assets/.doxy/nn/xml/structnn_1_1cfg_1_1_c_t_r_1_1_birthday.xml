@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1_birthday" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::Birthday</compoundname>
+    <includes refid="cfg___user_info_8h" local="no">cfg_UserInfo.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_birthday_1a6e40b740d1680195d58514e644e76b07" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref></type>
+        <definition>s8 nn::cfg::CTR::Birthday::month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <qualifiedname>nn::cfg::CTR::Birthday::month</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="16" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_birthday_1a2c46a2288eab16cf09c1f19cf607841a" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref></type>
+        <definition>s8 nn::cfg::CTR::Birthday::day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <qualifiedname>nn::cfg::CTR::Birthday::day</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="17" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="14" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_birthday_1a2c46a2288eab16cf09c1f19cf607841a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::Birthday</scope><name>day</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_birthday_1a6e40b740d1680195d58514e644e76b07" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::Birthday</scope><name>month</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

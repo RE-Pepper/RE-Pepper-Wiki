@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::CameraQualityCalData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aa91b9aa5df1f253aac25c16b8b57f740" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraQualityCalData::aeBaseTarget</definition>
+        <argsstring></argsstring>
+        <name>aeBaseTarget</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::aeBaseTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="70" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aaa8c3cfe3666c634d393d3afb767a21e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraQualityCalData::kRL</definition>
+        <argsstring></argsstring>
+        <name>kRL</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::kRL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="71" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1ac12a44922fd4a5e045d1c6043d76a36d" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraQualityCalData::kGL</definition>
+        <argsstring></argsstring>
+        <name>kGL</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::kGL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="72" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a58779e86913915ccfa87d55d3b61ee92" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraQualityCalData::kBL</definition>
+        <argsstring></argsstring>
+        <name>kBL</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::kBL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="73" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1ace8f99aa54d1be67aa28a45e7c3d65a9" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraQualityCalData::ccmPosition</definition>
+        <argsstring></argsstring>
+        <name>ccmPosition</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::ccmPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="74" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1ad4523e0b4445ae6f620011c3394e66bf" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL9Right</definition>
+        <argsstring></argsstring>
+        <name>awbCcmL9Right</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL9Right</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="75" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a17156ed8612375d79e759234606a375f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL9Left</definition>
+        <argsstring></argsstring>
+        <name>awbCcmL9Left</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL9Left</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="76" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a229fd366b02219f094d93f26c897b8d5" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL10Right</definition>
+        <argsstring></argsstring>
+        <name>awbCcmL10Right</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL10Right</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="77" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a909d0c888724e430092d68e618fba4fa" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL10Left</definition>
+        <argsstring></argsstring>
+        <name>awbCcmL10Left</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::awbCcmL10Left</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="78" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aeebc2eb20bac9e169a113eabb0e9eb80" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::CameraQualityCalData::awbX0Right</definition>
+        <argsstring></argsstring>
+        <name>awbX0Right</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::awbX0Right</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="79" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aff2f0e4f45eed29f643499d929d3d4e8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::CameraQualityCalData::awbX0Left</definition>
+        <argsstring></argsstring>
+        <name>awbX0Left</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraQualityCalData::awbX0Left</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="80" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="68" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="69" bodyend="81"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aa91b9aa5df1f253aac25c16b8b57f740" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>aeBaseTarget</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a909d0c888724e430092d68e618fba4fa" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>awbCcmL10Left</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a229fd366b02219f094d93f26c897b8d5" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>awbCcmL10Right</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a17156ed8612375d79e759234606a375f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>awbCcmL9Left</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1ad4523e0b4445ae6f620011c3394e66bf" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>awbCcmL9Right</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aff2f0e4f45eed29f643499d929d3d4e8" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>awbX0Left</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aeebc2eb20bac9e169a113eabb0e9eb80" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>awbX0Right</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1ace8f99aa54d1be67aa28a45e7c3d65a9" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>ccmPosition</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1a58779e86913915ccfa87d55d3b61ee92" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>kBL</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1ac12a44922fd4a5e045d1c6043d76a36d" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>kGL</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data_1aaa8c3cfe3666c634d393d3afb767a21e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraQualityCalData</scope><name>kRL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

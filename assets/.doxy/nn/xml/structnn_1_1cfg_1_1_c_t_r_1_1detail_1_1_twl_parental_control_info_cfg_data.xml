@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a4f2d1e1c0410b564c414df86fbac560a" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::isSetParentalControl</definition>
+        <argsstring></argsstring>
+        <name>isSetParentalControl</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::isSetParentalControl</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="267" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1afd2f67c65cdcd41767294bf152705c2b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::pictoChat</definition>
+        <argsstring></argsstring>
+        <name>pictoChat</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::pictoChat</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="268" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a570428322af07f2555c389fff8ae95ee" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::dsDownload</definition>
+        <argsstring></argsstring>
+        <name>dsDownload</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::dsDownload</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="269" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1ac89cc9c834244529efab8b070152254e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::browser</definition>
+        <argsstring></argsstring>
+        <name>browser</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::browser</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="270" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a82de84bd03d700a839d7efdccdbf874b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::wiiPoint</definition>
+        <argsstring></argsstring>
+        <name>wiiPoint</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::wiiPoint</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="271" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1aeaf610d5294c4abd27ad416f5549e71b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::photoExchange</definition>
+        <argsstring></argsstring>
+        <name>photoExchange</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::photoExchange</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="272" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a7b9a0f7fcd6c03b8f612d045e607bb68" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::ugc</definition>
+        <argsstring></argsstring>
+        <name>ugc</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::ugc</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="273" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a0ae179278217219a787b9badc7c0b0ac" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::rsv</definition>
+        <argsstring></argsstring>
+        <name>rsv</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::rsv</qualifiedname>
+        <bitfield> 25</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="274" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a30781328257c7e5a7fd867ae2095161a" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data" kindref="compound">nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</ref></type>
+        <definition>struct nn::cfg::CTR::detail::TwlParentalControlInfoCfgData nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="275" column="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a1edd73c9405df5e94f61edf42ac1fd4b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::rsv1[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>rsv1</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::rsv1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="277" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1ac494854ff84f5408329fdb43022f7fc2" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::ogn</definition>
+        <argsstring></argsstring>
+        <name>ogn</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::ogn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="278" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1ad9109433b60fdc85ab620ed5b65d7269" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::ratingAge</definition>
+        <argsstring></argsstring>
+        <name>ratingAge</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::ratingAge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="279" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1aaa9243d02281956c71d210d1ec61c04a" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::secretQuestionID</definition>
+        <argsstring></argsstring>
+        <name>secretQuestionID</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::secretQuestionID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="280" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a87ac653478250dcdfd10fb6fb46978a2" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::secretAnswerLength</definition>
+        <argsstring></argsstring>
+        <name>secretAnswerLength</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::secretAnswerLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="281" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1adea77cfd2acbac23dc1b96772076d769" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::rsv[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>rsv</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::rsv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="282" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1acb34f9f13593cb9ce3305a3d14a588b4" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::password[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>password</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="283" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a6dbc940266f7768b2dd17be930e3cb74" prot="public" static="no" mutable="no">
+        <type>wchar_t</type>
+        <definition>wchar_t nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::secretAnswer[65]</definition>
+        <argsstring>[65]</argsstring>
+        <name>secretAnswer</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData::secretAnswer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="284" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="263" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="264" bodyend="285"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1ac89cc9c834244529efab8b070152254e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>browser</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a570428322af07f2555c389fff8ae95ee" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>dsDownload</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a30781328257c7e5a7fd867ae2095161a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>flags</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a4f2d1e1c0410b564c414df86fbac560a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>isSetParentalControl</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1ac494854ff84f5408329fdb43022f7fc2" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>ogn</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1acb34f9f13593cb9ce3305a3d14a588b4" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>password</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1aeaf610d5294c4abd27ad416f5549e71b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>photoExchange</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1afd2f67c65cdcd41767294bf152705c2b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>pictoChat</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1ad9109433b60fdc85ab620ed5b65d7269" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>ratingAge</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a0ae179278217219a787b9badc7c0b0ac" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>rsv</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1adea77cfd2acbac23dc1b96772076d769" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>rsv</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a1edd73c9405df5e94f61edf42ac1fd4b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>rsv1</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a6dbc940266f7768b2dd17be930e3cb74" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>secretAnswer</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a87ac653478250dcdfd10fb6fb46978a2" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>secretAnswerLength</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1aaa9243d02281956c71d210d1ec61c04a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>secretQuestionID</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a7b9a0f7fcd6c03b8f612d045e607bb68" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>ugc</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data_1a82de84bd03d700a839d7efdccdbf874b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</scope><name>wiiPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

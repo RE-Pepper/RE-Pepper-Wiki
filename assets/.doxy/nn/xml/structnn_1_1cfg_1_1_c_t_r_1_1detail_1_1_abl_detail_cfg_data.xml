@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::AblDetailCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1afef173de2eaa165f3272cd90e0029c11" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::cfg::CTR::detail::AblDetailCfgData::ditherPattern</definition>
+        <argsstring></argsstring>
+        <name>ditherPattern</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::ditherPattern</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="30" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a69545062a271f06dc3e0b79a173a4840" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::AblDetailCfgData::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="31" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a963d67d2a633088ca4c06d4ccdd92531" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::AblDetailCfgData::yStart</definition>
+        <argsstring></argsstring>
+        <name>yStart</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::yStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="32" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1aa7ec5576098dc0ebd6ca1c26fb51e8f3" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::AblDetailCfgData::xWidth</definition>
+        <argsstring></argsstring>
+        <name>xWidth</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::xWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="33" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a21e9cdce19b2412edffcfb26cc65ff83" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::AblDetailCfgData::yWidth</definition>
+        <argsstring></argsstring>
+        <name>yWidth</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::yWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="34" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a0af6f6e4156da3ae26555e3eb67d64fa" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::AblDetailCfgData::gthRatio</definition>
+        <argsstring></argsstring>
+        <name>gthRatio</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::gthRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="35" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a41d75ad198110e1dff348366f4f2b4c8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::cfg::CTR::detail::AblDetailCfgData::ditherMode</definition>
+        <argsstring></argsstring>
+        <name>ditherMode</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::ditherMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="36" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1aa19d0ab5d3a7355b6ec3bcf3f07d827e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::rsMin</definition>
+        <argsstring></argsstring>
+        <name>rsMin</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::rsMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="37" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a699448a7db8bfacbc721772b8860f2c5" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::rsMax</definition>
+        <argsstring></argsstring>
+        <name>rsMax</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::rsMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="38" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a7f4aa876cd8d03770ff3fbaa11470d37" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::gthMin</definition>
+        <argsstring></argsstring>
+        <name>gthMin</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::gthMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="39" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a01ae4982d030c58d2417c22214cef020" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::maxMin</definition>
+        <argsstring></argsstring>
+        <name>maxMin</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::maxMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="40" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a3d3e003879a3e3b58255f9a474c741aa" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::maxEx</definition>
+        <argsstring></argsstring>
+        <name>maxEx</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::maxEx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="41" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a67ec1d376e8f1ca149dacc2698c8cb4c" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::inertia</definition>
+        <argsstring></argsstring>
+        <name>inertia</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::inertia</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="42" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1aa3ef7e0f3201c183cbe64de10851fb89" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::AblDetailCfgData::rsLut[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>rsLut</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::rsLut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="43" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a54c2a413c80363b7dd64d702004f9d18" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::cfg::CTR::detail::AblDetailCfgData::reserved[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>reserved</name>
+        <qualifiedname>nn::cfg::CTR::detail::AblDetailCfgData::reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="44" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="28" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a41d75ad198110e1dff348366f4f2b4c8" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>ditherMode</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1afef173de2eaa165f3272cd90e0029c11" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>ditherPattern</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a7f4aa876cd8d03770ff3fbaa11470d37" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>gthMin</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a0af6f6e4156da3ae26555e3eb67d64fa" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>gthRatio</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a67ec1d376e8f1ca149dacc2698c8cb4c" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>inertia</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a3d3e003879a3e3b58255f9a474c741aa" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>maxEx</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a01ae4982d030c58d2417c22214cef020" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>maxMin</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a54c2a413c80363b7dd64d702004f9d18" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>reserved</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1aa3ef7e0f3201c183cbe64de10851fb89" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>rsLut</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a699448a7db8bfacbc721772b8860f2c5" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>rsMax</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1aa19d0ab5d3a7355b6ec3bcf3f07d827e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>rsMin</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a69545062a271f06dc3e0b79a173a4840" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>xStart</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1aa7ec5576098dc0ebd6ca1c26fb51e8f3" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>xWidth</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a963d67d2a633088ca4c06d4ccdd92531" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>yStart</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data_1a21e9cdce19b2412edffcfb26cc65ff83" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AblDetailCfgData</scope><name>yWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_SharedInfo.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_sharedinfoh">File os_SharedInfo.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_53922fdb85244c81a863dd6ad700ec31/"><strong>os</strong></a> <strong>&gt;</strong> <a href="../os___shared_info_8h/"><strong>os_SharedInfo.h</strong></a></p>
+<p><a href="../os___shared_info_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/os/os_Tick.h&gt;
+#include &lt;nn/os/os_Types.h&gt;
+#include &lt;nn/util/util_FlagsEnum.h&gt;
+
+#include &quot;nn/types.h&quot;
+
+namespace nn {
+namespace os {
+
+struct ReadOnlySharedInfo
+{
+        enum Flags
+        {
+                FLAGS_SAVE_MODE = 1,
+                FLAGS_MAX_BITS  = 2147483648
+        };
+
+        bit8 versionReserve;
+        u8   versionMicro;
+        u8   versionMinor;
+        u8   versionMajor;
+
+        FlagsEnum4&lt;Flags&gt; flags;
+
+        ProgramID firstMainBootProgram;
+        bit32     coreVersion;
+        bit8      deviceEnv;
+        bit8      bootEnv;
+        bit8      previousMode;
+        int       unk; // Unnamed INT
+
+        u32 revision;
+        int unk1; // Unnamed INT
+
+        bit32 kParamAck[4];
+        bit32 kParamCurrent[4];
+        bit32 kParamValues[8];
+
+        bit8  firstVersionReserve;
+        u8    firstVersionMicro;
+        u8    firstVersionMinor;
+        u8    firstVersionMajor;
+        bit32 firstCoreVersion;
+        bit32 firstRevision;
+};
+
+struct RtcSwcInfo
+{
+        s64  rtcBaseMilliSeconds;
+        Tick rtcBaseTicks;
+        s64  rtcTicksPerSecond;
+        s64  rtcDiffMilliSeconds;
+};
+
+struct WritableSharedInfo
+{
+        s32       rtcValidNumber;
+        u8        targetHardware;
+        u8 mcuTargetInfo;
+        u8 mcuInfoRegisters_10;
+        bit8      reserved_0x006[25];
+        RtcSwcInfo rtcSwcInfo[2];
+        bit8 wirelessInfo[16];
+        bit8      reserved_0x070[16];
+        f32       svr2Volume;
+        bool      displayModeLockFlag;
+        u8        batteryState;
+        bit8      reserved_0x087[26];
+        ProgramID firstSystemMenu;
+        ProgramID currentSystemMenu;
+        bit8      reserved_0x0b0[16];
+        bool      isHeadphoneInserted;
+        bit8      reserved_0x0c1[31];
+};
+
+} // namespace os
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

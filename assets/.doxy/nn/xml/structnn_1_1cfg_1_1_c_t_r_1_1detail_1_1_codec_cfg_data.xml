@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::CodecCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a1ccc3ea27ada387fc86c113a9bc304ff" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::driverGainHP</definition>
+        <argsstring></argsstring>
+        <name>driverGainHP</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::driverGainHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="143" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a505fdaba62ea8f83d14edb2196e546d2" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::driverGainSP</definition>
+        <argsstring></argsstring>
+        <name>driverGainSP</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::driverGainSP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="144" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1ac25328793cad99ab2e9d332c64630c12" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::analogVolumeHP</definition>
+        <argsstring></argsstring>
+        <name>analogVolumeHP</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::analogVolumeHP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="145" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a4f0f6b466275588099f3620015191e88" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::analogVolumeSP</definition>
+        <argsstring></argsstring>
+        <name>analogVolumeSP</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::analogVolumeSP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="146" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1ab5caa466d49b3eef61fc2347b9ea4391" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref></type>
+        <definition>s8 nn::cfg::CTR::detail::CodecCfgData::shutterVolume1</definition>
+        <argsstring></argsstring>
+        <name>shutterVolume1</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::shutterVolume1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="147" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a18c4c200305b35f930b675cfe38060d4" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref></type>
+        <definition>s8 nn::cfg::CTR::detail::CodecCfgData::shutterVolume2</definition>
+        <argsstring></argsstring>
+        <name>shutterVolume2</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::shutterVolume2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="148" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1adfdf7d32c9d9a12be1bf5e9f9412d7ad" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::micBias</definition>
+        <argsstring></argsstring>
+        <name>micBias</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::micBias</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="149" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a381403755109561fe8990c5429e97bec" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::quickCharge</definition>
+        <argsstring></argsstring>
+        <name>quickCharge</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::quickCharge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="150" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a4ee85b036ad9f4b09fa66bc78054dc4f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::micGainCalibrateParam</definition>
+        <argsstring></argsstring>
+        <name>micGainCalibrateParam</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::micGainCalibrateParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="151" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a93d789352abf29a192a7e655ef9ce722" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CodecCfgData::pad[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>pad</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::pad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="152" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1aaca9317bb7a687b61c4feb129124373f" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q" kindref="compound">codec::CTR::IirFilterParamEQ</ref></type>
+        <definition>codec::CTR::IirFilterParamEQ nn::cfg::CTR::detail::CodecCfgData::filterHp32</definition>
+        <argsstring></argsstring>
+        <name>filterHp32</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterHp32</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="154" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1adc392c1c61d3e4fb3d8f4174b19c8e31" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q" kindref="compound">codec::CTR::IirFilterParamEQ</ref></type>
+        <definition>codec::CTR::IirFilterParamEQ nn::cfg::CTR::detail::CodecCfgData::filterHp47</definition>
+        <argsstring></argsstring>
+        <name>filterHp47</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterHp47</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="155" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a8ed7677e67905508296c9b82a8e26ef4" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q" kindref="compound">codec::CTR::IirFilterParamEQ</ref></type>
+        <definition>codec::CTR::IirFilterParamEQ nn::cfg::CTR::detail::CodecCfgData::filterSp32</definition>
+        <argsstring></argsstring>
+        <name>filterSp32</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterSp32</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="156" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a125bb07022da86f4a0f35eaab5a79198" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q" kindref="compound">codec::CTR::IirFilterParamEQ</ref></type>
+        <definition>codec::CTR::IirFilterParamEQ nn::cfg::CTR::detail::CodecCfgData::filterSp47</definition>
+        <argsstring></argsstring>
+        <name>filterSp47</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterSp47</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="157" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a2562759fab706ea16361bb1deef28ed1" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param" kindref="compound">codec::CTR::IirFilterParam</ref></type>
+        <definition>codec::CTR::IirFilterParam nn::cfg::CTR::detail::CodecCfgData::filterMic32</definition>
+        <argsstring></argsstring>
+        <name>filterMic32</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterMic32</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="158" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a3b3e2d8f0e8341de9b6ec1a1ecd74611" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param" kindref="compound">codec::CTR::IirFilterParam</ref></type>
+        <definition>codec::CTR::IirFilterParam nn::cfg::CTR::detail::CodecCfgData::filterMic47</definition>
+        <argsstring></argsstring>
+        <name>filterMic47</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterMic47</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="159" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1abd6c2c499effbc12254867ca5f9ebfc4" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param" kindref="compound">codec::CTR::IirFilterParam</ref></type>
+        <definition>codec::CTR::IirFilterParam nn::cfg::CTR::detail::CodecCfgData::filterFree</definition>
+        <argsstring></argsstring>
+        <name>filterFree</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::filterFree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="160" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1ad32c795909a1314e3869cd053fa7e864" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_interface_param" kindref="compound">AnalogInterfaceParam</ref></type>
+        <definition>AnalogInterfaceParam nn::cfg::CTR::detail::CodecCfgData::AnalogInterfaceParam</definition>
+        <argsstring></argsstring>
+        <name>AnalogInterfaceParam</name>
+        <qualifiedname>nn::cfg::CTR::detail::CodecCfgData::AnalogInterfaceParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="162" column="30" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>nn::cfg::CTR::detail::AnalogInterfaceParam</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_interface_param"/>
+      </node>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::CodecCfgData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>filterHp32</edgelabel>
+          <edgelabel>filterHp47</edgelabel>
+          <edgelabel>filterSp32</edgelabel>
+          <edgelabel>filterSp47</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>filterFree</edgelabel>
+          <edgelabel>filterMic32</edgelabel>
+          <edgelabel>filterMic47</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>AnalogInterfaceParam</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::codec::CTR::IirFilterParam</label>
+        <link refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>half</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>biquadA</edgelabel>
+          <edgelabel>biquadB</edgelabel>
+          <edgelabel>biquadC</edgelabel>
+          <edgelabel>biquadD</edgelabel>
+          <edgelabel>biquadE</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::codec::CTR::IirFilterParamBiquad</label>
+        <link refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_biquad"/>
+      </node>
+      <node id="2">
+        <label>nn::codec::CTR::IirFilterParamEQ</label>
+        <link refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>biquadA</edgelabel>
+          <edgelabel>biquadB</edgelabel>
+          <edgelabel>biquadC</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::codec::CTR::IirFilterParamHalf</label>
+        <link refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="141" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="142" bodyend="163"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1ad32c795909a1314e3869cd053fa7e864" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>AnalogInterfaceParam</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1ac25328793cad99ab2e9d332c64630c12" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>analogVolumeHP</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a4f0f6b466275588099f3620015191e88" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>analogVolumeSP</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a1ccc3ea27ada387fc86c113a9bc304ff" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>driverGainHP</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a505fdaba62ea8f83d14edb2196e546d2" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>driverGainSP</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1abd6c2c499effbc12254867ca5f9ebfc4" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterFree</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1aaca9317bb7a687b61c4feb129124373f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterHp32</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1adc392c1c61d3e4fb3d8f4174b19c8e31" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterHp47</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a2562759fab706ea16361bb1deef28ed1" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterMic32</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a3b3e2d8f0e8341de9b6ec1a1ecd74611" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterMic47</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a8ed7677e67905508296c9b82a8e26ef4" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterSp32</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a125bb07022da86f4a0f35eaab5a79198" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>filterSp47</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1adfdf7d32c9d9a12be1bf5e9f9412d7ad" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>micBias</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a4ee85b036ad9f4b09fa66bc78054dc4f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>micGainCalibrateParam</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a93d789352abf29a192a7e655ef9ce722" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>pad</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a381403755109561fe8990c5429e97bec" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>quickCharge</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1ab5caa466d49b3eef61fc2347b9ea4391" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>shutterVolume1</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data_1a18c4c200305b35f930b675cfe38060d4" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CodecCfgData</scope><name>shutterVolume2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

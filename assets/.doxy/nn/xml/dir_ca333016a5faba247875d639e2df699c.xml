@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_ca333016a5faba247875d639e2df699c" kind="dir">
+    <compoundname>ARMv6</compoundname>
+    <innerfile refid="_a_r_mv6_2fnd___interlocked_8h">ARMv6/fnd_Interlocked.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/ARMv6/"/>
+  </compounddef>
+</doxygen>

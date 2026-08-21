@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1util_1_1_int64" kind="class" language="C++" prot="public">
+    <compoundname>nn::util::Int64</compoundname>
+    <includes refid="util___int64_8h" local="no">util_Int64.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename V</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1util_1_1_int64_1a802ee730327305c67220d57b46a33a70" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::util::Int64&lt; T, V &gt;::lo</definition>
+        <argsstring></argsstring>
+        <name>lo</name>
+        <qualifiedname>nn::util::Int64::lo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="10" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classnn_1_1util_1_1_int64_1a1c197655572edf862e93ab0fa84ae19f" compoundref="util___int64_8h" startline="18" endline="18">nn::util::Int64&lt; bit64 &gt;::operator bit64</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1util_1_1_int64_1a2f9fbb0a63b06f797ff236e365469b4c" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::util::Int64&lt; T, V &gt;::hi</definition>
+        <argsstring></argsstring>
+        <name>hi</name>
+        <qualifiedname>nn::util::Int64::hi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="11" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classnn_1_1util_1_1_int64_1a1c197655572edf862e93ab0fa84ae19f" compoundref="util___int64_8h" startline="18" endline="18">nn::util::Int64&lt; bit64 &gt;::operator bit64</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1aa2e5e608732e85a5b440fdd8234d5c72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::Int64&lt; T, V &gt;::Int64</definition>
+        <argsstring>()</argsstring>
+        <name>Int64</name>
+        <qualifiedname>nn::util::Int64::Int64</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="14" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a3c5d9fdac21dd43b5109e0021973d7b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::Int64&lt; T, V &gt;::Int64</definition>
+        <argsstring>(T num)</argsstring>
+        <name>Int64</name>
+        <qualifiedname>nn::util::Int64::Int64</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="15" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a1c197655572edf862e93ab0fa84ae19f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::Int64&lt; T, V &gt;::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>nn::util::Int64::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="18" column="16" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a63ae4be24d8a70410affe86fc08af92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref> &amp;</type>
+        <definition>Int64 &amp; nn::util::Int64&lt; T, V &gt;::operator+=</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>nn::util::Int64::operator+=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="19" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a8fbd5cbfdccf3d0dfa88a8201718e6d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref> &amp;</type>
+        <definition>Int64 &amp; nn::util::Int64&lt; T, V &gt;::operator-=</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>nn::util::Int64::operator-=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="26" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a5e676439fd47329083f5debc85143a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref> &amp;</type>
+        <definition>Int64 &amp; nn::util::Int64&lt; T, V &gt;::operator*=</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>nn::util::Int64::operator*=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="33" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a86520545118ba5b9062d50c6514a0ea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref> &amp;</type>
+        <definition>Int64 &amp; nn::util::Int64&lt; T, V &gt;::operator/=</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator/=</name>
+        <qualifiedname>nn::util::Int64::operator/=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="40" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1ac1b52efd9dd7144fd40c0536e5386079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref> &amp;</type>
+        <definition>Int64 &amp; nn::util::Int64&lt; T, V &gt;::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>nn::util::Int64::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="47" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a739ac771b1205e5f6039a74aaa946c61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref> &amp;</type>
+        <definition>Int64 &amp; nn::util::Int64&lt; T, V &gt;::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <qualifiedname>nn::util::Int64::operator--</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="54" column="15" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a52c380f7d197934b41fcf35cc9d06b1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&lt;</definition>
+        <argsstring>(Int64 rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>nn::util::Int64::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="61" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a11da38cbe746d2b2599893bf25a8a73d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&gt;</definition>
+        <argsstring>(Int64 rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>nn::util::Int64::operator&gt;</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="65" column="14" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a9094cbd0bc2fd540eeccca93d9775384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&lt;</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>nn::util::Int64::operator&lt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="69" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a99eb1372e0490e959197f5c20a8908e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&gt;</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>nn::util::Int64::operator&gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="73" column="14" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a96ba8599ed6a3749f99a10958fdb3a2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&lt;=</definition>
+        <argsstring>(Int64 rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>nn::util::Int64::operator&lt;=</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="77" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1ab57dbe5e95e17d0a734885107f83821d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&gt;=</definition>
+        <argsstring>(Int64 rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>nn::util::Int64::operator&gt;=</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">Int64</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="81" column="14" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1aaaaed1514eecc57c5deaf805d5b4af2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&lt;=</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>nn::util::Int64::operator&lt;=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="85" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_int64_1a6279176ce2dc4566010b168fbfb97fca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::util::Int64&lt; T, V &gt;::operator&gt;=</definition>
+        <argsstring>(T rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>nn::util::Int64::operator&gt;=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="89" column="14" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="89" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>nn::util::Int64&lt; bit64 &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit64 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::util::Int64&lt; s64 &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; s64 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::util::Int64&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+      </node>
+    </inheritancegraph>
+    <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_Int64.h" bodystart="8" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classnn_1_1util_1_1_int64_1a2f9fbb0a63b06f797ff236e365469b4c" prot="private" virt="non-virtual"><scope>nn::util::Int64</scope><name>hi</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1aa2e5e608732e85a5b440fdd8234d5c72" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>Int64</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a3c5d9fdac21dd43b5109e0021973d7b7" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>Int64</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a802ee730327305c67220d57b46a33a70" prot="private" virt="non-virtual"><scope>nn::util::Int64</scope><name>lo</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a1c197655572edf862e93ab0fa84ae19f" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator T</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a5e676439fd47329083f5debc85143a56" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator*=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1ac1b52efd9dd7144fd40c0536e5386079" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator++</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a63ae4be24d8a70410affe86fc08af92e" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator+=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a739ac771b1205e5f6039a74aaa946c61" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator--</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a8fbd5cbfdccf3d0dfa88a8201718e6d0" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator-=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a86520545118ba5b9062d50c6514a0ea2" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator/=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a52c380f7d197934b41fcf35cc9d06b1b" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&lt;</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a9094cbd0bc2fd540eeccca93d9775384" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&lt;</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a96ba8599ed6a3749f99a10958fdb3a2d" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&lt;=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1aaaaed1514eecc57c5deaf805d5b4af2b" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&lt;=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a11da38cbe746d2b2599893bf25a8a73d" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&gt;</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a99eb1372e0490e959197f5c20a8908e9" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&gt;</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1ab57dbe5e95e17d0a734885107f83821d" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&gt;=</name></member>
+      <member refid="classnn_1_1util_1_1_int64_1a6279176ce2dc4566010b168fbfb97fca" prot="public" virt="non-virtual"><scope>nn::util::Int64</scope><name>operator&gt;=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

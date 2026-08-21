@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::os::LightSemaphore - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnoslightsemaphore">Class nn::os::LightSemaphore</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1os/"><strong>os</strong></a> <strong>&gt;</strong> <a href="./"><strong>LightSemaphore</strong></a></p>
+<ul>
+<li><code>#include &lt;os_LightSemaphore.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/">nn::util::ADLFireWall::NonCopyable</a></p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-acquire"><strong>Acquire</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-getcount"><strong>GetCount</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-getmax"><strong>GetMax</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-initialize-12"><strong>Initialize</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> initialCount, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a> maxCount) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-initialize-22"><strong>Initialize</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> initialCount) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-lightsemaphore"><strong>LightSemaphore</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> initialCount, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a> maxCount) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-release"><strong>Release</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> releaseCount) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="#function-tryacquire"><strong>TryAcquire</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-lightsemaphore"><strong>~LightSemaphore</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-functions-inherited-from-nnutiladlfirewallnoncopyable">Protected Functions inherited from nn::util::ADLFireWall::NonCopyable</h2>
+<p>See <a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/">nn::util::ADLFireWall::NonCopyable</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable-12"><strong>NonCopyable</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable"><strong>~NonCopyable</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-acquire">function Acquire</h3>
+<pre><code class="language-C++">inline void nn::os::LightSemaphore::Acquire () 
+</code></pre>
+<hr>
+
+<h3 id="function-getcount">function GetCount</h3>
+<pre><code class="language-C++">inline s32 nn::os::LightSemaphore::GetCount () const
+</code></pre>
+<hr>
+
+<h3 id="function-getmax">function GetMax</h3>
+<pre><code class="language-C++">inline s32 nn::os::LightSemaphore::GetMax () const
+</code></pre>
+<hr>
+
+<h3 id="function-initialize-12">function Initialize [1/2]</h3>
+<pre><code class="language-C++">inline void nn::os::LightSemaphore::Initialize (
+    s32 initialCount,
+    s32 maxCount
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-initialize-22">function Initialize [2/2]</h3>
+<pre><code class="language-C++">inline void nn::os::LightSemaphore::Initialize (
+    s32 initialCount
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-lightsemaphore">function LightSemaphore</h3>
+<pre><code class="language-C++">inline nn::os::LightSemaphore::LightSemaphore (
+    s32 initialCount,
+    s32 maxCount
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-release">function Release</h3>
+<pre><code class="language-C++">s32 nn::os::LightSemaphore::Release (
+    s32 releaseCount
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-tryacquire">function TryAcquire</h3>
+<pre><code class="language-C++">inline bool nn::os::LightSemaphore::TryAcquire () 
+</code></pre>
+<hr>
+
+<h3 id="function-lightsemaphore_1">function ~LightSemaphore</h3>
+<pre><code class="language-C++">inline nn::os::LightSemaphore::~LightSemaphore () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/os/os_LightSemaphore.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

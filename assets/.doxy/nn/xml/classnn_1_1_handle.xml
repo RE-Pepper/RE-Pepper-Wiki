@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1_handle" kind="class" language="C++" prot="public">
+    <compoundname>nn::Handle</compoundname>
+    <includes refid="_handle_8h" local="no">Handle.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" prot="protected" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::Handle::m_Handle</definition>
+        <argsstring></argsstring>
+        <name>m_Handle</name>
+        <qualifiedname>nn::Handle::m_Handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="26" column="15" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classnn_1_1_handle_1adbe45f7f2c8e4410b889c3367a6e0a94" compoundref="_handle_8h" startline="44" endline="47">GetPrintableBits</referencedby>
+        <referencedby refid="classnn_1_1_handle_1ae7b176b954e5315a612c289b004809ea" compoundref="_handle_8h" startline="51" endline="55">operator nnHandle</referencedby>
+        <referencedby refid="classnn_1_1_handle_1a254031928b14c0b545929f28196849af" compoundref="_handle_8h" startline="50" endline="50">operator!=</referencedby>
+        <referencedby refid="classnn_1_1_handle_1a23926da6c31903d92cd12a370baeb0cf" compoundref="_handle_8h" startline="49" endline="49">operator==</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1_handle_1a96163f4cc0b417219d646e9975038fa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::Handle::Handle</definition>
+        <argsstring>()</argsstring>
+        <name>Handle</name>
+        <qualifiedname>nn::Handle::Handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="29" column="9" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1ab06faf0a87453a44427badb8ed9cbf06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::Handle::Handle</definition>
+        <argsstring>(nnHandle handle)</argsstring>
+        <name>Handle</name>
+        <qualifiedname>nn::Handle::Handle</qualifiedname>
+        <param>
+          <type><ref refid="structnn_handle" kindref="compound">nnHandle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="32" column="9" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1a4776e5486a4d2233e0c57dc311010a72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::Handle::Handle</definition>
+        <argsstring>(bit32 value)</argsstring>
+        <name>Handle</name>
+        <qualifiedname>nn::Handle::Handle</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="35" column="9" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1abdc834585fcd85082fd7f51256194f5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::Handle::IsValid</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>nn::Handle::IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="39" column="14" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="39" bodyend="42"/>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" compoundref="os___handle_object_8h" startline="21" endline="24">nn::os::HandleObject::IsValid</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a2a272a0b0037154dac2c7d1f1cf5309a" compoundref="os___handle_object_8h" startline="35" endline="40">nn::os::HandleObject::SetHandle</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1adbe45f7f2c8e4410b889c3367a6e0a94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::Handle::GetPrintableBits</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrintableBits</name>
+        <qualifiedname>nn::Handle::GetPrintableBits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="44" column="15" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="44" bodyend="47"/>
+        <references refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" compoundref="_handle_8h" startline="26">m_Handle</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1a23926da6c31903d92cd12a370baeb0cf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::Handle::operator==</definition>
+        <argsstring>(const Handle &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>nn::Handle::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="49" column="14" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="49" bodyend="49"/>
+        <references refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" compoundref="_handle_8h" startline="26">m_Handle</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1a254031928b14c0b545929f28196849af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::Handle::operator!=</definition>
+        <argsstring>(const Handle &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>nn::Handle::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="50" column="14" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="50" bodyend="50"/>
+        <references refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" compoundref="_handle_8h" startline="26">m_Handle</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1_handle_1ae7b176b954e5315a612c289b004809ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::Handle::operator nnHandle</definition>
+        <argsstring>() const</argsstring>
+        <name>operator nnHandle</name>
+        <qualifiedname>nn::Handle::operator nnHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="51" column="14" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="51" bodyend="55"/>
+        <references refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" compoundref="_handle_8h" startline="26">m_Handle</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/Handle.h" line="23" column="1" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="24" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classnn_1_1_handle_1adbe45f7f2c8e4410b889c3367a6e0a94" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>GetPrintableBits</name></member>
+      <member refid="classnn_1_1_handle_1a96163f4cc0b417219d646e9975038fa0" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>Handle</name></member>
+      <member refid="classnn_1_1_handle_1ab06faf0a87453a44427badb8ed9cbf06" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>Handle</name></member>
+      <member refid="classnn_1_1_handle_1a4776e5486a4d2233e0c57dc311010a72" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>Handle</name></member>
+      <member refid="classnn_1_1_handle_1abdc834585fcd85082fd7f51256194f5d" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>IsValid</name></member>
+      <member refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" prot="protected" virt="non-virtual"><scope>nn::Handle</scope><name>m_Handle</name></member>
+      <member refid="classnn_1_1_handle_1ae7b176b954e5315a612c289b004809ea" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>operator nnHandle</name></member>
+      <member refid="classnn_1_1_handle_1a254031928b14c0b545929f28196849af" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>operator!=</name></member>
+      <member refid="classnn_1_1_handle_1a23926da6c31903d92cd12a370baeb0cf" prot="public" virt="non-virtual"><scope>nn::Handle</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

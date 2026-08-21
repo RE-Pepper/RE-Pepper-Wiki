@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alPlacementFunction.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alplacementfunctioncpp">File alPlacementFunction.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_d8628e97cbd71936d4b5fb3774410590/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_bae670588f3a3b01ed8f19a21a08d7a9/"><strong>Placement</strong></a> <strong>&gt;</strong> <a href="../al_placement_function_8cpp/"><strong>alPlacementFunction.cpp</strong></a></p>
+<p><a href="../al_placement_function_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;LiveActor/alActorInitInfo.h&gt;
+#include &lt;Placement/alPlacementFunction.h&gt;
+#include &lt;Util/alStringUtil.h&gt;
+
+namespace al
+{
+
+bool tryGetStringArg( const char** out, const PlacementInfo&amp; info, const char* argName )
+{
+        const char* arg = &quot;&quot;;
+        if ( info.tryGetStringByKey( &amp;arg, argName ) )
+        {
+                if ( !isEqualString( &quot;-&quot;, arg ) )
+                {
+                        *out = arg;
+                        return true;
+                }
+                return false; // this is required to match
+        }
+        return false;
+}
+
+bool tryGetStringArg( const char** out, const ActorInitInfo&amp; info, const char* argName )
+{
+        return tryGetStringArg( out, getPlacementInfo( info ), argName );
+}
+
+bool isPlaced( const ActorInitInfo&amp; info )
+{
+        return info.mPlacementInfo-&gt;isValid();
+}
+
+bool tryGetObjectName( const char** out, const al::ActorInitInfo&amp; info )
+{
+        return tryGetObjectName( out, getPlacementInfo( info ) );
+}
+
+bool tryGetObjectName( const char** out, const al::PlacementInfo&amp; info )
+{
+        return info.tryGetStringByKey( out, &quot;name&quot; );
+}
+
+bool isObjectName( const ActorInitInfo&amp; info, const char* objectName )
+{
+        return isObjectName( getPlacementInfo( info ), objectName );
+}
+
+bool isObjectName( const PlacementInfo&amp; info, const char* objectName )
+{
+        const char* name = nullptr;
+        if ( tryGetObjectName( &amp;name, info ) )
+                return isEqualString( name, objectName );
+        return false;
+}
+
+int calcLinkChildNum( const ActorInitInfo&amp; info )
+{
+        ByamlIter children;
+        if ( getPlacementInfo( info ).tryGetIterByKey( &amp;children, &quot;GenerateChildren&quot; ) )
+                return children.getSize();
+        return 0;
+}
+
+#ifdef NON_MATCHING
+
+// 4 bytes less on stack ?
+bool tryGetTrans( sead::Vector3f* out, const ActorInitInfo&amp; info )
+{
+        if ( tryGetTrans( out, getPlacementInfo( info ) ) )
+                return true;
+        return false;
+}
+#endif
+
+bool tryGetTrans( sead::Vector3f* out, const PlacementInfo&amp; info )
+{
+        sead::Vector3f trans;
+        bool           valid = info.isValid() &amp;&amp; info.tryGetFloatByKey( &amp;trans.x, &quot;pos_x&quot; ) &amp;&amp;
+                     info.tryGetFloatByKey( &amp;trans.y, &quot;pos_y&quot; ) &amp;&amp;
+                     info.tryGetFloatByKey( &amp;trans.z, &quot;pos_z&quot; );
+        if ( !valid )
+                return valid;
+
+        out-&gt;x = trans.x;
+        out-&gt;y = trans.y;
+        out-&gt;z = trans.z;
+        return true;
+}
+
+bool isExistRail( const ActorInitInfo&amp; info )
+{
+        PlacementInfo rail;
+        return tryGetRailIter( &amp;rail, getPlacementInfo( info ) );
+}
+
+bool tryGetRailIter( PlacementInfo* out, const PlacementInfo&amp; info )
+{
+        if ( info.tryGetIterByKey( out, &quot;Rail&quot; ) )
+                return out-&gt;isTypeContainer();
+        return false;
+}
+
+bool getLinksInfoByIndex( PlacementInfo* out, const ActorInitInfo&amp; info, int index )
+{
+        ByamlIter links;
+        if ( getPlacementInfo( info ).tryGetIterByKey( &amp;links, &quot;GenerateChildren&quot; ) )
+                return links.tryGetIterByIndex( out, index );
+        return false;
+}
+
+const char* getLinksActorObjectName( const ActorInitInfo&amp; info, int index )
+{
+        PlacementInfo placementInfo;
+        getLinksInfoByIndex( &amp;placementInfo, info, index );
+        const char* objectName = nullptr;
+        tryGetObjectName( &amp;objectName, placementInfo );
+        return objectName;
+}
+
+} // namespace al
+
+namespace alPlacementFunction
+{
+
+int getClippingViewId( const al::PlacementInfo&amp; info )
+{
+        int id = -1;
+        if ( !info.tryGetIntByKey( &amp;id, &quot;ViewId&quot; ) )
+                return -1;
+        return id;
+}
+
+} // namespace alPlacementFunction
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

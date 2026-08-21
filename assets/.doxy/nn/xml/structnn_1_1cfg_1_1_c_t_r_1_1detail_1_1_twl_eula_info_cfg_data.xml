@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_eula_info_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::TwlEulaInfoCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_eula_info_cfg_data_1ace999c2fd2f85266956d965fdc99a37a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::cfg::CTR::detail::TwlEulaInfoCfgData::isAgreeEula</definition>
+        <argsstring></argsstring>
+        <name>isAgreeEula</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlEulaInfoCfgData::isAgreeEula</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="289" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_eula_info_cfg_data_1ad371b3ecfcde99c3c8a00c0f383ced97" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::TwlEulaInfoCfgData::agreeEulaVersion</definition>
+        <argsstring></argsstring>
+        <name>agreeEulaVersion</name>
+        <qualifiedname>nn::cfg::CTR::detail::TwlEulaInfoCfgData::agreeEulaVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="290" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="287" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="288" bodyend="291"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_eula_info_cfg_data_1ad371b3ecfcde99c3c8a00c0f383ced97" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlEulaInfoCfgData</scope><name>agreeEulaVersion</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_eula_info_cfg_data_1ace999c2fd2f85266956d965fdc99a37a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::TwlEulaInfoCfgData</scope><name>isAgreeEula</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

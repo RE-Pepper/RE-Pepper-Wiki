@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="hid___hid_base_8h" kind="file" language="C++">
+    <compoundname>hid_HidBase.h</compoundname>
+    <includes refid="os___event_8h" local="no">nn/os/os_Event.h</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="4">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="9">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="11">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/fnd/fnd_TimeSpan.h</label>
+        <link refid="fnd___time_span_8h"/>
+      </node>
+      <node id="1">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn/os/CTR/os_ErrorHandler.h</label>
+        <link refid="os___error_handler_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/os/os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn/os/os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="14">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn/os/os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>nn/svc/svc_Inlines.h</label>
+        <link refid="svc___inlines_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>nn/util/util_NonCopyable.h</label>
+        <link refid="util___non_copyable_8h"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base" prot="public">nn::hid::CTR::HidBase</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1hid">nn::hid</innernamespace>
+    <innernamespace refid="namespacenn_1_1hid_1_1_c_t_r">nn::hid::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___event_8h" kindref="compound">nn/os/os_Event.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="namespacenn_1_1hid" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">hid<sp/>{</highlight></codeline>
+<codeline lineno="7" refid="namespacenn_1_1hid_1_1_c_t_r" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base" kindref="compound">HidBase</ref><sp/>:<sp/><ref refid="classnn_1_1os_1_1_event_base" kindref="compound">os::EventBase</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a0d469418f19527adcf5f2569e9dc6454" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a0d469418f19527adcf5f2569e9dc6454" kindref="member">m_pResource</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1af2f380abd9685746a8a52366022e4860" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1af2f380abd9685746a8a52366022e4860" kindref="member">GetResource</ref><sp/>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a0d469418f19527adcf5f2569e9dc6454" kindref="member">m_pResource</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a7a05127766eb47174972dd61fbbbfda9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a7a05127766eb47174972dd61fbbbfda9" kindref="member">SetResource</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/>resource)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_pResource<sp/>=<sp/>resource;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1ab97e194aa4e8fa44aa760508b23ae9a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1ab97e194aa4e8fa44aa760508b23ae9a4" kindref="member">HidBase</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="23" refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a186b7e531fba207fab9e8a0971a8b256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a186b7e531fba207fab9e8a0971a8b256" kindref="member">~HidBase</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(HidBase)<sp/>==<sp/>0x8);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>hid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h"/>
+  </compounddef>
+</doxygen>

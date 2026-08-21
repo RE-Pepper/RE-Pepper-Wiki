@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="init___start_up_8cpp" kind="file" language="C++">
+    <compoundname>init_StartUp.cpp</compoundname>
+    <includes refid="init___start_up_8h" local="no">nn/init/init_StartUp.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/init/init_StartUp.h</label>
+        <link refid="init___start_up_8h"/>
+      </node>
+      <node id="1">
+        <label>init_StartUp.cpp</label>
+        <link refid="init___start_up_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="init___start_up_8cpp_1a52b1470641add63895e9d688c2ae83a5" prot="public" static="no" mutable="no">
+        <type><ref refid="init___start_up_8h_1a4235a70c372a216b7566db9007812478" kindref="member">nninitStaticInitFunc</ref></type>
+        <definition>nninitStaticInitFunc Image$$STATIC_INIT$$RO$$Base[]</definition>
+        <argsstring>[]</argsstring>
+        <name>Image$$STATIC_INIT$$RO$$Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" line="18" column="33" bodyfile="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" bodystart="18" bodyend="-1"/>
+        <referencedby refid="init___start_up_8h_1aead6f2fa82700f18ef09574fa59613d3" compoundref="init___start_up_8cpp" startline="21" endline="28">nninitCallStaticInitializers</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="init___start_up_8cpp_1a52f75dcfab665093767a76b998f2ae6b" prot="public" static="no" mutable="no">
+        <type><ref refid="init___start_up_8h_1a4235a70c372a216b7566db9007812478" kindref="member">nninitStaticInitFunc</ref></type>
+        <definition>nninitStaticInitFunc Image$$STATIC_INIT$$RO$$Limit[]</definition>
+        <argsstring>[]</argsstring>
+        <name>Image$$STATIC_INIT$$RO$$Limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" line="19" column="33" bodyfile="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" bodystart="19" bodyend="-1"/>
+        <referencedby refid="init___start_up_8h_1aead6f2fa82700f18ef09574fa59613d3" compoundref="init___start_up_8cpp" startline="21" endline="28">nninitCallStaticInitializers</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="init___start_up_8cpp_1a37a1c652e6e6915bc0901b33d5d3fd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RP_SHUTUP void</type>
+        <definition>RP_SHUTUP void nninitSystem</definition>
+        <argsstring>()</argsstring>
+        <name>nninitSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" line="5" column="17" bodyfile="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" bodystart="5" bodyend="11"/>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="init___start_up_8cpp_1a430c7edce2fb905fa09075492645ab5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nninitSetupDaemons</definition>
+        <argsstring>()</argsstring>
+        <name>nninitSetupDaemons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" line="13" column="17" bodyfile="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="init___start_up_8cpp_1aead6f2fa82700f18ef09574fa59613d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nninitCallStaticInitializers</definition>
+        <argsstring>()</argsstring>
+        <name>nninitCallStaticInitializers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" line="21" column="17" bodyfile="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" bodystart="21" bodyend="28"/>
+        <references refid="init___start_up_8cpp_1a52b1470641add63895e9d688c2ae83a5" compoundref="init___start_up_8cpp" startline="18">Image$$STATIC_INIT$$RO$$Base</references>
+        <references refid="init___start_up_8cpp_1a52f75dcfab665093767a76b998f2ae6b" compoundref="init___start_up_8cpp" startline="19">Image$$STATIC_INIT$$RO$$Limit</references>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="init___start_up_8cpp_1a1b12be0589c3ef46088d7ca5c1c5d43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nninitSetup</definition>
+        <argsstring>()</argsstring>
+        <name>nninitSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" line="30" column="17" bodyfile="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp" bodystart="30" bodyend="38"/>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="init___start_up_8h" kindref="compound">nn/init/init_StartUp.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="init___start_up_8h_1aa6b9cc54e52f6fd4e93d063d8798da16" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="init___start_up_8cpp_1a37a1c652e6e6915bc0901b33d5d3fd88" kindref="member">nninitSystem</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>43</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>nn::os::Initialize();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>nn::srv::Initialize();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="init___start_up_8h_1a430c7edce2fb905fa09075492645ab5d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="init___start_up_8cpp_1a430c7edce2fb905fa09075492645ab5d" kindref="member">nninitSetupDaemons</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>55</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>nn::ndm::SetupDaemonsDefault();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="init___start_up_8cpp_1a52b1470641add63895e9d688c2ae83a5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/><ref refid="init___start_up_8h_1a4235a70c372a216b7566db9007812478" kindref="member">nninitStaticInitFunc</ref><sp/><ref refid="init___start_up_8cpp_1a52b1470641add63895e9d688c2ae83a5" kindref="member">Image$$STATIC_INIT$$RO$$Base</ref>[];</highlight></codeline>
+<codeline lineno="19" refid="init___start_up_8cpp_1a52f75dcfab665093767a76b998f2ae6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/><ref refid="init___start_up_8h_1a4235a70c372a216b7566db9007812478" kindref="member">nninitStaticInitFunc</ref><sp/><ref refid="init___start_up_8cpp_1a52f75dcfab665093767a76b998f2ae6b" kindref="member">Image$$STATIC_INIT$$RO$$Limit</ref>[];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="init___start_up_8h_1aead6f2fa82700f18ef09574fa59613d3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="init___start_up_8cpp_1aead6f2fa82700f18ef09574fa59613d3" kindref="member">nninitCallStaticInitializers</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>62</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="init___start_up_8h_1a4235a70c372a216b7566db9007812478" kindref="member">nninitStaticInitFunc</ref>*<sp/>f<sp/>=<sp/><ref refid="init___start_up_8cpp_1a52b1470641add63895e9d688c2ae83a5" kindref="member">Image$$STATIC_INIT$$RO$$Base</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f<sp/>&lt;<sp/><ref refid="init___start_up_8cpp_1a52f75dcfab665093767a76b998f2ae6b" kindref="member">Image$$STATIC_INIT$$RO$$Limit</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++f)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*f)<sp/>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="init___start_up_8h_1a1b12be0589c3ef46088d7ca5c1c5d43c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="init___start_up_8cpp_1a1b12be0589c3ef46088d7ca5c1c5d43c" kindref="member">nninitSetup</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>72</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nninitSetupDefault();</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nn::os::CTR::defaul::SetInternalErrorHandlingMode(0);<sp/>//<sp/>TODO<sp/>MACRO</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nn::applet::CTR::detaul::Initialize(0);<sp/>//<sp/>TODO<sp/>MACRO</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nninitSetupDaemons();</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/init/init_StartUp.cpp"/>
+  </compounddef>
+</doxygen>

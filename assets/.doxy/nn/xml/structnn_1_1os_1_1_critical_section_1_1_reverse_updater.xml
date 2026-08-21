@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_critical_section_1_1_reverse_updater" kind="struct" language="C++" prot="private">
+    <compoundname>nn::os::CriticalSection::ReverseUpdater</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1aeba69bf2a4f6d92515787e10b4e302b8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 nn::os::CriticalSection::ReverseUpdater::afterUpdate</definition>
+        <argsstring></argsstring>
+        <name>afterUpdate</name>
+        <qualifiedname>nn::os::CriticalSection::ReverseUpdater::afterUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="29" column="21" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">nn::os::CriticalSection::Leave</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1a0f01ab65044c87fa6ce1139057865c9b" compoundref="os___critical_section_8h" startline="31" endline="36">operator()</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1a0f01ab65044c87fa6ce1139057865c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::CriticalSection::ReverseUpdater::operator()</definition>
+        <argsstring>(s32 &amp;x)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>nn::os::CriticalSection::ReverseUpdater::operator()</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="31" column="22" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="31" bodyend="36"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1aeba69bf2a4f6d92515787e10b4e302b8" compoundref="os___critical_section_8h" startline="29">afterUpdate</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="27" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="28" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1aeba69bf2a4f6d92515787e10b4e302b8" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection::ReverseUpdater</scope><name>afterUpdate</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1a0f01ab65044c87fa6ce1139057865c9b" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection::ReverseUpdater</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

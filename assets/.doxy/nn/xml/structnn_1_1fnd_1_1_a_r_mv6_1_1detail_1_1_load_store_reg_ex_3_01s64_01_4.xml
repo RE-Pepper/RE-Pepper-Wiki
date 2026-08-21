@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;</compoundname>
+    <includes refid="_a_r_mv6_2fnd___interlocked_8h" local="no">fnd_Interlocked.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1ad52185cb989c3758d26de6ecefa243b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>static s64 nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;::LoadRegEx</definition>
+        <argsstring>(volatile s64 *ptr)</argsstring>
+        <name>LoadRegEx</name>
+        <qualifiedname>nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;::LoadRegEx</qualifiedname>
+        <param>
+          <type>volatile <ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="29" column="20" bodyfile="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1a0410f458a4a3b857303aa8c4486d8369" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;::StoreRegEx</definition>
+        <argsstring>(s64 val, volatile s64 *ptr)</argsstring>
+        <name>StoreRegEx</name>
+        <qualifiedname>nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;::StoreRegEx</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>volatile <ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="33" column="20" bodyfile="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" bodystart="33" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="27" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" bodystart="28" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1ad52185cb989c3758d26de6ecefa243b8" prot="public" virt="non-virtual"><scope>nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;</scope><name>LoadRegEx</name></member>
+      <member refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1a0410f458a4a3b857303aa8c4486d8369" prot="public" virt="non-virtual"><scope>nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;</scope><name>StoreRegEx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

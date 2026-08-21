@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_8674e25a187048eae8b9b07d931da2b2" kind="dir">
+    <compoundname>dbg</compoundname>
+    <innerfile refid="dbg___break_8h">dbg_Break.h</innerfile>
+    <innerfile refid="dbg___debug_string_8h">dbg_DebugString.h</innerfile>
+    <innerfile refid="dbg___enum_8h">dbg_Enum.h</innerfile>
+    <innerfile refid="dbg___print_result_8h">dbg_PrintResult.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/dbg/"/>
+  </compounddef>
+</doxygen>

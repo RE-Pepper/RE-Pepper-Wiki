@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1srv_1_1_event_notification_handler_base" kind="class" language="C++" prot="public">
+    <compoundname>nn::srv::EventNotificationHandlerBase</compoundname>
+    <includes refid="srv___api_8h" local="no">srv_Api.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1srv_1_1_event_notification_handler_base_1a2e90b94d12747f1d3a5dd5d357f96bd4" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_light_event" kindref="compound">os::LightEvent</ref> *</type>
+        <definition>os::LightEvent* nn::srv::EventNotificationHandlerBase&lt; T &gt;::m_pEvent</definition>
+        <argsstring></argsstring>
+        <name>m_pEvent</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::m_pEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="15" column="24" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1a8783162b5157685a217ac09331720e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::srv::EventNotificationHandlerBase&lt; T &gt;::EventNotificationHandlerBase</definition>
+        <argsstring>()</argsstring>
+        <name>EventNotificationHandlerBase</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::EventNotificationHandlerBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="18" column="9" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1aee4f2d6a21046086b73166c3edd5efbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::srv::EventNotificationHandlerBase&lt; T &gt;::Initialize</definition>
+        <argsstring>(os::LightEvent *event)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::Initialize</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1os_1_1_light_event" kindref="compound">os::LightEvent</ref> *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="20" column="14" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1a0e9209c6db0046a16e6c3a1ee553beb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::v0</definition>
+        <argsstring>()</argsstring>
+        <name>v0</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::v0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="22" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1aca46f420044dc7445da472913aa8c518" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::v1</definition>
+        <argsstring>()</argsstring>
+        <name>v1</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::v1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="23" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1a5dd78ba392889736faebf5389b4bb7db" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::v2</definition>
+        <argsstring>()</argsstring>
+        <name>v2</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::v2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="24" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1ad468ef9a2150ce022ced5cc52c13472e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::v3</definition>
+        <argsstring>()</argsstring>
+        <name>v3</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::v3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="25" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1adff95257023fa591a67437d9776ec6f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::v4</definition>
+        <argsstring>()</argsstring>
+        <name>v4</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::v4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="26" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1a1f34b2ed36495e017f27a914c822fc29" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::v5</definition>
+        <argsstring>()</argsstring>
+        <name>v5</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::v5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="27" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1srv_1_1_event_notification_handler_base_1aea25001e2c72d0d67b068c4a972d5431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void nn::srv::EventNotificationHandlerBase&lt; T &gt;::HandleNotification</definition>
+        <argsstring>(bit32)</argsstring>
+        <name>HandleNotification</name>
+        <qualifiedname>nn::srv::EventNotificationHandlerBase::HandleNotification</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="28" column="22" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; LightEvent &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; LightEvent &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+      <node id="2">
+        <label>nn::os::LightEvent</label>
+        <link refid="classnn_1_1os_1_1_light_event"/>
+        <childnode refid="3" relation="private-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_Counter</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::WaitableCounter</label>
+        <link refid="classnn_1_1os_1_1_waitable_counter"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>s_Handle</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::srv::EventNotificationHandlerBase&lt; T &gt;</label>
+        <link refid="classnn_1_1srv_1_1_event_notification_handler_base"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pEvent</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+      <node id="6">
+        <label>nnHandle</label>
+        <link refid="structnn_handle"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="12" column="1" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="13" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1a8783162b5157685a217ac09331720e83" prot="public" virt="non-virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>EventNotificationHandlerBase</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1aea25001e2c72d0d67b068c4a972d5431" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>HandleNotification</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1aee4f2d6a21046086b73166c3edd5efbb" prot="public" virt="non-virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>Initialize</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1a2e90b94d12747f1d3a5dd5d357f96bd4" prot="private" virt="non-virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>m_pEvent</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1a0e9209c6db0046a16e6c3a1ee553beb6" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>v0</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1aca46f420044dc7445da472913aa8c518" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>v1</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1a5dd78ba392889736faebf5389b4bb7db" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>v2</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1ad468ef9a2150ce022ced5cc52c13472e" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>v3</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1adff95257023fa591a67437d9776ec6f2" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>v4</name></member>
+      <member refid="classnn_1_1srv_1_1_event_notification_handler_base_1a1f34b2ed36495e017f27a914c822fc29" prot="public" virt="virtual"><scope>nn::srv::EventNotificationHandlerBase</scope><name>v5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

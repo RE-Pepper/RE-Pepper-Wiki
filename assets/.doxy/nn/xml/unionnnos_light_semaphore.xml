@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="unionnnos_light_semaphore" kind="union" language="C++" prot="public">
+    <compoundname>nnosLightSemaphore</compoundname>
+    <includes refid="os___light_semaphore_8h" local="no">os_LightSemaphore.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/os_LightSemaphore.h" line="99" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_LightSemaphore.h" bodystart="99" bodyend="100"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

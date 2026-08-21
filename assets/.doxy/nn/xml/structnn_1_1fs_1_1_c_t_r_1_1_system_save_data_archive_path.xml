@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::CTR::SystemSaveDataArchivePath</compoundname>
+    <includes refid="fs___archive_types_8h" local="no">fs_ArchiveTypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4</ref>&lt; <ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref> &gt;</type>
+        <definition>util::SizedEnum4&lt;MediaType&gt; nn::fs::CTR::SystemSaveDataArchivePath::mediaType</definition>
+        <argsstring></argsstring>
+        <name>mediaType</name>
+        <qualifiedname>nn::fs::CTR::SystemSaveDataArchivePath::mediaType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="51" column="26" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a350dc2dac4842878259ae8969204f743" compoundref="fs___archive_types_8h" startline="54" endline="60">Make</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacenn_1_1fs_1a6eefc177b2a32a261e683408f09b266f" kindref="member">SystemSaveDataId</ref></type>
+        <definition>SystemSaveDataId nn::fs::CTR::SystemSaveDataArchivePath::systemSaveDataId</definition>
+        <argsstring></argsstring>
+        <name>systemSaveDataId</name>
+        <qualifiedname>nn::fs::CTR::SystemSaveDataArchivePath::systemSaveDataId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="52" column="37" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a350dc2dac4842878259ae8969204f743" compoundref="fs___archive_types_8h" startline="54" endline="60">Make</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a350dc2dac4842878259ae8969204f743" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" kindref="compound">SystemSaveDataArchivePath</ref></type>
+        <definition>static SystemSaveDataArchivePath nn::fs::CTR::SystemSaveDataArchivePath::Make</definition>
+        <argsstring>(MediaType mediaType, SystemSaveDataId systemSaveDataId)</argsstring>
+        <name>Make</name>
+        <qualifiedname>nn::fs::CTR::SystemSaveDataArchivePath::Make</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref></type>
+          <declname>mediaType</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a6eefc177b2a32a261e683408f09b266f" kindref="member">SystemSaveDataId</ref></type>
+          <declname>systemSaveDataId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="54" column="42" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="54" bodyend="60"/>
+        <references refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" compoundref="fs___archive_types_8h" startline="51">mediaType</references>
+        <references refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" compoundref="fs___archive_types_8h" startline="52">systemSaveDataId</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::SizedEnum4&lt; MediaType &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::SystemSaveDataArchivePath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mediaType</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+      <node id="4">
+        <label>nn::util::SizedEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="49" column="1" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="50" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a350dc2dac4842878259ae8969204f743" prot="public" virt="non-virtual"><scope>nn::fs::CTR::SystemSaveDataArchivePath</scope><name>Make</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" prot="public" virt="non-virtual"><scope>nn::fs::CTR::SystemSaveDataArchivePath</scope><name>mediaType</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" prot="public" virt="non-virtual"><scope>nn::fs::CTR::SystemSaveDataArchivePath</scope><name>systemSaveDataId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

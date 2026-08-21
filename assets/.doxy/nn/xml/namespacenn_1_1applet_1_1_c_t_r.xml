@@ -1,0 +1,1035 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1applet_1_1_c_t_r" kind="namespace" language="C++">
+    <compoundname>nn::applet::CTR</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321" prot="public" static="no" strong="no">
+        <type></type>
+        <name>DisplayBufferMode</name>
+        <qualifiedname>nn::applet::CTR::DisplayBufferMode</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321a8f8f949185c14fc28fe5d680df1c308a" prot="public">
+          <name>FORMAT_R8G8B8A8</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321aecfbeff652d8a33a68dcf8bd7dca4d58" prot="public">
+          <name>FORMAT_R8G8B8</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321adb7cd815384781ff962b62ce95586779" prot="public">
+          <name>FORMAT_R5G6B5</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321a598ec809041a8f0d19da6e5cbcb74f04" prot="public">
+          <name>FORMAT_R5G5B5A1</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321abbc4354a670249aa74482b8c7780a9dc" prot="public">
+          <name>FORAMT_R4G4B4A4</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321a3af8a98ef9393bcf5838985f5c6be5d3" prot="public">
+          <name>FORMAT_UNIMPORTABLE</name>
+          <initializer>= 4294967295</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="13" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a5f5fd2058b4274221b411402ce443adb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>HomeButtonState</name>
+        <qualifiedname>nn::applet::CTR::HomeButtonState</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a5f5fd2058b4274221b411402ce443adba39b300540618fe8f1fac91f94dd7e5f4" prot="public">
+          <name>HOME_BUTTON_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a5f5fd2058b4274221b411402ce443adbac288866467b35bfb26e2fc9c610b07c1" prot="public">
+          <name>HOME_BUTTON_SINGLE_PRESSED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a5f5fd2058b4274221b411402ce443adba95e53d3e23f54138ebe3910519bff68b" prot="public">
+          <name>HOME_BUTTON_DOUBLE_PRESSED</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="23" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a1f87f1facaad74fdd8a39b87b00adcfd" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ShutdownState</name>
+        <qualifiedname>nn::applet::CTR::ShutdownState</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a1f87f1facaad74fdd8a39b87b00adcfda4b9be02e8d40fed7f0021985b2bbd7d8" prot="public">
+          <name>SHUTDOWN_STATE_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a1f87f1facaad74fdd8a39b87b00adcfda9ad914ff4071fee01cd251e6da5ff54b" prot="public">
+          <name>SHUTDOWN_STATE_RECEIVED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="30" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a32d52df8c7d9973ba5c84f556839f887" prot="public" static="no" strong="no">
+        <type></type>
+        <name>PowerButtonState</name>
+        <qualifiedname>nn::applet::CTR::PowerButtonState</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a32d52df8c7d9973ba5c84f556839f887a6095c0963d1fd8b82f51ce40041ebd8e" prot="public">
+          <name>POWER_BUTTON_STATE_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a32d52df8c7d9973ba5c84f556839f887a51fe19496fc765194fbe735998b96b34" prot="public">
+          <name>POWER_BUTTON_STATE_CLICK</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="36" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1afabca92bd736a280532d3eb3c15e503d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>OrderToCloseState</name>
+        <qualifiedname>nn::applet::CTR::OrderToCloseState</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1afabca92bd736a280532d3eb3c15e503dab4ed3b220346bd019f97e8f429270eb6" prot="public">
+          <name>ORDER_TO_CLOSE_STATE_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1afabca92bd736a280532d3eb3c15e503da9a744ae8707ba7fc59f4650e95e093c9" prot="public">
+          <name>ORDER_TO_CLOSE_STATE_RECEIVED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="42" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a9520ac8a4285cc5e0dbab7b28b914f7d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AppJumpType</name>
+        <qualifiedname>nn::applet::CTR::AppJumpType</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a9520ac8a4285cc5e0dbab7b28b914f7dabd5cbe43c2dec92044894cae71719db9" prot="public">
+          <name>JUMP_OTHER</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a9520ac8a4285cc5e0dbab7b28b914f7dadb8fefd99788c249899b3da39d77291c" prot="public">
+          <name>JUMP_CALLER</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a9520ac8a4285cc5e0dbab7b28b914f7da891c4f80a001a6a12eb3718821604836" prot="public">
+          <name>JUMP_SELF</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="47" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AppletPos</name>
+        <qualifiedname>nn::applet::CTR::AppletPos</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799a857f48dbf2f6ddb07289f6a18f7ecefd" prot="public">
+          <name>POS_APP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799a877c2d6b52f8034e26fcaf74feb6bd6e" prot="public">
+          <name>POS_APPLIB</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799a282dfc18010a741460a480f68f36b27b" prot="public">
+          <name>POS_SYS</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799a635019e6c1dc865a2fe490ab44c6b743" prot="public">
+          <name>POS_SYSLIB</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799aaf9df3d501adff40f347553596c7fe9b" prot="public">
+          <name>POS_RESIDENT</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799a2263c64a44a317b33cdf26f3055ed605" prot="public">
+          <name>POS_MAX</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aae87ec9662f4f1f245c28df1d3440799aa876a8c50673162ada814719ceb0b244" prot="public">
+          <name>POS_NONE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="54" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="55" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SleepNotificationState</name>
+        <qualifiedname>nn::applet::CTR::SleepNotificationState</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcbad9775fc5637278f82cff4689b82a6d58" prot="public">
+          <name>NOTIFY_NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcba46a3d2b52f781b30aec8591902f35ec6" prot="public">
+          <name>NOTIFY_SLEEP_QUERY</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcba2eadb827b4fc55046ab77c4e50b8a524" prot="public">
+          <name>NOTIFY_SLEEP_ACCEPT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcba822c12b2a21c6767e438c0214dffcaf8" prot="public">
+          <name>NOTIFY_SLEEP_REJECT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcba54405eb8776cb4399ced35bf770d244a" prot="public">
+          <name>NOTIFY_SLEEP_ACCEPTED</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ae0737efed69a19e36a5b205076e9dfcba6a5a39283a08b15865233fdc7f86142b" prot="public">
+          <name>NOTIFY_AWAKE</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="65" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="66" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fc" prot="public" static="no" strong="no">
+        <type></type>
+        <name>WakeupState</name>
+        <qualifiedname>nn::applet::CTR::WakeupState</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca0dbe525a55966541da3b44548e851316" prot="public">
+          <name>WAKEUP_SKIP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca8fb3a7e187a15dfd2557f83caa9881ed" prot="public">
+          <name>WAKEUP_TO_START</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fcae7c19e275f02446181c1416b1c984088" prot="public">
+          <name>WAKEUP_BY_EXIT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fcafbc640ad938fcebf15dd1f14c2657200" prot="public">
+          <name>WAKEUP_BY_PAUSE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca0156b389807f17d1eb14ee66518804d0" prot="public">
+          <name>WAKEUP_BY_CANCEL</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fcab7438d721f0a773fc29a9f32f8b67212" prot="public">
+          <name>WAKEUP_BY_CANCELALL</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fcab6a46b2944889862e039760e52a1e01f" prot="public">
+          <name>WAKEUP_BY_POWER_BUTTON_CLICK</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fcab1c90230c1d197f595989cce3a0bd947" prot="public">
+          <name>WAKEUP_TO_JUMP_HOME</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca2661278d769be86c52b2a2d8aaa22d8c" prot="public">
+          <name>WAKEUP_TO_JUMP_APPLICATION</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca583435a92fd30639dc5ca84d09711192" prot="public">
+          <name>WAKEUP_TO_LAUNCH_APPLICATION</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fcaa610df1ed668684deb5ff92f871582ae" prot="public">
+          <name>WAKEUP_BY_SUSPEND</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca0504f8339135b4b5157ff542821febdd" prot="public">
+          <name>WAKEUP_STATE_MAX</name>
+          <initializer>= 63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fca90035c2ee6b94e84b4b6e65d2d447e46" prot="public">
+          <name>WAKEUP_BY_TIMEOUT</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="75" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="76" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a5d649d53cbce18a7b9e00f538f109802" prot="public" static="no" strong="no">
+        <type></type>
+        <name>QueryReply</name>
+        <qualifiedname>nn::applet::CTR::QueryReply</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a5d649d53cbce18a7b9e00f538f109802a1c12dad26620f937706f25acdf4317e2" prot="public">
+          <name>REPLY_REJECT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a5d649d53cbce18a7b9e00f538f109802ab3d39fb3d35c0ad444fc689488e43f04" prot="public">
+          <name>REPLY_ACCEPT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a5d649d53cbce18a7b9e00f538f109802a25ae1bc3dccd0e69121ccfd9a87c8a5b" prot="public">
+          <name>REPLY_LATER</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="92" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a94240e6a035876e62ff434afce44b8ca" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ParentalControlsScene</name>
+        <qualifiedname>nn::applet::CTR::ParentalControlsScene</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a94240e6a035876e62ff434afce44b8caac73da05e93dbc9103cd13139ab0da96d" prot="public">
+          <name>PARENTAL_CONTROLS_TOP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a94240e6a035876e62ff434afce44b8caa19d16cac422055ddfdbf33a14236ea68" prot="public">
+          <name>PARENTAL_CONTROLS_COPPACS</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="99" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1a37d6ee5ded8e8d998cc67cc61f2574f2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>DataManagementScene</name>
+        <qualifiedname>nn::applet::CTR::DataManagementScene</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a37d6ee5ded8e8d998cc67cc61f2574f2a2edb0e26031096a5b4ed041246037978" prot="public">
+          <name>DATA_MANAGEMENT_TOP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1a37d6ee5ded8e8d998cc67cc61f2574f2ac3a5b2c7746ac58ae8b98a29396bf080" prot="public">
+          <name>DATA_MANAGEMENT_STREETPASS</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="105" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MsetScene</name>
+        <qualifiedname>nn::applet::CTR::MsetScene</qualifiedname>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0af21e7e5d9e689d83628333bc067c9ec4" prot="public">
+          <name>MSET_INTERNET_SETTING_TOP</name>
+          <initializer>= 110</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0a678cc1e21f703c997efaff1ece5b8cdf" prot="public">
+          <name>MSET_PARENTAL_CONTROLS_TOP</name>
+          <initializer>= 111</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0aa4410a1cf41b74e869d7c3d14cb78d9a" prot="public">
+          <name>MSET_PARENTAL_CONTROLS_COPPACS</name>
+          <initializer>= 112</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0a67ae921104e51aeaa02da1931d18a512" prot="public">
+          <name>MSET_DATA_MANAGEMENT_TOP</name>
+          <initializer>= 113</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0a529685ced1122ccdedcf116a3ec3d6ed" prot="public">
+          <name>MSET_DATA_MANAGEMENT_STREETPASS</name>
+          <initializer>= 117</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0a7a425c36045f47583c1eef4736cd264c" prot="public">
+          <name>MSET_SCENE_INVALID_VALUE</name>
+          <initializer>= 4294967295</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="111" column="1" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="112" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1aefa64b3f2dce0291d39bfc25c5af2372" prot="public" static="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>typedef bit32 nn::applet::CTR::AppletId</definition>
+        <argsstring></argsstring>
+        <name>AppletId</name>
+        <qualifiedname>nn::applet::CTR::AppletId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="121" column="15" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1ac81d71855c59eb26eb0bcd07e2e3697b" prot="public" static="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>typedef bit32 nn::applet::CTR::AppletAttr</definition>
+        <argsstring></argsstring>
+        <name>AppletAttr</name>
+        <qualifiedname>nn::applet::CTR::AppletAttr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="123" column="15" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1aa1600f1bc282c8d735373ac4cd7bfb59" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a3ad93da74a875e165b27c41ddcbf6321" kindref="member">DisplayBufferMode</ref></type>
+        <definition>typedef DisplayBufferMode nn::applet::CTR::AppletDisplayBufferMode</definition>
+        <argsstring></argsstring>
+        <name>AppletDisplayBufferMode</name>
+        <qualifiedname>nn::applet::CTR::AppletDisplayBufferMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="125" column="27" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a7175b4677db65f7b7f592d755910a6fa" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a1f87f1facaad74fdd8a39b87b00adcfd" kindref="member">ShutdownState</ref></type>
+        <definition>typedef ShutdownState nn::applet::CTR::AppletShutdownState</definition>
+        <argsstring></argsstring>
+        <name>AppletShutdownState</name>
+        <qualifiedname>nn::applet::CTR::AppletShutdownState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="127" column="23" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1aa36b4eb534586d7c268debf928a24dfe" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a32d52df8c7d9973ba5c84f556839f887" kindref="member">PowerButtonState</ref></type>
+        <definition>typedef PowerButtonState nn::applet::CTR::AppletPowerButtonState</definition>
+        <argsstring></argsstring>
+        <name>AppletPowerButtonState</name>
+        <qualifiedname>nn::applet::CTR::AppletPowerButtonState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="129" column="26" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1ac2a5abdd68cd48907af908f09c8c5f73" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1afabca92bd736a280532d3eb3c15e503d" kindref="member">OrderToCloseState</ref></type>
+        <definition>typedef OrderToCloseState nn::applet::CTR::AppletOrderToCloseState</definition>
+        <argsstring></argsstring>
+        <name>AppletOrderToCloseState</name>
+        <qualifiedname>nn::applet::CTR::AppletOrderToCloseState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="131" column="27" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a641e3330cf6464ed4a23427e20803925" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1aed5cd01bf019d24e8e1f94210dc636fc" kindref="member">WakeupState</ref></type>
+        <definition>typedef WakeupState nn::applet::CTR::AppletWakeupState</definition>
+        <argsstring></argsstring>
+        <name>AppletWakeupState</name>
+        <qualifiedname>nn::applet::CTR::AppletWakeupState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="133" column="21" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a43e3f398a12a37baf0987f59b01512f4" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a5d649d53cbce18a7b9e00f538f109802" kindref="member">QueryReply</ref></type>
+        <definition>typedef QueryReply nn::applet::CTR::AppletQueryReply</definition>
+        <argsstring></argsstring>
+        <name>AppletQueryReply</name>
+        <qualifiedname>nn::applet::CTR::AppletQueryReply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="135" column="20" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a80db6c3f0f395f4eb9379917390a8f7b" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a9520ac8a4285cc5e0dbab7b28b914f7d" kindref="member">AppJumpType</ref></type>
+        <definition>typedef AppJumpType nn::applet::CTR::AppletAppJumpType</definition>
+        <argsstring></argsstring>
+        <name>AppletAppJumpType</name>
+        <qualifiedname>nn::applet::CTR::AppletAppJumpType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="137" column="21" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1aee4a1219bf734347ac765af0626bfb64" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a94240e6a035876e62ff434afce44b8ca" kindref="member">ParentalControlsScene</ref></type>
+        <definition>typedef ParentalControlsScene nn::applet::CTR::AppletParentalControlsScene</definition>
+        <argsstring></argsstring>
+        <name>AppletParentalControlsScene</name>
+        <qualifiedname>nn::applet::CTR::AppletParentalControlsScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="139" column="31" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a2510cd98fad9849b64aa79ace9a1cdff" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a37d6ee5ded8e8d998cc67cc61f2574f2" kindref="member">DataManagementScene</ref></type>
+        <definition>typedef DataManagementScene nn::applet::CTR::AppletDataManagementScene</definition>
+        <argsstring></argsstring>
+        <name>AppletDataManagementScene</name>
+        <qualifiedname>nn::applet::CTR::AppletDataManagementScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="141" column="29" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a632a209ca7f9b4787d0ea0843f839dad" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1ab0d157519b3998f945ffc8b8601cb8c0" kindref="member">MsetScene</ref></type>
+        <definition>typedef MsetScene nn::applet::CTR::AppletMsetScene</definition>
+        <argsstring></argsstring>
+        <name>AppletMsetScene</name>
+        <qualifiedname>nn::applet::CTR::AppletMsetScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="143" column="19" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1acfbbc96d12cfd0886f14700166645dbc" prot="public" static="no">
+        <type>bool(*</type>
+        <definition>typedef bool(* nn::applet::CTR::AppletHomeButtonCallback) (uptr, AppletId, u8 *, size_t)</definition>
+        <argsstring>)(uptr, AppletId, u8 *, size_t)</argsstring>
+        <name>AppletHomeButtonCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletHomeButtonCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="145" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1aee2b19c4dc667ce5e460ff9130334bad" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletMessageCallback) (uptr, size_t)</definition>
+        <argsstring>)(uptr, size_t)</argsstring>
+        <name>AppletMessageCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletMessageCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="147" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1ad65b43d0ac7a0065c844bc099f2e835a" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletRequestMemoryCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletRequestMemoryCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletRequestMemoryCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="149" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a38394bbf6ac22fde530e6b7b37d2e1a5" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletReleaseMemoryCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletReleaseMemoryCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletReleaseMemoryCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="151" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1ac663809ef0919a94b2d8ce8ea996445b" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletDspSleepCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletDspSleepCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletDspSleepCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="153" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1aa6fc25a6e006c5baf48601ed28d1819a" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletDspWakeUpCallback) (AppletQueryReply)</definition>
+        <argsstring>)(AppletQueryReply)</argsstring>
+        <name>AppletDspWakeUpCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletDspWakeUpCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="155" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1adf233ba47041c33cb3dd595bbe32b217" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1applet_1_1_c_t_r_1a5d649d53cbce18a7b9e00f538f109802" kindref="member">AppletQueryReply</ref>(*</type>
+        <definition>typedef AppletQueryReply(* nn::applet::CTR::AppletSleepQueryCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletSleepQueryCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletSleepQueryCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="157" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a9d74dbb22919319b773983c1ed01d628" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletSleepCanceledCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletSleepCanceledCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletSleepCanceledCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="159" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a1cc954b780ef0460655a64cc25e851dc" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletAwakeCallback) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>AppletAwakeCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletAwakeCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="161" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1ab33c3be9d70b58b3a701df4b45a618ca" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletShutdownCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletShutdownCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletShutdownCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="163" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a0e2dada342d587bf3492119ee6fa4583" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletCloseAppletCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletCloseAppletCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletCloseAppletCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="165" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a890247aef4ec397256b2f0a5c0549f89" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletPowerButtonCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletPowerButtonCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletPowerButtonCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="167" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1ab4e30367244268f320781f2b10a9e492" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletTransitionCallback) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>AppletTransitionCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletTransitionCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="169" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1applet_1_1_c_t_r_1a817d97c7a73cf4301760981bb0a2d155" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::applet::CTR::AppletCloseCallback) (Handle)</definition>
+        <argsstring>)(Handle)</argsstring>
+        <name>AppletCloseCallback</name>
+        <qualifiedname>nn::applet::CTR::AppletCloseCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="171" column="9" bodyfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacenn_1_1applet_1_1_c_t_r_1a2f5be8a25f51b6741bb971650aaf6224" prot="public" static="no" extern="yes" mutable="no">
+        <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref></type>
+        <definition>const fnd::TimeSpan nn::applet::CTR::WAIT_INFINITE</definition>
+        <argsstring></argsstring>
+        <name>WAIT_INFINITE</name>
+        <qualifiedname>nn::applet::CTR::WAIT_INFINITE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="10" column="28" declfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" declline="10" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1applet_1_1_c_t_r_1a2bc2f7e3a30b588434022a624a0de880" prot="public" static="no" extern="yes" mutable="no">
+        <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref></type>
+        <definition>const fnd::TimeSpan nn::applet::CTR::NO_WAIT</definition>
+        <argsstring></argsstring>
+        <name>NO_WAIT</name>
+        <qualifiedname>nn::applet::CTR::NO_WAIT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="11" column="28" declfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" declline="11" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1applet_1_1_c_t_r_1aa4dfb5b58dfcb88200808269315ea546" prot="public" static="no" extern="yes" mutable="no">
+        <type>const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>const Handle nn::applet::CTR::HANDLE_NONE</definition>
+        <argsstring></argsstring>
+        <name>HANDLE_NONE</name>
+        <qualifiedname>nn::applet::CTR::HANDLE_NONE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="173" column="21" declfile="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" declline="173" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

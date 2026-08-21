@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_transaction" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::Transaction</compoundname>
+    <includes refid="fs___parameters_8h" local="no">fs_Parameters.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_transaction_1a08fdfd386326a6be4edc2210a87fc0bb" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::fs::Transaction::dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <qualifiedname>nn::fs::Transaction::dummy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="8" column="15" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="6" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_transaction_1a08fdfd386326a6be4edc2210a87fc0bb" prot="public" virt="non-virtual"><scope>nn::fs::Transaction</scope><name>dummy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

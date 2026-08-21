@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a6e5a7cf4483a27db30ba3ca24e878496" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::pupillaryDist</definition>
+        <argsstring></argsstring>
+        <name>pupillaryDist</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::pupillaryDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="50" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a23b2ab70b807572dbb445511890cdba6" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::distEyeAndDisp</definition>
+        <argsstring></argsstring>
+        <name>distEyeAndDisp</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::distEyeAndDisp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="51" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1ad5277c28877fffc30937fe5576caf041" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::wideSideLen</definition>
+        <argsstring></argsstring>
+        <name>wideSideLen</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::wideSideLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="52" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a63b19fd4735a29a920e53c56ad32b474" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::narrowSideLen</definition>
+        <argsstring></argsstring>
+        <name>narrowSideLen</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::narrowSideLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="53" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a50cec03e1b4c8039781ea0e90dc247b7" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxParallaxBack</definition>
+        <argsstring></argsstring>
+        <name>maxParallaxBack</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxParallaxBack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="54" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1ab25d62fc19df65e4c5d89170ac7400f1" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxParallaxFront</definition>
+        <argsstring></argsstring>
+        <name>maxParallaxFront</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxParallaxFront</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="55" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1ae21be6e3cf75ce1b42c9036ae360b2a0" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxDepthRangeBack</definition>
+        <argsstring></argsstring>
+        <name>maxDepthRangeBack</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxDepthRangeBack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="56" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1afdb052c7e17ee5e791f7e4d2c4f2c05f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxDepthRangeFront</definition>
+        <argsstring></argsstring>
+        <name>maxDepthRangeFront</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData::maxDepthRangeFront</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="57" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="48" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="49" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a23b2ab70b807572dbb445511890cdba6" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>distEyeAndDisp</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1ae21be6e3cf75ce1b42c9036ae360b2a0" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>maxDepthRangeBack</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1afdb052c7e17ee5e791f7e4d2c4f2c05f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>maxDepthRangeFront</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a50cec03e1b4c8039781ea0e90dc247b7" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>maxParallaxBack</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1ab25d62fc19df65e4c5d89170ac7400f1" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>maxParallaxFront</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a63b19fd4735a29a920e53c56ad32b474" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>narrowSideLen</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1a6e5a7cf4483a27db30ba3ca24e878496" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>pupillaryDist</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data_1ad5277c28877fffc30937fe5576caf041" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</scope><name>wideSideLen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_56153499d95e77076f83f9f8405b15c2" kind="dir">
+    <compoundname>os</compoundname>
+    <innerdir refid="dir_9d5035ea42e3a15a3c12a88837862b5a">CTR</innerdir>
+    <innerfile refid="os___critical_section_8cpp">os_CriticalSection.cpp</innerfile>
+    <innerfile refid="os___light_event_8cpp">os_LightEvent.cpp</innerfile>
+    <innerfile refid="os___light_semaphore_8cpp">os_LightSemaphore.cpp</innerfile>
+    <innerfile refid="os___result_failure_handler_8cpp">os_ResultFailureHandler.cpp</innerfile>
+    <innerfile refid="os___synchronization_8cpp">os_Synchronization.cpp</innerfile>
+    <innerfile refid="os___thread_8cpp">os_Thread.cpp</innerfile>
+    <innerfile refid="os___thread_local_storage_8cpp">os_ThreadLocalStorage.cpp</innerfile>
+    <innerfile refid="os___waitable_counter_8cpp">os_WaitableCounter.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/os/"/>
+  </compounddef>
+</doxygen>

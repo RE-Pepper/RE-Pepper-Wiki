@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::cfg::CTR::detail</compoundname>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_abl_detail_cfg_data" prot="public">nn::cfg::CTR::detail::AblDetailCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_interface_param" prot="public">nn::cfg::CTR::detail::AnalogInterfaceParam</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data" prot="public">nn::cfg::CTR::detail::AnalogStickCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_back_light_cfg_data" prot="public">nn::cfg::CTR::detail::BackLightCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_backlight_pwm_table_cfg_data" prot="public">nn::cfg::CTR::detail::BacklightPwmTableCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_boss_setting_cfg_data" prot="public">nn::cfg::CTR::detail::BossSettingCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data" prot="public">nn::cfg::CTR::detail::CameraCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data" prot="public">nn::cfg::CTR::detail::CameraPositionCalData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data" prot="public">nn::cfg::CTR::detail::CameraQualityCalData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_codec_cfg_data" prot="public">nn::cfg::CTR::detail::CodecCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data" prot="public">nn::cfg::CTR::detail::DebugParamCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data" prot="public">nn::cfg::CTR::detail::EulaInfoCfgData</innerclass>
+    <innerclass refid="unionnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_version" prot="public">nn::cfg::CTR::detail::EulaVersion</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data" prot="public">nn::cfg::CTR::detail::FirstLaunchInfoCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_home_button_setting_cfg_data" prot="public">nn::cfg::CTR::detail::HomeButtonSettingCfgData</innerclass>
+    <innerclass refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user" prot="public">nn::cfg::CTR::detail::IpcUser</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_language_cfg_data" prot="public">nn::cfg::CTR::detail::LanguageCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data" prot="public">nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data" prot="public">nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_menu_info_cfg_data" prot="public">nn::cfg::CTR::detail::MenuInfoCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_pseudo_rom_id_cfg_data" prot="public">nn::cfg::CTR::detail::PseudoRomIdCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_simple_address_id_cfg_data" prot="public">nn::cfg::CTR::detail::SimpleAddressIdCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_simple_address_position_cfg_data" prot="public">nn::cfg::CTR::detail::SimpleAddressPositionCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume" prot="public">nn::cfg::CTR::detail::SlideVolume</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_sound_setting_cfg_data" prot="public">nn::cfg::CTR::detail::SoundSettingCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_surround_cfg_data" prot="public">nn::cfg::CTR::detail::SurroundCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data" prot="public">nn::cfg::CTR::detail::SystemInfoCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_country_code_cfg_data" prot="public">nn::cfg::CTR::detail::TwlCountryCodeCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_eula_info_cfg_data" prot="public">nn::cfg::CTR::detail::TwlEulaInfoCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_movable_unique_id_cfg_data" prot="public">nn::cfg::CTR::detail::TwlMovableUniqueIdCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_twl_parental_control_info_cfg_data" prot="public">nn::cfg::CTR::detail::TwlParentalControlInfoCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_delay_cfg_data" prot="public">nn::cfg::CTR::detail::UlcdDelayCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_lib_assumption_cfg_data" prot="public">nn::cfg::CTR::detail::UlcdLibAssumptionCfgData</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_user_name_cfg_data" prot="public">nn::cfg::CTR::detail::UserNameCfgData</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_IPCPortType</name>
+        <qualifiedname>nn::cfg::CTR::detail::_IPCPortType</qualifiedname>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69af0ef7f7009eaeaccc809e42f40c6f37e" prot="public">
+          <name>PORT_CFG_USER</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69ae775521c84ddcff1249323c96f22d6ea" prot="public">
+          <name>PORT_CFG_SYS</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69ab78af539f04ea8450562203d5e4112e4" prot="public">
+          <name>PORT_CFG_INIT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69a9d3d6e373ab685b49a5888e8bc1018d5" prot="public">
+          <name>PORT_CFG_NOR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69adaab26d2184e8cf9b8d62445ce5c6715" prot="public">
+          <name>NUM_OF_IPC_PORT</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" bodystart="12" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" prot="public" static="no">
+        <type>enum <ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69" kindref="member">nn::cfg::CTR::detail::_IPCPortType</ref></type>
+        <definition>typedef enum nn::cfg::CTR::detail::_IPCPortType nn::cfg::CTR::detail::IPCPortType</definition>
+        <argsstring></argsstring>
+        <name>IPCPortType</name>
+        <qualifiedname>nn::cfg::CTR::detail::IPCPortType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" line="18" column="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a60d194a6aa12711adf0877fccf401328" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1_birthday" kindref="compound">Birthday</ref></type>
+        <definition>typedef struct Birthday nn::cfg::CTR::detail::BirthdayCfgData</definition>
+        <argsstring></argsstring>
+        <name>BirthdayCfgData</name>
+        <qualifiedname>nn::cfg::CTR::detail::BirthdayCfgData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="180" column="23" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a8061fe63aa732370c865114fdffe97c5" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info" kindref="compound">ParentalControlInfo</ref></type>
+        <definition>typedef struct ParentalControlInfo nn::cfg::CTR::detail::ParentalControlInfoCfgData</definition>
+        <argsstring></argsstring>
+        <name>ParentalControlInfoCfgData</name>
+        <qualifiedname>nn::cfg::CTR::detail::ParentalControlInfoCfgData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="200" column="34" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a6600e374660c95f8c56640e53803c6c9" prot="public" static="no">
+        <type>struct EchoCancelParam</type>
+        <definition>typedef struct EchoCancelParam nn::cfg::CTR::detail::EchoCancelCfgData</definition>
+        <argsstring></argsstring>
+        <name>EchoCancelCfgData</name>
+        <qualifiedname>nn::cfg::CTR::detail::EchoCancelCfgData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="233" column="30" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a9459b6450dda5e5ab83003fb91a794d0" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data" kindref="compound">nn::cfg::CTR::detail::CameraCfgData</ref></type>
+        <definition>struct nn::cfg::CTR::detail::CameraCfgData nn::cfg::CTR::detail::NN_PACK</definition>
+        <argsstring></argsstring>
+        <name>NN_PACK</name>
+        <qualifiedname>nn::cfg::CTR::detail::NN_PACK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="111" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a7919e534cb9f5e5e2447c87148f7860f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::cfg::CTR::detail::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="30" column="8" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="30" bodyend="35" declfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" declline="20" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1ab2deadf900e0a32dd831a7253ee35668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::InitializeProperPort</definition>
+        <argsstring>(IPCPortType *pPortType)</argsstring>
+        <name>InitializeProperPort</name>
+        <qualifiedname>nn::cfg::CTR::detail::InitializeProperPort</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" kindref="member">IPCPortType</ref> *</type>
+          <declname>pPortType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="42" column="8" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="42" bodyend="47" declfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" declline="21" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a1033654a36482571b13bcae439509499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::cfg::CTR::detail::Finalize</definition>
+        <argsstring>()</argsstring>
+        <name>Finalize</name>
+        <qualifiedname>nn::cfg::CTR::detail::Finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="37" column="6" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="37" bodyend="40" declfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a26294c214beaee6eb3f6580a8def7f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::cfg::CTR::detail::FinalizeProperPort</definition>
+        <argsstring>(IPCPortType portType)</argsstring>
+        <name>FinalizeProperPort</name>
+        <qualifiedname>nn::cfg::CTR::detail::FinalizeProperPort</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" kindref="member">IPCPortType</ref></type>
+          <declname>portType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="49" column="6" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="49" bodyend="52" declfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a9fca2dc3d74f47dea040c5fbcae3b96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::GetConfig</definition>
+        <argsstring>(void *pData, size_t size, bit32 key)</argsstring>
+        <name>GetConfig</name>
+        <qualifiedname>nn::cfg::CTR::detail::GetConfig</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pData</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="54" column="8" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="54" bodyend="58" declfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" declline="26" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a43867b75de488c7b808a80677b99c0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::cfg::CTR::detail::var</definition>
+        <argsstring>(nn::cfg::CTR::detail, PORT_NAME_CFG_USER, const char *const)</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::cfg::CTR::detail::var</qualifiedname>
+        <param>
+          <type>nn::cfg::CTR::detail</type>
+        </param>
+        <param>
+          <type>PORT_NAME_CFG_USER</type>
+        </param>
+        <param>
+          <type>const char * const</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="9" column="1" declfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" declline="9" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a4e73b7e08b3fcbb38de4ee665a324ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type></type>
+        <definition>nn::cfg::CTR::detail::var</definition>
+        <argsstring>(nn::cfg::CTR::detail, s_InitializeCount, int)=0</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::cfg::CTR::detail::var</qualifiedname>
+        <param>
+          <type>nn::cfg::CTR::detail</type>
+        </param>
+        <param>
+          <type>s_InitializeCount</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="11" column="1" declfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" declline="11" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5f9661c565c64f6ef282a0b05bfb7814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::cfg::CTR::detail::var</definition>
+        <argsstring>(nn::cfg::CTR::detail, s_Initialized, bool)</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::cfg::CTR::detail::var</qualifiedname>
+        <param>
+          <type>nn::cfg::CTR::detail</type>
+        </param>
+        <param>
+          <type>s_Initialized</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="12" column="1" declfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" declline="12" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5d47c465b07c676262dc712d396fff49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::InitializeBase</definition>
+        <argsstring>(Handle *pSession, const char *name)</argsstring>
+        <name>InitializeBase</name>
+        <qualifiedname>nn::cfg::CTR::detail::InitializeBase</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>pSession</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="14" column="8" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a692749d5059633390a293c79955e8c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::FinalizeBase</definition>
+        <argsstring>(Handle *pSession)</argsstring>
+        <name>FinalizeBase</name>
+        <qualifiedname>nn::cfg::CTR::detail::FinalizeBase</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>pSession</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" line="22" column="8" bodyfile="lib/CtrSDK/sources/libraries/cfg/CTR/cfg_DetailApi.cpp" bodystart="22" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___error_handler_8cpp" kind="file" language="C++">
+    <compoundname>os_ErrorHandler.cpp</compoundname>
+    <includes refid="os___error_handler_8h" local="no">nn/os/CTR/os_ErrorHandler.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/os/CTR/os_ErrorHandler.h</label>
+        <link refid="os___error_handler_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>os_ErrorHandler.cpp</label>
+        <link refid="os___error_handler_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r">nn::os::CTR</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r_1_1detail">nn::os::CTR::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___error_handler_8h" kindref="compound">nn/os/CTR/os_ErrorHandler.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a43867b75de488c7b808a80677b99c0bc" kindref="member">var</ref>(<ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail" kindref="compound">nn::os::CTR::detail</ref>,<sp/>s_PreferFatal,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" kindref="member">HandleInternalError</ref><sp/>(<ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno)</highlight><highlight class="comment">//<sp/>31</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Result::Level</ref><sp/>level;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1aadb1ed307aa16e016d36c06fa896650c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" kindref="member">HandleInternalError</ref><sp/>(<ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>result)<sp/></highlight><highlight class="comment">//<sp/>68</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Result::Level</ref><sp/>level;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1aeb8241468ed4be6f706d93d1986e1f8d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1aeb8241468ed4be6f706d93d1986e1f8d" kindref="member">SetInternalErrorHandlingMode</ref><sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>preferFatal)<sp/></highlight><highlight class="comment">//<sp/>97</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s_PreferFatal<sp/>=<sp/>preferFatal;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp"/>
+  </compounddef>
+</doxygen>

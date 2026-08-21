@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File math_VEC3.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-math_vec3cpp">File math_VEC3.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_6ad72fc0abbc32b2f59992fddd21f3c1/"><strong>sources</strong></a> <strong>&gt;</strong> <a href="../dir_80d58af41f6b82f04b97d791f7cfcb5d/"><strong>libraries</strong></a> <strong>&gt;</strong> <a href="../dir_68bcfd8977fdf21ff1be1de1cc37a3c2/"><strong>math</strong></a> <strong>&gt;</strong> <a href="../math___v_e_c3_8cpp/"><strong>math_VEC3.cpp</strong></a></p>
+<p><a href="../math___v_e_c3_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;nn/math/math_VEC3.h&gt;
+
+namespace nn {
+namespace math {
+    namespace ARMv6 {
+
+        // clang-format off
+
+    void asm(VEC3SubAsm)(VEC3* out, const VEC3* v1, const VEC3* v2)
+    {
+        vldmia r1, {s0, s1, s2}
+        vldmia r2, {s3, s4, s5}
+        vsub.f32 s6, s0, s3
+        vsub.f32 s7, s1, s4
+        vsub.f32 s8, s2, s5
+        vstmia r0, {s6, s7, s8}
+        bx lr
+    }
+
+    void asm(VEC3MulAsm)(VEC3* out, const VEC3* v1, float f)
+    {
+        vldmia r1, {s1, s2, s3}
+        vmul.f32 s4, s1, s0
+        vmul.f32 s5, s2, s0
+        vmul.f32 s6, s3, s0
+        vstmia r0, {s4, s5, s6}
+        bx lr
+    }
+
+        // clang-format on
+
+    } // namespace ARMv6
+} // namespace math
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="srv___result_8h" kind="file" language="C++">
+    <compoundname>srv_Result.h</compoundname>
+    <includes refid="_result_8h" local="no">nn/Result.h</includes>
+    <includedby refid="srv___api_8cpp" local="no">srv_Api.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="1">
+        <label>srv_Result.h</label>
+        <link refid="srv___result_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>srv_Result.h</label>
+        <link refid="srv___result_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1srv">nn::srv</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="srv___result_8h_1a7b8e7f95608b66829d97359178d8119b" prot="public" static="no">
+        <name>_NN_SRV_MAKE_RESULT</name>
+        <param><defname>Res</defname></param>
+        <param><defname>Sum</defname></param>
+        <param><defname>Desc</defname></param>
+        <initializer>        <ref refid="_result_8h_1a384bfe13fee587f4a92b9a188f84d6bc" kindref="member">NN_RESULT_DEF</ref> (MakePermanentResult, Res, Result::Sum, Desc)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Result.h" line="31" column="9" bodyfile="lib/CtrSDK/include/nn/srv/srv_Result.h" bodystart="31" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_result_8h" kindref="compound">nn/Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">srv<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312b" kindref="member">Description</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312bae51393c8ebc94d3409603c635dbf0570" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312bae51393c8ebc94d3409603c635dbf0570" kindref="member">DESCRIPTION_FAILED_SYNCHRONIZATION</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba810d45b43ef140fc6517a99832360406" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba810d45b43ef140fc6517a99832360406" kindref="member">DESCRIPTION_NO_SUCH_HANDLE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba9e038795dd918f998f7d90eed06782e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba9e038795dd918f998f7d90eed06782e7" kindref="member">DESCRIPTION_ALREADY_EXISTS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="13" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312baf27e77fbf01ad7c49bce59ac593639c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312baf27e77fbf01ad7c49bce59ac593639c7" kindref="member">DESCRIPTION_NOT_EXISTS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba614f5721d434dcc066e92277633d6eaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba614f5721d434dcc066e92277633d6eaa" kindref="member">DESCRIPTION_TOO_LONG_SERVICE_NAME</ref><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="15" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba3019b9bc428226e3e251c384682be3b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba3019b9bc428226e3e251c384682be3b8" kindref="member">DESCRIPTION_NOT_PERMITTED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="16" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312bafc8c41056566c29b08933c122f42783f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312bafc8c41056566c29b08933c122f42783f" kindref="member">DESCRIPTION_INVALID_NAME</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="17" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312baf094c603d784b43ebc71d2494e0072a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312baf094c603d784b43ebc71d2494e0072a8" kindref="member">DESCRIPTION_BUFFER_OVERFLOW</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312bab4c777609606b9723959e11a45fa9400" kindref="member">DESCRIPTION_END</ref></highlight></codeline>
+<codeline lineno="19" refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312bab4c777609606b9723959e11a45fa9400" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespacenn_1_1srv_1a4642cdd3bfc93a6c08f5ed9e615ffa5a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1srv_1a4642cdd3bfc93a6c08f5ed9e615ffa5a" kindref="member">MakePermanentResult</ref><sp/>(<ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" kindref="member">Result::Summary</ref><sp/>summary,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>description)<sp/></highlight><highlight class="comment">//<sp/>44</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1srv_1a4642cdd3bfc93a6c08f5ed9e615ffa5a" kindref="member">MakePermanentResult</ref><sp/>(summary,<sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aedd7e96f8b7fa59d37c9ece00db5a9eb" kindref="member">Result::MODULE_NN_SRV</ref>,<sp/>description);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="namespacenn_1_1srv_1a8a0b73b04fbcd548e25b41f3fd99a969" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1srv_1a8a0b73b04fbcd548e25b41f3fd99a969" kindref="member">MakeInfoResult</ref>(<ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" kindref="member">Result::Summary</ref><sp/>summary,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>description)<sp/></highlight><highlight class="comment">//<sp/>49</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1srv_1a8a0b73b04fbcd548e25b41f3fd99a969" kindref="member">MakeInfoResult</ref>(summary,<sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aedd7e96f8b7fa59d37c9ece00db5a9eb" kindref="member">Result::MODULE_NN_SRV</ref>,<sp/>description);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="srv___result_8h_1a7b8e7f95608b66829d97359178d8119b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_NN_SRV_MAKE_RESULT(Res,<sp/>Sum,<sp/>Desc)<sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NN_RESULT_DEF<sp/>(MakePermanentResult,<sp/>Res,<sp/>Result::Sum,<sp/>Desc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="namespacenn_1_1srv_1af165c8c49abb8dd0210e2eb45be489c0" refkind="member"><highlight class="normal"><ref refid="srv___result_8h_1a7b8e7f95608b66829d97359178d8119b" kindref="member">_NN_SRV_MAKE_RESULT</ref><sp/>(ResultAlreadyInitialized,<sp/>SUMMARY_INVALID_STATE,<sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0e6c740d1dff2c0228125cd011b4a57d" kindref="member">Result::DESCRIPTION_ALREADY_INITIALIZED</ref>);<sp/></highlight><highlight class="comment">//<sp/>84</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespacenn_1_1srv_1ad04a4bc69b8b5cfa12a422e4badeaa2e" refkind="member"><highlight class="normal"><ref refid="srv___result_8h_1a7b8e7f95608b66829d97359178d8119b" kindref="member">_NN_SRV_MAKE_RESULT</ref><sp/>(ResultTooLongServiceName,<sp/>SUMMARY_WRONG_ARGUMENT,<sp/><ref refid="namespacenn_1_1srv_1a87581d96e235a27b0c7e5eab9b1f312ba614f5721d434dcc066e92277633d6eaa" kindref="member">DESCRIPTION_TOO_LONG_SERVICE_NAME</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespacenn_1_1srv_1a07609214641e169a2a3a7c55a1d8a28d" refkind="member"><highlight class="normal"><ref refid="srv___result_8h_1a7b8e7f95608b66829d97359178d8119b" kindref="member">_NN_SRV_MAKE_RESULT</ref><sp/>(ResultNotInitialized,<sp/>SUMMARY_INVALID_STATE,<sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9e4f2bd4c313720b7d1e8dd83ef9aa44" kindref="member">Result::DESCRIPTION_NOT_INITIALIZED</ref>);<sp/></highlight><highlight class="comment">//<sp/>101</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>srv</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/srv/srv_Result.h"/>
+  </compounddef>
+</doxygen>

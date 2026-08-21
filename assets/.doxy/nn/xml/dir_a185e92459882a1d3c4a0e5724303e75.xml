@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_a185e92459882a1d3c4a0e5724303e75" kind="dir">
+    <compoundname>nn</compoundname>
+    <innerdir refid="dir_cd766614adea28e111baa898e1e565d9">applet</innerdir>
+    <innerdir refid="dir_d61dd7901f361aace8efbc35eb1e8191">cfg</innerdir>
+    <innerdir refid="dir_34f807ed914052c98a9a2c2b0fd679dd">codec</innerdir>
+    <innerdir refid="dir_8674e25a187048eae8b9b07d931da2b2">dbg</innerdir>
+    <innerdir refid="dir_775621e1e095c9e8124939ad7c05170d">err</innerdir>
+    <innerdir refid="dir_896b02bd9724af022fac6ecc9927c6e1">fnd</innerdir>
+    <innerdir refid="dir_ebaeb7c8987009097a9882ca30046667">fs</innerdir>
+    <innerdir refid="dir_c91139e242e6e06fdfdcf67844f7df68">fslow</innerdir>
+    <innerdir refid="dir_a1f7187575fc3947c1fa9e64636543e9">hid</innerdir>
+    <innerdir refid="dir_d55def94f65a12fb344229c5bcac0d9a">init</innerdir>
+    <innerdir refid="dir_f04f036a24ab4e9b968e47fb2e928fcd">math</innerdir>
+    <innerdir refid="dir_15b4c6f09c9fa6dfc41329e92f0de021">ndm</innerdir>
+    <innerdir refid="dir_670efa06400c5a7c70bc1499710bffc9">nstd</innerdir>
+    <innerdir refid="dir_53922fdb85244c81a863dd6ad700ec31">os</innerdir>
+    <innerdir refid="dir_2f77558cefdcdd091fbae5ab2d60e6ab">srv</innerdir>
+    <innerdir refid="dir_c1b0279480f3283373e7c3eb28175a75">svc</innerdir>
+    <innerdir refid="dir_369320240f3428c6f0d988f9f85aef22">util</innerdir>
+    <innerfile refid="assert_8h">assert.h</innerfile>
+    <innerfile refid="_handle_8h">Handle.h</innerfile>
+    <innerfile refid="module_8h">module.h</innerfile>
+    <innerfile refid="_result_8h">Result.h</innerfile>
+    <innerfile refid="types_8h">types.h</innerfile>
+    <innerfile refid="_with_initialize_8h">WithInitialize.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/"/>
+  </compounddef>
+</doxygen>

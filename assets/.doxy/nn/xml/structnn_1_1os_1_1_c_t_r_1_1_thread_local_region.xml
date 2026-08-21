@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kind="struct" language="C++" prot="public">
+    <compoundname>nn::os::CTR::ThreadLocalRegion</compoundname>
+    <includes refid="os___thread_local_region_8h" local="no">os_ThreadLocalRegion.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a6ade4b92910da49861d37cfb1ce017a8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::CTR::ThreadLocalRegion::tls[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>tls</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::tls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="9" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1aca746a55d33de39ad26dbe07d632e4e5" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::CTR::ThreadLocalRegion::handlerAddress</definition>
+        <argsstring></argsstring>
+        <name>handlerAddress</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::handlerAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="10" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c3eaa1470a7d65ed406c8fb2521aac1" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::CTR::ThreadLocalRegion::handlerStackBottomAddress</definition>
+        <argsstring></argsstring>
+        <name>handlerStackBottomAddress</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::handlerStackBottomAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="11" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1241a64c4a440d16f799a3c858cdcdb4" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::os::CTR::ThreadLocalRegion::reserved[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>reserved</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="12" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* nn::os::CTR::ThreadLocalRegion::ehGlobalsAddr</definition>
+        <argsstring></argsstring>
+        <name>ehGlobalsAddr</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::ehGlobalsAddr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="13" column="14" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="rvct__stdio_8cpp_1af1590b86db46883a5b32a1b87df8f50e" compoundref="rvct__stdio_8cpp" startline="63" endline="66">__rt_eh_globals_addr</referencedby>
+        <referencedby refid="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" compoundref="os___cpp_exception_8cpp" startline="46" endline="63">nn::os::CTR::SetupThreadCppExceptionEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::CTR::ThreadLocalRegion::ehGlobals[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>ehGlobals</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::ehGlobals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="14" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" compoundref="os___cpp_exception_8cpp" startline="46" endline="63">nn::os::CTR::SetupThreadCppExceptionEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1ab5b2a7174a2388c3b7507c5471d375c9" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::CTR::ThreadLocalRegion::messageBuffer[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>messageBuffer</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::messageBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="15" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c13738edc8c1b2a4235cfbac35fac18" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::CTR::ThreadLocalRegion::receiveBuffer[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>receiveBuffer</name>
+        <qualifiedname>nn::os::CTR::ThreadLocalRegion::receiveBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="16" column="15" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>ehGlobals</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>ehGlobalsAddr</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1aca746a55d33de39ad26dbe07d632e4e5" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>handlerAddress</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c3eaa1470a7d65ed406c8fb2521aac1" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>handlerStackBottomAddress</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1ab5b2a7174a2388c3b7507c5471d375c9" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>messageBuffer</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c13738edc8c1b2a4235cfbac35fac18" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>receiveBuffer</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1241a64c4a440d16f799a3c858cdcdb4" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>reserved</name></member>
+      <member refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a6ade4b92910da49861d37cfb1ce017a8" prot="public" virt="non-virtual"><scope>nn::os::CTR::ThreadLocalRegion</scope><name>tls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File nstd_Printf.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-nstd_printfh">File nstd_Printf.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_670efa06400c5a7c70bc1499710bffc9/"><strong>nstd</strong></a> <strong>&gt;</strong> <a href="../nstd___printf_8h/"><strong>nstd_Printf.h</strong></a></p>
+<p><a href="../nstd___printf_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#ifdef __cplusplus
+
+namespace nn {
+namespace nstd {
+
+s32 TVSNPrintf (char* dst, size_t len, const char* fmt, va_list vlist);
+s32 TSNPrintf (char* dst, size_t len, const char* fmt, ...);
+s32 TSPrintf (char* dst, const char* fmt, ...);
+
+} // namespace nstd
+} // namespace nn
+
+#else
+
+extern &quot;C&quot; {
+
+s32 nnnstdTVSNPrintf (char* dst, size_t len, const char* fmt, va_list vlist);
+s32 nnnstdTSNPrintf (char* dst, size_t len, const char* fmt, ...);
+s32 nnnstdTSPrintf (char* dst, const char* fmt, ...);
+}
+
+#endif
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

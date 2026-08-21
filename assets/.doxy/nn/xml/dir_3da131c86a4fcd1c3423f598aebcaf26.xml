@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_3da131c86a4fcd1c3423f598aebcaf26" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="fnd___detail_heap_head_8h">fnd_DetailHeapHead.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/detail/"/>
+  </compounddef>
+</doxygen>

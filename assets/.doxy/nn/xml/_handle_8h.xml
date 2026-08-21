@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_handle_8h" kind="file" language="C++">
+    <compoundname>Handle.h</compoundname>
+    <includedby refid="applet___parameters_8h" local="no">applet_Parameters.h</includedby>
+    <includedby refid="assert_8h" local="no">assert.h</includedby>
+    <includedby refid="cfg___detail_api_8h" local="no">cfg_DetailApi.h</includedby>
+    <includedby refid="cfg___ipc_user_8h" local="no">cfg_IpcUser.h</includedby>
+    <includedby refid="fs___user_archive_8h" local="no">fs_UserArchive.h</includedby>
+    <includedby refid="fs___user_file_system_8h" local="no">fs_UserFileSystem.h</includedby>
+    <includedby refid="os___handle_object_8h" local="no">os_HandleObject.h</includedby>
+    <includedby refid="os___light_event_8h" local="no">os_LightEvent.h</includedby>
+    <includedby refid="os___waitable_counter_8h" local="no">os_WaitableCounter.h</includedby>
+    <includedby refid="srv___api_8h" local="no">srv_Api.h</includedby>
+    <includedby refid="srv___manager_8h" local="no">srv_Manager.h</includedby>
+    <includedby refid="srv___service_8h" local="no">srv_Service.h</includedby>
+    <includedby refid="svc___inlines_8h" local="no">svc_Inlines.h</includedby>
+    <includedby refid="svc___stub_8h" local="no">svc_Stub.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>Handle.h</label>
+        <link refid="_handle_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>applet_Parameters.h</label>
+        <link refid="applet___parameters_8h"/>
+      </node>
+      <node id="3">
+        <label>assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>cfg_DetailApi.h</label>
+        <link refid="cfg___detail_api_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>cfg_IpcUser.h</label>
+        <link refid="cfg___ipc_user_8h"/>
+      </node>
+      <node id="8">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+      </node>
+      <node id="7">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>fs_FileBase.h</label>
+        <link refid="fs___file_base_8h"/>
+      </node>
+      <node id="31">
+        <label>fs_UserArchive.h</label>
+        <link refid="fs___user_archive_8h"/>
+      </node>
+      <node id="32">
+        <label>fs_UserFileSystem.h</label>
+        <link refid="fs___user_file_system_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>fs_FileSystemBase.h</label>
+        <link refid="fs___file_system_base_8h"/>
+      </node>
+      <node id="18">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="13">
+        <label>os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>os_LightEvent.h</label>
+        <link refid="os___light_event_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>os_LightSemaphore.h</label>
+        <link refid="os___light_semaphore_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>os_SharedInfo.h</label>
+        <link refid="os___shared_info_8h"/>
+      </node>
+      <node id="16">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>os_Tick.h</label>
+        <link refid="os___tick_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>srv_Manager.h</label>
+        <link refid="srv___manager_8h"/>
+      </node>
+      <node id="39">
+        <label>srv_Service.h</label>
+        <link refid="srv___service_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>svc_Inlines.h</label>
+        <link refid="svc___inlines_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>cfg_DetailApi.cpp</label>
+        <link refid="cfg___detail_api_8cpp"/>
+      </node>
+      <node id="42">
+        <label>crt0.cpp</label>
+        <link refid="crt0_8cpp"/>
+      </node>
+      <node id="4">
+        <label>fnd_DetailHeap.cpp</label>
+        <link refid="fnd___detail_heap_8cpp"/>
+      </node>
+      <node id="5">
+        <label>fnd_DetailHeapCommon.cpp</label>
+        <link refid="fnd___detail_heap_common_8cpp"/>
+      </node>
+      <node id="6">
+        <label>fnd_DetailList.cpp</label>
+        <link refid="fnd___detail_list_8cpp"/>
+      </node>
+      <node id="34">
+        <label>fs_UserFileSystem.cpp</label>
+        <link refid="fs___user_file_system_8cpp"/>
+      </node>
+      <node id="11">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="14">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+      </node>
+      <node id="36">
+        <label>os_LightEvent.cpp</label>
+        <link refid="os___light_event_8cpp"/>
+      </node>
+      <node id="23">
+        <label>os_LightSemaphore.cpp</label>
+        <link refid="os___light_semaphore_8cpp"/>
+      </node>
+      <node id="20">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="22">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="25">
+        <label>os_ThreadLocalStorage.cpp</label>
+        <link refid="os___thread_local_storage_8cpp"/>
+      </node>
+      <node id="26">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+      </node>
+      <node id="27">
+        <label>rvct_stdio.cpp</label>
+        <link refid="rvct__stdio_8cpp"/>
+      </node>
+      <node id="9">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+      <node id="45">
+        <label>svc_Stub.cpp</label>
+        <link refid="svc___stub_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnn_handle" prot="public">nnHandle</innerclass>
+    <innerclass refid="classnn_1_1_handle" prot="public">nn::Handle</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_handle_8h_1a8f70d8534564dd0643a5265f67f83c5d" prot="public" static="no">
+        <type>struct <ref refid="structnn_handle" kindref="compound">nnHandle</ref></type>
+        <definition>typedef struct nnHandle nnHandle</definition>
+        <argsstring></argsstring>
+        <name>nnHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="10" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="structnn_handle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_handle" kindref="compound">nnHandle</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="structnn_handle_1adc8d5f12cfb77de57056b538165ba158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="structnn_handle_1adc8d5f12cfb77de57056b538165ba158" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="10" refid="_handle_8h_1a8f70d8534564dd0643a5265f67f83c5d" refkind="member"><highlight class="normal">}<sp/><ref refid="structnn_handle" kindref="compound">nnHandle</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnn_handle" kindref="compound">nnHandle</ref><sp/>INVALID_HANDLE_VALUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{<sp/>0x0<sp/>};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnn_handle" kindref="compound">nnHandle</ref><sp/>PSEUDO_HANDLE_CURRENT_THREAD<sp/>=<sp/>{<sp/>0xFFFF800<sp/>};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classnn_1_1_handle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26" refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29" refid="classnn_1_1_handle_1a96163f4cc0b417219d646e9975038fa0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_handle_1a96163f4cc0b417219d646e9975038fa0" kindref="member">Handle</ref><sp/>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref><sp/>(0)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="32" refid="classnn_1_1_handle_1ab06faf0a87453a44427badb8ed9cbf06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_handle_1ab06faf0a87453a44427badb8ed9cbf06" kindref="member">Handle</ref><sp/>(<ref refid="structnn_handle" kindref="compound">nnHandle</ref><sp/>handle)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref><sp/>(handle.value)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="35" refid="classnn_1_1_handle_1a4776e5486a4d2233e0c57dc311010a72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_handle_1a4776e5486a4d2233e0c57dc311010a72" kindref="member">Handle</ref><sp/>(<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/>value)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref><sp/>(value)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classnn_1_1_handle_1abdc834585fcd85082fd7f51256194f5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_handle_1abdc834585fcd85082fd7f51256194f5d" kindref="member">IsValid</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="40"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;m_Handle<sp/>!=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classnn_1_1_handle_1adbe45f7f2c8e4410b889c3367a6e0a94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="classnn_1_1_handle_1adbe45f7f2c8e4410b889c3367a6e0a94" kindref="member">GetPrintableBits</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classnn_1_1_handle_1a23926da6c31903d92cd12a370baeb0cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_handle_1a23926da6c31903d92cd12a370baeb0cf" kindref="member">operator== </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref>&amp;<sp/>rhs)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;m_Handle<sp/>==<sp/>rhs.<ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="50" refid="classnn_1_1_handle_1a254031928b14c0b545929f28196849af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_handle_1a254031928b14c0b545929f28196849af" kindref="member">operator!= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref>&amp;<sp/>rhs)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;m_Handle<sp/>!=<sp/>rhs.<ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="51" refid="classnn_1_1_handle_1ae7b176b954e5315a612c289b004809ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="structnn_handle" kindref="compound">nnHandle</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="52"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_handle" kindref="compound">nnHandle</ref><sp/>result<sp/>=<sp/>{<sp/><ref refid="classnn_1_1_handle_1a6fbdc2739242b17a8539725dfc86b5d2" kindref="member">m_Handle</ref><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/Handle.h"/>
+  </compounddef>
+</doxygen>

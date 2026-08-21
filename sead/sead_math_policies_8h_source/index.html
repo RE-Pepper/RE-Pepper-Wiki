@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File seadMathPolicies.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-seadmathpoliciesh">File seadMathPolicies.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_f6d5c8d1d4c60cd689fcf859a6687fb0/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_9adfe416bc4f0c29a5cf1f3d542cf0b8/"><strong>math</strong></a> <strong>&gt;</strong> <a href="../sead_math_policies_8h/"><strong>seadMathPolicies.h</strong></a></p>
+<p><a href="../sead_math_policies_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/math/math_VEC3.h&gt;
+#include &lt;math/seadMathBase.h&gt;
+
+namespace sead {
+
+using namespace nn::math;
+
+template &lt;typename T&gt;
+class Policies {
+public:
+    typedef BaseVec2&lt;T&gt; Vec2Base;
+    typedef VEC3 Vec3Base;
+    typedef BaseVec4&lt;T&gt; Vec4Base;
+    typedef BaseQuat&lt;T&gt; QuatBase;
+    typedef BaseMtx22&lt;T&gt; Mtx22Base;
+    typedef BaseMtx33&lt;T&gt; Mtx33Base;
+    typedef BaseMtx34&lt;T&gt; Mtx34Base;
+    typedef BaseMtx44&lt;T&gt; Mtx44Base;
+};
+
+}  // namespace sead
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

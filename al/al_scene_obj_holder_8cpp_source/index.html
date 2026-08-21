@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alSceneObjHolder.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alsceneobjholdercpp">File alSceneObjHolder.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_d8628e97cbd71936d4b5fb3774410590/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_ca634763a19f7100b987afb79dcab1e3/"><strong>Scene</strong></a> <strong>&gt;</strong> <a href="../al_scene_obj_holder_8cpp/"><strong>alSceneObjHolder.cpp</strong></a></p>
+<p><a href="../al_scene_obj_holder_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;LiveActor/alActorInitInfo.h&gt;
+#include &lt;Scene/alISceneObj.h&gt;
+#include &lt;Scene/alSceneObjHolder.h&gt;
+#include &lt;System/Application.h&gt;
+
+namespace al
+{
+
+#pragma no_inline // probably belongs in another file
+
+SceneObjHolder* getSceneObjHolder()
+{
+        return al::getApplication()-&gt;getSceneObjHolder();
+}
+
+ISceneObj* SceneObjHolder::getObj( int id ) const
+{
+        return mObjs[ id ];
+}
+
+bool SceneObjHolder::isExist( int id ) const
+{
+        return mObjs[ id ] != nullptr;
+}
+
+void SceneObjHolder::setObj( ISceneObj* obj, int id )
+{
+        mObjs[ id ] = obj;
+}
+
+ISceneObj* SceneObjHolder::create( int id )
+{
+        if ( mObjs[ id ] == nullptr )
+        {
+                ISceneObj* newObj = mCreateFunc( id );
+                mObjs[ id ]       = newObj;
+                newObj-&gt;initSceneObj();
+        }
+        return mObjs[ id ];
+}
+
+void SceneObjHolder::initAfterPlacementSceneObj( const ActorInitInfo&amp; info )
+{
+        for ( int i = 0; i &lt; mSize; i++ )
+                if ( mObjs[ i ] )
+                        mObjs[ i ]-&gt;initAfterPlacementSceneObj( info );
+}
+
+ISceneObj* createSceneObj( int id )
+{
+        return getSceneObjHolder()-&gt;create( id );
+}
+
+ISceneObj* getSceneObj( int id )
+{
+        return getSceneObjHolder()-&gt;getObj( id );
+}
+
+bool isExistSceneObj( int id )
+{
+        return getSceneObjHolder()-&gt;isExist( id );
+}
+
+void setSceneObj( ISceneObj* obj, int id )
+{
+        return getSceneObjHolder()-&gt;setObj( obj, id );
+}
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="crt0_8cpp" kind="file" language="C++">
+    <compoundname>crt0.cpp</compoundname>
+    <includes refid="init___start_up_8h" local="no">nn/init/init_StartUp.h</includes>
+    <includes refid="module_8h" local="no">nn/module.h</includes>
+    <includes refid="svc___stub_8h" local="no">nn/svc/svc_Stub.h</includes>
+    <includes local="no">rt_locale.h</includes>
+    <includes local="no">rt_sys.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="7">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/init/init_StartUp.h</label>
+        <link refid="init___start_up_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/module.h</label>
+        <link refid="module_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="8">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn/util/detail/util_Symbol.h</label>
+        <link refid="util___symbol_8h"/>
+      </node>
+      <node id="1">
+        <label>crt0.cpp</label>
+        <link refid="crt0_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>rt_locale.h</label>
+      </node>
+      <node id="12">
+        <label>rt_sys.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="crt0_8cpp_1aedd060d97631475e775c2466c5dd9ca5" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 Image$$ZI$$ZI$$Base[]</definition>
+        <argsstring>[]</argsstring>
+        <name>Image$$ZI$$ZI$$Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="22" column="15" bodyfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" compoundref="crt0_8cpp" startline="48" endline="59">nninitRegion</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="crt0_8cpp_1aac429f97b99091a1dc2a7d383f7a5a5c" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 Image$$ZI$$ZI$$Limit[]</definition>
+        <argsstring>[]</argsstring>
+        <name>Image$$ZI$$ZI$$Limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="23" column="15" bodyfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" compoundref="crt0_8cpp" startline="48" endline="59">nninitRegion</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nninitRegion</definition>
+        <argsstring>()</argsstring>
+        <name>nninitRegion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="48" column="17" bodyfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" bodystart="48" bodyend="59" declfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" declline="13" declcolumn="17"/>
+        <references refid="crt0_8cpp_1aedd060d97631475e775c2466c5dd9ca5" compoundref="crt0_8cpp" startline="22">Image$$ZI$$ZI$$Base</references>
+        <references refid="crt0_8cpp_1aac429f97b99091a1dc2a7d383f7a5a5c" compoundref="crt0_8cpp" startline="23">Image$$ZI$$ZI$$Limit</references>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="crt0_8cpp_1a89b906b6235ed82ee46c4a27ed6de4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nninitStartUp</definition>
+        <argsstring>()</argsstring>
+        <name>nninitStartUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="14" column="17" declfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" declline="14" declcolumn="17"/>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nninitLocale</definition>
+        <argsstring>()</argsstring>
+        <name>nninitLocale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="38" column="17" bodyfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" bodystart="38" bodyend="46" declfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" declline="15" declcolumn="17"/>
+        <references refid="crt0_8cpp_1a11fcffe1112cee250ca114373581ca38">__rt_locale</references>
+        <references refid="module_8h_1ae7b82ff3026fe627ba0ca8ef9bbf7038" compoundref="module_8h" startline="11" endline="12">NN_REFER_MODULE</references>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="crt0_8cpp_1a5795c562fefc6eabfbed34bfcbf60449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__weak void</type>
+        <definition>__weak void __cpp_initialize__aeabi_</definition>
+        <argsstring>()</argsstring>
+        <name>__cpp_initialize__aeabi_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="17" column="24" declfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" declline="17" declcolumn="24"/>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="crt0_8cpp_1a11fcffe1112cee250ca114373581ca38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> *</type>
+        <definition>u32 * __rt_locale</definition>
+        <argsstring>(void)</argsstring>
+        <name>__rt_locale</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="18" column="23" declfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" declline="18" declcolumn="23"/>
+        <referencedby refid="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" compoundref="crt0_8cpp" startline="38" endline="46">nninitLocale</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="crt0_8cpp_1ae79180f8ae90e05743b47a872f305a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nnMain</definition>
+        <argsstring>()</argsstring>
+        <name>nnMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="20" column="17" declfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" declline="20" declcolumn="17"/>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void __asm</type>
+        <definition>void __asm __ctr_start</definition>
+        <argsstring>()</argsstring>
+        <name>__ctr_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" line="25" column="23" bodyfile="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp" bodystart="25" bodyend="36"/>
+        <references refid="crt0_8cpp_1a5795c562fefc6eabfbed34bfcbf60449">__cpp_initialize__aeabi_</references>
+        <references refid="namespacenn_1_1svc_1ae6e5bbefe83e282db4eeda24aed0d6a9">nn::svc::ExitProcess</references>
+        <references refid="init___start_up_8h_1aead6f2fa82700f18ef09574fa59613d3" compoundref="init___start_up_8cpp" startline="21" endline="28">nninitCallStaticInitializers</references>
+        <references refid="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" compoundref="crt0_8cpp" startline="38" endline="46">nninitLocale</references>
+        <references refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" compoundref="crt0_8cpp" startline="48" endline="59">nninitRegion</references>
+        <references refid="init___start_up_8h_1a1b12be0589c3ef46088d7ca5c1c5d43c" compoundref="init___start_up_8cpp" startline="30" endline="38">nninitSetup</references>
+        <references refid="crt0_8cpp_1a89b906b6235ed82ee46c4a27ed6de4dd">nninitStartUp</references>
+        <references refid="init___start_up_8h_1aa6b9cc54e52f6fd4e93d063d8798da16" compoundref="init___start_up_8cpp" startline="5" endline="11">nninitSystem</references>
+        <references refid="crt0_8cpp_1ae79180f8ae90e05743b47a872f305a52">nnMain</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="init___start_up_8h" kindref="compound">nn/init/init_StartUp.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="module_8h" kindref="compound">nn/module.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="svc___stub_8h" kindref="compound">nn/svc/svc_Stub.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;rt_locale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;rt_sys.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="module_8h_1a7c958140f3df1350635cd9accd90bad9" kindref="member">NN_MAKE_MODULE_SDK</ref>(s_DebugIndicator,<sp/></highlight><highlight class="stringliteral">&quot;DEBUG&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="module_8h_1a7c958140f3df1350635cd9accd90bad9" kindref="member">NN_MAKE_MODULE_SDK</ref>(s_SdkVersion,<sp/></highlight><highlight class="stringliteral">&quot;CTR_SDK-2_4_1_200_none&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="module_8h_1a7c958140f3df1350635cd9accd90bad9" kindref="member">NN_MAKE_MODULE_SDK</ref>(s_FirmwareVersion,<sp/></highlight><highlight class="stringliteral">&quot;Firmware-02_30_20&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" kindref="member">nninitRegion</ref>();</highlight></codeline>
+<codeline lineno="14" refid="crt0_8cpp_1a89b906b6235ed82ee46c4a27ed6de4dd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="crt0_8cpp_1a89b906b6235ed82ee46c4a27ed6de4dd" kindref="member">nninitStartUp</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" kindref="member">nninitLocale</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="crt0_8cpp_1a5795c562fefc6eabfbed34bfcbf60449" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>__weak<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="crt0_8cpp_1a5795c562fefc6eabfbed34bfcbf60449" kindref="member">__cpp_initialize__aeabi_</ref>();</highlight></codeline>
+<codeline lineno="18" refid="crt0_8cpp_1a11fcffe1112cee250ca114373581ca38" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="crt0_8cpp_1a11fcffe1112cee250ca114373581ca38" kindref="member">__rt_locale</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="crt0_8cpp_1ae79180f8ae90e05743b47a872f305a52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="crt0_8cpp_1ae79180f8ae90e05743b47a872f305a52" kindref="member">nnMain</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="crt0_8cpp_1aedd060d97631475e775c2466c5dd9ca5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref><sp/><ref refid="crt0_8cpp_1aedd060d97631475e775c2466c5dd9ca5" kindref="member">Image$$ZI$$ZI$$Base</ref>[];</highlight></codeline>
+<codeline lineno="23" refid="crt0_8cpp_1aac429f97b99091a1dc2a7d383f7a5a5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref><sp/><ref refid="crt0_8cpp_1aac429f97b99091a1dc2a7d383f7a5a5c" kindref="member">Image$$ZI$$ZI$$Limit</ref>[];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>__asm<sp/><ref refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" kindref="member">__ctr_start</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bl<sp/><sp/>__cpp(<ref refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" kindref="member">nninitRegion</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bl<sp/><sp/>__cpp(<ref refid="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" kindref="member">nninitLocale</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bl<sp/><sp/>__cpp(<ref refid="init___start_up_8h_1aa6b9cc54e52f6fd4e93d063d8798da16" kindref="member">nninitSystem</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bl<sp/><sp/>__cpp(<ref refid="crt0_8cpp_1a89b906b6235ed82ee46c4a27ed6de4dd" kindref="member">nninitStartUp</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blx<sp/>__cpp(<ref refid="crt0_8cpp_1a5795c562fefc6eabfbed34bfcbf60449" kindref="member">__cpp_initialize__aeabi_</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bl<sp/><sp/>__cpp(<ref refid="init___start_up_8h_1aead6f2fa82700f18ef09574fa59613d3" kindref="member">nninitCallStaticInitializers</ref>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bl<sp/><sp/>__cpp(<ref refid="init___start_up_8h_1a1b12be0589c3ef46088d7ca5c1c5d43c" kindref="member">nninitSetup</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>blx<sp/>__cpp(<ref refid="crt0_8cpp_1ae79180f8ae90e05743b47a872f305a52" kindref="member">nnMain</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/><sp/><sp/>__cpp(<ref refid="namespacenn_1_1svc_1ae6e5bbefe83e282db4eeda24aed0d6a9" kindref="member">nn::svc::ExitProcess</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="crt0_8cpp_1aa945cb3d4b1ce2d22c8719da548a9446" kindref="member">nninitLocale</ref>()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="module_8h_1ae7b82ff3026fe627ba0ca8ef9bbf7038" kindref="member">NN_REFER_MODULE</ref>(s_SdkVersion);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="module_8h_1ae7b82ff3026fe627ba0ca8ef9bbf7038" kindref="member">NN_REFER_MODULE</ref>(s_FirmwareVersion);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref>*<sp/>rt<sp/><sp/><sp/>=<sp/><ref refid="crt0_8cpp_1a11fcffe1112cee250ca114373581ca38" kindref="member">__rt_locale</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(rt<sp/>+<sp/>1)<sp/>=<sp/>(<ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref>)_get_lc_ctype(0,<sp/>0)<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(rt<sp/>+<sp/>3)<sp/>=<sp/>(<ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref>)_get_lc_numeric(0,<sp/>0);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">asm</highlight><highlight class="normal">(<ref refid="crt0_8cpp_1af93c177f0dc327ec4ee2e763949aaf3d" kindref="member">nninitRegion</ref>)()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ldr<sp/><sp/><sp/>r0,<sp/>=<sp/>__cpp(<ref refid="crt0_8cpp_1aedd060d97631475e775c2466c5dd9ca5" kindref="member">Image$$ZI$$ZI$$Base</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ldr<sp/><sp/><sp/>r1,<sp/>=<sp/>__cpp(<ref refid="crt0_8cpp_1aac429f97b99091a1dc2a7d383f7a5a5c" kindref="member">Image$$ZI$$ZI$$Limit</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mov<sp/><sp/><sp/>r2,<sp/>#0;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">run<sp/></highlight><highlight class="comment">//<sp/>nf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cmp<sp/><sp/><sp/>r0,<sp/>r1;<sp/></highlight><highlight class="comment">//<sp/>nf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcc<sp/>r2,<sp/>[r0],<sp/>#4;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bcc<sp/><sp/><sp/>run;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bx<sp/><sp/><sp/><sp/>lr;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>clang-format<sp/>on</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/crt0/MPCore/crt0.cpp"/>
+  </compounddef>
+</doxygen>

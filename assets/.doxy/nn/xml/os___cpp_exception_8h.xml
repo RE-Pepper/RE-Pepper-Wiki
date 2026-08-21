@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___cpp_exception_8h" kind="file" language="C++">
+    <compoundname>os_CppException.h</compoundname>
+    <includedby refid="os___cpp_exception_8cpp" local="no">os_CppException.cpp</includedby>
+    <includedby refid="os___thread_8cpp" local="no">os_Thread.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>os_CppException.h</label>
+        <link refid="os___cpp_exception_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>os_CppException.cpp</label>
+        <link refid="os___cpp_exception_8cpp"/>
+      </node>
+      <node id="3">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r">nn::os::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="namespacenn_1_1os" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="namespacenn_1_1os_1_1_c_t_r" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" kindref="member">SetupThreadCppExceptionEnvironment</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_CppException.h"/>
+  </compounddef>
+</doxygen>

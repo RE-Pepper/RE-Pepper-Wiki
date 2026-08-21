@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fnd::detail::ExpHeapImpl</compoundname>
+    <includes refid="fnd___detail_heap_head_8h" local="no">fnd_DetailHeapHead.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a4392f46f90020809799ecde09a294168" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::fnd::detail::ExpHeapImpl::signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::signature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="53" column="28" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a47f6bf103eaf0736e246f6e30962ee43" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" kindref="compound">NNSFndLink</ref></type>
+        <definition>NNSFndLink nn::fnd::detail::ExpHeapImpl::link</definition>
+        <argsstring></argsstring>
+        <name>link</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::link</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="54" column="28" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aebe48d82194a7d60a83a503914c96e92" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref></type>
+        <definition>NNSFndList nn::fnd::detail::ExpHeapImpl::childList</definition>
+        <argsstring></argsstring>
+        <name>childList</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::childList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="55" column="28" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">nn::fnd::detail::FindContainHeap</referencedby>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a27630a3f2de0ede2a8382015bd3207b8" compoundref="fnd___detail_heap_common_8cpp" startline="41" endline="49">nn::fnd::detail::FindListContainHeap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a411eb1cb27c09d49f7b7a6c5b762e9b0" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* nn::fnd::detail::ExpHeapImpl::heapStart</definition>
+        <argsstring></argsstring>
+        <name>heapStart</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::heapStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="56" column="27" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">nn::fnd::detail::FindContainHeap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1af4c15b07a99e4e92187c9c0bd2462ed7" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* nn::fnd::detail::ExpHeapImpl::heapEnd</definition>
+        <argsstring></argsstring>
+        <name>heapEnd</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::heapEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="57" column="27" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">nn::fnd::detail::FindContainHeap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1abe2d228451146332b441fcd8c3fe1fe2" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::fnd::detail::ExpHeapImpl::attribute</definition>
+        <argsstring></argsstring>
+        <name>attribute</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::attribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="58" column="28" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1adac830f341d0390808297b4b5ffa7387" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" kindref="compound">NNSiFndExpHeapHead</ref></type>
+        <definition>NNSiFndExpHeapHead nn::fnd::detail::ExpHeapImpl::nnsiFndExpHeapHead</definition>
+        <argsstring></argsstring>
+        <name>nnsiFndExpHeapHead</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::nnsiFndExpHeapHead</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="59" column="28" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aec3568c31556fd40a12d3ba371ff5e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::detail::ExpHeapImpl::ExpHeapImpl</definition>
+        <argsstring>()</argsstring>
+        <name>ExpHeapImpl</name>
+        <qualifiedname>nn::fnd::detail::ExpHeapImpl::ExpHeapImpl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="61" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::fnd::detail::ExpHeapImpl</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>link</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>childList</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>nnsiFndExpHeapHead</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fnd::detail::NNSFndLink</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link"/>
+      </node>
+      <node id="3">
+        <label>nn::fnd::detail::NNSFndList</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list"/>
+      </node>
+      <node id="4">
+        <label>nn::fnd::detail::NNSiFndExpHeapHead</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>mbFreeList</edgelabel>
+          <edgelabel>mbUsedList</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::fnd::detail::NNSiFndExpHeapMBlockHead</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>pMBHeadBext</edgelabel>
+          <edgelabel>pMBHeadPrev</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::fnd::detail::NNSiFndExpMBlockList</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>head</edgelabel>
+          <edgelabel>tail</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="51" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="52" bodyend="62"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1abe2d228451146332b441fcd8c3fe1fe2" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>attribute</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aebe48d82194a7d60a83a503914c96e92" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>childList</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aec3568c31556fd40a12d3ba371ff5e17" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>ExpHeapImpl</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1af4c15b07a99e4e92187c9c0bd2462ed7" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>heapEnd</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a411eb1cb27c09d49f7b7a6c5b762e9b0" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>heapStart</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a47f6bf103eaf0736e246f6e30962ee43" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>link</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1adac830f341d0390808297b4b5ffa7387" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>nnsiFndExpHeapHead</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a4392f46f90020809799ecde09a294168" prot="public" virt="non-virtual"><scope>nn::fnd::detail::ExpHeapImpl</scope><name>signature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

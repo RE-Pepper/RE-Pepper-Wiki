@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fnd___result_8h" kind="file" language="C++">
+    <compoundname>fnd_Result.h</compoundname>
+    <includes refid="_result_8h" local="no">nn/Result.h</includes>
+    <includedby refid="fnd___linked_list_8h" local="no">fnd_LinkedList.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="1">
+        <label>fnd_Result.h</label>
+        <link refid="fnd___result_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+      </node>
+      <node id="2">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>fnd_Result.h</label>
+        <link refid="fnd___result_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="4">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="fnd___result_8h_1abd951dd4bbbac4ed59987dd5764f6bd3" prot="public" static="no">
+        <name>_NN_FND_RESULT_DEF_CONST</name>
+        <param><defname>result</defname></param>
+        <param><defname>level</defname></param>
+        <param><defname>summary</defname></param>
+        <param><defname>description</defname></param>
+        <initializer>        <ref refid="_result_8h_1ad372040ab3871e6e584e7c395f106b2a" kindref="member">NN_RESULT_DEF_CONST</ref> (result, Result::level, Result::summary, Result::MODULE_NN_FND, description)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Result.h" line="14" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Result.h" bodystart="14" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_result_8h" kindref="compound">nn/Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184b" kindref="member">Description</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184baaa4bd38104c8605078d667ea94a9cd91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184baaa4bd38104c8605078d667ea94a9cd91" kindref="member">DESCRIPTION_UNK1</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184badb2804c181b8b17ecd99b260c3cc9b71" kindref="member">DESCRIPTION_UNK2</ref><sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184badb2804c181b8b17ecd99b260c3cc9b71" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="fnd___result_8h_1abd951dd4bbbac4ed59987dd5764f6bd3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_NN_FND_RESULT_DEF_CONST(result,<sp/>level,<sp/>summary,<sp/>description)<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NN_RESULT_DEF_CONST<sp/>(result,<sp/>Result::level,<sp/>Result::summary,<sp/>Result::MODULE_NN_FND,<sp/>description)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespacenn_1_1fnd_1acebee64743ceb50005264f69f2aebcef" refkind="member"><highlight class="normal"><ref refid="fnd___result_8h_1abd951dd4bbbac4ed59987dd5764f6bd3" kindref="member">_NN_FND_RESULT_DEF_CONST</ref><sp/>(ResultInvalidAddress,<sp/>LEVEL_USAGE,<sp/>SUMMARY_INVALID_ARGUMENT,<sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceadbfb041d8baf0898af8c1cc886711adf" kindref="member">Result::DESCRIPTION_INVALID_ADDRESS</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespacenn_1_1fnd_1a17ffc381215b2587eb5861aefc574d3e" refkind="member"><highlight class="normal"><ref refid="fnd___result_8h_1abd951dd4bbbac4ed59987dd5764f6bd3" kindref="member">_NN_FND_RESULT_DEF_CONST</ref><sp/>(ResultFndUnk0,<sp/>LEVEL_USAGE,<sp/>SUMMARY_INVALID_ARGUMENT,<sp/><ref refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184badb2804c181b8b17ecd99b260c3cc9b71" kindref="member">DESCRIPTION_UNK2</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_Result.h"/>
+  </compounddef>
+</doxygen>

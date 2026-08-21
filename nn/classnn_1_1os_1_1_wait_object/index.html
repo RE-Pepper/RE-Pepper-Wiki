@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::os::WaitObject - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnoswaitobject">Class nn::os::WaitObject</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1os/"><strong>os</strong></a> <strong>&gt;</strong> <a href="./"><strong>WaitObject</strong></a></p>
+<ul>
+<li><code>#include &lt;os_Synchronization.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../classnn_1_1os_1_1_handle_object/">nn::os::HandleObject</a></p>
+<p>Inherited by the following classes: <a href="../classnn_1_1os_1_1_interrupt_event/">nn::os::InterruptEvent</a>,  <a href="../classnn_1_1os_1_1_thread/">nn::os::Thread</a></p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-waitobject"><strong>WaitObject</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-waitone-12"><strong>WaitOne</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="#function-waitone-22"><strong>WaitOne</strong></a> (<a href="../classnn_1_1fnd_1_1_time_span/"><strong>fnd::TimeSpan</strong></a> timeout) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-waitoneimpl"><strong>WaitOneImpl</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> nanoSecondsTimeout) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-waitobject"><strong>~WaitObject</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-inherited-from-nnoshandleobject">Public Functions inherited from nn::os::HandleObject</h2>
+<p>See <a href="../classnn_1_1os_1_1_handle_object/">nn::os::HandleObject</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-clearhandle"><strong>ClearHandle</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-close"><strong>Close</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-finalize"><strong>Finalize</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-handleobject"><strong>HandleObject</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-sethandle"><strong>SetHandle</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> handle) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-handleobject"><strong>~HandleObject</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-waitany"><strong>WaitAny</strong></a> (<a href="./"><strong>WaitObject</strong></a> ** objs, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a> numObjects) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-functions-inherited-from-nnoshandleobject">Protected Functions inherited from nn::os::HandleObject</h2>
+<p>See <a href="../classnn_1_1os_1_1_handle_object/">nn::os::HandleObject</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_handle/"><strong>Handle</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-gethandle"><strong>GetHandle</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="../classnn_1_1os_1_1_handle_object/#function-isvalid"><strong>IsValid</strong></a> () const<br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-functions-inherited-from-nnutiladlfirewallnoncopyable">Protected Functions inherited from nn::util::ADLFireWall::NonCopyable</h2>
+<p>See <a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/">nn::util::ADLFireWall::NonCopyable</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable-12"><strong>NonCopyable</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable"><strong>~NonCopyable</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-waitobject">function WaitObject</h3>
+<pre><code class="language-C++">inline nn::os::WaitObject::WaitObject () 
+</code></pre>
+<hr>
+
+<h3 id="function-waitone-12">function WaitOne [1/2]</h3>
+<pre><code class="language-C++">inline void nn::os::WaitObject::WaitOne () 
+</code></pre>
+<hr>
+
+<h3 id="function-waitone-22">function WaitOne [2/2]</h3>
+<pre><code class="language-C++">inline bool nn::os::WaitObject::WaitOne (
+    fnd::TimeSpan timeout
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-waitoneimpl">function WaitOneImpl</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitObject::WaitOneImpl (
+    s64 nanoSecondsTimeout
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-waitobject_1">function ~WaitObject</h3>
+<pre><code class="language-C++">inline nn::os::WaitObject::~WaitObject () 
+</code></pre>
+<hr>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-waitany">function WaitAny</h3>
+<pre><code class="language-C++">static inline s32 nn::os::WaitObject::WaitAny (
+    WaitObject ** objs,
+    s32 numObjects
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/os/os_Synchronization.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

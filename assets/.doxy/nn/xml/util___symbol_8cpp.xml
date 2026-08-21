@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="util___symbol_8cpp" kind="file" language="C++">
+    <compoundname>util_Symbol.cpp</compoundname>
+    <includes refid="util___symbol_8h" local="no">nn/util/detail/util_Symbol.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/util/detail/util_Symbol.h</label>
+        <link refid="util___symbol_8h"/>
+      </node>
+      <node id="1">
+        <label>util_Symbol.cpp</label>
+        <link refid="util___symbol_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="util___symbol_8cpp_1a51aaa40946cc7d32cc6aeccc51d1cfca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nnutilReferSymbol_</definition>
+        <argsstring>(const void *sym __attribute__((unused)),...)</argsstring>
+        <name>nnutilReferSymbol_</name>
+        <param>
+          <type>const void *sym </type>
+          <declname>__attribute__</declname>
+          <array>(unused)</array>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/util/detail/util_Symbol.cpp" line="5" column="6" bodyfile="lib/CtrSDK/sources/libraries/util/detail/util_Symbol.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___symbol_8h" kindref="compound">nn/util/detail/util_Symbol.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="util___symbol_8cpp_1a51aaa40946cc7d32cc6aeccc51d1cfca" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util___symbol_8cpp_1a51aaa40946cc7d32cc6aeccc51d1cfca" kindref="member">nnutilReferSymbol_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>sym<sp/>__attribute__((unused)),<sp/>...)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/util/detail/util_Symbol.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::FirstLaunchInfoCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data_1ad98c102063f3d304912edec55c2f4f64" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::detail::FirstLaunchInfoCfgData::mmen</definition>
+        <argsstring></argsstring>
+        <name>mmen</name>
+        <qualifiedname>nn::cfg::CTR::detail::FirstLaunchInfoCfgData::mmen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="306" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data_1a8e0c0598275c82b397058c12784f6026" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::FirstLaunchInfoCfgData::internet</definition>
+        <argsstring></argsstring>
+        <name>internet</name>
+        <qualifiedname>nn::cfg::CTR::detail::FirstLaunchInfoCfgData::internet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="307" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data_1aa46d9a973e96eb509ee25680d3ff1416" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::FirstLaunchInfoCfgData::rsv</definition>
+        <argsstring></argsstring>
+        <name>rsv</name>
+        <qualifiedname>nn::cfg::CTR::detail::FirstLaunchInfoCfgData::rsv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="308" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="304" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="305" bodyend="309"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data_1a8e0c0598275c82b397058c12784f6026" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::FirstLaunchInfoCfgData</scope><name>internet</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data_1ad98c102063f3d304912edec55c2f4f64" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::FirstLaunchInfoCfgData</scope><name>mmen</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_first_launch_info_cfg_data_1aa46d9a973e96eb509ee25680d3ff1416" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::FirstLaunchInfoCfgData</scope><name>rsv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

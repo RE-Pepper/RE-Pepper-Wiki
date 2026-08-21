@@ -1,0 +1,92 @@
+
+
+# File ProductSequence.cpp
+
+[**File List**](files.md) **>** [**backup**](dir_70d69dea5d1e5ae3147e3b96d60a7ce1.md) **>** [**src**](dir_47d28cd3eb946f860e1fe0f4e720b9c2.md) **>** [**Sequence**](dir_c3e5e32485410daab5e4633456b74fa1.md) **>** [**ProductSequence.cpp**](_product_sequence_8cpp.md)
+
+[Go to the documentation of this file](_product_sequence_8cpp.md)
+
+
+```C++
+#include "Sequence/ProductSequence.h"
+
+#include <Nerve/alNerve.h>
+#include <Nerve/alNerveFunction.h>
+
+#include "Sequence/ProductStateCourseSelect.h"
+#include "Sequence/ProductStateStage.h"
+
+namespace NrvProductSequence
+{
+
+NERVE_DEF( ProductSequence, Title )
+NERVE_DEF( ProductSequence, Opening )
+NERVE_DEF( ProductSequence, CourseSelect )
+NERVE_DEF( ProductSequence, Stage )
+NERVE_DEF( ProductSequence, KinopioHouse )
+NERVE_DEF( ProductSequence, MysteryBox )
+NERVE_DEF( ProductSequence, Ending )
+NERVE_DEF( ProductSequence, GameOverRoom )
+NERVE_DEF( ProductSequence, Unk1 )
+
+} // namespace NrvProductSequence
+
+ProductSequence::ProductSequence( const char* name )
+    : Sequence( name ), mStageStartParam( nullptr ), _14C( nullptr ), _150( nullptr ), mWipeKeeper( nullptr ),
+      _158( nullptr ), _15C( nullptr ), mStateTitle( nullptr ), mStateOpening( nullptr ),
+      mStateCourseSelect( nullptr ), mStateStage( nullptr ), mStateKinopioHouse( nullptr ),
+      mStateMysteryBox( nullptr ), mStateEnding( nullptr ), mStateGameOverRoom( nullptr ), _180( nullptr ),
+      _184( nullptr ), _188( nullptr ), _18C( nullptr ), _190( nullptr )
+{
+}
+
+#ifdef NON_MATCHING
+void ProductSequence::init()
+{
+} // needed for vtable
+
+#endif
+
+extern "C" bool fn_0025ba7c( const char* );
+
+void ProductSequence::exeTitle()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                if ( fn_0025ba7c( "オープニング実行" ) )
+                        al::setNerve( this, &NrvProductSequence::CourseSelect );
+                else
+                        al::setNerve( this, &NrvProductSequence::Opening );
+        }
+}
+
+void ProductSequence::exeOpening()
+{
+        if ( al::updateNerveState( this ) )
+                al::setNerve( this, &NrvProductSequence::CourseSelect );
+}
+
+void ProductSequence::exeKinopioHouse()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                mStateCourseSelect->set_10( 4 );
+                al::setNerve( this, &NrvProductSequence::CourseSelect );
+        }
+}
+
+extern "C" bool fn_0025ddd0();
+
+void ProductSequence::exeEnding()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                if ( fn_0025ddd0() )
+                        al::setNerve( this, &NrvProductSequence::Unk1 );
+                else
+                        al::setNerve( this, &NrvProductSequence::Title );
+        }
+}
+```
+
+

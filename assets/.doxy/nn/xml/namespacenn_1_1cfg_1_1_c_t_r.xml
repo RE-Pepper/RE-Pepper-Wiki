@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1cfg_1_1_c_t_r" kind="namespace" language="C++">
+    <compoundname>nn::cfg::CTR</compoundname>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1_birthday" prot="public">nn::cfg::CTR::Birthday</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_flags" prot="public">nn::cfg::CTR::ParentalControlFlags</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info" prot="public">nn::cfg::CTR::ParentalControlInfo</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address" prot="public">nn::cfg::CTR::SimpleAddress</innerclass>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1_user_name" prot="public">nn::cfg::CTR::UserName</innerclass>
+    <innernamespace refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail">nn::cfg::CTR::detail</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CfgLanguageCode</name>
+        <qualifiedname>nn::cfg::CTR::CfgLanguageCode</qualifiedname>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a9e5a6481f0515f31c9a8e80c6f28fd34" prot="public">
+          <name>CFG_LANGUAGE_JAPANESE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a5e6cd6ddca19b2dac2e0e05871cece26" prot="public">
+          <name>CFG_LANGUAGE_ENGLISH</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239ae7a87c599047b7e982936a0a4ed5afa5" prot="public">
+          <name>CFG_LANGUAGE_FRENCH</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a15c349425ac6b3dad578a77106d1e805" prot="public">
+          <name>CFG_LANGUAGE_GERMAN</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239aebcb24ca96ac92f1bb904ad868384dcd" prot="public">
+          <name>CFG_LANGUAGE_ITALIAN</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a7b96d226a7a0171439bde49c8fe12540" prot="public">
+          <name>CFG_LANGUAGE_SPANISH</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a714585df2d31857c7377b3e60ae98e1a" prot="public">
+          <name>CFG_LANGUAGE_SIMP_CHINESE</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a36d61ed23ab3cee9476e3a8287dc1c86" prot="public">
+          <name>CFG_LANGUAGE_KOREAN</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a8fe946c7d67e175e728ed1878a69b13c" prot="public">
+          <name>CFG_LANGUAGE_DUTCH</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a0e60401194b90a1b7057ae02f9ede964" prot="public">
+          <name>CFG_LANGUAGE_PORTUGUESE</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a2cd725bf7397a7cbc90242a577863948" prot="public">
+          <name>CFG_LANGUAGE_RUSSIAN</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a035644f0cc66d9e72b3cac8439598ee4" prot="public">
+          <name>CFG_LANGUAGE_TRAD_CHINESE</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a5b6f9d438dbef652f61789148dcfee49" prot="public">
+          <name>CFG_LANGUAGE_CODE_MAX</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_LanguageCode.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_LanguageCode.h" bodystart="8" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CfgRegionCode</name>
+        <qualifiedname>nn::cfg::CTR::CfgRegionCode</qualifiedname>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a335b897017ee7f98ed8abb27521be40a" prot="public">
+          <name>CFG_REGION_JAPAN</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ab15778192b9a78f83245574b2818af30" prot="public">
+          <name>CFG_REGION_AMERICA</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a0e29e418d8e63497e9275afbb55898b5" prot="public">
+          <name>CFG_REGION_EUROPE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ae8d04cf90aa58f6fc1c4e63d55e7f179" prot="public">
+          <name>CFG_REGION_AUSTRALIA</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ab26d54a38c54737eb66aff6bd48cfe0f" prot="public">
+          <name>CFG_REGION_CHINA</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88aef96f3376e83b8ccd4819714143b0988" prot="public">
+          <name>CFG_REGION_KOREA</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a8d02031355335693c73f42ea642183db" prot="public">
+          <name>CFG_REGION_TAIWAN</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a5849e666a019774fe882f1d77b0aa374" prot="public">
+          <name>CFG_REGION_MAX</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_RegionCode.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_RegionCode.h" bodystart="8" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CfgSoundOutputMode</name>
+        <qualifiedname>nn::cfg::CTR::CfgSoundOutputMode</qualifiedname>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7ad9405edec328ff7cc7f30e837224d982" prot="public">
+          <name>CFG_SOUND_OUTPUT_MODE_MONO</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7ab2b6996c27f1f3bc40f6f0d16ee46de0" prot="public">
+          <name>CFG_SOUND_OUTPUT_MODE_STEREO</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1cfg_1_1_c_t_r_1ae58937f0a6f923200a582183afdab1e7a0c5740cab8cad6c62f8e725d729d0e8e" prot="public">
+          <name>CFG_SOUND_OUTPUT_MODE_SURROUND</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_Sound.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_Sound.h" bodystart="8" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1cfg_1_1_c_t_r_1a329bdebf0912a9c347bf8a6d908e3552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::cfg::CTR::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::cfg::CTR::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_Api.h" line="7" column="6" declfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_Api.h" declline="7" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_Api.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

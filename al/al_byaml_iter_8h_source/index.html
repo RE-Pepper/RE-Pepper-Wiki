@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alByamlIter.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-albyamliterh">File alByamlIter.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_f7e8efec570a34efc8a6993e55383954/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_ead735227c22214cb122acbd07613fdc/"><strong>Yaml</strong></a> <strong>&gt;</strong> <a href="../al_byaml_iter_8h/"><strong>alByamlIter.h</strong></a></p>
+<p><a href="../al_byaml_iter_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+namespace al
+{
+class ByamlContainerHeader;
+class ByamlData;
+class ByamlHeader;
+
+class ByamlIter
+{
+private:
+        union
+        {
+                const u8*          mData;
+                const ByamlHeader* mHeader;
+        };
+
+        union
+        {
+                const u8*                   mRootNode;
+                const ByamlContainerHeader* mContainerHeader;
+        };
+
+public:
+        const ByamlHeader* getHeader() const
+        {
+                return mHeader;
+        }
+
+        bool isEqualData( const ByamlIter&amp; other ) const;
+
+        bool isValid() const;
+        bool isTypeArray() const;
+        bool isTypeHash() const;
+        bool isTypeContainer() const;
+
+        int getSize() const;
+
+        bool isExistKey( const char* key ) const;
+        int  getKeyIndex( const char* key ) const;
+        bool getKeyName( const char** out, int index ) const;
+
+        bool getByamlDataByIndex( ByamlData* out, int index ) const;
+        bool getByamlDataByKey( ByamlData* out, const char* key ) const;
+        bool getByamlDataByKeyIndex( ByamlData* out, int index ) const;
+        bool getByamlDataAndKeyName( ByamlData* out, const char** key, int index ) const;
+
+        bool      tryGetStringByIndex( const char** out, int index ) const;
+        bool      tryGetStringByKey( const char** out, const char* key ) const;
+        bool      tryGetBinaryByIndex( const u8** out, int* size, int index ) const;
+        bool      tryGetBinaryByKey( const u8** out, int* size, const char* key ) const;
+        ByamlIter getIterByIndex( int index ) const;
+        bool      tryGetIterByIndex( ByamlIter* out, int index ) const;
+        ByamlIter getIterByKey( const char* key ) const;
+        bool      tryGetIterByKey( ByamlIter* out, const char* key ) const;
+        bool      tryGetIterAndKeyNameByIndex( ByamlIter* out, const char** key, int index ) const;
+        bool      tryGetBoolByIndex( bool* out, int index ) const;
+        bool      tryGetBoolByKey( bool* out, const char* key ) const;
+        bool      tryGetIntByIndex( int* out, int index ) const;
+        bool      tryGetIntByKey( int* out, const char* key ) const;
+        bool      tryGetFloatByIndex( float* out, int index ) const;
+        bool      tryGetFloatByKey( float* out, const char* key ) const;
+
+        bool tryConvertString( const char** out, const ByamlData* data ) const;
+        bool tryConvertBinary( const u8** out, int* size, const ByamlData* data ) const;
+        bool tryConvertIter( ByamlIter* iter, const ByamlData* data ) const;
+        bool tryConvertBool( bool* out, const ByamlData* data ) const;
+        bool tryConvertInt( int* out, const ByamlData* data ) const;
+        bool tryConvertFloat( float* out, const ByamlData* data ) const;
+
+public:
+        ByamlIter();
+        ByamlIter( const ByamlIter&amp; other );
+        ByamlIter( const u8* data );
+        ByamlIter( const u8* data, const u8* rootNode );
+};
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

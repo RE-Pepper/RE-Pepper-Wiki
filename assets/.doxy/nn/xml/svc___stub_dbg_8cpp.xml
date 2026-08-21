@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="svc___stub_dbg_8cpp" kind="file" language="C++">
+    <compoundname>svc_StubDbg.cpp</compoundname>
+    <includes refid="svc___stub_dbg_8h" local="no">nn/svc/svc_StubDbg.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="4">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/svc/svc_StubDbg.h</label>
+        <link refid="svc___stub_dbg_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>svc_StubDbg.cpp</label>
+        <link refid="svc___stub_dbg_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1svc">nn::svc</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="svc___stub_dbg_8h" kindref="compound">nn/svc/svc_StubDbg.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">Result</highlight></codeline>
+<codeline lineno="7" refid="namespacenn_1_1svc_1a8ce87f5a1b3bb3a7362d384cde8a281f" refkind="member"><highlight class="normal"><ref refid="namespacenn_1_1svc_1afbbaf93ef5640d48eb802579c5d7c5f4" kindref="member">asm_ext</ref>(<ref refid="namespacenn_1_1svc_1a8106dba6976c0286c2113d6cfb290974" kindref="member">Break</ref>,<sp/></highlight><highlight class="stringliteral">&quot;.nn.svc.Break&quot;</highlight><highlight class="normal">)(<ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" kindref="member">nn::dbg::BreakReason</ref><sp/>reason)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref><sp/>0x3c;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>bx<sp/><ref refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" kindref="member">lr</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1svc_1aaf910b82dcefdee9ea610d9a36f89b3e" refkind="member"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1svc_1afbbaf93ef5640d48eb802579c5d7c5f4" kindref="member">asm_ext</ref>(<ref refid="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d" kindref="member">OutputDebugString</ref>,<sp/></highlight><highlight class="stringliteral">&quot;.nn.svc.OutputDebugString&quot;</highlight><highlight class="normal">)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1svc_1a3691ccf0f99fbbb9123ce64353332e1f" kindref="member">length</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref><sp/>0x3d;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>bx<sp/><ref refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" kindref="member">lr</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>svc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_StubDbg.cpp"/>
+  </compounddef>
+</doxygen>

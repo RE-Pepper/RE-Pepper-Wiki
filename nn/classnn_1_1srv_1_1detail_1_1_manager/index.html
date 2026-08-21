@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::srv::detail::Manager - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnsrvdetailmanager">Class nn::srv::detail::Manager</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1srv/"><strong>srv</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1srv_1_1detail/"><strong>detail</strong></a> <strong>&gt;</strong> <a href="./"><strong>Manager</strong></a></p>
+<ul>
+<li><code>#include &lt;srv_Manager.h&gt;</code></li>
+</ul>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-enablenotification"><strong>EnableNotification</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-getnamedobject"><strong>GetNamedObject</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> *, const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>, bool) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-getservicehandle"><strong>GetServiceHandle</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> *, const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-isserviceregistered"><strong>IsServiceRegistered</strong></a> (bool *, const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-publishandgetsubscriber"><strong>PublishAndGetSubscriber</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a>, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-publishtoall"><strong>PublishToAll</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-publishtoprocess"><strong>PublishToProcess</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a>, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-publishtosubscriber"><strong>PublishToSubscriber</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-receivenotifictions"><strong>ReceiveNotifictions</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-registerclient"><strong>RegisterClient</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-registerobject"><strong>RegisterObject</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a>, const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-registerprocess"><strong>RegisterProcess</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>, const <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-registerservice"><strong>RegisterService</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> *, const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-subscribe"><strong>Subscribe</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-unregisterobject"><strong>UnregisterObject</strong></a> (const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-unregisterprocess"><strong>UnregisterProcess</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-unregisterservice"><strong>UnregisterService</strong></a> (const <a href="../types_8h/#typedef-char8"><strong>char8</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-unsubscribe"><strong>Unsubscribe</strong></a> (<a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-enablenotification">function EnableNotification</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::EnableNotification () 
+</code></pre>
+<hr>
+
+<h3 id="function-getnamedobject">function GetNamedObject</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::GetNamedObject (
+    Handle *,
+    const char8 *,
+    s32,
+    bool
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getservicehandle">function GetServiceHandle</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::GetServiceHandle (
+    Handle *,
+    const char8 *,
+    s32,
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-isserviceregistered">function IsServiceRegistered</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::IsServiceRegistered (
+    bool *,
+    const char8 *,
+    s32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-publishandgetsubscriber">function PublishAndGetSubscriber</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::PublishAndGetSubscriber (
+    s32,
+    bit32,
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-publishtoall">function PublishToAll</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::PublishToAll (
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-publishtoprocess">function PublishToProcess</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::PublishToProcess (
+    Handle,
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-publishtosubscriber">function PublishToSubscriber</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::PublishToSubscriber (
+    bit32,
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-receivenotifictions">function ReceiveNotifictions</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::ReceiveNotifictions (
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-registerclient">function RegisterClient</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::RegisterClient () 
+</code></pre>
+<hr>
+
+<h3 id="function-registerobject">function RegisterObject</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::RegisterObject (
+    Handle,
+    const char8 *,
+    s32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-registerprocess">function RegisterProcess</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::RegisterProcess (
+    bit32,
+    const bit32 *,
+    s32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-registerservice">function RegisterService</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::RegisterService (
+    Handle *,
+    const char8 *,
+    s32,
+    s32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-subscribe">function Subscribe</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::Subscribe (
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-unregisterobject">function UnregisterObject</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::UnregisterObject (
+    const char8 *,
+    s32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-unregisterprocess">function UnregisterProcess</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::UnregisterProcess (
+    bit32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-unregisterservice">function UnregisterService</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::UnregisterService (
+    const char8 *,
+    s32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-unsubscribe">function Unsubscribe</h3>
+<pre><code class="language-C++">static Result nn::srv::detail::Manager::Unsubscribe (
+    bit32
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/srv/srv_Manager.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

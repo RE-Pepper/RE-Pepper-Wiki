@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1util_1_1detail_1_1_alignment_type" kind="struct" language="C++" prot="public">
+    <compoundname>nn::util::detail::AlignmentType</compoundname>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>Alignment</declname>
+        <defname>Alignment</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="7" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

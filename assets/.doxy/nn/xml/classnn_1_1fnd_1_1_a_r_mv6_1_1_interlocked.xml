@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked" kind="class" language="C++" prot="public">
+    <compoundname>nn::fnd::ARMv6::Interlocked</compoundname>
+    <includes refid="_a_r_mv6_2fnd___interlocked_8h" local="no">fnd_Interlocked.h</includes>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_011_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 1 &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_012_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 2 &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_014_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 4 &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_018_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 8 &gt;</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1a4c71dc52cde716eb755d38a8514f6160" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename UpdateFunc</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool nn::fnd::ARMv6::Interlocked::AtomicUpdate</definition>
+        <argsstring>(volatile T *p, UpdateFunc &amp;update, typename nn::util::enable_if&lt; sizeof(T)&lt;=4 &gt;::type *=0)</argsstring>
+        <name>AtomicUpdate</name>
+        <qualifiedname>nn::fnd::ARMv6::Interlocked::AtomicUpdate</qualifiedname>
+        <param>
+          <type>volatile T *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>UpdateFunc &amp;</type>
+          <declname>update</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="73" column="21" bodyfile="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" bodystart="73" bodyend="103"/>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="41" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" bodystart="42" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1a4c71dc52cde716eb755d38a8514f6160" prot="public" virt="non-virtual"><scope>nn::fnd::ARMv6::Interlocked</scope><name>AtomicUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

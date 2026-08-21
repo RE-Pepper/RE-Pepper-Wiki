@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Struct nn::cfg::CTR::ParentalControlInfo - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="struct-nncfgctrparentalcontrolinfo">Struct nn::cfg::CTR::ParentalControlInfo</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1cfg/"><strong>cfg</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1cfg_1_1_c_t_r/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="./"><strong>ParentalControlInfo</strong></a></p>
+<ul>
+<li><code>#include &lt;cfg_ParentalControl.h&gt;</code></li>
+</ul>
+<h2 id="public-attributes">Public Attributes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_flags/"><strong>ParentalControlFlags</strong></a></td>
+<td style="text-align: left;"><a href="#variable-flags"><strong>flags</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-ogn"><strong>ogn</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">char</td>
+<td style="text-align: left;"><a href="#variable-password"><strong>password</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-ratingage"><strong>ratingAge</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u32"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-rsv1"><strong>rsv1</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-rsv2"><strong>rsv2</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-rsv3"><strong>rsv3</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">wchar_t</td>
+<td style="text-align: left;"><a href="#variable-secretanswer"><strong>secretAnswer</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-secretanswerlength"><strong>secretAnswerLength</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-secretquestionid"><strong>secretQuestionID</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-attributes-documentation">Public Attributes Documentation</h2>
+<h3 id="variable-flags">variable flags</h3>
+<pre><code class="language-C++">ParentalControlFlags nn::cfg::CTR::ParentalControlInfo::flags;
+</code></pre>
+<hr>
+
+<h3 id="variable-ogn">variable ogn</h3>
+<pre><code class="language-C++">u8 nn::cfg::CTR::ParentalControlInfo::ogn;
+</code></pre>
+<hr>
+
+<h3 id="variable-password">variable password</h3>
+<pre><code class="language-C++">char nn::cfg::CTR::ParentalControlInfo::password[5];
+</code></pre>
+<hr>
+
+<h3 id="variable-ratingage">variable ratingAge</h3>
+<pre><code class="language-C++">u8 nn::cfg::CTR::ParentalControlInfo::ratingAge;
+</code></pre>
+<hr>
+
+<h3 id="variable-rsv1">variable rsv1</h3>
+<pre><code class="language-C++">u32 nn::cfg::CTR::ParentalControlInfo::rsv1;
+</code></pre>
+<hr>
+
+<h3 id="variable-rsv2">variable rsv2</h3>
+<pre><code class="language-C++">u8 nn::cfg::CTR::ParentalControlInfo::rsv2[3];
+</code></pre>
+<hr>
+
+<h3 id="variable-rsv3">variable rsv3</h3>
+<pre><code class="language-C++">u8 nn::cfg::CTR::ParentalControlInfo::rsv3[42];
+</code></pre>
+<hr>
+
+<h3 id="variable-secretanswer">variable secretAnswer</h3>
+<pre><code class="language-C++">wchar_t nn::cfg::CTR::ParentalControlInfo::secretAnswer[65];
+</code></pre>
+<hr>
+
+<h3 id="variable-secretanswerlength">variable secretAnswerLength</h3>
+<pre><code class="language-C++">u8 nn::cfg::CTR::ParentalControlInfo::secretAnswerLength;
+</code></pre>
+<hr>
+
+<h3 id="variable-secretquestionid">variable secretQuestionID</h3>
+<pre><code class="language-C++">u8 nn::cfg::CTR::ParentalControlInfo::secretQuestionID;
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

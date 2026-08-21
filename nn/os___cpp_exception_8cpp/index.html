@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_CppException.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_cppexceptioncpp">File os_CppException.cpp</h1>
+<p><a href="../files/"><strong>FileList</strong></a> <strong>&gt;</strong> <a href="../dir_9d5035ea42e3a15a3c12a88837862b5a/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="./"><strong>os_CppException.cpp</strong></a></p>
+<p><a href="../os___cpp_exception_8cpp_source/">Go to the source code of this file</a></p>
+<ul>
+<li><code>#include &lt;cstdlib&gt;</code></li>
+<li><code>#include &lt;exception&gt;</code></li>
+<li><code>#include &lt;nn/os/CTR/os_CppException.h&gt;</code></li>
+<li><code>#include &lt;nn/os/CTR/os_ThreadLocalRegion.h&gt;</code></li>
+</ul>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespacenn/"><strong>nn</strong></a> <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespacenn_1_1os/"><strong>os</strong></a> <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespacenn_1_1os_1_1_c_t_r/"><strong>CTR</strong></a> <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-attributes">Public Attributes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">handler</td>
+<td style="text-align: left;"><a href="#variable-call_hook"><strong>call_hook</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#variable-caughtexceptions"><strong>caughtExceptions</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#variable-emergency_buffer"><strong>emergency_buffer</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="#variable-implementation_ever_called_terminate"><strong>implementation_ever_called_terminate</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#variable-propagatingexceptions"><strong>propagatingExceptions</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">std::terminate_handler</td>
+<td style="text-align: left;"><a href="#variable-terminatehandler"><strong>terminateHandler</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">uint32_t</td>
+<td style="text-align: left;"><a href="#variable-uncaughtexceptions"><strong>uncaughtExceptions</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">std::unexpected_handler</td>
+<td style="text-align: left;"><a href="#variable-unexpectedhandler"><strong>unexpectedHandler</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-attributes-documentation">Public Attributes Documentation</h2>
+<h3 id="variable-call_hook">variable call_hook</h3>
+<pre><code class="language-C++">handler call_hook;
+</code></pre>
+<hr>
+
+<h3 id="variable-caughtexceptions">variable caughtExceptions</h3>
+<pre><code class="language-C++">void* caughtExceptions;
+</code></pre>
+<hr>
+
+<h3 id="variable-emergency_buffer">variable emergency_buffer</h3>
+<pre><code class="language-C++">void* emergency_buffer;
+</code></pre>
+<hr>
+
+<h3 id="variable-implementation_ever_called_terminate">variable implementation_ever_called_terminate</h3>
+<pre><code class="language-C++">bool implementation_ever_called_terminate;
+</code></pre>
+<hr>
+
+<h3 id="variable-propagatingexceptions">variable propagatingExceptions</h3>
+<pre><code class="language-C++">void* propagatingExceptions;
+</code></pre>
+<hr>
+
+<h3 id="variable-terminatehandler">variable terminateHandler</h3>
+<pre><code class="language-C++">std::terminate_handler terminateHandler;
+</code></pre>
+<hr>
+
+<h3 id="variable-uncaughtexceptions">variable uncaughtExceptions</h3>
+<pre><code class="language-C++">uint32_t uncaughtExceptions;
+</code></pre>
+<hr>
+
+<h3 id="variable-unexpectedhandler">variable unexpectedHandler</h3>
+<pre><code class="language-C++">std::unexpected_handler unexpectedHandler;
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

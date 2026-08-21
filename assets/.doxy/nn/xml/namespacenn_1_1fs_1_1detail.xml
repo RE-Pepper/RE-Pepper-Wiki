@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fs_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::fs::detail</compoundname>
+    <innerclass refid="structnn_1_1fs_1_1detail_1_1_archive_handle_tag" prot="public">nn::fs::detail::ArchiveHandleTag</innerclass>
+    <innerclass refid="classnn_1_1fs_1_1detail_1_1_file_base_impl" prot="public">nn::fs::detail::FileBaseImpl</innerclass>
+    <innerclass refid="classnn_1_1fs_1_1detail_1_1_file_system_base" prot="public">nn::fs::detail::FileSystemBase</innerclass>
+    <innerclass refid="classnn_1_1fs_1_1detail_1_1_file_system_base_impl" prot="public">nn::fs::detail::FileSystemBaseImpl</innerclass>
+    <innerclass refid="classnn_1_1fs_1_1detail_1_1_w_path_buffer" prot="public">nn::fs::detail::WPathBuffer</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacenn_1_1fs_1_1detail_1af76741cad29f48d15d69034a575580a9" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char nn::fs::detail::FILE_SERVER_NAME[]</definition>
+        <argsstring>[]</argsstring>
+        <name>FILE_SERVER_NAME</name>
+        <qualifiedname>nn::fs::detail::FILE_SERVER_NAME</qualifiedname>
+        <initializer>= &quot;fs:USER&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Api.h" line="8" column="20" bodyfile="lib/CtrSDK/include/nn/fs/fs_Api.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1fs_1_1detail_1ae03ddd88535fca665ade79be2ce5725c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fs::detail::ForceDisableLatencyEmulation</definition>
+        <argsstring>()</argsstring>
+        <name>ForceDisableLatencyEmulation</name>
+        <qualifiedname>nn::fs::detail::ForceDisableLatencyEmulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserFileSystem.h" line="61" column="6" declfile="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserFileSystem.h" declline="61" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fs_1_1detail_1ac23eba05325ac16817698f6038d82d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fs::detail::RegisterGlobalFileSystemBase</definition>
+        <argsstring>(FileSystemBase &amp;)</argsstring>
+        <name>RegisterGlobalFileSystemBase</name>
+        <qualifiedname>nn::fs::detail::RegisterGlobalFileSystemBase</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1fs_1_1detail_1_1_file_system_base" kindref="compound">FileSystemBase</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/detail/fs_FileSystemBase.h" line="18" column="14" declfile="lib/CtrSDK/include/nn/fs/detail/fs_FileSystemBase.h" declline="18" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_FileBase.h" line="10" column="1"/>
+  </compounddef>
+</doxygen>

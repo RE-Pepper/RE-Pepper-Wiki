@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::DebugParamCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1" prot="public">nn::cfg::CTR::detail::DebugParamCfgData::Param1</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a312beb5b778da114b90ac985e7f216fc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::cfg::CTR::detail::DebugParamCfgData::dlpDebug</definition>
+        <argsstring></argsstring>
+        <name>dlpDebug</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::dlpDebug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="340" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a6a866d74261fa88661b05b7cb34c133e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::DebugParamCfgData::flags1</definition>
+        <argsstring></argsstring>
+        <name>flags1</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::flags1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="342" column="24" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a74fa799aedb3e804077be1035b588eec" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1" kindref="compound">Param1</ref></type>
+        <definition>Param1 nn::cfg::CTR::detail::DebugParamCfgData::param1</definition>
+        <argsstring></argsstring>
+        <name>param1</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::param1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="343" column="24" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1ad13214a0d136b0d0c7c02763da1ab8bf" prot="public" static="no" mutable="no">
+        <type>union <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data" kindref="compound">nn::cfg::CTR::detail::DebugParamCfgData</ref></type>
+        <definition>union nn::cfg::CTR::detail::DebugParamCfgData nn::cfg::CTR::detail::DebugParamCfgData</definition>
+        <argsstring></argsstring>
+        <name></name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="344" column="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1af50f482d5057714672d695e3f7ebde95" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::DebugParamCfgData::fsLatencyEmulationParam</definition>
+        <argsstring></argsstring>
+        <name>fsLatencyEmulationParam</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::fsLatencyEmulationParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="346" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a3ffef181df9080293c530c5a690a8ab0" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::DebugParamCfgData::rsv</definition>
+        <argsstring></argsstring>
+        <name>rsv</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::rsv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="347" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::DebugParamCfgData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>param1</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::cfg::CTR::detail::DebugParamCfgData::Param1</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="331" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="332" bodyend="348"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a312beb5b778da114b90ac985e7f216fc" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData</scope><name>dlpDebug</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a6a866d74261fa88661b05b7cb34c133e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData</scope><name>flags1</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1af50f482d5057714672d695e3f7ebde95" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData</scope><name>fsLatencyEmulationParam</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a74fa799aedb3e804077be1035b588eec" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData</scope><name>param1</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1a3ffef181df9080293c530c5a690a8ab0" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData</scope><name>rsv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

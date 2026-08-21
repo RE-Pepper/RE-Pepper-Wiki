@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1srv_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::srv::detail</compoundname>
+    <innerclass refid="classnn_1_1srv_1_1detail_1_1_handler_manager" prot="public">nn::srv::detail::HandlerManager</innerclass>
+    <innerclass refid="classnn_1_1srv_1_1detail_1_1_manager" prot="public">nn::srv::detail::Manager</innerclass>
+    <innerclass refid="classnn_1_1srv_1_1detail_1_1_service" prot="public">nn::srv::detail::Service</innerclass>
+    <innerclass refid="structnn_1_1srv_1_1detail_1_1_static_variables" prot="public">nn::srv::detail::StaticVariables</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/srv/srv_Manager.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

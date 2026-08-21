@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fslow" kind="namespace" language="C++">
+    <compoundname>nn::fslow</compoundname>
+    <innerclass refid="classnn_1_1fslow_1_1_low_path" prot="public">nn::fslow::LowPath</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

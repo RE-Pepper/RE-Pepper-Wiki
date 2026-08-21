@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alScene.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alsceneh">File alScene.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_f7e8efec570a34efc8a6993e55383954/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_bbf0d395114b7d01e47e296975854f01/"><strong>Scene</strong></a> <strong>&gt;</strong> <a href="../al_scene_8h/"><strong>alScene.h</strong></a></p>
+<p><a href="../al_scene_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;Audio/alAudioKeeper.h&gt;
+#include &lt;Nerve/alNerveExecutor.h&gt;
+#include &lt;heap/seadHeap.h&gt;
+
+namespace al
+{
+class ActorFactory;
+class ActorInitInfo;
+class LayoutKit;
+class LiveActorKit;
+class SceneObjHolder;
+class StageResourceKeeper;
+
+class Scene : public NerveExecutor, public IUseAudioKeeper
+{
+private:
+        AudioKeeper*         mAudioKeeper;
+        LiveActorKit*        mLiveActorKit;
+        LayoutKit*           mLayoutKit;
+        SceneObjHolder*      mSceneObjHolder;
+        ActorFactory*        mActorFactory;
+        void*                _20;
+        StageResourceKeeper* mResourceKeeper;
+        void*                _28;
+        void*                _2C;
+
+        bool mIsAlive;
+
+public:
+        bool isAlive() const
+        {
+                return mIsAlive;
+        }
+
+        ActorFactory* getActorFactory() const
+        {
+                return mActorFactory;
+        }
+
+        void initAndLoadStageResource( const char* stageName, int scenario, sead::Heap* heap );
+        void initSceneAudio( const char* stageName, int scenario, int, const sead::SafeString&amp;, const char* userName );
+        void initCameraDirector();
+        void initActorFactory();
+        void initSceneObjHolder();
+        void initLiveActorKit();
+        void initLayoutKit();
+
+        void endInit( const ActorInitInfo&amp; info );
+
+public:
+        virtual void appear();
+        virtual void kill();
+        virtual void init() = 0;
+        virtual void movement();
+        virtual void control();
+
+        virtual void drawMainTop()
+        {
+        }
+
+        virtual void drawSubTop()
+        {
+        }
+
+        virtual void drawMainBottom()
+        {
+        }
+
+        virtual void drawSubButtom()
+        {
+        }
+
+        virtual void unk5()
+        {
+        }
+
+        virtual void unk6()
+        {
+        }
+
+        virtual void unk7()
+        {
+        }
+
+        virtual AudioKeeper* getAudioKeeper() const; // probably not the right location
+
+        virtual void unk8()
+        {
+        }
+
+        virtual void draw3D()
+        {
+        }
+
+        virtual void drawEffect()
+        {
+        }
+
+public:
+        Scene( const char* name );
+};
+
+static_assert( sizeof( Scene ) == 0x34, &quot;&quot; );
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1codec_1_1_c_t_r" kind="namespace" language="C++">
+    <compoundname>nn::codec::CTR</compoundname>
+    <innerclass refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param" prot="public">nn::codec::CTR::IirFilterParam</innerclass>
+    <innerclass refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_biquad" prot="public">nn::codec::CTR::IirFilterParamBiquad</innerclass>
+    <innerclass refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q" prot="public">nn::codec::CTR::IirFilterParamEQ</innerclass>
+    <innerclass refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half" prot="public">nn::codec::CTR::IirFilterParamHalf</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1codec_1_1_c_t_r_1a7b1409362eb4db4fc93efbde520bc5d1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>IirFilterTargetEQ</name>
+        <qualifiedname>nn::codec::CTR::IirFilterTargetEQ</qualifiedname>
+        <enumvalue id="namespacenn_1_1codec_1_1_c_t_r_1a7b1409362eb4db4fc93efbde520bc5d1a01330f03bb1551471a96ceaf8b6b2082" prot="public">
+          <name>HP_32KHZ</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1codec_1_1_c_t_r_1a7b1409362eb4db4fc93efbde520bc5d1ab9176989549fb61f3889e9a080c1fca7" prot="public">
+          <name>HP_48KHZ</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1codec_1_1_c_t_r_1a7b1409362eb4db4fc93efbde520bc5d1acaa6c771cce06f7d04cfa44f81cb1855" prot="public">
+          <name>SP_32KHZ</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1codec_1_1_c_t_r_1a7b1409362eb4db4fc93efbde520bc5d1a7463e245a28b40c6d1cb6b465ec56473" prot="public">
+          <name>SP_48KHZ</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="8" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

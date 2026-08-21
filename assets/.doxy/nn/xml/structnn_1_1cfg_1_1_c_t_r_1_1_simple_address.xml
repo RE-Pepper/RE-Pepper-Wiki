@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::SimpleAddress</compoundname>
+    <includes refid="cfg___user_info_8h" local="no">cfg_UserInfo.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1a0dea34373b8190bb36e581657627beba" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::SimpleAddress::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>nn::cfg::CTR::SimpleAddress::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="23" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1a87347d876745754cdb67d572cb3045c7" prot="public" static="no" mutable="no">
+        <type>wchar_t</type>
+        <definition>wchar_t nn::cfg::CTR::SimpleAddress::countryName[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>countryName</name>
+        <qualifiedname>nn::cfg::CTR::SimpleAddress::countryName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="25" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1aa44c200097504d451deeae612ebad24f" prot="public" static="no" mutable="no">
+        <type>wchar_t</type>
+        <definition>wchar_t nn::cfg::CTR::SimpleAddress::regionName[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>regionName</name>
+        <qualifiedname>nn::cfg::CTR::SimpleAddress::regionName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="26" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1aed065ba200a194a0c120a241d008e8bd" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::SimpleAddress::latitude</definition>
+        <argsstring></argsstring>
+        <name>latitude</name>
+        <qualifiedname>nn::cfg::CTR::SimpleAddress::latitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="28" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1a9eff4b2494411b6f988d978400bd9179" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::cfg::CTR::SimpleAddress::longitude</definition>
+        <argsstring></argsstring>
+        <name>longitude</name>
+        <qualifiedname>nn::cfg::CTR::SimpleAddress::longitude</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="29" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="21" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="22" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1a87347d876745754cdb67d572cb3045c7" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::SimpleAddress</scope><name>countryName</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1a0dea34373b8190bb36e581657627beba" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::SimpleAddress</scope><name>id</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1aed065ba200a194a0c120a241d008e8bd" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::SimpleAddress</scope><name>latitude</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1a9eff4b2494411b6f988d978400bd9179" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::SimpleAddress</scope><name>longitude</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_simple_address_1aa44c200097504d451deeae612ebad24f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::SimpleAddress</scope><name>regionName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

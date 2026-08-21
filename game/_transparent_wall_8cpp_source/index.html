@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File TransparentWall.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-transparentwallcpp">File TransparentWall.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_47d28cd3eb946f860e1fe0f4e720b9c2/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_d5af9f6f62d27d9e3db1b7ff0fb6c0e1/"><strong>MapObj</strong></a> <strong>&gt;</strong> <a href="../_transparent_wall_8cpp/"><strong>TransparentWall.cpp</strong></a></p>
+<p><a href="../_transparent_wall_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &quot;MapObj/TransparentWall.h&quot;
+
+#include &lt;LiveActor/alActorInitUtil.h&gt;
+#include &lt;LiveActor/alLiveActorFunction.h&gt;
+#include &lt;Placement/alPlacementFunction.h&gt;
+#include &lt;Stage/alStageSwitchKeeper.h&gt;
+
+TransparentWall::TransparentWall( const sead::SafeString&amp; name ) : MapObjActor( name )
+{
+}
+
+void TransparentWall::init( const al::ActorInitInfo&amp; info )
+{
+        if ( al::isObjectName( info, &quot;TransparentWallMoveLimit&quot; ) )
+                al::initActorWithArchiveName( this, info, &quot;TransparentWall&quot;, &quot;MoveLimit&quot; );
+        else
+                al::initActor( this, info );
+        al::initStageSwitchAppear( this, info );
+        al::trySyncStageSwitchAppear( this );
+        al::initStageSwitchKill( this, info );
+        al::trySyncStageSwitchKill( this );
+}
+
+void TransparentWall::makeActorDead()
+{
+        LiveActor::makeActorDead();
+}
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

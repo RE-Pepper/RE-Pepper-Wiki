@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_ThreadLocalStorage.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_threadlocalstoragecpp">File os_ThreadLocalStorage.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_6ad72fc0abbc32b2f59992fddd21f3c1/"><strong>sources</strong></a> <strong>&gt;</strong> <a href="../dir_80d58af41f6b82f04b97d791f7cfcb5d/"><strong>libraries</strong></a> <strong>&gt;</strong> <a href="../dir_56153499d95e77076f83f9f8405b15c2/"><strong>os</strong></a> <strong>&gt;</strong> <a href="../os___thread_local_storage_8cpp/"><strong>os_ThreadLocalStorage.cpp</strong></a></p>
+<p><a href="../os___thread_local_storage_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;nn/assert.h&gt;
+#include &lt;nn/os/CTR/os_ErrorHandler.h&gt;
+#include &lt;nn/os/CTR/os_ThreadLocalRegion.h&gt;
+#include &lt;nn/os/os_Result.h&gt;
+#include &lt;nn/os/os_ThreadLocalStorage.h&gt;
+
+RP_SHUTUP
+
+namespace nn {
+namespace os {
+
+#define TLS_NUM 16 // from assert
+
+namespace {
+typedef CTR::ThreadLocalRegion ThreadLocalBuffer; // 32
+
+inline ThreadLocalBuffer* GetThreadLocalBuffer() // 34
+{
+        return CTR::GetThreadLocalRegion();
+}
+
+var(nn::os, sTLSMap, u16) = 0;
+
+inline bool IsMappedIndex(s32 index) // 64
+{
+       return (sTLSMap &gt;&gt; index) &amp; 1;
+}
+
+inline s32 SearchFreeTLSIndex() // 74
+{
+        for (int i = 0; i &lt; TLS_NUM; ++i) {
+            if (!IsMappedIndex(i)){
+                return i;
+            }
+        }
+        return -1;
+}
+
+inline s32 AllocateTLSIndex() // 92
+{
+        s32 index = SearchFreeTLSIndex();
+        if (index &gt;= 0 &amp;&amp; index &lt; TLS_NUM) {
+            sTLSMap |= (1 &lt;&lt; index);
+        }
+        return index;
+}
+
+inline s32 FreeTLSIndex(int index) // 107
+{
+        if (!IsMappedIndex(index))
+        {
+            return -1;
+        }
+        return sTLSMap &amp;= ~(1 &lt;&lt; index);
+}
+}
+
+ThreadLocalStorage::ThreadLocalStorage() {
+    m_Index = AllocateTLSIndex(); // 120
+
+    NN_ASSERT_SDK_MSG(m_Index &gt;= 0, &quot;Out of Thread Local Storage Slot.&quot;); // 122
+    if(m_Index &lt; 0) {
+        NN_OS_HANDLE_ERROR(ResultExceedTlsLimit());
+    }
+}
+
+ThreadLocalStorage::~ThreadLocalStorage() {
+    NN_ASSERT_SDK(m_Index &gt;= 0 &amp;&amp; m_Index &lt; TLS_NUM); // 127
+    NN_ASSERT_SDK(IsMappedIndex(m_Index)) // 128
+
+    FreeTLSIndex(m_Index);
+}
+
+uptr ThreadLocalStorage::GetValue() const
+{
+    NN_ASSERT_SDK(m_Index &gt;= 0 &amp;&amp; m_Index &lt; TLS_NUM); // 202
+    NN_ASSERT_SDK(IsMappedIndex(m_Index)); // 203
+
+    if (IsMappedIndex(m_Index))
+    {
+        return GetThreadLocalBuffer()-&gt;tls[m_Index];
+    } else {
+        return 0;
+    }
+}
+
+void ThreadLocalStorage::SetValue(uptr value)
+{
+    NN_ASSERT_SDK(m_Index &gt;= 0 &amp;&amp; m_Index &lt; TLS_NUM); // 210
+    NN_ASSERT_SDK(IsMappedIndex(m_Index)); // 211
+
+    if (IsMappedIndex(m_Index)) {
+        GetThreadLocalBuffer()-&gt;tls[m_Index] = value;
+    }
+}
+
+void ThreadLocalStorage::ClearAllSlots() {
+    ThreadLocalBuffer&amp; tlr = *GetThreadLocalBuffer();
+
+    for( int i = 0; i &lt; TLS_NUM; ++i )
+    {
+        tlr.tls[i] = 0;
+    }
+
+}
+
+} // namespace os
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

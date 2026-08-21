@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1dbg_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::dbg::detail</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::PutString</definition>
+        <argsstring>(const char *text, int length)</argsstring>
+        <name>PutString</name>
+        <qualifiedname>nn::dbg::detail::PutString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="14" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="14" bodyend="18" declfile="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" declline="9" declcolumn="6"/>
+        <references refid="module_8h_1ae7b82ff3026fe627ba0ca8ef9bbf7038" compoundref="module_8h" startline="11" endline="12">NN_REFER_MODULE</references>
+        <references refid="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d">nn::svc::OutputDebugString</references>
+        <referencedby refid="dbg___debug_string_8cpp_1a2f6ca64637106878e4de682162f9578f" compoundref="dbg___debug_string_8cpp" startline="89" endline="92">nndbgDetailPutString</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a9a6f73d868a5794a79de858cbc5c6ba3" compoundref="dbg___debug_string_8cpp" startline="20" endline="23">PutString</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" compoundref="dbg___debug_string_8cpp" startline="36" endline="45">TVPrintf</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" compoundref="dbg___debug_string_8cpp" startline="25" endline="34">VPrintf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a9a6f73d868a5794a79de858cbc5c6ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::PutString</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>PutString</name>
+        <qualifiedname>nn::dbg::detail::PutString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="20" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="20" bodyend="23" declfile="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" declline="10" declcolumn="6"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" compoundref="dbg___debug_string_8cpp" startline="14" endline="18">PutString</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::VPrintf</definition>
+        <argsstring>(const char *fmt, va_list arg)</argsstring>
+        <name>VPrintf</name>
+        <qualifiedname>nn::dbg::detail::VPrintf</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="25" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="25" bodyend="34" declfile="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" declline="11" declcolumn="6"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" compoundref="dbg___debug_string_8cpp" startline="14" endline="18">PutString</references>
+        <referencedby refid="dbg___break_8h_1a407512a2625ec62a96ad591140df9960" compoundref="dbg___break_8cpp" startline="53" endline="62">nndbgBreakWithMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1a82e501daa3c0cd1a30cd0066460e4c2a" compoundref="dbg___break_8cpp" startline="75" endline="85">nndbgBreakWithResultMessage_</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a261807fb80b2d7d8139368faf92ca9a0" compoundref="dbg___debug_string_8cpp" startline="94" endline="97">nndbgDetailVPrintf</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a2d30988abd444aa45f1eefa7c3178e19" compoundref="dbg___debug_string_8cpp" startline="69" endline="77">nndbgPrintWarning_</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" compoundref="dbg___debug_string_8cpp" startline="47" endline="53">Printf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::TVPrintf</definition>
+        <argsstring>(const char *fmt, va_list arg)</argsstring>
+        <name>TVPrintf</name>
+        <qualifiedname>nn::dbg::detail::TVPrintf</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="36" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="36" bodyend="45" declfile="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" declline="12" declcolumn="6"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" compoundref="dbg___debug_string_8cpp" startline="14" endline="18">PutString</references>
+        <references refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" compoundref="nstd___printf_8cpp" startline="99" endline="102">nn::nstd::TVSNPrintf</references>
+        <referencedby refid="dbg___break_8h_1a1f46334bf22cfde6609bcaa2509d61f8" compoundref="dbg___break_8cpp" startline="87" endline="97">nndbgBreakWithResultTMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1acd051d28735e4ec5b9f246d41aea933c" compoundref="dbg___break_8cpp" startline="64" endline="73">nndbgBreakWithTMessage_</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a9d5c67eb6c6a479af17f2b611c365657" compoundref="dbg___debug_string_8cpp" startline="99" endline="102">nndbgDetailTVPrintf</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a2593bde0817153806f991730394a870d" compoundref="dbg___debug_string_8cpp" startline="79" endline="87">nndbgTPrintWarning_</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">TPrintf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::Printf</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>Printf</name>
+        <qualifiedname>nn::dbg::detail::Printf</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="47" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="47" bodyend="53" declfile="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" declline="13" declcolumn="6"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" compoundref="dbg___debug_string_8cpp" startline="25" endline="34">VPrintf</references>
+        <referencedby refid="dbg___debug_string_8cpp_1afc895b764a8a3b93f87fec865fafe5c1" compoundref="dbg___debug_string_8cpp" startline="104" endline="110">nndbgDetailPrintf</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" compoundref="dbg___print_result_8cpp" startline="374" endline="381">PrintResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::TPrintf</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>TPrintf</name>
+        <qualifiedname>nn::dbg::detail::TPrintf</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" line="55" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_DebugString.cpp" bodystart="55" bodyend="61" declfile="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" declline="14" declcolumn="6"/>
+        <references refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" compoundref="dbg___debug_string_8cpp" startline="36" endline="45">TVPrintf</references>
+        <referencedby refid="dbg___break_8h_1a407512a2625ec62a96ad591140df9960" compoundref="dbg___break_8cpp" startline="53" endline="62">nndbgBreakWithMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1a82e501daa3c0cd1a30cd0066460e4c2a" compoundref="dbg___break_8cpp" startline="75" endline="85">nndbgBreakWithResultMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1a1f46334bf22cfde6609bcaa2509d61f8" compoundref="dbg___break_8cpp" startline="87" endline="97">nndbgBreakWithResultTMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1acd051d28735e4ec5b9f246d41aea933c" compoundref="dbg___break_8cpp" startline="64" endline="73">nndbgBreakWithTMessage_</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a2f5faddd419ceca7df66b8ab4ad44070" compoundref="dbg___debug_string_8cpp" startline="112" endline="118">nndbgDetailTPrintf</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a2d30988abd444aa45f1eefa7c3178e19" compoundref="dbg___debug_string_8cpp" startline="69" endline="77">nndbgPrintWarning_</referencedby>
+        <referencedby refid="dbg___debug_string_8cpp_1a2593bde0817153806f991730394a870d" compoundref="dbg___debug_string_8cpp" startline="79" endline="87">nndbgTPrintWarning_</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1ace1e1f9486c3aa968a623f616ef386b6" compoundref="dbg___break_8cpp" startline="18" endline="26">nn::dbg::PrintErrorMessageHeader</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" compoundref="dbg___print_result_8cpp" startline="366" endline="373">TPrintResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::PrintResult</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>PrintResult</name>
+        <qualifiedname>nn::dbg::detail::PrintResult</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="374" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="374" bodyend="381" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="11" declcolumn="6"/>
+        <references refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" compoundref="_result_8h" startline="231" endline="234">nn::Result::GetDescription</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a990e5a7ec84c68b03cd85a5835118bed" compoundref="dbg___print_result_8cpp" startline="268" endline="364">GetDescriptionString</references>
+        <references refid="classnn_1_1_result_1a6a8c361e3386827a62d0ab75fe566c22" compoundref="_result_8h" startline="215" endline="222">nn::Result::GetLevel</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a4a08cad80b14a8009a5faf350e7c5353" compoundref="dbg___print_result_8cpp" startline="108" endline="120">GetLevelString</references>
+        <references refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" compoundref="_result_8h" startline="223" endline="226">nn::Result::GetModule</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a420b48d4a047042f359d73d6cc4d05af" compoundref="dbg___print_result_8cpp" startline="145" endline="231">GetModuleString</references>
+        <references refid="classnn_1_1_result_1af3514bb539a9b57ae0d270d49bbceb31" compoundref="_result_8h" startline="236" endline="239">nn::Result::GetPrintableBits</references>
+        <references refid="classnn_1_1_result_1a5ae439aac70c3b46630ad9bdbf97fe0c" compoundref="_result_8h" startline="227" endline="230">nn::Result::GetSummary</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a5ed7f80db18d3e7738146b2341fa1a20" compoundref="dbg___print_result_8cpp" startline="125" endline="140">GetSummaryString</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a30e1cdd80ae1ccc14a45aab07b1fa5c6" compoundref="dbg___debug_string_8cpp" startline="47" endline="53">Printf</references>
+        <referencedby refid="dbg___break_8h_1a82e501daa3c0cd1a30cd0066460e4c2a" compoundref="dbg___break_8cpp" startline="75" endline="85">nndbgBreakWithResultMessage_</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::dbg::detail::TPrintResult</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>TPrintResult</name>
+        <qualifiedname>nn::dbg::detail::TPrintResult</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="366" column="6" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="366" bodyend="373" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="12" declcolumn="6"/>
+        <references refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" compoundref="_result_8h" startline="231" endline="234">nn::Result::GetDescription</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a990e5a7ec84c68b03cd85a5835118bed" compoundref="dbg___print_result_8cpp" startline="268" endline="364">GetDescriptionString</references>
+        <references refid="classnn_1_1_result_1a6a8c361e3386827a62d0ab75fe566c22" compoundref="_result_8h" startline="215" endline="222">nn::Result::GetLevel</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a4a08cad80b14a8009a5faf350e7c5353" compoundref="dbg___print_result_8cpp" startline="108" endline="120">GetLevelString</references>
+        <references refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" compoundref="_result_8h" startline="223" endline="226">nn::Result::GetModule</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a420b48d4a047042f359d73d6cc4d05af" compoundref="dbg___print_result_8cpp" startline="145" endline="231">GetModuleString</references>
+        <references refid="classnn_1_1_result_1af3514bb539a9b57ae0d270d49bbceb31" compoundref="_result_8h" startline="236" endline="239">nn::Result::GetPrintableBits</references>
+        <references refid="classnn_1_1_result_1a5ae439aac70c3b46630ad9bdbf97fe0c" compoundref="_result_8h" startline="227" endline="230">nn::Result::GetSummary</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a5ed7f80db18d3e7738146b2341fa1a20" compoundref="dbg___print_result_8cpp" startline="125" endline="140">GetSummaryString</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">TPrintf</references>
+        <referencedby refid="dbg___break_8h_1a1f46334bf22cfde6609bcaa2509d61f8" compoundref="dbg___break_8cpp" startline="87" endline="97">nndbgBreakWithResultTMessage_</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a4a08cad80b14a8009a5faf350e7c5353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * nn::dbg::detail::GetLevelString</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>GetLevelString</name>
+        <qualifiedname>nn::dbg::detail::GetLevelString</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="108" column="12" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="108" bodyend="120" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="14" declcolumn="12"/>
+        <references refid="dbg___print_result_8cpp_1af7fb05f88acbe80ce6b68a7d63d3f717" compoundref="dbg___print_result_8cpp" startline="102" endline="103">ENTRY_GET_RESULT_DESCRIPTION_FALLBACK</references>
+        <references refid="dbg___print_result_8cpp_1a8e55db442fc077ef1bcbe2ee37e34c32" compoundref="dbg___print_result_8cpp" startline="105" endline="106">ENTRY_GET_RESULT_DESCRIPTION_LVL</references>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" compoundref="dbg___print_result_8cpp" startline="374" endline="381">PrintResult</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" compoundref="dbg___print_result_8cpp" startline="366" endline="373">TPrintResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a420b48d4a047042f359d73d6cc4d05af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * nn::dbg::detail::GetModuleString</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>GetModuleString</name>
+        <qualifiedname>nn::dbg::detail::GetModuleString</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="145" column="12" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="145" bodyend="231" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="15" declcolumn="12"/>
+        <references refid="dbg___print_result_8cpp_1af7fb05f88acbe80ce6b68a7d63d3f717" compoundref="dbg___print_result_8cpp" startline="102" endline="103">ENTRY_GET_RESULT_DESCRIPTION_FALLBACK</references>
+        <references refid="dbg___print_result_8cpp_1abf59cfc10f25fcdfd0575848dc1e439e" compoundref="dbg___print_result_8cpp" startline="142" endline="143">ENTRY_GET_RESULT_DESCRIPTION_MOD</references>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" compoundref="dbg___print_result_8cpp" startline="374" endline="381">PrintResult</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" compoundref="dbg___print_result_8cpp" startline="366" endline="373">TPrintResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a5ed7f80db18d3e7738146b2341fa1a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * nn::dbg::detail::GetSummaryString</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>GetSummaryString</name>
+        <qualifiedname>nn::dbg::detail::GetSummaryString</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="125" column="12" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="125" bodyend="140" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="16" declcolumn="12"/>
+        <references refid="dbg___print_result_8cpp_1af7fb05f88acbe80ce6b68a7d63d3f717" compoundref="dbg___print_result_8cpp" startline="102" endline="103">ENTRY_GET_RESULT_DESCRIPTION_FALLBACK</references>
+        <references refid="dbg___print_result_8cpp_1a32905b11e415e350f6c6571519138d6e" compoundref="dbg___print_result_8cpp" startline="122" endline="123">ENTRY_GET_RESULT_DESCRIPTION_SUM</references>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" compoundref="dbg___print_result_8cpp" startline="374" endline="381">PrintResult</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" compoundref="dbg___print_result_8cpp" startline="366" endline="373">TPrintResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a990e5a7ec84c68b03cd85a5835118bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * nn::dbg::detail::GetDescriptionString</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>GetDescriptionString</name>
+        <qualifiedname>nn::dbg::detail::GetDescriptionString</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="268" column="12" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="268" bodyend="364" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="17" declcolumn="12"/>
+        <references refid="dbg___print_result_8cpp_1a1705784446925cbd87a9ea91f482055b" compoundref="dbg___print_result_8cpp" startline="265" endline="266">CALL_GET_RESULT_DESCRIPTION</references>
+        <references refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" compoundref="_result_8h" startline="223" endline="226">nn::Result::GetModule</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a46a675a2abc5214dd54941a945a2d8de" compoundref="dbg___print_result_8cpp" startline="236" endline="264">GetResultCommonDescriptionStringImpl</references>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" compoundref="dbg___print_result_8cpp" startline="374" endline="381">PrintResult</referencedby>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" compoundref="dbg___print_result_8cpp" startline="366" endline="373">TPrintResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1dbg_1_1detail_1a46a675a2abc5214dd54941a945a2d8de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * nn::dbg::detail::GetResultCommonDescriptionStringImpl</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>GetResultCommonDescriptionStringImpl</name>
+        <qualifiedname>nn::dbg::detail::GetResultCommonDescriptionStringImpl</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" line="236" column="12" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_PrintResult.cpp" bodystart="236" bodyend="264" declfile="lib/CtrSDK/include/nn/dbg/dbg_PrintResult.h" declline="18" declcolumn="12"/>
+        <references refid="dbg___print_result_8cpp_1a455522d084d5fa90e3e418c27e0d519d" compoundref="dbg___print_result_8cpp" startline="233" endline="234">ENTRY_GET_RESULT_DESCRIPTION_DESC</references>
+        <references refid="dbg___print_result_8cpp_1af7fb05f88acbe80ce6b68a7d63d3f717" compoundref="dbg___print_result_8cpp" startline="102" endline="103">ENTRY_GET_RESULT_DESCRIPTION_FALLBACK</references>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a990e5a7ec84c68b03cd85a5835118bed" compoundref="dbg___print_result_8cpp" startline="268" endline="364">GetDescriptionString</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/dbg/dbg_DebugString.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

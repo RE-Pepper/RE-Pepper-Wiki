@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_delay_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::UlcdDelayCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_delay_cfg_data_1aeef9ca800bed8cc8a609584476002c52" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref></type>
+        <definition>s8 nn::cfg::CTR::detail::UlcdDelayCfgData::to2D</definition>
+        <argsstring></argsstring>
+        <name>to2D</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdDelayCfgData::to2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="63" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_delay_cfg_data_1a996684db67a8b6cd5eefb2ff97fea4b7" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref></type>
+        <definition>s8 nn::cfg::CTR::detail::UlcdDelayCfgData::to3D</definition>
+        <argsstring></argsstring>
+        <name>to3D</name>
+        <qualifiedname>nn::cfg::CTR::detail::UlcdDelayCfgData::to3D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="64" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="61" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="62" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_delay_cfg_data_1aeef9ca800bed8cc8a609584476002c52" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdDelayCfgData</scope><name>to2D</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ulcd_delay_cfg_data_1a996684db67a8b6cd5eefb2ff97fea4b7" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::UlcdDelayCfgData</scope><name>to3D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

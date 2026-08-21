@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn" kind="namespace" language="C++">
+    <compoundname>nn</compoundname>
+    <innerclass refid="structnn_1_1_const___l_m" prot="public">nn::Const_LM</innerclass>
+    <innerclass refid="structnn_1_1_const___l_s_m" prot="public">nn::Const_LSM</innerclass>
+    <innerclass refid="structnn_1_1_const_range" prot="public">nn::ConstRange</innerclass>
+    <innerclass refid="classnn_1_1_handle" prot="public">nn::Handle</innerclass>
+    <innerclass refid="structnn_1_1_product_info" prot="public">nn::ProductInfo</innerclass>
+    <innerclass refid="classnn_1_1_result" prot="public">nn::Result</innerclass>
+    <innerclass refid="classnn_1_1_with_initialize" prot="public">nn::WithInitialize</innerclass>
+    <innernamespace refid="namespacenn_1_1applet">nn::applet</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg">nn::cfg</innernamespace>
+    <innernamespace refid="namespacenn_1_1codec">nn::codec</innernamespace>
+    <innernamespace refid="namespacenn_1_1dbg">nn::dbg</innernamespace>
+    <innernamespace refid="namespacenn_1_1err">nn::err</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs">nn::fs</innernamespace>
+    <innernamespace refid="namespacenn_1_1fslow">nn::fslow</innernamespace>
+    <innernamespace refid="namespacenn_1_1hid">nn::hid</innernamespace>
+    <innernamespace refid="namespacenn_1_1math">nn::math</innernamespace>
+    <innernamespace refid="namespacenn_1_1ndm">nn::ndm</innernamespace>
+    <innernamespace refid="namespacenn_1_1nstd">nn::nstd</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <innernamespace refid="namespacenn_1_1srv">nn::srv</innernamespace>
+    <innernamespace refid="namespacenn_1_1svc">nn::svc</innernamespace>
+    <innernamespace refid="namespacenn_1_1util">nn::util</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1aeed41a18163c77bf4d00d8a7e5de6115" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::nnResultHandlerImpl) (nnResult result, const char *filename, int lineno, const char *fmt, va_list vlist)</definition>
+        <argsstring>)(nnResult result, const char *filename, int lineno, const char *fmt, va_list vlist)</argsstring>
+        <name>nnResultHandlerImpl</name>
+        <qualifiedname>nn::nnResultHandlerImpl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="355" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1a2cf656aad61845978ea6e7823b1ac80a" prot="public" static="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>typedef bit64 nn::ProgramID</definition>
+        <argsstring></argsstring>
+        <name>ProgramID</name>
+        <qualifiedname>nn::ProgramID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/types.h" line="44" column="15" bodyfile="lib/CtrSDK/include/nn/types.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1ac40924ef4fc1d79e07ab8d448bd68916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::NN_RESULT_DEF_CONST</definition>
+        <argsstring>(ResultSuccess, Result::LEVEL_SUCCESS, Result::SUMMARY_SUCCESS, Result::MODULE_COMMON, Result::DESCRIPTION_SUCCESS)</argsstring>
+        <name>NN_RESULT_DEF_CONST</name>
+        <qualifiedname>nn::NN_RESULT_DEF_CONST</qualifiedname>
+        <param>
+          <type>ResultSuccess</type>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a239493249f44cb95a72092c35fd24cf7" kindref="member">Result::LEVEL_SUCCESS</ref></type>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca6cc080e4053ca511b25cf60cf3e0f84a" kindref="member">Result::SUMMARY_SUCCESS</ref></type>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab3714b302a040999762f6ccf7fcde8e7" kindref="member">Result::MODULE_COMMON</ref></type>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead47b175235151831eb9625fd2fed8679" kindref="member">Result::DESCRIPTION_SUCCESS</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="315" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="315" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a12ce9242ca87bbb6859cd9c8950ecb55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Info, INFO)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Info</type>
+        </param>
+        <param>
+          <type>INFO</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="323" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="323" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1ab6af878944c62e2b0be5ab814d1fa6f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Fatal, FATAL)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Fatal</type>
+        </param>
+        <param>
+          <type>FATAL</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="325" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="325" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a009282cf1f0ee976baa2f6158dadddbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Reset, RESET)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Reset</type>
+        </param>
+        <param>
+          <type>RESET</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="327" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="327" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a09b9aa1a725bdd0f34fe9f02d7ec8d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Reinit, REINIT)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Reinit</type>
+        </param>
+        <param>
+          <type>REINIT</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="329" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="329" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1ab8cefc9900bd4aff58c1d81f61cb38b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Usage, USAGE)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Usage</type>
+        </param>
+        <param>
+          <type>USAGE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="331" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="331" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a30a9c6f00626406984276e794454c7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Permanent, PERMANENT)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Permanent</type>
+        </param>
+        <param>
+          <type>PERMANENT</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="333" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="333" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a97850d8f29e2de7958634524d46cc68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Temporary, TEMPORARY)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Temporary</type>
+        </param>
+        <param>
+          <type>TEMPORARY</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="335" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="335" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a60d5c8771e1180c70ee02b8be5bc6ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::_NN_RESULT_MAKE_TYPE</definition>
+        <argsstring>(Status, STATUS)</argsstring>
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <qualifiedname>nn::_NN_RESULT_MAKE_TYPE</qualifiedname>
+        <param>
+          <type>Status</type>
+        </param>
+        <param>
+          <type>STATUS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="337" column="1" declfile="lib/CtrSDK/include/nn/Result.h" declline="337" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1ad15ff2861ee5e22ed9161d0305b0df96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nn::nnResultFailureHandler</definition>
+        <argsstring>(nnResult result, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nnResultFailureHandler</name>
+        <qualifiedname>nn::nnResultFailureHandler</qualifiedname>
+        <param>
+          <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="349" column="5" declfile="lib/CtrSDK/include/nn/Result.h" declline="349" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1ac7684a0045903e9633de58b273553792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nn::nnResultTFailureHandler</definition>
+        <argsstring>(nnResult result, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nnResultTFailureHandler</name>
+        <qualifiedname>nn::nnResultTFailureHandler</qualifiedname>
+        <param>
+          <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="350" column="5" declfile="lib/CtrSDK/include/nn/Result.h" declline="350" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a1d02de615b0dd5c3fbe13cdaa1380c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nn::nnResultPanicHandler</definition>
+        <argsstring>(nnResult result, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nnResultPanicHandler</name>
+        <qualifiedname>nn::nnResultPanicHandler</qualifiedname>
+        <param>
+          <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="352" column="5" declfile="lib/CtrSDK/include/nn/Result.h" declline="352" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1a54f0df8904f3b0ad76d390f01e6552f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nn::nnResultTPanicHandler</definition>
+        <argsstring>(nnResult result, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nnResultTPanicHandler</name>
+        <qualifiedname>nn::nnResultTPanicHandler</qualifiedname>
+        <param>
+          <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="353" column="5" declfile="lib/CtrSDK/include/nn/Result.h" declline="353" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>

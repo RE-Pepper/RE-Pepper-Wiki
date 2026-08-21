@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File types.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-typesh">File types.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../types_8h/"><strong>types.h</strong></a></p>
+<p><a href="../types_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;stdarg.h&gt;
+#include &lt;stddef.h&gt;
+#include &lt;stdint.h&gt;
+// Base type definitions
+
+typedef unsigned char      u8;  // 51
+typedef unsigned short     u16; // 53
+typedef unsigned int       u32; // 55
+typedef unsigned long long u64; // 57
+typedef signed char        s8;  // 60
+typedef signed short       s16; // 62
+typedef signed int         s32; // 64
+typedef signed long long   s64; // 66
+
+typedef uintptr_t uptr; // 71
+
+typedef char    char8;  // 74
+typedef wchar_t char16; // 76
+
+typedef volatile u8  vu8;  //
+typedef volatile u16 vu16; //
+typedef volatile u32 vu32; // 80
+typedef volatile u64 vu64; //
+
+typedef volatile s8  vs8;  //
+typedef volatile s16 vs16; // 84
+typedef volatile s32 vs32; // 85
+typedef volatile s64 vs64; //
+
+typedef float  f32; // 89
+typedef double f64; // 91
+
+typedef unsigned char      bit8;  // 97
+typedef unsigned short     bit16; // 99
+typedef unsigned int       bit32; // 101
+typedef unsigned long long bit64; // 103
+
+#ifdef __cplusplus
+
+namespace nn {
+
+typedef bit64 ProgramID; // 126
+
+struct ProductInfo
+{
+        char  productCode[16];
+        bit16 companyCode;
+        u16   remasterVersion;
+};
+
+} // namespace nn
+
+// C++03 didnt have nullptr yet
+#ifndef nullptr
+#define nullptr NULL
+#endif
+
+#endif
+
+#ifndef NN_PACK
+#define NN_PACK __attribute__ ((__packed__))
+#endif
+
+#ifndef NN_UNUSED
+#define NN_UNUSED __attribute__ ((unused))
+#endif
+
+// this file is included by project_global.h
+
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class al::HitSensorKeeper - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-alhitsensorkeeper">Class al::HitSensorKeeper</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespaceal/"><strong>al</strong></a> <strong>&gt;</strong> <a href="./"><strong>HitSensorKeeper</strong></a></p>
+<ul>
+<li><code>#include &lt;alHitSensorKeeper.h&gt;</code></li>
+</ul>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-attacksensor"><strong>attackSensor</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_hit_sensor/"><strong>HitSensor</strong></a> *</td>
+<td style="text-align: left;"><a href="#function-getsensor"><strong>getSensor</strong></a> (<a href="../classal_1_1_functor_v0_m/"><strong>const</strong></a> <a href="../classal_1_1_functor_v0_m/"><strong>char</strong></a> * name) const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-invalidate"><strong>invalidate</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-invalidatebysystem"><strong>invalidateBySystem</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-update"><strong>update</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-validate"><strong>validate</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-validatebysystem"><strong>validateBySystem</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-attacksensor">function attackSensor</h3>
+<pre><code class="language-C++">void al::HitSensorKeeper::attackSensor () 
+</code></pre>
+<hr>
+
+<h3 id="function-getsensor">function getSensor</h3>
+<pre><code class="language-C++">HitSensor * al::HitSensorKeeper::getSensor (
+    const  char * name
+) const
+</code></pre>
+<hr>
+
+<h3 id="function-invalidate">function invalidate</h3>
+<pre><code class="language-C++">void al::HitSensorKeeper::invalidate () 
+</code></pre>
+<hr>
+
+<h3 id="function-invalidatebysystem">function invalidateBySystem</h3>
+<pre><code class="language-C++">void al::HitSensorKeeper::invalidateBySystem () 
+</code></pre>
+<hr>
+
+<h3 id="function-update">function update</h3>
+<pre><code class="language-C++">void al::HitSensorKeeper::update () 
+</code></pre>
+<hr>
+
+<h3 id="function-validate">function validate</h3>
+<pre><code class="language-C++">void al::HitSensorKeeper::validate () 
+</code></pre>
+<hr>
+
+<h3 id="function-validatebysystem">function validateBySystem</h3>
+<pre><code class="language-C++">void al::HitSensorKeeper::validateBySystem () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>/home/runner/work/RE-Pepper/RE-Pepper/lib/al/include/LiveActor/alHitSensorKeeper.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

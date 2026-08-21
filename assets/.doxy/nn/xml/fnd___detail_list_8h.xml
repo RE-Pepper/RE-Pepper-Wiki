@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fnd___detail_list_8h" kind="file" language="C++">
+    <compoundname>fnd_DetailList.h</compoundname>
+    <includes refid="fnd___detail_heap_head_8h" local="no">nn/fnd/detail/fnd_DetailHeapHead.h</includes>
+    <includedby refid="fnd___detail_heap_common_8cpp" local="yes">fnd_DetailHeapCommon.cpp</includedby>
+    <includedby refid="fnd___detail_list_8cpp" local="yes">fnd_DetailList.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/fnd/detail/fnd_DetailHeapHead.h</label>
+        <link refid="fnd___detail_heap_head_8h"/>
+      </node>
+      <node id="1">
+        <label>fnd_DetailList.h</label>
+        <link refid="fnd___detail_list_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>fnd_DetailHeapCommon.cpp</label>
+        <link refid="fnd___detail_heap_common_8cpp"/>
+      </node>
+      <node id="3">
+        <label>fnd_DetailList.cpp</label>
+        <link refid="fnd___detail_list_8cpp"/>
+      </node>
+      <node id="1">
+        <label>fnd_DetailList.h</label>
+        <link refid="fnd___detail_list_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd_1_1detail">nn::fnd::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="fnd___detail_heap_head_8h" kindref="compound">nn/fnd/detail/fnd_DetailHeapHead.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" kindref="member">RemoveListObject</ref><sp/>(NNSFndList*<sp/>list,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="namespacenn_1_1fnd_1_1detail_1ac1086dc7b5cd9a92689b941e98b890dd" kindref="member">GetNextListObject</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>NNSFndList*<sp/>list,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.h"/>
+  </compounddef>
+</doxygen>

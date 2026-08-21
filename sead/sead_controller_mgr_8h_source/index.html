@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File seadControllerMgr.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-seadcontrollermgrh">File seadControllerMgr.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_cd2d5cfab44c6d4772a878eddd4f7857/"><strong>controller</strong></a> <strong>&gt;</strong> <a href="../sead_controller_mgr_8h/"><strong>seadControllerMgr.h</strong></a></p>
+<p><a href="../sead_controller_mgr_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;container/seadOffsetList.h&gt;
+#include &lt;container/seadPtrArray.h&gt;
+#include &lt;controller/seadController.h&gt;
+#include &lt;framework/seadCalculateTask.h&gt;
+#include &lt;framework/seadTaskMgr.h&gt;
+#include &lt;framework/seadTaskParameter.h&gt;
+#include &lt;heap/seadDisposer.h&gt;
+#include &lt;prim/seadRuntimeTypeInfo.h&gt;
+
+namespace sead {
+class ControlDevice;
+class Controller;
+class ControllerAddon;
+
+class ControllerMgr : public CalculateTask {
+    SEAD_TASK_SINGLETON(ControllerMgr)
+    SEAD_RTTI_OVERRIDE(ControllerMgr, CalculateTask)
+
+private:
+    class ConstructArg : public TaskConstructArg {
+    public:
+        ConstructArg() : TaskConstructArg(), mHeapArray() { heap_array = &amp;mHeapArray; }
+
+    private:
+        HeapArray mHeapArray;
+    };
+
+public:
+public:
+    ControllerMgr();
+    explicit ControllerMgr(const TaskConstructArg&amp; arg);
+    virtual ~ControllerMgr();
+
+    virtual void prepare();
+    virtual void calc();
+
+    void initialize(s32 controller_max, Heap* heap);
+    void finalize();
+
+    void initializeDefault(Heap* heap);
+    void finalizeDefault();
+
+    // TODO: Add/remove devices &amp; controllers
+
+    Controller* getControllerByOrder(ControllerDefine::ControllerId id, s32 index) const;
+    ControlDevice* getControlDevice(ControllerDefine::DeviceId id) const;
+    ControllerAddon* getControllerAddon(s32 index, ControllerDefine::AddonId id) const;
+    ControllerAddon* getControllerAddonByOrder(s32 controller_index,
+                                               ControllerDefine::AddonId addon_id,
+                                               int addon_index) const;
+
+    template &lt;typename T&gt;
+    T getControllerByOrderAs(s32 index) const;
+    template &lt;typename T&gt;
+    T getControlDeviceAs() const;
+    template &lt;typename T&gt;
+    T getControllerAddonAs(s32 index) const;
+
+    s32 findControllerPort(const Controller* controller) const;
+
+    DelegateThread* getFramework() const;
+
+    Controller* getController(int port) { return mControllers[port]; }
+
+    OffsetList&lt;ControlDevice&gt; mDevices;
+
+    PtrArray&lt;Controller&gt; mControllers;
+
+private:
+};
+
+template &lt;typename T&gt;
+T ControllerMgr::getControllerAddonAs(s32 index) const {
+    Controller* controller = mControllers.at(index);
+    if (controller)
+        return controller-&gt;getAddonAs&lt;T&gt;();
+
+    return nullptr;
+}
+
+}  // namespace sead
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

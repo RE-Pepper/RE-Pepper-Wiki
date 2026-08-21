@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_sdmc_speed_info" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::SdmcSpeedInfo</compoundname>
+    <includes refid="fs___types_8h" local="no">fs_Types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_sdmc_speed_info_1af1e4bd00e475aac4cf9ad1b92a28bca9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::SdmcSpeedInfo::bCardHighSpeed</definition>
+        <argsstring></argsstring>
+        <name>bCardHighSpeed</name>
+        <qualifiedname>nn::fs::SdmcSpeedInfo::bCardHighSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="31" column="14" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_sdmc_speed_info_1afd7c224270f0858a2d45f9b6dc48f129" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::SdmcSpeedInfo::bSdifMaxSpeed</definition>
+        <argsstring></argsstring>
+        <name>bSdifMaxSpeed</name>
+        <qualifiedname>nn::fs::SdmcSpeedInfo::bSdifMaxSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="32" column="14" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_sdmc_speed_info_1a220b369c30c3474a127e9649915741ab" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::fs::SdmcSpeedInfo::SdifClkCtrlValue</definition>
+        <argsstring></argsstring>
+        <name>SdifClkCtrlValue</name>
+        <qualifiedname>nn::fs::SdmcSpeedInfo::SdifClkCtrlValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="33" column="14" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="29" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="30" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_sdmc_speed_info_1af1e4bd00e475aac4cf9ad1b92a28bca9" prot="public" virt="non-virtual"><scope>nn::fs::SdmcSpeedInfo</scope><name>bCardHighSpeed</name></member>
+      <member refid="structnn_1_1fs_1_1_sdmc_speed_info_1afd7c224270f0858a2d45f9b6dc48f129" prot="public" virt="non-virtual"><scope>nn::fs::SdmcSpeedInfo</scope><name>bSdifMaxSpeed</name></member>
+      <member refid="structnn_1_1fs_1_1_sdmc_speed_info_1a220b369c30c3474a127e9649915741ab" prot="public" virt="non-virtual"><scope>nn::fs::SdmcSpeedInfo</scope><name>SdifClkCtrlValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

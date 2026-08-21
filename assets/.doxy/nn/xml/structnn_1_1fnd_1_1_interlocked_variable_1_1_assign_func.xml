@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func" kind="struct" language="C++" prot="private">
+    <compoundname>nn::fnd::InterlockedVariable::AssignFunc</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1a0591252f3174d35bfa3c73ca2f8e1814" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T nn::fnd::InterlockedVariable&lt; T &gt;::AssignFunc::m_operand</definition>
+        <argsstring></argsstring>
+        <name>m_operand</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::AssignFunc::m_operand</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="38" column="19" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1a9ecb493b03b55887431cc603ca5f41f3" compoundref="fnd___interlocked_8h" startline="45" endline="49">nn::fnd::InterlockedVariable&lt; T &gt;::AssignFunc::operator()</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1aecc543c1c093f5412688cb970a19ff7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>nn::fnd::InterlockedVariable&lt; T &gt;::AssignFunc::AssignFunc</definition>
+        <argsstring>(const U &amp;operand)</argsstring>
+        <name>AssignFunc</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::AssignFunc::AssignFunc</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="41" column="17" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1a9ecb493b03b55887431cc603ca5f41f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::fnd::InterlockedVariable&lt; T &gt;::AssignFunc::operator()</definition>
+        <argsstring>(T &amp;x)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::AssignFunc::operator()</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="45" column="22" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="45" bodyend="49"/>
+        <references refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1a0591252f3174d35bfa3c73ca2f8e1814" compoundref="fnd___interlocked_8h" startline="38">nn::fnd::InterlockedVariable&lt; T &gt;::AssignFunc::m_operand</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="36" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="37" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1aecc543c1c093f5412688cb970a19ff7b" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::AssignFunc</scope><name>AssignFunc</name></member>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1a0591252f3174d35bfa3c73ca2f8e1814" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::AssignFunc</scope><name>m_operand</name></member>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func_1a9ecb493b03b55887431cc603ca5f41f3" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::AssignFunc</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

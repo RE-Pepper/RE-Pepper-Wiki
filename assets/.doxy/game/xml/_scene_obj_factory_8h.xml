@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_scene_obj_factory_8h" kind="file" language="C++">
+    <compoundname>SceneObjFactory.h</compoundname>
+    <includes local="no">Scene/alSceneObjHolder.h</includes>
+    <includedby refid="_coin_rotater_8cpp" local="yes">CoinRotater.cpp</includedby>
+    <includedby refid="_ghost_player_8cpp" local="yes">GhostPlayer.cpp</includedby>
+    <includedby refid="_scene_obj_factory_8cpp" local="yes">SceneObjFactory.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>SceneObjFactory.h</label>
+        <link refid="_scene_obj_factory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scene/alSceneObjHolder.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>SceneObjFactory.h</label>
+        <link refid="_scene_obj_factory_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoinRotater.cpp</label>
+        <link refid="_coin_rotater_8cpp"/>
+      </node>
+      <node id="3">
+        <label>GhostPlayer.cpp</label>
+        <link refid="_ghost_player_8cpp"/>
+      </node>
+      <node id="4">
+        <label>SceneObjFactory.cpp</label>
+        <link refid="_scene_obj_factory_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_scene_obj_factory" prot="public">SceneObjFactory</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_scene_obj_factory_8h_1aad934cb15b2b38815a7ad02c5fa52f54" prot="public" static="no">
+        <name>SCENE_OBJ_LIST</name>
+        <initializer>  <ref refid="_scene_obj_factory_8h_1a68a771781a550a50ea8b5e03fb82fdcc" kindref="member">X</ref>(0, CameraDirector)                                                         \
+  <ref refid="_scene_obj_factory_8h_1a68a771781a550a50ea8b5e03fb82fdcc" kindref="member">X</ref>(1, CameraShaker)                                                           \</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="5" column="9" bodyfile="Game/backup/include/Scene/SceneObjFactory.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_scene_obj_factory_8h_1a68a771781a550a50ea8b5e03fb82fdcc" prot="public" static="no">
+        <name>X</name>
+        <param><defname>i</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>SceneObj_##n = i,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="37" column="9" bodyfile="Game/backup/include/Scene/SceneObjFactory.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SceneObjType</name>
+        <enumvalue id="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220af1d12b465b7357ec3331880923d31652" prot="public">
+          <name>SceneObj_Max</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="36" column="1" bodyfile="Game/backup/include/Scene/SceneObjFactory.h" bodystart="36" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_scene_obj_factory_8h_1a5b13451df3360a613470ed8e9a48260d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>X</definition>
+        <argsstring>(3, SwitchAreaDirector) X(4</argsstring>
+        <name>X</name>
+        <param>
+          <type>3</type>
+        </param>
+        <param>
+          <type>SwitchAreaDirector</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="9" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="_scene_obj_factory_8h_1abc1862a84315fa6bd2dd8c6b6a658824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SceneAudioDirector</type>
+        <definition>SceneAudioDirector X</definition>
+        <argsstring>(5, SoundEmitAreaDirector) X(6</argsstring>
+        <name>X</name>
+        <param>
+          <type>5</type>
+        </param>
+        <param>
+          <type>SoundEmitAreaDirector</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="11" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="_scene_obj_factory_8h_1a796259a3abf7bebf79d6129b9da2a824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SceneAudioDirector AudioVolumeSettingAreaDirector</type>
+        <definition>SceneAudioDirector AudioVolumeSettingAreaDirector X</definition>
+        <argsstring>(7, CoinRotator) X(15</argsstring>
+        <name>X</name>
+        <param>
+          <type>7</type>
+        </param>
+        <param>
+          <type>CoinRotator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="13" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="_scene_obj_factory_8h_1a75e927a87ccd9e5370305a0a04a1c795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SceneAudioDirector AudioVolumeSettingAreaDirector PlayerSceneObject</type>
+        <definition>SceneAudioDirector AudioVolumeSettingAreaDirector PlayerSceneObject X</definition>
+        <argsstring>(16, BlockRailDirector) X(17</argsstring>
+        <name>X</name>
+        <param>
+          <type>16</type>
+        </param>
+        <param>
+          <type>BlockRailDirector</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="22" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="_scene_obj_factory_8h_1aca604d30c5cfeda55ff8e844b98c186f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SceneAudioDirector AudioVolumeSettingAreaDirector PlayerSceneObject PatapataWingWarp</type>
+        <definition>SceneAudioDirector AudioVolumeSettingAreaDirector PlayerSceneObject PatapataWingWarp X</definition>
+        <argsstring>(18, PlayerItemsStorage) X(20</argsstring>
+        <name>X</name>
+        <param>
+          <type>18</type>
+        </param>
+        <param>
+          <type>PlayerItemsStorage</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/backup/include/Scene/SceneObjFactory.h" line="24" column="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Scene/alSceneObjHolder.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="_scene_obj_factory_8h_1aad934cb15b2b38815a7ad02c5fa52f54" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCENE_OBJ_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"><sp/><sp/>X(0,<sp/>CameraDirector)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"><sp/><sp/>X(1,<sp/>CameraShaker)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"><sp/><sp/></highlight><highlight class="comment">//X(2,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="9" refid="_scene_obj_factory_8h_1a5b13451df3360a613470ed8e9a48260d" refkind="member"><highlight class="comment"><sp/><sp/>X(3,<sp/>SwitchAreaDirector)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>X(4,<sp/>SceneAudioDirector)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="11" refid="_scene_obj_factory_8h_1abc1862a84315fa6bd2dd8c6b6a658824" refkind="member"><highlight class="comment"><sp/><sp/>X(5,<sp/>SoundEmitAreaDirector)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>X(6,<sp/>AudioVolumeSettingAreaDirector)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="13" refid="_scene_obj_factory_8h_1a796259a3abf7bebf79d6129b9da2a824" refkind="member"><highlight class="comment"><sp/><sp/>X(7,<sp/>CoinRotator)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>//X(8,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/>//X(9,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>//X(10,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>//X(11,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>//X(12,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>//X(13,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>X(14,<sp/>TimerSePlayer)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/>X(15,<sp/>PlayerSceneObject)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="22" refid="_scene_obj_factory_8h_1a75e927a87ccd9e5370305a0a04a1c795" refkind="member"><highlight class="comment"><sp/><sp/>X(16,<sp/>BlockRailDirector)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/>X(17,<sp/>PatapataWingWarp)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="24" refid="_scene_obj_factory_8h_1aca604d30c5cfeda55ff8e844b98c186f" refkind="member"><highlight class="comment"><sp/><sp/>X(18,<sp/>PlayerItemsStorage)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/>X(20,<sp/>GhostPlayerRecorder)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/>//X(21,<sp/>)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/>X(22,<sp/>GyroInputReader)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_scene_obj_factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_scene_obj_factory" kindref="compound">SceneObjFactory</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>al::SceneObjHolder<sp/>*<ref refid="class_scene_obj_factory_1a1ad46e6cd13da287d7be4d7aadcf30c3" kindref="member">createSceneObjHolder</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>SceneObjFactory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220" kindref="member">SceneObjType</ref><sp/>{</highlight></codeline>
+<codeline lineno="37" refid="_scene_obj_factory_8h_1a68a771781a550a50ea8b5e03fb82fdcc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>X(i,<sp/>n)<sp/>SceneObj_##n<sp/>=<sp/>i,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_scene_obj_factory_8h_1aad934cb15b2b38815a7ad02c5fa52f54" kindref="member">SCENE_OBJ_LIST</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220af1d12b465b7357ec3331880923d31652" kindref="member">SceneObj_Max</ref></highlight></codeline>
+<codeline lineno="41" refid="_scene_obj_factory_8h_1a2436e592453f0db24c1f61627d4d6220af1d12b465b7357ec3331880923d31652" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Game/backup/include/Scene/SceneObjFactory.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File module.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-moduleh">File module.h</h1>
+<p><a href="../files/"><strong>FileList</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="./"><strong>module.h</strong></a></p>
+<p><a href="../module_8h_source/">Go to the source code of this file</a></p>
+<ul>
+<li><code>#include &lt;nn/util/detail/util_Symbol.h&gt;</code></li>
+</ul>
+<h2 id="macros">Macros</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-nn_make_module"><strong>NN_MAKE_MODULE</strong></a> (Variable, Company, Module) <code>const char Variable[] \_\_attribute\_\_((section(".module\_id"))) = "[SDK+" Company ":" Module "]"</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-nn_make_module_sdk"><strong>NN_MAKE_MODULE_SDK</strong></a> (Variable, Module) <code>[**NN\_MAKE\_MODULE**](module_8h.md#define-nn_make_module)(Variable, "NINTENDO", Module)</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-nn_refer_module"><strong>NN_REFER_MODULE</strong></a> (Variable) <code>[**nnutilReferSymbol\_**](util___symbol_8h.md#function-nnutilrefersymbol_)(Variable)</code><br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="macro-definition-documentation">Macro Definition Documentation</h2>
+<h3 id="define-nn_make_module">define NN_MAKE_MODULE</h3>
+<pre><code class="language-C++">#define NN_MAKE_MODULE (
+    Variable,
+    Company,
+    Module
+) `const char Variable[] __attribute__((section(&quot;.module_id&quot;))) = &quot;[SDK+&quot; Company &quot;:&quot; Module &quot;]&quot;`
+</code></pre>
+<hr>
+
+<h3 id="define-nn_make_module_sdk">define NN_MAKE_MODULE_SDK</h3>
+<pre><code class="language-C++">#define NN_MAKE_MODULE_SDK (
+    Variable,
+    Module
+) `NN_MAKE_MODULE (Variable, &quot;NINTENDO&quot;, Module)`
+</code></pre>
+<hr>
+
+<h3 id="define-nn_refer_module">define NN_REFER_MODULE</h3>
+<pre><code class="language-C++">#define NN_REFER_MODULE (
+    Variable
+) `nnutilReferSymbol_ (Variable)`
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/module.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alLiveActorKit.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alliveactorkitcpp">File alLiveActorKit.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_d8628e97cbd71936d4b5fb3774410590/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_8d17faa1063b24478b1232799869255d/"><strong>LiveActor</strong></a> <strong>&gt;</strong> <a href="../al_live_actor_kit_8cpp/"><strong>alLiveActorKit.cpp</strong></a></p>
+<p><a href="../al_live_actor_kit_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;Clipping/alClippingDirector.h&gt;
+#include &lt;Collision/alCollisionDirector.h&gt;
+#include &lt;Effect/alEffectSystem.h&gt;
+#include &lt;Execute/alExecuteDirector.h&gt;
+#include &lt;Fog/alFogDirector.h&gt;
+#include &lt;Functor/alFunctorV0F.h&gt;
+#include &lt;LiveActor/alLiveActorGroup.h&gt;
+#include &lt;LiveActor/alLiveActorKit.h&gt;
+#include &lt;System/Application.h&gt;
+
+namespace al
+{
+
+LiveActorKit::LiveActorKit( int groupBufSize )
+    : mAllActorsBufferSize( groupBufSize ), mExecuteDirector( nullptr ), mEffectSystem( nullptr ),
+      _C( nullptr ), _10( nullptr ), mFogDirector( nullptr ), _18( nullptr ), _1C( nullptr ), _20( nullptr ),
+      mClippingDirector( nullptr ), mCollisionDirector( nullptr ), mHitSensorDirector( nullptr ),
+      _30( nullptr ), _34( nullptr ), _38( nullptr ), mAllActors( nullptr ), _40( nullptr )
+{
+        mAllActors = new LiveActorGroup( &quot;全てのアクター&quot;, mAllActorsBufferSize );
+}
+
+extern &quot;C&quot; void fn_00240350();
+extern &quot;C&quot; void fn_001e8a64();
+
+extern &quot;C&quot; void fn_001cc9b0( const char*, const FunctorV0F&amp; );
+
+#ifdef NON_MATCHING
+
+// loop is weird
+void LiveActorKit::endInit()
+{
+        fn_001cc9b0( &quot;プレイヤー影ボリュームのフィル&quot;, FunctorV0F( fn_00240350 ) );
+        fn_001cc9b0( &quot;影ボリュームのフィル&quot;, FunctorV0F( fn_001e8a64 ) );
+        mEffectSystem-&gt;startScene();
+        mExecuteDirector-&gt;createExecutorListTable();
+        mCollisionDirector-&gt;endInit();
+        mFogDirector-&gt;endInit();
+        mClippingDirector-&gt;endInit();
+        sead::PtrArray&lt;LiveActor&gt; actors = mAllActors-&gt;getArray&lt;LiveActor&gt;();
+        for ( int i = 0; i &lt; actors.size(); i++ )
+                actors[ i ]-&gt;initAfterPlacement();
+}
+#endif
+
+void initLiveActorKit( LiveActorKit* kit )
+{
+        al::getApplication()-&gt;setLiveActorKit( kit );
+}
+
+LiveActorKit* getLiveActorKit()
+{
+        return al::getApplication()-&gt;getLiveActorKit();
+}
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

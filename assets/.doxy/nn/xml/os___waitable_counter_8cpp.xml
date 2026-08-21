@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___waitable_counter_8cpp" kind="file" language="C++">
+    <compoundname>os_WaitableCounter.cpp</compoundname>
+    <includes refid="assert_8h" local="no">nn/assert.h</includes>
+    <includes refid="os___waitable_counter_8h" local="no">nn/os/os_WaitableCounter.h</includes>
+    <includes refid="svc___stub_8h" local="no">nn/svc/svc_Stub.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="6">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="10">
+        <label>nn/fnd/ARMv6/fnd_Interlocked.h</label>
+        <link refid="_a_r_mv6_2fnd___interlocked_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn/fnd/fnd_Interlocked.h</label>
+        <link refid="fnd___interlocked_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="15">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn/os/os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn/util/util_TypeTraits.h</label>
+        <link refid="util___type_traits_8h"/>
+      </node>
+      <node id="1">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="assert_8h" kindref="compound">nn/assert.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___waitable_counter_8h" kindref="compound">nn/os/os_WaitableCounter.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="svc___stub_8h" kindref="compound">nn/svc/svc_Stub.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="structnn_handle" kindref="compound">nnHandle</ref><sp/><ref refid="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" kindref="member">WaitableCounter::s_Handle</ref><sp/>=<sp/>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" kindref="member">WaitableCounter::Initialize</ref><sp/>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" kindref="member">s_Handle</ref>.<ref refid="structnn_handle_1adc8d5f12cfb77de57056b538165ba158" kindref="member">value</ref><sp/>==<sp/>INVALID_HANDLE_VALUE.value)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref><sp/>h;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>ret<sp/>=<sp/><ref refid="namespacenn_1_1svc_1aef50d227d10b4cd39d2673e17cfe3bf6" kindref="member">svc::CreateAddressArbiter</ref><sp/>(&amp;h);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(ret.<ref refid="classnn_1_1_result_1af6443f9db2ea08dd0678599de8bc1ecb" kindref="member">IsSuccess</ref><sp/>());</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ret.<ref refid="classnn_1_1_result_1af6443f9db2ea08dd0678599de8bc1ecb" kindref="member">IsSuccess</ref><sp/>())<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" kindref="member">s_Handle</ref><sp/>=<sp/>h;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21" refid="classnn_1_1os_1_1_waitable_counter_1a4c75470d4d4348faee49271d70b6404e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_waitable_counter_1a4c75470d4d4348faee49271d70b6404e" kindref="member">WaitableCounter::Finalize</ref><sp/>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>UNUSED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/os/os_WaitableCounter.cpp"/>
+  </compounddef>
+</doxygen>

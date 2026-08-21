@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_result" kind="struct" language="C++" prot="public">
+    <compoundname>nnResult</compoundname>
+    <includes refid="_result_8h" local="no">Result.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_result_1a7e167cb79ef622afd45e516767cd708f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nnResult::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>nnResult::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="9" column="15" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/Result.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="structnn_result_1a7e167cb79ef622afd45e516767cd708f" prot="public" virt="non-virtual"><scope>nnResult</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

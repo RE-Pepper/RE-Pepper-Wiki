@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alNerveActionCtrl.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alnerveactionctrlcpp">File alNerveActionCtrl.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_d8628e97cbd71936d4b5fb3774410590/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_32e08f09dddceca537f9274884ee9aa2/"><strong>Nerve</strong></a> <strong>&gt;</strong> <a href="../al_nerve_action_ctrl_8cpp/"><strong>alNerveActionCtrl.cpp</strong></a></p>
+<p><a href="../al_nerve_action_ctrl_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;Nerve/alNerveActionCtrl.h&gt;
+#include &lt;Util/alStringUtil.h&gt;
+
+// instruction order (5)
+
+#ifdef NON_MATCHING
+al::NerveAction::NerveAction() : mNextNode( nullptr )
+{
+        alNerveFunction::NerveActionCollector::getCurrentCollector()-&gt;addNerve( this );
+}
+#endif
+
+namespace alNerveFunction
+{
+
+NerveActionCollector* staticd( NerveActionCollector::sCurrentCollector );
+
+NerveActionCollector::NerveActionCollector()
+    : mNumNodes( 0 ), mStartNode( nullptr ), mEndNode( nullptr )
+{
+        sCurrentCollector = this;
+}
+
+void NerveActionCollector::addNerve( al::NerveAction* nerve )
+{
+        if ( mStartNode == nullptr )
+        {
+                mStartNode = nerve;
+                mEndNode   = nerve;
+        }
+        else
+        {
+                mEndNode-&gt;mNextNode = nerve;
+                mEndNode            = nerve;
+        }
+        mNumNodes++;
+}
+
+} // namespace alNerveFunction
+
+namespace al
+{
+
+NerveActionCtrl::NerveActionCtrl( alNerveFunction::NerveActionCollector* collector )
+    : mNumNerveActions( 0 ), mNerveActions( nullptr )
+{
+        mNumNerveActions = collector-&gt;mNumNodes;
+        mNerveActions    = new NerveAction*[ mNumNerveActions ];
+
+        // uglily copies from linked list to pointer array
+        NerveAction* cur = collector-&gt;mStartNode;
+        int          i   = mNumNerveActions &lt;= 0 ? 0 : mNumNerveActions &amp; 1;
+        if ( i == 1 )
+        {
+                mNerveActions[ 0 ] = cur;
+                cur                = cur-&gt;mNextNode;
+        }
+        if ( i &lt; mNumNerveActions )
+                do
+                {
+                        mNerveActions[ i ]     = cur;
+                        cur                    = cur-&gt;mNextNode;
+                        mNerveActions[ i + 1 ] = cur;
+                        cur                    = cur-&gt;mNextNode;
+                        i += 2;
+                } while ( i &lt; mNumNerveActions );
+}
+
+NerveAction* NerveActionCtrl::findNerve( const char* pName ) const
+{
+        for ( int i = 0; i &lt; mNumNerveActions; i++ )
+        {
+                NerveAction* cur  = mNerveActions[ i ];
+                const char*  name = cur-&gt;getName();
+                if ( isEqualString( name, pName ) )
+                        return cur;
+        }
+        return nullptr;
+}
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

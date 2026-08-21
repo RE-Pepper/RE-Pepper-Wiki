@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fnd_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::fnd::detail</compoundname>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl" prot="public">nn::fnd::detail::ExpHeapImpl</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" prot="public">nn::fnd::detail::NNSFndLink</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" prot="public">nn::fnd::detail::NNSFndList</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" prot="public">nn::fnd::detail::NNSiFndExpHeapHead</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" prot="public">nn::fnd::detail::NNSiFndExpHeapMBlockHead</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" prot="public">nn::fnd::detail::NNSiFndExpMBlockList</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1fnd_1_1detail_1a833b9440184a8505ea42223739ab3dc4" prot="public" static="no">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl" kindref="compound">ExpHeapImpl</ref></type>
+        <definition>typedef ExpHeapImpl nn::fnd::detail::NNSiFndHeapHead</definition>
+        <argsstring></argsstring>
+        <name>NNSiFndHeapHead</name>
+        <qualifiedname>nn::fnd::detail::NNSiFndHeapHead</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" line="9" column="32" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fnd_1_1detail_1a0725682ad5094bf482044b4f3121e42a" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1fnd_1_1detail_1a833b9440184a8505ea42223739ab3dc4" kindref="member">NNSiFndHeapHead</ref> *</type>
+        <definition>typedef NNSiFndHeapHead* nn::fnd::detail::Heap</definition>
+        <argsstring></argsstring>
+        <name>Heap</name>
+        <qualifiedname>nn::fnd::detail::Heap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" line="10" column="31" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fnd_1_1detail_1a00db44277697bc0469d829385dc2df63" prot="public" static="no">
+        <type><ref refid="namespacenn_1_1fnd_1_1detail_1a833b9440184a8505ea42223739ab3dc4" kindref="member">NNSiFndHeapHead</ref> const  *</type>
+        <definition>typedef NNSiFndHeapHead const* nn::fnd::detail::ConstHeap</definition>
+        <argsstring></argsstring>
+        <name>ConstHeap</name>
+        <qualifiedname>nn::fnd::detail::ConstHeap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" line="11" column="31" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fnd_1_1detail_1a8800cc12c59932da0d535eb1e80784ab" prot="public" static="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>typedef u32 nn::fnd::detail::NNSiUIntPtr</definition>
+        <argsstring></argsstring>
+        <name>NNSiUIntPtr</name>
+        <qualifiedname>nn::fnd::detail::NNSiUIntPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommonImpl.h" line="7" column="13" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommonImpl.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1ae9ca84dfa2bbb035fb9feef12c02eec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::fnd::detail::IsValidHeapHandle</definition>
+        <argsstring>(ConstHeap handle)</argsstring>
+        <name>IsValidHeapHandle</name>
+        <qualifiedname>nn::fnd::detail::IsValidHeapHandle</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fnd_1_1detail_1a00db44277697bc0469d829385dc2df63" kindref="member">ConstHeap</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeap.cpp" line="11" column="6" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeap.cpp" bodystart="11" bodyend="19" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeap.h" declline="8" declcolumn="6"/>
+        <references refid="fnd___detail_heap_common_8h_1ab9dcae456501f1096df42ac863d27774" compoundref="fnd___detail_heap_common_8h" startline="19">NN_HEAP_EXP_IDENT</references>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1aa9b8fbb4bec202d49c1eaefb9d452777" compoundref="fnd___detail_heap_8cpp" startline="21" endline="25">DestroyHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1aa9b8fbb4bec202d49c1eaefb9d452777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fnd::detail::DestroyHeap</definition>
+        <argsstring>(Heap heap)</argsstring>
+        <name>DestroyHeap</name>
+        <qualifiedname>nn::fnd::detail::DestroyHeap</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fnd_1_1detail_1a0725682ad5094bf482044b4f3121e42a" kindref="member">Heap</ref></type>
+          <declname>heap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeap.cpp" line="21" column="6" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeap.cpp" bodystart="21" bodyend="25" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeap.h" declline="10" declcolumn="6"/>
+        <references refid="namespacenn_1_1fnd_1_1detail_1ae9ca84dfa2bbb035fb9feef12c02eec7" compoundref="fnd___detail_heap_8cpp" startline="11" endline="19">IsValidHeapHandle</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1a192e7b4309a60c3ada90721f20bdea43" compoundref="fnd___detail_heap_common_8cpp" startline="54" endline="58">NNSi_FndFinalizeHeap</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1af3d9b2f174a4035a0aaecd6c8dc31225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::detail::var</definition>
+        <argsstring>(nn::fnd::detail, sRootList, NNSFndList)</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::fnd::detail::var</qualifiedname>
+        <param>
+          <type>nn::fnd::detail</type>
+        </param>
+        <param>
+          <type>sRootList</type>
+        </param>
+        <param>
+          <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="14" column="1" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" declline="14" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1acbf4a9d26dc70eac4ecf61a1a94caec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::detail::var</definition>
+        <argsstring>(nn::fnd::detail, sRootListInitialized, bool)</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::fnd::detail::var</qualifiedname>
+        <param>
+          <type>nn::fnd::detail</type>
+        </param>
+        <param>
+          <type>sRootListInitialized</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="15" column="1" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" declline="15" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1aed3bb77783769025f2cd4f5a2b3b7f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::detail::var</definition>
+        <argsstring>(nn::fnd::detail, sFillVals, u32)[NN_OS_HEAP_FILL_MAX]</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::fnd::detail::var</qualifiedname>
+        <param>
+          <type>nn::fnd::detail</type>
+        </param>
+        <param>
+          <type>sFillVals</type>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="17" column="1" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" declline="17" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacenn_1_1fnd_1_1detail_1a833b9440184a8505ea42223739ab3dc4" kindref="member">NNSiFndHeapHead</ref> *</type>
+        <definition>NNSiFndHeapHead * nn::fnd::detail::FindContainHeap</definition>
+        <argsstring>(NNSFndList *pList, const void *memBlock)</argsstring>
+        <name>FindContainHeap</name>
+        <qualifiedname>nn::fnd::detail::FindContainHeap</qualifiedname>
+        <param>
+          <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref> *</type>
+          <declname>pList</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>memBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="23" column="17" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" bodystart="23" bodyend="39" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" declline="13" declcolumn="17"/>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aebe48d82194a7d60a83a503914c96e92" compoundref="fnd___detail_heap_head_8h" startline="55">nn::fnd::detail::ExpHeapImpl::childList</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">FindContainHeap</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1ac1086dc7b5cd9a92689b941e98b890dd" compoundref="fnd___detail_list_8cpp" startline="32" endline="39">GetNextListObject</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1af4c15b07a99e4e92187c9c0bd2462ed7" compoundref="fnd___detail_heap_head_8h" startline="57">nn::fnd::detail::ExpHeapImpl::heapEnd</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a411eb1cb27c09d49f7b7a6c5b762e9b0" compoundref="fnd___detail_heap_head_8h" startline="56">nn::fnd::detail::ExpHeapImpl::heapStart</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1a0013ac527e3081fa1bff2f34240db036" compoundref="fnd___detail_heap_common_impl_8h" startline="9" endline="12">NNSiGetUIntPtr</references>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">FindContainHeap</referencedby>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a27630a3f2de0ede2a8382015bd3207b8" compoundref="fnd___detail_heap_common_8cpp" startline="41" endline="49">FindListContainHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1a27630a3f2de0ede2a8382015bd3207b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref> *</type>
+        <definition>NNSFndList * nn::fnd::detail::FindListContainHeap</definition>
+        <argsstring>(NNSiFndHeapHead *pHeapHd)</argsstring>
+        <name>FindListContainHeap</name>
+        <qualifiedname>nn::fnd::detail::FindListContainHeap</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fnd_1_1detail_1a833b9440184a8505ea42223739ab3dc4" kindref="member">NNSiFndHeapHead</ref> *</type>
+          <declname>pHeapHd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="41" column="12" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" bodystart="41" bodyend="49" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" declline="14" declcolumn="17"/>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aebe48d82194a7d60a83a503914c96e92" compoundref="fnd___detail_heap_head_8h" startline="55">nn::fnd::detail::ExpHeapImpl::childList</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">FindContainHeap</references>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a192e7b4309a60c3ada90721f20bdea43" compoundref="fnd___detail_heap_common_8cpp" startline="54" endline="58">NNSi_FndFinalizeHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1ae19719516533f6f67ce8d744eb947a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fnd::detail::DumpHeapList</definition>
+        <argsstring>()</argsstring>
+        <name>DumpHeapList</name>
+        <qualifiedname>nn::fnd::detail::DumpHeapList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="51" column="6" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" bodystart="51" bodyend="52" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" declline="15" declcolumn="18"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a192e7b4309a60c3ada90721f20bdea43" compoundref="fnd___detail_heap_common_8cpp" startline="54" endline="58">NNSi_FndFinalizeHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1a192e7b4309a60c3ada90721f20bdea43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fnd::detail::NNSi_FndFinalizeHeap</definition>
+        <argsstring>(NNSiFndHeapHead *pHeapHd)</argsstring>
+        <name>NNSi_FndFinalizeHeap</name>
+        <qualifiedname>nn::fnd::detail::NNSi_FndFinalizeHeap</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fnd_1_1detail_1a833b9440184a8505ea42223739ab3dc4" kindref="member">NNSiFndHeapHead</ref> *</type>
+          <declname>pHeapHd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="54" column="6" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" bodystart="54" bodyend="58" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" declline="16" declcolumn="18"/>
+        <references refid="namespacenn_1_1fnd_1_1detail_1ae19719516533f6f67ce8d744eb947a85" compoundref="fnd___detail_heap_common_8cpp" startline="51" endline="52">DumpHeapList</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1a27630a3f2de0ede2a8382015bd3207b8" compoundref="fnd___detail_heap_common_8cpp" startline="41" endline="49">FindListContainHeap</references>
+        <references refid="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" compoundref="fnd___detail_list_8cpp" startline="11" endline="30">RemoveListObject</references>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1aa9b8fbb4bec202d49c1eaefb9d452777" compoundref="fnd___detail_heap_8cpp" startline="21" endline="25">DestroyHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1af09a2b7d25af2ea0b3ed1489ccf292b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::fnd::detail::GetFillValForHeap</definition>
+        <argsstring>(int type)</argsstring>
+        <name>GetFillValForHeap</name>
+        <qualifiedname>nn::fnd::detail::GetFillValForHeap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" line="60" column="5" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.cpp" bodystart="60" bodyend="64" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommon.h" declline="17" declcolumn="18"/>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="fnd___detail_heap_common_8cpp_1a26de4d4cb75c41968f239df5c36fa225" compoundref="fnd___detail_heap_common_8cpp" startline="12">NN_OS_HEAP_FILL_MAX</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1a0013ac527e3081fa1bff2f34240db036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacenn_1_1fnd_1_1detail_1a8800cc12c59932da0d535eb1e80784ab" kindref="member">NNSiUIntPtr</ref></type>
+        <definition>NNSiUIntPtr nn::fnd::detail::NNSiGetUIntPtr</definition>
+        <argsstring>(const void *ptr)</argsstring>
+        <name>NNSiGetUIntPtr</name>
+        <qualifiedname>nn::fnd::detail::NNSiGetUIntPtr</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommonImpl.h" line="9" column="13" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailHeapCommonImpl.h" bodystart="9" bodyend="12"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">FindContainHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fnd::detail::RemoveListObject</definition>
+        <argsstring>(NNSFndList *list, void *object)</argsstring>
+        <name>RemoveListObject</name>
+        <qualifiedname>nn::fnd::detail::RemoveListObject</qualifiedname>
+        <param>
+          <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref> *</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.cpp" line="11" column="6" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.cpp" bodystart="11" bodyend="30" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.h" declline="7" declcolumn="6"/>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1af71746a41657ccf57cd68a8ef2a3e373" compoundref="fnd___detail_heap_head_8h" startline="16">nn::fnd::detail::NNSFndList::headObject</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link_1a031d2229d2ddffbe7e7fbe2af8344121" compoundref="fnd___detail_heap_head_8h" startline="10">nn::fnd::detail::NNSFndLink::nextObject</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1ae5d3d9afe2d2edca68662b3c449145ad" compoundref="fnd___detail_heap_head_8h" startline="18">nn::fnd::detail::NNSFndList::numObjects</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a2a9d241555649649e2fca26c41f85f3e" compoundref="fnd___detail_heap_head_8h" startline="19">nn::fnd::detail::NNSFndList::offset</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link_1abf06cee45df96e95137537516139e2a8" compoundref="fnd___detail_heap_head_8h" startline="9">nn::fnd::detail::NNSFndLink::prevObject</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a6c6f2fad19f54bbe71dc58a000b9d284" compoundref="fnd___detail_heap_head_8h" startline="17">nn::fnd::detail::NNSFndList::tailObject</references>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a192e7b4309a60c3ada90721f20bdea43" compoundref="fnd___detail_heap_common_8cpp" startline="54" endline="58">NNSi_FndFinalizeHeap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1_1detail_1ac1086dc7b5cd9a92689b941e98b890dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * nn::fnd::detail::GetNextListObject</definition>
+        <argsstring>(const NNSFndList *list, const void *object)</argsstring>
+        <name>GetNextListObject</name>
+        <qualifiedname>nn::fnd::detail::GetNextListObject</qualifiedname>
+        <param>
+          <type>const <ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref> *</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.cpp" line="32" column="6" bodyfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.cpp" bodystart="32" bodyend="39" declfile="lib/CtrSDK/sources/libraries/fnd/detail/fnd_DetailList.h" declline="9" declcolumn="6"/>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1af71746a41657ccf57cd68a8ef2a3e373" compoundref="fnd___detail_heap_head_8h" startline="16">nn::fnd::detail::NNSFndList::headObject</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a2a9d241555649649e2fca26c41f85f3e" compoundref="fnd___detail_heap_head_8h" startline="19">nn::fnd::detail::NNSFndList::offset</references>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ae074486b02f625ef1079391fb47dead0" compoundref="fnd___detail_heap_common_8cpp" startline="23" endline="39">FindContainHeap</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class al::RailRider - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-alrailrider">Class al::RailRider</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespaceal/"><strong>al</strong></a> <strong>&gt;</strong> <a href="./"><strong>RailRider</strong></a></p>
+<ul>
+<li><code>#include &lt;alRailRider.h&gt;</code></li>
+</ul>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-railrider"><strong>RailRider</strong></a> (<a href="../classal_1_1_rail/"><strong>Rail</strong></a> * rail) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>const</strong></a> sead::Vector3f &amp;</td>
+<td style="text-align: left;"><a href="#function-getcurrentdir"><strong>getCurrentDir</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>const</strong></a> sead::Vector3f &amp;</td>
+<td style="text-align: left;"><a href="#function-getcurrentpos"><strong>getCurrentPos</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>bool</strong></a></td>
+<td style="text-align: left;"><a href="#function-isloop"><strong>isLoop</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>bool</strong></a></td>
+<td style="text-align: left;"><a href="#function-isreachedgoal"><strong>isReachedGoal</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-movetonearestrail"><strong>moveToNearestRail</strong></a> (<a href="../classal_1_1_functor_v0_m/"><strong>const</strong></a> sead::Vector3f &amp; r1) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-movetorailstart"><strong>moveToRailStart</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a></td>
+<td style="text-align: left;"><a href="#function-setspeed"><strong>setSpeed</strong></a> (<a href="../classal_1_1_functor_v0_m/"><strong>float</strong></a> speed) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-railrider">function RailRider</h3>
+<pre><code class="language-C++">al::RailRider::RailRider (
+    Rail * rail
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getcurrentdir">function getCurrentDir</h3>
+<pre><code class="language-C++">inline const sead::Vector3f &amp; al::RailRider::getCurrentDir () const
+</code></pre>
+<hr>
+
+<h3 id="function-getcurrentpos">function getCurrentPos</h3>
+<pre><code class="language-C++">inline const sead::Vector3f &amp; al::RailRider::getCurrentPos () const
+</code></pre>
+<hr>
+
+<h3 id="function-isloop">function isLoop</h3>
+<pre><code class="language-C++">inline bool al::RailRider::isLoop () const
+</code></pre>
+<hr>
+
+<h3 id="function-isreachedgoal">function isReachedGoal</h3>
+<pre><code class="language-C++">bool al::RailRider::isReachedGoal () const
+</code></pre>
+<hr>
+
+<h3 id="function-movetonearestrail">function moveToNearestRail</h3>
+<pre><code class="language-C++">void al::RailRider::moveToNearestRail (
+    const sead::Vector3f &amp; r1
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-movetorailstart">function moveToRailStart</h3>
+<pre><code class="language-C++">void al::RailRider::moveToRailStart () 
+</code></pre>
+<hr>
+
+<h3 id="function-setspeed">function setSpeed</h3>
+<pre><code class="language-C++">inline void al::RailRider::setSpeed (
+    float speed
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>/home/runner/work/RE-Pepper/RE-Pepper/lib/al/include/Rail/alRailRider.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::EulaInfoCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data_1a21ef1f97a84a03f42dd363039a7ec180" prot="public" static="no" mutable="no">
+        <type><ref refid="unionnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_version" kindref="compound">EulaVersion</ref></type>
+        <definition>EulaVersion nn::cfg::CTR::detail::EulaInfoCfgData::agreeVersion</definition>
+        <argsstring></argsstring>
+        <name>agreeVersion</name>
+        <qualifiedname>nn::cfg::CTR::detail::EulaInfoCfgData::agreeVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="214" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data_1af713a4d2c5cfbbe79505ace23f8e324e" prot="public" static="no" mutable="no">
+        <type><ref refid="unionnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_version" kindref="compound">EulaVersion</ref></type>
+        <definition>EulaVersion nn::cfg::CTR::detail::EulaInfoCfgData::latestVersion</definition>
+        <argsstring></argsstring>
+        <name>latestVersion</name>
+        <qualifiedname>nn::cfg::CTR::detail::EulaInfoCfgData::latestVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="215" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::EulaInfoCfgData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>agreeVersion</edgelabel>
+          <edgelabel>latestVersion</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::cfg::CTR::detail::EulaVersion</label>
+        <link refid="unionnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_version"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="212" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="213" bodyend="216"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data_1a21ef1f97a84a03f42dd363039a7ec180" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::EulaInfoCfgData</scope><name>agreeVersion</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_eula_info_cfg_data_1af713a4d2c5cfbbe79505ace23f8e324e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::EulaInfoCfgData</scope><name>latestVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File fnd_LinkedList.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-fnd_linkedlisth">File fnd_LinkedList.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_896b02bd9724af022fac6ecc9927c6e1/"><strong>fnd</strong></a> <strong>&gt;</strong> <a href="../fnd___linked_list_8h/"><strong>fnd_LinkedList.h</strong></a></p>
+<p><a href="../fnd___linked_list_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/assert.h&gt;
+#include &lt;nn/fnd/fnd_Result.h&gt;
+#include &lt;nn/util/util_NonCopyable.h&gt;
+
+namespace nn {
+namespace fnd {
+
+template &lt;typename T, typename U = void&gt;
+class IntrusiveLinkedList
+{
+public:
+        IntrusiveLinkedList ()
+            : m_Head (NULL)
+        {}
+
+        class Item;
+
+private:
+        bool  IsEmpty () { m_Head == NULL; } // 95
+        Item* m_Head;
+
+        static void ClearLinks (Item* p)
+        {
+                p-&gt;m_NextLink     = NULL;
+                p-&gt;m_PreviousLink = NULL;
+        }
+        static void InsertBefore (Item* p, Item* q)
+        {
+                q-&gt;m_NextLink                 = p;
+                p-&gt;m_PreviousLink-&gt;m_NextLink = q;
+                q-&gt;m_PreviousLink             = q-&gt;m_PreviousLink;
+                p-&gt;m_PreviousLink             = q;
+        }
+
+public:
+        class Item : nn::util::ADLFireWall::NonCopyable&lt;Item&gt;
+        {
+        private:
+                Item* m_PreviousLink;
+                Item* m_NextLink;
+
+        public:
+                Item ()
+                    : m_PreviousLink (NULL),
+                      m_NextLink (NULL)
+                {} // 217
+                ~Item ()
+                {
+                        NN_ASSERT_SDK (!m_PreviousLink &amp;&amp; !m_NextLink) // 218
+                }
+        };
+
+        void PushBack (T* p)
+        {
+                NN_ASSERT_SDK_RESULT (p, ResultInvalidAddress ()); // 244
+                NN_ASSERT_SDK (p);                                 // 245
+                Item* pNode = (Item*)p;
+                NN_ASSERT_SDK_RESULT (!pNode-&gt;m_PreviousLink, ResultFndUnk0 ()); // 247
+                NN_ASSERT_SDK (!pNode-&gt;m_PreviousLink);                          // 248
+                NN_ASSERT_SDK (!pNode-&gt;m_NextLink);                              // 249
+
+                if (IsEmpty ()) {
+                        p-&gt;m_PreviousLink = p;
+                        p-&gt;m_NextLink     = p;
+                        this-&gt;m_Head      = p;
+                } else {
+                        InsertBefore (this-&gt;m_Head);
+                }
+        } // 243
+
+        void PushFront (T* p)
+        {
+                NN_ASSERT_SDK_RESULT (p, ResultInvalidAddress ());
+                NN_ASSERT_SDK (p);
+                Item* pNode = (Item*)p;
+                NN_ASSERT_SDK_RESULT (!pNode-&gt;m_PreviousLink, ResultFndUnk0 ());
+                NN_ASSERT_SDK (!pNode-&gt;m_PreviousLink);
+                NN_ASSERT_SDK (!pNode-&gt;m_NextLink);
+
+                if (IsEmpty ()) {
+                        p-&gt;m_PreviousLink = p;
+                        p-&gt;m_NextLink     = p;
+                } else {
+                        InsertBefore (this-&gt;m_Head);
+                }
+                this-&gt;m_Head = p;
+        } // 263
+
+        T* GetFront ()
+        {
+                if (m_Head == NULL) {
+                        return NULL;
+                }
+
+                return m_Head[-1].m_NextLink;
+
+        } // 284
+
+        T* GetBack ()
+        {
+                if (IsEmpty ()) {
+                        return NULL;
+                }
+
+                return m_Head-&gt;m_PrevieousLink;
+        } // 289
+
+        T* GetNext (T* p)
+        {
+                NN_ASSERT_SDK_RESULT (p, ResultInvalidAddress ());
+                NN_ASSERT_SDK (p);
+                Item* pNode = (Item*)p;
+                NN_ASSERT_SDK_RESULT (!pNode-&gt;m_PreviousLink, ResultFndUnk0 ());
+                NN_ASSERT_SDK (!pNode-&gt;m_PreviousLink);
+                NN_ASSERT_SDK (!pNode-&gt;m_NextLink);
+
+                if (GetBack () == p) {
+                        return NULL;
+                } else {
+                        return p-&gt;m_NextLink;
+                }
+        } // 346
+
+        T* GetPrevious (T* p)
+        {
+                NN_ASSERT_SDK_RESULT (p, ResultInvalidAddress ());
+                NN_ASSERT_SDK (p);
+                Item* pNode = (Item*)p;
+                NN_ASSERT_SDK_RESULT (!pNode-&gt;m_PreviousLink, ResultFndUnk0 ());
+                NN_ASSERT_SDK (!pNode-&gt;m_PreviousLink);
+                NN_ASSERT_SDK (!pNode-&gt;m_NextLink);
+
+                if (GetFront () == p) {
+                        return NULL;
+                } else {
+                        return p-&gt;m_PreviousLink;
+                }
+        } // 330
+
+        void Insert (T* p, T* q)
+        {
+                q-&gt;m_NextLink                 = p;
+                p-&gt;m_PreviousLink-&gt;m_NextLink = q;
+                q-&gt;m_PreviousLink             = p-&gt;m_PreviousLink;
+                p-&gt;m_PreviousLink             = q;
+        } // 236
+
+        void Erase (T* p)
+        {
+                NN_ASSERT_SDK_RESULT (p, ResultInvalidAddress ());
+                NN_ASSERT_SDK (p);
+                Item* pNode = (Item*)p;
+                NN_ASSERT_SDK_RESULT (!pNode-&gt;m_PreviousLink, ResultFndUnk0 ());
+                NN_ASSERT_SDK (!pNode-&gt;m_PreviousLink);
+                NN_ASSERT_SDK (!pNode-&gt;m_NextLink);
+
+                if (p-&gt;m_PreviousLink == p) {
+                        this-&gt;m_Head = NULL;
+                } else {
+                        if (this-&gt;m_Head == p) {
+                                this-&gt;m_Head = this-&gt;m_Head-&gt;m_NextLink;
+                        }
+                        p-&gt;m_NextLink-&gt;m_PreviousLink = p-&gt;m_PreviousLink;
+                        p-&gt;m_PreviousLink-&gt;m_NextLink = p-&gt;m_NextLink;
+                }
+                ClearLinks (p);
+        }
+
+        void Clear (T*)
+        {
+                if (this-&gt;m_Head) {
+                        Item* p = this-&gt;m_Head;
+                        while (p) {
+                                Item* q = p;
+                                p       = p-&gt;m_NextLink;
+                                ClearLinks (q);
+                        }
+                        this-&gt;m_Head = NULL;
+                }
+        }
+};
+
+} // namespace fnd
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

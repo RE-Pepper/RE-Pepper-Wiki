@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="nstd___printf_8cpp" kind="file" language="C++">
+    <compoundname>nstd_Printf.cpp</compoundname>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>nstd_Printf.cpp</label>
+        <link refid="nstd___printf_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" prot="public">RP_SHUTUP::TVSNPrintfImpl</innerclass>
+    <innerclass refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" prot="public">RP_SHUTUP::TVSNPrintfImpl::dst_string</innerclass>
+    <innernamespace refid="namespace_r_p___s_h_u_t_u_p">RP_SHUTUP</innernamespace>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1nstd">nn::nstd</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="nstd___printf_8cpp_1a372230d6ef74581e6aa962d44c07fe31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 nnnstdTVSNPrintf</definition>
+        <argsstring>(char *dst, size_t len, const char *fmt, va_list vlist)</argsstring>
+        <name>nnnstdTVSNPrintf</name>
+        <param>
+          <type>char *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>vlist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="133" column="5" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="133" bodyend="136"/>
+        <references refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" compoundref="nstd___printf_8cpp" startline="99" endline="102">nn::nstd::TVSNPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="nstd___printf_8cpp_1a1f74d28ec276ce75535b88acbb477d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 nnnstdTSNPrintf</definition>
+        <argsstring>(char *dst, size_t len, const char *fmt,...)</argsstring>
+        <name>nnnstdTSNPrintf</name>
+        <param>
+          <type>char *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="138" column="5" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="138" bodyend="148"/>
+        <references refid="namespacenn_1_1nstd_1a7ebbe566ff41ce8af8ab42a485eee2b6" compoundref="nstd___printf_8cpp" startline="104" endline="114">nn::nstd::TSNPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="nstd___printf_8cpp_1a94408bd5494c3463840edf1ede15b0d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 nnnstdTSPrintf</definition>
+        <argsstring>(char *dst, const char *fmt,...)</argsstring>
+        <name>nnnstdTSPrintf</name>
+        <param>
+          <type>char *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="150" column="5" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="150" bodyend="160"/>
+        <references refid="namespacenn_1_1nstd_1a7c47840b7e71ed24d5c57e10da4d4df0" compoundref="nstd___printf_8cpp" startline="116" endline="126">nn::nstd::TSPrintf</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_r_p___s_h_u_t_u_p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Type&gt;</highlight></codeline>
+<codeline lineno="7" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">TVSNPrintfImpl</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Type::char_type<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" kindref="compound">dst_string</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1ab777c375aba9161a5005e3a370c41d1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1ab777c375aba9161a5005e3a370c41d1a" kindref="member">len</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>remaining<sp/>capacity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a69283dc6f540a201cf7603239bf34eea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a69283dc6f540a201cf7603239bf34eea" kindref="member">cur</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>current<sp/>write<sp/>cursor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a13d6701c2d2e39b98506ba413aadd0e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a13d6701c2d2e39b98506ba413aadd0e8" kindref="member">base</ref>;<sp/></highlight><highlight class="comment">//<sp/>start<sp/>of<sp/>destination</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a67691530d7cad4f0ec7d576439e092e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a67691530d7cad4f0ec7d576439e092e3" kindref="member">string_put_char</ref><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" kindref="compound">dst_string</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>,<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref><sp/>c)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;cur<sp/>=<sp/>c;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>--<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;cur;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a5b05659ec5735d93143bd9104cfbc6cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a5b05659ec5735d93143bd9104cfbc6cf" kindref="member">string_fill_char</ref><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" kindref="compound">dst_string</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>,<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref><sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref><sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>len<sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len<sp/>&gt;<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>len<sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref><sp/>=<sp/>0;<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref><sp/>&lt;<sp/>len;<sp/>++<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;cur[<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>]<sp/>=<sp/>c;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len<sp/>-=<sp/>len;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;cur<sp/>+=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a2a95772fa60b442edf8590ff52a83552" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a2a95772fa60b442edf8590ff52a83552" kindref="member">string_put_string</ref><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" kindref="compound">dst_string</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">s</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref><sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>len<sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len<sp/>&gt;<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>len<sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref><sp/>=<sp/>0;<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref><sp/>&lt;<sp/>len;<sp/>++<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;cur[<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>]<sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">s</ref>[<ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">i</ref>];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;len<sp/>-=<sp/>len;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">p</ref>-&gt;cur<sp/>+=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">n</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Observed<sp/>function<sp/>with<sp/>locals:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>buf[24],<sp/>n_buf,<sp/>prefix[2],<sp/>s,<sp/>str,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>flag,<sp/>width,<sp/>precision,<sp/>radix,<sp/>hex_char,<sp/>p_start,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>c,<sp/>pad,<sp/>n_buf2,<sp/>p_buf,<sp/>n_pad,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>plus<sp/>nested<sp/>integer<sp/>temporaries:<sp/>val<sp/>(u64),<sp/>d<sp/>(int),<sp/>v<sp/>(u32),<sp/>r<sp/>(u64)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1ad2e86a2f6632ea62f3a2b8622e371284" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1ad2e86a2f6632ea62f3a2b8622e371284" kindref="member">TVSNPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">dst</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref>*<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">fmt</ref>,<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">va_list</ref><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">vlist</ref>)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>main<sp/>formatter<sp/>body<sp/>inferred<sp/>from<sp/>the<sp/>debug<sp/>info.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>DWARF<sp/>shows<sp/>a<sp/>classic<sp/>printf-style<sp/>formatter:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>-<sp/>parses<sp/>flags<sp/>/<sp/>width<sp/>/<sp/>precision<sp/>/<sp/>radix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>-<sp/>uses<sp/>a<sp/>small<sp/>local<sp/>conversion<sp/>buffer<sp/>buf[24]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>-<sp/>formats<sp/>signed/unsigned<sp/>values<sp/>via<sp/>u32/u64<sp/>temporaries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>-<sp/>handles<sp/>padding<sp/>via<sp/>pad<sp/>/<sp/>n_pad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>-<sp/>consumes<sp/>strings<sp/>through<sp/>p_buf<sp/>/<sp/>s</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>-<sp/>writes<sp/>into<sp/>dst_string<sp/>str</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" kindref="compound">dst_string</ref><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">str</ref><sp/><ref refid="types_8h_1a2dd7fc61294c979b24b5a042c910736f" kindref="member">NN_UNUSED</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">str</ref>.len<sp/><sp/>=<sp/>len;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">str</ref>.cur<sp/><sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">dst</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">str</ref>.base<sp/>=<sp/><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">dst</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Body<sp/>not<sp/>fully<sp/>recoverable<sp/>from<sp/>the<sp/>DWARF<sp/>dump<sp/>alone.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>locals<sp/>strongly<sp/>indicate<sp/>standard<sp/>printf<sp/>semantics:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>%d/%i,<sp/>%u,<sp/>%x/%X,<sp/>%o,<sp/>%s,<sp/>%c,<sp/>width,<sp/>precision,<sp/>zero/space<sp/>padding,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>sign<sp/>handling,<sp/>and<sp/>alternate-prefix<sp/>handling.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>function<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>characters<sp/>written,<sp/>or<sp/>similar<sp/>s32.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>At<sp/>the<sp/>end,<sp/>the<sp/>destination<sp/>is<sp/>NUL-terminated<sp/>if<sp/>space<sp/>remains.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">nstd<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" refkind="member"><highlight class="normal"><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" kindref="member">TVSNPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>vlist)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TVSNPrintfImpl&lt;std::char_traits&lt;char&gt;<sp/>&gt;<ref refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" kindref="member">::TVSNPrintf</ref><sp/>(dst,<sp/>len,<sp/>fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="namespacenn_1_1nstd_1a7ebbe566ff41ce8af8ab42a485eee2b6" refkind="member"><highlight class="normal"><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="namespacenn_1_1nstd_1a7ebbe566ff41ce8af8ab42a485eee2b6" kindref="member">TSNPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><sp/><sp/><sp/><sp/>ret;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" kindref="member">TVSNPrintf</ref><sp/>(dst,<sp/>len,<sp/>fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="namespacenn_1_1nstd_1a7c47840b7e71ed24d5c57e10da4d4df0" refkind="member"><highlight class="normal"><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="namespacenn_1_1nstd_1a7c47840b7e71ed24d5c57e10da4d4df0" kindref="member">TSPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><sp/><sp/><sp/><sp/>ret;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" kindref="member">TVSNPrintf</ref><sp/>(dst,<sp/>0x7FFFFFFF,<sp/>fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nstd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="nstd___printf_8cpp_1a372230d6ef74581e6aa962d44c07fe31" refkind="member"><highlight class="normal"><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="nstd___printf_8cpp_1a372230d6ef74581e6aa962d44c07fe31" kindref="member">nnnstdTVSNPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>vlist)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1nstd_1ab9d1d735810b3c5bc6cbce0e0fdc7d5d" kindref="member">nn::nstd::TVSNPrintf</ref><sp/>(dst,<sp/>len,<sp/>fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="nstd___printf_8cpp_1a1f74d28ec276ce75535b88acbb477d33" refkind="member"><highlight class="normal"><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="nstd___printf_8cpp_1a1f74d28ec276ce75535b88acbb477d33" kindref="member">nnnstdTSNPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><sp/><sp/><sp/><sp/>ret;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="namespacenn_1_1nstd_1a7ebbe566ff41ce8af8ab42a485eee2b6" kindref="member">nn::nstd::TSNPrintf</ref><sp/>(dst,<sp/>len,<sp/>fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="nstd___printf_8cpp_1a94408bd5494c3463840edf1ede15b0d2" refkind="member"><highlight class="normal"><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="nstd___printf_8cpp_1a94408bd5494c3463840edf1ede15b0d2" kindref="member">nnnstdTSPrintf</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>vlist;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><sp/><sp/><sp/><sp/>ret;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_start<sp/>(vlist,<sp/>fmt);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>=<sp/><ref refid="namespacenn_1_1nstd_1a7c47840b7e71ed24d5c57e10da4d4df0" kindref="member">nn::nstd::TSPrintf</ref><sp/>(dst,<sp/>fmt,<sp/>vlist);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_end<sp/>(vlist);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___error_handler_8h" kind="file" language="C++">
+    <compoundname>os_ErrorHandler.h</compoundname>
+    <includes refid="_result_8h" local="no">nn/Result.h</includes>
+    <includedby refid="os___error_handler_8cpp" local="no">os_ErrorHandler.cpp</includedby>
+    <includedby refid="os___event_8h" local="yes">os_Event.h</includedby>
+    <includedby refid="os___synchronization_8h" local="no">os_Synchronization.h</includedby>
+    <includedby refid="os___thread_8h" local="yes">os_Thread.h</includedby>
+    <includedby refid="os___thread_local_storage_8cpp" local="no">os_ThreadLocalStorage.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="1">
+        <label>os_ErrorHandler.h</label>
+        <link refid="os___error_handler_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="1">
+        <label>os_ErrorHandler.h</label>
+        <link refid="os___error_handler_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>os_ErrorHandler.cpp</label>
+        <link refid="os___error_handler_8cpp"/>
+      </node>
+      <node id="8">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="10">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="11">
+        <label>os_ThreadLocalStorage.cpp</label>
+        <link refid="os___thread_local_storage_8cpp"/>
+      </node>
+      <node id="7">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r">nn::os::CTR</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r_1_1detail">nn::os::CTR::detail</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" prot="public" static="no">
+        <name>NN_OS_HANDLE_ERROR</name>
+        <param><defname>result</defname></param>
+        <initializer>        Result nn_os_result = (result);                                                          \
+        if (nn_os_result.IsFailure()) {                                                          \
+                <ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" kindref="member">nn::os::CTR::detail::HandleInternalError</ref>(nn_os_result, __BASE_FILE__, __LINE__); \
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h" line="22" column="10" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h" bodystart="22" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_result_8h" kindref="compound">nn/Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1os_1_1_c_t_r_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" kindref="member">HandleInternalError</ref>(<ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" kindref="member">HandleInternalError</ref>(<ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>result);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1_1detail_1aeb8241468ed4be6f706d93d1986e1f8d" kindref="member">SetInternalErrorHandlingMode</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>preferFatal);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>NN_SWITCH_DISABLE_DEBUG_PRINT_FOR_SDK<sp/>==<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_OS_HANDLE_ERROR(result)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Result<sp/>nn_os_result<sp/>=<sp/>(result);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(nn_os_result.IsFailure())<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nn::os::CTR::detail::HandleInternalError(nn_os_result);<sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_OS_HANDLE_ERROR(result)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Result<sp/>nn_os_result<sp/>=<sp/>(result);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(nn_os_result.IsFailure())<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nn::os::CTR::detail::HandleInternalError(nn_os_result,<sp/>__BASE_FILE__,<sp/>__LINE__);<sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h"/>
+  </compounddef>
+</doxygen>

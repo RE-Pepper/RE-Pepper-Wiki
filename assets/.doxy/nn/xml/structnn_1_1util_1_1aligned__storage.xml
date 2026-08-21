@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1util_1_1aligned__storage" kind="struct" language="C++" prot="public">
+    <compoundname>nn::util::aligned_storage</compoundname>
+    <includes refid="util___type_traits_8h" local="no">util_TypeTraits.h</includes>
+    <innerclass refid="unionnn_1_1util_1_1aligned__storage_1_1_union_type" prot="private">nn::util::aligned_storage::UnionType</innerclass>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>Size</declname>
+        <defname>Size</defname>
+      </param>
+      <param>
+        <type>size_t</type>
+        <declname>Alignment</declname>
+        <defname>Alignment</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structnn_1_1util_1_1aligned__storage_1ae7083d26001b6af7769e59e33adf9cce" prot="public" static="no">
+        <type><ref refid="unionnn_1_1util_1_1aligned__storage_1_1_union_type" kindref="compound">UnionType</ref></type>
+        <definition>typedef UnionType nn::util::aligned_storage&lt; Size, Alignment &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>nn::util::aligned_storage::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="49" column="27" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::util::aligned_storage&lt; Size, 8 &gt;</label>
+        <link refid="structnn_1_1util_1_1aligned__storage"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; Size, 8 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::util::aligned_storage&lt; Size, Alignment &gt;</label>
+        <link refid="structnn_1_1util_1_1aligned__storage"/>
+      </node>
+    </inheritancegraph>
+    <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="37" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="38" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structnn_1_1util_1_1aligned__storage_1ae7083d26001b6af7769e59e33adf9cce" prot="public" virt="non-virtual"><scope>nn::util::aligned_storage</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

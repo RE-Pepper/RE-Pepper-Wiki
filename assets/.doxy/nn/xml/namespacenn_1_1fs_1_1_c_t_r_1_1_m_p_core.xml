@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core" kind="namespace" language="C++">
+    <compoundname>nn::fs::CTR::MPCore</compoundname>
+    <innerclass refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive" prot="public">nn::fs::CTR::MPCore::IArchive</innerclass>
+    <innerclass refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_directory" prot="public">nn::fs::CTR::MPCore::IDirectory</innerclass>
+    <innerclass refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_file" prot="public">nn::fs::CTR::MPCore::IFile</innerclass>
+    <innernamespace refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail">nn::fs::CTR::MPCore::detail</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" prot="public" static="no">
+        <type><ref refid="classnn_1_1fslow_1_1_low_path" kindref="compound">nn::fslow::LowPath</ref>&lt; const char *, const wchar_t * &gt;</type>
+        <definition>typedef nn::fslow::LowPath&lt; const char *, const wchar_t * &gt; nn::fs::CTR::MPCore::Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>nn::fs::CTR::MPCore::Path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="13" column="28" bodyfile="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

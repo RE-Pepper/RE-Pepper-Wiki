@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File seadPtrArray.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-seadptrarraycpp">File seadPtrArray.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_fe080b7ac8d95dfbf3c6a5deb178b135/"><strong>container</strong></a> <strong>&gt;</strong> <a href="../sead_ptr_array_8cpp/"><strong>seadPtrArray.cpp</strong></a></p>
+<p><a href="../sead_ptr_array_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;container/seadPtrArray.h&gt;
+
+namespace sead {
+
+// weird
+void PtrArrayImpl::setBuffer(s32 ptrNumMax, void* buf) {
+    if (ptrNumMax &lt;= 0) {
+        SEAD_ASSERT_MSG(false, &quot;ptrNumMax[%d] must be larger than zero&quot;, ptrNumMax);
+        return;
+    }
+
+    if (buf == NULL) {
+        SEAD_ASSERT_MSG(false, &quot;buf is null&quot;);
+        return;
+    }
+
+    mPtrs = static_cast&lt;void**&gt;(buf);
+    mPtrNumMax = 0;
+    mPtrNum = ptrNumMax;
+}
+
+#ifdef NON_MATCHING
+
+// ip garbage
+void PtrArrayImpl::erase(s32 pos, s32 count) {
+    if (pos &lt; 0) {
+        SEAD_ASSERT_MSG(false, &quot;illegal position[%d]&quot;, pos);
+        return;
+    }
+
+    if (count &lt; 0) {
+        SEAD_ASSERT_MSG(false, &quot;illegal number[%d]&quot;, count);
+        return;
+    }
+
+    const s32 endPos = pos + count;
+    if (endPos &gt; mPtrNumMax) {
+        SEAD_ASSERT_MSG(false, &quot;pos[%d] + num[%d] exceed size[%d]&quot;, pos, count, mPtrNumMax);
+        return;
+    }
+
+    if (mPtrNumMax &gt; endPos)
+        MemUtil::copyOverlap(mPtrs + pos, mPtrs + endPos, sizeof(void*) * (mPtrNumMax - endPos));
+
+    mPtrNumMax -= count;
+}
+#endif
+}  // namespace sead
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

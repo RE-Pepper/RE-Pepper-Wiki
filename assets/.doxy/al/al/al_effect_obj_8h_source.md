@@ -1,0 +1,45 @@
+
+
+# File alEffectObj.h
+
+[**File List**](files.md) **>** [**al**](dir_06a57bfe438b90fdc9c94a1df001d5d7.md) **>** [**include**](dir_f7e8efec570a34efc8a6993e55383954.md) **>** [**Npc**](dir_e3d165b8bf399078b0d48c0aef5b9296.md) **>** [**alEffectObj.h**](al_effect_obj_8h.md)
+
+[Go to the documentation of this file](al_effect_obj_8h.md)
+
+
+```C++
+#pragma once
+
+#include <MapObj/alMapObjActor.h>
+
+namespace al
+{
+
+class EffectObj : public MapObjActor
+{
+        friend class EffectObjFunction;
+
+private:
+        sead::Matrix34f mBaseMtx;
+
+public:
+        virtual void                   init( const ActorInitInfo& info );
+        virtual void                   makeActorAppeared();
+        virtual void                   kill();
+        virtual const sead::Matrix34f* getBaseMtx() const;
+        virtual void                   control();
+
+public:
+        EffectObj( const sead::SafeString& name );
+};
+
+class EffectObjFunction
+{
+public:
+        static void initActorEffectObj( EffectObj* actor, const ActorInitInfo& info, const char* objectName );
+};
+
+} // namespace al
+```
+
+

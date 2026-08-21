@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File PlayerModelHolder.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-playermodelholderh">File PlayerModelHolder.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_e05fb92cc301336445c4f62f6c4f58b8/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_c3d399ad73eabae4c9209488b7fe7035/"><strong>Player</strong></a> <strong>&gt;</strong> <a href="../_player_model_holder_8h/"><strong>PlayerModelHolder.h</strong></a></p>
+<p><a href="../_player_model_holder_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;math/seadVector.h&gt;
+
+class PlayerFigureDirector;
+struct PlayerActorInitInfo;
+namespace al
+{
+struct ActorInitInfo;
+}
+
+class IUsePlayerModelChanger
+{
+public:
+        virtual void change( const EPlayerFigure&amp; figure );
+};
+
+class IUsePlayerModelShowHide
+{
+public:
+        virtual void show();
+        virtual void hide();
+        virtual bool isHidden() const;
+};
+
+class IUsePlayerModelShadowShowHide
+{
+public:
+        virtual void hideShadow();
+        virtual void showShadow();
+};
+
+class IUsePlayerModelSilhouetteShowHide
+{
+public:
+        virtual void showSilhouette();
+        virtual void hideSilhouette();
+        virtual bool isSilhouetteHidden() const;
+};
+
+class PlayerModel;
+
+class PlayerModelHolder : public IUsePlayerModelChanger,
+                          public IUsePlayerModelShowHide,
+                          public IUsePlayerModelShadowShowHide,
+                          public IUsePlayerModelSilhouetteShowHide
+{
+private:
+        PlayerModel*  mModels[ 7 ];
+        EPlayerFigure mCurrentFigure;
+        bool          _30;
+        bool          mIsHidden;
+        bool          mIsShadowHidden;
+        bool          mIsSilhouetteHidden;
+        void*         _34[ 7 ];
+
+public:
+        static PlayerModel* createNormalPlayerModel( const al::ActorInitInfo&amp; info,
+                const PlayerActorInitInfo&amp;                                    playerInfo,
+                const sead::Vector3f*                                         transPtr,
+                const sead::Vector3f*                                         rotatePtr,
+                u64                                                           something );
+        static PlayerModel* createMiniPlayerModel( const al::ActorInitInfo&amp; info,
+                const PlayerActorInitInfo&amp;                                  playerInfo,
+                const sead::Vector3f*                                       transPtr,
+                const sead::Vector3f*                                       rotatePtr,
+                u64                                                         something );
+        static PlayerModel* createFirePlayerModel( const al::ActorInitInfo&amp; info,
+                const PlayerActorInitInfo&amp;                                  playerInfo,
+                const sead::Vector3f*                                       transPtr,
+                const sead::Vector3f*                                       rotatePtr,
+                u64                                                         something );
+        // PlayerModelHolder::createRaccoonDogPlayerModel
+        static PlayerModel* createBoomerangPlayerModel( const al::ActorInitInfo&amp; info,
+                const PlayerActorInitInfo&amp;                                       playerInfo,
+                const sead::Vector3f*                                            transPtr,
+                const sead::Vector3f*                                            rotatePtr,
+                u64                                                              something );
+        // PlayerModelHolder::createRaccoonDogSpecialPlayerModel
+        // PlayerModelHolder::createRaccoonDogWhitePlayerModel
+
+public:
+        virtual void change( const EPlayerFigure&amp; figure );
+        virtual void show();
+        virtual void hide();
+        virtual bool isHidden() const;
+        virtual void showSilhouette();
+        virtual void hideSilhouette();
+        virtual bool isSilhouetteHidden() const;
+        virtual void hideShadow();
+        virtual void showShadow();
+
+public:
+        PlayerModelHolder( const al::ActorInitInfo&amp; info, const PlayerActorInitInfo&amp; playerInfo, const sead::Vector3f* transPtr, const sead::Vector3f* rotatePtr, u64 something );
+};
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

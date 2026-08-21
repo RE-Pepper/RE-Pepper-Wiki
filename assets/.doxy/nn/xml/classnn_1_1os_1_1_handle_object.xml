@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1os_1_1_handle_object" kind="class" language="C++" prot="public">
+    <compoundname>nn::os::HandleObject</compoundname>
+    <basecompoundref refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" prot="private" virt="non-virtual">nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</basecompoundref>
+    <derivedcompoundref refid="classnn_1_1os_1_1_wait_object" prot="public" virt="non-virtual">nn::os::WaitObject</derivedcompoundref>
+    <includes refid="os___handle_object_8h" local="no">os_HandleObject.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>Handle nn::os::HandleObject::m_Handle</definition>
+        <argsstring></argsstring>
+        <name>m_Handle</name>
+        <qualifiedname>nn::os::HandleObject::m_Handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="14" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1af84a9d4f2fef70ad098b03e2efa91376" compoundref="os___handle_object_8h" startline="55" endline="58">ClearHandle</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" compoundref="os___handle_object_8h" startline="42" endline="48">Close</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" compoundref="os___handle_object_8h" startline="17" endline="20">GetHandle</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" compoundref="os___handle_object_8h" startline="21" endline="24">IsValid</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a2a272a0b0037154dac2c7d1f1cf5309a" compoundref="os___handle_object_8h" startline="35" endline="40">SetHandle</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>Handle nn::os::HandleObject::GetHandle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHandle</name>
+        <qualifiedname>nn::os::HandleObject::GetHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="17" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="17" bodyend="20"/>
+        <references refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" compoundref="os___handle_object_8h" startline="14">m_Handle</references>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a229ac28e5bd2a9d6e87e088208c7c7b4" compoundref="os___thread_8h" startline="196" endline="199">nn::os::Thread::ChangePriority</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" compoundref="os___event_8h" startline="44" endline="47">nn::os::EventBase::ClearSignal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a6c76e326cdf10434fc2d89e2a183e96b" compoundref="os___thread_8h" startline="168" endline="173">nn::os::Thread::GetId</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a6cf9d428058d9c3a6e5133bf6c83cb9c" compoundref="os___thread_8h" startline="182" endline="187">nn::os::Thread::GetPriority</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" compoundref="os___event_8h" startline="40" endline="43">nn::os::EventBase::Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_wait_object_1a6eb934a8913d20c620de7645ee559053" compoundref="os___synchronization_8h" startline="18" endline="23">nn::os::WaitObject::WaitOneImpl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::HandleObject::IsValid</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>nn::os::HandleObject::IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="21" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="21" bodyend="24"/>
+        <references refid="classnn_1_1_handle_1abdc834585fcd85082fd7f51256194f5d" compoundref="_handle_8h" startline="39" endline="42">nn::Handle::IsValid</references>
+        <references refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" compoundref="os___handle_object_8h" startline="14">m_Handle</references>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" compoundref="os___handle_object_8h" startline="42" endline="48">Close</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a8ffdc07a817b360bca3d7afc3d8ecab6" compoundref="os___thread_8h" startline="149" endline="156">nn::os::Thread::IsAlive</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a3d865d35c5adb99186c09d6b971da4eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::HandleObject::HandleObject</definition>
+        <argsstring>()</argsstring>
+        <name>HandleObject</name>
+        <qualifiedname>nn::os::HandleObject::HandleObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="27" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="27" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a7de277bda977b4bff718d4e689826087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::HandleObject::~HandleObject</definition>
+        <argsstring>()</argsstring>
+        <name>~HandleObject</name>
+        <qualifiedname>nn::os::HandleObject::~HandleObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="30" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="30" bodyend="33"/>
+        <references refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" compoundref="os___handle_object_8h" startline="42" endline="48">Close</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a2a272a0b0037154dac2c7d1f1cf5309a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::HandleObject::SetHandle</definition>
+        <argsstring>(Handle handle)</argsstring>
+        <name>SetHandle</name>
+        <qualifiedname>nn::os::HandleObject::SetHandle</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="35" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="35" bodyend="40"/>
+        <references refid="classnn_1_1_handle_1abdc834585fcd85082fd7f51256194f5d" compoundref="_handle_8h" startline="39" endline="42">nn::Handle::IsValid</references>
+        <references refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" compoundref="os___handle_object_8h" startline="14">m_Handle</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="assert_8h_1a825edac211d27bb531be4c818f7dd312" compoundref="assert_8h" startline="12" endline="15">NN_ASSERT_SDK_MSG</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::HandleObject::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>nn::os::HandleObject::Close</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="42" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="42" bodyend="48"/>
+        <references refid="namespacenn_1_1svc_1ac88fd6c24a4342d5492114f8bc84b801">nn::svc::CloseHandle</references>
+        <references refid="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" compoundref="os___handle_object_8h" startline="21" endline="24">IsValid</references>
+        <references refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" compoundref="os___handle_object_8h" startline="14">m_Handle</references>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a86e818fce3818298933d737885c7a60c" compoundref="os___handle_object_8h" startline="50" endline="53">Finalize</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a7de277bda977b4bff718d4e689826087" compoundref="os___handle_object_8h" startline="30" endline="33">~HandleObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1a86e818fce3818298933d737885c7a60c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::HandleObject::Finalize</definition>
+        <argsstring>()</argsstring>
+        <name>Finalize</name>
+        <qualifiedname>nn::os::HandleObject::Finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="50" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="50" bodyend="53"/>
+        <references refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" compoundref="os___handle_object_8h" startline="42" endline="48">Close</references>
+        <referencedby refid="classnn_1_1os_1_1_thread_1af2d4a3b6a47b5c9c5a4abd731af115da" compoundref="os___thread_8h" startline="138" endline="142">nn::os::Thread::Finalize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_handle_object_1af84a9d4f2fef70ad098b03e2efa91376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::HandleObject::ClearHandle</definition>
+        <argsstring>()</argsstring>
+        <name>ClearHandle</name>
+        <qualifiedname>nn::os::HandleObject::ClearHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="55" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="55" bodyend="58"/>
+        <references refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" compoundref="os___handle_object_8h" startline="14">m_Handle</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::hid::CTR::HidBase</label>
+        <link refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base"/>
+        <childnode refid="6" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::os::Event</label>
+        <link refid="classnn_1_1os_1_1_event"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::os::EventBase</label>
+        <link refid="classnn_1_1os_1_1_event_base"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn::os::Semaphore</label>
+        <link refid="structnn_1_1os_1_1_semaphore"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn::os::Thread</label>
+        <link refid="classnn_1_1os_1_1_thread"/>
+        <childnode refid="4" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::Handle</label>
+        <link refid="classnn_1_1_handle"/>
+      </node>
+      <node id="1">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_Handle</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_HandleObject.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_HandleObject.h" bodystart="12" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_handle_object_1af84a9d4f2fef70ad098b03e2efa91376" prot="public" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>ClearHandle</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" prot="public" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>Close</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a86e818fce3818298933d737885c7a60c" prot="public" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>Finalize</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" prot="protected" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>GetHandle</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a3d865d35c5adb99186c09d6b971da4eb" prot="public" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>HandleObject</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" prot="protected" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>IsValid</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" prot="private" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>m_Handle</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="private" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>NonCopyable</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a2a272a0b0037154dac2c7d1f1cf5309a" prot="public" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>SetHandle</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a7de277bda977b4bff718d4e689826087" prot="public" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>~HandleObject</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="private" virt="non-virtual"><scope>nn::os::HandleObject</scope><name>~NonCopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

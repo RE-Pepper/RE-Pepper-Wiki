@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File project_globals.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-project_globalsh">File project_globals.h</h1>
+<p><a href="../files/"><strong>FileList</strong></a> <strong>&gt;</strong> <a href="../dir_c33286056d2acf479cd8641ef845fec1/"><strong>Game</strong></a> <strong>&gt;</strong> <a href="./"><strong>project_globals.h</strong></a></p>
+<p><a href="../project__globals_8h_source/">Go to the source code of this file</a></p>
+<ul>
+<li><code>#include &lt;nn/types.h&gt;</code></li>
+</ul>
+<h2 id="macros">Macros</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-nn_switch_disable_assert_warning_for_sdk"><strong>NN_SWITCH_DISABLE_ASSERT_WARNING_FOR_SDK</strong></a>  <code>1</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-nn_switch_disable_debug_printing_for_sdk"><strong>NN_SWITCH_DISABLE_DEBUG_PRINTING_FOR_SDK</strong></a>  <code>1</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-rp_shutup"><strong>RP_SHUTUP</strong></a>  <code>\_Pragma("diag\_suppress 177,550,940")</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-s"><strong>S</strong></a> (x) <code>[**S\_**](project__globals_8h.md#define-s_)(x)</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-s_"><strong>S_</strong></a> (x) <code>#x</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-_sect_ro"><strong>_SECT_RO</strong></a>  <code>".constdata." \_\_BASE\_FILE\_NAME\_\_</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-_sect_rw"><strong>_SECT_RW</strong></a>  <code>".data." \_\_BASE\_FILE\_NAME\_\_</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-_sect_zi"><strong>_SECT_ZI</strong></a>  <code>".bss." \_\_BASE\_FILE\_NAME\_\_</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-__clrex"><strong>__clrex</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-__weak"><strong>__weak</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-asm"><strong>asm</strong></a> (Name) <code>Name</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-asm_ext"><strong>asm_ext</strong></a> (Name, Sect) <code>Name</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-force_func_section"><strong>force_func_section</strong></a> (Symbol) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-force_section"><strong>force_section</strong></a> (Section) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-var"><strong>var</strong></a> (Namespace, Name, Type) <code>Type Name</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-varc"><strong>varc</strong></a> (Namespace, Class, Name, Type) <code>Type Class::Name</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-varcg"><strong>varcg</strong></a> (Name, Class, Type) <code>Type Class::Name</code><br></td>
+</tr>
+<tr>
+<td style="text-align: right;">define</td>
+<td style="text-align: left;"><a href="./#define-varg"><strong>varg</strong></a> (Name, Type) <code>Type Name</code><br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="macro-definition-documentation">Macro Definition Documentation</h2>
+<h3 id="define-nn_switch_disable_assert_warning_for_sdk">define NN_SWITCH_DISABLE_ASSERT_WARNING_FOR_SDK</h3>
+<pre><code class="language-C++">#define NN_SWITCH_DISABLE_ASSERT_WARNING_FOR_SDK `1`
+</code></pre>
+<hr>
+
+<h3 id="define-nn_switch_disable_debug_printing_for_sdk">define NN_SWITCH_DISABLE_DEBUG_PRINTING_FOR_SDK</h3>
+<pre><code class="language-C++">#define NN_SWITCH_DISABLE_DEBUG_PRINTING_FOR_SDK `1`
+</code></pre>
+<hr>
+
+<h3 id="define-rp_shutup">define RP_SHUTUP</h3>
+<pre><code class="language-C++">#define RP_SHUTUP `_Pragma(&quot;diag_suppress 177,550,940&quot;)`
+</code></pre>
+<hr>
+
+<h3 id="define-s">define S</h3>
+<pre><code class="language-C++">#define S (
+    x
+) `S_ (x)`
+</code></pre>
+<hr>
+
+<h3 id="define-s_">define S_</h3>
+<pre><code class="language-C++">#define S_ (
+    x
+) `#x`
+</code></pre>
+<hr>
+
+<h3 id="define-_sect_ro">define _SECT_RO</h3>
+<pre><code class="language-C++">#define _SECT_RO `&quot;.constdata.&quot; __BASE_FILE_NAME__`
+</code></pre>
+<hr>
+
+<h3 id="define-_sect_rw">define _SECT_RW</h3>
+<pre><code class="language-C++">#define _SECT_RW `&quot;.data.&quot; __BASE_FILE_NAME__`
+</code></pre>
+<hr>
+
+<h3 id="define-_sect_zi">define _SECT_ZI</h3>
+<pre><code class="language-C++">#define _SECT_ZI `&quot;.bss.&quot; __BASE_FILE_NAME__`
+</code></pre>
+<hr>
+
+<h3 id="define-__clrex">define __clrex</h3>
+<pre><code class="language-C++">#define __clrex (
+
+) 
+</code></pre>
+<hr>
+
+<h3 id="define-__weak">define __weak</h3>
+<pre><code class="language-C++">#define __weak 
+</code></pre>
+<hr>
+
+<h3 id="define-asm">define asm</h3>
+<pre><code class="language-C++">#define asm (
+    Name
+) `Name`
+</code></pre>
+<hr>
+
+<h3 id="define-asm_ext">define asm_ext</h3>
+<pre><code class="language-C++">#define asm_ext (
+    Name,
+    Sect
+) `Name`
+</code></pre>
+<hr>
+
+<h3 id="define-force_func_section">define force_func_section</h3>
+<pre><code class="language-C++">#define force_func_section (
+    Symbol
+) 
+</code></pre>
+<hr>
+
+<h3 id="define-force_section">define force_section</h3>
+<pre><code class="language-C++">#define force_section (
+    Section
+) 
+</code></pre>
+<hr>
+
+<h3 id="define-var">define var</h3>
+<pre><code class="language-C++">#define var (
+    Namespace,
+    Name,
+    Type
+) `Type Name`
+</code></pre>
+<hr>
+
+<h3 id="define-varc">define varc</h3>
+<pre><code class="language-C++">#define varc (
+    Namespace,
+    Class,
+    Name,
+    Type
+) `Type Class::Name`
+</code></pre>
+<hr>
+
+<h3 id="define-varcg">define varcg</h3>
+<pre><code class="language-C++">#define varcg (
+    Name,
+    Class,
+    Type
+) `Type Class::Name`
+</code></pre>
+<hr>
+
+<h3 id="define-varg">define varg</h3>
+<pre><code class="language-C++">#define varg (
+    Name,
+    Type
+) `Type Name`
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>Game/project_globals.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::CameraCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data_1a124b90401c433f1481b572a7ac54070a" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data" kindref="compound">CameraPositionCalData</ref></type>
+        <definition>struct CameraPositionCalData nn::cfg::CTR::detail::CameraCfgData::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraCfgData::position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="108" column="36" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data_1adbd7d4870bf131de7f9b181ad1bdd49b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::detail::CameraCfgData::reserved[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>reserved</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraCfgData::reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="109" column="38" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data_1a4c64b57dd355e7102f6f959ef8866c6b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data" kindref="compound">CameraQualityCalData</ref></type>
+        <definition>struct CameraQualityCalData nn::cfg::CTR::detail::CameraCfgData::quality</definition>
+        <argsstring></argsstring>
+        <name>quality</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraCfgData::quality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="110" column="35" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::CameraCfgData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>quality</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::cfg::CTR::detail::CameraPositionCalData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>flags</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::cfg::CTR::detail::CameraPositionCalData::Flags</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags"/>
+      </node>
+      <node id="4">
+        <label>nn::cfg::CTR::detail::CameraQualityCalData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_quality_cal_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="106" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="107" bodyend="111"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data_1a124b90401c433f1481b572a7ac54070a" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraCfgData</scope><name>position</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data_1a4c64b57dd355e7102f6f959ef8866c6b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraCfgData</scope><name>quality</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_cfg_data_1adbd7d4870bf131de7f9b181ad1bdd49b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraCfgData</scope><name>reserved</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

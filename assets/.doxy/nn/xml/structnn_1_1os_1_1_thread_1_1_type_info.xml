@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_thread_1_1_type_info" kind="struct" language="C++" prot="private">
+    <compoundname>nn::os::Thread::TypeInfo</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_thread_1_1_type_info_1a7721238f8f693d9da2ce01b5dc5a1fff" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t nn::os::Thread::TypeInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="44" column="24" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="structnn_1_1os_1_1_thread_1_1_type_info_1a5badf69ad7025dfce8e1b6aef1bfd8ca" compoundref="os___thread_8h" startline="51" endline="55">SetData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_thread_1_1_type_info_1a68e550d77f9e41eba615d0ad321a78c1" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* nn::os::Thread::TypeInfo::copy) (const void *src, void *dsr)</definition>
+        <argsstring>)(const void *src, void *dsr)</argsstring>
+        <name>copy</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::copy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="46" column="17" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_thread_1_1_type_info_1abfcc339084a1c147ab9848a70e346525" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* nn::os::Thread::TypeInfo::destroy) (void *p)</definition>
+        <argsstring>)(void *p)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::destroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="47" column="17" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_thread_1_1_type_info_1add895c12b91416b7b8be24705d874da3" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* nn::os::Thread::TypeInfo::invoke) (ThreadFunc f, const void *p)</definition>
+        <argsstring>)(ThreadFunc f, const void *p)</argsstring>
+        <name>invoke</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::invoke</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="48" column="17" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1os_1_1_thread_1_1_type_info_1a5badf69ad7025dfce8e1b6aef1bfd8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+          <param>
+            <type>typename T3</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void nn::os::Thread::TypeInfo::SetData</definition>
+        <argsstring>()</argsstring>
+        <name>SetData</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::SetData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="51" column="22" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="51" bodyend="55"/>
+        <references refid="structnn_1_1os_1_1_thread_1_1_type_info_1a7721238f8f693d9da2ce01b5dc5a1fff" compoundref="os___thread_8h" startline="44">size</references>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_thread_1_1_type_info_1a2d28f7ab6794cbc008de3a132a5152f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void nn::os::Thread::TypeInfo::Copy</definition>
+        <argsstring>(const void *src, void *dst)</argsstring>
+        <name>Copy</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::Copy</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="58" column="22" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_thread_1_1_type_info_1a1f577447b4692cf9acc0eeb2bb73cb7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void nn::os::Thread::TypeInfo::Destroy</definition>
+        <argsstring>(void *p)</argsstring>
+        <name>Destroy</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::Destroy</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="61" column="22" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_thread_1_1_type_info_1a2452b05b3d11d55643e6d9847603e044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void nn::os::Thread::TypeInfo::Invoke</definition>
+        <argsstring>(ThreadFunc f, const void *p)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>nn::os::Thread::TypeInfo::Invoke</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1a781614a965290f0b400b7ca587e5a612" kindref="member">ThreadFunc</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="64" column="22" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="43" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="43" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1a68e550d77f9e41eba615d0ad321a78c1" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>copy</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1a2d28f7ab6794cbc008de3a132a5152f8" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>Copy</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1abfcc339084a1c147ab9848a70e346525" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>destroy</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1a1f577447b4692cf9acc0eeb2bb73cb7f" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>Destroy</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1add895c12b91416b7b8be24705d874da3" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>invoke</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1a2452b05b3d11d55643e6d9847603e044" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>Invoke</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1a5badf69ad7025dfce8e1b6aef1bfd8ca" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>SetData</name></member>
+      <member refid="structnn_1_1os_1_1_thread_1_1_type_info_1a7721238f8f693d9da2ce01b5dc5a1fff" prot="public" virt="non-virtual"><scope>nn::os::Thread::TypeInfo</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

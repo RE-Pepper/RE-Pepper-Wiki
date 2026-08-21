@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File ProductSequence.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-productsequencecpp">File ProductSequence.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_47d28cd3eb946f860e1fe0f4e720b9c2/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_c3e5e32485410daab5e4633456b74fa1/"><strong>Sequence</strong></a> <strong>&gt;</strong> <a href="../_product_sequence_8cpp/"><strong>ProductSequence.cpp</strong></a></p>
+<p><a href="../_product_sequence_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &quot;Sequence/ProductSequence.h&quot;
+
+#include &lt;Nerve/alNerve.h&gt;
+#include &lt;Nerve/alNerveFunction.h&gt;
+
+#include &quot;Sequence/ProductStateCourseSelect.h&quot;
+#include &quot;Sequence/ProductStateStage.h&quot;
+
+namespace NrvProductSequence
+{
+
+NERVE_DEF( ProductSequence, Title )
+NERVE_DEF( ProductSequence, Opening )
+NERVE_DEF( ProductSequence, CourseSelect )
+NERVE_DEF( ProductSequence, Stage )
+NERVE_DEF( ProductSequence, KinopioHouse )
+NERVE_DEF( ProductSequence, MysteryBox )
+NERVE_DEF( ProductSequence, Ending )
+NERVE_DEF( ProductSequence, GameOverRoom )
+NERVE_DEF( ProductSequence, Unk1 )
+
+} // namespace NrvProductSequence
+
+ProductSequence::ProductSequence( const char* name )
+    : Sequence( name ), mStageStartParam( nullptr ), _14C( nullptr ), _150( nullptr ), mWipeKeeper( nullptr ),
+      _158( nullptr ), _15C( nullptr ), mStateTitle( nullptr ), mStateOpening( nullptr ),
+      mStateCourseSelect( nullptr ), mStateStage( nullptr ), mStateKinopioHouse( nullptr ),
+      mStateMysteryBox( nullptr ), mStateEnding( nullptr ), mStateGameOverRoom( nullptr ), _180( nullptr ),
+      _184( nullptr ), _188( nullptr ), _18C( nullptr ), _190( nullptr )
+{
+}
+
+#ifdef NON_MATCHING
+void ProductSequence::init()
+{
+} // needed for vtable
+
+#endif
+
+extern &quot;C&quot; bool fn_0025ba7c( const char* );
+
+void ProductSequence::exeTitle()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                if ( fn_0025ba7c( &quot;オープニング実行&quot; ) )
+                        al::setNerve( this, &amp;NrvProductSequence::CourseSelect );
+                else
+                        al::setNerve( this, &amp;NrvProductSequence::Opening );
+        }
+}
+
+void ProductSequence::exeOpening()
+{
+        if ( al::updateNerveState( this ) )
+                al::setNerve( this, &amp;NrvProductSequence::CourseSelect );
+}
+
+void ProductSequence::exeKinopioHouse()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                mStateCourseSelect-&gt;set_10( 4 );
+                al::setNerve( this, &amp;NrvProductSequence::CourseSelect );
+        }
+}
+
+extern &quot;C&quot; bool fn_0025ddd0();
+
+void ProductSequence::exeEnding()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                if ( fn_0025ddd0() )
+                        al::setNerve( this, &amp;NrvProductSequence::Unk1 );
+                else
+                        al::setNerve( this, &amp;NrvProductSequence::Title );
+        }
+}
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

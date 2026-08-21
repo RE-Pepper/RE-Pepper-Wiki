@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fnd_1_1_interlocked_variable" kind="class" language="C++" prot="public">
+    <compoundname>nn::fnd::InterlockedVariable</compoundname>
+    <includes refid="fnd___interlocked_8h" local="no">fnd_Interlocked.h</includes>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_assign_func" prot="private">nn::fnd::InterlockedVariable::AssignFunc</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func" prot="private">nn::fnd::InterlockedVariable::CompareAndSwapFunc</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_pre_dec_func" prot="private">nn::fnd::InterlockedVariable::PreDecFunc</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_pre_inc_func" prot="private">nn::fnd::InterlockedVariable::PreIncFunc</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter" prot="private">nn::fnd::InterlockedVariable::StorageSelecter</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_e2e20537f2f0fa12900c68ab9decfa2d" prot="private">nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s16)&gt;::type &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_4ae8a05688f1ec9673d234767bc7c03e" prot="private">nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s32)&gt;::type &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_67ee59107becb461cbc110354cf5c0d6" prot="private">nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s64)&gt;::type &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_1bf0fe5a2a52c8868dac56ec5c0a1be8" prot="private">nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s8)&gt;::type &gt;</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1fnd_1_1_interlocked_variable_1ac9b97a96b5090cd429e9c44eac8bc004" prot="private" static="no" mutable="no">
+        <type>volatile T</type>
+        <definition>volatile T nn::fnd::InterlockedVariable&lt; T &gt;::m_v</definition>
+        <argsstring></argsstring>
+        <name>m_v</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::m_v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="87" column="20" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1aeaec966dcc81839e9b2e954f1bb92958" compoundref="fnd___interlocked_8h" startline="92" endline="92">nn::fnd::InterlockedVariable&lt; s16 &gt;::operator s16</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1af747d69dbcd376d479a49bdcae3505c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::InterlockedVariable&lt; T &gt;::InterlockedVariable</definition>
+        <argsstring>()</argsstring>
+        <name>InterlockedVariable</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::InterlockedVariable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="90" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1aeaec966dcc81839e9b2e954f1bb92958" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::InterlockedVariable&lt; T &gt;::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="92" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1a8f4b58ec723aa70a4d275e3a74b72183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void nn::fnd::InterlockedVariable&lt; T &gt;::operator=</definition>
+        <argsstring>(U value)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::operator=</qualifiedname>
+        <param>
+          <type>U</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="95" column="14" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="95" bodyend="99"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1a52378b04de41024ba59613a63386e0ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fnd::InterlockedVariable&lt; T &gt;::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="101" column="14" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="101" bodyend="105"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1add9e1d13bdef195fbb1b1779e62e0b8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fnd::InterlockedVariable&lt; T &gt;::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::operator--</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="106" column="14" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="106" bodyend="110"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwap</definition>
+        <argsstring>(T comprand, T value)</argsstring>
+        <name>CompareAndSwap</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::CompareAndSwap</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>comprand</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="112" column="11" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="112" bodyend="117"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</references>
+        <references refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a1b8577d0a367829a0889300a15ee1737" compoundref="fnd___interlocked_8h" startline="71">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_result</references>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" compoundref="os___light_event_8cpp" startline="8" endline="15">nn::os::LightEvent::TryWait</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">nn::os::LightEvent::Wait</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename UpdateFunc</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</definition>
+        <argsstring>(UpdateFunc &amp;func)</argsstring>
+        <name>AtomicUpdateConditional</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::AtomicUpdateConditional</qualifiedname>
+        <param>
+          <type>UpdateFunc &amp;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="120" column="14" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="120" bodyend="123"/>
+        <references refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1a4c71dc52cde716eb755d38a8514f6160" compoundref="_a_r_mv6_2fnd___interlocked_8h" startline="73" endline="103">nn::fnd::ARMv6::Interlocked::AtomicUpdate</references>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1ac9b97a96b5090cd429e9c44eac8bc004" compoundref="fnd___interlocked_8h" startline="87">nn::fnd::InterlockedVariable&lt; T &gt;::m_v</references>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" compoundref="fnd___interlocked_8h" startline="112" endline="117">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwap</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">nn::os::CriticalSection::Leave</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1a52378b04de41024ba59613a63386e0ce" compoundref="fnd___interlocked_8h" startline="101" endline="105">nn::fnd::InterlockedVariable&lt; T &gt;::operator++</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1add9e1d13bdef195fbb1b1779e62e0b8c" compoundref="fnd___interlocked_8h" startline="106" endline="110">nn::fnd::InterlockedVariable&lt; T &gt;::operator--</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1a8f4b58ec723aa70a4d275e3a74b72183" compoundref="fnd___interlocked_8h" startline="95" endline="99">nn::fnd::InterlockedVariable&lt; T &gt;::operator=</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_semaphore_1a890808c55121c58a5b3e5e7324b91a98" compoundref="os___light_semaphore_8h" startline="83" endline="87">nn::os::LightSemaphore::TryAcquire</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">nn::os::CriticalSection::TryEnterImpl</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::fnd::InterlockedVariable&lt; s16 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; s16 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+    </inheritancegraph>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="9" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="10" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>AtomicUpdateConditional</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>CompareAndSwap</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1af747d69dbcd376d479a49bdcae3505c0" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>InterlockedVariable</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1ac9b97a96b5090cd429e9c44eac8bc004" prot="private" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>m_v</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1aeaec966dcc81839e9b2e954f1bb92958" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>operator T</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1a52378b04de41024ba59613a63386e0ce" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>operator++</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1add9e1d13bdef195fbb1b1779e62e0b8c" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>operator--</name></member>
+      <member refid="classnn_1_1fnd_1_1_interlocked_variable_1a8f4b58ec723aa70a4d275e3a74b72183" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable</scope><name>operator=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

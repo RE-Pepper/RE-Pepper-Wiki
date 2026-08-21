@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___critical_section_8cpp" kind="file" language="C++">
+    <compoundname>os_CriticalSection.cpp</compoundname>
+    <includes refid="os___critical_section_8h" local="no">nn/os/os_CriticalSection.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="4">
+        <label>nn/WithInitialize.h</label>
+        <link refid="_with_initialize_8h"/>
+      </node>
+      <node id="15">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="17">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="8">
+        <label>nn/fnd/ARMv6/fnd_Interlocked.h</label>
+        <link refid="_a_r_mv6_2fnd___interlocked_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn/fnd/fnd_Interlocked.h</label>
+        <link refid="fnd___interlocked_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/os/os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="13">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/os/os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>nn/util/util_NonCopyable.h</label>
+        <link refid="util___non_copyable_8h"/>
+      </node>
+      <node id="9">
+        <label>nn/util/util_TypeTraits.h</label>
+        <link refid="util___type_traits_8h"/>
+      </node>
+      <node id="1">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___critical_section_8h" kindref="compound">nn/os/os_CriticalSection.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" kindref="member">CriticalSection::EnterImpl</ref><sp/>()</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*<ref refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" kindref="member">m_Counter</ref><sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/><ref refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" kindref="member">TryEnterImpl</ref><sp/>())<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" kindref="member">m_Counter</ref>.<ref refid="classnn_1_1os_1_1_waitable_counter_1a625f4246fc31c32b29485f28902dd4d9" kindref="member">DecrementAndWaitIfLessThan</ref><sp/>(0);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/os/os_CriticalSection.cpp"/>
+  </compounddef>
+</doxygen>

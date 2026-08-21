@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fnd::detail::NNSFndList</compoundname>
+    <includes refid="fnd___detail_heap_head_8h" local="no">fnd_DetailHeapHead.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1af71746a41657ccf57cd68a8ef2a3e373" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* nn::fnd::detail::NNSFndList::headObject</definition>
+        <argsstring></argsstring>
+        <name>headObject</name>
+        <qualifiedname>nn::fnd::detail::NNSFndList::headObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="16" column="14" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ac1086dc7b5cd9a92689b941e98b890dd" compoundref="fnd___detail_list_8cpp" startline="32" endline="39">nn::fnd::detail::GetNextListObject</referencedby>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" compoundref="fnd___detail_list_8cpp" startline="11" endline="30">nn::fnd::detail::RemoveListObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a6c6f2fad19f54bbe71dc58a000b9d284" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* nn::fnd::detail::NNSFndList::tailObject</definition>
+        <argsstring></argsstring>
+        <name>tailObject</name>
+        <qualifiedname>nn::fnd::detail::NNSFndList::tailObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="17" column="14" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" compoundref="fnd___detail_list_8cpp" startline="11" endline="30">nn::fnd::detail::RemoveListObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1ae5d3d9afe2d2edca68662b3c449145ad" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::fnd::detail::NNSFndList::numObjects</definition>
+        <argsstring></argsstring>
+        <name>numObjects</name>
+        <qualifiedname>nn::fnd::detail::NNSFndList::numObjects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="18" column="15" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" compoundref="fnd___detail_list_8cpp" startline="11" endline="30">nn::fnd::detail::RemoveListObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a2a9d241555649649e2fca26c41f85f3e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::fnd::detail::NNSFndList::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>nn::fnd::detail::NNSFndList::offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="19" column="15" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1ac1086dc7b5cd9a92689b941e98b890dd" compoundref="fnd___detail_list_8cpp" startline="32" endline="39">nn::fnd::detail::GetNextListObject</referencedby>
+        <referencedby refid="namespacenn_1_1fnd_1_1detail_1a801cc3177bfbc5ff30d31d6571500981" compoundref="fnd___detail_list_8cpp" startline="11" endline="30">nn::fnd::detail::RemoveListObject</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="14" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1af71746a41657ccf57cd68a8ef2a3e373" prot="public" virt="non-virtual"><scope>nn::fnd::detail::NNSFndList</scope><name>headObject</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1ae5d3d9afe2d2edca68662b3c449145ad" prot="public" virt="non-virtual"><scope>nn::fnd::detail::NNSFndList</scope><name>numObjects</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a2a9d241555649649e2fca26c41f85f3e" prot="public" virt="non-virtual"><scope>nn::fnd::detail::NNSFndList</scope><name>offset</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a6c6f2fad19f54bbe71dc58a000b9d284" prot="public" virt="non-virtual"><scope>nn::fnd::detail::NNSFndList</scope><name>tailObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dbg___break_8h" kind="file" language="C++">
+    <compoundname>dbg_Break.h</compoundname>
+    <includes refid="_result_8h" local="no">nn/Result.h</includes>
+    <includes refid="dbg___enum_8h" local="no">nn/dbg/dbg_Enum.h</includes>
+    <includedby refid="assert_8h" local="no">assert.h</includedby>
+    <includedby refid="dbg___break_8cpp" local="no">dbg_Break.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="1">
+        <label>dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+      </node>
+      <node id="6">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>fs_FileBase.h</label>
+        <link refid="fs___file_base_8h"/>
+      </node>
+      <node id="17">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="12">
+        <label>os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>os_LightSemaphore.h</label>
+        <link refid="os___light_semaphore_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>dbg_Break.cpp</label>
+        <link refid="dbg___break_8cpp"/>
+      </node>
+      <node id="3">
+        <label>fnd_DetailHeap.cpp</label>
+        <link refid="fnd___detail_heap_8cpp"/>
+      </node>
+      <node id="4">
+        <label>fnd_DetailHeapCommon.cpp</label>
+        <link refid="fnd___detail_heap_common_8cpp"/>
+      </node>
+      <node id="5">
+        <label>fnd_DetailList.cpp</label>
+        <link refid="fnd___detail_list_8cpp"/>
+      </node>
+      <node id="10">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="13">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+      </node>
+      <node id="22">
+        <label>os_LightSemaphore.cpp</label>
+        <link refid="os___light_semaphore_8cpp"/>
+      </node>
+      <node id="19">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="21">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="24">
+        <label>os_ThreadLocalStorage.cpp</label>
+        <link refid="os___thread_local_storage_8cpp"/>
+      </node>
+      <node id="25">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+      </node>
+      <node id="26">
+        <label>rvct_stdio.cpp</label>
+        <link refid="rvct__stdio_8cpp"/>
+      </node>
+      <node id="8">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1dbg">nn::dbg</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dbg___break_8h_1a102130592aff86543eb20014a6de3704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+        <definition>nnResult nndbgBreak</definition>
+        <argsstring>(nndbgBreakReason reason)</argsstring>
+        <name>nndbgBreak</name>
+        <param>
+          <type><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></type>
+          <declname>reason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h" line="10" column="10" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_Break.cpp" bodystart="43" bodyend="46" declfile="lib/CtrSDK/include/nn/dbg/dbg_Break.h" declline="10" declcolumn="10"/>
+        <references refid="namespacenn_1_1dbg_1a44a58d78e747d0d78f126ebc18ba09e5" compoundref="dbg___break_8h" startline="29" endline="32">nn::dbg::Break</references>
+        <referencedby refid="dbg___break_8h_1a407512a2625ec62a96ad591140df9960" compoundref="dbg___break_8cpp" startline="53" endline="62">nndbgBreakWithMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1a82e501daa3c0cd1a30cd0066460e4c2a" compoundref="dbg___break_8cpp" startline="75" endline="85">nndbgBreakWithResultMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1a1f46334bf22cfde6609bcaa2509d61f8" compoundref="dbg___break_8cpp" startline="87" endline="97">nndbgBreakWithResultTMessage_</referencedby>
+        <referencedby refid="dbg___break_8h_1acd051d28735e4ec5b9f246d41aea933c" compoundref="dbg___break_8cpp" startline="64" endline="73">nndbgBreakWithTMessage_</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dbg___break_8h_1a21ed9975eba5f08c17444b4620fc793e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgPanic</definition>
+        <argsstring>()</argsstring>
+        <name>nndbgPanic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h" line="11" column="10" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_Break.cpp" bodystart="48" bodyend="51" declfile="lib/CtrSDK/include/nn/dbg/dbg_Break.h" declline="11" declcolumn="10"/>
+        <references refid="namespacenn_1_1dbg_1abcea388e50028c2f9b5c5f1edb684ca3" compoundref="dbg___break_8cpp" startline="33" endline="36">nn::dbg::Panic</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___break_8h_1a407512a2625ec62a96ad591140df9960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgBreakWithMessage_</definition>
+        <argsstring>(nndbgBreakReason reason, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nndbgBreakWithMessage_</name>
+        <param>
+          <type><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></type>
+          <declname>reason</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h" line="12" column="10" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_Break.cpp" bodystart="53" bodyend="62" declfile="lib/CtrSDK/include/nn/dbg/dbg_Break.h" declline="12" declcolumn="10"/>
+        <references refid="dbg___break_8cpp_1a102130592aff86543eb20014a6de3704" compoundref="dbg___break_8cpp" startline="43" endline="46">nndbgBreak</references>
+        <references refid="namespacenn_1_1dbg_1ace1e1f9486c3aa968a623f616ef386b6" compoundref="dbg___break_8cpp" startline="18" endline="26">nn::dbg::PrintErrorMessageHeader</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" compoundref="dbg___debug_string_8cpp" startline="25" endline="34">nn::dbg::detail::VPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___break_8h_1acd051d28735e4ec5b9f246d41aea933c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgBreakWithTMessage_</definition>
+        <argsstring>(nndbgBreakReason reason, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nndbgBreakWithTMessage_</name>
+        <param>
+          <type><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></type>
+          <declname>reason</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h" line="13" column="10" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_Break.cpp" bodystart="64" bodyend="73" declfile="lib/CtrSDK/include/nn/dbg/dbg_Break.h" declline="13" declcolumn="10"/>
+        <references refid="dbg___break_8cpp_1a102130592aff86543eb20014a6de3704" compoundref="dbg___break_8cpp" startline="43" endline="46">nndbgBreak</references>
+        <references refid="namespacenn_1_1dbg_1ace1e1f9486c3aa968a623f616ef386b6" compoundref="dbg___break_8cpp" startline="18" endline="26">nn::dbg::PrintErrorMessageHeader</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" compoundref="dbg___debug_string_8cpp" startline="36" endline="45">nn::dbg::detail::TVPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___break_8h_1a82e501daa3c0cd1a30cd0066460e4c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgBreakWithResultMessage_</definition>
+        <argsstring>(nndbgBreakReason reason, nnResult result, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nndbgBreakWithResultMessage_</name>
+        <param>
+          <type><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></type>
+          <declname>reason</declname>
+        </param>
+        <param>
+          <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h" line="14" column="10" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_Break.cpp" bodystart="75" bodyend="85" declfile="lib/CtrSDK/include/nn/dbg/dbg_Break.h" declline="14" declcolumn="10"/>
+        <references refid="dbg___break_8cpp_1a102130592aff86543eb20014a6de3704" compoundref="dbg___break_8cpp" startline="43" endline="46">nndbgBreak</references>
+        <references refid="namespacenn_1_1dbg_1ace1e1f9486c3aa968a623f616ef386b6" compoundref="dbg___break_8cpp" startline="18" endline="26">nn::dbg::PrintErrorMessageHeader</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a49330576377ac155d131d4a743a184da" compoundref="dbg___print_result_8cpp" startline="374" endline="381">nn::dbg::detail::PrintResult</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a7690b6addd6ab729d332c8337dfcd43f" compoundref="dbg___debug_string_8cpp" startline="25" endline="34">nn::dbg::detail::VPrintf</references>
+      </memberdef>
+      <memberdef kind="function" id="dbg___break_8h_1a1f46334bf22cfde6609bcaa2509d61f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nndbgBreakWithResultTMessage_</definition>
+        <argsstring>(nndbgBreakReason reason, nnResult result, const char *filename, int lineno, const char *fmt,...)</argsstring>
+        <name>nndbgBreakWithResultTMessage_</name>
+        <param>
+          <type><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></type>
+          <declname>reason</declname>
+        </param>
+        <param>
+          <type><ref refid="structnn_result" kindref="compound">nnResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h" line="15" column="10" bodyfile="lib/CtrSDK/sources/libraries/dbg/dbg_Break.cpp" bodystart="87" bodyend="97" declfile="lib/CtrSDK/include/nn/dbg/dbg_Break.h" declline="15" declcolumn="10"/>
+        <references refid="dbg___break_8cpp_1a102130592aff86543eb20014a6de3704" compoundref="dbg___break_8cpp" startline="43" endline="46">nndbgBreak</references>
+        <references refid="namespacenn_1_1dbg_1ace1e1f9486c3aa968a623f616ef386b6" compoundref="dbg___break_8cpp" startline="18" endline="26">nn::dbg::PrintErrorMessageHeader</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1a6ade2474a178fd5b8ed8f86c00d922be" compoundref="dbg___debug_string_8cpp" startline="55" endline="61">nn::dbg::detail::TPrintf</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1ad05352a2c3d5482d52fef4e1ffe5e9c9" compoundref="dbg___print_result_8cpp" startline="366" endline="373">nn::dbg::detail::TPrintResult</references>
+        <references refid="namespacenn_1_1dbg_1_1detail_1ae19fd610dda582333555688749a3ceb7" compoundref="dbg___debug_string_8cpp" startline="36" endline="45">nn::dbg::detail::TVPrintf</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_result_8h" kindref="compound">nn/Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="dbg___enum_8h" kindref="compound">nn/dbg/dbg_Enum.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="structnn_result" kindref="compound">nnResult</ref><sp/><ref refid="dbg___break_8h_1a102130592aff86543eb20014a6de3704" kindref="member">nndbgBreak</ref>(<ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref><sp/>reason);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___break_8h_1a21ed9975eba5f08c17444b4620fc793e" kindref="member">nndbgPanic</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___break_8h_1a407512a2625ec62a96ad591140df9960" kindref="member">nndbgBreakWithMessage_</ref>(<ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref><sp/>reason,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___break_8h_1acd051d28735e4ec5b9f246d41aea933c" kindref="member">nndbgBreakWithTMessage_</ref>(<ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref><sp/>reason,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___break_8h_1a82e501daa3c0cd1a30cd0066460e4c2a" kindref="member">nndbgBreakWithResultMessage_</ref>(<ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref><sp/>reason,<sp/><ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___break_8h_1a1f46334bf22cfde6609bcaa2509d61f8" kindref="member">nndbgBreakWithResultTMessage_</ref>(<ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref><sp/>reason,<sp/><ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="namespacenn_1_1dbg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">dbg<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespacenn_1_1dbg_1a320bd0f35cebb74bf927e6565d488a99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="namespacenn_1_1dbg_1a320bd0f35cebb74bf927e6565d488a99" kindref="member">BreakHandler</ref>)(<ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" kindref="member">BreakReason</ref><sp/>reason,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref>*<sp/>pResult,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>message,<sp/>va_list<sp/>vlist);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1dbg_1a44a58d78e747d0d78f126ebc18ba09e5" kindref="member">Break</ref>(<ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" kindref="member">BreakReason</ref><sp/>reason);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1abcea388e50028c2f9b5c5f1edb684ca3" kindref="member">Panic</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="namespacenn_1_1dbg_1a44a58d78e747d0d78f126ebc18ba09e5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1dbg_1a44a58d78e747d0d78f126ebc18ba09e5" kindref="member">Break</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1a44a58d78e747d0d78f126ebc18ba09e5" kindref="member">Break</ref>(<ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a37179e6bd63d0b60c02062be70881a21" kindref="member">BREAK_REASON_PANIC</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>dbg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/dbg/dbg_Break.h"/>
+  </compounddef>
+</doxygen>

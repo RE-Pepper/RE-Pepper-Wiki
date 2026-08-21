@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::CTR::DataContentArchivePath</compoundname>
+    <includes refid="fs___archive_types_8h" local="no">fs_ArchiveTypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1a110fe5da1cc132340afe66763f634989" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacenn_1_1fs_1a042b347b224d89b5e7c339e26a64d86b" kindref="member">TitleId</ref></type>
+        <definition>TitleId nn::fs::CTR::DataContentArchivePath::titleId</definition>
+        <argsstring></argsstring>
+        <name>titleId</name>
+        <qualifiedname>nn::fs::CTR::DataContentArchivePath::titleId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="13" column="37" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ad0cc0f55e6dddb2ac4054258e2f03da6" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4</ref>&lt; <ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref> &gt;</type>
+        <definition>util::SizedEnum4&lt;MediaType&gt; nn::fs::CTR::DataContentArchivePath::mediaType</definition>
+        <argsstring></argsstring>
+        <name>mediaType</name>
+        <qualifiedname>nn::fs::CTR::DataContentArchivePath::mediaType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="14" column="26" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ac2d32f5de484ddd04e614097808972d0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref></type>
+        <definition>ContentIdx nn::fs::CTR::DataContentArchivePath::contentIdx</definition>
+        <argsstring></argsstring>
+        <name>contentIdx</name>
+        <qualifiedname>nn::fs::CTR::DataContentArchivePath::contentIdx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="15" column="37" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::SizedEnum4&lt; MediaType &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::DataContentArchivePath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mediaType</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+      <node id="4">
+        <label>nn::util::SizedEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" bodystart="12" bodyend="16"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ac2d32f5de484ddd04e614097808972d0" prot="public" virt="non-virtual"><scope>nn::fs::CTR::DataContentArchivePath</scope><name>contentIdx</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ad0cc0f55e6dddb2ac4054258e2f03da6" prot="public" virt="non-virtual"><scope>nn::fs::CTR::DataContentArchivePath</scope><name>mediaType</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1a110fe5da1cc132340afe66763f634989" prot="public" virt="non-virtual"><scope>nn::fs::CTR::DataContentArchivePath</scope><name>titleId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

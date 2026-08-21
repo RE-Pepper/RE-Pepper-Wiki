@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___cpp_exception_8cpp" kind="file" language="C++">
+    <compoundname>os_CppException.cpp</compoundname>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">exception</includes>
+    <includes refid="os___cpp_exception_8h" local="no">nn/os/CTR/os_CppException.h</includes>
+    <includes refid="os___thread_local_region_8h" local="no">nn/os/CTR/os_ThreadLocalRegion.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>nn/os/CTR/os_CppException.h</label>
+        <link refid="os___cpp_exception_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/os/CTR/os_ThreadLocalRegion.h</label>
+        <link refid="os___thread_local_region_8h"/>
+      </node>
+      <node id="1">
+        <label>os_CppException.cpp</label>
+        <link refid="os___cpp_exception_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdlib</label>
+      </node>
+      <node id="3">
+        <label>exception</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r">nn::os::CTR</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1a2e8197534b95a67a266922928e76ec09" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t uncaughtExceptions</definition>
+        <argsstring></argsstring>
+        <name>uncaughtExceptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="19" column="33" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1ab89bc930bbac53124da9eddc7f88e1ea" prot="public" static="no" mutable="no">
+        <type>std::unexpected_handler</type>
+        <definition>std::unexpected_handler unexpectedHandler</definition>
+        <argsstring></argsstring>
+        <name>unexpectedHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="20" column="33" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1aa008adce708e12c1c96e223a842fe8d4" prot="public" static="no" mutable="no">
+        <type>std::terminate_handler</type>
+        <definition>std::terminate_handler terminateHandler</definition>
+        <argsstring></argsstring>
+        <name>terminateHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="21" column="33" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1ad1b7ec9882ee24c4db05ab4cb3cf5b82" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool implementation_ever_called_terminate</definition>
+        <argsstring></argsstring>
+        <name>implementation_ever_called_terminate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="22" column="33" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1a1a66b12361fa45e93db784d007e93990" prot="public" static="no" mutable="no">
+        <type>handler</type>
+        <definition>handler call_hook</definition>
+        <argsstring></argsstring>
+        <name>call_hook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="23" column="33" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1a675dbbbcc0614566c8792c2a051fa2c7" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* caughtExceptions</definition>
+        <argsstring></argsstring>
+        <name>caughtExceptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="24" column="32" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1ad871ebc90945088d0f442627214df9ef" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* propagatingExceptions</definition>
+        <argsstring></argsstring>
+        <name>propagatingExceptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="25" column="32" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os___cpp_exception_8cpp_1a2a3825ab179e5e4b37f20713087c5ca1" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* emergency_buffer</definition>
+        <argsstring></argsstring>
+        <name>emergency_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="26" column="32" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;cstdlib&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___cpp_exception_8h" kindref="compound">nn/os/CTR/os_CppException.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___thread_local_region_8h" kindref="compound">nn/os/CTR/os_ThreadLocalRegion.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>__weak<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>__ARM_exceptions_buffer_required(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>__ARM_exceptions_buffer_init(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*handler)();<sp/></highlight><highlight class="comment">//<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">__cxa_eh_globals</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="os___cpp_exception_8cpp_1a2e8197534b95a67a266922928e76ec09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___cpp_exception_8cpp_1a2e8197534b95a67a266922928e76ec09" kindref="member">uncaughtExceptions</ref>;</highlight></codeline>
+<codeline lineno="20" refid="os___cpp_exception_8cpp_1ab89bc930bbac53124da9eddc7f88e1ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unexpected_handler<sp/><ref refid="os___cpp_exception_8cpp_1ab89bc930bbac53124da9eddc7f88e1ea" kindref="member">unexpectedHandler</ref>;</highlight></codeline>
+<codeline lineno="21" refid="os___cpp_exception_8cpp_1aa008adce708e12c1c96e223a842fe8d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::terminate_handler<sp/><sp/><ref refid="os___cpp_exception_8cpp_1aa008adce708e12c1c96e223a842fe8d4" kindref="member">terminateHandler</ref>;</highlight></codeline>
+<codeline lineno="22" refid="os___cpp_exception_8cpp_1ad1b7ec9882ee24c4db05ab4cb3cf5b82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___cpp_exception_8cpp_1ad1b7ec9882ee24c4db05ab4cb3cf5b82" kindref="member">implementation_ever_called_terminate</ref>;</highlight></codeline>
+<codeline lineno="23" refid="os___cpp_exception_8cpp_1a1a66b12361fa45e93db784d007e93990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>handler<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___cpp_exception_8cpp_1a1a66b12361fa45e93db784d007e93990" kindref="member">call_hook</ref>;</highlight></codeline>
+<codeline lineno="24" refid="os___cpp_exception_8cpp_1a675dbbbcc0614566c8792c2a051fa2c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___cpp_exception_8cpp_1a675dbbbcc0614566c8792c2a051fa2c7" kindref="member">caughtExceptions</ref>;</highlight></codeline>
+<codeline lineno="25" refid="os___cpp_exception_8cpp_1ad871ebc90945088d0f442627214df9ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___cpp_exception_8cpp_1ad871ebc90945088d0f442627214df9ef" kindref="member">propagatingExceptions</ref>;</highlight></codeline>
+<codeline lineno="26" refid="os___cpp_exception_8cpp_1a2a3825ab179e5e4b37f20713087c5ca1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___cpp_exception_8cpp_1a2a3825ab179e5e4b37f20713087c5ca1" kindref="member">emergency_buffer</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsArmExceptionsBufferNotRequired()<sp/></highlight><highlight class="comment">//<sp/>44</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;__ARM_exceptions_buffer_required<sp/>==<sp/>NULL;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespacenn_1_1os_1_1_c_t_r_1a35b0b9d1425424dcef60617816edd676" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1a35b0b9d1425424dcef60617816edd676" kindref="member">force_func_section</ref>(_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f23DefaultTerminateHandlerEv)<sp/>DefaultTerminateHandler()<sp/></highlight><highlight class="comment">//<sp/>49</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::abort();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="namespacenn_1_1os_1_1_c_t_r_1ab84b98bfbc763f89312a9c928746d0cd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1a35b0b9d1425424dcef60617816edd676" kindref="member">force_func_section</ref>(_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f24DefaultUnexpectedHandlerEv)<sp/>DefaultUnexpectedHandler()<sp/></highlight><highlight class="comment">//<sp/>53</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::terminate();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" kindref="member">SetupThreadCppExceptionEnvironment</ref>()<sp/></highlight><highlight class="comment">//<sp/>60</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kindref="compound">ThreadLocalRegion</ref>*<sp/>pTlr<sp/>=<sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" kindref="member">GetThreadLocalRegion</ref>();<sp/></highlight><highlight class="comment">//<sp/>62</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pTlr-&gt;<ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" kindref="member">ehGlobalsAddr</ref><sp/>=<sp/>pTlr-&gt;<ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" kindref="member">ehGlobals</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>DWARF<sp/>and<sp/>assembly<sp/>show<sp/>ehGlobals<sp/>is<sp/>at<sp/>an<sp/>offset<sp/>within<sp/>TLR<sp/>(likely<sp/>0x60)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__cxa_eh_globals&amp;<sp/>ceg<sp/>=<sp/>*</highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal">__cxa_eh_globals*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(pTlr-&gt;<ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" kindref="member">ehGlobals</ref>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.uncaughtExceptions<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.unexpectedHandler<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>DefaultUnexpectedHandler;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.terminateHandler<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>DefaultTerminateHandler;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.implementation_ever_called_terminate<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.call_hook<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.caughtExceptions<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.propagatingExceptions<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ceg.emergency_buffer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>IsArmExceptionsBufferNotRequired()<sp/>?<sp/>NULL<sp/>:<sp/>__ARM_exceptions_buffer_init();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp"/>
+  </compounddef>
+</doxygen>

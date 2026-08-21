@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::DebugParamCfgData::Param1</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1_1a290efbad4828ae804dbfb5c324e75ac5" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::DebugParamCfgData::Param1::general</definition>
+        <argsstring></argsstring>
+        <name>general</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::Param1::general</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="335" column="20" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1_1a8c4d37a4fb20da8cbfb3adf86d8f4e39" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::DebugParamCfgData::Param1::rsv</definition>
+        <argsstring></argsstring>
+        <name>rsv</name>
+        <qualifiedname>nn::cfg::CTR::detail::DebugParamCfgData::Param1::rsv</qualifiedname>
+        <bitfield> 7</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="336" column="20" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="333" column="9" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="334" bodyend="337"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1_1a290efbad4828ae804dbfb5c324e75ac5" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData::Param1</scope><name>general</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_debug_param_cfg_data_1_1_param1_1a8c4d37a4fb20da8cbfb3adf86d8f4e39" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::DebugParamCfgData::Param1</scope><name>rsv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

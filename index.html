@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>RE:Pepper Project - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="repepper-project">RE:Pepper Project</h1>
+<p><img alt="Code" src="https://img.shields.io/endpoint?url=https://_github.moddi.dev/RE-Pepper/RE-Pepper/releases/download/stats-eu/Code.json&amp;style=flat-square" />
+<img alt="OK" src="https://img.shields.io/endpoint?url=https://_github.moddi.dev/RE-Pepper/RE-Pepper/releases/download/stats-eu/OK.json&amp;style=flat-square" />
+<img alt="NonMatching" src="https://img.shields.io/endpoint?url=https://_github.moddi.dev/RedPepperDec/RedPepper/releases/download/stats-eu/NonMatching.json&amp;style=flat-square" />
+<img alt="Total" src="https://img.shields.io/endpoint?url=https://_github.moddi.dev/RedPepperDec/RedPepper/releases/download/stats-eu/Total.json&amp;style=flat-square" /></p>
+<p>Repo: <a href="https://github.com/RE-Pepper/RE-Pepper"><strong>Github</strong></a><br />
+Discord: <a href="https://discord.gg/wK4ZKa9QXq"><strong>3DL Decomp</strong></a> | <a href="https://discord.gg/wK4ZKa9QXq"><strong>3DS Decomp</strong></a> | <a href="https://discord.gg/kjJwaTCQRe"><strong>3DL Modding (old)</strong></a> | <a href="https://discord.gg/9FEhR5kCJc"><strong>3DL Modding (new)</strong></a>  </p>
+<p>This is RE:Pepper, an abbrevation for <em>Reverse Engineering </em><a href="https://wikipedia.org/wiki/Super_Mario_3D_Land"><strong><em>Super Mario 3D Land</em></strong></a> <em>Project</em> for the <a href="https://wikipedia.org/wiki/Nintendo_3DS"><em>Nintendo 3DS</em></a>.<br />
+The focus is currently laid on the European release, but the repo has experimental multi-version support for all <a href="#versions">available versions</a>.  </p>
+<p>There are no known symbol maps for this game, however, you can use affiliated games, such as:  </p>
+<ul>
+<li>Super Mario Odyssey: Has a full function map, including private functions.</li>
+<li>Super Mario Galaxy: The game was based on SMG2, and while we dont have its symbol map, we have that of SMG1. It was put into al::</li>
+<li>Captain Toad Treasure Tracker (SW): Game is partly based on 3D World, and the Switch version provides symbols, while the direct 3DS version does not.</li>
+<li>Super Mario 3D World - Bowsers Fury (SW): It is a mix of Super Mario Odyssey and Super Mario 3D World, which came after 3DL.</li>
+<li>SEAD: explore <a href="https://debugging.games/3DS">debugging.games</a> for 3DS games with SEAD/PEAD (MK7,Nintendogs,Zelda at 3DS or Tri-Force at Unmatched/3DS)</li>
+</ul>
+<p>Note: I fixed the map for tri-force, which has sead debug. For that, msg me on discord (moddimation)<br />
+Note: RedPepper is the internal codename for Super Mario 3D Land.  </p>
+<p><img alt="Progress" src="https://github.com/RE-Pepper/RE-Pepper/releases/download/stats-eu/Progress.png" /></p>
+<h2 id="code-variants">Code Variants</h2>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Variant</th>
+<th>Started?</th>
+<th>Release Date</th>
+<th>CTR-SDK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Europe</td>
+<td>Release</td>
+<td>Yes</td>
+<td>Nov. 18 2011</td>
+<td>2.4.1.200</td>
+</tr>
+<tr>
+<td>USA</td>
+<td>Release</td>
+<td>No</td>
+<td>Nov. 13 2011</td>
+<td>2.4.1.200</td>
+</tr>
+<tr>
+<td>Japan</td>
+<td>Release</td>
+<td>No</td>
+<td>Nov. 3 2011</td>
+<td>2.4.1.200</td>
+</tr>
+<tr>
+<td>Europe</td>
+<td>Kiosk</td>
+<td>No</td>
+<td>Unknown</td>
+<td>2.4.1.200</td>
+</tr>
+<tr>
+<td>Japan</td>
+<td>Kiosk</td>
+<td>No</td>
+<td>Unknown</td>
+<td>2.4.1.200</td>
+</tr>
+<tr>
+<td>USA</td>
+<td>E3 Demo</td>
+<td>No</td>
+<td>Jun. 7 2011</td>
+<td>2.3.2.200</td>
+</tr>
+<tr>
+<td>Taiwan</td>
+<td>Release</td>
+<td>No</td>
+<td>Dec. 7 2012</td>
+<td>3.3.0.200</td>
+</tr>
+<tr>
+<td>China</td>
+<td>Release</td>
+<td>No</td>
+<td>Dec. 7 2012</td>
+<td>3.3.0.200</td>
+</tr>
+<tr>
+<td>Korea</td>
+<td>Release</td>
+<td>No</td>
+<td>Apr. 28 2012</td>
+<td>3.3.0.200</td>
+</tr>
+</tbody>
+</table>
+<h2 id="libraries">Libraries</h2>
+<ul>
+<li>AL</li>
+<li>SEAD<ul>
+<li>MessageSystem</li>
+</ul>
+</li>
+<li>NintendoWare</li>
+<li>CTR SDK</li>
+</ul>
+<h2 id="external-resources">External resources</h2>
+<ul>
+<li><a href="https://github.com/3dsdecomp/RedPepper">Original Project</a></li>
+<li><a href="https://github.com/open-ead/sead">SEAD reference from open-ead</a></li>
+<li><a href="https://github.com/stupidestmodder/sead-fork">SEAD reference from stupidestmodder</a></li>
+</ul>
+<p>~Moddimation</p>
+        <script src="search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::fs::detail::FileBaseImpl - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnfsdetailfilebaseimpl">Class nn::fs::detail::FileBaseImpl</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fs/"><strong>fs</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fs_1_1detail/"><strong>detail</strong></a> <strong>&gt;</strong> <a href="./"><strong>FileBaseImpl</strong></a></p>
+<ul>
+<li><code>#include &lt;fs_FileBase.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/">nn::util::ADLFireWall::NonCopyable</a></p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-filebaseimpl"><strong>FileBaseImpl</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-finalize"><strong>Finalize</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-tryflush"><strong>TryFlush</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-trygetsize"><strong>TryGetSize</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> * pOut) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-tryopenimpl"><strong>TryOpenImpl</strong></a> (const wchar_t * path, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a> mode) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-tryread"><strong>TryRead</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> * pOut, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a> offset, void * buffer, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-trysetsize"><strong>TrySetSize</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-trywrite"><strong>TryWrite</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> * pOut, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a> offset, const void * buffer, size_t size, bool flush) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-filebaseimpl"><strong>~FileBaseImpl</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-functions-inherited-from-nnutiladlfirewallnoncopyable">Protected Functions inherited from nn::util::ADLFireWall::NonCopyable</h2>
+<p>See <a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/">nn::util::ADLFireWall::NonCopyable</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable-12"><strong>NonCopyable</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="../structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable/#function-noncopyable"><strong>~NonCopyable</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-filebaseimpl">function FileBaseImpl</h3>
+<pre><code class="language-C++">inline nn::fs::detail::FileBaseImpl::FileBaseImpl () 
+</code></pre>
+<hr>
+
+<h3 id="function-finalize">function Finalize</h3>
+<pre><code class="language-C++">inline void nn::fs::detail::FileBaseImpl::Finalize () 
+</code></pre>
+<hr>
+
+<h3 id="function-tryflush">function TryFlush</h3>
+<pre><code class="language-C++">inline Result nn::fs::detail::FileBaseImpl::TryFlush () 
+</code></pre>
+<hr>
+
+<h3 id="function-trygetsize">function TryGetSize</h3>
+<pre><code class="language-C++">inline Result nn::fs::detail::FileBaseImpl::TryGetSize (
+    s64 * pOut
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-tryopenimpl">function TryOpenImpl</h3>
+<pre><code class="language-C++">inline Result nn::fs::detail::FileBaseImpl::TryOpenImpl (
+    const wchar_t * path,
+    bit32 mode
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-tryread">function TryRead</h3>
+<pre><code class="language-C++">inline Result nn::fs::detail::FileBaseImpl::TryRead (
+    s32 * pOut,
+    s64 offset,
+    void * buffer,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-trysetsize">function TrySetSize</h3>
+<pre><code class="language-C++">inline Result nn::fs::detail::FileBaseImpl::TrySetSize (
+    s64 size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-trywrite">function TryWrite</h3>
+<pre><code class="language-C++">inline Result nn::fs::detail::FileBaseImpl::TryWrite (
+    s32 * pOut,
+    s64 offset,
+    const void * buffer,
+    size_t size,
+    bool flush
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-filebaseimpl_1">function ~FileBaseImpl</h3>
+<pre><code class="language-C++">inline nn::fs::detail::FileBaseImpl::~FileBaseImpl () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_FileBase.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

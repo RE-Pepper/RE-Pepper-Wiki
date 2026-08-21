@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::CTR::TitleDataPath</compoundname>
+    <basecompoundref refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" prot="public" virt="non-virtual">nn::fs::CTR::ExeFsSectionNames</basecompoundref>
+    <includes refid="fs___path_names_for_system_8h" local="no">fs_PathNamesForSystem.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Tag</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::Tag</qualifiedname>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea57a3e61a4f334d8e6f863c09d72a00bb" prot="public">
+          <name>TAG_CONTENT_FILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ead26d4e1039a62e513cfd2e704ef1eb39" prot="public">
+          <name>TAG_SAVE_DATA_FILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4eacbde95ccc2b80b7ce7691e7beb7d535d" prot="public">
+          <name>TAG_LEGACY_CONTENT_FILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea45ad75c89d7e028f30d940bcef0fcd77" prot="public">
+          <name>TAG_LEGACY_SUBBANNER_FILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="58" column="9" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="59" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0587411787593c5d10a910c79f079b15" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4</ref>&lt; <ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4e" kindref="member">Tag</ref> &gt;</type>
+        <definition>util::SizedEnum4&lt;Tag&gt; nn::fs::CTR::TitleDataPath::tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="66" column="26" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0f7f7c7d63e6e2e66f969dadcc782ae8" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref></type>
+        <definition>ContentIdx nn::fs::CTR::TitleDataPath::contentIdx</definition>
+        <argsstring></argsstring>
+        <name>contentIdx</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::contentIdx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="67" column="31" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a22c6898f216d9d6f0444d67753e06d71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref></type>
+        <definition>static TitleDataPath nn::fs::CTR::TitleDataPath::MakeContentDataPath</definition>
+        <argsstring>(ContentIdx idx)</argsstring>
+        <name>MakeContentDataPath</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::MakeContentDataPath</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref></type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="69" column="30" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a91c70ea2925e6735bb6a27f6df6f2ee2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref></type>
+        <definition>static TitleDataPath nn::fs::CTR::TitleDataPath::MakeSaveDataPath</definition>
+        <argsstring>(ContentIdx idx)</argsstring>
+        <name>MakeSaveDataPath</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::MakeSaveDataPath</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref></type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="70" column="30" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1ad2e144a2ad762b3448a66554a4eecbaf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref></type>
+        <definition>static TitleDataPath nn::fs::CTR::TitleDataPath::MakeLegacyContentPath</definition>
+        <argsstring>(ContentIdx idx)</argsstring>
+        <name>MakeLegacyContentPath</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::MakeLegacyContentPath</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref></type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="71" column="30" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a8c6294a4148bb11f805581aa062a977f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref></type>
+        <definition>static TitleDataPath nn::fs::CTR::TitleDataPath::MakeLegacySubbannerPath</definition>
+        <argsstring>(ContentIdx idx)</argsstring>
+        <name>MakeLegacySubbannerPath</name>
+        <qualifiedname>nn::fs::CTR::TitleDataPath::MakeLegacySubbannerPath</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref></type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="72" column="30" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::fs::CTR::ExeFsSectionNames</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names"/>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::TitleDataPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>nn::util::SizedEnum4&lt; Tag &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="template-instance">
+          <edgelabel>&lt; Tag &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fs::CTR::ExeFsSectionNames</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names"/>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::TitleDataPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>tag</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="56" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="57" bodyend="73"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0f7f7c7d63e6e2e66f969dadcc782ae8" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>contentIdx</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a22c6898f216d9d6f0444d67753e06d71" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>MakeContentDataPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1ad2e144a2ad762b3448a66554a4eecbaf" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>MakeLegacyContentPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a8c6294a4148bb11f805581aa062a977f" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>MakeLegacySubbannerPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a91c70ea2925e6735bb6a27f6df6f2ee2" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>MakeSaveDataPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4e" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>Tag</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0587411787593c5d10a910c79f079b15" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>tag</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea57a3e61a4f334d8e6f863c09d72a00bb" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>TAG_CONTENT_FILE</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4eacbde95ccc2b80b7ce7691e7beb7d535d" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>TAG_LEGACY_CONTENT_FILE</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea45ad75c89d7e028f30d940bcef0fcd77" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>TAG_LEGACY_SUBBANNER_FILE</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ead26d4e1039a62e513cfd2e704ef1eb39" prot="public" virt="non-virtual"><scope>nn::fs::CTR::TitleDataPath</scope><name>TAG_SAVE_DATA_FILE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

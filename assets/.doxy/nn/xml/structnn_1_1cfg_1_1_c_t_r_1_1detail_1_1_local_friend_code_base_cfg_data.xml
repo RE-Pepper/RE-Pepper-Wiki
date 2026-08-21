@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data_1a33f17f63f663bc5bda5833c479f4668e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>bit64 nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData::localFriendCodeSeed</definition>
+        <argsstring></argsstring>
+        <name>localFriendCodeSeed</name>
+        <qualifiedname>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData::localFriendCodeSeed</qualifiedname>
+        <bitfield> 34</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="237" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data_1ab6e052ddef28ad7a492eee93e914cc84" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>bit64 nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData::rsv</definition>
+        <argsstring></argsstring>
+        <name>rsv</name>
+        <qualifiedname>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData::rsv</qualifiedname>
+        <bitfield> 14</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="238" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data_1a23658e1208f7642aad4a10fd00d8749c" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>bit64 nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <qualifiedname>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData::counter</qualifiedname>
+        <bitfield> 16</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="239" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="235" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="236" bodyend="240"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data_1a23658e1208f7642aad4a10fd00d8749c" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData</scope><name>counter</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data_1a33f17f63f663bc5bda5833c479f4668e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData</scope><name>localFriendCodeSeed</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_local_friend_code_base_cfg_data_1ab6e052ddef28ad7a492eee93e914cc84" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::LocalFriendCodeBaseCfgData</scope><name>rsv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

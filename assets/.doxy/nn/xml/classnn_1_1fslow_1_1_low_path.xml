@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fslow_1_1_low_path" kind="class" language="C++" prot="public">
+    <compoundname>nn::fslow::LowPath</compoundname>
+    <includes refid="fslow___path_8h" local="no">fslow_Path.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1fslow_1_1_low_path_1ae6478306d1749afa819da8ed9f8be926" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::fslow::LowPath&lt; T, V &gt;::m_PathType</definition>
+        <argsstring></argsstring>
+        <name>m_PathType</name>
+        <qualifiedname>nn::fslow::LowPath::m_PathType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="13" column="21" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1a7ad826779e4105b060dfe70dadf8b113" compoundref="fslow___path_8h" startline="38" endline="38">nn::fslow::LowPath&lt; T, V &gt;::GetPathType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1fslow_1_1_low_path_1ac607c60c4b90194db1dde26e192945f0" prot="private" static="no" mutable="no">
+        <type>const void *</type>
+        <definition>const void* nn::fslow::LowPath&lt; T, V &gt;::m_Data</definition>
+        <argsstring></argsstring>
+        <name>m_Data</name>
+        <qualifiedname>nn::fslow::LowPath::m_Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="14" column="20" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1af44ac5c98454c2983f036f863798aebc" compoundref="fslow___path_8h" startline="39" endline="39">nn::fslow::LowPath&lt; T, V &gt;::GetDataBuffer</referencedby>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1af70990bd9007ae6a704d1cdaf63c000f" compoundref="fslow___path_8h" startline="31" endline="37">nn::fslow::LowPath&lt; T, V &gt;::GetWStringRaw</referencedby>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1ad270142883e4e45a035824dbe73d1b5e" compoundref="fslow___path_8h" startline="18" endline="23">nn::fslow::LowPath&lt; T, V &gt;::LowPath</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1fslow_1_1_low_path_1aabff9fd95a144b3c151c6452f7ac874e" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t nn::fslow::LowPath&lt; T, V &gt;::m_BinarySize</definition>
+        <argsstring></argsstring>
+        <name>m_BinarySize</name>
+        <qualifiedname>nn::fslow::LowPath::m_BinarySize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="15" column="21" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1a3f7db8e8de8068c455643d025f9acfc8" compoundref="fslow___path_8h" startline="40" endline="40">nn::fslow::LowPath&lt; T, V &gt;::GetDataSize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1ad270142883e4e45a035824dbe73d1b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fslow::LowPath&lt; T, V &gt;::LowPath</definition>
+        <argsstring>()</argsstring>
+        <name>LowPath</name>
+        <qualifiedname>nn::fslow::LowPath::LowPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="18" column="9" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="18" bodyend="23"/>
+        <references refid="classnn_1_1fslow_1_1_low_path_1ac607c60c4b90194db1dde26e192945f0" compoundref="fslow___path_8h" startline="14">nn::fslow::LowPath&lt; T, V &gt;::m_Data</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1a1c5d1f30f9a0041c1bc4ea5227656579" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fslow::LowPath&lt; T, V &gt;::LowPath</definition>
+        <argsstring>(const wchar_t *path)</argsstring>
+        <name>LowPath</name>
+        <qualifiedname>nn::fslow::LowPath::LowPath</qualifiedname>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="24" column="9" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1af70990bd9007ae6a704d1cdaf63c000f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const wchar_t *</type>
+        <definition>const wchar_t * nn::fslow::LowPath&lt; T, V &gt;::GetWStringRaw</definition>
+        <argsstring>()</argsstring>
+        <name>GetWStringRaw</name>
+        <qualifiedname>nn::fslow::LowPath::GetWStringRaw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="31" column="23" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="31" bodyend="37"/>
+        <references refid="classnn_1_1fslow_1_1_low_path_1a7ad826779e4105b060dfe70dadf8b113" compoundref="fslow___path_8h" startline="38" endline="38">nn::fslow::LowPath&lt; T, V &gt;::GetPathType</references>
+        <references refid="classnn_1_1fslow_1_1_low_path_1ac607c60c4b90194db1dde26e192945f0" compoundref="fslow___path_8h" startline="14">nn::fslow::LowPath&lt; T, V &gt;::m_Data</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1a7ad826779e4105b060dfe70dadf8b113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::fslow::LowPath&lt; T, V &gt;::GetPathType</definition>
+        <argsstring>()</argsstring>
+        <name>GetPathType</name>
+        <qualifiedname>nn::fslow::LowPath::GetPathType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="38" column="21" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="38" bodyend="38"/>
+        <references refid="classnn_1_1fslow_1_1_low_path_1ae6478306d1749afa819da8ed9f8be926" compoundref="fslow___path_8h" startline="13">nn::fslow::LowPath&lt; T, V &gt;::m_PathType</references>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1af70990bd9007ae6a704d1cdaf63c000f" compoundref="fslow___path_8h" startline="31" endline="37">nn::fslow::LowPath&lt; T, V &gt;::GetWStringRaw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1af44ac5c98454c2983f036f863798aebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const void *</type>
+        <definition>const void * nn::fslow::LowPath&lt; T, V &gt;::GetDataBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataBuffer</name>
+        <qualifiedname>nn::fslow::LowPath::GetDataBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="39" column="20" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="39" bodyend="39"/>
+        <references refid="classnn_1_1fslow_1_1_low_path_1ac607c60c4b90194db1dde26e192945f0" compoundref="fslow___path_8h" startline="14">nn::fslow::LowPath&lt; T, V &gt;::m_Data</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1a3f7db8e8de8068c455643d025f9acfc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t nn::fslow::LowPath&lt; T, V &gt;::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <qualifiedname>nn::fslow::LowPath::GetDataSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="40" column="21" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="40" bodyend="40"/>
+        <references refid="classnn_1_1fslow_1_1_low_path_1aabff9fd95a144b3c151c6452f7ac874e" compoundref="fslow___path_8h" startline="15">nn::fslow::LowPath&lt; T, V &gt;::m_BinarySize</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1a1ebf93eecf0ad8ff541751e2abb29a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fslow::LowPath&lt; T, V &gt;::SetBinary</definition>
+        <argsstring>(const T *p)</argsstring>
+        <name>SetBinary</name>
+        <qualifiedname>nn::fslow::LowPath::SetBinary</qualifiedname>
+        <param>
+          <type>const T *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="49" column="14" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="49" bodyend="54"/>
+        <referencedby refid="classnn_1_1fslow_1_1_low_path_1a2e2474ba88707b567a235e5193ede72b" compoundref="fslow___path_8h" startline="42" endline="47">nn::fslow::LowPath&lt; T, V &gt;::Make</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnn_1_1fslow_1_1_low_path_1a2e2474ba88707b567a235e5193ede72b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fslow_1_1_low_path" kindref="compound">LowPath</ref></type>
+        <definition>static LowPath nn::fslow::LowPath&lt; T, V &gt;::Make</definition>
+        <argsstring>(const T *p)</argsstring>
+        <name>Make</name>
+        <qualifiedname>nn::fslow::LowPath::Make</qualifiedname>
+        <param>
+          <type>const T *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="42" column="24" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="42" bodyend="47"/>
+        <references refid="classnn_1_1fslow_1_1_low_path_1a1ebf93eecf0ad8ff541751e2abb29a32" compoundref="fslow___path_8h" startline="49" endline="54">nn::fslow::LowPath&lt; T, V &gt;::SetBinary</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fslow/fslow_Path.h" line="10" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/fslow_Path.h" bodystart="11" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fslow_1_1_low_path_1af44ac5c98454c2983f036f863798aebc" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>GetDataBuffer</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1a3f7db8e8de8068c455643d025f9acfc8" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>GetDataSize</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1a7ad826779e4105b060dfe70dadf8b113" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>GetPathType</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1af70990bd9007ae6a704d1cdaf63c000f" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>GetWStringRaw</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1ad270142883e4e45a035824dbe73d1b5e" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>LowPath</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1a1c5d1f30f9a0041c1bc4ea5227656579" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>LowPath</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1aabff9fd95a144b3c151c6452f7ac874e" prot="private" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>m_BinarySize</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1ac607c60c4b90194db1dde26e192945f0" prot="private" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>m_Data</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1ae6478306d1749afa819da8ed9f8be926" prot="private" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>m_PathType</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1a2e2474ba88707b567a235e5193ede72b" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>Make</name></member>
+      <member refid="classnn_1_1fslow_1_1_low_path_1a1ebf93eecf0ad8ff541751e2abb29a32" prot="public" virt="non-virtual"><scope>nn::fslow::LowPath</scope><name>SetBinary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Struct nn::os::ReadOnlySharedInfo - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="struct-nnosreadonlysharedinfo">Struct nn::os::ReadOnlySharedInfo</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1os/"><strong>os</strong></a> <strong>&gt;</strong> <a href="./"><strong>ReadOnlySharedInfo</strong></a></p>
+<ul>
+<li><code>#include &lt;os_SharedInfo.h&gt;</code></li>
+</ul>
+<h2 id="public-types">Public Types</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">enum</td>
+<td style="text-align: left;"><a href="#enum-flags"><strong>Flags</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-attributes">Public Attributes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit8"><strong>bit8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-bootenv"><strong>bootEnv</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-coreversion"><strong>coreVersion</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit8"><strong>bit8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-deviceenv"><strong>deviceEnv</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstcoreversion"><strong>firstCoreVersion</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../namespacenn/#typedef-programid"><strong>ProgramID</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstmainbootprogram"><strong>firstMainBootProgram</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstrevision"><strong>firstRevision</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstversionmajor"><strong>firstVersionMajor</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstversionmicro"><strong>firstVersionMicro</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstversionminor"><strong>firstVersionMinor</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit8"><strong>bit8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-firstversionreserve"><strong>firstVersionReserve</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../structnn_1_1os_1_1_flags_enum4/"><strong>FlagsEnum4</strong></a>&lt; <a href="./#enum-flags"><strong>Flags</strong></a> &gt;</td>
+<td style="text-align: left;"><a href="#variable-flags"><strong>flags</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kparamack"><strong>kParamAck</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kparamcurrent"><strong>kParamCurrent</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kparamvalues"><strong>kParamValues</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit8"><strong>bit8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-previousmode"><strong>previousMode</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u32"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-revision"><strong>revision</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#variable-unk"><strong>unk</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#variable-unk1"><strong>unk1</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-versionmajor"><strong>versionMajor</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-versionmicro"><strong>versionMicro</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-u8"><strong>u8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-versionminor"><strong>versionMinor</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-bit8"><strong>bit8</strong></a></td>
+<td style="text-align: left;"><a href="#variable-versionreserve"><strong>versionReserve</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-types-documentation">Public Types Documentation</h2>
+<h3 id="enum-flags">enum Flags</h3>
+<pre><code class="language-C++">enum nn::os::ReadOnlySharedInfo::Flags {
+    FLAGS_SAVE_MODE = 1,
+    FLAGS_MAX_BITS = 2147483648
+};
+</code></pre>
+<hr>
+<h2 id="public-attributes-documentation">Public Attributes Documentation</h2>
+<h3 id="variable-bootenv">variable bootEnv</h3>
+<pre><code class="language-C++">bit8 nn::os::ReadOnlySharedInfo::bootEnv;
+</code></pre>
+<hr>
+
+<h3 id="variable-coreversion">variable coreVersion</h3>
+<pre><code class="language-C++">bit32 nn::os::ReadOnlySharedInfo::coreVersion;
+</code></pre>
+<hr>
+
+<h3 id="variable-deviceenv">variable deviceEnv</h3>
+<pre><code class="language-C++">bit8 nn::os::ReadOnlySharedInfo::deviceEnv;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstcoreversion">variable firstCoreVersion</h3>
+<pre><code class="language-C++">bit32 nn::os::ReadOnlySharedInfo::firstCoreVersion;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstmainbootprogram">variable firstMainBootProgram</h3>
+<pre><code class="language-C++">ProgramID nn::os::ReadOnlySharedInfo::firstMainBootProgram;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstrevision">variable firstRevision</h3>
+<pre><code class="language-C++">bit32 nn::os::ReadOnlySharedInfo::firstRevision;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstversionmajor">variable firstVersionMajor</h3>
+<pre><code class="language-C++">u8 nn::os::ReadOnlySharedInfo::firstVersionMajor;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstversionmicro">variable firstVersionMicro</h3>
+<pre><code class="language-C++">u8 nn::os::ReadOnlySharedInfo::firstVersionMicro;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstversionminor">variable firstVersionMinor</h3>
+<pre><code class="language-C++">u8 nn::os::ReadOnlySharedInfo::firstVersionMinor;
+</code></pre>
+<hr>
+
+<h3 id="variable-firstversionreserve">variable firstVersionReserve</h3>
+<pre><code class="language-C++">bit8 nn::os::ReadOnlySharedInfo::firstVersionReserve;
+</code></pre>
+<hr>
+
+<h3 id="variable-flags">variable flags</h3>
+<pre><code class="language-C++">FlagsEnum4&lt;Flags&gt; nn::os::ReadOnlySharedInfo::flags;
+</code></pre>
+<hr>
+
+<h3 id="variable-kparamack">variable kParamAck</h3>
+<pre><code class="language-C++">bit32 nn::os::ReadOnlySharedInfo::kParamAck[4];
+</code></pre>
+<hr>
+
+<h3 id="variable-kparamcurrent">variable kParamCurrent</h3>
+<pre><code class="language-C++">bit32 nn::os::ReadOnlySharedInfo::kParamCurrent[4];
+</code></pre>
+<hr>
+
+<h3 id="variable-kparamvalues">variable kParamValues</h3>
+<pre><code class="language-C++">bit32 nn::os::ReadOnlySharedInfo::kParamValues[8];
+</code></pre>
+<hr>
+
+<h3 id="variable-previousmode">variable previousMode</h3>
+<pre><code class="language-C++">bit8 nn::os::ReadOnlySharedInfo::previousMode;
+</code></pre>
+<hr>
+
+<h3 id="variable-revision">variable revision</h3>
+<pre><code class="language-C++">u32 nn::os::ReadOnlySharedInfo::revision;
+</code></pre>
+<hr>
+
+<h3 id="variable-unk">variable unk</h3>
+<pre><code class="language-C++">int nn::os::ReadOnlySharedInfo::unk;
+</code></pre>
+<hr>
+
+<h3 id="variable-unk1">variable unk1</h3>
+<pre><code class="language-C++">int nn::os::ReadOnlySharedInfo::unk1;
+</code></pre>
+<hr>
+
+<h3 id="variable-versionmajor">variable versionMajor</h3>
+<pre><code class="language-C++">u8 nn::os::ReadOnlySharedInfo::versionMajor;
+</code></pre>
+<hr>
+
+<h3 id="variable-versionmicro">variable versionMicro</h3>
+<pre><code class="language-C++">u8 nn::os::ReadOnlySharedInfo::versionMicro;
+</code></pre>
+<hr>
+
+<h3 id="variable-versionminor">variable versionMinor</h3>
+<pre><code class="language-C++">u8 nn::os::ReadOnlySharedInfo::versionMinor;
+</code></pre>
+<hr>
+
+<h3 id="variable-versionreserve">variable versionReserve</h3>
+<pre><code class="language-C++">bit8 nn::os::ReadOnlySharedInfo::versionReserve;
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/os/os_SharedInfo.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

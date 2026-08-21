@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File svc_Stub.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-svc_stubcpp">File svc_Stub.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_e721d6d0970cd65c940d1e7140f4d855/"><strong>ARM</strong></a> <strong>&gt;</strong> <a href="../svc___stub_8cpp/"><strong>svc_Stub.cpp</strong></a></p>
+<p><a href="../svc___stub_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;nn/os/os_SvcTypes.autogen.h&gt;
+#include &lt;nn/svc/svc_Stub.h&gt;
+
+namespace nn {
+namespace svc {
+
+Result
+asm_ext(ControlMemory, &quot;.nn.svc.ControlMemory&quot;)(uptr* pOut, uptr addr0, uptr addr1, size_t size, u32 op, u32 perms) // 37
+{
+        push { r0, r4 };
+        ldr r0, [ sp, #8 ];
+        ldr r4, [ sp, #0xc ];
+        svc 0x1;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        pop { r4 };
+        bx lr;
+}
+
+Result asm_ext(QueryMemory, &quot;.nn.svc.QueryMemory&quot;)(nn::os::MemoryInfo* mem, nn::os::PageInfo* page, u32 num) // 50
+{
+        push { r0, r1, r4 - r6 };
+        svc 2;
+        ldr r6, [ sp, #0x4 ];
+        str r1, [r6];
+        str r2, [ r6, #0x4 ];
+        str r3, [ r6, #0x8 ];
+        str r4, [ r6, #0xC ];
+        ldr r6, [ sp, #4 ];
+        str r5, [r6];
+        add sp, sp, #8;
+        pop { R4 - R6 };
+        bx lr;
+}
+
+void asm_ext(ExitProcess, &quot;.nn.svc.ExitProcess&quot;)()
+{
+        svc 0x3;
+        bx lr;
+}
+
+void asm_ext(CreateThread, &quot;.nn.svc.CreateThread&quot;)(Handle* handle, void (*func)(u32), u32 arg, u32 stackTop, s32 prio, s32 processorId)
+{
+        push { r0, r4 };
+        ldr r0, [ sp, #8 ];
+        ldr r4, [ sp, #0xc ];
+        svc 0x8;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        pop { r4 };
+        bx lr;
+}
+
+void asm_ext(SleepThread, &quot;.nn.svc.SleepThread&quot;)(u64 nanos)
+{
+        svc 0xa;
+        bx lr;
+}
+
+Result asm_ext(GetThreadPriority, &quot;.nn.svc.GetThreadPriority&quot;)(s32* prio, Handle thread)
+{
+        push { r0 };
+        svc 0xb;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(SetThreadPriority, &quot;.nn.svc.SetThreadPriority&quot;)(Handle thread, int prio)
+{
+        svc 0xC;
+        bx lr;
+}
+
+u32 asm_ext(GetCurrentProcessorNumber, &quot;.nn.svc.GetCurrentProcessorNumber&quot;)()
+{
+        svc 0x11;
+        bx lr;
+}
+
+Result asm_ext(CreateMutex, &quot;.nn.svc.CreateMutex&quot;)(Handle* mutex, bool initialLocked)
+{
+        push { r0 };
+        svc 0x13;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(ReleaseMutex, &quot;.nn.svc.ReleaseMutex&quot;)(Handle mutex)
+{
+        svc 0x14;
+        bx lr;
+}
+
+Result asm_ext(CreateEvent, &quot;.nn.svc.CreateEvent&quot;)(Handle* event, nn::os::ResetType type)
+{
+        push { r0 };
+        svc 0x17;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(SignalEvent, &quot;.nn.svc.SignalEvent&quot;)(Handle event)
+{
+        svc 0x18;
+        bx lr;
+}
+
+Result asm_ext(ClearEvent, &quot;.nn.svc.ClearEvent&quot;)(Handle mutex)
+{
+        svc 0x19;
+        bx lr;
+}
+
+Result asm_ext(CreateMemoryBlock, &quot;.nn.svc.CreateMemoryBlock&quot;)(Handle* memblock, u32 addr, u32 size, u32 myperms, u32 otherperms)
+{
+        push { r0 };
+        ldr r0, [ sp, #4 ];
+        svc 0x1e;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(MapMemoryBlock, &quot;.nn.svc.MapMemoryBlock&quot;)(Handle block, u32 i0, u32 start, u32 end)
+{
+        svc 0x1F;
+        bx lr;
+}
+
+Result asm_ext(UnmapMemoryBlock, &quot;.nn.svc.UnmapMemoryBlock&quot;)(Handle block, u32 i0)
+{
+        svc 0x20;
+        bx lr;
+}
+
+Result asm_ext(CreateAddressArbiter, &quot;.nn.svc.CreateAddressArbiter&quot;)(Handle* arbiter)
+{
+        push { r0 };
+        svc 0x21;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(ArbitrateAddress, &quot;.nn.svc.ArbitrateAddress&quot;)(Handle arbiter, uptr addr, nn::os::ArbitrationType type, s32 value)
+{
+        svc 0x22;
+        bx lr;
+}
+
+Result asm_ext(CloseHandle, &quot;.nn.svc.CloseHandle&quot;)(Handle handle)
+{
+        svc 0x23;
+        bx lr;
+}
+
+Result asm_ext(WaitSynchronizationN, &quot;.nn.svc.WaitSynchronizationN&quot;)(int* pOut, const Handle* handles, s32 handleCount, bool waitAll, s64 timeout_ns)
+{
+        push { r0, r4 };
+        ldr r0, [ sp, #8 ];
+        ldr r4, [ sp, #0xC ];
+        svc 0x25;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        pop { r4 };
+        bx lr;
+}
+
+Result asm_ext(WaitSynchronization1, &quot;.nn.svc.WaitSynchronization1&quot;)(int* pOut, s64 timeout_ns)
+{
+        SVC 0x24;
+        BX lr;
+}
+
+Result asm_ext(DuplicateHandle, &quot;.nn.svc.DuplicateHandle&quot;)(Handle* pOut, Handle original)
+{
+        push { r0 };
+        svc 0x27;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+u32 asm_ext(GetSystemTick, &quot;.nn.svc.GetSystemTick&quot;)()
+{
+        svc 0x28;
+        bx lr;
+}
+
+Result asm_ext(GetProcessInfo, &quot;.nn.svc.GetProcessInfo&quot;)(u64* num, Handle handle, nn::os::ProcessInfoType infoType)
+{
+        push { r0 };
+        svc 0x2B;
+        ldr r3, [sp];
+        str r1, [r3];
+        str r2, [ r3, #0x4 ];
+        add sp, sp, #0x4;
+        bx  lr;
+}
+
+Result asm_ext(ConnectToPort, &quot;.nn.svc.ConnectToPort&quot;)(Handle* port, const char* portName)
+{
+        push { r0 };
+        svc 0x2D;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(SendSyncRequest, &quot;.nn.svc.SendSyncRequest&quot;)(Handle handle)
+{
+        svc 0x32;
+        bx lr;
+}
+
+Result asm_ext(GetProcessId, &quot;.nn.svc.GetProcessId&quot;)(u32* id, Handle handle)
+{
+        push { r0 };
+        svc 0x35;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(GetThreadId, &quot;.nn.svc.GetThreadId&quot;)(u32* id, Handle handle)
+{
+        push { r0 };
+        svc 0x37;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+Result asm_ext(GetResourceLimit, &quot;.nn.svc.GetResourceLimit&quot;)(Handle* resourceLimit, Handle handle)
+{
+        push { r0 };
+        svc 0x38;
+        ldr r2, [sp];
+        str r1, [r2];
+        add sp, sp, #4;
+        bx  lr;
+}
+
+} // namespace svc
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

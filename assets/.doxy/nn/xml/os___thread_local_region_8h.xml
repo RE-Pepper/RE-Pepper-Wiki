@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___thread_local_region_8h" kind="file" language="C++">
+    <compoundname>os_ThreadLocalRegion.h</compoundname>
+    <includedby refid="os___cpp_exception_8cpp" local="no">os_CppException.cpp</includedby>
+    <includedby refid="os___thread_local_storage_8cpp" local="no">os_ThreadLocalStorage.cpp</includedby>
+    <includedby refid="rvct__stdio_8cpp" local="no">rvct_stdio.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>os_ThreadLocalRegion.h</label>
+        <link refid="os___thread_local_region_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>os_CppException.cpp</label>
+        <link refid="os___cpp_exception_8cpp"/>
+      </node>
+      <node id="3">
+        <label>os_ThreadLocalStorage.cpp</label>
+        <link refid="os___thread_local_storage_8cpp"/>
+      </node>
+      <node id="4">
+        <label>rvct_stdio.cpp</label>
+        <link refid="rvct__stdio_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" prot="public">nn::os::CTR::ThreadLocalRegion</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r">nn::os::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kindref="compound">ThreadLocalRegion</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a6ade4b92910da49861d37cfb1ce017a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a6ade4b92910da49861d37cfb1ce017a8" kindref="member">tls</ref>[16];</highlight></codeline>
+<codeline lineno="10" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1aca746a55d33de39ad26dbe07d632e4e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1aca746a55d33de39ad26dbe07d632e4e5" kindref="member">handlerAddress</ref>;</highlight></codeline>
+<codeline lineno="11" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c3eaa1470a7d65ed406c8fb2521aac1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c3eaa1470a7d65ed406c8fb2521aac1" kindref="member">handlerStackBottomAddress</ref>;</highlight></codeline>
+<codeline lineno="12" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1241a64c4a440d16f799a3c858cdcdb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref><sp/><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1241a64c4a440d16f799a3c858cdcdb4" kindref="member">reserved</ref>[20];</highlight></codeline>
+<codeline lineno="13" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" kindref="member">ehGlobalsAddr</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" kindref="member">ehGlobals</ref>[8];</highlight></codeline>
+<codeline lineno="15" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1ab5b2a7174a2388c3b7507c5471d375c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1ab5b2a7174a2388c3b7507c5471d375c9" kindref="member">messageBuffer</ref>[64];</highlight></codeline>
+<codeline lineno="16" refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c13738edc8c1b2a4235cfbac35fac18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a7c13738edc8c1b2a4235cfbac35fac18" kindref="member">receiveBuffer</ref>[32];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">static_assert_(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kindref="compound">ThreadLocalRegion</ref>)<sp/>==<sp/>0x200);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kindref="compound">ThreadLocalRegion</ref>*<sp/><ref refid="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" kindref="member">GetThreadLocalRegion</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kindref="compound">ThreadLocalRegion</ref>*<sp/>p;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__asm<sp/>{<sp/>MRC<sp/>p15,<sp/>0,<sp/>p,c13,c0,<sp/>3<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h"/>
+  </compounddef>
+</doxygen>

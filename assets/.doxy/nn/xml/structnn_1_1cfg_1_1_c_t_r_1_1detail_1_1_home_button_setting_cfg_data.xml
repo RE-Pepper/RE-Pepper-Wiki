@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_home_button_setting_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::HomeButtonSettingCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_home_button_setting_cfg_data_1a66c382566c1f4fc8c26486e8895280ac" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::cfg::CTR::detail::HomeButtonSettingCfgData::isDisabled</definition>
+        <argsstring></argsstring>
+        <name>isDisabled</name>
+        <qualifiedname>nn::cfg::CTR::detail::HomeButtonSettingCfgData::isDisabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="259" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="257" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="258" bodyend="260"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_home_button_setting_cfg_data_1a66c382566c1f4fc8c26486e8895280ac" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::HomeButtonSettingCfgData</scope><name>isDisabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

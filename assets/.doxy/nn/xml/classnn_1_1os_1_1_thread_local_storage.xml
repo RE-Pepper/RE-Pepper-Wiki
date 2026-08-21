@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1os_1_1_thread_local_storage" kind="class" language="C++" prot="public">
+    <compoundname>nn::os::ThreadLocalStorage</compoundname>
+    <includes refid="os___thread_local_storage_8h" local="no">os_ThreadLocalStorage.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_thread_local_storage_1aea1de124b9bc0869bfd1707ff520222d" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 nn::os::ThreadLocalStorage::m_Index</definition>
+        <argsstring></argsstring>
+        <name>m_Index</name>
+        <qualifiedname>nn::os::ThreadLocalStorage::m_Index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="9" column="13" bodyfile="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_thread_local_storage_1a554f3cac42d6fc92c2a2f2e91e31768f" compoundref="os___thread_local_storage_8cpp" startline="74" endline="85">GetValue</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_local_storage_1a0fe25d5f0ef288d02d78c8ab858a0325" compoundref="os___thread_local_storage_8cpp" startline="87" endline="95">SetValue</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_local_storage_1ade61cf2b63e8911de0b15f3e166b8868" compoundref="os___thread_local_storage_8cpp" startline="58" endline="65">ThreadLocalStorage</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_local_storage_1ac5efe7b1ff4dc83a2a4510e7d4dab845" compoundref="os___thread_local_storage_8cpp" startline="67" endline="72">~ThreadLocalStorage</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_thread_local_storage_1ade61cf2b63e8911de0b15f3e166b8868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::ThreadLocalStorage::ThreadLocalStorage</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadLocalStorage</name>
+        <qualifiedname>nn::os::ThreadLocalStorage::ThreadLocalStorage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="12" column="9" bodyfile="lib/CtrSDK/sources/libraries/os/os_ThreadLocalStorage.cpp" bodystart="58" bodyend="65"/>
+        <references refid="classnn_1_1os_1_1_thread_local_storage_1aea1de124b9bc0869bfd1707ff520222d" compoundref="os___thread_local_storage_8h" startline="9">m_Index</references>
+        <references refid="assert_8h_1a825edac211d27bb531be4c818f7dd312" compoundref="assert_8h" startline="12" endline="15">NN_ASSERT_SDK_MSG</references>
+        <references refid="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" compoundref="os___error_handler_8h" startline="22" endline="26">NN_OS_HANDLE_ERROR</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_thread_local_storage_1ac5efe7b1ff4dc83a2a4510e7d4dab845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::ThreadLocalStorage::~ThreadLocalStorage</definition>
+        <argsstring>()</argsstring>
+        <name>~ThreadLocalStorage</name>
+        <qualifiedname>nn::os::ThreadLocalStorage::~ThreadLocalStorage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="13" column="9" bodyfile="lib/CtrSDK/sources/libraries/os/os_ThreadLocalStorage.cpp" bodystart="67" bodyend="72"/>
+        <references refid="classnn_1_1os_1_1_thread_local_storage_1aea1de124b9bc0869bfd1707ff520222d" compoundref="os___thread_local_storage_8h" startline="9">m_Index</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="os___thread_local_storage_8cpp_1a04b6c2e3a30cf9111d469761bce11ac7" compoundref="os___thread_local_storage_8cpp" startline="12">TLS_NUM</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_thread_local_storage_1a554f3cac42d6fc92c2a2f2e91e31768f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::ThreadLocalStorage::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>nn::os::ThreadLocalStorage::GetValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="15" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_ThreadLocalStorage.cpp" bodystart="74" bodyend="85"/>
+        <references refid="classnn_1_1os_1_1_thread_local_storage_1aea1de124b9bc0869bfd1707ff520222d" compoundref="os___thread_local_storage_8h" startline="9">m_Index</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="os___thread_local_storage_8cpp_1a04b6c2e3a30cf9111d469761bce11ac7" compoundref="os___thread_local_storage_8cpp" startline="12">TLS_NUM</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_thread_local_storage_1a0fe25d5f0ef288d02d78c8ab858a0325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::ThreadLocalStorage::SetValue</definition>
+        <argsstring>(uptr)</argsstring>
+        <name>SetValue</name>
+        <qualifiedname>nn::os::ThreadLocalStorage::SetValue</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="16" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_ThreadLocalStorage.cpp" bodystart="87" bodyend="95"/>
+        <references refid="classnn_1_1os_1_1_thread_local_storage_1aea1de124b9bc0869bfd1707ff520222d" compoundref="os___thread_local_storage_8h" startline="9">m_Index</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="os___thread_local_storage_8cpp_1a04b6c2e3a30cf9111d469761bce11ac7" compoundref="os___thread_local_storage_8cpp" startline="12">TLS_NUM</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_thread_local_storage_1a9d355fb08cdb9e91c7e662497260a788" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::ThreadLocalStorage::ClearAllSlots</definition>
+        <argsstring>()</argsstring>
+        <name>ClearAllSlots</name>
+        <qualifiedname>nn::os::ThreadLocalStorage::ClearAllSlots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="18" column="21" bodyfile="lib/CtrSDK/sources/libraries/os/os_ThreadLocalStorage.cpp" bodystart="97" bodyend="105"/>
+        <references refid="os___thread_local_storage_8cpp_1a04b6c2e3a30cf9111d469761bce11ac7" compoundref="os___thread_local_storage_8cpp" startline="12">TLS_NUM</references>
+        <referencedby refid="namespacenn_1_1os_1_1detail_1a45068d00a859dcaa16909a6ff3b8deea" compoundref="os___thread_8cpp" startline="41" endline="46">nn::os::detail::InitializeThreadEnvrionment</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" line="6" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_ThreadLocalStorage.h" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_thread_local_storage_1a9d355fb08cdb9e91c7e662497260a788" prot="public" virt="non-virtual"><scope>nn::os::ThreadLocalStorage</scope><name>ClearAllSlots</name></member>
+      <member refid="classnn_1_1os_1_1_thread_local_storage_1a554f3cac42d6fc92c2a2f2e91e31768f" prot="public" virt="non-virtual"><scope>nn::os::ThreadLocalStorage</scope><name>GetValue</name></member>
+      <member refid="classnn_1_1os_1_1_thread_local_storage_1aea1de124b9bc0869bfd1707ff520222d" prot="private" virt="non-virtual"><scope>nn::os::ThreadLocalStorage</scope><name>m_Index</name></member>
+      <member refid="classnn_1_1os_1_1_thread_local_storage_1a0fe25d5f0ef288d02d78c8ab858a0325" prot="public" virt="non-virtual"><scope>nn::os::ThreadLocalStorage</scope><name>SetValue</name></member>
+      <member refid="classnn_1_1os_1_1_thread_local_storage_1ade61cf2b63e8911de0b15f3e166b8868" prot="public" virt="non-virtual"><scope>nn::os::ThreadLocalStorage</scope><name>ThreadLocalStorage</name></member>
+      <member refid="classnn_1_1os_1_1_thread_local_storage_1ac5efe7b1ff4dc83a2a4510e7d4dab845" prot="public" virt="non-virtual"><scope>nn::os::ThreadLocalStorage</scope><name>~ThreadLocalStorage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

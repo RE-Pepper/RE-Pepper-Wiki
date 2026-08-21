@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string" kind="struct" language="C++" prot="public">
+    <compoundname>RP_SHUTUP::TVSNPrintfImpl::dst_string</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1ab777c375aba9161a5005e3a370c41d1a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl" kindref="compound">size_t</ref></type>
+        <definition>size_t RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::dst_string::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <qualifiedname>RP_SHUTUP::TVSNPrintfImpl::dst_string::len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="13" column="24" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="13" bodyend="-1"/>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a5b05659ec5735d93143bd9104cfbc6cf" compoundref="nstd___printf_8cpp" startline="26" endline="42">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::string_fill_char</referencedby>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a67691530d7cad4f0ec7d576439e092e3" compoundref="nstd___printf_8cpp" startline="18" endline="25">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::string_put_char</referencedby>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a2a95772fa60b442edf8590ff52a83552" compoundref="nstd___printf_8cpp" startline="43" endline="59">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::string_put_string</referencedby>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1ad2e86a2f6632ea62f3a2b8622e371284" compoundref="nstd___printf_8cpp" startline="66" endline="92">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::TVSNPrintf</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a69283dc6f540a201cf7603239bf34eea" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref> *</type>
+        <definition>CharT* RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::dst_string::cur</definition>
+        <argsstring></argsstring>
+        <name>cur</name>
+        <qualifiedname>RP_SHUTUP::TVSNPrintfImpl::dst_string::cur</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="14" column="23" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a5b05659ec5735d93143bd9104cfbc6cf" compoundref="nstd___printf_8cpp" startline="26" endline="42">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::string_fill_char</referencedby>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a67691530d7cad4f0ec7d576439e092e3" compoundref="nstd___printf_8cpp" startline="18" endline="25">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::string_put_char</referencedby>
+        <referencedby refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a2a95772fa60b442edf8590ff52a83552" compoundref="nstd___printf_8cpp" startline="43" endline="59">RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::string_put_string</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a13d6701c2d2e39b98506ba413aadd0e8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1a1d3349fac7fd0433fc9e179c641feb4e" kindref="member">CharT</ref> *</type>
+        <definition>CharT* RP_SHUTUP::TVSNPrintfImpl&lt; Type &gt;::dst_string::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>RP_SHUTUP::TVSNPrintfImpl::dst_string::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="15" column="23" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" line="11" column="9" bodyfile="lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp" bodystart="12" bodyend="16"/>
+    <listofallmembers>
+      <member refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a13d6701c2d2e39b98506ba413aadd0e8" prot="public" virt="non-virtual"><scope>RP_SHUTUP::TVSNPrintfImpl::dst_string</scope><name>base</name></member>
+      <member refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1a69283dc6f540a201cf7603239bf34eea" prot="public" virt="non-virtual"><scope>RP_SHUTUP::TVSNPrintfImpl::dst_string</scope><name>cur</name></member>
+      <member refid="struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string_1ab777c375aba9161a5005e3a370c41d1a" prot="public" virt="non-virtual"><scope>RP_SHUTUP::TVSNPrintfImpl::dst_string</scope><name>len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

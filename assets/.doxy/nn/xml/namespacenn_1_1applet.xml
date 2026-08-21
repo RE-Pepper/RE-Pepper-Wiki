@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1applet" kind="namespace" language="C++">
+    <compoundname>nn::applet</compoundname>
+    <innernamespace refid="namespacenn_1_1applet_1_1_c_t_r">nn::applet::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/applet/CTR/applet_Parameters.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

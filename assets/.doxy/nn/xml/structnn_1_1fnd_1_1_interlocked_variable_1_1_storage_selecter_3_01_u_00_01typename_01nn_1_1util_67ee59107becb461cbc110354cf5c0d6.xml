@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_67ee59107becb461cbc110354cf5c0d6" kind="struct" language="C++" prot="private">
+    <compoundname>nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s64)&gt;::type &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename U</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_67ee59107becb461cbc110354cf5c0d6_1aa59b6ef162b37082527cf9c4a8f10016" prot="public" static="no">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>typedef s64 nn::fnd::InterlockedVariable&lt; T &gt;::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s64)&gt;::type &gt;::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s64)&gt;::type &gt;::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="18" column="29" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="16" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="17" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_storage_selecter_3_01_u_00_01typename_01nn_1_1util_67ee59107becb461cbc110354cf5c0d6_1aa59b6ef162b37082527cf9c4a8f10016" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::StorageSelecter&lt; U, typename nn::util::enable_if&lt; sizeof(U)==sizeof(s64)&gt;::type &gt;</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

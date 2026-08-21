@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___memory_types_8h" kind="file" language="C++">
+    <compoundname>os_MemoryTypes.h</compoundname>
+    <includedby refid="os___svc_types_8autogen_8h" local="no">os_SvcTypes.autogen.h</includedby>
+    <includedby refid="os___types_8h" local="no">os_Types.h</includedby>
+    <invincdepgraph>
+      <node id="10">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="19">
+        <label>os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>os_LightEvent.h</label>
+        <link refid="os___light_event_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>os_LightSemaphore.h</label>
+        <link refid="os___light_semaphore_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>os_SharedInfo.h</label>
+        <link refid="os___shared_info_8h"/>
+      </node>
+      <node id="2">
+        <label>os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>os_Tick.h</label>
+        <link refid="os___tick_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>svc_Inlines.h</label>
+        <link refid="svc___inlines_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>crt0.cpp</label>
+        <link refid="crt0_8cpp"/>
+      </node>
+      <node id="24">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="20">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+      </node>
+      <node id="22">
+        <label>os_LightEvent.cpp</label>
+        <link refid="os___light_event_8cpp"/>
+      </node>
+      <node id="26">
+        <label>os_LightSemaphore.cpp</label>
+        <link refid="os___light_semaphore_8cpp"/>
+      </node>
+      <node id="14">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="4">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="17">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+      </node>
+      <node id="5">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+      <node id="6">
+        <label>svc_Stub.cpp</label>
+        <link refid="svc___stub_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9ef" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9ef" kindref="member">MemoryState</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa4aec28e6bd139b44daea62cf195d80d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa4aec28e6bd139b44daea62cf195d80d9" kindref="member">MEMORY_STATE_FREE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa20b31a4bece33bc2e75e6c5742444b56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa20b31a4bece33bc2e75e6c5742444b56" kindref="member">MEMORY_STATE_RESERVED</ref><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa7977c32388680c49fa9b43860121807c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa7977c32388680c49fa9b43860121807c" kindref="member">MEMORY_STATE_IO</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa6df592fdebfa3186e29bd66cc4f2e0a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa6df592fdebfa3186e29bd66cc4f2e0a7" kindref="member">MEMORY_STATE_STATIC</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa78d0a75f75448b9685e9be4391222f5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa78d0a75f75448b9685e9be4391222f5c" kindref="member">MEMORY_STATE_CODE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="13" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa86fc9b86a4dc4cf997ff864e1169f282" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa86fc9b86a4dc4cf997ff864e1169f282" kindref="member">MEMORY_STATE_PRIVATE</ref><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa220a6ee33c9b534488f586582b940c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa220a6ee33c9b534488f586582b940c9e" kindref="member">MEMORY_STATE_SHARED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="15" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa7309ff2f324ad5dae66132f5c335ee7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa7309ff2f324ad5dae66132f5c335ee7f" kindref="member">MEMORY_STATE_CONTINUOUS</ref><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="16" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efadf3319fbd4c4c45304a85912a9474194" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efadf3319fbd4c4c45304a85912a9474194" kindref="member">MEMORY_STATE_ALIASED</ref><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="17" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efaa42719f3c530a6217b1cb17b9dad4be7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efaa42719f3c530a6217b1cb17b9dad4be7" kindref="member">MEMORY_STATE_ALIAS</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="18" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efaf14f7bef11afe6c9fee61d8f7eb36bc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efaf14f7bef11afe6c9fee61d8f7eb36bc0" kindref="member">MEMORY_STATE_ALIAS_CODE</ref><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="19" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa6b0bfcc22ea0b9feb8a026ee05ca122d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa6b0bfcc22ea0b9feb8a026ee05ca122d" kindref="member">MEMORY_STATE_LOCKED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="20" refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa05ffabbf2cf18b10b45752c0c636a4f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa05ffabbf2cf18b10b45752c0c636a4f0" kindref="member">MEMORY_STATE_MAX_BITS</ref><sp/><sp/><sp/>=<sp/>2147483648,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/os/os_MemoryTypes.h"/>
+  </compounddef>
+</doxygen>

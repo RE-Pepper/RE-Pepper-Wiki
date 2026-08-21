@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fnd___linked_list_8h" kind="file" language="C++">
+    <compoundname>fnd_LinkedList.h</compoundname>
+    <includes refid="assert_8h" local="no">nn/assert.h</includes>
+    <includes refid="fnd___result_8h" local="no">nn/fnd/fnd_Result.h</includes>
+    <includes refid="util___non_copyable_8h" local="no">nn/util/util_NonCopyable.h</includes>
+    <includedby refid="fnd___heap_base_8h" local="no">fnd_HeapBase.h</includedby>
+    <includedby refid="srv___api_8cpp" local="no">srv_Api.cpp</includedby>
+    <includedby refid="srv___api_8h" local="no">srv_Api.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="6">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="1">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn/fnd/fnd_Result.h</label>
+        <link refid="fnd___result_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn/util/util_NonCopyable.h</label>
+        <link refid="util___non_copyable_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+      </node>
+      <node id="1">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="3">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classnn_1_1fnd_1_1_intrusive_linked_list" prot="public">nn::fnd::IntrusiveLinkedList</innerclass>
+    <innerclass refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" prot="public">nn::fnd::IntrusiveLinkedList::Item</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="assert_8h" kindref="compound">nn/assert.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="fnd___result_8h" kindref="compound">nn/fnd/fnd_Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___non_copyable_8h" kindref="compound">nn/util/util_NonCopyable.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>U<sp/>=<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="11" refid="classnn_1_1fnd_1_1_intrusive_linked_list" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list" kindref="compound">IntrusiveLinkedList</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1abce0a4a852a608224c8abeb45490f9e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1abce0a4a852a608224c8abeb45490f9e6" kindref="member">IntrusiveLinkedList</ref><sp/>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref><sp/>(NULL)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Item;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a3f92b3086383be56a4cbe91d106e18f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a3f92b3086383be56a4cbe91d106e18f3" kindref="member">IsEmpty</ref><sp/>()<sp/>{<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref><sp/>==<sp/>NULL;<sp/>}<sp/></highlight><highlight class="comment">//<sp/>95</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a895fa2b9ad736ddacb8f718c9799fd00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a895fa2b9ad736ddacb8f718c9799fd00" kindref="member">ClearLinks</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>p)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae71345b904f56561738af6a823d511e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae71345b904f56561738af6a823d511e6" kindref="member">InsertBefore</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>p,<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>q)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref><sp/>=<sp/>q;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>q-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>q;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref><sp/>:<sp/><ref refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" kindref="compound">nn::util::ADLFireWall::NonCopyable</ref>&lt;Item&gt;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>;</highlight></codeline>
+<codeline lineno="42" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a1c96ba27bb76986d9b501d89557fd7cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a1c96ba27bb76986d9b501d89557fd7cd" kindref="member">Item</ref><sp/>()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref><sp/>(NULL),</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref><sp/>(NULL)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}<sp/></highlight><highlight class="comment">//<sp/>217</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" kindref="member">~Item</ref><sp/>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref><sp/>&amp;&amp;<sp/>!<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>)<sp/></highlight><highlight class="comment">//<sp/>218</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a6ab907398349af8dc7a26792a9f27ea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a6ab907398349af8dc7a26792a9f27ea1" kindref="member">PushBack</ref><sp/>(T*<sp/>p)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(p,<sp/>ResultInvalidAddress<sp/>());<sp/></highlight><highlight class="comment">//<sp/>244</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(p);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>245</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>pNode<sp/>=<sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*)p;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>,<sp/>ResultFndUnk0<sp/>());<sp/></highlight><highlight class="comment">//<sp/>247</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>248</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>249</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a3f92b3086383be56a4cbe91d106e18f3" kindref="member">IsEmpty</ref><sp/>())<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;m_PreviousLink<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;m_NextLink<sp/><sp/><sp/><sp/><sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_Head<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae71345b904f56561738af6a823d511e6" kindref="member">InsertBefore</ref><sp/>(this-&gt;m_Head);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>243</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae371514f22970702e623c7f42348d5c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae371514f22970702e623c7f42348d5c1" kindref="member">PushFront</ref><sp/>(T*<sp/>p)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(p,<sp/>ResultInvalidAddress<sp/>());</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(p);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>pNode<sp/>=<sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*)p;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>,<sp/>ResultFndUnk0<sp/>());</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a3f92b3086383be56a4cbe91d106e18f3" kindref="member">IsEmpty</ref><sp/>())<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;m_PreviousLink<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;m_NextLink<sp/><sp/><sp/><sp/><sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae71345b904f56561738af6a823d511e6" kindref="member">InsertBefore</ref><sp/>(this-&gt;m_Head);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_Head<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>263</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1af8ff7f7cdbdbfe1e76207125c7557d4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1af8ff7f7cdbdbfe1e76207125c7557d4a" kindref="member">GetFront</ref><sp/>()</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref><sp/>==<sp/>NULL)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref>[-1].<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>284</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a7d53abf89e88bf241a4c52dcc98a45b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a7d53abf89e88bf241a4c52dcc98a45b3" kindref="member">GetBack</ref><sp/>()</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a3f92b3086383be56a4cbe91d106e18f3" kindref="member">IsEmpty</ref><sp/>())<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref>-&gt;m_PrevieousLink;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>289</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1aa1c218722f32330016a60fbf0125dab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1aa1c218722f32330016a60fbf0125dab1" kindref="member">GetNext</ref><sp/>(T*<sp/>p)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(p,<sp/>ResultInvalidAddress<sp/>());</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(p);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>pNode<sp/>=<sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*)p;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>,<sp/>ResultFndUnk0<sp/>());</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a7d53abf89e88bf241a4c52dcc98a45b3" kindref="member">GetBack</ref><sp/>()<sp/>==<sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p-&gt;m_NextLink;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>346</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae45ab8a1f6c39e9a3b0d5f88654ccf1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T*<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae45ab8a1f6c39e9a3b0d5f88654ccf1c" kindref="member">GetPrevious</ref><sp/>(T*<sp/>p)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(p,<sp/>ResultInvalidAddress<sp/>());</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(p);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>pNode<sp/>=<sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*)p;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>,<sp/>ResultFndUnk0<sp/>());</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1af8ff7f7cdbdbfe1e76207125c7557d4a" kindref="member">GetFront</ref><sp/>()<sp/>==<sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p-&gt;m_PreviousLink;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>330</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a9962716645c4c7fb3a6264740bbf9ce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a9962716645c4c7fb3a6264740bbf9ce3" kindref="member">Insert</ref><sp/>(T*<sp/>p,<sp/>T*<sp/>q)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q-&gt;m_NextLink<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;m_PreviousLink-&gt;m_NextLink<sp/>=<sp/>q;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q-&gt;m_PreviousLink<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>p-&gt;m_PreviousLink;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;m_PreviousLink<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>q;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>236</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a583c147fe90d50beabdb946cc53963ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a583c147fe90d50beabdb946cc53963ff" kindref="member">Erase</ref><sp/>(T*<sp/>p)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(p,<sp/>ResultInvalidAddress<sp/>());</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(p);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>pNode<sp/>=<sp/>(<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*)p;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1addaff6a00cb97d773627994b26278e1a" kindref="member">NN_ASSERT_SDK_RESULT</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>,<sp/>ResultFndUnk0<sp/>());</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" kindref="member">NN_ASSERT_SDK</ref><sp/>(!pNode-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(p-&gt;m_PreviousLink<sp/>==<sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_Head<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;m_Head<sp/>==<sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_Head<sp/>=<sp/>this-&gt;m_Head-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref><sp/>=<sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" kindref="member">m_PreviousLink</ref>-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref><sp/>=<sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a895fa2b9ad736ddacb8f718c9799fd00" kindref="member">ClearLinks</ref><sp/>(p);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a381b5815351f1b259ba4dde82a7bdfe3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a381b5815351f1b259ba4dde82a7bdfe3" kindref="member">Clear</ref><sp/>(T*)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;m_Head)<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>p<sp/>=<sp/>this-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1ae4c7215489b68c74b129cadcf271d0b4" kindref="member">m_Head</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(p)<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" kindref="compound">Item</ref>*<sp/>q<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>p-&gt;<ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" kindref="member">m_NextLink</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1a895fa2b9ad736ddacb8f718c9799fd00" kindref="member">ClearLinks</ref><sp/>(q);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_Head<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_LinkedList.h"/>
+  </compounddef>
+</doxygen>

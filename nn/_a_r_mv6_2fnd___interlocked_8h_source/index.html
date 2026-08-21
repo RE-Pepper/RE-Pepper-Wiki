@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File ARMv6/fnd_Interlocked.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-armv6fnd_interlockedh">File ARMv6/fnd_Interlocked.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_ca333016a5faba247875d639e2df699c/"><strong>ARMv6</strong></a> <strong>&gt;</strong> <a href="../_a_r_mv6_2fnd___interlocked_8h/"><strong>fnd_Interlocked.h</strong></a></p>
+<p><a href="../_a_r_mv6_2fnd___interlocked_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/util/util_TypeTraits.h&gt;
+
+namespace nn {
+namespace fnd {
+namespace ARMv6 {
+namespace detail {
+
+// Primary template for 32-bit and smaller (s32, s16, s8, bool)
+template &lt;typename T&gt;
+struct LoadStoreRegEx
+{
+        static T LoadRegEx (volatile T* ptr)
+        {
+                return (T)__ldrex (ptr);
+        }
+        static int StoreRegEx (T val, volatile T* ptr)
+        {
+                return __strex (val, ptr);
+        }
+};
+
+// Explicit specialization for 64-bit (s64)
+// This matches the DWARF entry showing 8-byte LoadRegEx
+template &lt;&gt;
+struct LoadStoreRegEx&lt;s64&gt;
+{
+        static s64 LoadRegEx (volatile s64* ptr)
+        {
+                return __ldrexd (ptr);
+        }
+        static int StoreRegEx (s64 val, volatile s64* ptr)
+        {
+                return __strexd (val, ptr);
+        }
+};
+
+} // namespace detail
+
+class Interlocked
+{
+        template &lt;typename T, size_t Size = sizeof (T)&gt;
+        struct AtomicStorageSelecter;
+
+        // Specialization for 8-byte types (like s64)
+        template &lt;typename T&gt;
+        struct AtomicStorageSelecter&lt;T, 8&gt;
+        {
+                typedef s64 Type;
+        };
+        // Specialization for 4-byte types (like s32 or 4-byte structs like 'Flags')
+        template &lt;typename T&gt;
+        struct AtomicStorageSelecter&lt;T, 4&gt;
+        {
+                typedef s32 Type;
+        };
+        // Specialization for 2-byte types (like s16)
+        template &lt;typename T&gt;
+        struct AtomicStorageSelecter&lt;T, 2&gt;
+        {
+                typedef s16 Type;
+        };
+        // Specialization for 1-byte types (like s8 or bool)
+        template &lt;typename T&gt;
+        struct AtomicStorageSelecter&lt;T, 1&gt;
+        {
+                typedef s8 Type;
+        };
+
+public:
+        template &lt;typename T, typename UpdateFunc&gt;
+        static bool AtomicUpdate (
+                volatile T* p,
+                UpdateFunc&amp; update,
+                typename nn::util::enable_if&lt;sizeof (T) &lt;= 4&gt;::type* = 0)
+        {
+                typedef typename AtomicStorageSelecter&lt;T&gt;::Type StorageType;
+                typedef detail::LoadStoreRegEx&lt;StorageType&gt;     LoadStoreType;
+
+                union U {
+                        StorageType raw;
+                        T           v;
+                } u;
+
+                while (true) {
+                        // 1. Exclusively load the current value
+                        u.raw = LoadStoreType::LoadRegEx ((volatile StorageType*&amp;)(p));
+
+                        // Return #1: Abort path
+                        // Call the functor. If it returns false/0, we clear the monitor and bail.
+                        if (!update (u.v)) {
+                                __clrex ();
+                                return false;
+                        }
+
+                        // Return #2: Success path
+                        // StoreRegEx returns 0 on SUCCESS (the exclusive monitor wasn't tripped).
+                        if (LoadStoreType::StoreRegEx (u.raw, (volatile StorageType*&amp;)(p)) == 0) {
+                                return true;
+                        }
+                }
+        }
+};
+static_assert_ (sizeof (Interlocked) == 0x1);
+
+} // namespace ARMv6
+} // namespace fnd
+} // namespace nn
+
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

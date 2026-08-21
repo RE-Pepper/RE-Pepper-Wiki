@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___event_8h" kind="file" language="C++">
+    <compoundname>os_Event.h</compoundname>
+    <includes refid="os___synchronization_8h" local="no">nn/os/os_Synchronization.h</includes>
+    <includes refid="os___types_8h" local="no">nn/os/os_Types.h</includes>
+    <includes refid="fnd___time_span_8h" local="yes">nn/fnd/fnd_TimeSpan.h</includes>
+    <includes refid="os___error_handler_8h" local="yes">nn/os/CTR/os_ErrorHandler.h</includes>
+    <includes refid="svc___stub_8h" local="yes">nn/svc/svc_Stub.h</includes>
+    <includedby refid="hid___hid_base_8h" local="no">hid_HidBase.h</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="8">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="10">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="4">
+        <label>nn/fnd/fnd_TimeSpan.h</label>
+        <link refid="fnd___time_span_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/os/CTR/os_ErrorHandler.h</label>
+        <link refid="os___error_handler_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn/os/os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="13">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/os/os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>nn/svc/svc_Inlines.h</label>
+        <link refid="svc___inlines_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>nn/util/util_NonCopyable.h</label>
+        <link refid="util___non_copyable_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="1">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classnn_1_1os_1_1_event_base" prot="public">nn::os::EventBase</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_event" prot="public">nn::os::Event</innerclass>
+    <innerclass refid="unionnnos_event" prot="public">nnosEvent</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="os___event_8h_1a32fe298bc9c7a86e367a2d8c8dbca536" prot="public" static="no">
+        <type>union <ref refid="unionnnos_event" kindref="compound">nnosEvent</ref></type>
+        <definition>typedef union nnosEvent nnosEvent</definition>
+        <argsstring></argsstring>
+        <name>nnosEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="81" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___synchronization_8h" kindref="compound">nn/os/os_Synchronization.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___types_8h" kindref="compound">nn/os/os_Types.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fnd___time_span_8h" kindref="compound">nn/fnd/fnd_TimeSpan.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="os___error_handler_8h" kindref="compound">nn/os/CTR/os_ErrorHandler.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="svc___stub_8h" kindref="compound">nn/svc/svc_Stub.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classnn_1_1os_1_1_event_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1os_1_1_event_base" kindref="compound">EventBase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_interrupt_event" kindref="compound">InterruptEvent</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="classnn_1_1os_1_1_event_base_1abcfb647ff901420d863332253e64b53c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_base_1abcfb647ff901420d863332253e64b53c" kindref="member">EventBase</ref><sp/>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19" refid="classnn_1_1os_1_1_event_base_1ab305b68d0cbde4f4d340571b61ac5884" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_base_1ab305b68d0cbde4f4d340571b61ac5884" kindref="member">EventBase</ref><sp/>(<ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">ResetType</ref><sp/>resetType)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_base_1ae2ace1d03afca02515e78dfc4acdccd0" kindref="member">Initialize</ref><sp/>(resetType);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23" refid="classnn_1_1os_1_1_event_base_1acb9a2c2bf7a4a24c95f28b6766297336" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_base_1acb9a2c2bf7a4a24c95f28b6766297336" kindref="member">~EventBase</ref><sp/>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" kindref="member">TryInitialize</ref><sp/>(<ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">ResetType</ref><sp/>resetType)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>result<sp/>=<sp/><ref refid="classnn_1_1os_1_1_event_base_1acd9bc3a7c6f53d9ecd94ebd3b03454c0" kindref="member">TryInitializeImpl</ref><sp/>(resetType);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result.<ref refid="classnn_1_1_result_1a5ae439aac70c3b46630ad9bdbf97fe0c" kindref="member">GetSummary</ref><sp/>()<sp/>==<sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caa7c0c2915a25db9e4df1fb1adb9ebc93" kindref="member">Result::SUMMARY_OUT_OF_RESOURCE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" kindref="member">NN_OS_HANDLE_ERROR</ref><sp/>(result);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="classnn_1_1os_1_1_event_base_1ae2ace1d03afca02515e78dfc4acdccd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_base_1ae2ace1d03afca02515e78dfc4acdccd0" kindref="member">Initialize</ref><sp/>(<ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">ResetType</ref><sp/>resetType)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" kindref="member">NN_OS_HANDLE_ERROR</ref><sp/>(<ref refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" kindref="member">TryInitialize</ref><sp/>(resetType));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40" refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" kindref="member">Signal</ref><sp/>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" kindref="member">NN_OS_HANDLE_ERROR</ref><sp/>(<ref refid="namespacenn_1_1svc_1a3afc1af39e8f2364477e21ead0c2f20c" kindref="member">svc::SignalEvent</ref><sp/>(<ref refid="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" kindref="member">GetHandle</ref><sp/>()));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44" refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" kindref="member">ClearSignal</ref><sp/>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="os___error_handler_8h_1aa3bdf4d48ab903a6ecd17a3cb8596f31" kindref="member">NN_OS_HANDLE_ERROR</ref><sp/>(<ref refid="namespacenn_1_1svc_1adc0264c69cb88e3bf0c15eb79d37acb8" kindref="member">svc::ClearEvent</ref><sp/>(<ref refid="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" kindref="member">GetHandle</ref><sp/>()));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48" refid="classnn_1_1os_1_1_event_base_1acd9bc3a7c6f53d9ecd94ebd3b03454c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="classnn_1_1os_1_1_event_base_1acd9bc3a7c6f53d9ecd94ebd3b03454c0" kindref="member">TryInitializeImpl</ref><sp/>(<ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">ResetType</ref><sp/>resetType)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref><sp/>handle;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>nn_util_return_if_failure_result;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(EventBase)<sp/>==<sp/>0x4);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classnn_1_1os_1_1_event" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1os_1_1_event" kindref="compound">Event</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_base" kindref="compound">EventBase</ref></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60" refid="classnn_1_1os_1_1_event_1a1d13efc7ee482df1caf925bc9efb32d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_1a1d13efc7ee482df1caf925bc9efb32d3" kindref="member">Event</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classnn_1_1os_1_1_event_1a797598eb37639d8c0520fe4bb054a70e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="classnn_1_1os_1_1_event_1a797598eb37639d8c0520fe4bb054a70e" kindref="member">TryInitialize</ref><sp/>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" kindref="member">EventBase::TryInitialize</ref><sp/>();<sp/>}</highlight></codeline>
+<codeline lineno="63" refid="classnn_1_1os_1_1_event_1a06939df895a9bf22b122a33346f405d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_1a06939df895a9bf22b122a33346f405d6" kindref="member">Initialize</ref><sp/>(<ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">ResetType</ref><sp/>manualReset)<sp/>{<sp/><ref refid="classnn_1_1os_1_1_event_base_1ae2ace1d03afca02515e78dfc4acdccd0" kindref="member">EventBase::Initialize</ref><sp/>(manualReset);<sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classnn_1_1os_1_1_event_1aaba3bdd5be9b15fc0d50cd32f8e5dba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_event_1aaba3bdd5be9b15fc0d50cd32f8e5dba3" kindref="member">~Event</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classnn_1_1os_1_1_event_1a3dfe6257a759c58df1e2a88cf73c8212" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_1a3dfe6257a759c58df1e2a88cf73c8212" kindref="member">Signal</ref><sp/>()<sp/>{<sp/><ref refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" kindref="member">EventBase::Signal</ref><sp/>();<sp/>}</highlight></codeline>
+<codeline lineno="68" refid="classnn_1_1os_1_1_event_1a16b6dd6abd5fbaa1906733a8bdc7be45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_1a16b6dd6abd5fbaa1906733a8bdc7be45" kindref="member">ClearSignal</ref><sp/>()<sp/>{<sp/><ref refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" kindref="member">EventBase::ClearSignal</ref><sp/>();<sp/>}</highlight></codeline>
+<codeline lineno="69" refid="classnn_1_1os_1_1_event_1af1d9285a8caa2c0b1fea6748ed4d312f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_event_1af1d9285a8caa2c0b1fea6748ed4d312f" kindref="member">Wait</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/><ref refid="os___synchronization_8cpp_1aad342615237f48b9619fe72d0c841cbf" kindref="member">timeout</ref>)<sp/>{<sp/><ref refid="classnn_1_1os_1_1_wait_object_1ac6195ab5342a72323405c926fb98785e" kindref="member">WaitOne</ref><sp/>(<ref refid="os___synchronization_8cpp_1aad342615237f48b9619fe72d0c841cbf" kindref="member">timeout</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(Event)<sp/>==<sp/>0x4);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="unionnnos_event" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionnnos_event" kindref="compound">nnosEvent</ref><sp/>{</highlight></codeline>
+<codeline lineno="81" refid="os___event_8h_1a32fe298bc9c7a86e367a2d8c8dbca536" refkind="member"><highlight class="normal">}<sp/><ref refid="unionnnos_event" kindref="compound">nnosEvent</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nnos..();<sp/>come<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/os/os_Event.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data_1ab564dda74ba2d19aba5b8c23e4407c61" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume" kindref="compound">SlideVolume</ref></type>
+        <definition>SlideVolume nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData::svr2</definition>
+        <argsstring></argsstring>
+        <name>svr2</name>
+        <qualifiedname>nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData::svr2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="327" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data_1a3c0e947c49b9100db48b00e32de07bac" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume" kindref="compound">SlideVolume</ref></type>
+        <definition>SlideVolume nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData::sound</definition>
+        <argsstring></argsstring>
+        <name>sound</name>
+        <qualifiedname>nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData::sound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="328" column="21" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sound</edgelabel>
+          <edgelabel>svr2</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::cfg::CTR::detail::SlideVolume</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="325" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="326" bodyend="329"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data_1a3c0e947c49b9100db48b00e32de07bac" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData</scope><name>sound</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_mcu_slide_volume_range_cfg_data_1ab564dda74ba2d19aba5b8c23e4407c61" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::McuSlideVolumeRangeCfgData</scope><name>svr2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

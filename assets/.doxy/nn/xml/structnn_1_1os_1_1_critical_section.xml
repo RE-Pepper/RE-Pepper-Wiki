@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_critical_section" kind="struct" language="C++" prot="public">
+    <compoundname>nn::os::CriticalSection</compoundname>
+    <basecompoundref refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" prot="public" virt="non-virtual">nn::util::ADLFireWall::NonCopyable&lt; CriticalSection &gt;</basecompoundref>
+    <includes refid="os___critical_section_8h" local="no">os_CriticalSection.h</includes>
+    <innerclass refid="structnn_1_1os_1_1_critical_section_1_1_reverse_if_positive_updater" prot="private">nn::os::CriticalSection::ReverseIfPositiveUpdater</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_critical_section_1_1_reverse_updater" prot="private">nn::os::CriticalSection::ReverseUpdater</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock" prot="public">nn::os::CriticalSection::ScopedLock</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_waitable_counter" kindref="compound">WaitableCounter</ref></type>
+        <definition>WaitableCounter nn::os::CriticalSection::m_Counter</definition>
+        <argsstring></argsstring>
+        <name>m_Counter</name>
+        <qualifiedname>nn::os::CriticalSection::m_Counter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="39" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" compoundref="os___critical_section_8cpp" startline="6" endline="15">EnterImpl</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" compoundref="os___critical_section_8h" startline="44" endline="49">Initialize</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">Leave</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_critical_section_1a670ed9b6ac21ab7dfe3cbf814fece43e" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::CriticalSection::m_ThreadUniqueValue</definition>
+        <argsstring></argsstring>
+        <name>m_ThreadUniqueValue</name>
+        <qualifiedname>nn::os::CriticalSection::m_ThreadUniqueValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="40" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" compoundref="os___critical_section_8h" startline="44" endline="49">Initialize</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">Leave</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" compoundref="os___critical_section_8h" startline="114" endline="117">LockedByCurrentThread</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>s32 nn::os::CriticalSection::m_LockCount</definition>
+        <argsstring></argsstring>
+        <name>m_LockCount</name>
+        <qualifiedname>nn::os::CriticalSection::m_LockCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="41" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" compoundref="os___critical_section_8h" startline="57" endline="64">Enter</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12b93cce05b3ab66f81dee6d9b2343dd" compoundref="os___critical_section_8h" startline="56" endline="56">Finalize</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" compoundref="os___critical_section_8h" startline="44" endline="49">Initialize</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1aacd48d264b07f6f6a884d0e197ae9513" compoundref="os___critical_section_8h" startline="118" endline="118">IsInitialized</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">Leave</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1af1797b01a107bf47343b307e0db7b1b0" compoundref="os___critical_section_8h" startline="65" endline="73">TryEnter</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CriticalSection::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::os::CriticalSection::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="44" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="44" bodyend="49"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1ab008188e10d11a61e7241498fa770959" compoundref="os___critical_section_8h" startline="110" endline="113">GetInvalidThreadUniqueValue</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" compoundref="os___critical_section_8h" startline="39">m_Counter</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a670ed9b6ac21ab7dfe3cbf814fece43e" compoundref="os___critical_section_8h" startline="40">m_ThreadUniqueValue</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1ad260f71466ab0e2519597993eb4c4a83" compoundref="os___critical_section_8h" startline="142" endline="145">CriticalSection</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1ac52f0fde9669bbf281ebd374a7af1557" compoundref="os___critical_section_8h" startline="51" endline="55">TryInitialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1ac52f0fde9669bbf281ebd374a7af1557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::CriticalSection::TryInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>TryInitialize</name>
+        <qualifiedname>nn::os::CriticalSection::TryInitialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="51" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="51" bodyend="55"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" compoundref="os___critical_section_8h" startline="44" endline="49">Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a12b93cce05b3ab66f81dee6d9b2343dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CriticalSection::Finalize</definition>
+        <argsstring>()</argsstring>
+        <name>Finalize</name>
+        <qualifiedname>nn::os::CriticalSection::Finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="56" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="56" bodyend="56"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CriticalSection::Enter</definition>
+        <argsstring>()</argsstring>
+        <name>Enter</name>
+        <qualifiedname>nn::os::CriticalSection::Enter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="57" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="57" bodyend="64"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" compoundref="os___critical_section_8cpp" startline="6" endline="15">EnterImpl</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1aacd48d264b07f6f6a884d0e197ae9513" compoundref="os___critical_section_8h" startline="118" endline="118">IsInitialized</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" compoundref="os___critical_section_8h" startline="114" endline="117">LockedByCurrentThread</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1adc39710ade037281b0bd5484e001cfa6" compoundref="os___critical_section_8h" startline="126" endline="130">nn::os::CriticalSection::ScopedLock::ScopedLock</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1af1797b01a107bf47343b307e0db7b1b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::CriticalSection::TryEnter</definition>
+        <argsstring>()</argsstring>
+        <name>TryEnter</name>
+        <qualifiedname>nn::os::CriticalSection::TryEnter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="65" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="65" bodyend="73"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1aacd48d264b07f6f6a884d0e197ae9513" compoundref="os___critical_section_8h" startline="118" endline="118">IsInitialized</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" compoundref="os___critical_section_8h" startline="114" endline="117">LockedByCurrentThread</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</references>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CriticalSection::Leave</definition>
+        <argsstring>()</argsstring>
+        <name>Leave</name>
+        <qualifiedname>nn::os::CriticalSection::Leave</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="74" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="74" bodyend="90"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1_1_reverse_updater_1aeba69bf2a4f6d92515787e10b4e302b8" compoundref="os___critical_section_8h" startline="29">nn::os::CriticalSection::ReverseUpdater::afterUpdate</references>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1ab008188e10d11a61e7241498fa770959" compoundref="os___critical_section_8h" startline="110" endline="113">GetInvalidThreadUniqueValue</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1aacd48d264b07f6f6a884d0e197ae9513" compoundref="os___critical_section_8h" startline="118" endline="118">IsInitialized</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" compoundref="os___critical_section_8h" startline="114" endline="117">LockedByCurrentThread</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" compoundref="os___critical_section_8h" startline="39">m_Counter</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a670ed9b6ac21ab7dfe3cbf814fece43e" compoundref="os___critical_section_8h" startline="40">m_ThreadUniqueValue</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="assert_8h_1a825edac211d27bb531be4c818f7dd312" compoundref="assert_8h" startline="12" endline="15">NN_ASSERT_SDK_MSG</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" compoundref="os___waitable_counter_8h" startline="47" endline="50">nn::os::WaitableCounter::Signal</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1aaa312fa790830e5941720d7296b4f5ae" compoundref="os___critical_section_8h" startline="131" endline="134">nn::os::CriticalSection::ScopedLock::~ScopedLock</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CriticalSection::EnterImpl</definition>
+        <argsstring>()</argsstring>
+        <name>EnterImpl</name>
+        <qualifiedname>nn::os::CriticalSection::EnterImpl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="92" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_CriticalSection.cpp" bodystart="6" bodyend="15"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a625f4246fc31c32b29485f28902dd4d9" compoundref="os___waitable_counter_8h" startline="39" endline="42">nn::os::WaitableCounter::DecrementAndWaitIfLessThan</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" compoundref="os___critical_section_8h" startline="39">m_Counter</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" compoundref="os___critical_section_8h" startline="57" endline="64">Enter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::CriticalSection::TryEnterImpl</definition>
+        <argsstring>()</argsstring>
+        <name>TryEnterImpl</name>
+        <qualifiedname>nn::os::CriticalSection::TryEnterImpl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="93" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="93" bodyend="102"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1abbb070c0a785341f8d402de758c18495" compoundref="fnd___interlocked_8h" startline="120" endline="123">nn::fnd::InterlockedVariable&lt; T &gt;::AtomicUpdateConditional</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a8f7bd24897c4acb9e89d669962ae140f" compoundref="os___critical_section_8h" startline="104" endline="109">GetThreadUniqueValue</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" compoundref="os___critical_section_8h" startline="39">m_Counter</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a670ed9b6ac21ab7dfe3cbf814fece43e" compoundref="os___critical_section_8h" startline="40">m_ThreadUniqueValue</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" compoundref="os___critical_section_8h" startline="57" endline="64">Enter</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" compoundref="os___critical_section_8cpp" startline="6" endline="15">EnterImpl</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1af1797b01a107bf47343b307e0db7b1b0" compoundref="os___critical_section_8h" startline="65" endline="73">TryEnter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a8f7bd24897c4acb9e89d669962ae140f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::CriticalSection::GetThreadUniqueValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetThreadUniqueValue</name>
+        <qualifiedname>nn::os::CriticalSection::GetThreadUniqueValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="104" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="104" bodyend="109"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" compoundref="os___critical_section_8h" startline="114" endline="117">LockedByCurrentThread</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" compoundref="os___critical_section_8h" startline="93" endline="102">TryEnterImpl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1ab008188e10d11a61e7241498fa770959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::os::CriticalSection::GetInvalidThreadUniqueValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetInvalidThreadUniqueValue</name>
+        <qualifiedname>nn::os::CriticalSection::GetInvalidThreadUniqueValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="110" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="110" bodyend="113"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" compoundref="os___critical_section_8h" startline="44" endline="49">Initialize</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">Leave</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::CriticalSection::LockedByCurrentThread</definition>
+        <argsstring>()</argsstring>
+        <name>LockedByCurrentThread</name>
+        <qualifiedname>nn::os::CriticalSection::LockedByCurrentThread</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="114" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="114" bodyend="117"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1a8f7bd24897c4acb9e89d669962ae140f" compoundref="os___critical_section_8h" startline="104" endline="109">GetThreadUniqueValue</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1a670ed9b6ac21ab7dfe3cbf814fece43e" compoundref="os___critical_section_8h" startline="40">m_ThreadUniqueValue</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" compoundref="os___critical_section_8h" startline="57" endline="64">Enter</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">Leave</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1af1797b01a107bf47343b307e0db7b1b0" compoundref="os___critical_section_8h" startline="65" endline="73">TryEnter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1aacd48d264b07f6f6a884d0e197ae9513" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::CriticalSection::IsInitialized</definition>
+        <argsstring>() const</argsstring>
+        <name>IsInitialized</name>
+        <qualifiedname>nn::os::CriticalSection::IsInitialized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="118" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="118" bodyend="118"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" compoundref="os___critical_section_8h" startline="41">m_LockCount</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" compoundref="os___critical_section_8h" startline="57" endline="64">Enter</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">Leave</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1af1797b01a107bf47343b307e0db7b1b0" compoundref="os___critical_section_8h" startline="65" endline="73">TryEnter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a26d11ef5b3818f27c4e0b22da6aaa3b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::CriticalSection::CriticalSection</definition>
+        <argsstring>()</argsstring>
+        <name>CriticalSection</name>
+        <qualifiedname>nn::os::CriticalSection::CriticalSection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="138" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1ad260f71466ab0e2519597993eb4c4a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::CriticalSection::CriticalSection</definition>
+        <argsstring>(const WithInitialize &amp;)</argsstring>
+        <name>CriticalSection</name>
+        <qualifiedname>nn::os::CriticalSection::CriticalSection</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1_with_initialize" kindref="compound">WithInitialize</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="142" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="142" bodyend="145"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" compoundref="os___critical_section_8h" startline="44" endline="49">Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1a96d1ce6ea678101843c333265abefa5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::CriticalSection::~CriticalSection</definition>
+        <argsstring>()</argsstring>
+        <name>~CriticalSection</name>
+        <qualifiedname>nn::os::CriticalSection::~CriticalSection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="146" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; CriticalSection &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; CriticalSection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::CriticalSection</label>
+        <link refid="structnn_1_1os_1_1_critical_section"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; CriticalSection &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; CriticalSection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+      <node id="1">
+        <label>nn::os::CriticalSection</label>
+        <link refid="structnn_1_1os_1_1_critical_section"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_Counter</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitableCounter</label>
+        <link refid="classnn_1_1os_1_1_waitable_counter"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>s_Handle</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+      <node id="5">
+        <label>nnHandle</label>
+        <link refid="structnn_handle"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="13" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="14" bodyend="147"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_critical_section_1a26d11ef5b3818f27c4e0b22da6aaa3b4" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>CriticalSection</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1ad260f71466ab0e2519597993eb4c4a83" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>CriticalSection</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>Enter</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>EnterImpl</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a12b93cce05b3ab66f81dee6d9b2343dd" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>Finalize</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1ab008188e10d11a61e7241498fa770959" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>GetInvalidThreadUniqueValue</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a8f7bd24897c4acb9e89d669962ae140f" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>GetThreadUniqueValue</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a12a1c10742a28e493e3f1e80091fbc18" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>Initialize</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1aacd48d264b07f6f6a884d0e197ae9513" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>IsInitialized</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>Leave</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1ab34f3eb4a7280f15b13ff22485654735" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>LockedByCurrentThread</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1aa4b5ef522805edd0bbd40595794e1c00" prot="private" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>m_Counter</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1afbb012603058f89e9cf4d9243f54d45b" prot="private" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>m_LockCount</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a670ed9b6ac21ab7dfe3cbf814fece43e" prot="private" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>m_ThreadUniqueValue</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="protected" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1af1797b01a107bf47343b307e0db7b1b0" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>TryEnter</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a2f6b4db2f3b9130b6e615ae90cdbd259" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>TryEnterImpl</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1ac52f0fde9669bbf281ebd374a7af1557" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>TryInitialize</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1a96d1ce6ea678101843c333265abefa5a" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>~CriticalSection</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="protected" virt="non-virtual"><scope>nn::os::CriticalSection</scope><name>~NonCopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

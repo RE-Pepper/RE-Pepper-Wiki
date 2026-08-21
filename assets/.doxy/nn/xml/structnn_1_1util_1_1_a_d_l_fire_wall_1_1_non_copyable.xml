@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" kind="struct" language="C++" prot="public">
+    <compoundname>nn::util::ADLFireWall::NonCopyable</compoundname>
+    <includes refid="util___non_copyable_8h" local="no">util_NonCopyable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::ADLFireWall::NonCopyable&lt; T &gt;::NonCopyable</definition>
+        <argsstring>()</argsstring>
+        <name>NonCopyable</name>
+        <qualifiedname>nn::util::ADLFireWall::NonCopyable::NonCopyable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_NonCopyable.h" line="11" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_NonCopyable.h" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::ADLFireWall::NonCopyable&lt; T &gt;::~NonCopyable</definition>
+        <argsstring>()</argsstring>
+        <name>~NonCopyable</name>
+        <qualifiedname>nn::util::ADLFireWall::NonCopyable::~NonCopyable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_NonCopyable.h" line="12" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_NonCopyable.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::ADLFireWall::NonCopyable&lt; T &gt;::NonCopyable</definition>
+        <argsstring>(const NonCopyable &amp;)</argsstring>
+        <name>NonCopyable</name>
+        <qualifiedname>nn::util::ADLFireWall::NonCopyable::NonCopyable</qualifiedname>
+        <param>
+          <type>const <ref refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" kindref="compound">NonCopyable</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_NonCopyable.h" line="15" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; CriticalSection &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; CriticalSection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; FileBaseImpl &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; FileBaseImpl &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; Item &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; LightEvent &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; LightEvent &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; LightSemaphore &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; LightSemaphore &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::fnd::HeapBase</label>
+        <link refid="classnn_1_1fnd_1_1_heap_base"/>
+        <childnode refid="3" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::fs::detail::FileBaseImpl</label>
+        <link refid="classnn_1_1fs_1_1detail_1_1_file_base_impl"/>
+        <childnode refid="6" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>nn::hid::CTR::HidBase</label>
+        <link refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base"/>
+        <childnode refid="14" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn::os::CriticalSection</label>
+        <link refid="structnn_1_1os_1_1_critical_section"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>nn::os::Event</label>
+        <link refid="classnn_1_1os_1_1_event"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>nn::os::EventBase</label>
+        <link refid="classnn_1_1os_1_1_event_base"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="10" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>nn::os::LightEvent</label>
+        <link refid="classnn_1_1os_1_1_light_event"/>
+        <childnode refid="19" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>nn::os::LightSemaphore</label>
+        <link refid="classnn_1_1os_1_1_light_semaphore"/>
+        <childnode refid="21" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>nn::os::Semaphore</label>
+        <link refid="structnn_1_1os_1_1_semaphore"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>nn::os::Thread</label>
+        <link refid="classnn_1_1os_1_1_thread"/>
+        <childnode refid="12" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::srv::NotificationHandler</label>
+        <link refid="classnn_1_1srv_1_1_notification_handler"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <location file="lib/CtrSDK/include/nn/util/util_NonCopyable.h" line="8" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_NonCopyable.h" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="protected" virt="non-virtual"><scope>nn::util::ADLFireWall::NonCopyable</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::util::ADLFireWall::NonCopyable</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="protected" virt="non-virtual"><scope>nn::util::ADLFireWall::NonCopyable</scope><name>~NonCopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_58d889e92b967b98a0adfbe142d43dad" kind="dir">
+    <compoundname>CTR</compoundname>
+    <innerfile refid="os___cpp_exception_8h">os_CppException.h</innerfile>
+    <innerfile refid="os___error_handler_8h">os_ErrorHandler.h</innerfile>
+    <innerfile refid="os___thread_local_region_8h">os_ThreadLocalRegion.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/CTR/"/>
+  </compounddef>
+</doxygen>

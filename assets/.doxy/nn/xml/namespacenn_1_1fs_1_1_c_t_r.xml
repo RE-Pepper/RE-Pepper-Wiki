@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fs_1_1_c_t_r" kind="namespace" language="C++">
+    <compoundname>nn::fs::CTR</compoundname>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" prot="public">nn::fs::CTR::ContentPath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path" prot="public">nn::fs::CTR::DataContentArchivePath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_d_u_m_m_y1" prot="public">nn::fs::CTR::DUMMY1</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_d_u_m_m_y2" prot="public">nn::fs::CTR::DUMMY2</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" prot="public">nn::fs::CTR::ExeFsSectionNames</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" prot="public">nn::fs::CTR::ExtSaveDataArchivePath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" prot="public">nn::fs::CTR::ProgramDataPath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" prot="public">nn::fs::CTR::SystemSaveDataArchivePath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" prot="public">nn::fs::CTR::TitleDataPath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path" prot="public">nn::fs::CTR::UserSaveDataArchivePath</innerclass>
+    <innernamespace refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core">nn::fs::CTR::MPCore</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1_1_c_t_r_1ad846296999d6d485597f7a5010607f5d" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1fs_1_1_c_t_r_1_1_d_u_m_m_y1" kindref="compound">nn::fs::CTR::DUMMY1</ref></type>
+        <definition>typedef struct nn::fs::CTR::DUMMY1 nn::fs::CTR::Dummy1</definition>
+        <argsstring></argsstring>
+        <name>Dummy1</name>
+        <qualifiedname>nn::fs::CTR::Dummy1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="63" column="8"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1_1_c_t_r_1abd6bb66a717dd289896460bd38503b1d" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1fs_1_1_c_t_r_1_1_d_u_m_m_y2" kindref="compound">nn::fs::CTR::DUMMY2</ref></type>
+        <definition>typedef struct nn::fs::CTR::DUMMY2 nn::fs::CTR::Dummy2</definition>
+        <argsstring></argsstring>
+        <name>Dummy2</name>
+        <qualifiedname>nn::fs::CTR::Dummy2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="68" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

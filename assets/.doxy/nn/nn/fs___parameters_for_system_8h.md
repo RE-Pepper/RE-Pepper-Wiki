@@ -1,0 +1,95 @@
+
+
+# File fs\_ParametersForSystem.h
+
+
+
+[**FileList**](files.md) **>** [**CtrSDK**](dir_a581c965070d8303a3ac233c6039c11a.md) **>** [**include**](dir_af9254bf4d22366cfccd04cbaa9622aa.md) **>** [**nn**](dir_a185e92459882a1d3c4a0e5724303e75.md) **>** [**fs**](dir_ebaeb7c8987009097a9882ca30046667.md) **>** [**fs\_ParametersForSystem.h**](fs___parameters_for_system_8h.md)
+
+[Go to the source code of this file](fs___parameters_for_system_8h_source.md)
+
+
+
+* `#include <nn/fs/fs_Parameters.h>`
+* `#include <nn/util/util_SizedEnum.h>`
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Namespaces
+
+| Type | Name |
+| ---: | :--- |
+| namespace | [**nn**](namespacenn.md) <br> |
+| namespace | [**fs**](namespacenn_1_1fs.md) <br> |
+
+
+## Classes
+
+| Type | Name |
+| ---: | :--- |
+| struct | [**TitleDataSpecifier**](structnn_1_1fs_1_1_title_data_specifier.md) <br> |
+| struct | [**WriteOption**](structnn_1_1fs_1_1_write_option.md) <br> |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+The documentation for this class was generated from the following file `lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h`
+

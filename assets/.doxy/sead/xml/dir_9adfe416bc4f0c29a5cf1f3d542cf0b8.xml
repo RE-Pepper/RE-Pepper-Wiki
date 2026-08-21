@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_9adfe416bc4f0c29a5cf1f3d542cf0b8" kind="dir">
+    <compoundname>math</compoundname>
+    <innerfile refid="sead_bound_box_8h">seadBoundBox.h</innerfile>
+    <innerfile refid="sead_bound_box_8hpp">seadBoundBox.hpp</innerfile>
+    <innerfile refid="sead_math_base_8h">seadMathBase.h</innerfile>
+    <innerfile refid="sead_math_calc_common_8h">seadMathCalcCommon.h</innerfile>
+    <innerfile refid="sead_math_calc_common_8hpp">seadMathCalcCommon.hpp</innerfile>
+    <innerfile refid="sead_math_numbers_8h">seadMathNumbers.h</innerfile>
+    <innerfile refid="sead_math_policies_8h">seadMathPolicies.h</innerfile>
+    <innerfile refid="sead_matrix_8h">seadMatrix.h</innerfile>
+    <innerfile refid="sead_matrix_8hpp">seadMatrix.hpp</innerfile>
+    <innerfile refid="sead_matrix_calc_common_8h">seadMatrixCalcCommon.h</innerfile>
+    <innerfile refid="sead_matrix_calc_common_8hpp">seadMatrixCalcCommon.hpp</innerfile>
+    <innerfile refid="sead_quat_8h">seadQuat.h</innerfile>
+    <innerfile refid="sead_quat_8hpp">seadQuat.hpp</innerfile>
+    <innerfile refid="sead_quat_calc_common_8h">seadQuatCalcCommon.h</innerfile>
+    <innerfile refid="sead_quat_calc_common_8hpp">seadQuatCalcCommon.hpp</innerfile>
+    <innerfile refid="sead_vector_8h">seadVector.h</innerfile>
+    <innerfile refid="sead_vector_8hpp">seadVector.hpp</innerfile>
+    <innerfile refid="sead_vector_calc_ctr_8h">seadVectorCalcCtr.h</innerfile>
+    <innerfile refid="sead_vector_calc_ctr_8hpp">seadVectorCalcCtr.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/sead/include/math/"/>
+  </compounddef>
+</doxygen>

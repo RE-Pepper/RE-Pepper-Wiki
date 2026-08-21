@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1_result_1_1_const___l_m" kind="struct" language="C++" prot="public">
+    <compoundname>nn::Result::Const_LM</compoundname>
+    <templateparamlist>
+      <param>
+        <type><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Level</ref></type>
+      </param>
+      <param>
+        <type><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" kindref="member">Module</ref></type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/Result.h" line="180" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="180" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

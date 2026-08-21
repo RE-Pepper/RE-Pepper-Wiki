@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File Togezo.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-togezocpp">File Togezo.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_47d28cd3eb946f860e1fe0f4e720b9c2/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_0e41e8db2a159a2532eb8129063edf58/"><strong>Enemy</strong></a> <strong>&gt;</strong> <a href="../_togezo_8cpp/"><strong>Togezo.cpp</strong></a></p>
+<p><a href="../_togezo_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &quot;Enemy/Togezo.h&quot;
+
+#include &lt;LiveActor/alActorInitUtil.h&gt;
+#include &lt;LiveActor/alActorPoseKeeper.h&gt;
+#include &lt;LiveActor/alLiveActorFunction.h&gt;
+#include &lt;Nerve/alNerve.h&gt;
+#include &lt;Nerve/alNerveFunction.h&gt;
+#include &lt;Nerve/alNerveStateBase.h&gt;
+#include &lt;math/seadVector.h&gt;
+
+#include &quot;Enemy/EnemyStateBlowDown.h&quot;
+#include &quot;Enemy/WalkerStateChase.h&quot;
+#include &quot;Enemy/WalkerStateChaseParam.h&quot;
+#include &quot;Enemy/WalkerStateParam.h&quot;
+#include &quot;Enemy/WalkerStateWander.h&quot;
+#include &quot;Enemy/WalkerStateWanderParam.h&quot;
+#include &quot;Player/PlayerFunction.h&quot;
+
+namespace NrvTogezo
+{
+
+NERVE_DEF( Togezo, Wander );
+NERVE_DEF( Togezo, Turn );
+NERVE_DEF( Togezo, Search );
+NERVE_DEF( Togezo, Chase );
+NERVE_DEF( Togezo, Attack );
+NERVE_DEF( Togezo, BlowDown );
+
+} // namespace NrvTogezo
+
+static WalkerStateParam       sdata( sTogezoWalkerStateParam )( 4.0, 0.98, 0.85, 250.0, 700.0, 180.0, 70.0, 150.0 );
+static WalkerStateWanderParam sdata( sTogezoWalkerStateWanderParam )( 30, 90, 0.7, 4.0, 10.0, &quot;Walk&quot;, &quot;Wait&quot; );
+static WalkerStateChaseParam  sdata( sTogezoWalkerStateChaseParam )( false, true, 1.3, 30.0, 150.0, 3.0, 20.0, &quot;Run&quot;, &quot;Wait&quot; );
+
+Togezo::Togezo( const sead::SafeString&amp; name )
+    : MapObjActor( name ), mWanderState( nullptr ), mChaseState( nullptr ), mBlowDownState( nullptr )
+{
+}
+
+extern &quot;C&quot; void fn_0027a1a0( al::LiveActor* actor, const char* ); // inits al::Collider-&gt;_4
+extern &quot;C&quot; void fn_0027cf20( al::LiveActor* actor, const al::ActorInitInfo&amp; info, int );
+
+#ifdef NON_MATCHING
+
+// inline nop
+void Togezo::init( const al::ActorInitInfo&amp; info )
+{
+        al::initActorWithArchiveName( this, info, &quot;Togezo&quot; );
+        fn_0027a1a0( this, &quot;移動制限&quot; );
+        fn_0027cf20( this, info, 1 );
+        al::initNerve( this, &amp;NrvTogezo::Wander, 3 );
+        mWanderState   = new WalkerStateWander( this, al::getFrontPtr( this ), &amp;sTogezoWalkerStateParam, &amp;sTogezoWalkerStateWanderParam );
+        mChaseState    = new WalkerStateChase( this, al::getFrontPtr( this ), &amp;sTogezoWalkerStateParam, &amp;sTogezoWalkerStateChaseParam, false );
+        mBlowDownState = new EnemyStateBlowDown( this, nullptr, nullptr, 0 );
+        al::initNerveState( this, mWanderState, &amp;NrvTogezo::Wander, &quot;[State] 徘徊&quot; );
+        al::initNerveState( this, mChaseState, &amp;NrvTogezo::Chase, &quot;[State] 追いかけ&quot; );
+        al::initNerveState( this, mBlowDownState, &amp;NrvTogezo::BlowDown, &quot;[State] 吹っ飛び死&quot; );
+        makeActorAppeared();
+}
+
+#endif
+
+extern &quot;C&quot; bool fn_00272a9c();
+extern &quot;C&quot; bool fn_00259758( al::LiveActor*, const sead::Vector3f&amp;, const WalkerStateParam* );
+
+void Togezo::exeWander()
+{
+        al::updateNerveState( this );
+        if ( !fn_00272a9c() &amp;&amp; fn_00259758( this, al::getFront( this ), &amp;sTogezoWalkerStateParam ) )
+                al::setNerve( this, &amp;NrvTogezo::Turn );
+}
+
+extern &quot;C&quot; bool fn_00262988( al::LiveActor*, sead::Vector3f* out, const sead::Vector3f&amp;,
+        float ); // turn (?)
+extern &quot;C&quot; void fn_00258774( Togezo*, const WalkerStateParam* );
+
+#ifdef NON_MATCHING // inline nops
+
+void Togezo::exeTurn()
+{
+        if ( al::isFirstStep( this ) )
+                al::startAction( this, &quot;Turn&quot; );
+        fn_00258774( this, &amp;sTogezoWalkerStateParam );
+        if ( fn_00272a9c() )
+        {
+                al::setNerve( this, &amp;NrvTogezo::Wander );
+                return;
+        }
+        if ( fn_00262988( this, al::getFrontPtr( this ), rp::getPlayerPos(), 6.0 ) )
+                al::setNerve( this, &amp;NrvTogezo::Search );
+}
+
+#endif
+
+#ifdef NON_MATCHING
+
+// inline nops
+void Togezo::exeSearch()
+{
+        if ( al::isFirstStep( this ) )
+                al::startAction( this, &quot;Search&quot; );
+        fn_00258774( this, &amp;sTogezoWalkerStateParam );
+        fn_00262988( this, al::getFrontPtr( this ), rp::getPlayerPos(), 6.0 );
+        if ( al::isActionEnd( this ) )
+        {
+                if ( fn_00272a9c() )
+                        al::setNerve( this, &amp;NrvTogezo::Wander );
+                else
+                        al::setNerve( this, &amp;NrvTogezo::Chase );
+        }
+}
+
+#endif
+
+extern &quot;C&quot; bool fn_0026b6cc( WalkerStateWander*, const sead::Vector3f&amp; trans );
+
+void Togezo::exeChase()
+{
+        if ( al::updateNerveStateAndNextNerve( this, &amp;NrvTogezo::Wander ) )
+                fn_0026b6cc( mWanderState, al::getTrans( this ) );
+}
+
+#ifdef NON_MATCHING // inline nops
+
+void Togezo::exeAttack()
+{
+        if ( al::isFirstStep( this ) )
+        {
+                al::startAction( this, &quot;AttackSuccess&quot; );
+                fn_00258774( this, &amp;sTogezoWalkerStateParam );
+        }
+        if ( al::isActionEnd( this ) )
+                al::setNerve( this, &amp;NrvTogezo::Wander );
+}
+
+#endif
+
+extern &quot;C&quot; void fn_00279158( Togezo*, const EnemyStateBlowDown* );
+
+#ifdef NON_MATCHING
+void Togezo::exeBlowDown()
+{
+        if ( al::updateNerveState( this ) )
+        {
+                fn_00279158( this, mBlowDownState );
+                kill();
+        }
+}
+#endif
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fs___path_names_for_system_8h" kind="file" language="C++">
+    <compoundname>fs_PathNamesForSystem.h</compoundname>
+    <includes refid="fs___parameters_for_system_8h" local="no">nn/fs/fs_ParametersForSystem.h</includes>
+    <includes refid="util___int64_8h" local="no">nn/util/util_Int64.h</includes>
+    <includes refid="util___sized_enum_8h" local="no">nn/util/util_SizedEnum.h</includes>
+    <includedby refid="fslow___path_8h" local="no">fslow_Path.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>nn/fs/fs_Parameters.h</label>
+        <link refid="fs___parameters_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/fs/fs_ParametersForSystem.h</label>
+        <link refid="fs___parameters_for_system_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>fs_PathNamesForSystem.h</label>
+        <link refid="fs___path_names_for_system_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/util/util_Int64.h</label>
+        <link refid="util___int64_8h"/>
+      </node>
+      <node id="4">
+        <label>nn/util/util_SizedEnum.h</label>
+        <link refid="util___sized_enum_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>fs_FileBase.h</label>
+        <link refid="fs___file_base_8h"/>
+      </node>
+      <node id="3">
+        <label>fs_UserArchive.h</label>
+        <link refid="fs___user_archive_8h"/>
+      </node>
+      <node id="4">
+        <label>fs_UserFileSystem.h</label>
+        <link refid="fs___user_file_system_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>fs_FileSystemBase.h</label>
+        <link refid="fs___file_system_base_8h"/>
+      </node>
+      <node id="1">
+        <label>fs_PathNamesForSystem.h</label>
+        <link refid="fs___path_names_for_system_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fslow_Path.h</label>
+        <link refid="fslow___path_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>fs_UserFileSystem.cpp</label>
+        <link refid="fs___user_file_system_8cpp"/>
+      </node>
+      <node id="5">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" prot="public">nn::fs::CTR::ExeFsSectionNames</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" prot="public">nn::fs::CTR::ContentPath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" prot="public">nn::fs::CTR::ProgramDataPath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" prot="public">nn::fs::CTR::TitleDataPath</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs">nn::fs</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs_1_1_c_t_r">nn::fs::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="fs___parameters_for_system_8h" kindref="compound">nn/fs/fs_ParametersForSystem.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___int64_8h" kindref="compound">nn/util/util_Int64.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___sized_enum_8h" kindref="compound">nn/util/util_SizedEnum.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fs<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" kindref="compound">ExeFsSectionNames</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" kindref="compound">ExeFsSectionNames</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65a" kindref="member">Tag</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aab4ebfbafd814c0342aa3cfc6db93fbfb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aab4ebfbafd814c0342aa3cfc6db93fbfb" kindref="member">TAG_ROMFS</ref>,</highlight></codeline>
+<codeline lineno="21" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa06828c9f9956ffa0f47ff61463ef818d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa06828c9f9956ffa0f47ff61463ef818d" kindref="member">TAG_EXEFS</ref>,</highlight></codeline>
+<codeline lineno="22" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa16101be1197d0095461b451f4939734a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa16101be1197d0095461b451f4939734a" kindref="member">TAG_SYSTEM_MENU_DATA</ref>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa3989cd44cf465c30c6cf867ef22a3a1f" kindref="member">TAG_PROGRAM_INFO</ref></highlight></codeline>
+<codeline lineno="24" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa3989cd44cf465c30c6cf867ef22a3a1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1add6d45c061b936d06b13dd25a255a9d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1util_1_1_int64" kindref="compound">util::Int64&lt;s64&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1add6d45c061b936d06b13dd25a255a9d8" kindref="member">id</ref>;<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>s64<sp/>IS<sp/>A<sp/>PLACEHOLDER!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1ada2c859df93dc0b44591bbdd087ee176" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;Tag&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1ada2c859df93dc0b44591bbdd087ee176" kindref="member">tag</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a4dff09f01406ed64e81cf7ac9e17cb9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a4dff09f01406ed64e81cf7ac9e17cb9a" kindref="member">MakeRomfsPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="30" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a6eb903408ac1cfa8d1e7416b810357f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a6eb903408ac1cfa8d1e7416b810357f4" kindref="member">MakeExefsPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="31" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a2d87af71831096333d0e6c2012f9ca82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a2d87af71831096333d0e6c2012f9ca82" kindref="member">MakeSystemMenuDataPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="32" refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a95add6748ee49f3fd764a52951be1733" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a95add6748ee49f3fd764a52951be1733" kindref="member">MakeProgramInfoPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" kindref="compound">ProgramDataPath</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" kindref="compound">ExeFsSectionNames</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6" kindref="member">Tag</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6a9d52712725cbb7dddf51cabfb268ee57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6a9d52712725cbb7dddf51cabfb268ee57" kindref="member">TAG_ROMFS</ref>,</highlight></codeline>
+<codeline lineno="40" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6aa37062d4c19ce001ed69f3ee61eff429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6aa37062d4c19ce001ed69f3ee61eff429" kindref="member">TAG_EXEFS</ref>,</highlight></codeline>
+<codeline lineno="41" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6afa2ed3f700fa595a9206419bbf1c30c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6afa2ed3f700fa595a9206419bbf1c30c9" kindref="member">TAG_SYSTEM_MENU_DATA</ref>,</highlight></codeline>
+<codeline lineno="42" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6ac91a5396ec643b14e4b9eacbac3fe778" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6ac91a5396ec643b14e4b9eacbac3fe778" kindref="member">TAG_SAVE_DATA</ref>,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6a95370c33838721315c22ec6ad909f51a" kindref="member">TAG_CONTENT</ref></highlight></codeline>
+<codeline lineno="44" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab0bfdbee470c2182afa7951f776075a6a95370c33838721315c22ec6ad909f51a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab5443b1a5080fcf410e8ba15173729cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1util_1_1_int64" kindref="compound">util::Int64&lt;s64&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ab5443b1a5080fcf410e8ba15173729cb" kindref="member">id</ref>;<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>s64<sp/>IS<sp/>A<sp/>PLACEHOLDER!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ada20cc990b04f7b930e0f227a9ae5b51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;Tag&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ada20cc990b04f7b930e0f227a9ae5b51" kindref="member">tag</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1abac24008994c3ceb7ffe79b9a9cd86c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" kindref="compound">ProgramDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1abac24008994c3ceb7ffe79b9a9cd86c9" kindref="member">MakeRomFsPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="50" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1a560050a78b53dd9aaeca3bd12e914776" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" kindref="compound">ProgramDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1a560050a78b53dd9aaeca3bd12e914776" kindref="member">MakeExeFsPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="51" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1a54f46fcfca5fe4df890ceac6464ab951" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" kindref="compound">ProgramDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1a54f46fcfca5fe4df890ceac6464ab951" kindref="member">MakeSaveMenuDataPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="52" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1a430e4b68502ca2a93f00633563dd03fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" kindref="compound">ProgramDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1a430e4b68502ca2a93f00633563dd03fe" kindref="member">MakeSaveDataPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="53" refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ac6331b4a0a0b9ee6d349098e56948b6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" kindref="compound">ProgramDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path_1ac6331b4a0a0b9ee6d349098e56948b6c" kindref="member">MakeContentDataPath</ref><sp/>()<sp/>{}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" kindref="compound">ExeFsSectionNames</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4e" kindref="member">Tag</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea57a3e61a4f334d8e6f863c09d72a00bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea57a3e61a4f334d8e6f863c09d72a00bb" kindref="member">TAG_CONTENT_FILE</ref>,</highlight></codeline>
+<codeline lineno="61" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ead26d4e1039a62e513cfd2e704ef1eb39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ead26d4e1039a62e513cfd2e704ef1eb39" kindref="member">TAG_SAVE_DATA_FILE</ref>,</highlight></codeline>
+<codeline lineno="62" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4eacbde95ccc2b80b7ce7691e7beb7d535d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4eacbde95ccc2b80b7ce7691e7beb7d535d" kindref="member">TAG_LEGACY_CONTENT_FILE</ref>,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea45ad75c89d7e028f30d940bcef0fcd77" kindref="member">TAG_LEGACY_SUBBANNER_FILE</ref></highlight></codeline>
+<codeline lineno="64" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a103250a0e3499149172d90b093820e4ea45ad75c89d7e028f30d940bcef0fcd77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0587411787593c5d10a910c79f079b15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;Tag&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0587411787593c5d10a910c79f079b15" kindref="member">tag</ref>;</highlight></codeline>
+<codeline lineno="67" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0f7f7c7d63e6e2e66f969dadcc782ae8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a0f7f7c7d63e6e2e66f969dadcc782ae8" kindref="member">contentIdx</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a22c6898f216d9d6f0444d67753e06d71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a22c6898f216d9d6f0444d67753e06d71" kindref="member">MakeContentDataPath</ref><sp/>(<ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref><sp/>idx)<sp/>{}</highlight></codeline>
+<codeline lineno="70" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a91c70ea2925e6735bb6a27f6df6f2ee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a91c70ea2925e6735bb6a27f6df6f2ee2" kindref="member">MakeSaveDataPath</ref><sp/>(<ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref><sp/>idx)<sp/>{}</highlight></codeline>
+<codeline lineno="71" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1ad2e144a2ad762b3448a66554a4eecbaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1ad2e144a2ad762b3448a66554a4eecbaf" kindref="member">MakeLegacyContentPath</ref><sp/>(<ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref><sp/>idx)<sp/>{}</highlight></codeline>
+<codeline lineno="72" refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a8c6294a4148bb11f805581aa062a977f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" kindref="compound">TitleDataPath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path_1a8c6294a4148bb11f805581aa062a977f" kindref="member">MakeLegacySubbannerPath</ref><sp/>(<ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref><sp/>idx)<sp/>{}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File CoinRotater.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-coinrotatercpp">File CoinRotater.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_47d28cd3eb946f860e1fe0f4e720b9c2/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_d5af9f6f62d27d9e3db1b7ff0fb6c0e1/"><strong>MapObj</strong></a> <strong>&gt;</strong> <a href="../_coin_rotater_8cpp/"><strong>CoinRotater.cpp</strong></a></p>
+<p><a href="../_coin_rotater_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &quot;MapObj/CoinRotater.h&quot;
+
+#include &lt;Scene/alSceneObjHolder.h&gt;
+
+#include &quot;Scene/SceneObjFactory.h&quot;
+
+#ifdef NON_MATCHING
+// need to find out what all the space at 0x68 is used for
+CoinRotater::CoinRotater()
+    : LiveActor( &quot;コイン回転管理&quot; )
+{
+}
+
+#endif
+
+const char* CoinRotater::getSceneObjName() const
+{
+        return &quot;コインローテータ&quot;;
+}
+
+extern &quot;C&quot; void fn_00277de0( al::LiveActor*, const al::ActorInitInfo&amp; );
+
+void CoinRotater::initAfterPlacementSceneObj( const al::ActorInitInfo&amp; info )
+{
+        fn_00277de0( this, info );
+        makeActorAppeared();
+}
+
+namespace rp
+{
+
+void createCoinRotater()
+{
+        al::createSceneObj( SceneObjType_CoinRotater );
+}
+
+float getCoinRotateY()
+{
+        CoinRotater* rotater = static_cast&lt;CoinRotater*&gt;( al::getSceneObj( SceneObjType_CoinRotater ) );
+        return rotater-&gt;getRotateY();
+}
+
+} // namespace rp
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

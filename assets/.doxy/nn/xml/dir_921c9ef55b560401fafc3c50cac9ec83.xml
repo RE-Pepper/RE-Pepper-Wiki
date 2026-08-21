@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_921c9ef55b560401fafc3c50cac9ec83" kind="dir">
+    <compoundname>ARMv6</compoundname>
+    <innerfile refid="nstd___string_8c">nstd_String.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/nstd/ARMv6/"/>
+  </compounddef>
+</doxygen>

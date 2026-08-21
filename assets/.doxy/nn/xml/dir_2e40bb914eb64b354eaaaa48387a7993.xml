@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_2e40bb914eb64b354eaaaa48387a7993" kind="dir">
+    <compoundname>crt0</compoundname>
+    <innerdir refid="dir_165870d69a5bb9db0cc3d4369e8cb08b">MPCore</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/crt0/"/>
+  </compounddef>
+</doxygen>

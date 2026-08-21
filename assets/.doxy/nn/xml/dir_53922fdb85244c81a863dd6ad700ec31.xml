@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_53922fdb85244c81a863dd6ad700ec31" kind="dir">
+    <compoundname>os</compoundname>
+    <innerdir refid="dir_58d889e92b967b98a0adfbe142d43dad">CTR</innerdir>
+    <innerfile refid="os___critical_section_8h">os_CriticalSection.h</innerfile>
+    <innerfile refid="os___event_8h">os_Event.h</innerfile>
+    <innerfile refid="os___handle_object_8h">os_HandleObject.h</innerfile>
+    <innerfile refid="os___light_event_8h">os_LightEvent.h</innerfile>
+    <innerfile refid="os___light_semaphore_8h">os_LightSemaphore.h</innerfile>
+    <innerfile refid="os___memory_types_8h">os_MemoryTypes.h</innerfile>
+    <innerfile refid="os___result_8h">os_Result.h</innerfile>
+    <innerfile refid="os___semaphore_8h">os_Semaphore.h</innerfile>
+    <innerfile refid="os___shared_info_8h">os_SharedInfo.h</innerfile>
+    <innerfile refid="os___svc_types_8autogen_8h">os_SvcTypes.autogen.h</innerfile>
+    <innerfile refid="os___synchronization_8h">os_Synchronization.h</innerfile>
+    <innerfile refid="os___thread_8h">os_Thread.h</innerfile>
+    <innerfile refid="os___thread_local_storage_8h">os_ThreadLocalStorage.h</innerfile>
+    <innerfile refid="os___tick_8h">os_Tick.h</innerfile>
+    <innerfile refid="os___types_8h">os_Types.h</innerfile>
+    <innerfile refid="os___waitable_counter_8h">os_WaitableCounter.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/"/>
+  </compounddef>
+</doxygen>

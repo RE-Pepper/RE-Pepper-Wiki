@@ -1,0 +1,34 @@
+
+
+# File cfg\_RegionCode.h
+
+[**File List**](files.md) **>** [**cfg**](dir_d61dd7901f361aace8efbc35eb1e8191.md) **>** [**CTR**](dir_6286be2e3839b9d14dbaf851f98cbdb4.md) **>** [**cfg\_RegionCode.h**](cfg___region_code_8h.md)
+
+[Go to the documentation of this file](cfg___region_code_8h.md)
+
+
+```C++
+#pragma once
+
+namespace nn {
+namespace cfg {
+namespace CTR {
+
+enum CfgRegionCode
+{
+        CFG_REGION_JAPAN     = 0,
+        CFG_REGION_AMERICA   = 1,
+        CFG_REGION_EUROPE    = 2,
+        CFG_REGION_AUSTRALIA = 3,
+        CFG_REGION_CHINA     = 4,
+        CFG_REGION_KOREA     = 5,
+        CFG_REGION_TAIWAN    = 6,
+        CFG_REGION_MAX       = 7,
+};
+
+} // namespace CTR
+} // namespace cfg
+} // namespace nn
+```
+
+

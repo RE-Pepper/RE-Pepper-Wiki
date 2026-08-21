@@ -1,0 +1,43 @@
+
+
+# File os\_ThreadLocalRegion.h
+
+[**File List**](files.md) **>** [**CTR**](dir_58d889e92b967b98a0adfbe142d43dad.md) **>** [**os\_ThreadLocalRegion.h**](os___thread_local_region_8h.md)
+
+[Go to the documentation of this file](os___thread_local_region_8h.md)
+
+
+```C++
+#pragma once
+
+namespace nn {
+namespace os {
+namespace CTR {
+
+struct ThreadLocalRegion
+{
+        uptr  tls[16];
+        uptr  handlerAddress;
+        uptr  handlerStackBottomAddress;
+        bit8  reserved[20];
+        void* ehGlobalsAddr;
+        bit32 ehGlobals[8];
+        bit32 messageBuffer[64];
+        bit32 receiveBuffer[32];
+};
+
+static_assert_(sizeof(ThreadLocalRegion) == 0x200);
+
+inline ThreadLocalRegion* GetThreadLocalRegion()
+{
+        ThreadLocalRegion* p;
+        __asm { MRC p15, 0, p,c13,c0, 3 }
+        return p;
+}
+
+} // namespace CTR
+} // namespace os
+} // namespace nn
+```
+
+

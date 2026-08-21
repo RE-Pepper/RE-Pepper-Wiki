@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cfg___region_code_8h" kind="file" language="C++">
+    <compoundname>cfg_RegionCode.h</compoundname>
+    <includedby refid="cfg___ipc_user_8h" local="no">cfg_IpcUser.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>cfg_IpcUser.h</label>
+        <link refid="cfg___ipc_user_8h"/>
+      </node>
+      <node id="1">
+        <label>cfg_RegionCode.h</label>
+        <link refid="cfg___region_code_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg">nn::cfg</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg_1_1_c_t_r">nn::cfg::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">cfg<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88" kindref="member">CfgRegionCode</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a335b897017ee7f98ed8abb27521be40a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a335b897017ee7f98ed8abb27521be40a" kindref="member">CFG_REGION_JAPAN</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ab15778192b9a78f83245574b2818af30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ab15778192b9a78f83245574b2818af30" kindref="member">CFG_REGION_AMERICA</ref><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a0e29e418d8e63497e9275afbb55898b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a0e29e418d8e63497e9275afbb55898b5" kindref="member">CFG_REGION_EUROPE</ref><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ae8d04cf90aa58f6fc1c4e63d55e7f179" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ae8d04cf90aa58f6fc1c4e63d55e7f179" kindref="member">CFG_REGION_AUSTRALIA</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="13" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ab26d54a38c54737eb66aff6bd48cfe0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88ab26d54a38c54737eb66aff6bd48cfe0f" kindref="member">CFG_REGION_CHINA</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88aef96f3376e83b8ccd4819714143b0988" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88aef96f3376e83b8ccd4819714143b0988" kindref="member">CFG_REGION_KOREA</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="15" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a8d02031355335693c73f42ea642183db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a8d02031355335693c73f42ea642183db" kindref="member">CFG_REGION_TAIWAN</ref><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="16" refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a5849e666a019774fe882f1d77b0aa374" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88a5849e666a019774fe882f1d77b0aa374" kindref="member">CFG_REGION_MAX</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>cfg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_RegionCode.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class PlayerActionConditionAnimEnd - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-playeractionconditionanimend">Class PlayerActionConditionAnimEnd</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="./"><strong>PlayerActionConditionAnimEnd</strong></a></p>
+<ul>
+<li><code>#include &lt;PlayerActionConditionAnimEnd.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../class_player_action_condition/">PlayerActionCondition</a></p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-playeractionconditionanimend"><strong>PlayerActionConditionAnimEnd</strong></a> (<a href="../class_i_use_player_animator/"><strong>IUsePlayerAnimator</strong></a> * animator, <a href="./#variable-manimendframe"><strong>const</strong></a> <a href="./#variable-manimendframe"><strong>char</strong></a> * animName, <a href="./#variable-manimendframe"><strong>int</strong></a> animEndFrame) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">virtual <a href="./#variable-manimendframe"><strong>bool</strong></a></td>
+<td style="text-align: left;"><a href="#function-check"><strong>check</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-inherited-from-playeractioncondition">Public Functions inherited from PlayerActionCondition</h2>
+<p>See <a href="../class_player_action_condition/">PlayerActionCondition</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">virtual bool</td>
+<td style="text-align: left;"><a href="../class_player_action_condition/#function-check"><strong>check</strong></a> () = 0<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">virtual void</td>
+<td style="text-align: left;"><a href="../class_player_action_condition/#function-setup"><strong>setup</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">virtual</td>
+<td style="text-align: left;"><a href="../class_player_action_condition/#function-playeractioncondition"><strong>~PlayerActionCondition</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-playeractionconditionanimend">function PlayerActionConditionAnimEnd</h3>
+<pre><code class="language-C++">PlayerActionConditionAnimEnd::PlayerActionConditionAnimEnd (
+    IUsePlayerAnimator * animator,
+    const  char * animName,
+    int animEndFrame
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-check">function check</h3>
+<pre><code class="language-C++">virtual bool PlayerActionConditionAnimEnd::check () 
+</code></pre>
+<p>Implements <a href="../class_player_action_condition/#function-check"><em>PlayerActionCondition::check</em></a></p>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>Game/backup/include/Player/PlayerActionConditionAnimEnd.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

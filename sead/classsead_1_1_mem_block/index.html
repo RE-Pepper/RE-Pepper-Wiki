@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class sead::MemBlock - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-seadmemblock">Class sead::MemBlock</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacesead/"><strong>sead</strong></a> <strong>&gt;</strong> <a href="./"><strong>MemBlock</strong></a></p>
+<ul>
+<li><code>#include &lt;seadMemBlock.h&gt;</code></li>
+</ul>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>MemBlock</strong></a> *</td>
+<td style="text-align: left;"><a href="#function-findmanagearea"><strong>FindManageArea</strong></a> (void * ptr) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../_l_m_s___types_8h/#typedef-u32"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#function-getoffset"><strong>getOffset</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="protected-attributes">Protected Attributes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../_l_m_s___types_8h/#typedef-u16"><strong>u16</strong></a></td>
+<td style="text-align: left;"><a href="#variable-mheapchecktag"><strong>mHeapCheckTag</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classsead_1_1_list_node/"><strong>ListNode</strong></a></td>
+<td style="text-align: left;"><a href="#variable-mlistnode"><strong>mListNode</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../_l_m_s___types_8h/#typedef-u16"><strong>u16</strong></a></td>
+<td style="text-align: left;"><a href="#variable-moffset"><strong>mOffset</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">size_t</td>
+<td style="text-align: left;"><a href="#variable-msize"><strong>mSize</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-findmanagearea">function FindManageArea</h3>
+<pre><code class="language-C++">static MemBlock * sead::MemBlock::FindManageArea (
+    void * ptr
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getoffset">function getOffset</h3>
+<pre><code class="language-C++">static inline u32 sead::MemBlock::getOffset () 
+</code></pre>
+<hr>
+<h2 id="protected-attributes-documentation">Protected Attributes Documentation</h2>
+<h3 id="variable-mheapchecktag">variable mHeapCheckTag</h3>
+<pre><code class="language-C++">u16 sead::MemBlock::mHeapCheckTag;
+</code></pre>
+<hr>
+
+<h3 id="variable-mlistnode">variable mListNode</h3>
+<pre><code class="language-C++">ListNode sead::MemBlock::mListNode;
+</code></pre>
+<hr>
+
+<h3 id="variable-moffset">variable mOffset</h3>
+<pre><code class="language-C++">u16 sead::MemBlock::mOffset;
+</code></pre>
+<hr>
+
+<h3 id="variable-msize">variable mSize</h3>
+<pre><code class="language-C++">size_t sead::MemBlock::mSize;
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/sead/include/heap/seadMemBlock.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

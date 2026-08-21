@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File nstd_Printf.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-nstd_printfcpp">File nstd_Printf.cpp</h1>
+<p><a href="../files/"><strong>FileList</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_6ad72fc0abbc32b2f59992fddd21f3c1/"><strong>sources</strong></a> <strong>&gt;</strong> <a href="../dir_80d58af41f6b82f04b97d791f7cfcb5d/"><strong>libraries</strong></a> <strong>&gt;</strong> <a href="../dir_9715559b47b1245820ffeea5f32f66cc/"><strong>nstd</strong></a> <strong>&gt;</strong> <a href="./"><strong>nstd_Printf.cpp</strong></a></p>
+<p><a href="../nstd___printf_8cpp_source/">Go to the source code of this file</a></p>
+<ul>
+<li><code>#include &lt;string&gt;</code></li>
+</ul>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespace_r_p___s_h_u_t_u_p/"><strong>RP_SHUTUP</strong></a> <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespacenn/"><strong>nn</strong></a> <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespacenn_1_1nstd/"><strong>nstd</strong></a> <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">struct</td>
+<td style="text-align: left;"><a href="../struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl/"><strong>TVSNPrintfImpl</strong></a> &lt;<a href="../struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl/"><strong>typename</strong></a> Type&gt;<br></td>
+</tr>
+<tr>
+<td style="text-align: right;">struct</td>
+<td style="text-align: left;"><a href="../struct_r_p___s_h_u_t_u_p_1_1_t_v_s_n_printf_impl_1_1dst__string/"><strong>dst_string</strong></a> <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-nnnstdtsnprintf"><strong>nnnstdTSNPrintf</strong></a> (char * dst, size_t len, const char * fmt, ...) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-nnnstdtsprintf"><strong>nnnstdTSPrintf</strong></a> (char * dst, const char * fmt, ...) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s32"><strong>s32</strong></a></td>
+<td style="text-align: left;"><a href="#function-nnnstdtvsnprintf"><strong>nnnstdTVSNPrintf</strong></a> (char * dst, size_t len, const char * fmt, va_list vlist) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-nnnstdtsnprintf">function nnnstdTSNPrintf</h3>
+<pre><code class="language-C++">s32 nnnstdTSNPrintf (
+    char * dst,
+    size_t len,
+    const char * fmt,
+    ...
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-nnnstdtsprintf">function nnnstdTSPrintf</h3>
+<pre><code class="language-C++">s32 nnnstdTSPrintf (
+    char * dst,
+    const char * fmt,
+    ...
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-nnnstdtvsnprintf">function nnnstdTVSNPrintf</h3>
+<pre><code class="language-C++">s32 nnnstdTVSNPrintf (
+    char * dst,
+    size_t len,
+    const char * fmt,
+    va_list vlist
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/sources/libraries/nstd/nstd_Printf.cpp</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::os::WaitableCounter - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnoswaitablecounter">Class nn::os::WaitableCounter</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1os/"><strong>os</strong></a> <strong>&gt;</strong> <a href="./"><strong>WaitableCounter</strong></a></p>
+<ul>
+<li><code>#include &lt;os_WaitableCounter.h&gt;</code></li>
+</ul>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-arbitrateaddress"><strong>ArbitrateAddress</strong></a> (<a href="../namespacenn_1_1os/#enum-arbitrationtype"><strong>ArbitrationType</strong></a> type, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a> value) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-decrementandwaitiflessthan"><strong>DecrementAndWaitIfLessThan</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> value) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-decrementandwaitiflessthanwithtimeout"><strong>DecrementAndWaitIfLessThanWithTimeout</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> value) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-finalize"><strong>Finalize</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-initialize"><strong>Initialize</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-signal"><strong>Signal</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> value) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-signalall"><strong>SignalAll</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-waitiflessthan"><strong>WaitIfLessThan</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> value) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="#function-waitiflessthanwithtimeout"><strong>WaitIfLessThanWithTimeout</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> value) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./#typedef-valuetype"><strong>ValueType</strong></a> &amp;</td>
+<td style="text-align: left;"><a href="#function-operator"><strong>operator*</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">const <a href="./#typedef-valuetype"><strong>ValueType</strong></a> &amp;</td>
+<td style="text-align: left;"><a href="#function-operator_1"><strong>operator*</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./#typedef-valuetype"><strong>ValueType</strong></a> *</td>
+<td style="text-align: left;"><a href="#function-operator-"><strong>operator-&gt;</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-arbitrateaddress">function ArbitrateAddress</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::ArbitrateAddress (
+    ArbitrationType type,
+    s32 value
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-decrementandwaitiflessthan">function DecrementAndWaitIfLessThan</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::DecrementAndWaitIfLessThan (
+    s32 value
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-decrementandwaitiflessthanwithtimeout">function DecrementAndWaitIfLessThanWithTimeout</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::DecrementAndWaitIfLessThanWithTimeout (
+    s32 value
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-finalize">function Finalize</h3>
+<pre><code class="language-C++">void nn::os::WaitableCounter::Finalize () 
+</code></pre>
+<hr>
+
+<h3 id="function-initialize">function Initialize</h3>
+<pre><code class="language-C++">void nn::os::WaitableCounter::Initialize () 
+</code></pre>
+<hr>
+
+<h3 id="function-signal">function Signal</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::Signal (
+    s32 value
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-signalall">function SignalAll</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::SignalAll () 
+</code></pre>
+<hr>
+
+<h3 id="function-waitiflessthan">function WaitIfLessThan</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::WaitIfLessThan (
+    s32 value
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-waitiflessthanwithtimeout">function WaitIfLessThanWithTimeout</h3>
+<pre><code class="language-C++">inline Result nn::os::WaitableCounter::WaitIfLessThanWithTimeout (
+    s32 value
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-operator">function operator*</h3>
+<pre><code class="language-C++">inline ValueType &amp; nn::os::WaitableCounter::operator* () 
+</code></pre>
+<hr>
+
+<h3 id="function-operator_1">function operator*</h3>
+<pre><code class="language-C++">inline const ValueType &amp; nn::os::WaitableCounter::operator* () const
+</code></pre>
+<hr>
+
+<h3 id="function-operator-">function operator-&gt;</h3>
+<pre><code class="language-C++">inline ValueType * nn::os::WaitableCounter::operator-&gt; () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/os/os_WaitableCounter.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

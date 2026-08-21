@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user" kind="class" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::IpcUser</compoundname>
+    <includes refid="cfg___ipc_user_8h" local="no">cfg_IpcUser.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1a280230a62d4f5c057d0daef3d045ebcd" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>Handle nn::cfg::CTR::detail::IpcUser::s_Session</definition>
+        <argsstring></argsstring>
+        <name>s_Session</name>
+        <qualifiedname>nn::cfg::CTR::detail::IpcUser::s_Session</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" line="15" column="16" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1ad1b751e72a7de2ae1659b7d76540cc7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::IpcUser::GetConfig</definition>
+        <argsstring>(void *pData, size_t size, bit32 key) const</argsstring>
+        <name>GetConfig</name>
+        <qualifiedname>nn::cfg::CTR::detail::IpcUser::GetConfig</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pData</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" line="18" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1a0aea09a6820e1885ce1507224f3cdc13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::IpcUser::GetRegion</definition>
+        <argsstring>(CfgRegionCode *) const</argsstring>
+        <name>GetRegion</name>
+        <qualifiedname>nn::cfg::CTR::detail::IpcUser::GetRegion</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a19906ee1628aada040f1b097fb61ea88" kindref="member">CfgRegionCode</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" line="19" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1a933b15b489ac0cdbe724b1707eca3570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::IpcUser::GetTransferableId</definition>
+        <argsstring>(bit32, bit64 *)</argsstring>
+        <name>GetTransferableId</name>
+        <qualifiedname>nn::cfg::CTR::detail::IpcUser::GetTransferableId</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" line="20" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1ab55f55c49597dfe079fae2dedc9eac76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::cfg::CTR::detail::IpcUser::IsCoppacsSupported</definition>
+        <argsstring>(bool *)</argsstring>
+        <name>IsCoppacsSupported</name>
+        <qualifiedname>nn::cfg::CTR::detail::IpcUser::IsCoppacsSupported</qualifiedname>
+        <param>
+          <type>bool *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" line="21" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::Handle</label>
+        <link refid="classnn_1_1_handle"/>
+      </node>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::IpcUser</label>
+        <link refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>s_Session</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" line="12" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_IpcUser.h" bodystart="13" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1ad1b751e72a7de2ae1659b7d76540cc7e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::IpcUser</scope><name>GetConfig</name></member>
+      <member refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1a0aea09a6820e1885ce1507224f3cdc13" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::IpcUser</scope><name>GetRegion</name></member>
+      <member refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1a933b15b489ac0cdbe724b1707eca3570" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::IpcUser</scope><name>GetTransferableId</name></member>
+      <member refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1ab55f55c49597dfe079fae2dedc9eac76" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::IpcUser</scope><name>IsCoppacsSupported</name></member>
+      <member refid="classnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_ipc_user_1a280230a62d4f5c057d0daef3d045ebcd" prot="private" virt="non-virtual"><scope>nn::cfg::CTR::detail::IpcUser</scope><name>s_Session</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File project_globals.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-project_globalsh">File project_globals.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_c33286056d2acf479cd8641ef845fec1/"><strong>Game</strong></a> <strong>&gt;</strong> <a href="../project__globals_8h/"><strong>project_globals.h</strong></a></p>
+<p><a href="../project__globals_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;nn/types.h&gt;
+
+#ifndef RP_SHUTUP
+#define RP_SHUTUP \
+        _Pragma(&quot;diag_suppress 177,550,940&quot;)
+#endif
+
+// Assertion
+#ifndef static_assert
+#define static_assert(COND, MSG) typedef int __static_assert_failed[(COND) ? 1 : -1]
+#endif
+#define static_assert_(COND) static_assert(COND, #COND)
+
+#ifdef __arm__ // Used by compiler
+
+#define force_section(Section) __attribute__((section(Section)))
+
+#define force_func_section(Symbol) force_section(&quot;i.&quot; #Symbol)
+
+#define var(Namespace, Name, Type) static Type force_section(&quot;.sdata_&quot; #Namespace &quot;::&quot; #Name) Name
+#define varc(Namespace, Class, Name, Type) Type force_section(&quot;.sdata_&quot; #Namespace &quot;::&quot; #Class &quot;::&quot; #Name) Class::Name
+#define varg(Name, Type) static Type force_section(&quot;.sdata_&quot; #Name) Name
+#define varcg(Class, Name, Type) Type force_section(&quot;.sdata_&quot; #Name) Class::Name
+
+#define asm_ext(Name, Sect) __asm force_section(Sect) Name
+#define asm(Name) asm_ext(Name, &quot;i.&quot; #Name)
+
+#else // Used by editor
+
+#define NN_SWITCH_DISABLE_ASSERT_WARNING_FOR_SDK 1
+#define NN_SWITCH_DISABLE_DEBUG_PRINTING_FOR_SDK 1
+
+// Force a section name
+#define force_section(Section)
+
+#define force_func_section(Symbol)
+
+// Force a section for static namespaced variables
+// Example: var(nn::fs, s_Initialized, bool) = False // == bool s_Initialized;
+//     -&gt; nn::fs::s_Initialized in symbol map
+// Example: var(nn::fs, s_Array, u32)[64] = ...
+//     -&gt; nn::fs::s_Array in symbol map
+#define var(Namespace, Name, Type) Type Name
+// the class variant
+// Example: varc(al, ActorActionKeeper, sGravity, f32) = 0.f; // == f32 ActorActionKeeper::sGravity = 0.f;
+#define varc(Namespace, Class, Name, Type) Type Class::Name
+
+// Force a section for static global variables
+// Example: varcg(s_Something, u32) = 3 // == u32 s_Something = 3;
+//     -&gt; s_Something in symbol map
+#define varg(Name, Type) Type Name
+// the class variant
+// Example: varcg(CoolEnemy, f32) = 0.f; // == f32 CoolEnemy
+#define varcg(Name, Class, Type) Type Class::Name
+
+// Force a section for assembly functions, with custom namespace (for some nn stuff)
+// Example: asm_ext(SendSyncRequest, &quot;.nn.svc.SendSyncRequest&quot;) (Handle handle) { ... }
+//     -&gt; WIP
+#define asm_ext(Name, Sect) Name
+
+// Force a section for assembly functions
+// Example: asm(nninitRegion) (void) { ... }
+#define asm(Name) Name
+
+#define __weak
+#define __clrex()
+#endif
+
+#define S_(x) #x
+#define S(x) S_(x)
+
+// Force Sections
+// Note: __BASE_FILE_NAME__ is set by the build system.
+// RO
+#define _SECT_RO &quot;.constdata.&quot; __BASE_FILE_NAME__
+_Pragma(S(arm section rodata=_SECT_RO))
+// 
+#define _SECT_RW &quot;.data.&quot; __BASE_FILE_NAME__
+_Pragma(S(arm section rwdata=_SECT_RW))
+// ZI
+#define _SECT_ZI &quot;.bss.&quot; __BASE_FILE_NAME__
+_Pragma(S(arm section zidata=_SECT_ZI))
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

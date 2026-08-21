@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_2f77558cefdcdd091fbae5ab2d60e6ab" kind="dir">
+    <compoundname>srv</compoundname>
+    <innerfile refid="srv___api_8h">srv_Api.h</innerfile>
+    <innerfile refid="srv___manager_8h">srv_Manager.h</innerfile>
+    <innerfile refid="srv___result_8h">srv_Result.h</innerfile>
+    <innerfile refid="srv___service_8h">srv_Service.h</innerfile>
+    <innerfile refid="srv___types_8h">srv_Types.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/srv/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,959 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_result_8h" kind="file" language="C++">
+    <compoundname>Result.h</compoundname>
+    <includedby refid="cfg___detail_api_8h" local="no">cfg_DetailApi.h</includedby>
+    <includedby refid="cfg___ipc_user_8h" local="no">cfg_IpcUser.h</includedby>
+    <includedby refid="dbg___break_8h" local="no">dbg_Break.h</includedby>
+    <includedby refid="dbg___print_result_8h" local="no">dbg_PrintResult.h</includedby>
+    <includedby refid="err___api_8h" local="no">err_Api.h</includedby>
+    <includedby refid="fnd___result_8h" local="no">fnd_Result.h</includedby>
+    <includedby refid="fs___file_base_8h" local="no">fs_FileBase.h</includedby>
+    <includedby refid="fs___user_archive_8h" local="no">fs_UserArchive.h</includedby>
+    <includedby refid="fs___user_file_system_8h" local="no">fs_UserFileSystem.h</includedby>
+    <includedby refid="ndm___api_8h" local="no">ndm_Api.h</includedby>
+    <includedby refid="os___critical_section_8h" local="no">os_CriticalSection.h</includedby>
+    <includedby refid="os___error_handler_8h" local="no">os_ErrorHandler.h</includedby>
+    <includedby refid="os___result_8h" local="no">os_Result.h</includedby>
+    <includedby refid="os___result_failure_handler_8cpp" local="no">os_ResultFailureHandler.cpp</includedby>
+    <includedby refid="os___synchronization_8h" local="no">os_Synchronization.h</includedby>
+    <includedby refid="os___thread_8h" local="no">os_Thread.h</includedby>
+    <includedby refid="os___waitable_counter_8h" local="no">os_WaitableCounter.h</includedby>
+    <includedby refid="srv___api_8h" local="no">srv_Api.h</includedby>
+    <includedby refid="srv___manager_8h" local="no">srv_Manager.h</includedby>
+    <includedby refid="srv___result_8h" local="no">srv_Result.h</includedby>
+    <includedby refid="srv___service_8h" local="no">srv_Service.h</includedby>
+    <includedby refid="svc___inlines_8h" local="no">svc_Inlines.h</includedby>
+    <includedby refid="svc___stub_8h" local="no">svc_Stub.h</includedby>
+    <includedby refid="svc___stub_dbg_8h" local="no">svc_StubDbg.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>Result.h</label>
+        <link refid="_result_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cfg_DetailApi.h</label>
+        <link refid="cfg___detail_api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cfg_IpcUser.h</label>
+        <link refid="cfg___ipc_user_8h"/>
+      </node>
+      <node id="5">
+        <label>dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>dbg_PrintResult.h</label>
+        <link refid="dbg___print_result_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>err_Api.h</label>
+        <link refid="err___api_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+      </node>
+      <node id="10">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>fnd_Result.h</label>
+        <link refid="fnd___result_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>fs_FileBase.h</label>
+        <link refid="fs___file_base_8h"/>
+      </node>
+      <node id="36">
+        <label>fs_UserArchive.h</label>
+        <link refid="fs___user_archive_8h"/>
+      </node>
+      <node id="37">
+        <label>fs_UserFileSystem.h</label>
+        <link refid="fs___user_file_system_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>fs_FileSystemBase.h</label>
+        <link refid="fs___file_system_base_8h"/>
+      </node>
+      <node id="21">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="40">
+        <label>ndm_Api.h</label>
+        <link refid="ndm___api_8h"/>
+      </node>
+      <node id="41">
+        <label>os_ErrorHandler.h</label>
+        <link refid="os___error_handler_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>os_LightEvent.h</label>
+        <link refid="os___light_event_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>os_LightSemaphore.h</label>
+        <link refid="os___light_semaphore_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>os_Result.h</label>
+        <link refid="os___result_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>os_SharedInfo.h</label>
+        <link refid="os___shared_info_8h"/>
+      </node>
+      <node id="19">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>os_Tick.h</label>
+        <link refid="os___tick_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>srv_Manager.h</label>
+        <link refid="srv___manager_8h"/>
+      </node>
+      <node id="49">
+        <label>srv_Result.h</label>
+        <link refid="srv___result_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>srv_Service.h</label>
+        <link refid="srv___service_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>svc_Inlines.h</label>
+        <link refid="svc___inlines_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>svc_StubDbg.h</label>
+        <link refid="svc___stub_dbg_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cfg_DetailApi.cpp</label>
+        <link refid="cfg___detail_api_8cpp"/>
+      </node>
+      <node id="53">
+        <label>crt0.cpp</label>
+        <link refid="crt0_8cpp"/>
+      </node>
+      <node id="31">
+        <label>dbg_Break.cpp</label>
+        <link refid="dbg___break_8cpp"/>
+      </node>
+      <node id="58">
+        <label>dbg_DebugString.cpp</label>
+        <link refid="dbg___debug_string_8cpp"/>
+      </node>
+      <node id="33">
+        <label>dbg_PrintResult.cpp</label>
+        <link refid="dbg___print_result_8cpp"/>
+      </node>
+      <node id="7">
+        <label>fnd_DetailHeap.cpp</label>
+        <link refid="fnd___detail_heap_8cpp"/>
+      </node>
+      <node id="8">
+        <label>fnd_DetailHeapCommon.cpp</label>
+        <link refid="fnd___detail_heap_common_8cpp"/>
+      </node>
+      <node id="9">
+        <label>fnd_DetailList.cpp</label>
+        <link refid="fnd___detail_list_8cpp"/>
+      </node>
+      <node id="39">
+        <label>fs_UserFileSystem.cpp</label>
+        <link refid="fs___user_file_system_8cpp"/>
+      </node>
+      <node id="14">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="42">
+        <label>os_ErrorHandler.cpp</label>
+        <link refid="os___error_handler_8cpp"/>
+      </node>
+      <node id="17">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+      </node>
+      <node id="47">
+        <label>os_LightEvent.cpp</label>
+        <link refid="os___light_event_8cpp"/>
+      </node>
+      <node id="26">
+        <label>os_LightSemaphore.cpp</label>
+        <link refid="os___light_semaphore_8cpp"/>
+      </node>
+      <node id="44">
+        <label>os_ResultFailureHandler.cpp</label>
+        <link refid="os___result_failure_handler_8cpp"/>
+      </node>
+      <node id="23">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="25">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="28">
+        <label>os_ThreadLocalStorage.cpp</label>
+        <link refid="os___thread_local_storage_8cpp"/>
+      </node>
+      <node id="29">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+      </node>
+      <node id="30">
+        <label>rvct_stdio.cpp</label>
+        <link refid="rvct__stdio_8cpp"/>
+      </node>
+      <node id="12">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+      <node id="56">
+        <label>svc_Stub.cpp</label>
+        <link refid="svc___stub_8cpp"/>
+      </node>
+      <node id="59">
+        <label>svc_StubDbg.cpp</label>
+        <link refid="svc___stub_dbg_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnn_result" prot="public">nnResult</innerclass>
+    <innerclass refid="classnn_1_1_result" prot="public">nn::Result</innerclass>
+    <innerclass refid="structnn_1_1_result_1_1_const" prot="public">nn::Result::Const</innerclass>
+    <innerclass refid="structnn_1_1_const_range" prot="public">nn::ConstRange</innerclass>
+    <innerclass refid="structnn_1_1_const___l_s_m" prot="public">nn::Const_LSM</innerclass>
+    <innerclass refid="structnn_1_1_const___l_s_m_1_1_const" prot="public">nn::Const_LSM::Const</innerclass>
+    <innerclass refid="structnn_1_1_const___l_m" prot="public">nn::Const_LM</innerclass>
+    <innerclass refid="structnn_1_1_const___l_m_1_1_const" prot="public">nn::Const_LM::Const</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_result_8h_1ad372040ab3871e6e584e7c395f106b2a" prot="public" static="no">
+        <name>NN_RESULT_DEF_CONST</name>
+        <param><defname>result</defname></param>
+        <param><defname>level</defname></param>
+        <param><defname>summary</defname></param>
+        <param><defname>module</defname></param>
+        <param><defname>description</defname></param>
+        <initializer>        typedef <ref refid="structnn_1_1_result_1_1_const" kindref="compound">nn::Result::Const</ref>&lt;(level), (summary), (module), (description)&gt; result</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="300" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="300" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1a85ecd190cc088bdd36d8699a7860d971" prot="public" static="no">
+        <name>NN_RESULT_DEF_CONST_RANGE</name>
+        <param><defname>result</defname></param>
+        <param><defname>level</defname></param>
+        <param><defname>summary</defname></param>
+        <param><defname>module</defname></param>
+        <param><defname>description</defname></param>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>        typedef <ref refid="structnn_1_1_result_1_1_const" kindref="compound">nn::Result::Const</ref>&lt;(level), (summary), (module), (description), (a), (b)&gt; result</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="302" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="302" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1a0da245c637378406110873ae20207c13" prot="public" static="no">
+        <name>NN_RESULT_DEF_CONST_LSM</name>
+        <param><defname>result</defname></param>
+        <param><defname>sub</defname></param>
+        <param><defname>description</defname></param>
+        <initializer>        typedef sub::Const&lt;(description)&gt; result</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="305" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="305" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1aa57fa1b481f3cc38226b443086b28d30" prot="public" static="no">
+        <name>NN_RESULT_MAKE_CONST_LSM</name>
+        <param><defname>sub</defname></param>
+        <param><defname>level</defname></param>
+        <param><defname>summary</defname></param>
+        <param><defname>module</defname></param>
+        <initializer>        typedef <ref refid="structnn_1_1_result_1_1_const___l_s_m" kindref="compound">::nn::Result::Const_LSM</ref>&lt;(level), (summary), (module)&gt; sub</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="307" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="307" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1a0bddd2f4dd5a91167f0cd565a83f00dd" prot="public" static="no">
+        <name>NN_RESULT_DEF_CONST_LM</name>
+        <param><defname>result</defname></param>
+        <param><defname>sub</defname></param>
+        <param><defname>summary</defname></param>
+        <param><defname>description</defname></param>
+        <initializer>        typedef sub::Const&lt;(summary), (description)&gt; result</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="310" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="310" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1a91b0ad93bba19f4e4ba12f1f452608d7" prot="public" static="no">
+        <name>NN_RESULT_MAKE_CONST_LM</name>
+        <param><defname>sub</defname></param>
+        <param><defname>level</defname></param>
+        <param><defname>module</defname></param>
+        <initializer>        typedef <ref refid="structnn_1_1_result_1_1_const___l_m" kindref="compound">::nn::Result::Const_LM</ref>&lt;(level), (module)&gt; sub</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="312" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="312" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" prot="public" static="no">
+        <name>_NN_RESULT_MAKE_TYPE</name>
+        <param><defname>name</defname></param>
+        <param><defname>e</defname></param>
+        <initializer>        static inline Result Make##name##Result(Result::Summary summary, Result::Module module, int description) \
+        {                                                                                                        \
+                return Result(Result::LEVEL_##e, summary, module, description);                                  \
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="317" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="317" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="define" id="_result_8h_1a384bfe13fee587f4a92b9a188f84d6bc" prot="public" static="no">
+        <name>NN_RESULT_DEF</name>
+        <param><defname>Type</defname></param>
+        <param><defname>Res</defname></param>
+        <param><defname>Sum</defname></param>
+        <param><defname>Desc</defname></param>
+        <initializer>        inline Result Res()                 \
+        {                                   \
+                return Type(Sum, Desc);     \
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Result.h" line="339" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="339" bodyend="343"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="structnn_result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="structnn_result_1a7e167cb79ef622afd45e516767cd708f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="structnn_result_1a7e167cb79ef622afd45e516767cd708f" kindref="member">value</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}<sp/><ref refid="structnn_result" kindref="compound">nnResult</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classnn_1_1_result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Level</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a45a09485974dc848079b31320a5fc59b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a45a09485974dc848079b31320a5fc59b" kindref="member">LEVEL_INFO</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="27" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a239493249f44cb95a72092c35fd24cf7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a239493249f44cb95a72092c35fd24cf7" kindref="member">LEVEL_SUCCESS</ref><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="28" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ac2a40a21a460c07d8027df9f0341bd55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ac2a40a21a460c07d8027df9f0341bd55" kindref="member">LEVEL_FATAL</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="29" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a389bf24511ea6d1126759f49931ef262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a389bf24511ea6d1126759f49931ef262" kindref="member">LEVEL_RESET</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>-2,</highlight></codeline>
+<codeline lineno="30" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a1af3a495340c22bd91614c85c5500ca1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a1af3a495340c22bd91614c85c5500ca1" kindref="member">LEVEL_REINIT</ref><sp/><sp/><sp/><sp/>=<sp/>-3,</highlight></codeline>
+<codeline lineno="31" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a42b500f16a66f8678425955cfc944af4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a42b500f16a66f8678425955cfc944af4" kindref="member">LEVEL_USAGE</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>-4,</highlight></codeline>
+<codeline lineno="32" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913add72d775558ff81a77f1242b784fb904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913add72d775558ff81a77f1242b784fb904" kindref="member">LEVEL_PERMANENT</ref><sp/>=<sp/>-5,</highlight></codeline>
+<codeline lineno="33" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a8f5f9aa9f6c2ce7ffefae6d2e26839b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a8f5f9aa9f6c2ce7ffefae6d2e26839b3" kindref="member">LEVEL_TEMPORARY</ref><sp/>=<sp/>-6,</highlight></codeline>
+<codeline lineno="34" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ab6d062faee49d1dccbf015f2c6472138" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ab6d062faee49d1dccbf015f2c6472138" kindref="member">LEVEL_STATUS</ref><sp/><sp/><sp/><sp/>=<sp/>-7,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ae65dcc2a506ca5dc91eee537221c5244" kindref="member">LEVEL_END</ref></highlight></codeline>
+<codeline lineno="36" refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ae65dcc2a506ca5dc91eee537221c5244" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" kindref="member">Summary</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca6cc080e4053ca511b25cf60cf3e0f84a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca6cc080e4053ca511b25cf60cf3e0f84a" kindref="member">SUMMARY_SUCCESS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="41" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cace1dbbba81c4ec596420f497f9e3de79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cace1dbbba81c4ec596420f497f9e3de79" kindref="member">SUMMARY_NOTHING_HAPPENED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="42" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caced84c0acdcd2c08de5415b06c6ac899" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caced84c0acdcd2c08de5415b06c6ac899" kindref="member">SUMMARY_WOULD_BLOCK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="43" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caa7c0c2915a25db9e4df1fb1adb9ebc93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caa7c0c2915a25db9e4df1fb1adb9ebc93" kindref="member">SUMMARY_OUT_OF_RESOURCE</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="44" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca3eefd9f2fdca1c3f5ca27aefa5e9cbca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca3eefd9f2fdca1c3f5ca27aefa5e9cbca" kindref="member">SUMMARY_NOT_FOUND</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="45" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cad8de4fb38f6a4d81ed4493a6ce1bc8c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cad8de4fb38f6a4d81ed4493a6ce1bc8c9" kindref="member">SUMMARY_INVALID_STATE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="46" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca74c19945c0d90fbd102b7c6490a3adc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca74c19945c0d90fbd102b7c6490a3adc0" kindref="member">SUMMARY_NOT_SUPPORTED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="47" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca199a86b9faf1d7045140c9056663ceb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca199a86b9faf1d7045140c9056663ceb3" kindref="member">SUMMARY_INVALID_ARGUMENT</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="48" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cae01ce123880b06a4ce178135eaf05972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cae01ce123880b06a4ce178135eaf05972" kindref="member">SUMMARY_WRONG_ARGUMENT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="49" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca133f2a644c1c7bcc39f72bfd1f072ada" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca133f2a644c1c7bcc39f72bfd1f072ada" kindref="member">SUMMARY_CANCELLED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="50" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca4fefbac86e8ca0f971d6bf98088c5cb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca4fefbac86e8ca0f971d6bf98088c5cb8" kindref="member">SUMMARY_STATUS_CHANGED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="51" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca02c05dc09762dbba26c3728039750e26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca02c05dc09762dbba26c3728039750e26" kindref="member">SUMMARY_INTERNAL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca8e35bc050cd36ac39c99fc655bf370fb" kindref="member">SUMMARY_INVALID_RESULT_VALUE</ref><sp/>=<sp/>63</highlight></codeline>
+<codeline lineno="53" refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca8e35bc050cd36ac39c99fc655bf370fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" kindref="member">Module</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab3714b302a040999762f6ccf7fcde8e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab3714b302a040999762f6ccf7fcde8e7" kindref="member">MODULE_COMMON</ref>,</highlight></codeline>
+<codeline lineno="58" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a647c0b85ce6f2e41c501377fd7558737" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a647c0b85ce6f2e41c501377fd7558737" kindref="member">MODULE_NN_KERNEL</ref>,</highlight></codeline>
+<codeline lineno="59" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a79a9b6cc97f945be99a0bc84e34f2d5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a79a9b6cc97f945be99a0bc84e34f2d5c" kindref="member">MODULE_NN_UTIL</ref>,</highlight></codeline>
+<codeline lineno="60" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a1ea02b3332842f1bb9e61e40f8977687" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a1ea02b3332842f1bb9e61e40f8977687" kindref="member">MODULE_NN_FILE_SERVER</ref>,</highlight></codeline>
+<codeline lineno="61" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a504147626f872857a9a56100fd863d5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a504147626f872857a9a56100fd863d5c" kindref="member">MODULE_NN_LOADER_SERVER</ref>,</highlight></codeline>
+<codeline lineno="62" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f18257bdc92690c6b180e035284c4c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f18257bdc92690c6b180e035284c4c8" kindref="member">MODULE_NN_TCB</ref>,</highlight></codeline>
+<codeline lineno="63" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5ecc741209cc9239e50cc989d2e52fda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5ecc741209cc9239e50cc989d2e52fda" kindref="member">MODULE_NN_OS</ref>,</highlight></codeline>
+<codeline lineno="64" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8a3f4819653a605669b82e066bad987c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8a3f4819653a605669b82e066bad987c" kindref="member">MODULE_NN_DBG</ref>,</highlight></codeline>
+<codeline lineno="65" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac3aabb929e011ad6d65fe3901ac911f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac3aabb929e011ad6d65fe3901ac911f0" kindref="member">MODULE_NN_DMNT</ref>,</highlight></codeline>
+<codeline lineno="66" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aaad11ef38b6f6da35674000b43e4e433" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aaad11ef38b6f6da35674000b43e4e433" kindref="member">MODULE_NN_PDN</ref>,</highlight></codeline>
+<codeline lineno="67" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac7d4dc91c8ef048d1b5e71deb5a5ec74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac7d4dc91c8ef048d1b5e71deb5a5ec74" kindref="member">MODULE_NN_GX</ref>,</highlight></codeline>
+<codeline lineno="68" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0fa3ddf80d5ee4323b433cb60d755339" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0fa3ddf80d5ee4323b433cb60d755339" kindref="member">MODULE_NN_I2C</ref>,</highlight></codeline>
+<codeline lineno="69" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7a82bcbf071fd1d189504098ab563c00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7a82bcbf071fd1d189504098ab563c00" kindref="member">MODULE_NN_GPIO</ref>,</highlight></codeline>
+<codeline lineno="70" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a44842cd027bf606e3b7f416bc6ba9722" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a44842cd027bf606e3b7f416bc6ba9722" kindref="member">MODULE_NN_DD</ref>,</highlight></codeline>
+<codeline lineno="71" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a832631023d6b62f125fa077a3e3ca274" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a832631023d6b62f125fa077a3e3ca274" kindref="member">MODULE_NN_CODEC</ref>,</highlight></codeline>
+<codeline lineno="72" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a523cec1bebe2bef14e29cef7c137f256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a523cec1bebe2bef14e29cef7c137f256" kindref="member">MODULE_NN_SPI</ref>,</highlight></codeline>
+<codeline lineno="73" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a13ffaddfefd37678e2768162dbe1cbef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a13ffaddfefd37678e2768162dbe1cbef" kindref="member">MODULE_NN_PXI</ref>,</highlight></codeline>
+<codeline lineno="74" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6952fe7e3aaa0261190aa1b9d5c8168a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6952fe7e3aaa0261190aa1b9d5c8168a" kindref="member">MODULE_NN_FS</ref>,</highlight></codeline>
+<codeline lineno="75" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a84f490acd5c8175aa1c0a1f1bc6f90d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a84f490acd5c8175aa1c0a1f1bc6f90d0" kindref="member">MODULE_NN_DI</ref>,</highlight></codeline>
+<codeline lineno="76" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a3712e2781582bd866575b68d44224f6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a3712e2781582bd866575b68d44224f6f" kindref="member">MODULE_NN_HID</ref>,</highlight></codeline>
+<codeline lineno="77" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af827383d97675a219950bb977efc1adb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af827383d97675a219950bb977efc1adb" kindref="member">MODULE_NN_CAMERA</ref>,</highlight></codeline>
+<codeline lineno="78" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5020d061fbd0df36dc27f915e58166f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5020d061fbd0df36dc27f915e58166f1" kindref="member">MODULE_NN_PI</ref>,</highlight></codeline>
+<codeline lineno="79" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa14e054f3b05e89f57d7090a60d2c3ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa14e054f3b05e89f57d7090a60d2c3ef" kindref="member">MODULE_NN_PM</ref>,</highlight></codeline>
+<codeline lineno="80" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6e561f99db64a4012e8cc82e662391a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6e561f99db64a4012e8cc82e662391a4" kindref="member">MODULE_NN_PMLOW</ref>,</highlight></codeline>
+<codeline lineno="81" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a72c361efe38640d556c7ba705ffed467" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a72c361efe38640d556c7ba705ffed467" kindref="member">MODULE_NN_FSI</ref>,</highlight></codeline>
+<codeline lineno="82" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aedd7e96f8b7fa59d37c9ece00db5a9eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aedd7e96f8b7fa59d37c9ece00db5a9eb" kindref="member">MODULE_NN_SRV</ref>,</highlight></codeline>
+<codeline lineno="83" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af8408886ec2a40650c04be28ddeda76e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af8408886ec2a40650c04be28ddeda76e" kindref="member">MODULE_NN_NDM</ref>,</highlight></codeline>
+<codeline lineno="84" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a83960efa642ea81e7489ae31174bbf19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a83960efa642ea81e7489ae31174bbf19" kindref="member">MODULE_NN_NWM</ref>,</highlight></codeline>
+<codeline lineno="85" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a76564da36287e26a140f38c169886d18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a76564da36287e26a140f38c169886d18" kindref="member">MODULE_NN_SOCKET</ref>,</highlight></codeline>
+<codeline lineno="86" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9db086049b512a9f9355b65c1766b642" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9db086049b512a9f9355b65c1766b642" kindref="member">MODULE_NN_LDR</ref>,</highlight></codeline>
+<codeline lineno="87" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7726f892dcd028ab54f1c7815e0228b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7726f892dcd028ab54f1c7815e0228b2" kindref="member">MODULE_NN_ACC</ref>,</highlight></codeline>
+<codeline lineno="88" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac1ae6ab43a85dc150d4face6f12ad101" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac1ae6ab43a85dc150d4face6f12ad101" kindref="member">MODULE_NN_ROMFS</ref>,</highlight></codeline>
+<codeline lineno="89" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac64dfa1062ed9b2525168cdddd7a9203" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac64dfa1062ed9b2525168cdddd7a9203" kindref="member">MODULE_NN_AM</ref>,</highlight></codeline>
+<codeline lineno="90" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a92ae01de2487004473b7d0a64dd31de0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a92ae01de2487004473b7d0a64dd31de0" kindref="member">MODULE_NN_HIO</ref>,</highlight></codeline>
+<codeline lineno="91" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad40b11260970f34f97a58fc11bd8b641" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad40b11260970f34f97a58fc11bd8b641" kindref="member">MODULE_NN_UPDATER</ref>,</highlight></codeline>
+<codeline lineno="92" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a89f1788ef0c31ffb0593c7102c67ef73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a89f1788ef0c31ffb0593c7102c67ef73" kindref="member">MODULE_NN_MIC</ref>,</highlight></codeline>
+<codeline lineno="93" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f7c7478063428a4915185d6bb65fafc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f7c7478063428a4915185d6bb65fafc" kindref="member">MODULE_NN_FND</ref>,</highlight></codeline>
+<codeline lineno="94" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9e884996cbf1fc84278ba8b512a7ec74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9e884996cbf1fc84278ba8b512a7ec74" kindref="member">MODULE_NN_MP</ref>,</highlight></codeline>
+<codeline lineno="95" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a970178d1d3c6da7f97eeb5c4cce66757" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a970178d1d3c6da7f97eeb5c4cce66757" kindref="member">MODULE_NN_MPWL</ref>,</highlight></codeline>
+<codeline lineno="96" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aca72a8e50899f6f7efd31e78b968bbd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aca72a8e50899f6f7efd31e78b968bbd4" kindref="member">MODULE_NN_AC</ref>,</highlight></codeline>
+<codeline lineno="97" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a14dc884a6c38da461feee48a6b13947b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a14dc884a6c38da461feee48a6b13947b" kindref="member">MODULE_NN_HTTP</ref>,</highlight></codeline>
+<codeline lineno="98" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a2f684309fc6aaf2d2eee5e7a37e16286" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a2f684309fc6aaf2d2eee5e7a37e16286" kindref="member">MODULE_NN_DSP</ref>,</highlight></codeline>
+<codeline lineno="99" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9e9d2194fe736614a7cf699d70d2118d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9e9d2194fe736614a7cf699d70d2118d" kindref="member">MODULE_NN_SND</ref>,</highlight></codeline>
+<codeline lineno="100" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a63e26dc02c8a6bf7550fe7fa9e3e8ac4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a63e26dc02c8a6bf7550fe7fa9e3e8ac4" kindref="member">MODULE_NN_DLP</ref>,</highlight></codeline>
+<codeline lineno="101" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4bfd8c217591be88088e590b44ff2a42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4bfd8c217591be88088e590b44ff2a42" kindref="member">MODULE_NN_HIOLOW</ref>,</highlight></codeline>
+<codeline lineno="102" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a63151182628746473083969c5860c59f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a63151182628746473083969c5860c59f" kindref="member">MODULE_NN_CSND</ref>,</highlight></codeline>
+<codeline lineno="103" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0b460ea936e7db5c80fad9b0bd0a4c94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0b460ea936e7db5c80fad9b0bd0a4c94" kindref="member">MODULE_NN_SSL</ref>,</highlight></codeline>
+<codeline lineno="104" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a872bf7384bd595e14b051f8e1cffbeb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a872bf7384bd595e14b051f8e1cffbeb0" kindref="member">MODULE_NN_AMLOW</ref>,</highlight></codeline>
+<codeline lineno="105" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6edb9cbada5afdd37b028997680f7770" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6edb9cbada5afdd37b028997680f7770" kindref="member">MODULE_NN_NEX</ref>,</highlight></codeline>
+<codeline lineno="106" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8f1f754436b3b48c7db6480c7d35be77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8f1f754436b3b48c7db6480c7d35be77" kindref="member">MODULE_NN_FRIENDS</ref>,</highlight></codeline>
+<codeline lineno="107" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aef88933e016222e7179d24235a9889c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aef88933e016222e7179d24235a9889c4" kindref="member">MODULE_NN_RDT</ref>,</highlight></codeline>
+<codeline lineno="108" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7210a64fa02512bb51a22c4a4a12f641" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7210a64fa02512bb51a22c4a4a12f641" kindref="member">MODULE_NN_APPLET</ref>,</highlight></codeline>
+<codeline lineno="109" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ae3127e5e88cc47118678065af01ee1e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ae3127e5e88cc47118678065af01ee1e8" kindref="member">MODULE_NN_NIM</ref>,</highlight></codeline>
+<codeline lineno="110" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a04ca4061672732a3dead23992ed54eb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a04ca4061672732a3dead23992ed54eb8" kindref="member">MODULE_NN_PTM</ref>,</highlight></codeline>
+<codeline lineno="111" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8cd1b4a47043148a97674b5ab2d1e4dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8cd1b4a47043148a97674b5ab2d1e4dc" kindref="member">MODULE_NN_MIDI</ref>,</highlight></codeline>
+<codeline lineno="112" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a3b237ecc8426fcba2059470b345e1c20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a3b237ecc8426fcba2059470b345e1c20" kindref="member">MODULE_NN_MC</ref>,</highlight></codeline>
+<codeline lineno="113" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac08f3ce8411df9e2f52a792bdc38912f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac08f3ce8411df9e2f52a792bdc38912f" kindref="member">MODULE_NN_SWC</ref>,</highlight></codeline>
+<codeline lineno="114" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4e9cf8e68ce4c8a9f3abcc390c0f4080" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4e9cf8e68ce4c8a9f3abcc390c0f4080" kindref="member">MODULE_NN_FATFS</ref>,</highlight></codeline>
+<codeline lineno="115" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa435eb73a6603f6b020d4e259f3b22b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa435eb73a6603f6b020d4e259f3b22b0" kindref="member">MODULE_NN_NGC</ref>,</highlight></codeline>
+<codeline lineno="116" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8d9960a748c3cfc0e9f9723c488677b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8d9960a748c3cfc0e9f9723c488677b4" kindref="member">MODULE_NN_CARD</ref>,</highlight></codeline>
+<codeline lineno="117" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa47649bb7e33acfc640e45f485e124d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa47649bb7e33acfc640e45f485e124d3" kindref="member">MODULE_NN_CARDNOR</ref>,</highlight></codeline>
+<codeline lineno="118" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a064f77db2044a3e186be727b702dc96d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a064f77db2044a3e186be727b702dc96d" kindref="member">MODULE_NN_SDMC</ref>,</highlight></codeline>
+<codeline lineno="119" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7fa91406f8c34fbc938107f4658f2d93" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7fa91406f8c34fbc938107f4658f2d93" kindref="member">MODULE_NN_BOSS</ref>,</highlight></codeline>
+<codeline lineno="120" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a121c4d357f04cf0865b3eeff994af209" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a121c4d357f04cf0865b3eeff994af209" kindref="member">MODULE_NN_DBM</ref>,</highlight></codeline>
+<codeline lineno="121" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad78d2847f2c46a8667a400cf87ef6fca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad78d2847f2c46a8667a400cf87ef6fca" kindref="member">MODULE_NN_CFG</ref>,</highlight></codeline>
+<codeline lineno="122" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1adcd22704c0bc39fb35bc5220b38293a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1adcd22704c0bc39fb35bc5220b38293a8" kindref="member">MODULE_NN_PS</ref>,</highlight></codeline>
+<codeline lineno="123" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af2424f2e580c5af53e3250048074804a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af2424f2e580c5af53e3250048074804a" kindref="member">MODULE_NN_CEC</ref>,</highlight></codeline>
+<codeline lineno="124" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4771782e6b19f54fd5a9523767804175" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4771782e6b19f54fd5a9523767804175" kindref="member">MODULE_NN_IR</ref>,</highlight></codeline>
+<codeline lineno="125" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a50f998f8321c8d3571a13c4be7ec5ac2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a50f998f8321c8d3571a13c4be7ec5ac2" kindref="member">MODULE_NN_UDS</ref>,</highlight></codeline>
+<codeline lineno="126" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af06e10b7fa650f94722d601f05e5d521" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af06e10b7fa650f94722d601f05e5d521" kindref="member">MODULE_NN_PL</ref>,</highlight></codeline>
+<codeline lineno="127" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ae6d5a40e45c67e9f423fa0ac4fe29e75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ae6d5a40e45c67e9f423fa0ac4fe29e75" kindref="member">MODULE_NN_CUP</ref>,</highlight></codeline>
+<codeline lineno="128" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a917532d1bb793627214872badb9fe502" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a917532d1bb793627214872badb9fe502" kindref="member">MODULE_NN_GYROSCOPE</ref>,</highlight></codeline>
+<codeline lineno="129" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4c32a5acaec8d2031effdad59e8d6306" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4c32a5acaec8d2031effdad59e8d6306" kindref="member">MODULE_NN_MCU</ref>,</highlight></codeline>
+<codeline lineno="130" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a04cc872679b0c2884de88a9064921b6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a04cc872679b0c2884de88a9064921b6c" kindref="member">MODULE_NN_NS</ref>,</highlight></codeline>
+<codeline lineno="131" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aacdcd58696b70ec4bee31a4e6108dcf9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aacdcd58696b70ec4bee31a4e6108dcf9" kindref="member">MODULE_NN_NEWS</ref>,</highlight></codeline>
+<codeline lineno="132" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0193353a96186493b7c6b56b2e889067" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0193353a96186493b7c6b56b2e889067" kindref="member">MODULE_NN_RO</ref>,</highlight></codeline>
+<codeline lineno="133" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1accbbcefdfcc2d7b30b54ea79477292be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1accbbcefdfcc2d7b30b54ea79477292be" kindref="member">MODULE_NN_GD</ref>,</highlight></codeline>
+<codeline lineno="134" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5fa5bdaafec5d16182fb50c8f850fad4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5fa5bdaafec5d16182fb50c8f850fad4" kindref="member">MODULE_NN_CARDSPI</ref>,</highlight></codeline>
+<codeline lineno="135" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6b3e4e05eaffee535512b96a80c10c47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6b3e4e05eaffee535512b96a80c10c47" kindref="member">MODULE_NN_EC</ref>,</highlight></codeline>
+<codeline lineno="136" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab46403d9ee639e70871208568b037533" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab46403d9ee639e70871208568b037533" kindref="member">MODULE_NN_WEBBRS</ref>,</highlight></codeline>
+<codeline lineno="137" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad9390555626981c8e408ba04b9e8f935" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad9390555626981c8e408ba04b9e8f935" kindref="member">MODULE_NN_TEST</ref>,</highlight></codeline>
+<codeline lineno="138" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5c3b5437276c02c28613a3a3b1c4d525" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5c3b5437276c02c28613a3a3b1c4d525" kindref="member">MODULE_NN_ENC</ref>,</highlight></codeline>
+<codeline lineno="139" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f51de732bc3f4bfc21b6c92a453a5a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f51de732bc3f4bfc21b6c92a453a5a3" kindref="member">MODULE_NN_PIA</ref>,</highlight></codeline>
+<codeline lineno="140" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa938c6a9dea940c7f2cbb09357635d8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa938c6a9dea940c7f2cbb09357635d8a" kindref="member">MODULE_APPLICATION</ref><sp/>=<sp/>254,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4057c78d8d15a825ca92341855818ae1" kindref="member">MODULE_INVALID_RESULT_VALUE</ref></highlight></codeline>
+<codeline lineno="142" refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4057c78d8d15a825ca92341855818ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbce" kindref="member">Description</ref></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead47b175235151831eb9625fd2fed8679" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead47b175235151831eb9625fd2fed8679" kindref="member">DESCRIPTION_SUCCESS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="147" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea8b458d2b18f68e607aaeeef0a9db9299" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea8b458d2b18f68e607aaeeef0a9db9299" kindref="member">DESCRIPTION_INVALID_SELECTION</ref><sp/><sp/><sp/><sp/>=<sp/>1000,</highlight></codeline>
+<codeline lineno="148" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea1dcbdcf28e013fcebf3ca2b575b4e61f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea1dcbdcf28e013fcebf3ca2b575b4e61f" kindref="member">DESCRIPTION_TOO_LARGE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1001,</highlight></codeline>
+<codeline lineno="149" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaa89bfcd07954b2e7fc3e25e79b326237" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaa89bfcd07954b2e7fc3e25e79b326237" kindref="member">DESCRIPTION_NOT_AUTHORIZED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1002,</highlight></codeline>
+<codeline lineno="150" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceace2fef2857d3b87461f8ed61fdd98f22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceace2fef2857d3b87461f8ed61fdd98f22" kindref="member">DESCRIPTION_ALREADY_DONE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1003,</highlight></codeline>
+<codeline lineno="151" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaebc1bf7d105c11fceb6ea8d642a31e16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaebc1bf7d105c11fceb6ea8d642a31e16" kindref="member">DESCRIPTION_INVALID_SIZE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1004,</highlight></codeline>
+<codeline lineno="152" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceacddececd4e56ddee20491c1f6819d41e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceacddececd4e56ddee20491c1f6819d41e" kindref="member">DESCRIPTION_INVALID_ENUM_VALUE</ref><sp/><sp/><sp/>=<sp/>1005,</highlight></codeline>
+<codeline lineno="153" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9c7194b09bc515f91fd7cc8cd33944de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9c7194b09bc515f91fd7cc8cd33944de" kindref="member">DESCRIPTION_INVALID_COMBINATION</ref><sp/><sp/>=<sp/>1006,</highlight></codeline>
+<codeline lineno="154" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea1028739345ac870802bd76e606e098cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea1028739345ac870802bd76e606e098cc" kindref="member">DESCRIPTION_NO_DATA</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1007,</highlight></codeline>
+<codeline lineno="155" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea8093a8c31f2fc7b948485bfaad4d7551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea8093a8c31f2fc7b948485bfaad4d7551" kindref="member">DESCRIPTION_BUSY</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1008,</highlight></codeline>
+<codeline lineno="156" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea93078e5cb4b2ab64fdbae34e05f7d1ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea93078e5cb4b2ab64fdbae34e05f7d1ad" kindref="member">DESCRIPTION_MISALIGNED_ADDRESS</ref><sp/><sp/><sp/>=<sp/>1009,</highlight></codeline>
+<codeline lineno="157" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea4f1c029843f90b2fe80d2b18677cab5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea4f1c029843f90b2fe80d2b18677cab5c" kindref="member">DESCRIPTION_MISALIGNED_SIZE</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1010,</highlight></codeline>
+<codeline lineno="158" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea5929f46b4b1f7f67499de26c55f05e60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea5929f46b4b1f7f67499de26c55f05e60" kindref="member">DESCRIPTION_OUT_OF_MEMORY</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1011,</highlight></codeline>
+<codeline lineno="159" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaa820b9c13635b44421af691ea096c683" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaa820b9c13635b44421af691ea096c683" kindref="member">DESCRIPTION_NOT_IMPLEMENTED</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1012,</highlight></codeline>
+<codeline lineno="160" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceadbfb041d8baf0898af8c1cc886711adf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceadbfb041d8baf0898af8c1cc886711adf" kindref="member">DESCRIPTION_INVALID_ADDRESS</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1013,</highlight></codeline>
+<codeline lineno="161" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaea5bf7b72087f937c8b8d3c97d56c108" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaea5bf7b72087f937c8b8d3c97d56c108" kindref="member">DESCRIPTION_INVALID_POINTER</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1014,</highlight></codeline>
+<codeline lineno="162" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead278d8cc7f498108a45c8982bf44cbed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead278d8cc7f498108a45c8982bf44cbed" kindref="member">DESCRIPTION_INVALID_HANDLE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1015,</highlight></codeline>
+<codeline lineno="163" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9e4f2bd4c313720b7d1e8dd83ef9aa44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9e4f2bd4c313720b7d1e8dd83ef9aa44" kindref="member">DESCRIPTION_NOT_INITIALIZED</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1016,</highlight></codeline>
+<codeline lineno="164" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0e6c740d1dff2c0228125cd011b4a57d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0e6c740d1dff2c0228125cd011b4a57d" kindref="member">DESCRIPTION_ALREADY_INITIALIZED</ref><sp/><sp/>=<sp/>1017,</highlight></codeline>
+<codeline lineno="165" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceafa33790770b946a6a44d77aed762442e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceafa33790770b946a6a44d77aed762442e" kindref="member">DESCRIPTION_NOT_FOUND</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1018,</highlight></codeline>
+<codeline lineno="166" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaeabb620e3aa6714265834adbd26abc11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaeabb620e3aa6714265834adbd26abc11" kindref="member">DESCRIPTION_CANCEL_REQUESTED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1019,</highlight></codeline>
+<codeline lineno="167" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0fbfc424313b852709d67ce549779ffe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0fbfc424313b852709d67ce549779ffe" kindref="member">DESCRIPTION_ALREADY_EXISTS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1020,</highlight></codeline>
+<codeline lineno="168" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaee4954dadbe61b687630a68a0b2c177f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaee4954dadbe61b687630a68a0b2c177f" kindref="member">DESCRIPTION_OUT_OF_RANGE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1021,</highlight></codeline>
+<codeline lineno="169" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaf1d7ba6ff8d4d35fcc2093bd262282c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaf1d7ba6ff8d4d35fcc2093bd262282c7" kindref="member">DESCRIPTION_TIMEOUT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1022,</highlight></codeline>
+<codeline lineno="170" refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea629dba15d34938ffc4cdebaa15ffb1fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea629dba15d34938ffc4cdebaa15ffb1fa" kindref="member">DESCRIPTION_INVALID_RESULT_VALUE</ref><sp/>=<sp/>1023,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Level,<sp/>Summary,<sp/>Module,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Const;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Level,<sp/>Summary,<sp/>Module&gt;</highlight></codeline>
+<codeline lineno="177" refid="structnn_1_1_result_1_1_const___l_s_m" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const___l_s_m" kindref="compound">Const_LSM</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Level,<sp/>Module&gt;</highlight></codeline>
+<codeline lineno="180" refid="structnn_1_1_result_1_1_const___l_m" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const___l_m" kindref="compound">Const_LM</ref>;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Level,<sp/>Summary,<sp/>Module,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="183" refid="structnn_1_1_result_1_1_const_range" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const_range" kindref="compound">ConstRange</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="186" refid="classnn_1_1_result_1af3488e68244b1048fa1a714b063cfc1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af3488e68244b1048fa1a714b063cfc1b" kindref="member">Result</ref>(<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/>code)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>(code)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="189" refid="classnn_1_1_result_1a94fc591eca97dcec3800a193bd7f9e02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a94fc591eca97dcec3800a193bd7f9e02" kindref="member">Result</ref>()</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>((<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref>)((((<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref>)<ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a42b500f16a66f8678425955cfc944af4" kindref="member">LEVEL_USAGE</ref><sp/>&lt;&lt;<sp/>27)<sp/>&amp;<sp/>0x7E00000)<sp/>|</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca8e35bc050cd36ac39c99fc655bf370fb" kindref="member">SUMMARY_INVALID_RESULT_VALUE</ref><sp/>&lt;&lt;<sp/>21)<sp/>&amp;<sp/>0x7E0000)<sp/>|</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4057c78d8d15a825ca92341855818ae1" kindref="member">MODULE_INVALID_RESULT_VALUE</ref><sp/>&lt;&lt;<sp/>10)<sp/>&amp;<sp/>0x3FC00)<sp/>|</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1023<sp/>&amp;<sp/>0x3FF)))</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="195" refid="classnn_1_1_result_1a16ac03d9e26b7cf51ca672cbe68198f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a16ac03d9e26b7cf51ca672cbe68198f6" kindref="member">Result</ref>(<ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Level</ref><sp/>level,<sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" kindref="member">Summary</ref><sp/>summary,<sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" kindref="member">Module</ref><sp/>module,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>description)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>((<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref>)((level<sp/>&lt;&lt;<sp/>27)<sp/>&amp;<sp/>0x7E00000<sp/>|</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(summary<sp/>&lt;&lt;<sp/>21)<sp/>&amp;<sp/>0x7E0000<sp/>|</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(module<sp/>&lt;&lt;<sp/>10)<sp/>&amp;<sp/>0x3FC00<sp/>|</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(description)<sp/>&amp;<sp/>0x3FF))</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="classnn_1_1_result_1ac20cf616822aaed55dd08ba43a1268d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ac20cf616822aaed55dd08ba43a1268d7" kindref="member">Result</ref>(<ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result)</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>(result.value)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="classnn_1_1_result_1a0e211a5799fdbea958249ba7c761cf78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a0e211a5799fdbea958249ba7c761cf78" kindref="member">IsFailure</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="207"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)(<ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref><sp/>&gt;&gt;<sp/>31);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="210" refid="classnn_1_1_result_1af6443f9db2ea08dd0678599de8bc1ecb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1af6443f9db2ea08dd0678599de8bc1ecb" kindref="member">IsSuccess</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="211"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="classnn_1_1_result_1a0e211a5799fdbea958249ba7c761cf78" kindref="member">IsFailure</ref>();</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="classnn_1_1_result_1a6a8c361e3386827a62d0ab75fe566c22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Level</ref><sp/><ref refid="classnn_1_1_result_1a6a8c361e3386827a62d0ab75fe566c22" kindref="member">GetLevel</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="216"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref><sp/>&amp;<sp/>0x80000000)<sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Level</ref>)(<ref refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" kindref="member">GetCodeBits</ref>(0xF8000000,<sp/>27)<sp/>|<sp/>0xFFFFFFE0);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" kindref="member">Level</ref>)(<ref refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" kindref="member">GetCodeBits</ref>(0xF8000000,<sp/>27));</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="223" refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" kindref="member">Module</ref><sp/><ref refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" kindref="member">GetModule</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="224"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" kindref="member">Module</ref>)<ref refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" kindref="member">GetCodeBits</ref>(0x3FC00,<sp/>10);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227" refid="classnn_1_1_result_1a5ae439aac70c3b46630ad9bdbf97fe0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" kindref="member">Summary</ref><sp/><ref refid="classnn_1_1_result_1a5ae439aac70c3b46630ad9bdbf97fe0c" kindref="member">GetSummary</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="228"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" kindref="member">Summary</ref>)<ref refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" kindref="member">GetCodeBits</ref>(0x7E00000,<sp/>21);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231" refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" kindref="member">GetDescription</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="232"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<ref refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" kindref="member">GetCodeBits</ref>(0x30F618,<sp/>0);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="classnn_1_1_result_1af3514bb539a9b57ae0d270d49bbceb31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="classnn_1_1_result_1af3514bb539a9b57ae0d270d49bbceb31" kindref="member">GetPrintableBits</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="237"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="classnn_1_1_result_1a04c6840647eacd10acfecc8c3218bbe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="structnn_result" kindref="compound">nnResult</ref>()</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result<sp/>=<sp/>{<sp/><ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref><sp/>};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="classnn_1_1_result_1a8172ef1f67fa1002d25f5eed8771d1ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a8172ef1f67fa1002d25f5eed8771d1ec" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;m_Code<sp/>==<sp/>rhs.<ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="classnn_1_1_result_1a064118e3bc496581f0fc82d85d4cadc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result_1a064118e3bc496581f0fc82d85d4cadc4" kindref="member">operator!=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(this-&gt;m_Code<sp/>==<sp/>rhs.<ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref>);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><ref refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" kindref="member">GetCodeBits</ref>(<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/>mask,<sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/>shift)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="258"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" kindref="member">m_Code</ref><sp/>&amp;<sp/>mask)<sp/>&gt;&gt;<sp/>shift;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Result::Level<sp/>TLevel,<sp/>Result::Summary<sp/>TSummary,<sp/>Result::Module<sp/>TModule,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TDescription&gt;</highlight></codeline>
+<codeline lineno="264" refid="structnn_1_1_result_1_1_const" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const" kindref="compound">Result::Const</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref></highlight></codeline>
+<codeline lineno="265"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="266" refid="structnn_1_1_result_1_1_const_1ab319bd1d8ef334172565a674bb4abdad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1_result_1_1_const_1ab319bd1d8ef334172565a674bb4abdad" kindref="member">Const</ref>()</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref>(TLevel,<sp/>TSummary,<sp/>TModule,<sp/>TDescription)</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Result::Level<sp/>TLevel,<sp/>Result::Summary<sp/>TSummary,<sp/>Result::Module<sp/>TModule,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TDescription,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>A,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>B&gt;</highlight></codeline>
+<codeline lineno="271" refid="structnn_1_1_const_range" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const_range" kindref="compound">ConstRange</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref></highlight></codeline>
+<codeline lineno="272"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="273" refid="structnn_1_1_const_range_1adf59992163719b02104e17e8f073e51e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1_const_range_1adf59992163719b02104e17e8f073e51e" kindref="member">ConstRange</ref>()</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref>(TLevel,<sp/>TSummary,<sp/>TModule,<sp/>TDescription)</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="structnn_1_1_const_range_1a7bb8f968d126f4a90457681628f6d0af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1_const_range_1a7bb8f968d126f4a90457681628f6d0af" kindref="member">Includes</ref>(<ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>result)</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result.<ref refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" kindref="member">GetModule</ref>()<sp/>==<sp/>TModule<sp/>&amp;&amp;<sp/>result.<ref refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" kindref="member">GetDescription</ref>()<sp/>&gt;=<sp/>A<sp/>&amp;&amp;<sp/>result.<ref refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" kindref="member">GetDescription</ref>()<sp/>&lt;=<sp/>B;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="281" refid="structnn_1_1_const_range_1a01e5714fdf2f2e774cc6afa459ceffc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1_const_range_1a01e5714fdf2f2e774cc6afa459ceffc7" kindref="member">operator&lt;=</ref>(<ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>lhs,<sp/><ref refid="structnn_1_1_result_1_1_const_range" kindref="compound">ConstRange</ref>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1_const_range_1a7bb8f968d126f4a90457681628f6d0af" kindref="member">ConstRange::Includes</ref>(lhs);<sp/>}</highlight></codeline>
+<codeline lineno="282" refid="structnn_1_1_const_range_1aa12876852066d73a0e46f4da675a14ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1_const_range_1aa12876852066d73a0e46f4da675a14ee" kindref="member">operator&gt;=</ref>(<ref refid="structnn_1_1_result_1_1_const_range" kindref="compound">ConstRange</ref>,<sp/><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/>rhs)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1_const_range_1a7bb8f968d126f4a90457681628f6d0af" kindref="member">ConstRange::Includes</ref>(rhs);<sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Result::Level<sp/>TLevel,<sp/>Result::Summary<sp/>TSummary,<sp/>Result::Module<sp/>TModule&gt;</highlight></codeline>
+<codeline lineno="285" refid="structnn_1_1_const___l_s_m" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_const___l_s_m" kindref="compound">Const_LSM</ref></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TDescription&gt;</highlight></codeline>
+<codeline lineno="288" refid="structnn_1_1_const___l_s_m_1_1_const" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const" kindref="compound">Const</ref><sp/>:<sp/><ref refid="structnn_1_1_result_1_1_const" kindref="compound">Result::Const</ref>&lt;TLevel,<sp/>TSummary,<sp/>TModule,<sp/>TDescription&gt;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{};</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Result::Level<sp/>TLevel,<sp/>Result::Module<sp/>TModule&gt;</highlight></codeline>
+<codeline lineno="292" refid="structnn_1_1_const___l_m" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_const___l_m" kindref="compound">Const_LM</ref></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;Result::Summary<sp/>TSummary,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TDescription&gt;</highlight></codeline>
+<codeline lineno="295" refid="structnn_1_1_const___l_m_1_1_const" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1_result_1_1_const" kindref="compound">Const</ref><sp/>:<sp/><ref refid="structnn_1_1_result_1_1_const" kindref="compound">Result::Const</ref>&lt;TLevel,<sp/>TSummary,<sp/>TModule,<sp/>TDescription&gt;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{};</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Result<sp/>creators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="_result_8h_1ad372040ab3871e6e584e7c395f106b2a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_DEF_CONST(result,<sp/>level,<sp/>summary,<sp/>module,<sp/>description)<sp/>\</highlight></codeline>
+<codeline lineno="301"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedef<sp/>nn::Result::Const&lt;(level),<sp/>(summary),<sp/>(module),<sp/>(description)&gt;<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="_result_8h_1a85ecd190cc088bdd36d8699a7860d971" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_DEF_CONST_RANGE(result,<sp/>level,<sp/>summary,<sp/>module,<sp/>description,<sp/>a,<sp/>b)<sp/>\</highlight></codeline>
+<codeline lineno="303"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedef<sp/>nn::Result::Const&lt;(level),<sp/>(summary),<sp/>(module),<sp/>(description),<sp/>(a),<sp/>(b)&gt;<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="_result_8h_1a0da245c637378406110873ae20207c13" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_DEF_CONST_LSM(result,<sp/>sub,<sp/>description)<sp/>\</highlight></codeline>
+<codeline lineno="306"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedef<sp/>sub::Const&lt;(description)&gt;<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="_result_8h_1aa57fa1b481f3cc38226b443086b28d30" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_MAKE_CONST_LSM(sub,<sp/>level,<sp/>summary,<sp/>module)<sp/>\</highlight></codeline>
+<codeline lineno="308"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedef<sp/>::nn::Result::Const_LSM&lt;(level),<sp/>(summary),<sp/>(module)&gt;<sp/>sub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="_result_8h_1a0bddd2f4dd5a91167f0cd565a83f00dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_DEF_CONST_LM(result,<sp/>sub,<sp/>summary,<sp/>description)<sp/>\</highlight></codeline>
+<codeline lineno="311"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedef<sp/>sub::Const&lt;(summary),<sp/>(description)&gt;<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="_result_8h_1a91b0ad93bba19f4e4ba12f1f452608d7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_MAKE_CONST_LM(sub,<sp/>level,<sp/>module)<sp/>\</highlight></codeline>
+<codeline lineno="313"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedef<sp/>::nn::Result::Const_LM&lt;(level),<sp/>(module)&gt;<sp/>sub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="comment">//<sp/>565</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="namespacenn_1ac40924ef4fc1d79e07ab8d448bd68916" refkind="member"><highlight class="normal"><ref refid="_result_8h_1ad372040ab3871e6e584e7c395f106b2a" kindref="member">NN_RESULT_DEF_CONST</ref>(ResultSuccess,<sp/><ref refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a239493249f44cb95a72092c35fd24cf7" kindref="member">Result::LEVEL_SUCCESS</ref>,<sp/><ref refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca6cc080e4053ca511b25cf60cf3e0f84a" kindref="member">Result::SUMMARY_SUCCESS</ref>,<sp/><ref refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab3714b302a040999762f6ccf7fcde8e7" kindref="member">Result::MODULE_COMMON</ref>,<sp/><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead47b175235151831eb9625fd2fed8679" kindref="member">Result::DESCRIPTION_SUCCESS</ref>);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_NN_RESULT_MAKE_TYPE(name,<sp/>e)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="318"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>inline<sp/>Result<sp/>Make##name##Result(Result::Summary<sp/>summary,<sp/>Result::Module<sp/>module,<sp/>int<sp/>description)<sp/>\</highlight></codeline>
+<codeline lineno="319"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="320"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>Result(Result::LEVEL_##e,<sp/>summary,<sp/>module,<sp/>description);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="321"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="namespacenn_1a12ce9242ca87bbb6859cd9c8950ecb55" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref><sp/>(Info,<sp/>INFO);<sp/></highlight><highlight class="comment">//<sp/>585</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="namespacenn_1ab6af878944c62e2b0be5ab814d1fa6f2" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Fatal,<sp/>FATAL);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="namespacenn_1a009282cf1f0ee976baa2f6158dadddbb" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Reset,<sp/>RESET);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="namespacenn_1a09b9aa1a725bdd0f34fe9f02d7ec8d40" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Reinit,<sp/>REINIT);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="namespacenn_1ab8cefc9900bd4aff58c1d81f61cb38b8" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Usage,<sp/>USAGE);<sp/></highlight><highlight class="comment">//<sp/>593</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="namespacenn_1a30a9c6f00626406984276e794454c7b4" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Permanent,<sp/>PERMANENT);<sp/></highlight><highlight class="comment">//<sp/>595</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="namespacenn_1a97850d8f29e2de7958634524d46cc68a" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Temporary,<sp/>TEMPORARY);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="namespacenn_1a60d5c8771e1180c70ee02b8be5bc6ef2" refkind="member"><highlight class="normal"><ref refid="_result_8h_1a790357b7beffa3b9c38a5a514c592b8e" kindref="member">_NN_RESULT_MAKE_TYPE</ref>(Status,<sp/>STATUS);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="_result_8h_1a384bfe13fee587f4a92b9a188f84d6bc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_RESULT_DEF(Type,<sp/>Res,<sp/>Sum,<sp/>Desc)<sp/>\</highlight></codeline>
+<codeline lineno="340"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inline<sp/>Result<sp/>Res()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="341"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="342"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>Type(Sum,<sp/>Desc);<sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="343"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="namespacenn_1ad15ff2861ee5e22ed9161d0305b0df96" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1ad15ff2861ee5e22ed9161d0305b0df96" kindref="member">nnResultFailureHandler</ref>(<ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="350" refid="namespacenn_1ac7684a0045903e9633de58b273553792" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1ac7684a0045903e9633de58b273553792" kindref="member">nnResultTFailureHandler</ref>(<ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352" refid="namespacenn_1a1d02de615b0dd5c3fbe13cdaa1380c1b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1a1d02de615b0dd5c3fbe13cdaa1380c1b" kindref="member">nnResultPanicHandler</ref>(<ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="353" refid="namespacenn_1a54f0df8904f3b0ad76d390f01e6552f3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1a54f0df8904f3b0ad76d390f01e6552f3" kindref="member">nnResultTPanicHandler</ref>(<ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="namespacenn_1aeed41a18163c77bf4d00d8a7e5de6115" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="namespacenn_1aeed41a18163c77bf4d00d8a7e5de6115" kindref="member">nnResultHandlerImpl</ref>)(<ref refid="structnn_result" kindref="compound">nnResult</ref><sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineno,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>vlist);<sp/></highlight><highlight class="comment">//<sp/>606</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/Result.h"/>
+  </compounddef>
+</doxygen>

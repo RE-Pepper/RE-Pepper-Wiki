@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fnd_1_1_time_span" kind="class" language="C++" prot="public">
+    <compoundname>nn::fnd::TimeSpan</compoundname>
+    <includes refid="fnd___time_span_8h" local="no">fnd_TimeSpan.h</includes>
+    <innerclass refid="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" prot="private">nn::fnd::TimeSpan::ZeroOnlyTag</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classnn_1_1fnd_1_1_time_span_1ac1f69559e112076a153f9fae68487353" prot="private" static="no">
+        <type>const struct <ref refid="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" kindref="compound">nn::fnd::TimeSpan::ZeroOnlyTag</ref> *</type>
+        <definition>typedef const struct nn::fnd::TimeSpan::ZeroOnlyTag* nn::fnd::TimeSpan::ZeroOnly</definition>
+        <argsstring></argsstring>
+        <name>ZeroOnly</name>
+        <qualifiedname>nn::fnd::TimeSpan::ZeroOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="12" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::m_NanoSeconds</definition>
+        <argsstring></argsstring>
+        <name>m_NanoSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::m_NanoSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="9" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" compoundref="fnd___time_span_8h" startline="18" endline="23">FromNanoSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a401740d722dee6dc80703983319f8de9" compoundref="fnd___time_span_8h" startline="66" endline="69">GetHours</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1af204cdd173fcbb2666ca6194c2990fb4" compoundref="fnd___time_span_8h" startline="50" endline="53">GetMicroSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1aa22ed88a672ddb166f37ec9d624af8a6" compoundref="fnd___time_span_8h" startline="54" endline="57">GetMilliSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a1cca65327a6d77333e173e3457f3285a" compoundref="fnd___time_span_8h" startline="62" endline="65">GetMinutes</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a4914ea897f9eedf687dd2cca88fdc735" compoundref="fnd___time_span_8h" startline="46" endline="49">GetNanoSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a070ad0fea0f9a27d4df700f3f9514a60" compoundref="fnd___time_span_8h" startline="58" endline="61">GetSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1abdac53a0105dc25433d6651fe467953a" compoundref="fnd___time_span_8h" startline="108" endline="112">operator*=</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a47b943e39ff34ef3ac875d18f47108b8" compoundref="fnd___time_span_8h" startline="98" endline="102">operator+=</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a356d84079f470d4350867b7b969f6db0" compoundref="fnd___time_span_8h" startline="103" endline="107">operator-=</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a49f8e4616205eb16b7a3a27697bda350" compoundref="fnd___time_span_8h" startline="113" endline="117">operator/=</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a27ed8819a076845f0e2b8ff75381fc7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::TimeSpan::TimeSpan</definition>
+        <argsstring>(ZeroOnly zero=0)</argsstring>
+        <name>TimeSpan</name>
+        <qualifiedname>nn::fnd::TimeSpan::TimeSpan</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1fnd_1_1_time_span_1ac1f69559e112076a153f9fae68487353" kindref="member">ZeroOnly</ref></type>
+          <declname>zero</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="15" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a4914ea897f9eedf687dd2cca88fdc735" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::GetNanoSeconds</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNanoSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::GetNanoSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="46" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="46" bodyend="49"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1af204cdd173fcbb2666ca6194c2990fb4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::GetMicroSeconds</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMicroSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::GetMicroSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="50" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="50" bodyend="53"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1aa22ed88a672ddb166f37ec9d624af8a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::GetMilliSeconds</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMilliSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::GetMilliSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="54" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="54" bodyend="57"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a070ad0fea0f9a27d4df700f3f9514a60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::GetSeconds</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::GetSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="58" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="58" bodyend="61"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a1cca65327a6d77333e173e3457f3285a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::GetMinutes</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMinutes</name>
+        <qualifiedname>nn::fnd::TimeSpan::GetMinutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="62" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="62" bodyend="65"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a401740d722dee6dc80703983319f8de9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::fnd::TimeSpan::GetHours</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHours</name>
+        <qualifiedname>nn::fnd::TimeSpan::GetHours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="66" column="13" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="66" bodyend="69"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a47b943e39ff34ef3ac875d18f47108b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+        <definition>TimeSpan &amp; nn::fnd::TimeSpan::operator+=</definition>
+        <argsstring>(const TimeSpan &amp;rhs)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator+=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="98" column="18" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="98" bodyend="102"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a356d84079f470d4350867b7b969f6db0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+        <definition>TimeSpan &amp; nn::fnd::TimeSpan::operator-=</definition>
+        <argsstring>(const TimeSpan &amp;rhs)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator-=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="103" column="18" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="103" bodyend="107"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1abdac53a0105dc25433d6651fe467953a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+        <definition>TimeSpan &amp; nn::fnd::TimeSpan::operator*=</definition>
+        <argsstring>(const TimeSpan &amp;rhs)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator*=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="108" column="18" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="108" bodyend="112"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a49f8e4616205eb16b7a3a27697bda350" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+        <definition>TimeSpan &amp; nn::fnd::TimeSpan::operator/=</definition>
+        <argsstring>(const TimeSpan &amp;rhs)</argsstring>
+        <name>operator/=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator/=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="113" column="18" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="113" bodyend="117"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>static TimeSpan nn::fnd::TimeSpan::FromNanoSeconds</definition>
+        <argsstring>(s64 nanoSeconds)</argsstring>
+        <name>FromNanoSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::FromNanoSeconds</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>nanoSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="18" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="18" bodyend="23"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" compoundref="fnd___time_span_8h" startline="9">m_NanoSeconds</references>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a48d7569775370c43e315906be9e27864" compoundref="fnd___time_span_8h" startline="40" endline="43">FromHours</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a61e98cd80e5943eb872a31d92499d6cc" compoundref="fnd___time_span_8h" startline="24" endline="27">FromMicroSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a43f6550f98067b8d42e18b1fd7929544" compoundref="fnd___time_span_8h" startline="28" endline="31">FromMilliSeconds</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a97060edd6ac1b6345449d18f6c75c765" compoundref="fnd___time_span_8h" startline="36" endline="39">FromMinutes</referencedby>
+        <referencedby refid="classnn_1_1fnd_1_1_time_span_1a3de4bf9008165519d254817f0f90874e" compoundref="fnd___time_span_8h" startline="32" endline="35">FromSeconds</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a61e98cd80e5943eb872a31d92499d6cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>static TimeSpan nn::fnd::TimeSpan::FromMicroSeconds</definition>
+        <argsstring>(s64 microSeconds)</argsstring>
+        <name>FromMicroSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::FromMicroSeconds</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>microSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="24" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="24" bodyend="27"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" compoundref="fnd___time_span_8h" startline="18" endline="23">FromNanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a43f6550f98067b8d42e18b1fd7929544" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>static TimeSpan nn::fnd::TimeSpan::FromMilliSeconds</definition>
+        <argsstring>(s64 milliSeconds)</argsstring>
+        <name>FromMilliSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::FromMilliSeconds</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>milliSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="28" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="28" bodyend="31"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" compoundref="fnd___time_span_8h" startline="18" endline="23">FromNanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a3de4bf9008165519d254817f0f90874e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>static TimeSpan nn::fnd::TimeSpan::FromSeconds</definition>
+        <argsstring>(s64 seconds)</argsstring>
+        <name>FromSeconds</name>
+        <qualifiedname>nn::fnd::TimeSpan::FromSeconds</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="32" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="32" bodyend="35"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" compoundref="fnd___time_span_8h" startline="18" endline="23">FromNanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a97060edd6ac1b6345449d18f6c75c765" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>static TimeSpan nn::fnd::TimeSpan::FromMinutes</definition>
+        <argsstring>(s64 minutes)</argsstring>
+        <name>FromMinutes</name>
+        <qualifiedname>nn::fnd::TimeSpan::FromMinutes</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>minutes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="36" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="36" bodyend="39"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" compoundref="fnd___time_span_8h" startline="18" endline="23">FromNanoSeconds</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fnd_1_1_time_span_1a48d7569775370c43e315906be9e27864" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>static TimeSpan nn::fnd::TimeSpan::FromHours</definition>
+        <argsstring>(s64 hours)</argsstring>
+        <name>FromHours</name>
+        <qualifiedname>nn::fnd::TimeSpan::FromHours</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>hours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="40" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="40" bodyend="43"/>
+        <references refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" compoundref="fnd___time_span_8h" startline="18" endline="23">FromNanoSeconds</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1a820ee1f6184a9a9e5ca21325b8c8203b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="72" column="21" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1a9e2aae82da6fdf3f26b8487b854e6043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="76" column="21" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1af06df3b334c5ae147801c6c7250b8cc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="80" column="16" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1aa0f069a3445912d8929fafc8952f3d85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="84" column="21" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1a5174e0ab5a4ca02806bac6ef7d5fee9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator&lt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="88" column="16" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1a9218f30fa59eb8d3fcbc94353fe250ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator&gt;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="92" column="21" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1a2bfdcce01e3f76ca8df06fd968a9ec24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>TimeSpan operator+</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="119" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="119" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="friend" id="classnn_1_1fnd_1_1_time_span_1a718ec923a3cee478a33646660b5f93c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></type>
+        <definition>TimeSpan operator-</definition>
+        <argsstring>(const TimeSpan &amp;lhs, const TimeSpan &amp;rhs)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>nn::fnd::TimeSpan::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="125" column="25" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="125" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="6" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="7" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a48d7569775370c43e315906be9e27864" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>FromHours</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a61e98cd80e5943eb872a31d92499d6cc" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>FromMicroSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a43f6550f98067b8d42e18b1fd7929544" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>FromMilliSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a97060edd6ac1b6345449d18f6c75c765" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>FromMinutes</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>FromNanoSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a3de4bf9008165519d254817f0f90874e" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>FromSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a401740d722dee6dc80703983319f8de9" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>GetHours</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1af204cdd173fcbb2666ca6194c2990fb4" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>GetMicroSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1aa22ed88a672ddb166f37ec9d624af8a6" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>GetMilliSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a1cca65327a6d77333e173e3457f3285a" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>GetMinutes</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a4914ea897f9eedf687dd2cca88fdc735" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>GetNanoSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a070ad0fea0f9a27d4df700f3f9514a60" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>GetSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" prot="private" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>m_NanoSeconds</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a9e2aae82da6fdf3f26b8487b854e6043" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator!=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1abdac53a0105dc25433d6651fe467953a" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator*=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a2bfdcce01e3f76ca8df06fd968a9ec24" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator+</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a47b943e39ff34ef3ac875d18f47108b8" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator+=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a718ec923a3cee478a33646660b5f93c6" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator-</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a356d84079f470d4350867b7b969f6db0" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator-=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a49f8e4616205eb16b7a3a27697bda350" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator/=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1af06df3b334c5ae147801c6c7250b8cc7" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator&lt;</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a5174e0ab5a4ca02806bac6ef7d5fee9b" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator&lt;=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a820ee1f6184a9a9e5ca21325b8c8203b" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator==</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1aa0f069a3445912d8929fafc8952f3d85" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator&gt;</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a9218f30fa59eb8d3fcbc94353fe250ca" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>operator&gt;=</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1a27ed8819a076845f0e2b8ff75381fc7a" prot="public" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>TimeSpan</name></member>
+      <member refid="classnn_1_1fnd_1_1_time_span_1ac1f69559e112076a153f9fae68487353" prot="private" virt="non-virtual"><scope>nn::fnd::TimeSpan</scope><name>ZeroOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

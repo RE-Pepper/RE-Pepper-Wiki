@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q" kind="struct" language="C++" prot="public">
+    <compoundname>nn::codec::CTR::IirFilterParamEQ</compoundname>
+    <includes refid="codec___types_8h" local="no">codec_Types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q_1a421f80feb73d3deffd007eb6860beaf6" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_biquad" kindref="compound">IirFilterParamBiquad</ref></type>
+        <definition>IirFilterParamBiquad nn::codec::CTR::IirFilterParamEQ::biquadA</definition>
+        <argsstring></argsstring>
+        <name>biquadA</name>
+        <qualifiedname>nn::codec::CTR::IirFilterParamEQ::biquadA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="46" column="30" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q_1a71c1332550b9ba6131f97fa0e08e8c15" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_biquad" kindref="compound">IirFilterParamBiquad</ref></type>
+        <definition>IirFilterParamBiquad nn::codec::CTR::IirFilterParamEQ::biquadB</definition>
+        <argsstring></argsstring>
+        <name>biquadB</name>
+        <qualifiedname>nn::codec::CTR::IirFilterParamEQ::biquadB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="47" column="30" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q_1a25b69180c11fb8efef12163ed9326bb9" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_biquad" kindref="compound">IirFilterParamBiquad</ref></type>
+        <definition>IirFilterParamBiquad nn::codec::CTR::IirFilterParamEQ::biquadC</definition>
+        <argsstring></argsstring>
+        <name>biquadC</name>
+        <qualifiedname>nn::codec::CTR::IirFilterParamEQ::biquadC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="48" column="30" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::codec::CTR::IirFilterParamBiquad</label>
+        <link refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_biquad"/>
+      </node>
+      <node id="1">
+        <label>nn::codec::CTR::IirFilterParamEQ</label>
+        <link refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>biquadA</edgelabel>
+          <edgelabel>biquadB</edgelabel>
+          <edgelabel>biquadC</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="44" column="1" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="45" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q_1a421f80feb73d3deffd007eb6860beaf6" prot="public" virt="non-virtual"><scope>nn::codec::CTR::IirFilterParamEQ</scope><name>biquadA</name></member>
+      <member refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q_1a71c1332550b9ba6131f97fa0e08e8c15" prot="public" virt="non-virtual"><scope>nn::codec::CTR::IirFilterParamEQ</scope><name>biquadB</name></member>
+      <member refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_e_q_1a25b69180c11fb8efef12163ed9326bb9" prot="public" virt="non-virtual"><scope>nn::codec::CTR::IirFilterParamEQ</scope><name>biquadC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1util_1_1_sized_enum" kind="class" language="C++" prot="public">
+    <compoundname>nn::util::SizedEnum</compoundname>
+    <derivedcompoundref refid="structnn_1_1util_1_1_sized_enum1" prot="public" virt="non-virtual">nn::util::SizedEnum1&lt; MediaType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structnn_1_1util_1_1_sized_enum4" prot="public" virt="non-virtual">nn::util::SizedEnum4&lt; Tag &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structnn_1_1util_1_1_sized_enum4" prot="public" virt="non-virtual">nn::util::SizedEnum4&lt; MediaType &gt;</derivedcompoundref>
+    <includes refid="util___sized_enum_8h" local="no">util_SizedEnum.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename V</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1util_1_1_sized_enum_1a9ff6ae109b9325acfb7796a71df8433c" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T nn::util::SizedEnum&lt; T, V &gt;::m_EnumValue</definition>
+        <argsstring></argsstring>
+        <name>m_EnumValue</name>
+        <qualifiedname>nn::util::SizedEnum::m_EnumValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="10" column="11" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classnn_1_1util_1_1_sized_enum_1ad1a7f0428b49bf8d730f95ef6e601e0a" compoundref="util___sized_enum_8h" startline="17" endline="17">nn::util::SizedEnum&lt; T, V &gt;::Get</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1util_1_1_sized_enum_1a5587a002348697bdb3eb159bfe53789c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::SizedEnum&lt; T, V &gt;::SizedEnum</definition>
+        <argsstring>()</argsstring>
+        <name>SizedEnum</name>
+        <qualifiedname>nn::util::SizedEnum::SizedEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="13" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_sized_enum_1a5b5bbf8973362e2b3e56b11d6c2a50e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::SizedEnum&lt; T, V &gt;::SizedEnum</definition>
+        <argsstring>(T e)</argsstring>
+        <name>SizedEnum</name>
+        <qualifiedname>nn::util::SizedEnum::SizedEnum</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="14" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_sized_enum_1a8687da15b45868b0bd5e0e88055856d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::SizedEnum&lt; T, V &gt;::SizedEnum</definition>
+        <argsstring>(V e)</argsstring>
+        <name>SizedEnum</name>
+        <qualifiedname>nn::util::SizedEnum::SizedEnum</qualifiedname>
+        <param>
+          <type>V</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="15" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_sized_enum_1ad1a7f0428b49bf8d730f95ef6e601e0a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T nn::util::SizedEnum&lt; T, V &gt;::Get</definition>
+        <argsstring>() const</argsstring>
+        <name>Get</name>
+        <qualifiedname>nn::util::SizedEnum::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="17" column="14" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="17" bodyend="17"/>
+        <references refid="classnn_1_1util_1_1_sized_enum_1a9ff6ae109b9325acfb7796a71df8433c" compoundref="util___sized_enum_8h" startline="10">nn::util::SizedEnum&lt; T, V &gt;::m_EnumValue</references>
+        <referencedby refid="classnn_1_1util_1_1_sized_enum_1a336ffaaa1891ee25105b2cfe299801e2" compoundref="util___sized_enum_8h" startline="20" endline="20">nn::util::SizedEnum&lt; bit16, V &gt;::operator bit16</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_sized_enum_1ae92d91f3214d001f7a77994aedf41e7e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::util::SizedEnum&lt; T, V &gt;::Set</definition>
+        <argsstring>(T e) const</argsstring>
+        <name>Set</name>
+        <qualifiedname>nn::util::SizedEnum::Set</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="18" column="14" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1util_1_1_sized_enum_1a336ffaaa1891ee25105b2cfe299801e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::util::SizedEnum&lt; T, V &gt;::operator T</definition>
+        <argsstring>()</argsstring>
+        <name>operator T</name>
+        <qualifiedname>nn::util::SizedEnum::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="20" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::util::SizedEnum1&lt; MediaType &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum1"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::SizedEnum4&lt; MediaType &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="template-instance">
+          <edgelabel>&lt; MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::SizedEnum4&lt; Tag &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="template-instance">
+          <edgelabel>&lt; Tag &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::util::SizedEnum&lt; bit16, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit16, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn::util::SizedEnum&lt; bit32, MediaType &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit32, MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn::util::SizedEnum&lt; bit32, Tag &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit32, Tag &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn::util::SizedEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>nn::util::SizedEnum&lt; bit8, MediaType &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit8, MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum&lt; bit8, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; bit8, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum1&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum1"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::util::SizedEnum2&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum2"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn::util::SizedEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </inheritancegraph>
+    <location file="lib/CtrSDK/include/nn/util/util_SizedEnum.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_SizedEnum.h" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classnn_1_1util_1_1_sized_enum_1ad1a7f0428b49bf8d730f95ef6e601e0a" prot="public" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>Get</name></member>
+      <member refid="classnn_1_1util_1_1_sized_enum_1a9ff6ae109b9325acfb7796a71df8433c" prot="private" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>m_EnumValue</name></member>
+      <member refid="classnn_1_1util_1_1_sized_enum_1a336ffaaa1891ee25105b2cfe299801e2" prot="public" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>operator T</name></member>
+      <member refid="classnn_1_1util_1_1_sized_enum_1ae92d91f3214d001f7a77994aedf41e7e" prot="public" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>Set</name></member>
+      <member refid="classnn_1_1util_1_1_sized_enum_1a5587a002348697bdb3eb159bfe53789c" prot="public" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>SizedEnum</name></member>
+      <member refid="classnn_1_1util_1_1_sized_enum_1a5b5bbf8973362e2b3e56b11d6c2a50e2" prot="public" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>SizedEnum</name></member>
+      <member refid="classnn_1_1util_1_1_sized_enum_1a8687da15b45868b0bd5e0e88055856d4" prot="public" virt="non-virtual"><scope>nn::util::SizedEnum</scope><name>SizedEnum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

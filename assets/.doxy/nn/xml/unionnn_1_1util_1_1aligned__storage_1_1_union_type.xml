@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="unionnn_1_1util_1_1aligned__storage_1_1_union_type" kind="union" language="C++" prot="private">
+    <compoundname>nn::util::aligned_storage::UnionType</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionnn_1_1util_1_1aligned__storage_1_1_union_type_1a9c395cd94091c46c874305dc5668d8e5" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nn::util::aligned_storage&lt; Size, Alignment &gt;::UnionType::c[Size]</definition>
+        <argsstring>[Size]</argsstring>
+        <name>c</name>
+        <qualifiedname>nn::util::aligned_storage::UnionType::c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="41" column="22" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionnn_1_1util_1_1aligned__storage_1_1_union_type_1af960471e9c76fbaee709b27a8434e6e2" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1detail_1_1_alignment_type" kindref="compound">detail::AlignmentType</ref>&lt; Alignment &gt;<ref refid="structnn_1_1util_1_1aligned__storage_1ae7083d26001b6af7769e59e33adf9cce" kindref="member">::type</ref></type>
+        <definition>detail::AlignmentType&lt;Alignment&gt;::type nn::util::aligned_storage&lt; Size, Alignment &gt;::UnionType::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>nn::util::aligned_storage::UnionType::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="45" column="55" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::aligned_storage&lt; Size, Alignment &gt;::UnionType</label>
+        <link refid="unionnn_1_1util_1_1aligned__storage_1_1_union_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>a</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::util::aligned_storage&lt; Size, Alignment &gt;::UnionType</label>
+        <link refid="unionnn_1_1util_1_1aligned__storage_1_1_union_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>a</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="40" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="40" bodyend="46"/>
+    <listofallmembers>
+      <member refid="unionnn_1_1util_1_1aligned__storage_1_1_union_type_1af960471e9c76fbaee709b27a8434e6e2" prot="public" virt="non-virtual"><scope>nn::util::aligned_storage::UnionType</scope><name>a</name></member>
+      <member refid="unionnn_1_1util_1_1aligned__storage_1_1_union_type_1a9c395cd94091c46c874305dc5668d8e5" prot="public" virt="non-virtual"><scope>nn::util::aligned_storage::UnionType</scope><name>c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

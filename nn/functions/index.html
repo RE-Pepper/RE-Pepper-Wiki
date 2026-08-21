@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Functions - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="functions">Functions</h1>
+<h2 id="a">a</h2>
+<ul>
+<li><strong>abort</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+</ul>
+<h2 id="n">n</h2>
+<ul>
+<li><strong>nndbgBreak</strong> (<a href="../dbg___break_8h/"><strong>dbg_Break.h</strong></a>, <a href="../dbg___break_8cpp/"><strong>dbg_Break.cpp</strong></a>)</li>
+<li><strong>nndbgBreakWithMessage_</strong> (<a href="../dbg___break_8h/"><strong>dbg_Break.h</strong></a>, <a href="../dbg___break_8cpp/"><strong>dbg_Break.cpp</strong></a>)</li>
+<li><strong>nndbgBreakWithResultMessage_</strong> (<a href="../dbg___break_8h/"><strong>dbg_Break.h</strong></a>, <a href="../dbg___break_8cpp/"><strong>dbg_Break.cpp</strong></a>)</li>
+<li><strong>nndbgBreakWithResultTMessage_</strong> (<a href="../dbg___break_8h/"><strong>dbg_Break.h</strong></a>, <a href="../dbg___break_8cpp/"><strong>dbg_Break.cpp</strong></a>)</li>
+<li><strong>nndbgBreakWithTMessage_</strong> (<a href="../dbg___break_8h/"><strong>dbg_Break.h</strong></a>, <a href="../dbg___break_8cpp/"><strong>dbg_Break.cpp</strong></a>)</li>
+<li><strong>nndbgPanic</strong> (<a href="../dbg___break_8h/"><strong>dbg_Break.h</strong></a>, <a href="../dbg___break_8cpp/"><strong>dbg_Break.cpp</strong></a>)</li>
+<li><strong>nninitCallStaticInitializers</strong> (<a href="../init___start_up_8h/"><strong>init_StartUp.h</strong></a>, <a href="../init___start_up_8cpp/"><strong>init_StartUp.cpp</strong></a>)</li>
+<li><strong>nninitSetup</strong> (<a href="../init___start_up_8h/"><strong>init_StartUp.h</strong></a>, <a href="../init___start_up_8cpp/"><strong>init_StartUp.cpp</strong></a>)</li>
+<li><strong>nninitSetupDaemons</strong> (<a href="../init___start_up_8h/"><strong>init_StartUp.h</strong></a>, <a href="../init___start_up_8cpp/"><strong>init_StartUp.cpp</strong></a>)</li>
+<li><strong>nninitSystem</strong> (<a href="../init___start_up_8h/"><strong>init_StartUp.h</strong></a>, <a href="../init___start_up_8cpp/"><strong>init_StartUp.cpp</strong></a>)</li>
+<li><strong>nnnstdMemCpy</strong> (<a href="../nstd___string_8h/"><strong>nstd_String.h</strong></a>, <a href="../nstd___string_8c/"><strong>nstd_String.c</strong></a>)</li>
+<li><strong>nnnstdMemMove</strong> (<a href="../nstd___string_8h/"><strong>nstd_String.h</strong></a>, <a href="../nstd___string_8c/"><strong>nstd_String.c</strong></a>)</li>
+<li><strong>nnutilReferSymbol_</strong> (<a href="../util___symbol_8h/"><strong>util_Symbol.h</strong></a>, <a href="../util___symbol_8cpp/"><strong>util_Symbol.cpp</strong></a>)</li>
+<li><strong>nnMain</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>nninitLocale</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>nninitRegion</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>nninitStartUp</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>nndbgDetailPrintf</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nndbgDetailPutString</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nndbgDetailTPrintf</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nndbgDetailTVPrintf</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nndbgDetailVPrintf</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nndbgPrintWarning_</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nndbgTPrintWarning_</strong> (<a href="../dbg___debug_string_8cpp/"><strong>dbg_DebugString.cpp</strong></a>)</li>
+<li><strong>nnnstdTSNPrintf</strong> (<a href="../nstd___printf_8cpp/"><strong>nstd_Printf.cpp</strong></a>)</li>
+<li><strong>nnnstdTSPrintf</strong> (<a href="../nstd___printf_8cpp/"><strong>nstd_Printf.cpp</strong></a>)</li>
+<li><strong>nnnstdTVSNPrintf</strong> (<a href="../nstd___printf_8cpp/"><strong>nstd_Printf.cpp</strong></a>)</li>
+<li><strong>nnResultTFailureHandler</strong> (<a href="../os___result_failure_handler_8cpp/"><strong>os_ResultFailureHandler.cpp</strong></a>)</li>
+<li><strong>nnosGetProcessId</strong> (<a href="../os___result_failure_handler_8cpp/"><strong>os_ResultFailureHandler.cpp</strong></a>)</li>
+</ul>
+<h2 id="_">_</h2>
+<ul>
+<li><strong>__cpp_initialize__aeabi_</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>__ctr_start</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>__rt_locale</strong> (<a href="../crt0_8cpp/"><strong>crt0.cpp</strong></a>)</li>
+<li><strong>__aeabi_atexit</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>__rt_div0</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>__rt_eh_globals_addr</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>__rt_raise</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_close</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_flen</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_istty</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_open</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_read</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_seek</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+<li><strong>_sys_write</strong> (<a href="../rvct__stdio_8cpp/"><strong>rvct_stdio.cpp</strong></a>)</li>
+</ul>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

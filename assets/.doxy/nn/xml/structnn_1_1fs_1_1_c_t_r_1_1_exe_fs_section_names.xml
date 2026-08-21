@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::CTR::ExeFsSectionNames</compoundname>
+    <derivedcompoundref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" prot="public" virt="non-virtual">nn::fs::CTR::ContentPath</derivedcompoundref>
+    <derivedcompoundref refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path" prot="public" virt="non-virtual">nn::fs::CTR::ProgramDataPath</derivedcompoundref>
+    <derivedcompoundref refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path" prot="public" virt="non-virtual">nn::fs::CTR::TitleDataPath</derivedcompoundref>
+    <includes refid="fs___path_names_for_system_8h" local="no">fs_PathNamesForSystem.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::fs::CTR::ContentPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::ExeFsSectionNames</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names"/>
+      </node>
+      <node id="3">
+        <label>nn::fs::CTR::ProgramDataPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_program_data_path"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::fs::CTR::TitleDataPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_title_data_path"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="13" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="14" bodyend="14"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_Thread.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_threadh">File os_Thread.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_53922fdb85244c81a863dd6ad700ec31/"><strong>os</strong></a> <strong>&gt;</strong> <a href="../os___thread_8h/"><strong>os_Thread.h</strong></a></p>
+<p><a href="../os___thread_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+RP_SHUTUP
+
+#include &lt;nn/Result.h&gt;
+#include &lt;nn/fnd/fnd_TimeSpan.h&gt;
+#include &lt;nn/os/os_SvcTypes.autogen.h&gt;
+#include &lt;nn/os/os_Synchronization.h&gt;
+#include &lt;nn/util/util_TypeTraits.h&gt;
+
+#include &quot;nn/os/CTR/os_ErrorHandler.h&quot;
+#include &quot;nn/svc/svc_Stub.h&quot;
+
+namespace nn {
+namespace os {
+
+namespace detail {
+s32  ConvertSvcToLibraryPriority(s32 svc);
+s32  ConvertLibraryToSvcPriority(s32 lib);
+void InitializeThreadEnvrionment();
+} // namespace detail
+
+template &lt;size_t Size&gt;
+class StackBuffer
+{
+private:
+        util::aligned_storage&lt;Size, 8&gt; m_Buffer; // 8 is derived from u64
+
+public:
+        uptr GetStackBottom();
+
+        StackBuffer() {}
+};
+
+class Thread : WaitObject
+{
+private:
+        typedef struct AutoStackManager AutoStackManager; // 154
+
+        struct InitializeAsCurrentTag
+        {};
+
+        struct TypeInfo {
+                size_t size;
+
+                void (*copy)(const void* src, void* dsr);
+                void (*destroy)(void* p);
+                void (*invoke)(ThreadFunc f, const void* p);
+
+                template &lt;typename T1, typename T2, typename T3&gt;
+                void SetData() // TODO: PARAMETERS
+                {
+                        size = sizeof(T1);
+                        // TODO
+                }
+
+                template &lt;typename T1, typename T2&gt;
+                void Copy(const void* src, void* dst) { new (dst) T1(*(const T2*)src); }
+
+                template &lt;typename T&gt;
+                void Destroy(void* p) {}
+
+                template &lt;typename T&gt;
+                void Invoke(ThreadFunc f, const void* p) { f((uptr)p); }
+        };
+
+        struct FunctionInfo;
+
+public:
+        Thread() : m_CanFinalize(true) {} // 166
+        ~Thread();
+
+        void Finalize();
+        void Join();
+
+        bool  IsAlive() const;
+        void  Sleep(fnd::TimeSpan span);
+        void  Yield();
+        bit32 GetId() const;
+        bit32 GetCurrentId() const;
+        s32   GetPriority() const;
+        s32   GetCurrentPriority() const;
+        void  ChangePriority(s32 priority);
+        void  ChangeCurrentPriority(s32 priority);
+        s32   GetIdealProcessor() const;
+        s32   GetDefaultIdealProcessor() const;
+        s32   GetCurrentProcessorNumber() const;
+
+private:
+        bool m_CanFinalize;
+        bool m_UsingAutoStack;
+        int  unk; // unnamed int
+
+        static Thread            s_MainThread;
+        static AutoStackManager* s_pAutoStackManager;
+
+public:
+        static Thread&amp; GetMainThread() { return s_MainThread; }
+
+        void SetAutoStackManager(AutoStackManager* pManager) { s_pAutoStackManager = pManager; }
+
+        Thread(const InitializeAsCurrentTag&amp;);
+
+        void FinalizeImpl();
+
+        Result TryInitializeAndStartImpl (TypeInfo typeInfo, ThreadFunc f, const void* p, uptr stackBottom, s32 priority, s32 coreNo, bool isAutoStack);
+        Result TryInitializeAndStartImplUsingAutoStack(TypeInfo typeInfo, ThreadFunc f, const void* p, size_t stackSize, s32 priority, s32 coreNo);
+
+        static void OnThreadStart();
+        static void OnThreadExit();
+        static void ThreadStart(uptr p);
+        void        NoParameterFunc(void (*f)());
+
+        void SleepImpl(fnd::TimeSpan span);
+
+        void* CallDestructorAndExit();
+
+        template &lt;typename T1, typename T2, typename Thread&gt;
+        void StartUsingAutoStack(T1 f, T2 param, size_t stackSize, s32 priority, s32 coreNo) // 847
+        {
+                // TODO
+        }
+
+        template &lt;typename T1, typename T2, typename Stack&gt;
+        Result TryStart(void (*f)(T1), T2 param, Stack* stack, s32 priority, s32 coreNo)
+        {
+                // TODO
+        }
+
+        template &lt;typename T1, typename T2, typename Stack&gt;
+        void Start(void (*f)(T1), T2 param, Stack&amp; stack, s32 priority, s32 coreNo = 254)
+        {
+                // TODO
+        }
+};
+static_assert_(sizeof(Thread) == 0xC);
+
+inline void Thread::Finalize()
+{
+        FinalizeImpl(); // 878
+        HandleObject::Finalize();
+}
+
+inline Thread::~Thread()
+{
+        FinalizeImpl(); // 884 / 963
+}
+
+inline bool Thread::IsAlive() const
+{
+        if (!IsValid()) { // / 981
+                return false;
+        }
+
+        return !((Thread*)this)-&gt;WaitOne(0);
+}
+
+inline void Thread::Sleep(fnd::TimeSpan span)
+{
+        SleepImpl(span);
+}
+
+inline void Thread::Yield()
+{
+        svc::SleepThread(0);
+}
+
+inline bit32 Thread::GetId() const
+{
+        bit32 ret;
+        NN_OS_HANDLE_ERROR(nn::svc::GetThreadId(&amp;ret, GetHandle()));
+        return ret;
+}
+
+inline bit32 Thread::GetCurrentId() const
+{
+        bit32 ret;
+        NN_OS_HANDLE_ERROR(nn::svc::GetThreadId(&amp;ret, PSEUDO_HANDLE_CURRENT_THREAD));
+        return ret;
+}
+
+inline s32 Thread::GetPriority() const
+{
+        s32 ret;
+        NN_OS_HANDLE_ERROR(nn::svc::GetThreadPriority(&amp;ret, GetHandle()));
+        return ret;
+}
+
+inline s32 Thread::GetCurrentPriority() const
+{
+        s32 ret;
+        NN_OS_HANDLE_ERROR(nn::svc::GetThreadPriority(&amp;ret, PSEUDO_HANDLE_CURRENT_THREAD));
+        return ret;
+}
+
+inline void Thread::ChangePriority(s32 priority)
+{
+        NN_OS_HANDLE_ERROR(svc::SetThreadPriority(GetHandle(), detail::ConvertLibraryToSvcPriority(priority)));
+}
+
+inline void Thread::ChangeCurrentPriority(s32 priority)
+{
+        NN_OS_HANDLE_ERROR(svc::SetThreadPriority(PSEUDO_HANDLE_CURRENT_THREAD, detail::ConvertLibraryToSvcPriority(priority)));
+}
+
+inline s32 Thread::GetIdealProcessor() const
+{
+        //TODO
+}
+
+inline s32 Thread::GetDefaultIdealProcessor() const
+{
+        //TODO
+}
+
+inline s32 Thread::GetCurrentProcessorNumber() const
+{
+        //TODO
+}
+
+} // namespace os
+} // namespace nn
+
+#ifdef __cplusplus
+extern &quot;C&quot; {
+#endif
+
+typedef union nnosThread {
+} nnosThread;
+
+// nnos..(); come here
+
+#ifdef __cplusplus
+}
+#endif
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

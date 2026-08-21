@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func" kind="struct" language="C++" prot="private">
+    <compoundname>nn::fnd::InterlockedVariable::CompareAndSwapFunc</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a547f8d957da442c0271a6ee5577bd587" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_comparand</definition>
+        <argsstring></argsstring>
+        <name>m_comparand</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::CompareAndSwapFunc::m_comparand</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="69" column="19" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a54dcab17a7e76acc349ab6a811358a19" compoundref="fnd___interlocked_8h" startline="75" endline="83">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::operator()</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1ae84e83495911a43cf91313ba7c7635da" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::CompareAndSwapFunc::m_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="70" column="19" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a54dcab17a7e76acc349ab6a811358a19" compoundref="fnd___interlocked_8h" startline="75" endline="83">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::operator()</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a1b8577d0a367829a0889300a15ee1737" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_result</definition>
+        <argsstring></argsstring>
+        <name>m_result</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::CompareAndSwapFunc::m_result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="71" column="19" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" compoundref="fnd___interlocked_8h" startline="112" endline="117">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwap</referencedby>
+        <referencedby refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a54dcab17a7e76acc349ab6a811358a19" compoundref="fnd___interlocked_8h" startline="75" endline="83">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::operator()</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a944955821b01248b553871d8e5a10324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::CompareAndSwapFunc</definition>
+        <argsstring>(T comparand, T value)</argsstring>
+        <name>CompareAndSwapFunc</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::CompareAndSwapFunc::CompareAndSwapFunc</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>comparand</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="73" column="17" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a54dcab17a7e76acc349ab6a811358a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::operator()</definition>
+        <argsstring>(T &amp;x)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>nn::fnd::InterlockedVariable::CompareAndSwapFunc::operator()</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="75" column="22" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="75" bodyend="83"/>
+        <references refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a547f8d957da442c0271a6ee5577bd587" compoundref="fnd___interlocked_8h" startline="69">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_comparand</references>
+        <references refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a1b8577d0a367829a0889300a15ee1737" compoundref="fnd___interlocked_8h" startline="71">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_result</references>
+        <references refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1ae84e83495911a43cf91313ba7c7635da" compoundref="fnd___interlocked_8h" startline="70">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwapFunc::m_value</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" line="67" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Interlocked.h" bodystart="68" bodyend="84"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a944955821b01248b553871d8e5a10324" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::CompareAndSwapFunc</scope><name>CompareAndSwapFunc</name></member>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a547f8d957da442c0271a6ee5577bd587" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::CompareAndSwapFunc</scope><name>m_comparand</name></member>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a1b8577d0a367829a0889300a15ee1737" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::CompareAndSwapFunc</scope><name>m_result</name></member>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1ae84e83495911a43cf91313ba7c7635da" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::CompareAndSwapFunc</scope><name>m_value</name></member>
+      <member refid="structnn_1_1fnd_1_1_interlocked_variable_1_1_compare_and_swap_func_1a54dcab17a7e76acc349ab6a811358a19" prot="public" virt="non-virtual"><scope>nn::fnd::InterlockedVariable::CompareAndSwapFunc</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

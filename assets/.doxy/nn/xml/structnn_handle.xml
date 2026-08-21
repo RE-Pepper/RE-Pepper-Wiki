@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_handle" kind="struct" language="C++" prot="public">
+    <compoundname>nnHandle</compoundname>
+    <includes refid="_handle_8h" local="no">Handle.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_handle_1adc8d5f12cfb77de57056b538165ba158" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nnHandle::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>nnHandle::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/Handle.h" line="9" column="15" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" compoundref="os___waitable_counter_8cpp" startline="10" endline="20">nn::os::WaitableCounter::Initialize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/Handle.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/Handle.h" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="structnn_handle_1adc8d5f12cfb77de57056b538165ba158" prot="public" virt="non-virtual"><scope>nnHandle</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

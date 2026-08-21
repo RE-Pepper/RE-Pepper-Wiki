@@ -1,0 +1,1102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1os" kind="namespace" language="C++">
+    <compoundname>nn::os</compoundname>
+    <innerclass refid="structnn_1_1os_1_1_critical_section" prot="public">nn::os::CriticalSection</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_event" prot="public">nn::os::Event</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_event_base" prot="public">nn::os::EventBase</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_flags_enum" prot="public">nn::os::FlagsEnum</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_flags_enum1" prot="public">nn::os::FlagsEnum1</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_flags_enum2" prot="public">nn::os::FlagsEnum2</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_flags_enum4" prot="public">nn::os::FlagsEnum4</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_handle_object" prot="public">nn::os::HandleObject</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_interrupt_event" prot="public">nn::os::InterruptEvent</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_light_event" prot="public">nn::os::LightEvent</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_light_semaphore" prot="public">nn::os::LightSemaphore</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_memory_info" prot="public">nn::os::MemoryInfo</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_page_info" prot="public">nn::os::PageInfo</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_read_only_shared_info" prot="public">nn::os::ReadOnlySharedInfo</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_rtc_swc_info" prot="public">nn::os::RtcSwcInfo</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_semaphore" prot="public">nn::os::Semaphore</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_stack_buffer" prot="public">nn::os::StackBuffer</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_thread" prot="public">nn::os::Thread</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_thread_local_storage" prot="public">nn::os::ThreadLocalStorage</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_tick" prot="public">nn::os::Tick</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_waitable_counter" prot="public">nn::os::WaitableCounter</innerclass>
+    <innerclass refid="classnn_1_1os_1_1_wait_object" prot="public">nn::os::WaitObject</innerclass>
+    <innerclass refid="structnn_1_1os_1_1_writable_shared_info" prot="public">nn::os::WritableSharedInfo</innerclass>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r">nn::os::CTR</innernamespace>
+    <innernamespace refid="namespacenn_1_1os_1_1detail">nn::os::detail</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9ef" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MemoryState</name>
+        <qualifiedname>nn::os::MemoryState</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa4aec28e6bd139b44daea62cf195d80d9" prot="public">
+          <name>MEMORY_STATE_FREE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa20b31a4bece33bc2e75e6c5742444b56" prot="public">
+          <name>MEMORY_STATE_RESERVED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa7977c32388680c49fa9b43860121807c" prot="public">
+          <name>MEMORY_STATE_IO</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa6df592fdebfa3186e29bd66cc4f2e0a7" prot="public">
+          <name>MEMORY_STATE_STATIC</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa78d0a75f75448b9685e9be4391222f5c" prot="public">
+          <name>MEMORY_STATE_CODE</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa86fc9b86a4dc4cf997ff864e1169f282" prot="public">
+          <name>MEMORY_STATE_PRIVATE</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa220a6ee33c9b534488f586582b940c9e" prot="public">
+          <name>MEMORY_STATE_SHARED</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa7309ff2f324ad5dae66132f5c335ee7f" prot="public">
+          <name>MEMORY_STATE_CONTINUOUS</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efadf3319fbd4c4c45304a85912a9474194" prot="public">
+          <name>MEMORY_STATE_ALIASED</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efaa42719f3c530a6217b1cb17b9dad4be7" prot="public">
+          <name>MEMORY_STATE_ALIAS</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efaf14f7bef11afe6c9fee61d8f7eb36bc0" prot="public">
+          <name>MEMORY_STATE_ALIAS_CODE</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa6b0bfcc22ea0b9feb8a026ee05ca122d" prot="public">
+          <name>MEMORY_STATE_LOCKED</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a79a1dd8df41b4ecf8c79c8c3dac1d9efa05ffabbf2cf18b10b45752c0c636a4f0" prot="public">
+          <name>MEMORY_STATE_MAX_BITS</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_MemoryTypes.h" line="6" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_MemoryTypes.h" bodystart="7" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Description</name>
+        <qualifiedname>nn::os::Description</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a3f0f73df832d0981fb7fd14253dd83ea" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_MEMORY</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0af0ef9a63cf6074c86d20ebc53a050843" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_SHARED_MEMORY</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a5a987db86a12d1ca42fef9ecf6abc0b6" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_THREAD</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ae8057ff6b0b7e532c94030493b50c4b1" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_MUTEX</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0af96ade6c9f65aaecba033a31f6942197" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_SEMAPHORE</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a0e9d074c677bfe5663b3a599f2b5aae1" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_EVENT</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ac5c43c032b03e1afa4fa45ead88afb5c" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_TIMER</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0aaf57cd81373ea74f441a85747b0326be" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_PORT</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a40ddbe804c666b602cde4c5e6cf7216e" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_SESSION</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a1340a0f26310e30fd879793915ace543" prot="public">
+          <name>DESCRIPTION_EXCEED_MEMORY_LIMIT</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0acaec6ae16945f9f4869374df64e18ba7" prot="public">
+          <name>DESCRIPTION_EXCEED_SHARED_MEMORY_LIMIT</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0af2a79e8f94f5a851cb71271eb9590d20" prot="public">
+          <name>DESCRIPTION_EXCEED_THREAD_LIMIT</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a93593bcc6c783ec4c8c5de6684a5dfde" prot="public">
+          <name>DESCRIPTION_EXCEED_MUTEX_LIMIT</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ac242010624a7008fcbd5cf04c1781524" prot="public">
+          <name>DESCRIPTION_EXCEED_SEMAPHORE_LIMIT</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a3069a52360926fad75beff8b2f6dc8fc" prot="public">
+          <name>DESCRIPTION_EXCEED_EVENT_LIMIT</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a3c5036cc578d6cbdac08d0dc221e4706" prot="public">
+          <name>DESCRIPTION_EXCEED_TIMER_LIMIT</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0acc7ce150b07f45e933b60716bf395715" prot="public">
+          <name>DESCRIPTION_EXCEED_PORT_LIMIT</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0af7fbb998970fecebc92ddeb8457dff6d" prot="public">
+          <name>DESCRIPTION_EXCEED_SESSION_LIMIT</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0af82a811a21037ad87d83bd7a1b830659" prot="public">
+          <name>DESCRIPTION_MAX_HANDLE</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a955089e7dc8e671aa8bc7bd9de68ac4b" prot="public">
+          <name>DESCRIPTION_INACCESSIBLE_PAGE</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ab3f532d317260104b5e5248b260f4797" prot="public">
+          <name>DESCRIPTION_ABANDONED</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a06c350e39b1dbf17a0aaf18408a6579f" prot="public">
+          <name>DESCRIPTION_INVALID_PROCESS_ID</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0afd258ace0bd71d89d66e19dbd60f81c3" prot="public">
+          <name>DESCRIPTION_INVALID_THREAD_ID</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0abc3ac39e2a133857222914766d247cd7" prot="public">
+          <name>DESCRIPTION_SESSION_CLOSED</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a053285098524b4f7d5f8df919214a8f9" prot="public">
+          <name>DESCRIPTION_INVALID_MESSAGE</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0aa93045c7ecc69faef753dc9ccf7181c8" prot="public">
+          <name>DESCRIPTION_MANUAL_RESET_EVENT_REQUIRED</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a2658754e4cbe91882577ea94698c1b03" prot="public">
+          <name>DESCRIPTION_TOO_LONG_NAME</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ad1d6bd452e2114fd2fa221bedba1190e" prot="public">
+          <name>DESCRIPTION_NOT_OWNED</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a848259582d01a8b58c7102848ff7d6f2" prot="public">
+          <name>DESCRIPTION_PROCESS_TERMINATED</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a03479a8edff984cd9611858c520d2462" prot="public">
+          <name>DESCRIPTION_INVALID_TLS_INDEX</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0aa96aa794ed3f34edb8708006a91697b4" prot="public">
+          <name>DESCRIPTION_NO_RUNNABLE_PROCESSOR</name>
+          <initializer>= 34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ae02b4324bed01001a328106d22f817af" prot="public">
+          <name>DESCRIPTION_NO_SESSION</name>
+          <initializer>= 35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ab6e46811757aa56452c4f54bc00ea30c" prot="public">
+          <name>DESCRIPTION_USING_REGION</name>
+          <initializer>= 36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ab5c9dba7c4eb45ff4cdd3162bc280403" prot="public">
+          <name>DESCRIPTION_ALREADY_RECEIVED</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a9e913953eadfd532eaf4c9141c9a5b8f" prot="public">
+          <name>DESCRIPTION_CANCEL_REQUESTD</name>
+          <initializer>= 38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a24bda67bc69a40137d383f14a7b1a026" prot="public">
+          <name>DESCRIPTION_NOT_RECEIVED</name>
+          <initializer>= 39</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ab87f6a64014c3ddcbcf7f42ed4ab82ca" prot="public">
+          <name>DESCRIPTION_DELIVER_ARG_NOT_READY</name>
+          <initializer>= 41</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a28c038d542f0c976fb25c9b95932d74e" prot="public">
+          <name>DESCRIPTION_DELIVER_ARG_OVER_SIZE</name>
+          <initializer>= 42</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a8e82dba4435b194786f980baac0b3e86" prot="public">
+          <name>DESCRIPTION_INVALID_DELIVER_ARG</name>
+          <initializer>= 43</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a16dd574d0d87780f45f1d742f8c0c67c" prot="public">
+          <name>DESCRIPTION_I_AM_OWNER</name>
+          <initializer>= 44</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a82184a8afb9dd898cd76eff620121635" prot="public">
+          <name>DESCRIPTION_EXCEEDS_SHARED_LIMIT</name>
+          <initializer>= 45</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a9eed88474ed78e0344a30ad432e5dbc9" prot="public">
+          <name>DESCRIPTION_UNEXPECTED_PERMISSION</name>
+          <initializer>= 46</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0af0adbfe67a6f485a022e780064524377" prot="public">
+          <name>DESCRIPTION_INVALID_TAG</name>
+          <initializer>= 47</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0ad24c655d417326b0bb52aa0f7dfb9d4a" prot="public">
+          <name>DESCRIPTION_INVALID_FORMAT</name>
+          <initializer>= 48</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a8c3202dc61c222d3d32e1790a89ae460" prot="public">
+          <name>DESCRIPTION_OTHER_HANDLE</name>
+          <initializer>= 49</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0afb33cd53ac1395c6bb7b93bd13c7c63b" prot="public">
+          <name>DESCRIPTION_FAILED_TO_ALLOCATE_ADDRESS_ARBITER</name>
+          <initializer>= 50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a4b54ee3816a6fa71128b82724fe39b79" prot="public">
+          <name>DESCRIPTION_EXCEED_ADDRESS_ARBITER_LIMIT</name>
+          <initializer>= 51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a602a0eca77500881b269f395df5576be" prot="public">
+          <name>DESCRIPTION_OVER_PORT_CAPACITY</name>
+          <initializer>= 52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a1d88a847cc443be964ec66182fa43002" prot="public">
+          <name>DESCRIPTION_NOT_MAPPED</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0aa9a795402e1dcd023ca04fb91b62574f" prot="public">
+          <name>DESCRIPTION_NO_ADDRESS_SPACE</name>
+          <initializer>= 55</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a3d5d5820248e7791c1b5dbe955c73edf" prot="public">
+          <name>DESCRIPTION_EXCEED_TLS_LIMIT</name>
+          <initializer>= 56</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a7f1e271573aef89b82dd5f4617419211" prot="public">
+          <name>DESCRIPTION_OBSOLETE_RESULT</name>
+          <initializer>= 1023</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Result.h" line="8" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Result.h" bodystart="9" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1os_1a5539e598c840e379f9ec1a963a9b64e0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>HandleInfoType</name>
+        <qualifiedname>nn::os::HandleInfoType</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1a5539e598c840e379f9ec1a963a9b64e0a17edad1faaa915e259b09d6ee13282a4" prot="public">
+          <name>HANDLE_INFO_TYPE_CREATION_TIME</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a5539e598c840e379f9ec1a963a9b64e0a4e6a580d1c9589f909273ef6d80c05b4" prot="public">
+          <name>HANDLE_INFO_TYPE_REFERENCE_COUNT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a5539e598c840e379f9ec1a963a9b64e0a0380eec91c3ffeca8cd1d03b79452033" prot="public">
+          <name>HANDLE_INFO_TYPE_PARENT_PROCESS_ID</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a5539e598c840e379f9ec1a963a9b64e0a9e1b1c8a3503b45df4adcadaac81fe83" prot="public">
+          <name>HANDLE_INFO_TYPE_MAX_BIT</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Types.h" line="8" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Types.h" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ProcessInfoType</name>
+        <qualifiedname>nn::os::ProcessInfoType</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9ab6384ab797c16a2aa73d2bae5b072d8c" prot="public">
+          <name>PROCESS_INFO_TYPE_USING_PHYSICAL_MEMORY_SIZE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a83980f0bdb51cb04650da38c3f84c9e5" prot="public">
+          <name>PROCESS_INFO_TYPE_MAX_USING_PHYSICAL_MEMORY_SIZE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9abba0640aecad6c4a11ea961c70ee956d" prot="public">
+          <name>PROCESS_INFO_TYPE_PRIVATE_PHYSICAL_MEMORY_SIZE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a328da1c5d14b84ac8be4a0ee7cc3c53c" prot="public">
+          <name>PROCESS_INFO_TYPE_MAX_RPIVATE_PHYSICAL_MEMORY_SIZE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9af15135fb7f6fcee4312d3464b07c23e5" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_HANDLES</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a98ad5a706e352703c1580f8baa49ae7d" prot="public">
+          <name>PROCESS_INFO_TYPE_MAX_NUM_HANDLES</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9ad0fec5c2ebf1cace64fd59d002d23c55" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_CREATED_THREADS</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9aee9a164ce337ac37db921b146fe34697" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_THREADS</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a58b38ee0e63f1b063c7d7a923f818e00" prot="public">
+          <name>PROCESS_INFO_TYPE_MAX_NUM_THREADS</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a6e240fdc0168262fe056765068004b44" prot="public">
+          <name>PROCESS_INFO_TYPE_CPU_TIME_SYSTEM</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a0f01b07d632ba67587257ee183fa62e5" prot="public">
+          <name>PROCESS_INFO_TYPE_CPU_TIME_USER</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a0b4a366b4e22a7f2bb563e0acee8de51" prot="public">
+          <name>PROCESS_INFO_TYPE_CPU_TIME</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a154a5a460d54bba7d63005bfbe928a81" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_THREAD_SWITCH</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a8d18b51555e999391807b347edaeb009" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_FPU_SWITCH</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9ade673b9a687428e95a96ebefeb81981a" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_PROCESS_SWITCH</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a10707b3240d73174483eecaf7f160a0a" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_SYSTEM_CALL</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a85a477387747827dca5d97d5dc41d5a8" prot="public">
+          <name>PROCESS_INFO_TYPE_NUM_IPC</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a97bd4818673aa5bca75122a466c5efb5" prot="public">
+          <name>PROCESS_INFO_TYPE_UPTIME</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9ac38b228083d3b3e0d2fc96efb43e9b56" prot="public">
+          <name>PROCESS_INFO_TYPE_NAME</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a497d2b96b5179ccf326aafe7e00a8866" prot="public">
+          <name>PROCESS_INFO_TYPE_REGION</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a36b02d3d8bddf2ba7860123d47856691" prot="public">
+          <name>PROCESS_INFO_TYPE_DEVICE_ADDRESS_OFFSET</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9af5561644284adf043772a69e4342298a" prot="public">
+          <name>PROCESS_INFO_TYPE_WRAM_ADDRESS_OFFSET</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a98028151a658d73c71133f73d4b33f7b" prot="public">
+          <name>PROCESS_INFO_TYPE_WRAM_ADDRESS</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9aca2d10c18ce463f4d108c72b56032b0d" prot="public">
+          <name>PROCESS_INFO_TYPE_WRAM_SIZE</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9a87f14f8e50e2c31d346f617f7864a766" prot="public">
+          <name>PROCESS_INFO_TYPE_MAX_BIT</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Types.h" line="16" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Types.h" bodystart="17" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340" prot="public" static="no" strong="no">
+        <type></type>
+        <name>LimitableResource</name>
+        <qualifiedname>nn::os::LimitableResource</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340ab1d791c69667ae86c25c60e6ab8c0e10" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_PRIORITY</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a8214c2e253bc57d086fcab2f580d3e27" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_COMMIT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340afb99f6a291408fd4a982f5c62fc95c99" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_THREAD</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a76efd6557198f79c6db9b3108121a6bb" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_EVENT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a852f2b924ddba97467a1a9e0dd8f5c76" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_MUTEX</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a9d013270e143fd6b5d9e2685377bb8ff" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_SEMAPHORE</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a50ed6b8556631aaa5d97ff124c0cd87e" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_TIMER</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340ac1f5708e353354ecafe6bd2445cecee9" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_SHAREDMEMORY</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a4458ea3eaf1717d36eba82d01e2abc52" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_ADDRESSARBITER</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a839236b7dc59f4baf00f9699e468a6bb" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_CPUTIME</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a44a3d2d32374d2d8748480bea675a41c" prot="public">
+          <name>LIMITABLE_RESOURCE_END</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1aad77d030e2e976da32e715244df44340a3105d0c21c2901b7bcf0a79c86acf56c" prot="public">
+          <name>LIMITABLE_RESOURCE_MAX_BIT</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Types.h" line="45" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Types.h" bodystart="46" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ResetType</name>
+        <qualifiedname>nn::os::ResetType</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44a00986e3d11825f13eaab0dbc726f321a" prot="public">
+          <name>RESET_TYPE_ONESHOT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>When the primitive is signaled, it will wake up exactly one thread and will clear itself automatically. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44a368ba268be65197e324e781d55903adc" prot="public">
+          <name>RESET_TYPE_STICKY</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>When the primitive is signaled, it will wake up all threads and it won&apos;t clear itself automatically. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44acbbdb7132413691514334ef6a1322fa7" prot="public">
+          <name>RESET_TYPE_PULSE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Only meaningful for timers: same as ONESHOT but it will periodically signal the timer instead of just once. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44af4dd5ba4df935bb876cf8a3b4f8c3901" prot="public">
+          <name>RESET_TYPE_MAX_BIT</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Types.h" line="61" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Types.h" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ArbitrationType</name>
+        <qualifiedname>nn::os::ArbitrationType</qualifiedname>
+        <enumvalue id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa6a188589787459500fb6aa0e1b02e61d" prot="public">
+          <name>ARBITRATION_TYPE_SIGNAL</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Signal #value threads for wake-up. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa052aca86d849ad6daa0bc05251d1f356" prot="public">
+          <name>ARBITRATION_TYPE_WAIT_IF_LESS_THAN</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>If the memory at the address is strictly lower than #value, then wait for signal. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa8e2ccb28601d5c1a0798614d88bebfc4" prot="public">
+          <name>ARBITRATION_TYPE_DECREMENT_AND_WAIT_IF_LESS_THAN</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>If the memory at the address is strictly lower than #value, then decrement it and wait for signal. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa77a64e52e54aad98f6359c4ccca1ee4b" prot="public">
+          <name>ARBITRATION_TYPE_WAIT_IF_LESS_THAN_WITH_TIMEOUT</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>If the memory at the address is strictly lower than #value, then wait for signal or timeout. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa650d62d291204bc3f1c597a3eea6789e" prot="public">
+          <name>ARBITRATION_TYPE_DECREMENT_AND_WAIT_IF_LESS_THAN_WITH_TIMEOUT</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>If the memory at the address is strictly lower than #value, then decrement it and wait for signal or timeout. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aaeae2f5334706a7d785a3f1c71e87fd47" prot="public">
+          <name>ARBITRATION_TYPE_MAX_BIT</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Types.h" line="69" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Types.h" bodystart="70" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1os_1a781614a965290f0b400b7ca587e5a612" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* nn::os::ThreadFunc) (uptr)</definition>
+        <argsstring>)(uptr)</argsstring>
+        <name>ThreadFunc</name>
+        <qualifiedname>nn::os::ThreadFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SvcTypes.autogen.h" line="8" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_SvcTypes.autogen.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1os_1a1a48e9b9d14b2adc784963d13825cbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::_NN_OS_RESULT_DEF_CONST</definition>
+        <argsstring>(ResultExceedTlsLimit, LEVEL_PERMANENT, SUMMARY_OUT_OF_RESOURCE, DESCRIPTION_EXCEED_TLS_LIMIT)</argsstring>
+        <name>_NN_OS_RESULT_DEF_CONST</name>
+        <qualifiedname>nn::os::_NN_OS_RESULT_DEF_CONST</qualifiedname>
+        <param>
+          <type>ResultExceedTlsLimit</type>
+        </param>
+        <param>
+          <type>LEVEL_PERMANENT</type>
+        </param>
+        <param>
+          <type>SUMMARY_OUT_OF_RESOURCE</type>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1aebec7b979b3773f4d2283e473402edf0a3d5d5820248e7791c1b5dbe955c73edf" kindref="member">DESCRIPTION_EXCEED_TLS_LIMIT</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Result.h" line="67" column="1" declfile="lib/CtrSDK/include/nn/os/os_Result.h" declline="67" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_CppException.h" line="4" column="1"/>
+  </compounddef>
+</doxygen>

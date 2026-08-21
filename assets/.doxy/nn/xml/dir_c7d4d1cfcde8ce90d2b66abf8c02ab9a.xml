@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c7d4d1cfcde8ce90d2b66abf8c02ab9a" kind="dir">
+    <compoundname>detail</compoundname>
+    <innerfile refid="util___symbol_8cpp">util_Symbol.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/util/detail/"/>
+  </compounddef>
+</doxygen>

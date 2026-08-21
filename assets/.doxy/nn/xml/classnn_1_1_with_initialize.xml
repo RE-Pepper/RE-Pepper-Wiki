@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1_with_initialize" kind="class" language="C++" prot="public">
+    <compoundname>nn::WithInitialize</compoundname>
+    <includes refid="_with_initialize_8h" local="no">WithInitialize.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/WithInitialize.h" line="5" column="1" bodyfile="lib/CtrSDK/include/nn/WithInitialize.h" bodystart="6" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

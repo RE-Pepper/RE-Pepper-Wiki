@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_thread_1_1_initialize_as_current_tag" kind="struct" language="C++" prot="private">
+    <compoundname>nn::os::Thread::InitializeAsCurrentTag</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/os_Thread.h" line="40" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_Thread.h" bodystart="41" bodyend="41"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

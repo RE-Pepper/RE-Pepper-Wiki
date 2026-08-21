@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alPlacementFunction.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alplacementfunctionh">File alPlacementFunction.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_f7e8efec570a34efc8a6993e55383954/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_b0784325fb1baab636da39c4657eec3c/"><strong>Placement</strong></a> <strong>&gt;</strong> <a href="../al_placement_function_8h/"><strong>alPlacementFunction.h</strong></a></p>
+<p><a href="../al_placement_function_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;Placement/alPlacementInfo.h&gt;
+#include &lt;math/seadQuat.h&gt;
+#include &lt;math/seadVector.h&gt;
+
+namespace al
+{
+class ActorInitInfo;
+
+bool isPlaced( const ActorInitInfo&amp; info );
+
+bool tryGetArg( bool* out, const PlacementInfo&amp; info, const char* argName );
+bool tryGetArg( float* out, const PlacementInfo&amp; info, const char* argName );
+bool tryGetArg( int* out, const PlacementInfo&amp; info, const char* argName );
+#ifndef __CC_ARM
+inline bool tryGetArg( bool* out, const ActorInitInfo&amp; info, const char* argName )
+{
+        return tryGetArg( out, getPlacementInfo( info ), argName );
+}
+
+inline bool tryGetArg( float* out, const ActorInitInfo&amp; info, const char* argName )
+{
+        return tryGetArg( out, getPlacementInfo( info ), argName );
+}
+
+inline bool tryGetArg( int* out, const ActorInitInfo&amp; info, const char* argName )
+{
+        return tryGetArg( out, getPlacementInfo( info ), argName );
+}
+#endif
+bool tryGetArg0( int* out, const PlacementInfo&amp; info );
+bool tryGetArg0( float* out, const ActorInitInfo&amp; info );
+bool tryGetArg1( float* out, const ActorInitInfo&amp; info );
+bool tryGetArg3( int* out, const ActorInitInfo&amp; info );
+bool tryGetStringArg( const char** out, const ActorInitInfo&amp; info, const char* argName );
+bool tryGetStringArg( const char** out, const PlacementInfo&amp; info, const char* argName );
+
+bool tryGetObjectName( const char** out, const ActorInitInfo&amp; info );
+bool tryGetObjectName( const char** out, const PlacementInfo&amp; info );
+bool isObjectName( const ActorInitInfo&amp; info, const char* objectName );
+bool isObjectName( const PlacementInfo&amp; info, const char* objectName );
+
+int calcLinkChildNum( const ActorInitInfo&amp; info );
+
+bool tryGetTrans( sead::Vector3f* out, const ActorInitInfo&amp; info );
+bool tryGetTrans( sead::Vector3f* out, const PlacementInfo&amp; info );
+bool tryGetQuat( sead::Quatf* out, const PlacementInfo&amp; info );
+
+bool isExistRail( const ActorInitInfo&amp; info );
+bool tryGetRailIter( PlacementInfo* out, const PlacementInfo&amp; info );
+
+bool        getLinksInfoByIndex( PlacementInfo* out, const ActorInitInfo&amp; info, int index );
+const char* getLinksActorObjectName( const ActorInitInfo&amp; info, int index );
+
+} // namespace al
+
+namespace alPlacementFunction
+{
+
+int getClippingViewId( const al::PlacementInfo&amp; info );
+
+} // namespace alPlacementFunction
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

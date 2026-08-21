@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1srv_1_1detail_1_1_static_variables" kind="struct" language="C++" prot="public">
+    <compoundname>nn::srv::detail::StaticVariables</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structnn_1_1srv_1_1detail_1_1_static_variables_1a63c4537fb21dbc5346dccff1e4a33e2e" prot="private" static="no" mutable="no">
+        <type><ref refid="structnn_1_1os_1_1_critical_section" kindref="compound">os::CriticalSection</ref></type>
+        <definition>os::CriticalSection nn::srv::detail::StaticVariables::m_InitializeLock</definition>
+        <argsstring></argsstring>
+        <name>m_InitializeLock</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::m_InitializeLock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="37" column="29" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1srv_1_1detail_1_1_static_variables_1ad5fb18f67c47eda8131aaaa7a071505e" prot="private" static="no" mutable="no">
+        <type><ref refid="structnn_1_1os_1_1_semaphore" kindref="compound">os::Semaphore</ref></type>
+        <definition>os::Semaphore nn::srv::detail::StaticVariables::m_NotificationSemaphore</definition>
+        <argsstring></argsstring>
+        <name>m_NotificationSemaphore</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::m_NotificationSemaphore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="38" column="29" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1srv_1_1detail_1_1_static_variables_1a22f6290c4736525c018ceec9db27bfd4" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_thread" kindref="compound">os::Thread</ref></type>
+        <definition>os::Thread nn::srv::detail::StaticVariables::m_NotificationDispatcher</definition>
+        <argsstring></argsstring>
+        <name>m_NotificationDispatcher</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::m_NotificationDispatcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="39" column="29" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1srv_1_1detail_1_1_static_variables_1ab8289b3b4e165e2af4fb3a8e9eac8011" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1srv_1_1detail_1_1_handler_manager" kindref="compound">HandlerManager</ref></type>
+        <definition>HandlerManager nn::srv::detail::StaticVariables::m_HandlerManager</definition>
+        <argsstring></argsstring>
+        <name>m_HandlerManager</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::m_HandlerManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="40" column="29" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1srv_1_1detail_1_1_static_variables_1a1acacb8bd52641634ef44021f3c99996" prot="private" static="no" mutable="no">
+        <type><ref refid="structnn_1_1os_1_1_critical_section" kindref="compound">os::CriticalSection</ref></type>
+        <definition>os::CriticalSection nn::srv::detail::StaticVariables::m_ManagerLock</definition>
+        <argsstring></argsstring>
+        <name>m_ManagerLock</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::m_ManagerLock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="41" column="29" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1srv_1_1detail_1_1_static_variables_1a7d8378b6d2be0d3b740847d6e654997b" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_stack_buffer" kindref="compound">os::StackBuffer</ref>&lt; 1 &gt;</type>
+        <definition>os::StackBuffer&lt;1&gt; nn::srv::detail::StaticVariables::m_Stack</definition>
+        <argsstring></argsstring>
+        <name>m_Stack</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::m_Stack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="42" column="26" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1srv_1_1detail_1_1_static_variables_1a59e627e8a8e732cdc682dad1cb8d61ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::srv::detail::StaticVariables::StaticVariables</definition>
+        <argsstring>()</argsstring>
+        <name>StaticVariables</name>
+        <qualifiedname>nn::srv::detail::StaticVariables::StaticVariables</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="45" column="9" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>nn::fnd::IntrusiveLinkedList&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list"/>
+        <childnode refid="18" relation="usage">
+          <edgelabel>m_Head</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; CriticalSection &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; CriticalSection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Item &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>nn::os::StackBuffer&lt; 1 &gt;</label>
+        <link refid="classnn_1_1os_1_1_stack_buffer"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>m_Buffer</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="template-instance">
+          <edgelabel>&lt; 1 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>nn::util::aligned_storage&lt; Size, 8 &gt;</label>
+        <link refid="structnn_1_1util_1_1aligned__storage"/>
+        <childnode refid="23" relation="template-instance">
+          <edgelabel>&lt; Size, 8 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>nn::Handle</label>
+        <link refid="classnn_1_1_handle"/>
+      </node>
+      <node id="8">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+      <node id="20">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list"/>
+        <childnode refid="18" relation="usage">
+          <edgelabel>m_Head</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="19" relation="private-inheritance">
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>m_NextLink</edgelabel>
+          <edgelabel>m_PreviousLink</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::CriticalSection</label>
+        <link refid="structnn_1_1os_1_1_critical_section"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_Counter</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="13" relation="private-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>m_Handle</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn::os::Semaphore</label>
+        <link refid="structnn_1_1os_1_1_semaphore"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>nn::os::StackBuffer&lt; Size &gt;</label>
+        <link refid="classnn_1_1os_1_1_stack_buffer"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>m_Buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>nn::os::Thread</label>
+        <link refid="classnn_1_1os_1_1_thread"/>
+        <childnode refid="11" relation="private-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>s_MainThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::WaitableCounter</label>
+        <link refid="classnn_1_1os_1_1_waitable_counter"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>s_Handle</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>nn::srv::detail::HandlerManager</label>
+        <link refid="classnn_1_1srv_1_1detail_1_1_handler_manager"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>m_Handlers</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::srv::detail::StaticVariables</label>
+        <link refid="structnn_1_1srv_1_1detail_1_1_static_variables"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_InitializeLock</edgelabel>
+          <edgelabel>m_ManagerLock</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_NotificationSemaphore</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>m_NotificationDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>m_HandlerManager</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>m_Stack</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+      <node id="23">
+        <label>nn::util::aligned_storage&lt; Size, Alignment &gt;</label>
+        <link refid="structnn_1_1util_1_1aligned__storage"/>
+      </node>
+      <node id="6">
+        <label>nnHandle</label>
+        <link refid="structnn_handle"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" line="34" column="1" bodyfile="lib/CtrSDK/sources/libraries/srv/srv_Api.cpp" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1ab8289b3b4e165e2af4fb3a8e9eac8011" prot="private" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>m_HandlerManager</name></member>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1a63c4537fb21dbc5346dccff1e4a33e2e" prot="private" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>m_InitializeLock</name></member>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1a1acacb8bd52641634ef44021f3c99996" prot="private" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>m_ManagerLock</name></member>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1a22f6290c4736525c018ceec9db27bfd4" prot="private" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>m_NotificationDispatcher</name></member>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1ad5fb18f67c47eda8131aaaa7a071505e" prot="private" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>m_NotificationSemaphore</name></member>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1a7d8378b6d2be0d3b740847d6e654997b" prot="private" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>m_Stack</name></member>
+      <member refid="structnn_1_1srv_1_1detail_1_1_static_variables_1a59e627e8a8e732cdc682dad1cb8d61ef" prot="public" virt="non-virtual"><scope>nn::srv::detail::StaticVariables</scope><name>StaticVariables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

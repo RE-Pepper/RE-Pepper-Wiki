@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::CTR::ContentPath</compoundname>
+    <basecompoundref refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names" prot="public" virt="non-virtual">nn::fs::CTR::ExeFsSectionNames</basecompoundref>
+    <includes refid="fs___path_names_for_system_8h" local="no">fs_PathNamesForSystem.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Tag</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::Tag</qualifiedname>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aab4ebfbafd814c0342aa3cfc6db93fbfb" prot="public">
+          <name>TAG_ROMFS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa06828c9f9956ffa0f47ff61463ef818d" prot="public">
+          <name>TAG_EXEFS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa16101be1197d0095461b451f4939734a" prot="public">
+          <name>TAG_SYSTEM_MENU_DATA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa3989cd44cf465c30c6cf867ef22a3a1f" prot="public">
+          <name>TAG_PROGRAM_INFO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="18" column="9" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="19" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1add6d45c061b936d06b13dd25a255a9d8" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1util_1_1_int64" kindref="compound">util::Int64</ref>&lt; <ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref> &gt;</type>
+        <definition>util::Int64&lt;s64&gt; nn::fs::CTR::ContentPath::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="26" column="26" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1ada2c859df93dc0b44591bbdd087ee176" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4</ref>&lt; <ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65a" kindref="member">Tag</ref> &gt;</type>
+        <definition>util::SizedEnum4&lt;Tag&gt; nn::fs::CTR::ContentPath::tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="27" column="26" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a4dff09f01406ed64e81cf7ac9e17cb9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref></type>
+        <definition>static ContentPath nn::fs::CTR::ContentPath::MakeRomfsPath</definition>
+        <argsstring>()</argsstring>
+        <name>MakeRomfsPath</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::MakeRomfsPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="29" column="28" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a6eb903408ac1cfa8d1e7416b810357f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref></type>
+        <definition>static ContentPath nn::fs::CTR::ContentPath::MakeExefsPath</definition>
+        <argsstring>()</argsstring>
+        <name>MakeExefsPath</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::MakeExefsPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="30" column="28" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a2d87af71831096333d0e6c2012f9ca82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref></type>
+        <definition>static ContentPath nn::fs::CTR::ContentPath::MakeSystemMenuDataPath</definition>
+        <argsstring>()</argsstring>
+        <name>MakeSystemMenuDataPath</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::MakeSystemMenuDataPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="31" column="28" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a95add6748ee49f3fd764a52951be1733" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path" kindref="compound">ContentPath</ref></type>
+        <definition>static ContentPath nn::fs::CTR::ContentPath::MakeProgramInfoPath</definition>
+        <argsstring>()</argsstring>
+        <name>MakeProgramInfoPath</name>
+        <qualifiedname>nn::fs::CTR::ContentPath::MakeProgramInfoPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="32" column="28" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>nn::fs::CTR::ContentPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fs::CTR::ExeFsSectionNames</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>nn::util::Int64&lt; s64 &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; s64 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum4&lt; Tag &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; Tag &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::util::SizedEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="9" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fs::CTR::ContentPath</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>id</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>tag</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fs::CTR::ExeFsSectionNames</label>
+        <link refid="structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names"/>
+      </node>
+      <node id="4">
+        <label>nn::util::Int64&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_int64"/>
+      </node>
+      <node id="9">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+      <node id="7">
+        <label>nn::util::SizedEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum4"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" line="16" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h" bodystart="17" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1add6d45c061b936d06b13dd25a255a9d8" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>id</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a6eb903408ac1cfa8d1e7416b810357f4" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>MakeExefsPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a95add6748ee49f3fd764a52951be1733" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>MakeProgramInfoPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a4dff09f01406ed64e81cf7ac9e17cb9a" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>MakeRomfsPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1a2d87af71831096333d0e6c2012f9ca82" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>MakeSystemMenuDataPath</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65a" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>Tag</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1ada2c859df93dc0b44591bbdd087ee176" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>tag</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa06828c9f9956ffa0f47ff61463ef818d" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>TAG_EXEFS</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa3989cd44cf465c30c6cf867ef22a3a1f" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>TAG_PROGRAM_INFO</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aab4ebfbafd814c0342aa3cfc6db93fbfb" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>TAG_ROMFS</name></member>
+      <member refid="structnn_1_1fs_1_1_c_t_r_1_1_content_path_1aa4346e661ca3c5c68de5379cba51f65aa16101be1197d0095461b451f4939734a" prot="public" virt="non-virtual"><scope>nn::fs::CTR::ContentPath</scope><name>TAG_SYSTEM_MENU_DATA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

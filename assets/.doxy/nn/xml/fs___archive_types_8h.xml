@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fs___archive_types_8h" kind="file" language="C++">
+    <compoundname>fs_ArchiveTypes.h</compoundname>
+    <includes refid="fs___parameters_for_system_8h" local="no">nn/fs/fs_ParametersForSystem.h</includes>
+    <includes refid="util___int64_8h" local="no">nn/util/util_Int64.h</includes>
+    <includes refid="util___sized_enum_8h" local="no">nn/util/util_SizedEnum.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>fs_ArchiveTypes.h</label>
+        <link refid="fs___archive_types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn/fs/fs_Parameters.h</label>
+        <link refid="fs___parameters_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/fs/fs_ParametersForSystem.h</label>
+        <link refid="fs___parameters_for_system_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/util/util_Int64.h</label>
+        <link refid="util___int64_8h"/>
+      </node>
+      <node id="4">
+        <label>nn/util/util_SizedEnum.h</label>
+        <link refid="util___sized_enum_8h"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path" prot="public">nn::fs::CTR::DataContentArchivePath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path" prot="public">nn::fs::CTR::UserSaveDataArchivePath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" prot="public">nn::fs::CTR::ExtSaveDataArchivePath</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" prot="public">nn::fs::CTR::SystemSaveDataArchivePath</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs">nn::fs</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs_1_1_c_t_r">nn::fs::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="fs___parameters_for_system_8h" kindref="compound">nn/fs/fs_ParametersForSystem.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___int64_8h" kindref="compound">nn/util/util_Int64.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___sized_enum_8h" kindref="compound">nn/util/util_SizedEnum.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1fs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fs<sp/>{</highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1fs_1_1_c_t_r" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path" kindref="compound">DataContentArchivePath</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1a110fe5da1cc132340afe66763f634989" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fs_1a042b347b224d89b5e7c339e26a64d86b" kindref="member">TitleId</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1a110fe5da1cc132340afe66763f634989" kindref="member">titleId</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ad0cc0f55e6dddb2ac4054258e2f03da6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;MediaType&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ad0cc0f55e6dddb2ac4054258e2f03da6" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="15" refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ac2d32f5de484ddd04e614097808972d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" kindref="member">ContentIdx</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path_1ac2d32f5de484ddd04e614097808972d0" kindref="member">contentIdx</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_data_content_archive_path" kindref="compound">DataContentArchivePath</ref>)<sp/>==<sp/>0x10);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path" kindref="compound">UserSaveDataArchivePath</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21" refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a05c2d4d4b483cd0d7d286014876c4266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;MediaType&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a05c2d4d4b483cd0d7d286014876c4266" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a755f004d3aef10a9d7ed815c909f5377" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1util_1_1_int64" kindref="compound">util::Int64&lt;bit64&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a755f004d3aef10a9d7ed815c909f5377" kindref="member">titleId</ref>;<sp/></highlight><highlight class="comment">//<sp/>bit64<sp/>was<sp/>a<sp/>guess!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1ade98b036dab1cbc4f2877fff5a480a4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path" kindref="compound">UserSaveDataArchivePath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1ade98b036dab1cbc4f2877fff5a480a4a" kindref="member">Make</ref><sp/>(<ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a05c2d4d4b483cd0d7d286014876c4266" kindref="member">mediaType</ref>,<sp/><ref refid="namespacenn_1_1fs_1a042b347b224d89b5e7c339e26a64d86b" kindref="member">TitleId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path" kindref="compound">UserSaveDataArchivePath</ref><sp/>ret;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a05c2d4d4b483cd0d7d286014876c4266" kindref="member">mediaType</ref><sp/>=<sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a05c2d4d4b483cd0d7d286014876c4266" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_user_save_data_archive_path_1a755f004d3aef10a9d7ed815c909f5377" kindref="member">titleId</ref><sp/><sp/><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(UserSaveDataArchivePath)<sp/>==<sp/>0xC);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" kindref="compound">ExtSaveDataArchivePath</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;MediaType&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="37" refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1util_1_1_int64" kindref="compound">util::Int64&lt;bit64&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" kindref="member">extSaveDataId</ref>;<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>s64<sp/>WAS<sp/>A<sp/>GUESS!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1aae3b9e6c450843368b9ade6443e6121e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" kindref="compound">ExtSaveDataArchivePath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1aae3b9e6c450843368b9ade6443e6121e" kindref="member">Make</ref><sp/>(<ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" kindref="member">mediaType</ref>,<sp/><ref refid="namespacenn_1_1fs_1a62973311b2c3ccdf9acdc77b7aba2049" kindref="member">ExtSaveDataId</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" kindref="member">extSaveDataId</ref>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path" kindref="compound">ExtSaveDataArchivePath</ref><sp/>ret;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" kindref="member">mediaType</ref><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a502d18173e9635b5cdd329170ecfd99b" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" kindref="member">extSaveDataId</ref><sp/>=<sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_ext_save_data_archive_path_1a03925580478be241f3530d7c8f082734" kindref="member">extSaveDataId</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(ExtSaveDataArchivePath)<sp/>==<sp/>0xC);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" kindref="compound">SystemSaveDataArchivePath</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51" refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1util_1_1_sized_enum4" kindref="compound">util::SizedEnum4&lt;MediaType&gt;</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fs_1a6eefc177b2a32a261e683408f09b266f" kindref="member">SystemSaveDataId</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" kindref="member">systemSaveDataId</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a350dc2dac4842878259ae8969204f743" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" kindref="compound">SystemSaveDataArchivePath</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a350dc2dac4842878259ae8969204f743" kindref="member">Make</ref><sp/>(<ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" kindref="member">mediaType</ref>,<sp/><ref refid="namespacenn_1_1fs_1a6eefc177b2a32a261e683408f09b266f" kindref="member">SystemSaveDataId</ref><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" kindref="member">systemSaveDataId</ref>)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path" kindref="compound">SystemSaveDataArchivePath</ref><sp/>ret;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" kindref="member">mediaType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1aecbfb304c55e6e29194e742f4d6331f7" kindref="member">mediaType</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" kindref="member">systemSaveDataId</ref><sp/>=<sp/><ref refid="structnn_1_1fs_1_1_c_t_r_1_1_system_save_data_archive_path_1a2cf038133c24404ba87da8e38680ac82" kindref="member">systemSaveDataId</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(SystemSaveDataArchivePath)<sp/>==<sp/>0x8);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h"/>
+  </compounddef>
+</doxygen>

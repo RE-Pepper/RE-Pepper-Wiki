@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_670efa06400c5a7c70bc1499710bffc9" kind="dir">
+    <compoundname>nstd</compoundname>
+    <innerfile refid="nstd___printf_8h">nstd_Printf.h</innerfile>
+    <innerfile refid="nstd___string_8h">nstd_String.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/nstd/"/>
+  </compounddef>
+</doxygen>

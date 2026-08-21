@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fs_1_1detail_1_1_w_path_buffer" kind="class" language="C++" prot="public">
+    <compoundname>nn::fs::detail::WPathBuffer</compoundname>
+    <includes refid="fs___file_system_base_8h" local="no">fs_FileSystemBase.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1fs_1_1detail_1_1_w_path_buffer_1af3527872253dc8099600e1bbbbc0efa0" prot="private" static="no" mutable="no">
+        <type>wchar_t</type>
+        <definition>wchar_t nn::fs::detail::WPathBuffer::m_pBuffer[270]</definition>
+        <argsstring>[270]</argsstring>
+        <name>m_pBuffer</name>
+        <qualifiedname>nn::fs::detail::WPathBuffer::m_pBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" line="31" column="17" bodyfile="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1fs_1_1detail_1_1_w_path_buffer_1a9ba25ccd65bcc9a8d82961b813b4b4c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fs::detail::WPathBuffer::WPathBuffer</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>WPathBuffer</name>
+        <qualifiedname>nn::fs::detail::WPathBuffer::WPathBuffer</qualifiedname>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" line="34" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" line="28" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" bodystart="29" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fs_1_1detail_1_1_w_path_buffer_1af3527872253dc8099600e1bbbbc0efa0" prot="private" virt="non-virtual"><scope>nn::fs::detail::WPathBuffer</scope><name>m_pBuffer</name></member>
+      <member refid="classnn_1_1fs_1_1detail_1_1_w_path_buffer_1a9ba25ccd65bcc9a8d82961b813b4b4c2" prot="public" virt="non-virtual"><scope>nn::fs::detail::WPathBuffer</scope><name>WPathBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

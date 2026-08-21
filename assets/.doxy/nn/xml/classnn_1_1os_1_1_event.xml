@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1os_1_1_event" kind="class" language="C++" prot="public">
+    <compoundname>nn::os::Event</compoundname>
+    <basecompoundref refid="classnn_1_1os_1_1_event_base" prot="public" virt="non-virtual">nn::os::EventBase</basecompoundref>
+    <includes refid="os___event_8h" local="no">os_Event.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1a1d13efc7ee482df1caf925bc9efb32d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::Event::Event</definition>
+        <argsstring>()</argsstring>
+        <name>Event</name>
+        <qualifiedname>nn::os::Event::Event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="60" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1a797598eb37639d8c0520fe4bb054a70e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::Event::TryInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>TryInitialize</name>
+        <qualifiedname>nn::os::Event::TryInitialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="62" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="62" bodyend="62"/>
+        <references refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" compoundref="os___event_8h" startline="27" endline="35">nn::os::EventBase::TryInitialize</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1a06939df895a9bf22b122a33346f405d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::Event::Initialize</definition>
+        <argsstring>(ResetType manualReset)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::os::Event::Initialize</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">ResetType</ref></type>
+          <declname>manualReset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="63" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="63" bodyend="63"/>
+        <references refid="classnn_1_1os_1_1_event_base_1ae2ace1d03afca02515e78dfc4acdccd0" compoundref="os___event_8h" startline="36" endline="39">nn::os::EventBase::Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1aaba3bdd5be9b15fc0d50cd32f8e5dba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::Event::~Event</definition>
+        <argsstring>()</argsstring>
+        <name>~Event</name>
+        <qualifiedname>nn::os::Event::~Event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="65" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1a3dfe6257a759c58df1e2a88cf73c8212" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::Event::Signal</definition>
+        <argsstring>()</argsstring>
+        <name>Signal</name>
+        <qualifiedname>nn::os::Event::Signal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="67" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="67" bodyend="67"/>
+        <references refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" compoundref="os___event_8h" startline="40" endline="43">nn::os::EventBase::Signal</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1a16b6dd6abd5fbaa1906733a8bdc7be45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::Event::ClearSignal</definition>
+        <argsstring>()</argsstring>
+        <name>ClearSignal</name>
+        <qualifiedname>nn::os::Event::ClearSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="68" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="68" bodyend="68"/>
+        <references refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" compoundref="os___event_8h" startline="44" endline="47">nn::os::EventBase::ClearSignal</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_event_1af1d9285a8caa2c0b1fea6748ed4d312f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::Event::Wait</definition>
+        <argsstring>(fnd::TimeSpan timeout)</argsstring>
+        <name>Wait</name>
+        <qualifiedname>nn::os::Event::Wait</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref></type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="69" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="69" bodyend="69"/>
+        <references refid="os___synchronization_8cpp_1aad342615237f48b9619fe72d0c841cbf" compoundref="os___synchronization_8cpp" startline="16">timeout</references>
+        <references refid="classnn_1_1os_1_1_wait_object_1ac6195ab5342a72323405c926fb98785e" compoundref="os___synchronization_8h" startline="24" endline="27">nn::os::WaitObject::WaitOne</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::Event</label>
+        <link refid="classnn_1_1os_1_1_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::EventBase</label>
+        <link refid="classnn_1_1os_1_1_event_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="6" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::Handle</label>
+        <link refid="classnn_1_1_handle"/>
+      </node>
+      <node id="1">
+        <label>nn::os::Event</label>
+        <link refid="classnn_1_1os_1_1_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::EventBase</label>
+        <link refid="classnn_1_1os_1_1_event_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="6" relation="private-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_Handle</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="57" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="58" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_handle_object_1af84a9d4f2fef70ad098b03e2efa91376" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>ClearHandle</name></member>
+      <member refid="classnn_1_1os_1_1_event_1a16b6dd6abd5fbaa1906733a8bdc7be45" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>ClearSignal</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>Close</name></member>
+      <member refid="classnn_1_1os_1_1_event_1a1d13efc7ee482df1caf925bc9efb32d3" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>Event</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1abcfb647ff901420d863332253e64b53c" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>EventBase</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1ab305b68d0cbde4f4d340571b61ac5884" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>EventBase</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a86e818fce3818298933d737885c7a60c" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>Finalize</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" prot="protected" virt="non-virtual"><scope>nn::os::Event</scope><name>GetHandle</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a3d865d35c5adb99186c09d6b971da4eb" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>HandleObject</name></member>
+      <member refid="classnn_1_1os_1_1_event_1a06939df895a9bf22b122a33346f405d6" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>Initialize</name></member>
+      <member refid="classnn_1_1os_1_1_interrupt_event_1a4a29a377519314ee1eca53a7a5438268" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>InterruptEvent</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" prot="protected" virt="non-virtual"><scope>nn::os::Event</scope><name>IsValid</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" prot="private" virt="non-virtual"><scope>nn::os::Event</scope><name>m_Handle</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="private" virt="non-virtual"><scope>nn::os::Event</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::os::Event</scope><name>NonCopyable</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a2a272a0b0037154dac2c7d1f1cf5309a" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>SetHandle</name></member>
+      <member refid="classnn_1_1os_1_1_event_1a3dfe6257a759c58df1e2a88cf73c8212" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>Signal</name></member>
+      <member refid="classnn_1_1os_1_1_event_1a797598eb37639d8c0520fe4bb054a70e" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>TryInitialize</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" prot="public" virt="non-virtual" ambiguityscope="nn::os::EventBase::"><scope>nn::os::Event</scope><name>TryInitialize</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1acd9bc3a7c6f53d9ecd94ebd3b03454c0" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>TryInitializeImpl</name></member>
+      <member refid="classnn_1_1os_1_1_event_1af1d9285a8caa2c0b1fea6748ed4d312f" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>Wait</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1a4e14bc72c1e48828ea0d4e34ebfc878c" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>WaitAny</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1af3c57ecc264ffa8b9f1e86ab2c4417a5" prot="private" virt="non-virtual"><scope>nn::os::Event</scope><name>WaitMultiple</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1afe3b3b397cb04cc1db44e5ac0bc1393a" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>WaitObject</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1ac6195ab5342a72323405c926fb98785e" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>WaitOne</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1aff200001e82129149664df5ed61ba218" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>WaitOne</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1a6eb934a8913d20c620de7645ee559053" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>WaitOneImpl</name></member>
+      <member refid="classnn_1_1os_1_1_event_1aaba3bdd5be9b15fc0d50cd32f8e5dba3" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>~Event</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1acb9a2c2bf7a4a24c95f28b6766297336" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>~EventBase</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a7de277bda977b4bff718d4e689826087" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>~HandleObject</name></member>
+      <member refid="classnn_1_1os_1_1_interrupt_event_1a22d53c2fdc928b8e0cd1dfd0173e53dd" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>~InterruptEvent</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="private" virt="non-virtual"><scope>nn::os::Event</scope><name>~NonCopyable</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1a33d7562ef128bb2ee66e4e66333cf702" prot="public" virt="non-virtual"><scope>nn::os::Event</scope><name>~WaitObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

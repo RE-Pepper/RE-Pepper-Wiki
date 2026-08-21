@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_back_light_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::BackLightCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_back_light_cfg_data_1a2a311010d47869887882135832cf2330" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::cfg::CTR::detail::BackLightCfgData::ablEnable</definition>
+        <argsstring></argsstring>
+        <name>ablEnable</name>
+        <qualifiedname>nn::cfg::CTR::detail::BackLightCfgData::ablEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="13" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_back_light_cfg_data_1a444ae4cba9c8007d484c23a2a315f455" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::BackLightCfgData::luminanceLevel</definition>
+        <argsstring></argsstring>
+        <name>luminanceLevel</name>
+        <qualifiedname>nn::cfg::CTR::detail::BackLightCfgData::luminanceLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="14" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_back_light_cfg_data_1a2a311010d47869887882135832cf2330" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BackLightCfgData</scope><name>ablEnable</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_back_light_cfg_data_1a444ae4cba9c8007d484c23a2a315f455" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::BackLightCfgData</scope><name>luminanceLevel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

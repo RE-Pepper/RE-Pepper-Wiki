@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1os_1_1_waitable_counter" kind="class" language="C++" prot="public">
+    <compoundname>nn::os::WaitableCounter</compoundname>
+    <includes refid="os___waitable_counter_8h" local="no">os_WaitableCounter.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classnn_1_1os_1_1_waitable_counter_1a0c91b33963b80a90255b927004cf95ee" prot="private" static="no">
+        <type><ref refid="classnn_1_1fnd_1_1_interlocked_variable" kindref="compound">fnd::InterlockedVariable</ref>&lt; <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> &gt;</type>
+        <definition>typedef fnd::InterlockedVariable&lt;s32&gt; nn::os::WaitableCounter::ValueType</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <qualifiedname>nn::os::WaitableCounter::ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="16" column="42" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" prot="private" static="yes" mutable="no">
+        <type><ref refid="structnn_handle" kindref="compound">nnHandle</ref></type>
+        <definition>nnHandle nn::os::WaitableCounter::s_Handle</definition>
+        <argsstring></argsstring>
+        <name>s_Handle</name>
+        <qualifiedname>nn::os::WaitableCounter::s_Handle</qualifiedname>
+        <initializer>= { 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="13" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" compoundref="os___waitable_counter_8cpp" startline="10" endline="20">Initialize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_waitable_counter_1ab7616ce695092f9aadb682f943a895d7" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_waitable_counter_1a0c91b33963b80a90255b927004cf95ee" kindref="member">ValueType</ref></type>
+        <definition>ValueType nn::os::WaitableCounter::m_Value</definition>
+        <argsstring></argsstring>
+        <name>m_Value</name>
+        <qualifiedname>nn::os::WaitableCounter::m_Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="17" column="47" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a6bec05da4900e43c4b4bf38ad51e7384" compoundref="os___waitable_counter_8h" startline="23" endline="23">operator*</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a09fb80b4336b61fb6546a68de7aee67a" compoundref="os___waitable_counter_8h" startline="24" endline="24">operator*</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a7d90b9c7f4e51fef812bc5ff0288017d" compoundref="os___waitable_counter_8h" startline="25" endline="25">operator-&gt;</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::WaitableCounter::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::os::WaitableCounter::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="20" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_WaitableCounter.cpp" bodystart="10" bodyend="20"/>
+        <references refid="namespacenn_1_1svc_1aef50d227d10b4cd39d2673e17cfe3bf6">nn::svc::CreateAddressArbiter</references>
+        <references refid="classnn_1_1_result_1af6443f9db2ea08dd0678599de8bc1ecb" compoundref="_result_8h" startline="210" endline="213">nn::Result::IsSuccess</references>
+        <references refid="assert_8h_1aa3f531c13d46d6bd8dd50138d3657cec" compoundref="assert_8h" startline="8" endline="11">NN_ASSERT_SDK</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" compoundref="os___waitable_counter_8h" startline="13">s_Handle</references>
+        <references refid="structnn_handle_1adc8d5f12cfb77de57056b538165ba158" compoundref="_handle_8h" startline="9">nnHandle::value</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a4c75470d4d4348faee49271d70b6404e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::WaitableCounter::Finalize</definition>
+        <argsstring>()</argsstring>
+        <name>Finalize</name>
+        <qualifiedname>nn::os::WaitableCounter::Finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="21" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_WaitableCounter.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a6bec05da4900e43c4b4bf38ad51e7384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1os_1_1_waitable_counter_1a0c91b33963b80a90255b927004cf95ee" kindref="member">ValueType</ref> &amp;</type>
+        <definition>ValueType &amp; nn::os::WaitableCounter::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <qualifiedname>nn::os::WaitableCounter::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="23" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="23" bodyend="23"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ab7616ce695092f9aadb682f943a895d7" compoundref="os___waitable_counter_8h" startline="17">m_Value</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a09fb80b4336b61fb6546a68de7aee67a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classnn_1_1os_1_1_waitable_counter_1a0c91b33963b80a90255b927004cf95ee" kindref="member">ValueType</ref> &amp;</type>
+        <definition>const ValueType &amp; nn::os::WaitableCounter::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>nn::os::WaitableCounter::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="24" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="24" bodyend="24"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ab7616ce695092f9aadb682f943a895d7" compoundref="os___waitable_counter_8h" startline="17">m_Value</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a7d90b9c7f4e51fef812bc5ff0288017d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1os_1_1_waitable_counter_1a0c91b33963b80a90255b927004cf95ee" kindref="member">ValueType</ref> *</type>
+        <definition>ValueType * nn::os::WaitableCounter::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>nn::os::WaitableCounter::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="25" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="25" bodyend="25"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ab7616ce695092f9aadb682f943a895d7" compoundref="os___waitable_counter_8h" startline="17">m_Value</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::ArbitrateAddress</definition>
+        <argsstring>(ArbitrationType type, s32 value)</argsstring>
+        <name>ArbitrateAddress</name>
+        <qualifiedname>nn::os::WaitableCounter::ArbitrateAddress</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24a" kindref="member">ArbitrationType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="27" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="27" bodyend="30"/>
+        <references refid="namespacenn_1_1svc_1a95dbbb74aa64f40fc1196df6f023db49">nn::svc::ArbitrateAddress</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ab7616ce695092f9aadb682f943a895d7" compoundref="os___waitable_counter_8h" startline="17">m_Value</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" compoundref="os___waitable_counter_8h" startline="13">s_Handle</references>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a625f4246fc31c32b29485f28902dd4d9" compoundref="os___waitable_counter_8h" startline="39" endline="42">DecrementAndWaitIfLessThan</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1adfba2bb22c80c74840310e54df8e3852" compoundref="os___waitable_counter_8h" startline="43" endline="46">DecrementAndWaitIfLessThanWithTimeout</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" compoundref="os___waitable_counter_8h" startline="47" endline="50">Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a329fc9e271f26294d1f4c5bf8448796e" compoundref="os___waitable_counter_8h" startline="31" endline="34">WaitIfLessThan</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1ae2a18e269a10214c9349d5c1d325cbdd" compoundref="os___waitable_counter_8h" startline="35" endline="38">WaitIfLessThanWithTimeout</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a329fc9e271f26294d1f4c5bf8448796e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::WaitIfLessThan</definition>
+        <argsstring>(s32 value)</argsstring>
+        <name>WaitIfLessThan</name>
+        <qualifiedname>nn::os::WaitableCounter::WaitIfLessThan</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="31" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="31" bodyend="34"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</references>
+        <references refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa052aca86d849ad6daa0bc05251d1f356" compoundref="os___types_8h" startline="72">nn::os::ARBITRATION_TYPE_WAIT_IF_LESS_THAN</references>
+        <referencedby refid="classnn_1_1os_1_1_light_semaphore_1ae5c323ad5d242ef566a1153c088619cc" compoundref="os___light_semaphore_8h" startline="75" endline="82">nn::os::LightSemaphore::Acquire</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">nn::os::LightEvent::Wait</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1ae2a18e269a10214c9349d5c1d325cbdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::WaitIfLessThanWithTimeout</definition>
+        <argsstring>(s32 value)</argsstring>
+        <name>WaitIfLessThanWithTimeout</name>
+        <qualifiedname>nn::os::WaitableCounter::WaitIfLessThanWithTimeout</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="35" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="35" bodyend="38"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</references>
+        <references refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa77a64e52e54aad98f6359c4ccca1ee4b" compoundref="os___types_8h" startline="74">nn::os::ARBITRATION_TYPE_WAIT_IF_LESS_THAN_WITH_TIMEOUT</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a625f4246fc31c32b29485f28902dd4d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::DecrementAndWaitIfLessThan</definition>
+        <argsstring>(s32 value)</argsstring>
+        <name>DecrementAndWaitIfLessThan</name>
+        <qualifiedname>nn::os::WaitableCounter::DecrementAndWaitIfLessThan</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="39" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="39" bodyend="42"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</references>
+        <references refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa8e2ccb28601d5c1a0798614d88bebfc4" compoundref="os___types_8h" startline="73">nn::os::ARBITRATION_TYPE_DECREMENT_AND_WAIT_IF_LESS_THAN</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1afc4085bc83008db742546d736a7cf165" compoundref="os___critical_section_8cpp" startline="6" endline="15">nn::os::CriticalSection::EnterImpl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1adfba2bb22c80c74840310e54df8e3852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::DecrementAndWaitIfLessThanWithTimeout</definition>
+        <argsstring>(s32 value)</argsstring>
+        <name>DecrementAndWaitIfLessThanWithTimeout</name>
+        <qualifiedname>nn::os::WaitableCounter::DecrementAndWaitIfLessThanWithTimeout</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="43" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="43" bodyend="46"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</references>
+        <references refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa650d62d291204bc3f1c597a3eea6789e" compoundref="os___types_8h" startline="75">nn::os::ARBITRATION_TYPE_DECREMENT_AND_WAIT_IF_LESS_THAN_WITH_TIMEOUT</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::Signal</definition>
+        <argsstring>(s32 value)</argsstring>
+        <name>Signal</name>
+        <qualifiedname>nn::os::WaitableCounter::Signal</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="47" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="47" bodyend="50"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">ArbitrateAddress</references>
+        <references refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24aa6a188589787459500fb6aa0e1b02e61d" compoundref="os___types_8h" startline="71">nn::os::ARBITRATION_TYPE_SIGNAL</references>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">nn::os::CriticalSection::Leave</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">nn::os::LightEvent::Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a8e341ba28b994058d24131cb40064b2b" compoundref="os___waitable_counter_8h" startline="51" endline="54">SignalAll</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_waitable_counter_1a8e341ba28b994058d24131cb40064b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::os::WaitableCounter::SignalAll</definition>
+        <argsstring>()</argsstring>
+        <name>SignalAll</name>
+        <qualifiedname>nn::os::WaitableCounter::SignalAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="51" column="16" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="51" bodyend="54"/>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" compoundref="os___waitable_counter_8h" startline="47" endline="50">Signal</references>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">nn::os::LightEvent::Signal</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+      <node id="1">
+        <label>nn::os::WaitableCounter</label>
+        <link refid="classnn_1_1os_1_1_waitable_counter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>s_Handle</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nnHandle</label>
+        <link refid="structnn_handle"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_WaitableCounter.h" bodystart="12" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>ArbitrateAddress</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a625f4246fc31c32b29485f28902dd4d9" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>DecrementAndWaitIfLessThan</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1adfba2bb22c80c74840310e54df8e3852" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>DecrementAndWaitIfLessThanWithTimeout</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a4c75470d4d4348faee49271d70b6404e" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>Finalize</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>Initialize</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1ab7616ce695092f9aadb682f943a895d7" prot="private" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>m_Value</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a6bec05da4900e43c4b4bf38ad51e7384" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>operator*</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a09fb80b4336b61fb6546a68de7aee67a" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>operator*</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a7d90b9c7f4e51fef812bc5ff0288017d" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>operator-&gt;</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a2eb5234d3d5598c5df822c33fa998d6f" prot="private" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>s_Handle</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>Signal</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a8e341ba28b994058d24131cb40064b2b" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>SignalAll</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a0c91b33963b80a90255b927004cf95ee" prot="private" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>ValueType</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1a329fc9e271f26294d1f4c5bf8448796e" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>WaitIfLessThan</name></member>
+      <member refid="classnn_1_1os_1_1_waitable_counter_1ae2a18e269a10214c9349d5c1d325cbdd" prot="public" virt="non-virtual"><scope>nn::os::WaitableCounter</scope><name>WaitIfLessThanWithTimeout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

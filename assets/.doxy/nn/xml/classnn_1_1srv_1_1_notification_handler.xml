@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1srv_1_1_notification_handler" kind="class" language="C++" prot="public">
+    <compoundname>nn::srv::NotificationHandler</compoundname>
+    <basecompoundref refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item" prot="public" virt="non-virtual">nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</basecompoundref>
+    <includes refid="srv___api_8h" local="no">srv_Api.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1srv_1_1_notification_handler_1a44b85badfecf0f2306974fdf3386c9b6" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::srv::NotificationHandler::m_AttachedMessage</definition>
+        <argsstring></argsstring>
+        <name>m_AttachedMessage</name>
+        <qualifiedname>nn::srv::NotificationHandler::m_AttachedMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="34" column="15" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1srv_1_1_notification_handler_1a5e9766ccc6d218e236baaf60bda1baca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::srv::NotificationHandler::NotificationHandler</definition>
+        <argsstring>()</argsstring>
+        <name>NotificationHandler</name>
+        <qualifiedname>nn::srv::NotificationHandler::NotificationHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="37" column="9" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Item &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="3" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::srv::NotificationHandler</label>
+        <link refid="classnn_1_1srv_1_1_notification_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; Item &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Item &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::fnd::IntrusiveLinkedList&lt; T, U &gt;::Item</label>
+        <link refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item"/>
+        <childnode refid="3" relation="private-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_NextLink</edgelabel>
+          <edgelabel>m_PreviousLink</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::srv::NotificationHandler</label>
+        <link refid="classnn_1_1srv_1_1_notification_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/srv/srv_Api.h" line="31" column="1" bodyfile="lib/CtrSDK/include/nn/srv/srv_Api.h" bodystart="32" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a1c96ba27bb76986d9b501d89557fd7cd" prot="public" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>Item</name></member>
+      <member refid="classnn_1_1srv_1_1_notification_handler_1a44b85badfecf0f2306974fdf3386c9b6" prot="private" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>m_AttachedMessage</name></member>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a74510fdffac18b4ac623e17d81210441" prot="private" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>m_NextLink</name></member>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a8c019d692a7bd4d048a2fb676bdc0bf5" prot="private" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>m_PreviousLink</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="private" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>NonCopyable</name></member>
+      <member refid="classnn_1_1srv_1_1_notification_handler_1a5e9766ccc6d218e236baaf60bda1baca" prot="public" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>NotificationHandler</name></member>
+      <member refid="classnn_1_1fnd_1_1_intrusive_linked_list_1_1_item_1a820ee1545046064c0c5d8af78fb3be89" prot="public" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>~Item</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="private" virt="non-virtual"><scope>nn::srv::NotificationHandler</scope><name>~NonCopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

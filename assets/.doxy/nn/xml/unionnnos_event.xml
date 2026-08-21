@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="unionnnos_event" kind="union" language="C++" prot="public">
+    <compoundname>nnosEvent</compoundname>
+    <includes refid="os___event_8h" local="no">os_Event.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/os_Event.h" line="80" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_Event.h" bodystart="80" bodyend="81"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

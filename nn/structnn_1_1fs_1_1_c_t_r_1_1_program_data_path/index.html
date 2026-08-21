@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Struct nn::fs::CTR::ProgramDataPath - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="struct-nnfsctrprogramdatapath">Struct nn::fs::CTR::ProgramDataPath</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fs/"><strong>fs</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fs_1_1_c_t_r/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="./"><strong>ProgramDataPath</strong></a></p>
+<ul>
+<li><code>#include &lt;fs_PathNamesForSystem.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../structnn_1_1fs_1_1_c_t_r_1_1_exe_fs_section_names/">nn::fs::CTR::ExeFsSectionNames</a></p>
+<h2 id="public-types">Public Types</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">enum</td>
+<td style="text-align: left;"><a href="#enum-tag"><strong>Tag</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-attributes">Public Attributes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1util_1_1_int64/"><strong>util::Int64</strong></a>&lt; <a href="../types_8h/#typedef-s64"><strong>s64</strong></a> &gt;</td>
+<td style="text-align: left;"><a href="#variable-id"><strong>id</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../structnn_1_1util_1_1_sized_enum4/"><strong>util::SizedEnum4</strong></a>&lt; <a href="./#enum-tag"><strong>Tag</strong></a> &gt;</td>
+<td style="text-align: left;"><a href="#variable-tag"><strong>tag</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>ProgramDataPath</strong></a></td>
+<td style="text-align: left;"><a href="#function-makecontentdatapath"><strong>MakeContentDataPath</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>ProgramDataPath</strong></a></td>
+<td style="text-align: left;"><a href="#function-makeexefspath"><strong>MakeExeFsPath</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>ProgramDataPath</strong></a></td>
+<td style="text-align: left;"><a href="#function-makeromfspath"><strong>MakeRomFsPath</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>ProgramDataPath</strong></a></td>
+<td style="text-align: left;"><a href="#function-makesavedatapath"><strong>MakeSaveDataPath</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>ProgramDataPath</strong></a></td>
+<td style="text-align: left;"><a href="#function-makesavemenudatapath"><strong>MakeSaveMenuDataPath</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-types-documentation">Public Types Documentation</h2>
+<h3 id="enum-tag">enum Tag</h3>
+<pre><code class="language-C++">enum nn::fs::CTR::ProgramDataPath::Tag {
+    TAG_ROMFS,
+    TAG_EXEFS,
+    TAG_SYSTEM_MENU_DATA,
+    TAG_SAVE_DATA,
+    TAG_CONTENT
+};
+</code></pre>
+<hr>
+<h2 id="public-attributes-documentation">Public Attributes Documentation</h2>
+<h3 id="variable-id">variable id</h3>
+<pre><code class="language-C++">util::Int64&lt;s64&gt; nn::fs::CTR::ProgramDataPath::id;
+</code></pre>
+<hr>
+
+<h3 id="variable-tag">variable tag</h3>
+<pre><code class="language-C++">util::SizedEnum4&lt;Tag&gt; nn::fs::CTR::ProgramDataPath::tag;
+</code></pre>
+<hr>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-makecontentdatapath">function MakeContentDataPath</h3>
+<pre><code class="language-C++">static inline ProgramDataPath nn::fs::CTR::ProgramDataPath::MakeContentDataPath () 
+</code></pre>
+<hr>
+
+<h3 id="function-makeexefspath">function MakeExeFsPath</h3>
+<pre><code class="language-C++">static inline ProgramDataPath nn::fs::CTR::ProgramDataPath::MakeExeFsPath () 
+</code></pre>
+<hr>
+
+<h3 id="function-makeromfspath">function MakeRomFsPath</h3>
+<pre><code class="language-C++">static inline ProgramDataPath nn::fs::CTR::ProgramDataPath::MakeRomFsPath () 
+</code></pre>
+<hr>
+
+<h3 id="function-makesavedatapath">function MakeSaveDataPath</h3>
+<pre><code class="language-C++">static inline ProgramDataPath nn::fs::CTR::ProgramDataPath::MakeSaveDataPath () 
+</code></pre>
+<hr>
+
+<h3 id="function-makesavemenudatapath">function MakeSaveMenuDataPath</h3>
+<pre><code class="language-C++">static inline ProgramDataPath nn::fs::CTR::ProgramDataPath::MakeSaveMenuDataPath () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/fslow/CTR/fs_PathNamesForSystem.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

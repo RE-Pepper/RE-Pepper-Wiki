@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alNerveActionCtrl.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alnerveactionctrlh">File alNerveActionCtrl.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_f7e8efec570a34efc8a6993e55383954/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_0d638fa675477dde0733aed9f19ea6f2/"><strong>Nerve</strong></a> <strong>&gt;</strong> <a href="../al_nerve_action_ctrl_8h/"><strong>alNerveActionCtrl.h</strong></a></p>
+<p><a href="../al_nerve_action_ctrl_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;Nerve/alNerve.h&gt;
+
+namespace alNerveFunction
+{
+class NerveActionCollector;
+} // namespace alNerveFunction
+
+namespace al
+{
+
+class LiveActor;
+class NerveActionCtrl;
+
+class NerveAction : public Nerve
+{
+        friend class alNerveFunction::NerveActionCollector;
+        friend class NerveActionCtrl;
+
+private:
+        NerveAction* mNextNode;
+
+public:
+        virtual const char* getName() const = 0;
+
+public:
+        NerveAction();
+};
+} // namespace al
+
+namespace alNerveFunction
+{
+
+class NerveActionCollector
+{
+        friend class al::NerveActionCtrl;
+
+private:
+        int              mNumNodes;
+        al::NerveAction* mStartNode;
+        al::NerveAction* mEndNode;
+
+        static NerveActionCollector* sCurrentCollector;
+
+public:
+        void addNerve( al::NerveAction* nerve );
+
+        static NerveActionCollector* getCurrentCollector()
+        {
+                return sCurrentCollector;
+        }
+
+public:
+        NerveActionCollector();
+};
+
+} // namespace alNerveFunction
+
+namespace al
+{
+
+class NerveActionCtrl
+{
+private:
+        int           mNumNerveActions;
+        NerveAction** mNerveActions;
+
+public:
+        NerveAction* findNerve( const char* pName ) const;
+
+public:
+        NerveActionCtrl( alNerveFunction::NerveActionCollector* collector );
+};
+
+} // namespace al
+
+#define NERVEACTION_DEF( CLASS, ACTION )                                         \
+        struct CLASS##Nrv##ACTION : public ::al::NerveAction                     \
+        {                                                                        \
+                virtual void execute( ::al::NerveKeeper* keeper ) const          \
+                {                                                                \
+                        static_cast&lt;CLASS*&gt;( keeper-&gt;getHost() )-&gt;exe##ACTION(); \
+                }                                                                \
+                virtual const char* getName() const                              \
+                {                                                                \
+                        return #ACTION;                                          \
+                }                                                                \
+        };                                                                       \
+        const staticd( CLASS##Nrv##ACTION ) ACTION = CLASS##Nrv##ACTION();
+
+#define NERVEACTION_DEF_END( CLASS, ACTION, ENDACTION )                             \
+        struct CLASS##Nrv##ACTION : public ::al::NerveAction                        \
+        {                                                                           \
+                virtual void execute( ::al::NerveKeeper* keeper ) const             \
+                {                                                                   \
+                        static_cast&lt;CLASS*&gt;( keeper-&gt;getHost() )-&gt;exe##ACTION();    \
+                }                                                                   \
+                virtual void executeOnEnd( ::al::NerveKeeper* keeper ) const        \
+                {                                                                   \
+                        static_cast&lt;CLASS*&gt;( keeper-&gt;getHost() )-&gt;exe##ENDACTION(); \
+                }                                                                   \
+                virtual const char* getName() const                                 \
+                {                                                                   \
+                        return #ACTION;                                             \
+                }                                                                   \
+        };                                                                          \
+        const staticd( CLASS##Nrv##ACTION ) ACTION = CLASS##Nrv##ACTION();
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

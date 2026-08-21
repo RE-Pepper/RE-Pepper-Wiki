@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c91139e242e6e06fdfdcf67844f7df68" kind="dir">
+    <compoundname>fslow</compoundname>
+    <innerdir refid="dir_b59c0c796543b19a1efac06fb48d523b">CTR</innerdir>
+    <innerfile refid="fslow___path_8h">fslow_Path.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fslow/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_53d6a9bf16b96d25f9c91e79a4c5362a" kind="dir">
+    <compoundname>rtport</compoundname>
+    <innerdir refid="dir_00ebb32c10ea47286a1d484d586cc083">rvct</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/rtport/"/>
+  </compounddef>
+</doxygen>

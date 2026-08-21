@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_Synchronization.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_synchronizationh">File os_Synchronization.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_53922fdb85244c81a863dd6ad700ec31/"><strong>os</strong></a> <strong>&gt;</strong> <a href="../os___synchronization_8h/"><strong>os_Synchronization.h</strong></a></p>
+<p><a href="../os___synchronization_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/Result.h&gt;
+#include &lt;nn/fnd/fnd_TimeSpan.h&gt;
+#include &lt;nn/os/CTR/os_ErrorHandler.h&gt;
+#include &lt;nn/os/os_HandleObject.h&gt;
+#include &lt;nn/svc/svc_Inlines.h&gt;
+
+namespace nn {
+namespace os {
+
+class WaitObject : public HandleObject
+{
+private:
+        static Result WaitMultiple (s32* pOut, WaitObject** objs, s32 numHandles, bool waitAll, s64 timeout);
+
+public:
+        Result WaitOneImpl (s64 nanoSecondsTimeout)
+        {
+                Handle handle = GetHandle ();
+                s32    dummy;
+                return svc::WaitSynchronization (&amp;dummy, &amp;handle, 1, 0, nanoSecondsTimeout);
+        }
+        void WaitOne ()
+        {
+                NN_OS_HANDLE_ERROR (WaitOneImpl (-1));
+        }
+        bool WaitOne (fnd::TimeSpan timeout)
+        {
+                Result result = WaitOneImpl (timeout.GetNanoSeconds ());
+
+                NN_OS_HANDLE_ERROR (result);
+
+                return result.GetDescription () != Result::DESCRIPTION_TIMEOUT;
+        }
+        static s32 WaitAny (WaitObject** objs, s32 numObjects)
+        {
+                s32 ret;
+
+                NN_OS_HANDLE_ERROR (WaitMultiple (&amp;ret, objs, numObjects, false, -1));
+
+                return ret;
+        }
+
+        WaitObject () {}
+        ~WaitObject () {}
+};
+
+class InterruptEvent : public WaitObject
+{
+public:
+        InterruptEvent () {}
+        ~InterruptEvent () {}
+};
+
+} // namespace os
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1util_1_1_a_d_l_fire_wall" kind="namespace" language="C++">
+    <compoundname>nn::util::ADLFireWall</compoundname>
+    <innerclass refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" prot="public">nn::util::ADLFireWall::NonCopyable</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/util/util_NonCopyable.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

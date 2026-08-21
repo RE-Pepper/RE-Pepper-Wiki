@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class sead::MemUtil - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-seadmemutil">Class sead::MemUtil</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacesead/"><strong>sead</strong></a> <strong>&gt;</strong> <a href="./"><strong>MemUtil</strong></a></p>
+<ul>
+<li><code>#include &lt;seadMemUtil.h&gt;</code></li>
+</ul>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="#function-checkfilltype"><strong>checkFillType</strong></a> (const void * ptr, size_t size) <br><em>Checks whether a region of memory is filled with 0.</em></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-compare"><strong>compare</strong></a> (const void * ptr1, const void * ptr2, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#function-copy"><strong>copy</strong></a> (void * dest, const void * src, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#function-copyalign32"><strong>copyAlign32</strong></a> (void * dest, const void * src, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#function-copyoverlap"><strong>copyOverlap</strong></a> (void * dest, const void * src, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-dumpmemorybinary"><strong>dumpMemoryBinary</strong></a> (const void * ptr, <a href="../_l_m_s___types_8h/#typedef-u32"><strong>u32</strong></a> size_front, <a href="../_l_m_s___types_8h/#typedef-u32"><strong>u32</strong></a> size_back, bool is_align) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#function-fill"><strong>fill</strong></a> (void * ptr, <a href="../_l_m_s___types_8h/#typedef-u8"><strong>u8</strong></a> c, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void *</td>
+<td style="text-align: left;"><a href="#function-fillzero"><strong>fillZero</strong></a> (void * ptr, size_t size) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="#function-isheap"><strong>isHeap</strong></a> (const void * addr) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">bool</td>
+<td style="text-align: left;"><a href="#function-isstack"><strong>isStack</strong></a> (const void * addr) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-checkfilltype">function checkFillType</h3>
+<p><em>Checks whether a region of memory is filled with 0.</em> </p>
+<pre><code class="language-C++">static bool sead::MemUtil::checkFillType (
+    const void * ptr,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-compare">function compare</h3>
+<pre><code class="language-C++">static int sead::MemUtil::compare (
+    const void * ptr1,
+    const void * ptr2,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-copy">function copy</h3>
+<pre><code class="language-C++">static void * sead::MemUtil::copy (
+    void * dest,
+    const void * src,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-copyalign32">function copyAlign32</h3>
+<pre><code class="language-C++">static void * sead::MemUtil::copyAlign32 (
+    void * dest,
+    const void * src,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-copyoverlap">function copyOverlap</h3>
+<pre><code class="language-C++">static void * sead::MemUtil::copyOverlap (
+    void * dest,
+    const void * src,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-dumpmemorybinary">function dumpMemoryBinary</h3>
+<pre><code class="language-C++">static void sead::MemUtil::dumpMemoryBinary (
+    const void * ptr,
+    u32 size_front,
+    u32 size_back,
+    bool is_align
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fill">function fill</h3>
+<pre><code class="language-C++">static void * sead::MemUtil::fill (
+    void * ptr,
+    u8 c,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fillzero">function fillZero</h3>
+<pre><code class="language-C++">static void * sead::MemUtil::fillZero (
+    void * ptr,
+    size_t size
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-isheap">function isHeap</h3>
+<pre><code class="language-C++">static bool sead::MemUtil::isHeap (
+    const void * addr
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-isstack">function isStack</h3>
+<pre><code class="language-C++">static bool sead::MemUtil::isStack (
+    const void * addr
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/sead/include/prim/seadMemUtil.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

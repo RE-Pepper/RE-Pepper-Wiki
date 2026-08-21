@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::AnalogStickCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a5a0e6818c7c2369ab29afa6d19709bb7" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::AnalogStickCfgData::scale_x</definition>
+        <argsstring></argsstring>
+        <name>scale_x</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::scale_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="116" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a03d49142a1ea4092162c5081dbeaccde" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::AnalogStickCfgData::scale_y</definition>
+        <argsstring></argsstring>
+        <name>scale_y</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::scale_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="117" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1ab1b8798d173ea0656a6f62c24c84366f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::center_x</definition>
+        <argsstring></argsstring>
+        <name>center_x</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::center_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="118" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1ad93ff28b6f46d0e5ac3d497669ee5a51" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::center_y</definition>
+        <argsstring></argsstring>
+        <name>center_y</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::center_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="119" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a6a486e73b848cd3e15a4bf0d73bf9cbb" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::max_x</definition>
+        <argsstring></argsstring>
+        <name>max_x</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::max_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="120" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a4b70b9a73c97f9d22c22a80c85d787db" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::min_x</definition>
+        <argsstring></argsstring>
+        <name>min_x</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::min_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="121" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a6f88dc72c503e1c8be4a95061ce9aac1" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::max_y</definition>
+        <argsstring></argsstring>
+        <name>max_y</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::max_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="122" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1ad94bd281e5f70eb25fed92412f3433ea" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::min_y</definition>
+        <argsstring></argsstring>
+        <name>min_y</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::min_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="123" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a51f51c2a450fe4c9dcd02976fa6af89c" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="124" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a41113348dd315a7eaac4ecce627f0cdd" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::AnalogStickCfgData::reserve[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>reserve</name>
+        <qualifiedname>nn::cfg::CTR::detail::AnalogStickCfgData::reserve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="125" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="114" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="115" bodyend="126"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1ab1b8798d173ea0656a6f62c24c84366f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>center_x</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1ad93ff28b6f46d0e5ac3d497669ee5a51" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>center_y</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a6a486e73b848cd3e15a4bf0d73bf9cbb" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>max_x</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a6f88dc72c503e1c8be4a95061ce9aac1" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>max_y</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a4b70b9a73c97f9d22c22a80c85d787db" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>min_x</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1ad94bd281e5f70eb25fed92412f3433ea" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>min_y</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a41113348dd315a7eaac4ecce627f0cdd" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>reserve</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a5a0e6818c7c2369ab29afa6d19709bb7" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>scale_x</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a03d49142a1ea4092162c5081dbeaccde" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>scale_y</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_analog_stick_cfg_data_1a51f51c2a450fe4c9dcd02976fa6af89c" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::AnalogStickCfgData</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

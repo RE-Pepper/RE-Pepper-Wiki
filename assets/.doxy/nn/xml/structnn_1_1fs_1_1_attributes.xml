@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_attributes" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::Attributes</compoundname>
+    <includes refid="fs___parameters_8h" local="no">fs_Parameters.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_attributes_1af230e32d53d5569d5cc2d7f2539ddf02" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::Attributes::isDirectory</definition>
+        <argsstring></argsstring>
+        <name>isDirectory</name>
+        <qualifiedname>nn::fs::Attributes::isDirectory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="13" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_attributes_1a824fbb8b89584aabd28f70b294150b78" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::Attributes::isHidden</definition>
+        <argsstring></argsstring>
+        <name>isHidden</name>
+        <qualifiedname>nn::fs::Attributes::isHidden</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="14" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_attributes_1aef2e9e5343a1c170c09622a039e8ea41" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::Attributes::isArchive</definition>
+        <argsstring></argsstring>
+        <name>isArchive</name>
+        <qualifiedname>nn::fs::Attributes::isArchive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="15" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_attributes_1a91513ee477747dff7bb9f69f7c89f9e7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::Attributes::isReadOnly</definition>
+        <argsstring></argsstring>
+        <name>isReadOnly</name>
+        <qualifiedname>nn::fs::Attributes::isReadOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="16" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_attributes_1aef2e9e5343a1c170c09622a039e8ea41" prot="public" virt="non-virtual"><scope>nn::fs::Attributes</scope><name>isArchive</name></member>
+      <member refid="structnn_1_1fs_1_1_attributes_1af230e32d53d5569d5cc2d7f2539ddf02" prot="public" virt="non-virtual"><scope>nn::fs::Attributes</scope><name>isDirectory</name></member>
+      <member refid="structnn_1_1fs_1_1_attributes_1a824fbb8b89584aabd28f70b294150b78" prot="public" virt="non-virtual"><scope>nn::fs::Attributes</scope><name>isHidden</name></member>
+      <member refid="structnn_1_1fs_1_1_attributes_1a91513ee477747dff7bb9f69f7c89f9e7" prot="public" virt="non-virtual"><scope>nn::fs::Attributes</scope><name>isReadOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

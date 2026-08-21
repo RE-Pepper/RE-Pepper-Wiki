@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_6286be2e3839b9d14dbaf851f98cbdb4" kind="dir">
+    <compoundname>CTR</compoundname>
+    <innerdir refid="dir_86ad95be78fb18665c7d10b7d40a1650">detail</innerdir>
+    <innerfile refid="cfg___api_8h">cfg_Api.h</innerfile>
+    <innerfile refid="cfg___detail_api_8h">cfg_DetailApi.h</innerfile>
+    <innerfile refid="cfg___ipc_user_8h">cfg_IpcUser.h</innerfile>
+    <innerfile refid="cfg___language_code_8h">cfg_LanguageCode.h</innerfile>
+    <innerfile refid="cfg___parental_control_8h">cfg_ParentalControl.h</innerfile>
+    <innerfile refid="cfg___region_code_8h">cfg_RegionCode.h</innerfile>
+    <innerfile refid="cfg___sound_8h">cfg_Sound.h</innerfile>
+    <innerfile refid="cfg___user_info_8h">cfg_UserInfo.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/"/>
+  </compounddef>
+</doxygen>

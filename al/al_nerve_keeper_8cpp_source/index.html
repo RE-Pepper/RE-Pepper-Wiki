@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alNerveKeeper.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alnervekeepercpp">File alNerveKeeper.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_d8628e97cbd71936d4b5fb3774410590/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_32e08f09dddceca537f9274884ee9aa2/"><strong>Nerve</strong></a> <strong>&gt;</strong> <a href="../al_nerve_keeper_8cpp/"><strong>alNerveKeeper.cpp</strong></a></p>
+<p><a href="../al_nerve_keeper_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;Nerve/alNerve.h&gt;
+#include &lt;Nerve/alNerveKeeper.h&gt;
+#include &lt;Nerve/alNerveStateCtrl.h&gt;
+
+namespace al
+{
+
+NerveKeeper::NerveKeeper( IUseNerve* host, const Nerve* nrv, int maxNerveStates )
+    : mEndNerve( nullptr ), mStep( 0 ), mStateCtrl( nullptr ), mActionCtrl( nullptr )
+{
+        mHost  = host;
+        mNerve = nrv;
+
+        if ( maxNerveStates &gt; 0 )
+                mStateCtrl = new NerveStateCtrl( maxNerveStates );
+}
+
+const Nerve* NerveKeeper::getCurrentNerve() const
+{
+        if ( mNerve )
+                return mNerve;
+        else
+                return mEndNerve;
+}
+
+#ifdef NON_MATCHING
+void NerveKeeper::update()
+{
+        tryChangeNerve();
+        mNerve-&gt;execute( this );
+        mStep++;
+        tryChangeNerve();
+}
+#endif
+
+void NerveKeeper::tryChangeNerve()
+{
+        if ( mNerve == NULL )
+                return;
+
+        if ( mStateCtrl )
+        {
+                mStateCtrl-&gt;tryEndCurrentState();
+                mStateCtrl-&gt;startState( mNerve );
+        }
+
+        const Nerve* pNextState = mNerve;
+        mStep                   = 0;
+        mEndNerve               = pNextState;
+        mNerve                  = NULL;
+}
+
+void NerveKeeper::setNerve( const Nerve* nerve )
+{
+        if ( mStep &gt;= 0 &amp;&amp; mEndNerve != nullptr )
+                mEndNerve-&gt;executeOnEnd( this );
+        mNerve = nerve;
+        mStep  = -1;
+}
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

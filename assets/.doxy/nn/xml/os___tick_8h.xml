@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___tick_8h" kind="file" language="C++">
+    <compoundname>os_Tick.h</compoundname>
+    <includes refid="fnd___time_span_8h" local="no">nn/fnd/fnd_TimeSpan.h</includes>
+    <includes refid="svc___stub_8h" local="yes">nn/svc/svc_Stub.h</includes>
+    <includedby refid="os___shared_info_8h" local="no">os_SharedInfo.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="2">
+        <label>nn/fnd/fnd_TimeSpan.h</label>
+        <link refid="fnd___time_span_8h"/>
+      </node>
+      <node id="7">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="6">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>os_Tick.h</label>
+        <link refid="os___tick_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>os_SharedInfo.h</label>
+        <link refid="os___shared_info_8h"/>
+      </node>
+      <node id="1">
+        <label>os_Tick.h</label>
+        <link refid="os___tick_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classnn_1_1os_1_1_tick" prot="public">nn::os::Tick</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="fnd___time_span_8h" kindref="compound">nn/fnd/fnd_TimeSpan.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="svc___stub_8h" kindref="compound">nn/svc/svc_Stub.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classnn_1_1os_1_1_tick" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13" refid="classnn_1_1os_1_1_tick_1ab2a1903a98a3e75ee85cf222bbc5f1a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1os_1_1_tick_1ab2a1903a98a3e75ee85cf222bbc5f1a0" kindref="member">m_Tick</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="classnn_1_1os_1_1_tick_1a596c2f7c3acf4847841c4abec8ecf6b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_tick_1a596c2f7c3acf4847841c4abec8ecf6b3" kindref="member">Tick</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>tick)<sp/>:<sp/><ref refid="classnn_1_1os_1_1_tick_1ab2a1903a98a3e75ee85cf222bbc5f1a0" kindref="member">m_Tick</ref><sp/>(tick)<sp/>{}<sp/></highlight><highlight class="comment">//<sp/>51</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/>span);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>109</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classnn_1_1os_1_1_tick_1a43d7fd04c3619906c25bca79a2973842" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_tick_1ab2a1903a98a3e75ee85cf222bbc5f1a0" kindref="member">m_Tick</ref>;<sp/>}<sp/></highlight><highlight class="comment">//<sp/>63</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>113</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/><ref refid="classnn_1_1os_1_1_tick_1ab004e0541ab4633364c3cbfc697d6d63" kindref="member">ToTimeSpan</ref><sp/>();<sp/></highlight><highlight class="comment">//<sp/>118</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/><ref refid="classnn_1_1os_1_1_tick_1aee7005db9dbb6113f047335a07afdf07" kindref="member">GetSystemCurrent</ref><sp/>();<sp/></highlight><highlight class="comment">//<sp/>104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classnn_1_1os_1_1_tick_1a46261b9ed5b055ec1b082e5cbaf222ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref>&amp;<sp/><ref refid="classnn_1_1os_1_1_tick_1a46261b9ed5b055ec1b082e5cbaf222ad" kindref="member">operator-= </ref>(<ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/>rhs)<sp/>{<sp/>this-&gt;m_Tick<sp/>-=<sp/>rhs.<ref refid="classnn_1_1os_1_1_tick_1ab2a1903a98a3e75ee85cf222bbc5f1a0" kindref="member">m_Tick</ref>;<sp/>}<sp/></highlight><highlight class="comment">//<sp/>89</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classnn_1_1os_1_1_tick_1ac04146631487fa6f4f57d29fc22d6f09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/><sp/><ref refid="classnn_1_1os_1_1_tick_1ac04146631487fa6f4f57d29fc22d6f09" kindref="member">operator- </ref>(<ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/>rhs)<sp/>{}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>90</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classnn_1_1os_1_1_tick_1aee7005db9dbb6113f047335a07afdf07" refkind="member"><highlight class="normal"><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/><ref refid="classnn_1_1os_1_1_tick_1aee7005db9dbb6113f047335a07afdf07" kindref="member">Tick::GetSystemCurrent</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref><sp/>(<ref refid="namespacenn_1_1svc_1a94f28e1213235d1489402360db1a5b49" kindref="member">svc::GetSystemTick</ref><sp/>());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classnn_1_1os_1_1_tick_1a4ea0de6c4954ccf48bdd3aa4692bd47c" refkind="member"><highlight class="normal"><ref refid="classnn_1_1os_1_1_tick_1a596c2f7c3acf4847841c4abec8ecf6b3" kindref="member">Tick::Tick</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/>span)<sp/></highlight><highlight class="comment">//<sp/>109</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39" refid="classnn_1_1os_1_1_tick_1a99a46cd936a2d7366ffb16a44aa806ef" refkind="member"><highlight class="normal">Tick::operator<sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>113</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classnn_1_1os_1_1_tick_1ab004e0541ab4633364c3cbfc697d6d63" refkind="member"><highlight class="normal"><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">fnd::TimeSpan</ref><sp/><ref refid="classnn_1_1os_1_1_tick_1ab004e0541ab4633364c3cbfc697d6d63" kindref="member">Tick::ToTimeSpan</ref><sp/>()<sp/></highlight><highlight class="comment">//<sp/>118</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/os/os_Tick.h"/>
+  </compounddef>
+</doxygen>

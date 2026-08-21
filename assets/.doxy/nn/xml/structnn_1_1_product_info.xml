@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1_product_info" kind="struct" language="C++" prot="public">
+    <compoundname>nn::ProductInfo</compoundname>
+    <includes refid="types_8h" local="no">types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1_product_info_1a8062e8b5bb2fe0bfd0364c2f44ae7fb2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nn::ProductInfo::productCode[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>productCode</name>
+        <qualifiedname>nn::ProductInfo::productCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/types.h" line="48" column="15" bodyfile="lib/CtrSDK/include/nn/types.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1_product_info_1aa3eef80d4db4e0b0cfd9e1ce99b518b9" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a05580b82d01681826e151163cda4681c" kindref="member">bit16</ref></type>
+        <definition>bit16 nn::ProductInfo::companyCode</definition>
+        <argsstring></argsstring>
+        <name>companyCode</name>
+        <qualifiedname>nn::ProductInfo::companyCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/types.h" line="49" column="15" bodyfile="lib/CtrSDK/include/nn/types.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1_product_info_1a2ac515d267a848bd740cd3c0561a32b3" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::ProductInfo::remasterVersion</definition>
+        <argsstring></argsstring>
+        <name>remasterVersion</name>
+        <qualifiedname>nn::ProductInfo::remasterVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/types.h" line="50" column="15" bodyfile="lib/CtrSDK/include/nn/types.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/types.h" line="46" column="1" bodyfile="lib/CtrSDK/include/nn/types.h" bodystart="47" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structnn_1_1_product_info_1aa3eef80d4db4e0b0cfd9e1ce99b518b9" prot="public" virt="non-virtual"><scope>nn::ProductInfo</scope><name>companyCode</name></member>
+      <member refid="structnn_1_1_product_info_1a8062e8b5bb2fe0bfd0364c2f44ae7fb2" prot="public" virt="non-virtual"><scope>nn::ProductInfo</scope><name>productCode</name></member>
+      <member refid="structnn_1_1_product_info_1a2ac515d267a848bd740cd3c0561a32b3" prot="public" virt="non-virtual"><scope>nn::ProductInfo</scope><name>remasterVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

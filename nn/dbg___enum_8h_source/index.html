@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File dbg_Enum.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-dbg_enumh">File dbg_Enum.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_8674e25a187048eae8b9b07d931da2b2/"><strong>dbg</strong></a> <strong>&gt;</strong> <a href="../dbg___enum_8h/"><strong>dbg_Enum.h</strong></a></p>
+<p><a href="../dbg___enum_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#ifdef __cplusplus
+extern &quot;C&quot; {
+#endif
+
+typedef enum nndbgBreakReason
+{
+        NN_DBG_BREAK_REASON_PANIC   = 0,
+        NN_DBG_BREAK_REASON_ASSERT  = 1,
+        NN_DBG_BREAK_REASON_USER    = 2,
+        NN_DBG_BREAK_REASON_MAX_BIT = 1073741824
+} nndbgBreakReason;
+
+#ifdef __cplusplus
+}
+#endif
+
+namespace nn {
+namespace dbg {
+
+enum BreakReason
+{
+        BREAK_REASON_PANIC     = 0,
+        BREAK_REASON_ASSERT    = 1,
+        BREAK_REASON_USER      = 2,
+        BREAK_REASON_LOAD_RO   = 3,
+        BREAK_REASON_UNLOAD_RO = 4,
+        BREAK_REASON_MAX_BIT   = 2147483648,
+};
+} // namespace dbg
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

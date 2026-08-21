@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File TrickHintPanel.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-trickhintpanelcpp">File TrickHintPanel.cpp</h1>
+<p><a href="../files/"><strong>FileList</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_47d28cd3eb946f860e1fe0f4e720b9c2/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_d5af9f6f62d27d9e3db1b7ff0fb6c0e1/"><strong>MapObj</strong></a> <strong>&gt;</strong> <a href="./"><strong>TrickHintPanel.cpp</strong></a></p>
+<p><a href="../_trick_hint_panel_8cpp_source/">Go to the source code of this file</a></p>
+<ul>
+<li><code>#include "MapObj/TrickHintPanel.h"</code></li>
+<li><code>#include &lt;LiveActor/alActorActionKeeper.h&gt;</code></li>
+<li><code>#include &lt;LiveActor/alActorInitUtil.h&gt;</code></li>
+<li><code>#include &lt;LiveActor/alLiveActorFunction.h&gt;</code></li>
+<li><code>#include &lt;LiveActor/alSensorMsg.h&gt;</code></li>
+<li><code>#include &lt;Nerve/alNerve.h&gt;</code></li>
+<li><code>#include &lt;Nerve/alNerveFunction.h&gt;</code></li>
+<li><code>#include &lt;Nerve/alNerveStateBase.h&gt;</code></li>
+</ul>
+<h2 id="namespaces">Namespaces</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">namespace</td>
+<td style="text-align: left;"><a href="../namespace_nrv_trick_hint_panel/"><strong>NrvTrickHintPanel</strong></a> <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">u32</td>
+<td style="text-align: left;"><a href="#function-fn_002278cc"><strong>fn_002278CC</strong></a> (al::LiveActor * actor, char * str) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-fn_0026a9b8"><strong>fn_0026A9B8</strong></a> (u32) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-fn_0026aa60"><strong>fn_0026AA60</strong></a> (u32) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">int</td>
+<td style="text-align: left;"><a href="#function-fn_002786f4"><strong>fn_002786F4</strong></a> () <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-fn_002278cc">function fn_002278CC</h3>
+<pre><code class="language-C++">u32 fn_002278CC (
+    al::LiveActor * actor,
+    char * str
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fn_0026a9b8">function fn_0026A9B8</h3>
+<pre><code class="language-C++">int fn_0026A9B8 (
+    u32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fn_0026aa60">function fn_0026AA60</h3>
+<pre><code class="language-C++">int fn_0026AA60 (
+    u32
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fn_002786f4">function fn_002786F4</h3>
+<pre><code class="language-C++">int fn_002786F4 () 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>Game/backup/src/MapObj/TrickHintPanel.cpp</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1os_1_1_light_event" kind="class" language="C++" prot="public">
+    <compoundname>nn::os::LightEvent</compoundname>
+    <basecompoundref refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable" prot="private" virt="non-virtual">nn::util::ADLFireWall::NonCopyable&lt; LightEvent &gt;</basecompoundref>
+    <includes refid="os___light_event_8h" local="no">os_LightEvent.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" prot="private" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_waitable_counter" kindref="compound">WaitableCounter</ref></type>
+        <definition>WaitableCounter nn::os::LightEvent::m_Counter</definition>
+        <argsstring></argsstring>
+        <name>m_Counter</name>
+        <qualifiedname>nn::os::LightEvent::m_Counter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="13" column="25" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" compoundref="os___light_event_8cpp" startline="55" endline="62">ClearSignal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a1d26615a6b18d1238aa534739c958fa2" compoundref="os___light_event_8h" startline="21" endline="24">Initialize</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a1d043fa846f675997538297cb92f94e2" compoundref="os___light_event_8h" startline="31" endline="34">IsManualReset</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a8b4b1881475899a3e339fd045ab69395" compoundref="os___light_event_8h" startline="30" endline="30">IsSignaled</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" compoundref="os___light_event_8cpp" startline="8" endline="15">TryWait</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">Wait</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" prot="private" static="yes" mutable="no">
+        <type>const <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>const s32 nn::os::LightEvent::RESET_MANUAL</definition>
+        <argsstring></argsstring>
+        <name>RESET_MANUAL</name>
+        <qualifiedname>nn::os::LightEvent::RESET_MANUAL</qualifiedname>
+        <initializer>= -2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="15" column="26" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" compoundref="os___light_event_8cpp" startline="55" endline="62">ClearSignal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a1d26615a6b18d1238aa534739c958fa2" compoundref="os___light_event_8h" startline="21" endline="24">Initialize</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a1d043fa846f675997538297cb92f94e2" compoundref="os___light_event_8h" startline="31" endline="34">IsManualReset</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">Wait</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" prot="private" static="yes" mutable="no">
+        <type>const <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>const s32 nn::os::LightEvent::RESET_AUTO</definition>
+        <argsstring></argsstring>
+        <name>RESET_AUTO</name>
+        <qualifiedname>nn::os::LightEvent::RESET_AUTO</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="16" column="26" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" compoundref="os___light_event_8cpp" startline="55" endline="62">ClearSignal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a1d26615a6b18d1238aa534739c958fa2" compoundref="os___light_event_8h" startline="21" endline="24">Initialize</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" compoundref="os___light_event_8cpp" startline="8" endline="15">TryWait</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">Wait</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" prot="private" static="yes" mutable="no">
+        <type>const <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>const s32 nn::os::LightEvent::RESET_UNK0</definition>
+        <argsstring></argsstring>
+        <name>RESET_UNK0</name>
+        <qualifiedname>nn::os::LightEvent::RESET_UNK0</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="17" column="26" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" compoundref="os___light_event_8cpp" startline="55" endline="62">ClearSignal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" compoundref="os___light_event_8cpp" startline="8" endline="15">TryWait</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">Wait</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" prot="private" static="yes" mutable="no">
+        <type>const <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>const s32 nn::os::LightEvent::RESET_UNK1</definition>
+        <argsstring></argsstring>
+        <name>RESET_UNK1</name>
+        <qualifiedname>nn::os::LightEvent::RESET_UNK1</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="18" column="26" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" compoundref="os___light_event_8cpp" startline="55" endline="62">ClearSignal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" compoundref="os___light_event_8cpp" startline="39" endline="48">Signal</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" compoundref="os___light_event_8cpp" startline="8" endline="15">TryWait</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" compoundref="os___light_event_8cpp" startline="17" endline="37">Wait</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1a1d26615a6b18d1238aa534739c958fa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::LightEvent::Initialize</definition>
+        <argsstring>(bool isManualReset)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::os::LightEvent::Initialize</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isManualReset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="21" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="21" bodyend="24"/>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+        <references refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" compoundref="os___light_event_8h" startline="16">RESET_AUTO</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" compoundref="os___light_event_8h" startline="15">RESET_MANUAL</references>
+        <referencedby refid="classnn_1_1os_1_1_light_event_1acf8848765972265359efe007dacfca54" compoundref="os___light_event_8h" startline="28" endline="28">LightEvent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1ab3d5c72ee5cc5341f0e8c7eac06ab6a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::LightEvent::Finalize</definition>
+        <argsstring>()</argsstring>
+        <name>Finalize</name>
+        <qualifiedname>nn::os::LightEvent::Finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="25" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1af16de63ec2130b4f926a4f401f593838" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::LightEvent::LightEvent</definition>
+        <argsstring>()</argsstring>
+        <name>LightEvent</name>
+        <qualifiedname>nn::os::LightEvent::LightEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="27" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1acf8848765972265359efe007dacfca54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::LightEvent::LightEvent</definition>
+        <argsstring>(bool isManualReset)</argsstring>
+        <name>LightEvent</name>
+        <qualifiedname>nn::os::LightEvent::LightEvent</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isManualReset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="28" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="28" bodyend="28"/>
+        <references refid="classnn_1_1os_1_1_light_event_1a1d26615a6b18d1238aa534739c958fa2" compoundref="os___light_event_8h" startline="21" endline="24">Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1a8b4b1881475899a3e339fd045ab69395" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::LightEvent::IsSignaled</definition>
+        <argsstring>()</argsstring>
+        <name>IsSignaled</name>
+        <qualifiedname>nn::os::LightEvent::IsSignaled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="30" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="30" bodyend="30"/>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1a1d043fa846f675997538297cb92f94e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::LightEvent::IsManualReset</definition>
+        <argsstring>()</argsstring>
+        <name>IsManualReset</name>
+        <qualifiedname>nn::os::LightEvent::IsManualReset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="31" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="31" bodyend="34"/>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" compoundref="os___light_event_8h" startline="15">RESET_MANUAL</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nn::os::LightEvent::TryWait</definition>
+        <argsstring>()</argsstring>
+        <name>TryWait</name>
+        <qualifiedname>nn::os::LightEvent::TryWait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="36" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_LightEvent.cpp" bodystart="8" bodyend="15"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" compoundref="fnd___interlocked_8h" startline="112" endline="117">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwap</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+        <references refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" compoundref="os___light_event_8h" startline="16">RESET_AUTO</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" compoundref="os___light_event_8h" startline="17">RESET_UNK0</references>
+        <references refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" compoundref="os___light_event_8h" startline="18">RESET_UNK1</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::LightEvent::Wait</definition>
+        <argsstring>()</argsstring>
+        <name>Wait</name>
+        <qualifiedname>nn::os::LightEvent::Wait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="37" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_LightEvent.cpp" bodystart="17" bodyend="37"/>
+        <references refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" compoundref="fnd___interlocked_8h" startline="112" endline="117">nn::fnd::InterlockedVariable&lt; T &gt;::CompareAndSwap</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+        <references refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" compoundref="os___light_event_8h" startline="16">RESET_AUTO</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" compoundref="os___light_event_8h" startline="15">RESET_MANUAL</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" compoundref="os___light_event_8h" startline="17">RESET_UNK0</references>
+        <references refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" compoundref="os___light_event_8h" startline="18">RESET_UNK1</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a329fc9e271f26294d1f4c5bf8448796e" compoundref="os___waitable_counter_8h" startline="31" endline="34">nn::os::WaitableCounter::WaitIfLessThan</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::LightEvent::Signal</definition>
+        <argsstring>()</argsstring>
+        <name>Signal</name>
+        <qualifiedname>nn::os::LightEvent::Signal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="38" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_LightEvent.cpp" bodystart="39" bodyend="48"/>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+        <references refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" compoundref="os___light_event_8h" startline="16">RESET_AUTO</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" compoundref="os___light_event_8h" startline="15">RESET_MANUAL</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" compoundref="os___light_event_8h" startline="17">RESET_UNK0</references>
+        <references refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" compoundref="os___light_event_8h" startline="18">RESET_UNK1</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" compoundref="os___waitable_counter_8h" startline="47" endline="50">nn::os::WaitableCounter::Signal</references>
+        <references refid="classnn_1_1os_1_1_waitable_counter_1a8e341ba28b994058d24131cb40064b2b" compoundref="os___waitable_counter_8h" startline="51" endline="54">nn::os::WaitableCounter::SignalAll</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1ab24c001825eea06295a9724d259d1722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::LightEvent::Pulse</definition>
+        <argsstring>()</argsstring>
+        <name>Pulse</name>
+        <qualifiedname>nn::os::LightEvent::Pulse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="39" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_LightEvent.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::LightEvent::ClearSignal</definition>
+        <argsstring>()</argsstring>
+        <name>ClearSignal</name>
+        <qualifiedname>nn::os::LightEvent::ClearSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="40" column="14" bodyfile="lib/CtrSDK/sources/libraries/os/os_LightEvent.cpp" bodystart="55" bodyend="62"/>
+        <references refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" compoundref="os___light_event_8h" startline="13">m_Counter</references>
+        <references refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" compoundref="os___light_event_8h" startline="16">RESET_AUTO</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" compoundref="os___light_event_8h" startline="15">RESET_MANUAL</references>
+        <references refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" compoundref="os___light_event_8h" startline="17">RESET_UNK0</references>
+        <references refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" compoundref="os___light_event_8h" startline="18">RESET_UNK1</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; LightEvent &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; LightEvent &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::LightEvent</label>
+        <link refid="classnn_1_1os_1_1_light_event"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; LightEvent &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; LightEvent &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+      <node id="1">
+        <label>nn::os::LightEvent</label>
+        <link refid="classnn_1_1os_1_1_light_event"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_Counter</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitableCounter</label>
+        <link refid="classnn_1_1os_1_1_waitable_counter"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>s_Handle</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+      <node id="5">
+        <label>nnHandle</label>
+        <link refid="structnn_handle"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_LightEvent.h" line="10" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_LightEvent.h" bodystart="11" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>ClearSignal</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1ab3d5c72ee5cc5341f0e8c7eac06ab6a3" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>Finalize</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1a1d26615a6b18d1238aa534739c958fa2" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>Initialize</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1a1d043fa846f675997538297cb92f94e2" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>IsManualReset</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1a8b4b1881475899a3e339fd045ab69395" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>IsSignaled</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1af16de63ec2130b4f926a4f401f593838" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>LightEvent</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1acf8848765972265359efe007dacfca54" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>LightEvent</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>m_Counter</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>NonCopyable</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1ab24c001825eea06295a9724d259d1722" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>Pulse</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>RESET_AUTO</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>RESET_MANUAL</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>RESET_UNK0</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>RESET_UNK1</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>Signal</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>TryWait</name></member>
+      <member refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" prot="public" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>Wait</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="private" virt="non-virtual"><scope>nn::os::LightEvent</scope><name>~NonCopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

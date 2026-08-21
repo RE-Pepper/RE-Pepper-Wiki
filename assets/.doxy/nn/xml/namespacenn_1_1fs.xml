@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fs" kind="namespace" language="C++">
+    <compoundname>nn::fs</compoundname>
+    <innerclass refid="structnn_1_1fs_1_1_archive_resource" prot="public">nn::fs::ArchiveResource</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_attributes" prot="public">nn::fs::Attributes</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_directory_entry" prot="public">nn::fs::DirectoryEntry</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_nand_info" prot="public">nn::fs::NandInfo</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_sdmc_speed_info" prot="public">nn::fs::SdmcSpeedInfo</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_short_name" prot="public">nn::fs::ShortName</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_title_data_specifier" prot="public">nn::fs::TitleDataSpecifier</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_transaction" prot="public">nn::fs::Transaction</innerclass>
+    <innerclass refid="structnn_1_1fs_1_1_write_option" prot="public">nn::fs::WriteOption</innerclass>
+    <innernamespace refid="namespacenn_1_1fs_1_1_c_t_r">nn::fs::CTR</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs_1_1detail">nn::fs::detail</innernamespace>
+    <innernamespace refid="namespacenn_1_1fs_1_1ipc">nn::fs::ipc</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MediaType</name>
+        <qualifiedname>nn::fs::MediaType</qualifiedname>
+        <enumvalue id="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463a2c11f459c6e9ad8413712969900799b0" prot="public">
+          <name>MEDIA_TYPE_NAND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463a97bb46ae3c7e198ca8d0e9695080362b" prot="public">
+          <name>MEDIA_TYPE_SDMC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463a8df4352844e09348f335947d59149ebe" prot="public">
+          <name>MEDIA_TYPE_CTRCARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="35" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1fs_1a8b59d0b9c38d1adf8b25de74e9002434" prot="public" static="no" strong="no">
+        <type></type>
+        <name>PositionBase</name>
+        <qualifiedname>nn::fs::PositionBase</qualifiedname>
+        <enumvalue id="namespacenn_1_1fs_1a8b59d0b9c38d1adf8b25de74e9002434a196bc4505b1c4956b8703b0585c26b5e" prot="public">
+          <name>POSITION_BASE_BEGIN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1a8b59d0b9c38d1adf8b25de74e9002434a09f8eedf16f2993bb48740b0e85cae87" prot="public">
+          <name>POSITION_BASE_CURRENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1a8b59d0b9c38d1adf8b25de74e9002434a3548dbf110722fda61e64dadd2e7874a" prot="public">
+          <name>POSITION_BASE_END</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="42" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1fs_1ae939f9f255cfdc17b69982bd75b566f4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SystemMediaType</name>
+        <qualifiedname>nn::fs::SystemMediaType</qualifiedname>
+        <enumvalue id="namespacenn_1_1fs_1ae939f9f255cfdc17b69982bd75b566f4ac38b511bd72af42d76275825a12160a7" prot="public">
+          <name>SYSTEM_MEDIA_TYPE_CTR_NAND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1ae939f9f255cfdc17b69982bd75b566f4a52065474653d9f4e5c4ec272b929b4b6" prot="public">
+          <name>SYSTEM_MEDIA_TYPE_TWL_NAND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1ae939f9f255cfdc17b69982bd75b566f4aa4e4e97005b878a64f5338efef7d2db0" prot="public">
+          <name>SYSTEM_MEDIA_TYPE_SDMC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1ae939f9f255cfdc17b69982bd75b566f4a642e18ec4024a03da3a4c186d9493a2b" prot="public">
+          <name>SYSTEM_MEDIA_TYPE_TWL_PHOTO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="42" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1fs_1acaa46ba36857d7d7a2bb8ddc9bd5d6ee" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CardType</name>
+        <qualifiedname>nn::fs::CardType</qualifiedname>
+        <enumvalue id="namespacenn_1_1fs_1acaa46ba36857d7d7a2bb8ddc9bd5d6eea42f7d974f66629a7b1adafa0d12825ee" prot="public">
+          <name>CARD_TYPE_CTR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1acaa46ba36857d7d7a2bb8ddc9bd5d6eea5893c77715b0265007ce10266337be19" prot="public">
+          <name>CARD_TYPE_DS_TWL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1acaa46ba36857d7d7a2bb8ddc9bd5d6eea96bbbda6fbfd12158474c364f46da061" prot="public">
+          <name>CARD_TYPE_UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="6" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CardSpiBaudRate</name>
+        <qualifiedname>nn::fs::CardSpiBaudRate</qualifiedname>
+        <enumvalue id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4a360765d562085efa7a872530de78c535" prot="public">
+          <name>CARDSPI_BAUDRATE_512KHZ</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4a5de4db7cce60c823b337d2b6aada53c3" prot="public">
+          <name>CARDSPI_BAUDRATE_1MHZ</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4ab298fe0ac50c156ce27885f3dceea068" prot="public">
+          <name>CARDSPI_BAUDRATE_2MHZ</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4a4a160f2eed63fc379ef36cb008e244b6" prot="public">
+          <name>CARDSPI_BAUDRATE_4MHZ</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4aa84a223268aeecb606972107b62e3488" prot="public">
+          <name>CARDSPI_BAUDRATE_8MHZ</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1aabfd0f80f3c36f7144aae9b8ab202ca4af38af40e005a90907635769bd32561d3" prot="public">
+          <name>CARDSPI_BAUDRATE_16MHZ</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="36" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1fs_1a0f4f13883dbedc6c3f2adf056689053d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CardSpiBusMode</name>
+        <qualifiedname>nn::fs::CardSpiBusMode</qualifiedname>
+        <enumvalue id="namespacenn_1_1fs_1a0f4f13883dbedc6c3f2adf056689053dae4ede27fb116fea0a229ec65a161c51d" prot="public">
+          <name>CARDSPI_BUSMODE_1BIT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fs_1a0f4f13883dbedc6c3f2adf056689053da0bfd4663f32e802628bd44ae4b8c755b" prot="public">
+          <name>CARDSPI_BUSMODE_4BIT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="46" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="47" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a52904b106f5c5d3c15b13e0ed956b46f" prot="public" static="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>typedef bit64 nn::fs::ArchiveHandle</definition>
+        <argsstring></argsstring>
+        <name>ArchiveHandle</name>
+        <qualifiedname>nn::fs::ArchiveHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="54" column="15" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a62973311b2c3ccdf9acdc77b7aba2049" prot="public" static="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>typedef bit64 nn::fs::ExtSaveDataId</definition>
+        <argsstring></argsstring>
+        <name>ExtSaveDataId</name>
+        <qualifiedname>nn::fs::ExtSaveDataId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="56" column="15" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a042b347b224d89b5e7c339e26a64d86b" prot="public" static="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>typedef bit64 nn::fs::TitleId</definition>
+        <argsstring></argsstring>
+        <name>TitleId</name>
+        <qualifiedname>nn::fs::TitleId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Parameters.h" line="57" column="15" bodyfile="lib/CtrSDK/include/nn/fs/fs_Parameters.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a6eefc177b2a32a261e683408f09b266f" prot="public" static="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>typedef bit32 nn::fs::SystemSaveDataId</definition>
+        <argsstring></argsstring>
+        <name>SystemSaveDataId</name>
+        <qualifiedname>nn::fs::SystemSaveDataId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="21" column="15" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a7b2b025e7edd07972df34b1af7e985b1" prot="public" static="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>typedef bit32 nn::fs::ContentIdx</definition>
+        <argsstring></argsstring>
+        <name>ContentIdx</name>
+        <qualifiedname>nn::fs::ContentIdx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="23" column="15" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a64eea20732150866d52df36218b0c0f6" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1fs_1_1_title_data_specifier" kindref="compound">nn::fs::TitleDataSpecifier</ref></type>
+        <definition>typedef struct nn::fs::TitleDataSpecifier nn::fs::ProgramLaunchInfo</definition>
+        <argsstring></argsstring>
+        <name>ProgramLaunchInfo</name>
+        <qualifiedname>nn::fs::ProgramLaunchInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="40" column="19"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a6e22b8eb3c4872738f28c01e60dddc20" prot="public" static="no">
+        <type>enum <ref refid="namespacenn_1_1fs_1acaa46ba36857d7d7a2bb8ddc9bd5d6ee" kindref="member">nn::fs::CardType</ref></type>
+        <definition>typedef enum nn::fs::CardType nn::fs::CardType</definition>
+        <argsstring></argsstring>
+        <name>CardType</name>
+        <qualifiedname>nn::fs::CardType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="11" column="10"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a578231eb0699283760fc80cf8080ddeb" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1fs_1_1_archive_resource" kindref="compound">nn::fs::ArchiveResource</ref></type>
+        <definition>typedef struct nn::fs::ArchiveResource nn::fs::ArchiveResource</definition>
+        <argsstring></argsstring>
+        <name>ArchiveResource</name>
+        <qualifiedname>nn::fs::ArchiveResource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="19" column="17"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1aff5ffd5746d304a30d2a7de5eb6e4d86" prot="public" static="no">
+        <type>struct <ref refid="structnn_1_1fs_1_1_nand_info" kindref="compound">nn::fs::NandInfo</ref></type>
+        <definition>typedef struct nn::fs::NandInfo nn::fs::NandInfo</definition>
+        <argsstring></argsstring>
+        <name>NandInfo</name>
+        <qualifiedname>nn::fs::NandInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="27" column="10"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1a40084acb3736d748d0963bd5cdb90798" prot="public" static="no">
+        <type>struct <ref refid="namespacenn_1_1fs_1a40084acb3736d748d0963bd5cdb90798" kindref="member">SdmcLog</ref></type>
+        <definition>typedef struct SdmcLog nn::fs::SdmcLog</definition>
+        <argsstring></argsstring>
+        <name>SdmcLog</name>
+        <qualifiedname>nn::fs::SdmcLog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="52" column="22" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacenn_1_1fs_1ad2cae562c4ca374b3c8168a8371baae6" prot="public" static="no">
+        <type>struct <ref refid="namespacenn_1_1fs_1ad2cae562c4ca374b3c8168a8371baae6" kindref="member">NandLog</ref></type>
+        <definition>typedef struct NandLog nn::fs::NandLog</definition>
+        <argsstring></argsstring>
+        <name>NandLog</name>
+        <qualifiedname>nn::fs::NandLog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="54" column="22" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1fs_1ad936262c29c69fcf08b7c50634b7264e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fs::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>nn::fs::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_Api.h" line="12" column="10" declfile="lib/CtrSDK/include/nn/fs/fs_Api.h" declline="12" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fs_1a5ee2c54d659bffac8fed656acc4e2729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::fs::ForceDisableLatencyEmulation</definition>
+        <argsstring>()</argsstring>
+        <name>ForceDisableLatencyEmulation</name>
+        <qualifiedname>nn::fs::ForceDisableLatencyEmulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fs/CTR/MPCore/fs_UserFileSystem.cpp" line="20" column="6" bodyfile="lib/CtrSDK/sources/libraries/fs/CTR/MPCore/fs_UserFileSystem.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/fs_ArchiveTypes.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

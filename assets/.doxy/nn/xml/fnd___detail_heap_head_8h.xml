@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fnd___detail_heap_head_8h" kind="file" language="C++">
+    <compoundname>fnd_DetailHeapHead.h</compoundname>
+    <includedby refid="fnd___detail_heap_common_8h" local="no">fnd_DetailHeapCommon.h</includedby>
+    <includedby refid="fnd___detail_list_8h" local="no">fnd_DetailList.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>fnd_DetailHeapHead.h</label>
+        <link refid="fnd___detail_heap_head_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>fnd_DetailHeap.cpp</label>
+        <link refid="fnd___detail_heap_8cpp"/>
+      </node>
+      <node id="4">
+        <label>fnd_DetailHeap.h</label>
+        <link refid="fnd___detail_heap_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fnd_DetailHeapCommon.cpp</label>
+        <link refid="fnd___detail_heap_common_8cpp"/>
+      </node>
+      <node id="2">
+        <label>fnd_DetailHeapCommon.h</label>
+        <link refid="fnd___detail_heap_common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>fnd_DetailList.cpp</label>
+        <link refid="fnd___detail_list_8cpp"/>
+      </node>
+      <node id="6">
+        <label>fnd_DetailList.h</label>
+        <link refid="fnd___detail_list_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" prot="public">nn::fnd::detail::NNSFndLink</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" prot="public">nn::fnd::detail::NNSFndList</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" prot="public">nn::fnd::detail::NNSiFndExpHeapMBlockHead</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" prot="public">nn::fnd::detail::NNSiFndExpMBlockList</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" prot="public">nn::fnd::detail::NNSiFndExpHeapHead</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl" prot="public">nn::fnd::detail::ExpHeapImpl</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd_1_1detail">nn::fnd::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="namespacenn_1_1fnd_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link_1abf06cee45df96e95137537516139e2a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link_1abf06cee45df96e95137537516139e2a8" kindref="member">prevObject</ref>;</highlight></codeline>
+<codeline lineno="10" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link_1a031d2229d2ddffbe7e7fbe2af8344121" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link_1a031d2229d2ddffbe7e7fbe2af8344121" kindref="member">nextObject</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" kindref="compound">NNSFndLink</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" kindref="compound">NNSFndLink</ref>)<sp/>==<sp/>0x8);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1af71746a41657ccf57cd68a8ef2a3e373" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1af71746a41657ccf57cd68a8ef2a3e373" kindref="member">headObject</ref>;</highlight></codeline>
+<codeline lineno="17" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a6c6f2fad19f54bbe71dc58a000b9d284" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a6c6f2fad19f54bbe71dc58a000b9d284" kindref="member">tailObject</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1ae5d3d9afe2d2edca68662b3c449145ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1ae5d3d9afe2d2edca68662b3c449145ad" kindref="member">numObjects</ref>;</highlight></codeline>
+<codeline lineno="19" refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a2a9d241555649649e2fca26c41f85f3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list_1a2a9d241555649649e2fca26c41f85f3e" kindref="member">offset</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref>)<sp/>==<sp/>0xC);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1af0e73fbec818b470d24f4b6325b09d5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1af0e73fbec818b470d24f4b6325b09d5c" kindref="member">signature</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1a52180f45514913c2a029b3713f943b19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1a52180f45514913c2a029b3713f943b19" kindref="member">attribute</ref>;</highlight></codeline>
+<codeline lineno="27" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1a86daf6f2563cbfb00ee401244b7ebc07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1a86daf6f2563cbfb00ee401244b7ebc07" kindref="member">blockSize</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1a79295d92ef2d6ab8084beda5a24df64d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref>*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1a79295d92ef2d6ab8084beda5a24df64d" kindref="member">pMBHeadPrev</ref>;</highlight></codeline>
+<codeline lineno="29" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1af680ccf7a35b8a24a60c2832986f961a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref>*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head_1af680ccf7a35b8a24a60c2832986f961a" kindref="member">pMBHeadBext</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref>)<sp/>==<sp/>0x10);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" kindref="compound">NNSiFndExpMBlockList</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a1d5759b509f3cf299690ed80be2f3641" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref>*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a1d5759b509f3cf299690ed80be2f3641" kindref="member">head</ref>;</highlight></codeline>
+<codeline lineno="36" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a0f59261f596335fb1eaddb40e6503900" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref>*<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a0f59261f596335fb1eaddb40e6503900" kindref="member">tail</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" kindref="compound">NNSiFndExpMBlockList</ref>)<sp/>==<sp/>0x8);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" kindref="compound">NNSiFndExpHeapHead</ref></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a0f89ad0aef5ca0ccb0a27d8d356de98b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" kindref="compound">NNSiFndExpMBlockList</ref><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a0f89ad0aef5ca0ccb0a27d8d356de98b" kindref="member">mbFreeList</ref>;</highlight></codeline>
+<codeline lineno="43" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1ad8f062fcf8365e112bf8f3e69d404949" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" kindref="compound">NNSiFndExpMBlockList</ref><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1ad8f062fcf8365e112bf8f3e69d404949" kindref="member">mbUsedList</ref>;</highlight></codeline>
+<codeline lineno="44" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a662c27c7340dc65076b2392fb5c28bfb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a662c27c7340dc65076b2392fb5c28bfb" kindref="member">groupID</ref>;</highlight></codeline>
+<codeline lineno="45" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a31dee85f72149797f8b7b656b63e9ab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a31dee85f72149797f8b7b656b63e9ab1" kindref="member">feature</ref>;</highlight></codeline>
+<codeline lineno="46" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a5f841caa6f262998ee43b26fb2e3d658" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a5f841caa6f262998ee43b26fb2e3d658" kindref="member">reuse</ref>;</highlight></codeline>
+<codeline lineno="47" refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head_1a7a4d22a8347754dae37450ba6f2b7ffd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref><sp/>:<sp/>24;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" kindref="compound">NNSiFndExpHeapHead</ref>)<sp/>==<sp/>0x18);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl" kindref="compound">ExpHeapImpl</ref></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a4392f46f90020809799ecde09a294168" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a4392f46f90020809799ecde09a294168" kindref="member">signature</ref>;</highlight></codeline>
+<codeline lineno="54" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a47f6bf103eaf0736e246f6e30962ee43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_link" kindref="compound">NNSFndLink</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a47f6bf103eaf0736e246f6e30962ee43" kindref="member">link</ref>;</highlight></codeline>
+<codeline lineno="55" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aebe48d82194a7d60a83a503914c96e92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_s_fnd_list" kindref="compound">NNSFndList</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aebe48d82194a7d60a83a503914c96e92" kindref="member">childList</ref>;</highlight></codeline>
+<codeline lineno="56" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a411eb1cb27c09d49f7b7a6c5b762e9b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1a411eb1cb27c09d49f7b7a6c5b762e9b0" kindref="member">heapStart</ref>;</highlight></codeline>
+<codeline lineno="57" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1af4c15b07a99e4e92187c9c0bd2462ed7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1af4c15b07a99e4e92187c9c0bd2462ed7" kindref="member">heapEnd</ref>;</highlight></codeline>
+<codeline lineno="58" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1abe2d228451146332b441fcd8c3fe1fe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1abe2d228451146332b441fcd8c3fe1fe2" kindref="member">attribute</ref>;</highlight></codeline>
+<codeline lineno="59" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1adac830f341d0390808297b4b5ffa7387" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_head" kindref="compound">NNSiFndExpHeapHead</ref><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1adac830f341d0390808297b4b5ffa7387" kindref="member">nnsiFndExpHeapHead</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aec3568c31556fd40a12d3ba371ff5e17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1aec3568c31556fd40a12d3ba371ff5e17" kindref="member">ExpHeapImpl</ref><sp/>()<sp/>:<sp/><ref refid="structnn_1_1fnd_1_1detail_1_1_exp_heap_impl_1abe2d228451146332b441fcd8c3fe1fe2" kindref="member">attribute</ref><sp/>(0)<sp/>{}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(ExpHeapImpl)<sp/>==<sp/>0x3C);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h"/>
+  </compounddef>
+</doxygen>

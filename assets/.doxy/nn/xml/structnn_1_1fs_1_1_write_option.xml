@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_write_option" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::WriteOption</compoundname>
+    <includes refid="fs___parameters_for_system_8h" local="no">fs_ParametersForSystem.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_write_option_1ad4e4989e8439db456971b5719510abc5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::WriteOption::flush</definition>
+        <argsstring></argsstring>
+        <name>flush</name>
+        <qualifiedname>nn::fs::WriteOption::flush</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="11" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_write_option_1a2fb74e2e0a70c80cae5d95843451ee81" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::WriteOption::updateTimeStampOld</definition>
+        <argsstring></argsstring>
+        <name>updateTimeStampOld</name>
+        <qualifiedname>nn::fs::WriteOption::updateTimeStampOld</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="12" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_write_option_1aa88c0d95465dbad8f00a38bc1327d3a9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::fs::WriteOption::updateTimeStamp</definition>
+        <argsstring></argsstring>
+        <name>updateTimeStamp</name>
+        <qualifiedname>nn::fs::WriteOption::updateTimeStamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="13" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_write_option_1af9b355eeef79eb8e8c433c23389396d6" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::fs::WriteOption::reserved3</definition>
+        <argsstring></argsstring>
+        <name>reserved3</name>
+        <qualifiedname>nn::fs::WriteOption::reserved3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="14" column="14" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1fs_1_1_write_option_1a06e8708d8f9af8a72120a9c913b29a64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::fs::WriteOption::WriteOption</definition>
+        <argsstring>(bool flush, bool updateTimeStamp)</argsstring>
+        <name>WriteOption</name>
+        <qualifiedname>nn::fs::WriteOption::WriteOption</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>flush</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateTimeStamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="16" column="9" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="16" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="9" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_write_option_1ad4e4989e8439db456971b5719510abc5" prot="public" virt="non-virtual"><scope>nn::fs::WriteOption</scope><name>flush</name></member>
+      <member refid="structnn_1_1fs_1_1_write_option_1af9b355eeef79eb8e8c433c23389396d6" prot="public" virt="non-virtual"><scope>nn::fs::WriteOption</scope><name>reserved3</name></member>
+      <member refid="structnn_1_1fs_1_1_write_option_1aa88c0d95465dbad8f00a38bc1327d3a9" prot="public" virt="non-virtual"><scope>nn::fs::WriteOption</scope><name>updateTimeStamp</name></member>
+      <member refid="structnn_1_1fs_1_1_write_option_1a2fb74e2e0a70c80cae5d95843451ee81" prot="public" virt="non-virtual"><scope>nn::fs::WriteOption</scope><name>updateTimeStampOld</name></member>
+      <member refid="structnn_1_1fs_1_1_write_option_1a06e8708d8f9af8a72120a9c913b29a64" prot="public" virt="non-virtual"><scope>nn::fs::WriteOption</scope><name>WriteOption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

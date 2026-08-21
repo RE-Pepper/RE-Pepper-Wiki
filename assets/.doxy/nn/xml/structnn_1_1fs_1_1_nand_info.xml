@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_nand_info" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::NandInfo</compoundname>
+    <includes refid="fs___types_8h" local="no">fs_Types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_nand_info_1aa9a03374442ad2959c40dae8f1c1f2a5" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::fs::NandInfo::cid[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>cid</name>
+        <qualifiedname>nn::fs::NandInfo::cid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="23" column="13" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_nand_info_1a9d58d265862eab83f3e3097e8a9a78ff" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::fs::NandInfo::eraseCountMax</definition>
+        <argsstring></argsstring>
+        <name>eraseCountMax</name>
+        <qualifiedname>nn::fs::NandInfo::eraseCountMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="24" column="13" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_nand_info_1a4b3be5aedf200df4db6b7f8ea6ad2196" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::fs::NandInfo::eraseCountMin</definition>
+        <argsstring></argsstring>
+        <name>eraseCountMin</name>
+        <qualifiedname>nn::fs::NandInfo::eraseCountMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="25" column="13" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_nand_info_1a1e6bc5e9fe97d62cd84e5fc8ed60fe0f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::fs::NandInfo::eraseCountAverage</definition>
+        <argsstring></argsstring>
+        <name>eraseCountAverage</name>
+        <qualifiedname>nn::fs::NandInfo::eraseCountAverage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="26" column="13" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" line="21" column="1" bodyfile="lib/CtrSDK/include/nn/fslow/CTR/fs_Types.h" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_nand_info_1aa9a03374442ad2959c40dae8f1c1f2a5" prot="public" virt="non-virtual"><scope>nn::fs::NandInfo</scope><name>cid</name></member>
+      <member refid="structnn_1_1fs_1_1_nand_info_1a1e6bc5e9fe97d62cd84e5fc8ed60fe0f" prot="public" virt="non-virtual"><scope>nn::fs::NandInfo</scope><name>eraseCountAverage</name></member>
+      <member refid="structnn_1_1fs_1_1_nand_info_1a9d58d265862eab83f3e3097e8a9a78ff" prot="public" virt="non-virtual"><scope>nn::fs::NandInfo</scope><name>eraseCountMax</name></member>
+      <member refid="structnn_1_1fs_1_1_nand_info_1a4b3be5aedf200df4db6b7f8ea6ad2196" prot="public" virt="non-virtual"><scope>nn::fs::NandInfo</scope><name>eraseCountMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

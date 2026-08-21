@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File seadQuat.hpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-seadquathpp">File seadQuat.hpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_f6d5c8d1d4c60cd689fcf859a6687fb0/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_9adfe416bc4f0c29a5cf1f3d542cf0b8/"><strong>math</strong></a> <strong>&gt;</strong> <a href="../sead_quat_8hpp/"><strong>seadQuat.hpp</strong></a></p>
+<p><a href="../sead_quat_8hpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;math/seadQuatCalcCommon.h&gt;
+#ifndef SEAD_MATH_QUAT_H_
+#include &lt;math/seadQuat.h&gt;
+#endif
+
+namespace sead {
+template &lt;typename T&gt;
+inline Quat&lt;T&gt;::Quat(T w_, T x_, T y_, T z_) {
+    QuatCalcCommon&lt;T&gt;::set(*this, w_, x_, y_, z_);
+}
+
+template &lt;typename T&gt;
+inline Quat&lt;T&gt;&amp; Quat&lt;T&gt;::operator*=(const Quat&lt;T&gt;&amp; t) {
+    QuatCalcCommon&lt;T&gt;::setMul(*this, *this, t);
+    return *this;
+}
+
+template &lt;typename T&gt;
+inline T Quat&lt;T&gt;::length() const {
+    return QuatCalcCommon&lt;T&gt;::length(*this);
+}
+
+template &lt;typename T&gt;
+inline T Quat&lt;T&gt;::normalize() {
+    return QuatCalcCommon&lt;T&gt;::normalize(*this);
+}
+
+template &lt;typename T&gt;
+inline T Quat&lt;T&gt;::dot(const Self&amp; q) {
+    return QuatCalcCommon&lt;T&gt;::dot(*this, q);
+}
+
+// reference?
+// conjugate(q) / dot(q)?
+/*template &lt;typename T&gt;
+inline void Quat&lt;T&gt;::inverse(Self* q)
+{
+    T prod = dot(*this);
+    if (prod &gt; std::numeric_limits&lt;T&gt;::epsilon()) {
+        T inv = T(1) / prod;
+        q-&gt;w = inv * this-&gt;w;
+        q-&gt;x = inv * -this-&gt;x;
+        q-&gt;y = inv * -this-&gt;y;
+        q-&gt;z = inv * -this-&gt;z;
+    } else {
+        q-&gt;w = this-&gt;w;
+        q-&gt;x = -this-&gt;x;
+        q-&gt;y = -this-&gt;y;
+        q-&gt;z = -this-&gt;z;
+    }
+}*/
+
+template &lt;typename T&gt;
+inline void Quat&lt;T&gt;::makeUnit() {
+    QuatCalcCommon&lt;T&gt;::makeUnit(*this);
+}
+
+template &lt;typename T&gt;
+inline bool Quat&lt;T&gt;::makeVectorRotation(const Vec3&amp; from, const Vec3&amp; to) {
+    return QuatCalcCommon&lt;T&gt;::makeVectorRotation(*this, from, to);
+}
+
+template &lt;typename T&gt;
+inline void Quat&lt;T&gt;::set(T w_, T x_, T y_, T z_) {
+    QuatCalcCommon&lt;T&gt;::set(*this, w_, x_, y_, z_);
+}
+
+template &lt;typename T&gt;
+inline void Quat&lt;T&gt;::setRPY(T roll, T pitch, T yaw) {
+    QuatCalcCommon&lt;T&gt;::setRPY(*this, roll, pitch, yaw);
+}
+
+template &lt;typename T&gt;
+inline void Quat&lt;T&gt;::calcRPY(Vec3&amp; vec) const {
+    QuatCalcCommon&lt;T&gt;::calcRPY(vec, *this);
+}
+
+}  // namespace sead
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

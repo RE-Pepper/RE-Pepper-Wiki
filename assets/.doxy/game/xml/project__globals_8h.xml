@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="project__globals_8h" kind="file" language="C++">
+    <compoundname>project_globals.h</compoundname>
+    <includes local="no">nn/types.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>project_globals.h</label>
+        <link refid="project__globals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/types.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="project__globals_8h_1ad5b0f591ad1e6b753d82e81cb549546f" prot="public" static="no">
+        <name>RP_SHUTUP</name>
+        <initializer>        _Pragma(&quot;diag_suppress 177,550,940&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="4" column="9" bodyfile="Game/project_globals.h" bodystart="4" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a06eb1d54f2d29a154987d835613708ae" prot="public" static="no">
+        <name>NN_SWITCH_DISABLE_ASSERT_WARNING_FOR_SDK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="30" column="9" bodyfile="Game/project_globals.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a0eeab55080b317a3c4908d58af9c3c76" prot="public" static="no">
+        <name>NN_SWITCH_DISABLE_DEBUG_PRINTING_FOR_SDK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="31" column="9" bodyfile="Game/project_globals.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1afe1d6cbb5fcf8ca8b80f892fab9a4418" prot="public" static="no">
+        <name>force_section</name>
+        <param><defname>Section</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="34" column="9" bodyfile="Game/project_globals.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1aa59faa94da7f95c172b1c2f5d1d9cf68" prot="public" static="no">
+        <name>force_func_section</name>
+        <param><defname>Symbol</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="36" column="9" bodyfile="Game/project_globals.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a06e3f849ee4bc083b4871e3d0211c775" prot="public" static="no">
+        <name>var</name>
+        <param><defname>Namespace</defname></param>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="43" column="9" bodyfile="Game/project_globals.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a3443e1345d44a33fd2bedeb034f9644f" prot="public" static="no">
+        <name>varc</name>
+        <param><defname>Namespace</defname></param>
+        <param><defname>Class</defname></param>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type Class::Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="46" column="9" bodyfile="Game/project_globals.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a6ca32a5a94d395a310c881b27f457ae7" prot="public" static="no">
+        <name>varg</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="51" column="9" bodyfile="Game/project_globals.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1ac2b6a5ceefff622246e3aa07bf875b5a" prot="public" static="no">
+        <name>varcg</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Class</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type Class::Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="54" column="9" bodyfile="Game/project_globals.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a6753b6e3e9dd8c7a33c31adc13c2ef8e" prot="public" static="no">
+        <name>asm_ext</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Sect</defname></param>
+        <initializer>Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="59" column="9" bodyfile="Game/project_globals.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1aad89285c2ad5c577dd33182b35433065" prot="public" static="no">
+        <name>asm</name>
+        <param><defname>Name</defname></param>
+        <initializer>Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="63" column="9" bodyfile="Game/project_globals.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a5181eb756a197a06d1c4ed1f40a065bc" prot="public" static="no">
+        <name>__weak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="65" column="9" bodyfile="Game/project_globals.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a377dec4d5e9fd9ba880998d7221102e9" prot="public" static="no">
+        <name>__clrex</name>
+        <param></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="66" column="9" bodyfile="Game/project_globals.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a25ad9822364edeeff5053f4dcc55e8ef" prot="public" static="no">
+        <name>S_</name>
+        <param><defname>x</defname></param>
+        <initializer>#x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="69" column="9" bodyfile="Game/project_globals.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1ac4a3ed3432929804c708f7760fb79e28" prot="public" static="no">
+        <name>S</name>
+        <param><defname>x</defname></param>
+        <initializer><ref refid="project__globals_8h_1a25ad9822364edeeff5053f4dcc55e8ef" kindref="member">S_</ref>(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="70" column="9" bodyfile="Game/project_globals.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a6ae8e27f7b69c1b69ea06c3d93568779" prot="public" static="no">
+        <name>_SECT_RO</name>
+        <initializer>&quot;.constdata.&quot; __BASE_FILE_NAME__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="75" column="9" bodyfile="Game/project_globals.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a73054dc3999cd614e3f22942358bab55" prot="public" static="no">
+        <name>_SECT_RW</name>
+        <initializer>&quot;.data.&quot; __BASE_FILE_NAME__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="78" column="9"/>
+      </memberdef>
+      <memberdef kind="define" id="project__globals_8h_1a74e98a624fa37803a1cfd583e053406e" prot="public" static="no">
+        <name>_SECT_ZI</name>
+        <initializer>&quot;.bss.&quot; __BASE_FILE_NAME__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Game/project_globals.h" line="81" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;nn/types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RP_SHUTUP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="project__globals_8h_1ad5b0f591ad1e6b753d82e81cb549546f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RP_SHUTUP<sp/>\</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_Pragma(&quot;diag_suppress<sp/>177,550,940&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Assertion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>static_assert</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>static_assert(COND,<sp/>MSG)<sp/>typedef<sp/>int<sp/>__static_assert_failed[(COND)<sp/>?<sp/>1<sp/>:<sp/>-1]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>static_assert_(COND)<sp/>static_assert(COND,<sp/>#COND)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__arm__<sp/></highlight><highlight class="comment">//<sp/>Used<sp/>by<sp/>compiler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>force_section(Section)<sp/>__attribute__((section(Section)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>force_func_section(Symbol)<sp/>force_section(&quot;i.&quot;<sp/>#Symbol)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>var(Namespace,<sp/>Name,<sp/>Type)<sp/>static<sp/>Type<sp/>force_section(&quot;.sdata_&quot;<sp/>#Namespace<sp/>&quot;::&quot;<sp/>#Name)<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>varc(Namespace,<sp/>Class,<sp/>Name,<sp/>Type)<sp/>Type<sp/>force_section(&quot;.sdata_&quot;<sp/>#Namespace<sp/>&quot;::&quot;<sp/>#Class<sp/>&quot;::&quot;<sp/>#Name)<sp/>Class::Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>varg(Name,<sp/>Type)<sp/>static<sp/>Type<sp/>force_section(&quot;.sdata_&quot;<sp/>#Name)<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>varcg(Class,<sp/>Name,<sp/>Type)<sp/>Type<sp/>force_section(&quot;.sdata_&quot;<sp/>#Name)<sp/>Class::Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asm_ext(Name,<sp/>Sect)<sp/>__asm<sp/>force_section(Sect)<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asm(Name)<sp/>asm_ext(Name,<sp/>&quot;i.&quot;<sp/>#Name)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">//<sp/>Used<sp/>by<sp/>editor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="project__globals_8h_1a06eb1d54f2d29a154987d835613708ae" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_SWITCH_DISABLE_ASSERT_WARNING_FOR_SDK<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="project__globals_8h_1a0eeab55080b317a3c4908d58af9c3c76" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NN_SWITCH_DISABLE_DEBUG_PRINTING_FOR_SDK<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Force<sp/>a<sp/>section<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="project__globals_8h_1afe1d6cbb5fcf8ca8b80f892fab9a4418" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>force_section(Section)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="project__globals_8h_1aa59faa94da7f95c172b1c2f5d1d9cf68" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>force_func_section(Symbol)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Force<sp/>a<sp/>section<sp/>for<sp/>static<sp/>namespaced<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>var(nn::fs,<sp/>s_Initialized,<sp/>bool)<sp/>=<sp/>False<sp/>//<sp/>==<sp/>bool<sp/>s_Initialized;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>-&gt;<sp/>nn::fs::s_Initialized<sp/>in<sp/>symbol<sp/>map</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>var(nn::fs,<sp/>s_Array,<sp/>u32)[64]<sp/>=<sp/>...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>-&gt;<sp/>nn::fs::s_Array<sp/>in<sp/>symbol<sp/>map</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="project__globals_8h_1a06e3f849ee4bc083b4871e3d0211c775" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>var(Namespace,<sp/>Name,<sp/>Type)<sp/>Type<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>class<sp/>variant</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>varc(al,<sp/>ActorActionKeeper,<sp/>sGravity,<sp/>f32)<sp/>=<sp/>0.f;<sp/>//<sp/>==<sp/>f32<sp/>ActorActionKeeper::sGravity<sp/>=<sp/>0.f;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="project__globals_8h_1a3443e1345d44a33fd2bedeb034f9644f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>varc(Namespace,<sp/>Class,<sp/>Name,<sp/>Type)<sp/>Type<sp/>Class::Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Force<sp/>a<sp/>section<sp/>for<sp/>static<sp/>global<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>varcg(s_Something,<sp/>u32)<sp/>=<sp/>3<sp/>//<sp/>==<sp/>u32<sp/>s_Something<sp/>=<sp/>3;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>-&gt;<sp/>s_Something<sp/>in<sp/>symbol<sp/>map</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="project__globals_8h_1a6ca32a5a94d395a310c881b27f457ae7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>varg(Name,<sp/>Type)<sp/>Type<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>class<sp/>variant</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>varcg(CoolEnemy,<sp/>f32)<sp/>=<sp/>0.f;<sp/>//<sp/>==<sp/>f32<sp/>CoolEnemy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="project__globals_8h_1ac2b6a5ceefff622246e3aa07bf875b5a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>varcg(Name,<sp/>Class,<sp/>Type)<sp/>Type<sp/>Class::Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Force<sp/>a<sp/>section<sp/>for<sp/>assembly<sp/>functions,<sp/>with<sp/>custom<sp/>namespace<sp/>(for<sp/>some<sp/>nn<sp/>stuff)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>asm_ext(SendSyncRequest,<sp/>&quot;.nn.svc.SendSyncRequest&quot;)<sp/>(Handle<sp/>handle)<sp/>{<sp/>...<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>-&gt;<sp/>WIP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="project__globals_8h_1a6753b6e3e9dd8c7a33c31adc13c2ef8e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asm_ext(Name,<sp/>Sect)<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Force<sp/>a<sp/>section<sp/>for<sp/>assembly<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Example:<sp/>asm(nninitRegion)<sp/>(void)<sp/>{<sp/>...<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="project__globals_8h_1aad89285c2ad5c577dd33182b35433065" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asm(Name)<sp/>Name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="project__globals_8h_1a5181eb756a197a06d1c4ed1f40a065bc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__weak</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="project__globals_8h_1a377dec4d5e9fd9ba880998d7221102e9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__clrex()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="project__globals_8h_1a25ad9822364edeeff5053f4dcc55e8ef" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>S_(x)<sp/>#x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="project__globals_8h_1ac4a3ed3432929804c708f7760fb79e28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>S(x)<sp/>S_(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Force<sp/>Sections</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Note:<sp/>__BASE_FILE_NAME__<sp/>is<sp/>set<sp/>by<sp/>the<sp/>build<sp/>system.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="project__globals_8h_1a6ae8e27f7b69c1b69ea06c3d93568779" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SECT_RO<sp/>&quot;.constdata.&quot;<sp/>__BASE_FILE_NAME__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">_Pragma(<ref refid="project__globals_8h_1ac4a3ed3432929804c708f7760fb79e28" kindref="member">S</ref>(arm<sp/>section<sp/>rodata=<ref refid="project__globals_8h_1a6ae8e27f7b69c1b69ea06c3d93568779" kindref="member">_SECT_RO</ref>))</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SECT_RW<sp/>&quot;.data.&quot;<sp/>__BASE_FILE_NAME__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">_Pragma(<ref refid="project__globals_8h_1ac4a3ed3432929804c708f7760fb79e28" kindref="member">S</ref>(arm<sp/>section<sp/>rwdata=<ref refid="project__globals_8h_1a73054dc3999cd614e3f22942358bab55" kindref="member">_SECT_RW</ref>))</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ZI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SECT_ZI<sp/>&quot;.bss.&quot;<sp/>__BASE_FILE_NAME__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">_Pragma(<ref refid="project__globals_8h_1ac4a3ed3432929804c708f7760fb79e28" kindref="member">S</ref>(arm<sp/>section<sp/>zidata=<ref refid="project__globals_8h_1a74e98a624fa37803a1cfd583e053406e" kindref="member">_SECT_ZI</ref>))</highlight></codeline>
+    </programlisting>
+    <location file="Game/project_globals.h"/>
+  </compounddef>
+</doxygen>

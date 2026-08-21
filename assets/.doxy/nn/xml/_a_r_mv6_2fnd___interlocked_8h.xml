@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_a_r_mv6_2fnd___interlocked_8h" kind="file" language="C++">
+    <compoundname>ARMv6/fnd_Interlocked.h</compoundname>
+    <includes refid="util___type_traits_8h" local="no">nn/util/util_TypeTraits.h</includes>
+    <includedby refid="fnd___interlocked_8h" local="no">fnd_Interlocked.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>fnd_Interlocked.h</label>
+        <link refid="_a_r_mv6_2fnd___interlocked_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/util/util_TypeTraits.h</label>
+        <link refid="util___type_traits_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>fnd_Interlocked.h</label>
+        <link refid="_a_r_mv6_2fnd___interlocked_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fnd_Interlocked.h</label>
+        <link refid="fnd___interlocked_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>os_LightEvent.h</label>
+        <link refid="os___light_event_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>os_LightSemaphore.h</label>
+        <link refid="os___light_semaphore_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="7">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+      </node>
+      <node id="10">
+        <label>os_LightEvent.cpp</label>
+        <link refid="os___light_event_8cpp"/>
+      </node>
+      <node id="4">
+        <label>os_LightSemaphore.cpp</label>
+        <link refid="os___light_semaphore_8cpp"/>
+      </node>
+      <node id="13">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+      </node>
+      <node id="8">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex" prot="public">nn::fnd::ARMv6::detail::LoadStoreRegEx</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4" prot="public">nn::fnd::ARMv6::detail::LoadStoreRegEx&lt; s64 &gt;</innerclass>
+    <innerclass refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked" prot="public">nn::fnd::ARMv6::Interlocked</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_018_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 8 &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_014_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 4 &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_012_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 2 &gt;</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_011_01_4" prot="private">nn::fnd::ARMv6::Interlocked::AtomicStorageSelecter&lt; T, 1 &gt;</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd_1_1_a_r_mv6">nn::fnd::ARMv6</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd_1_1_a_r_mv6_1_1detail">nn::fnd::ARMv6::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="util___type_traits_8h" kindref="compound">nn/util/util_TypeTraits.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="namespacenn_1_1fnd" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="7" refid="namespacenn_1_1fnd_1_1_a_r_mv6" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ARMv6<sp/>{</highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1fnd_1_1_a_r_mv6_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Primary<sp/>template<sp/>for<sp/>32-bit<sp/>and<sp/>smaller<sp/>(s32,<sp/>s16,<sp/>s8,<sp/>bool)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="12" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex" kindref="compound">LoadStoreRegEx</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_1a3c26963a42032fa3683fe82435b71b2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_1a3c26963a42032fa3683fe82435b71b2f" kindref="member">LoadRegEx</ref><sp/>(</highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>T*<sp/>ptr)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(T)__ldrex<sp/>(ptr);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_1a68982d7c759a906c93e6592c2e18b3d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_1a68982d7c759a906c93e6592c2e18b3d9" kindref="member">StoreRegEx</ref><sp/>(T<sp/>val,<sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>T*<sp/>ptr)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__strex<sp/>(val,<sp/>ptr);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Explicit<sp/>specialization<sp/>for<sp/>64-bit<sp/>(s64)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>matches<sp/>the<sp/>DWARF<sp/>entry<sp/>showing<sp/>8-byte<sp/>LoadRegEx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="27" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex" kindref="compound">LoadStoreRegEx</ref>&lt;<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref>&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1ad52185cb989c3758d26de6ecefa243b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1ad52185cb989c3758d26de6ecefa243b8" kindref="member">LoadRegEx</ref><sp/>(</highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref>*<sp/>ptr)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__ldrexd<sp/>(ptr);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1a0410f458a4a3b857303aa8c4486d8369" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex_3_01s64_01_4_1a0410f458a4a3b857303aa8c4486d8369" kindref="member">StoreRegEx</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>val,<sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref>*<sp/>ptr)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__strexd<sp/>(val,<sp/>ptr);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked" kindref="compound">Interlocked</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>Size<sp/>=<sp/>sizeof<sp/>(T)&gt;</highlight></codeline>
+<codeline lineno="44" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" kindref="compound">AtomicStorageSelecter</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Specialization<sp/>for<sp/>8-byte<sp/>types<sp/>(like<sp/>s64)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="48" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_018_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" kindref="compound">AtomicStorageSelecter</ref>&lt;T,<sp/>8&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_018_01_4_1abe6a23ae100d338efaea71424f07f5ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_018_01_4_1abe6a23ae100d338efaea71424f07f5ae" kindref="member">Type</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Specialization<sp/>for<sp/>4-byte<sp/>types<sp/>(like<sp/>s32<sp/>or<sp/>4-byte<sp/>structs<sp/>like<sp/>&apos;Flags&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="54" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_014_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" kindref="compound">AtomicStorageSelecter</ref>&lt;T,<sp/>4&gt;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_014_01_4_1a89574f64a3bcf0daf081a3e2e1e99f26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_014_01_4_1a89574f64a3bcf0daf081a3e2e1e99f26" kindref="member">Type</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Specialization<sp/>for<sp/>2-byte<sp/>types<sp/>(like<sp/>s16)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="60" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_012_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" kindref="compound">AtomicStorageSelecter</ref>&lt;T,<sp/>2&gt;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_012_01_4_1a31c3a88fc01128056f329b05c67eed9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_012_01_4_1a31c3a88fc01128056f329b05c67eed9c" kindref="member">Type</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Specialization<sp/>for<sp/>1-byte<sp/>types<sp/>(like<sp/>s8<sp/>or<sp/>bool)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="66" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_011_01_4" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" kindref="compound">AtomicStorageSelecter</ref>&lt;T,<sp/>1&gt;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68" refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_011_01_4_1a12a7e6f624f86bad385db40c8949803d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a151f780fb455885061d3b77ec1c90c03" kindref="member">s8</ref><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter_3_01_t_00_011_01_4_1a12a7e6f624f86bad385db40c8949803d" kindref="member">Type</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>UpdateFunc&gt;</highlight></codeline>
+<codeline lineno="73" refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1a4c71dc52cde716eb755d38a8514f6160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1a4c71dc52cde716eb755d38a8514f6160" kindref="member">AtomicUpdate</ref><sp/>(</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>T*<sp/>p,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UpdateFunc&amp;<sp/>update,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1util_1_1enable__if" kindref="compound">nn::util::enable_if</ref>&lt;</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(T)<sp/>&lt;=<sp/>4&gt;::type*<sp/>=<sp/>0)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked_1_1_atomic_storage_selecter" kindref="compound">AtomicStorageSelecter&lt;T&gt;::Type</ref><sp/>StorageType;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structnn_1_1fnd_1_1_a_r_mv6_1_1detail_1_1_load_store_reg_ex" kindref="compound">detail::LoadStoreRegEx&lt;StorageType&gt;</ref><sp/><sp/><sp/><sp/><sp/>LoadStoreType;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">U<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StorageType<sp/>raw;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>T<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>u;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1.<sp/>Exclusively<sp/>load<sp/>the<sp/>current<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u.raw<sp/>=<sp/>LoadStoreType::LoadRegEx<sp/>((</highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>StorageType*&amp;)(p));</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Return<sp/>#1:<sp/>Abort<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Call<sp/>the<sp/>functor.<sp/>If<sp/>it<sp/>returns<sp/>false/0,<sp/>we<sp/>clear<sp/>the<sp/>monitor<sp/>and<sp/>bail.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!update<sp/>(u.v))<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__clrex<sp/>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Return<sp/>#2:<sp/>Success<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>StoreRegEx<sp/>returns<sp/>0<sp/>on<sp/>SUCCESS<sp/>(the<sp/>exclusive<sp/>monitor<sp/>wasn&apos;t<sp/>tripped).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(LoadStoreType::StoreRegEx<sp/>(u.raw,<sp/>(</highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>StorageType*&amp;)(p))<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(Interlocked)<sp/>==<sp/>0x1);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>ARMv6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1util" kind="namespace" language="C++">
+    <compoundname>nn::util</compoundname>
+    <innerclass refid="structnn_1_1util_1_1aligned__storage" prot="public">nn::util::aligned_storage</innerclass>
+    <innerclass refid="structnn_1_1util_1_1enable__if" prot="public">nn::util::enable_if</innerclass>
+    <innerclass refid="structnn_1_1util_1_1enable__if_3_01true_00_01_t_01_4" prot="public">nn::util::enable_if&lt; true, T &gt;</innerclass>
+    <innerclass refid="classnn_1_1util_1_1_int64" prot="public">nn::util::Int64</innerclass>
+    <innerclass refid="classnn_1_1util_1_1_sized_enum" prot="public">nn::util::SizedEnum</innerclass>
+    <innerclass refid="structnn_1_1util_1_1_sized_enum1" prot="public">nn::util::SizedEnum1</innerclass>
+    <innerclass refid="structnn_1_1util_1_1_sized_enum2" prot="public">nn::util::SizedEnum2</innerclass>
+    <innerclass refid="structnn_1_1util_1_1_sized_enum4" prot="public">nn::util::SizedEnum4</innerclass>
+    <innernamespace refid="namespacenn_1_1util_1_1_a_d_l_fire_wall">nn::util::ADLFireWall</innernamespace>
+    <innernamespace refid="namespacenn_1_1util_1_1detail">nn::util::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/util/util_Int64.h" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dbg___enum_8h" kind="file" language="C++">
+    <compoundname>dbg_Enum.h</compoundname>
+    <includedby refid="dbg___break_8cpp" local="yes">dbg_Break.cpp</includedby>
+    <includedby refid="dbg___break_8h" local="no">dbg_Break.h</includedby>
+    <includedby refid="svc___stub_dbg_8h" local="no">svc_StubDbg.h</includedby>
+    <invincdepgraph>
+      <node id="4">
+        <label>assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+      </node>
+      <node id="8">
+        <label>fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>fs_FileBase.h</label>
+        <link refid="fs___file_base_8h"/>
+      </node>
+      <node id="19">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="14">
+        <label>os_CriticalSection.h</label>
+        <link refid="os___critical_section_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>os_HandleObject.h</label>
+        <link refid="os___handle_object_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>os_LightSemaphore.h</label>
+        <link refid="os___light_semaphore_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srv_Api.h</label>
+        <link refid="srv___api_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>svc_StubDbg.h</label>
+        <link refid="svc___stub_dbg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dbg_Break.cpp</label>
+        <link refid="dbg___break_8cpp"/>
+      </node>
+      <node id="30">
+        <label>dbg_DebugString.cpp</label>
+        <link refid="dbg___debug_string_8cpp"/>
+      </node>
+      <node id="5">
+        <label>fnd_DetailHeap.cpp</label>
+        <link refid="fnd___detail_heap_8cpp"/>
+      </node>
+      <node id="6">
+        <label>fnd_DetailHeapCommon.cpp</label>
+        <link refid="fnd___detail_heap_common_8cpp"/>
+      </node>
+      <node id="7">
+        <label>fnd_DetailList.cpp</label>
+        <link refid="fnd___detail_list_8cpp"/>
+      </node>
+      <node id="12">
+        <label>fs_Api.cpp</label>
+        <link refid="fs___api_8cpp"/>
+      </node>
+      <node id="15">
+        <label>os_CriticalSection.cpp</label>
+        <link refid="os___critical_section_8cpp"/>
+      </node>
+      <node id="24">
+        <label>os_LightSemaphore.cpp</label>
+        <link refid="os___light_semaphore_8cpp"/>
+      </node>
+      <node id="21">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="23">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="26">
+        <label>os_ThreadLocalStorage.cpp</label>
+        <link refid="os___thread_local_storage_8cpp"/>
+      </node>
+      <node id="27">
+        <label>os_WaitableCounter.cpp</label>
+        <link refid="os___waitable_counter_8cpp"/>
+      </node>
+      <node id="28">
+        <label>rvct_stdio.cpp</label>
+        <link refid="rvct__stdio_8cpp"/>
+      </node>
+      <node id="10">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+      <node id="31">
+        <label>svc_StubDbg.cpp</label>
+        <link refid="svc___stub_dbg_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1dbg">nn::dbg</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" prot="public" static="no" strong="no">
+        <type></type>
+        <name>nndbgBreakReason</name>
+        <enumvalue id="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403af443349db9a9a1a7ad6e946eb6fd6235" prot="public">
+          <name>NN_DBG_BREAK_REASON_PANIC</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403a6794c61ed0c7a349a4dcb019425111a1" prot="public">
+          <name>NN_DBG_BREAK_REASON_ASSERT</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403afa70c47fcb3b74734dc84ae5e08c071e" prot="public">
+          <name>NN_DBG_BREAK_REASON_USER</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403ab8c256b790c3b54eef293342b0ae3b94" prot="public">
+          <name>NN_DBG_BREAK_REASON_MAX_BIT</name>
+          <initializer>= 1073741824</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Enum.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/dbg/dbg_Enum.h" bodystart="8" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dbg___enum_8h_1a277a21978bcb417f22e2914072f94393" prot="public" static="no">
+        <type>enum <ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></type>
+        <definition>typedef enum nndbgBreakReason nndbgBreakReason</definition>
+        <argsstring></argsstring>
+        <name>nndbgBreakReason</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/dbg/dbg_Enum.h" line="13" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403af443349db9a9a1a7ad6e946eb6fd6235" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403af443349db9a9a1a7ad6e946eb6fd6235" kindref="member">NN_DBG_BREAK_REASON_PANIC</ref><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="10" refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403a6794c61ed0c7a349a4dcb019425111a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403a6794c61ed0c7a349a4dcb019425111a1" kindref="member">NN_DBG_BREAK_REASON_ASSERT</ref><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="11" refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403afa70c47fcb3b74734dc84ae5e08c071e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403afa70c47fcb3b74734dc84ae5e08c071e" kindref="member">NN_DBG_BREAK_REASON_USER</ref><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403ab8c256b790c3b54eef293342b0ae3b94" kindref="member">NN_DBG_BREAK_REASON_MAX_BIT</ref><sp/>=<sp/>1073741824</highlight></codeline>
+<codeline lineno="13" refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403ab8c256b790c3b54eef293342b0ae3b94" refkind="member"><highlight class="normal">}<sp/><ref refid="dbg___enum_8h_1a45a7f3c0fb0977186655dd2934af3403" kindref="member">nndbgBreakReason</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">dbg<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" kindref="member">BreakReason</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a37179e6bd63d0b60c02062be70881a21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a37179e6bd63d0b60c02062be70881a21" kindref="member">BREAK_REASON_PANIC</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="25" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a1af759ae93e00c7c6bb4f4ad68ea2c11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a1af759ae93e00c7c6bb4f4ad68ea2c11" kindref="member">BREAK_REASON_ASSERT</ref><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="26" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a16aec26a2266186c02f8ccf77cf3fd95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a16aec26a2266186c02f8ccf77cf3fd95" kindref="member">BREAK_REASON_USER</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="27" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a0f1a3a646a3373cfbde4c0d3beb43cdb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a0f1a3a646a3373cfbde4c0d3beb43cdb" kindref="member">BREAK_REASON_LOAD_RO</ref><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="28" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5afbf2ff3d07ee2dc8ac3ecd18d2234de7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5afbf2ff3d07ee2dc8ac3ecd18d2234de7" kindref="member">BREAK_REASON_UNLOAD_RO</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="29" refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a0d36a12a06f9019121cacc025e70c84e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5a0d36a12a06f9019121cacc025e70c84e" kindref="member">BREAK_REASON_MAX_BIT</ref><sp/><sp/><sp/>=<sp/>2147483648,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>dbg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/dbg/dbg_Enum.h"/>
+  </compounddef>
+</doxygen>

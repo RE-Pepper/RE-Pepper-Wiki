@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alByamlIter.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-albyamlitercpp">File alByamlIter.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_d8628e97cbd71936d4b5fb3774410590/"><strong>src</strong></a> <strong>&gt;</strong> <a href="../dir_a66705d5185d64e99b2223010bf5d935/"><strong>Yaml</strong></a> <strong>&gt;</strong> <a href="../al_byaml_iter_8cpp/"><strong>alByamlIter.cpp</strong></a></p>
+<p><a href="../al_byaml_iter_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;Yaml/alByamlContainerHeader.h&gt;
+#include &lt;Yaml/alByamlData.h&gt;
+#include &lt;Yaml/alByamlHashIter.h&gt;
+#include &lt;Yaml/alByamlHeader.h&gt;
+#include &lt;Yaml/alByamlIter.h&gt;
+#include &lt;Yaml/alByamlStringTableIter.h&gt;
+
+namespace al
+{
+
+ByamlIter::ByamlIter() : mData( nullptr ), mRootNode( nullptr )
+{
+}
+
+ByamlIter::ByamlIter( const ByamlIter&amp; other ) : mData( other.mData ), mRootNode( other.mRootNode )
+{
+}
+
+ByamlIter::ByamlIter( const u8* data ) : mData( data ), mRootNode( nullptr )
+{
+        if ( mData )
+        {
+                if ( !alByamlLocalUtil::verifiByaml( data ) )
+                {
+                        mData     = nullptr;
+                        mRootNode = nullptr;
+                        return;
+                }
+                int offset = mHeader-&gt;getDataOffset();
+                if ( offset != 0 )
+                        mRootNode = mData + this-&gt;mHeader-&gt;getDataOffset();
+        }
+}
+
+bool ByamlIter::isValid() const
+{
+        return mData != nullptr;
+}
+
+int ByamlIter::getSize() const
+{
+        if ( isTypeContainer() )
+                return mContainerHeader-&gt;getCount();
+        return 0;
+}
+
+bool ByamlIter::isTypeArray() const
+{
+        return mContainerHeader != nullptr &amp;&amp; mContainerHeader-&gt;getType() == ByamlDataType_Array;
+}
+
+bool ByamlIter::isTypeHash() const
+{
+        return mContainerHeader != nullptr &amp;&amp; mContainerHeader-&gt;getType() == ByamlDataType_Hash;
+}
+
+bool ByamlIter::isTypeContainer() const
+{
+        return mContainerHeader != nullptr &amp;&amp; ( mContainerHeader-&gt;getType() == ByamlDataType_Array ||
+                                                      mContainerHeader-&gt;getType() == ByamlDataType_Hash );
+}
+
+int ByamlIter::getKeyIndex( const char* key ) const
+{
+        ByamlStringTableIter iter( mData + mHeader-&gt;getHashKeyTableOffset() );
+        return iter.findStringIndex( key );
+}
+
+#pragma no_inline
+
+#ifdef NON_MATCHING
+bool ByamlIter::getByamlDataByKey( ByamlData* out, const char* key ) const
+{
+        if ( isTypeHash() )
+        {
+                int keyIndex = getKeyIndex( key );
+                if ( keyIndex &gt; -1 )
+                        return ByamlHashIter( mRootNode ).getDataByKey( out, keyIndex );
+        }
+        return false;
+}
+#endif
+
+bool ByamlIter::tryGetBoolByKey( bool* out, const char* key ) const
+{
+        ByamlData data;
+
+        if ( getByamlDataByKey( &amp;data, key ) )
+                return tryConvertBool( out, &amp;data );
+        return false;
+}
+
+bool ByamlIter::tryGetIntByKey( int* out, const char* key ) const
+{
+        ByamlData data;
+
+        if ( getByamlDataByKey( &amp;data, key ) )
+                return tryConvertInt( out, &amp;data );
+        return false;
+}
+
+bool ByamlIter::tryGetFloatByKey( float* out, const char* key ) const
+{
+        ByamlData data;
+
+        if ( getByamlDataByKey( &amp;data, key ) )
+                return tryConvertFloat( out, &amp;data );
+        return false;
+}
+
+#pragma inline
+
+bool ByamlIter::tryConvertBool( bool* out, const ByamlData* data ) const
+{
+        if ( data-&gt;getType() == ByamlDataType_Int || data-&gt;getType() == ByamlDataType_Bool )
+        {
+                *out = data-&gt;getIntValue();
+                return true;
+        }
+        return false;
+}
+
+#pragma inline
+
+bool ByamlIter::tryConvertInt( int* out, const ByamlData* data ) const
+{
+        if ( data-&gt;getType() == ByamlDataType_Int )
+        {
+                *out = data-&gt;getIntValue();
+                return true;
+        }
+        return false;
+}
+
+#pragma inline
+
+bool ByamlIter::tryConvertFloat( float* out, const ByamlData* data ) const
+{
+        if ( data-&gt;getType() == ByamlDataType_Float )
+        {
+                *out = data-&gt;getFloatValue();
+                return true;
+        }
+        return false;
+}
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

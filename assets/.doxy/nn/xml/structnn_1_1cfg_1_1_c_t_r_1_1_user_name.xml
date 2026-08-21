@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1_user_name" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::UserName</compoundname>
+    <includes refid="cfg___user_info_8h" local="no">cfg_UserInfo.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_user_name_1a5b4b473b26008bd84155e539f6ef1577" prot="public" static="no" mutable="no">
+        <type>wchar_t</type>
+        <definition>wchar_t nn::cfg::CTR::UserName::userName[11]</definition>
+        <argsstring>[11]</argsstring>
+        <name>userName</name>
+        <qualifiedname>nn::cfg::CTR::UserName::userName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="9" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_user_name_1a6e4eafdff79358de3ad85366c4bf9049" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::cfg::CTR::UserName::isNgUserName</definition>
+        <argsstring></argsstring>
+        <name>isNgUserName</name>
+        <qualifiedname>nn::cfg::CTR::UserName::isNgUserName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="10" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" line="7" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_UserInfo.h" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_user_name_1a6e4eafdff79358de3ad85366c4bf9049" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::UserName</scope><name>isNgUserName</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_user_name_1a5b4b473b26008bd84155e539f6ef1577" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::UserName</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

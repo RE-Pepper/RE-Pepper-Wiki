@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_369320240f3428c6f0d988f9f85aef22" kind="dir">
+    <compoundname>util</compoundname>
+    <innerdir refid="dir_1e38e23ee4676291847d6c6b9ce44eb6">detail</innerdir>
+    <innerfile refid="util___flags_enum_8h">util_FlagsEnum.h</innerfile>
+    <innerfile refid="util___int64_8h">util_Int64.h</innerfile>
+    <innerfile refid="util___non_copyable_8h">util_NonCopyable.h</innerfile>
+    <innerfile refid="util___sized_enum_8h">util_SizedEnum.h</innerfile>
+    <innerfile refid="util___type_traits_8h">util_TypeTraits.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/util/"/>
+  </compounddef>
+</doxygen>

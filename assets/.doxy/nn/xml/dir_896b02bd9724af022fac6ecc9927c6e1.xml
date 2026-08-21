@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_896b02bd9724af022fac6ecc9927c6e1" kind="dir">
+    <compoundname>fnd</compoundname>
+    <innerdir refid="dir_ca333016a5faba247875d639e2df699c">ARMv6</innerdir>
+    <innerdir refid="dir_3da131c86a4fcd1c3423f598aebcaf26">detail</innerdir>
+    <innerfile refid="fnd___heap_base_8h">fnd_HeapBase.h</innerfile>
+    <innerfile refid="fnd___interlocked_8h">fnd_Interlocked.h</innerfile>
+    <innerfile refid="fnd___linked_list_8h">fnd_LinkedList.h</innerfile>
+    <innerfile refid="fnd___result_8h">fnd_Result.h</innerfile>
+    <innerfile refid="fnd___time_span_8h">fnd_TimeSpan.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/"/>
+  </compounddef>
+</doxygen>

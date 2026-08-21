@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="svc___stub_dbg_8h" kind="file" language="C++">
+    <compoundname>svc_StubDbg.h</compoundname>
+    <includes refid="_result_8h" local="no">nn/Result.h</includes>
+    <includes refid="dbg___enum_8h" local="no">nn/dbg/dbg_Enum.h</includes>
+    <includedby refid="dbg___break_8cpp" local="no">dbg_Break.cpp</includedby>
+    <includedby refid="dbg___debug_string_8cpp" local="no">dbg_DebugString.cpp</includedby>
+    <includedby refid="svc___stub_dbg_8cpp" local="no">svc_StubDbg.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="1">
+        <label>svc_StubDbg.h</label>
+        <link refid="svc___stub_dbg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>svc_StubDbg.h</label>
+        <link refid="svc___stub_dbg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dbg_Break.cpp</label>
+        <link refid="dbg___break_8cpp"/>
+      </node>
+      <node id="3">
+        <label>dbg_DebugString.cpp</label>
+        <link refid="dbg___debug_string_8cpp"/>
+      </node>
+      <node id="4">
+        <label>svc_StubDbg.cpp</label>
+        <link refid="svc___stub_dbg_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1svc">nn::svc</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_result_8h" kindref="compound">nn/Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="dbg___enum_8h" kindref="compound">nn/dbg/dbg_Enum.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1svc_1a8106dba6976c0286c2113d6cfb290974" refkind="member"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1svc_1a8106dba6976c0286c2113d6cfb290974" kindref="member">Break</ref><sp/>(<ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" kindref="member">nn::dbg::BreakReason</ref><sp/>reason);</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d" refkind="member"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d" kindref="member">OutputDebugString</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/>data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1svc_1a3691ccf0f99fbbb9123ce64353332e1f" kindref="member">length</ref>);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>svc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/svc/svc_StubDbg.h"/>
+  </compounddef>
+</doxygen>

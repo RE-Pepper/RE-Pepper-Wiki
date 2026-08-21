@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fnd___time_span_8h" kind="file" language="C++">
+    <compoundname>fnd_TimeSpan.h</compoundname>
+    <includedby refid="applet___parameters_8h" local="no">applet_Parameters.h</includedby>
+    <includedby refid="os___event_8h" local="yes">os_Event.h</includedby>
+    <includedby refid="os___synchronization_8h" local="no">os_Synchronization.h</includedby>
+    <includedby refid="os___thread_8h" local="no">os_Thread.h</includedby>
+    <includedby refid="os___tick_8h" local="no">os_Tick.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>applet_Parameters.h</label>
+        <link refid="applet___parameters_8h"/>
+      </node>
+      <node id="1">
+        <label>fnd_TimeSpan.h</label>
+        <link refid="fnd___time_span_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>hid_HidBase.h</label>
+        <link refid="hid___hid_base_8h"/>
+      </node>
+      <node id="3">
+        <label>os_Event.h</label>
+        <link refid="os___event_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>os_Semaphore.h</label>
+        <link refid="os___semaphore_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>os_SharedInfo.h</label>
+        <link refid="os___shared_info_8h"/>
+      </node>
+      <node id="5">
+        <label>os_Synchronization.h</label>
+        <link refid="os___synchronization_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>os_Thread.h</label>
+        <link refid="os___thread_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>os_Tick.h</label>
+        <link refid="os___tick_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>os_Synchronization.cpp</label>
+        <link refid="os___synchronization_8cpp"/>
+      </node>
+      <node id="10">
+        <label>os_Thread.cpp</label>
+        <link refid="os___thread_8cpp"/>
+      </node>
+      <node id="7">
+        <label>srv_Api.cpp</label>
+        <link refid="srv___api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classnn_1_1fnd_1_1_time_span" prot="public">nn::fnd::TimeSpan</innerclass>
+    <innerclass refid="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" prot="private">nn::fnd::TimeSpan::ZeroOnlyTag</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classnn_1_1fnd_1_1_time_span" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="10" refid="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" kindref="compound">ZeroOnlyTag</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="classnn_1_1fnd_1_1_time_span_1ac1f69559e112076a153f9fae68487353" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}*<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1ac1f69559e112076a153f9fae68487353" kindref="member">ZeroOnly</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="classnn_1_1fnd_1_1_time_span_1a27ed8819a076845f0e2b8ff75381fc7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a27ed8819a076845f0e2b8ff75381fc7a" kindref="member">TimeSpan</ref><sp/>(<ref refid="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" kindref="compound">ZeroOnly</ref><sp/>zero<sp/>=<sp/>0)<sp/>:<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>((<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref>)zero)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Creating</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>nanoSeconds)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/>ret;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>=<sp/>nanoSeconds;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24" refid="classnn_1_1fnd_1_1_time_span_1a61e98cd80e5943eb872a31d92499d6cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a61e98cd80e5943eb872a31d92499d6cc" kindref="member">FromMicroSeconds</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>microSeconds)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(microSeconds<sp/>*<sp/>1000);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28" refid="classnn_1_1fnd_1_1_time_span_1a43f6550f98067b8d42e18b1fd7929544" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a43f6550f98067b8d42e18b1fd7929544" kindref="member">FromMilliSeconds</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>milliSeconds)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(milliSeconds<sp/>*<sp/>1000<sp/>*<sp/>1000);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32" refid="classnn_1_1fnd_1_1_time_span_1a3de4bf9008165519d254817f0f90874e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a3de4bf9008165519d254817f0f90874e" kindref="member">FromSeconds</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>seconds)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(seconds<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>1000);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="classnn_1_1fnd_1_1_time_span_1a97060edd6ac1b6345449d18f6c75c765" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a97060edd6ac1b6345449d18f6c75c765" kindref="member">FromMinutes</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>minutes)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(minutes<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>60);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40" refid="classnn_1_1fnd_1_1_time_span_1a48d7569775370c43e315906be9e27864" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a48d7569775370c43e315906be9e27864" kindref="member">FromHours</ref><sp/>(<ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/>hours)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(hours<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>60<sp/>*<sp/>60);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Getting/Converting</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classnn_1_1fnd_1_1_time_span_1a4914ea897f9eedf687dd2cca88fdc735" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a4914ea897f9eedf687dd2cca88fdc735" kindref="member">GetNanoSeconds</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="47"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50" refid="classnn_1_1fnd_1_1_time_span_1af204cdd173fcbb2666ca6194c2990fb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1af204cdd173fcbb2666ca6194c2990fb4" kindref="member">GetMicroSeconds</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="51"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>/<sp/>1000;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54" refid="classnn_1_1fnd_1_1_time_span_1aa22ed88a672ddb166f37ec9d624af8a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1aa22ed88a672ddb166f37ec9d624af8a6" kindref="member">GetMilliSeconds</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="55"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>/<sp/>(1000<sp/>*<sp/>1000);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58" refid="classnn_1_1fnd_1_1_time_span_1a070ad0fea0f9a27d4df700f3f9514a60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a070ad0fea0f9a27d4df700f3f9514a60" kindref="member">GetSeconds</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="59"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>/<sp/>(1000<sp/>*<sp/>1000<sp/>*<sp/>1000);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62" refid="classnn_1_1fnd_1_1_time_span_1a1cca65327a6d77333e173e3457f3285a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a1cca65327a6d77333e173e3457f3285a" kindref="member">GetMinutes</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="63"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>/<sp/>(1000LL<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>60);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66" refid="classnn_1_1fnd_1_1_time_span_1a401740d722dee6dc80703983319f8de9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a401740d722dee6dc80703983319f8de9" kindref="member">GetHours</ref><sp/>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="67"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>/<sp/>(1000LL<sp/>*<sp/>1000<sp/>*<sp/>1000<sp/>*<sp/>60<sp/>*<sp/>60);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Checking</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classnn_1_1fnd_1_1_time_span_1a820ee1f6184a9a9e5ca21325b8c8203b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a820ee1f6184a9a9e5ca21325b8c8203b" kindref="member">operator== </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>==<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76" refid="classnn_1_1fnd_1_1_time_span_1a9e2aae82da6fdf3f26b8487b854e6043" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a9e2aae82da6fdf3f26b8487b854e6043" kindref="member">operator!= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>!=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80" refid="classnn_1_1fnd_1_1_time_span_1af06df3b334c5ae147801c6c7250b8cc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1af06df3b334c5ae147801c6c7250b8cc7" kindref="member">operator&lt; </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>&lt;<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84" refid="classnn_1_1fnd_1_1_time_span_1aa0f069a3445912d8929fafc8952f3d85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1aa0f069a3445912d8929fafc8952f3d85" kindref="member">operator&gt; </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>&gt;<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88" refid="classnn_1_1fnd_1_1_time_span_1a5174e0ab5a4ca02806bac6ef7d5fee9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a5174e0ab5a4ca02806bac6ef7d5fee9b" kindref="member">operator&lt;= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>&lt;=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92" refid="classnn_1_1fnd_1_1_time_span_1a9218f30fa59eb8d3fcbc94353fe250ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a9218f30fa59eb8d3fcbc94353fe250ca" kindref="member">operator&gt;= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>&gt;=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Modifying</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classnn_1_1fnd_1_1_time_span_1a47b943e39ff34ef3ac875d18f47108b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a47b943e39ff34ef3ac875d18f47108b8" kindref="member">operator+= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_NanoSeconds<sp/>+=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103" refid="classnn_1_1fnd_1_1_time_span_1a356d84079f470d4350867b7b969f6db0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a356d84079f470d4350867b7b969f6db0" kindref="member">operator-= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_NanoSeconds<sp/>+=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108" refid="classnn_1_1fnd_1_1_time_span_1abdac53a0105dc25433d6651fe467953a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1abdac53a0105dc25433d6651fe467953a" kindref="member">operator*= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_NanoSeconds<sp/>*=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113" refid="classnn_1_1fnd_1_1_time_span_1a49f8e4616205eb16b7a3a27697bda350" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a49f8e4616205eb16b7a3a27697bda350" kindref="member">operator/= </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;m_NanoSeconds<sp/>/=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="classnn_1_1fnd_1_1_time_span_1a2bfdcce01e3f76ca8df06fd968a9ec24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a2bfdcce01e3f76ca8df06fd968a9ec24" kindref="member">operator+ </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/>retval<sp/>=<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>+=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125" refid="classnn_1_1fnd_1_1_time_span_1a718ec923a3cee478a33646660b5f93c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/><ref refid="classnn_1_1fnd_1_1_time_span_1a718ec923a3cee478a33646660b5f93c6" kindref="member">operator- </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref>&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_time_span" kindref="compound">TimeSpan</ref><sp/>retval<sp/>=<sp/><ref refid="classnn_1_1fnd_1_1_time_span_1acb4f4fffb77ce55d33ddeca4bd6df9db" kindref="member">FromNanoSeconds</ref><sp/>(lhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref><sp/>-=<sp/>rhs.<ref refid="classnn_1_1fnd_1_1_time_span_1a664c1b96c6af04cdf444ee0eb0ae73b9" kindref="member">m_NanoSeconds</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">static_assert_<sp/>(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(TimeSpan)<sp/>==<sp/>0x8);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="nstd___string_8h" kind="file" language="C++">
+    <compoundname>nstd_String.h</compoundname>
+    <includedby refid="nstd___string_8c" local="no">nstd_String.c</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>nstd_String.h</label>
+        <link refid="nstd___string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nstd_String.c</label>
+        <link refid="nstd___string_8c"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="nstd___string_8h_1a4a6eda948283dfff146ccd191354653e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nnnstdMemMove</definition>
+        <argsstring>(void *pOut, void *pIn, size_t size)</argsstring>
+        <name>nnnstdMemMove</name>
+        <param>
+          <type>void *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pIn</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/nstd/nstd_String.h" line="7" column="6" bodyfile="lib/CtrSDK/sources/libraries/nstd/ARMv6/nstd_String.c" bodystart="291" bodyend="545" declfile="lib/CtrSDK/include/nn/nstd/nstd_String.h" declline="7" declcolumn="6"/>
+        <references refid="nstd___string_8c_1ab57a14e56822e8c1599a8d07065573bc" compoundref="nstd___string_8c" startline="3" endline="290">nnnstdMemCpy</references>
+      </memberdef>
+      <memberdef kind="function" id="nstd___string_8h_1a2ceb9be3b3e25ab3f762dadab707a86e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nnnstdMemCpy</definition>
+        <argsstring>(void *pOut, void *pIn, size_t size)</argsstring>
+        <name>nnnstdMemCpy</name>
+        <param>
+          <type>void *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pIn</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/nstd/nstd_String.h" line="8" column="6" bodyfile="lib/CtrSDK/sources/libraries/nstd/ARMv6/nstd_String.c" bodystart="3" bodyend="290" declfile="lib/CtrSDK/include/nn/nstd/nstd_String.h" declline="8" declcolumn="6"/>
+        <referencedby refid="nstd___string_8h_1a4a6eda948283dfff146ccd191354653e" compoundref="nstd___string_8c" startline="291" endline="545">nnnstdMemMove</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="nstd___string_8h_1a4a6eda948283dfff146ccd191354653e" kindref="member">nnnstdMemMove</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="os___synchronization_8cpp_1a022d338b7920ed69f06e9416d3089d22" kindref="member">pOut</ref>,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pIn,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="nstd___string_8h_1a2ceb9be3b3e25ab3f762dadab707a86e" kindref="member">nnnstdMemCpy</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="os___synchronization_8cpp_1a022d338b7920ed69f06e9416d3089d22" kindref="member">pOut</ref>,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pIn,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/nstd/nstd_String.h"/>
+  </compounddef>
+</doxygen>

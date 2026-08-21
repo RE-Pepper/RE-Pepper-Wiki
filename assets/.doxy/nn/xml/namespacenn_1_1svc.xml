@@ -1,0 +1,2149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1svc" kind="namespace" language="C++">
+    <compoundname>nn::svc</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacenn_1_1svc_1afbbaf93ef5640d48eb802579c5d7c5f4" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext(OutputDebugString, &quot;.nn.svc.OutputDebugString&quot;)(void const *data</definition>
+        <argsstring>(ControlMemory, &quot;.nn.svc.ControlMemory&quot;)(uptr *pOut</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="8" column="1" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="21" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a99e6d16c5bbde956d4d697e1cf6c268b" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>Result uptr nn::svc::addr0</definition>
+        <argsstring></argsstring>
+        <name>addr0</name>
+        <qualifiedname>nn::svc::addr0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="8" column="16" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1aad17e3a8a0b02ab32ea73ead20d42d70" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>Result uptr uptr nn::svc::addr1</definition>
+        <argsstring></argsstring>
+        <name>addr1</name>
+        <qualifiedname>nn::svc::addr1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="8" column="27" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a52e7d5c5bba1d6846d4c474cba6ea63b" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> size_t</type>
+        <definition>Result u32 u32 nn::svc::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>nn::svc::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="8" column="40" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a3be84ada09dc91b8bc786d7a8e429f62" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> size_t <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result uptr uptr size_t u32 nn::svc::op</definition>
+        <argsstring></argsstring>
+        <name>op</name>
+        <qualifiedname>nn::svc::op</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="8" column="49" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a1365e4f2839b4f3aab65f0f026998ac3" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> size_t <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result uptr uptr size_t u32 u32 nn::svc::perms</definition>
+        <argsstring></argsstring>
+        <name>perms</name>
+        <qualifiedname>nn::svc::perms</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref>, <ref refid="namespacenn_1_1svc_1ab399506cfe0efe7f1513a19deefd2c87" kindref="member">r4</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="8" column="56" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="9" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" prot="public" static="no" mutable="no">
+        <type>ldr</type>
+        <definition>ldr nn::svc::r0</definition>
+        <argsstring></argsstring>
+        <name>r0</name>
+        <qualifiedname>nn::svc::r0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="11" column="13" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="11" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" compoundref="svc___stub_8cpp" startline="145" endline="153">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1afea15ff27e74c520738f2bb8b31280af">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1ab399506cfe0efe7f1513a19deefd2c87" prot="public" static="no" mutable="no">
+        <type>ldr ldr</type>
+        <definition>ldr ldr nn::svc::r4</definition>
+        <argsstring></argsstring>
+        <name>r4</name>
+        <qualifiedname>nn::svc::r4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="12" column="13" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="12" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" prot="public" static="no" mutable="no">
+        <type>ldr ldr</type>
+        <definition>ldr ldr nn::svc::svc</definition>
+        <argsstring></argsstring>
+        <name>svc</name>
+        <qualifiedname>nn::svc::svc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="13" column="9" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="13" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1a2d1af5f68229a8dc5064f1177ddd7bc4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a8ce87f5a1b3bb3a7362d384cde8a281f" compoundref="svc___stub_dbg_8cpp" startline="7" endline="10">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ad4a9cd4627fe2b5267fe00b9fa0372e9" compoundref="svc___stub_8cpp" startline="116" endline="120">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a4da3754278c35fdcb51f9d54d2b8ce6e" compoundref="svc___stub_8cpp" startline="161" endline="165">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" compoundref="svc___stub_8cpp" startline="145" endline="153">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a9e49203bb4e6cd8b30d860a40a3a452e" compoundref="svc___stub_8cpp" startline="37" endline="41">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a762e6e4bd2c8b5325c6263f493ea336a" compoundref="svc___stub_8cpp" startline="78" endline="82">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1afea15ff27e74c520738f2bb8b31280af">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a9efec44d6747a42028c9dd6b29e06f1b" compoundref="svc___stub_8cpp" startline="196" endline="200">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ac9c5e70af63bf240f56bd8f1051b753c">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1aaf910b82dcefdee9ea610d9a36f89b3e">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a29ff8d0956dad5be9365b7c569c66c60" compoundref="svc___stub_8cpp" startline="94" endline="98">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a6b55cabdcbf4a2d005beae36f9ddcdb4" compoundref="svc___stub_8cpp" startline="223" endline="227">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a56a5fad211aefaeb41b5444fcb6ae0af">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a6698810170b731597661e10164bc3da5" compoundref="svc___stub_8cpp" startline="110" endline="114">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a9fc3a0288485df077e12f0cd36e85175" compoundref="svc___stub_8cpp" startline="56" endline="60">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a3d9870f88a5c97e48fc724b3254c3207">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" prot="public" static="no" mutable="no">
+        <type>ldr</type>
+        <definition>ldr nn::svc::r2</definition>
+        <argsstring></argsstring>
+        <name>r2</name>
+        <qualifiedname>nn::svc::r2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="14" column="13" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="14" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" compoundref="svc___stub_8cpp" startline="145" endline="153">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" prot="public" static="no" mutable="no">
+        <type>ldr str</type>
+        <definition>ldr str nn::svc::r1</definition>
+        <argsstring></argsstring>
+        <name>r1</name>
+        <qualifiedname>nn::svc::r1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="15" column="13" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="15" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" compoundref="svc___stub_8cpp" startline="145" endline="153">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" prot="public" static="no" mutable="no">
+        <type>ldr str add</type>
+        <definition>ldr str add nn::svc::sp</definition>
+        <argsstring></argsstring>
+        <name>sp</name>
+        <qualifiedname>nn::svc::sp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="16" column="13" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="16" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" compoundref="svc___stub_8cpp" startline="145" endline="153">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a6516bef8280610af33e16ff857f29038" prot="public" static="no" mutable="no">
+        <type>ldr str add</type>
+        <definition>ldr str add nn::svc::pop</definition>
+        <argsstring></argsstring>
+        <name>pop</name>
+        <qualifiedname>nn::svc::pop</qualifiedname>
+        <initializer>{ <ref refid="namespacenn_1_1svc_1ab399506cfe0efe7f1513a19deefd2c87" kindref="member">r4</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="17" column="9" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="17" bodyend="17"/>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" prot="public" static="no" mutable="no">
+        <type>bx</type>
+        <definition>bx nn::svc::lr</definition>
+        <argsstring></argsstring>
+        <name>lr</name>
+        <qualifiedname>nn::svc::lr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="18" column="12" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="18" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1a2d1af5f68229a8dc5064f1177ddd7bc4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a8ce87f5a1b3bb3a7362d384cde8a281f" compoundref="svc___stub_dbg_8cpp" startline="7" endline="10">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ad4a9cd4627fe2b5267fe00b9fa0372e9" compoundref="svc___stub_8cpp" startline="116" endline="120">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a4da3754278c35fdcb51f9d54d2b8ce6e" compoundref="svc___stub_8cpp" startline="161" endline="165">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" compoundref="svc___stub_8cpp" startline="145" endline="153">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a9e49203bb4e6cd8b30d860a40a3a452e" compoundref="svc___stub_8cpp" startline="37" endline="41">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a762e6e4bd2c8b5325c6263f493ea336a" compoundref="svc___stub_8cpp" startline="78" endline="82">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a9efec44d6747a42028c9dd6b29e06f1b" compoundref="svc___stub_8cpp" startline="196" endline="200">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1ac9c5e70af63bf240f56bd8f1051b753c">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1aaf910b82dcefdee9ea610d9a36f89b3e">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a29ff8d0956dad5be9365b7c569c66c60" compoundref="svc___stub_8cpp" startline="94" endline="98">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a6b55cabdcbf4a2d005beae36f9ddcdb4" compoundref="svc___stub_8cpp" startline="223" endline="227">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a56a5fad211aefaeb41b5444fcb6ae0af">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a6698810170b731597661e10164bc3da5" compoundref="svc___stub_8cpp" startline="110" endline="114">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a9fc3a0288485df077e12f0cd36e85175" compoundref="svc___stub_8cpp" startline="56" endline="60">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a3d9870f88a5c97e48fc724b3254c3207">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a78e33151855b407a5fd30b3b625f8890">asm_ext</referencedby>
+        <referencedby refid="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515">asm_ext</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a181678e0c0e63eb182dba6b508074d5d" prot="public" static="no" mutable="no">
+        <type>void void(*</type>
+        <definition>void void(* nn::svc::func) (u32)</definition>
+        <argsstring>)(u32)</argsstring>
+        <name>func</name>
+        <qualifiedname>nn::svc::func</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="43" column="16" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a04a42eacf89bdef492686cc97dbc5f0e" prot="public" static="no" mutable="no">
+        <type>void void(*) u3</type>
+        <definition>void void(*) u3 nn::svc::arg) </definition>
+        <argsstring>)</argsstring>
+        <name>arg</name>
+        <qualifiedname>nn::svc::arg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="43" column="29" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1af829eaf036b4306f4dc58807399bd7ec" prot="public" static="no" mutable="no">
+        <type>void void(*) <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> u3</type>
+        <definition>void void(*) u32 u3 nn::svc::stackTop) </definition>
+        <argsstring>)</argsstring>
+        <name>stackTop</name>
+        <qualifiedname>nn::svc::stackTop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="43" column="37" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a018550fa467b31c0874ca2d3383ba228" prot="public" static="no" mutable="no">
+        <type>void void(*) <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> s3</type>
+        <definition>Result int nn::svc::prio</definition>
+        <argsstring>)</argsstring>
+        <name>prio</name>
+        <qualifiedname>nn::svc::prio</qualifiedname>
+        <initializer>{
+        <ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref> 0xC</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="43" column="50" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1aaca9e6ad3c2142dfb4160bd3f3bbae6c" prot="public" static="no" mutable="no">
+        <type>void void(*) <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> s3</type>
+        <definition>void void(*) u32 u32 s32 s3 nn::svc::processorId) </definition>
+        <argsstring>)</argsstring>
+        <name>processorId</name>
+        <qualifiedname>nn::svc::processorId</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref>, <ref refid="namespacenn_1_1svc_1ab399506cfe0efe7f1513a19deefd2c87" kindref="member">r4</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="43" column="59" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="44" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1ac7192526b6f5dc932d9f4fb42ce21168" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>Result Handle nn::svc::thread</definition>
+        <argsstring></argsstring>
+        <name>thread</name>
+        <qualifiedname>nn::svc::thread</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="62" column="25" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="63" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1adc5dbcabdd7a81940406689a86abb246" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> bool</type>
+        <definition>Result bool nn::svc::initialLocked</definition>
+        <argsstring></argsstring>
+        <name>initialLocked</name>
+        <qualifiedname>nn::svc::initialLocked</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="84" column="23" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="85" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1ac732dea345739b56908793d800d599d7" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">nn::os::ResetType</ref></type>
+        <definition>Result uptr nn::os::ArbitrationType nn::svc::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>nn::svc::type</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="100" column="36" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="101" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a562c28f33bfb3228003de7b5c72fbec5" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result uptr nn::svc::addr</definition>
+        <argsstring></argsstring>
+        <name>addr</name>
+        <qualifiedname>nn::svc::addr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="122" column="22" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1acdea32fff51b23a09d01fb55f04eb74a" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result u32 u32 u32 nn::svc::myperms</definition>
+        <argsstring></argsstring>
+        <name>myperms</name>
+        <qualifiedname>nn::svc::myperms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="122" column="40" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a12c039c14e5bf3f85fd6e734e7e1cc40" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result u32 u32 u32 u32 nn::svc::otherperms</definition>
+        <argsstring></argsstring>
+        <name>otherperms</name>
+        <qualifiedname>nn::svc::otherperms</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="122" column="52" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="123" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1ab5eda80c92b2db39607782a05e6c92fc" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result u32 nn::svc::i0</definition>
+        <argsstring></argsstring>
+        <name>i0</name>
+        <qualifiedname>nn::svc::i0</qualifiedname>
+        <initializer>{
+        <ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref> 0x20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="133" column="22" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a51cf32b24043f2b9cb68749320b7aa01" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result u32 u32 nn::svc::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>nn::svc::start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="133" column="29" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1affd4ed77d9302cdfaae00df02bec04ff" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> <ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>Result u32 u32 u32 nn::svc::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>nn::svc::end</qualifiedname>
+        <initializer>{
+        <ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref> 0x1F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="133" column="39" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a33cb33d5c77032f68eb3720f51490ab1" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> <ref refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24a" kindref="member">nn::os::ArbitrationType</ref> <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>Result uptr nn::os::ArbitrationType s32 nn::svc::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>nn::svc::value</qualifiedname>
+        <initializer>{
+        <ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref> 0x22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="155" column="61" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a36a62adf64e6425c279c8506e1dcb7d6" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+        <definition>Result const Handle* nn::svc::handles</definition>
+        <argsstring></argsstring>
+        <name>handles</name>
+        <qualifiedname>nn::svc::handles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="167" column="31" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="167" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1a1b840441e5dcdb2c5d6713348af41146" compoundref="svc___inlines_8h" startline="10" endline="13">WaitSynchronization</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a89d6743178cbbaa646e1ffb174987590" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+        <definition>Result const Handle s32 nn::svc::handleCount</definition>
+        <argsstring></argsstring>
+        <name>handleCount</name>
+        <qualifiedname>nn::svc::handleCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="167" column="43" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1af77ef2ae7e140875be6c78f092bcd90a" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> bool</type>
+        <definition>Result const Handle s32 bool nn::svc::waitAll</definition>
+        <argsstring></argsstring>
+        <name>waitAll</name>
+        <qualifiedname>nn::svc::waitAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="167" column="60" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="167" bodyend="-1"/>
+        <referencedby refid="namespacenn_1_1svc_1a1b840441e5dcdb2c5d6713348af41146" compoundref="svc___inlines_8h" startline="10" endline="13">WaitSynchronization</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a960b2d05e375dc5164d207323ea4fac9" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> <ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> bool <ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>Result s64 nn::svc::timeout_ns</definition>
+        <argsstring></argsstring>
+        <name>timeout_ns</name>
+        <qualifiedname>nn::svc::timeout_ns</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref>, <ref refid="namespacenn_1_1svc_1ab399506cfe0efe7f1513a19deefd2c87" kindref="member">r4</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="167" column="72" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="168" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a253987c63dea08134510fedf0944f2e7" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>Result Handle nn::svc::original</definition>
+        <argsstring></argsstring>
+        <name>original</name>
+        <qualifiedname>nn::svc::original</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="186" column="25" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="187" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1ae7fab1e5229502039c0dd860fbd90a8d" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+        <definition>Result Handle nn::svc::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>nn::svc::handle</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="202" column="25" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a8fe17fe40bf6d94afa8dc33c177356d1" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> <ref refid="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9" kindref="member">nn::os::ProcessInfoType</ref></type>
+        <definition>Result Handle nn::os::ProcessInfoType nn::svc::infoType</definition>
+        <argsstring></argsstring>
+        <name>infoType</name>
+        <qualifiedname>nn::svc::infoType</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="202" column="56" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="203" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a2d3347ebe5b6579353b392e9801c2f9c" prot="public" static="no" mutable="no">
+        <type>ldr</type>
+        <definition>ldr nn::svc::r3</definition>
+        <argsstring></argsstring>
+        <name>r3</name>
+        <qualifiedname>nn::svc::r3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="206" column="13" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1aa37d0ab31bcf748dcca483349291cdbf" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> const char *</type>
+        <definition>Result const char* nn::svc::portName</definition>
+        <argsstring></argsstring>
+        <name>portName</name>
+        <qualifiedname>nn::svc::portName</qualifiedname>
+        <initializer>{
+        push { <ref refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" kindref="member">r0</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="213" column="29" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="214" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacenn_1_1svc_1a3691ccf0f99fbbb9123ce64353332e1f" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref> int</type>
+        <definition>Result int nn::svc::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>nn::svc::length</qualifiedname>
+        <initializer>{
+  <ref refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" kindref="member">svc</ref> 0x3d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_StubDbg.cpp" line="12" column="28" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_StubDbg.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1svc_1a1b840441e5dcdb2c5d6713348af41146" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::WaitSynchronization</definition>
+        <argsstring>(s32 *pOut, Handle *handles, s32 numHandles, bool waitAll, s64 timeout)</argsstring>
+        <name>WaitSynchronization</name>
+        <qualifiedname>nn::svc::WaitSynchronization</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>handles</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>numHandles</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitAll</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Inlines.h" line="10" column="15" bodyfile="lib/CtrSDK/include/nn/svc/svc_Inlines.h" bodystart="10" bodyend="13"/>
+        <references refid="namespacenn_1_1svc_1a36a62adf64e6425c279c8506e1dcb7d6" compoundref="svc___stub_8cpp" startline="167">handles</references>
+        <references refid="os___synchronization_8cpp_1aa3ff50f89144d95a13cadfacec83b4b5" compoundref="os___synchronization_8cpp" startline="14">numHandles</references>
+        <references refid="os___synchronization_8cpp_1a022d338b7920ed69f06e9416d3089d22" compoundref="os___synchronization_8cpp" startline="12">pOut</references>
+        <references refid="os___synchronization_8cpp_1aad342615237f48b9619fe72d0c841cbf" compoundref="os___synchronization_8cpp" startline="16">timeout</references>
+        <references refid="namespacenn_1_1svc_1af77ef2ae7e140875be6c78f092bcd90a" compoundref="svc___stub_8cpp" startline="167">waitAll</references>
+        <references refid="namespacenn_1_1svc_1af7a3661a38cd75a34d8b4a991b368ca5">WaitSynchronizationN</references>
+        <referencedby refid="classnn_1_1os_1_1_wait_object_1a6eb934a8913d20c620de7645ee559053" compoundref="os___synchronization_8h" startline="18" endline="23">nn::os::WaitObject::WaitOneImpl</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac4cfb40c9a1011bbb8e106e42af7f8e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::ControlMemory</definition>
+        <argsstring>(uptr *addr, uptr addr0, uptr addr1, size_t size, u32 op, u32 perms)</argsstring>
+        <name>ControlMemory</name>
+        <qualifiedname>nn::svc::ControlMemory</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref> *</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+          <declname>addr0</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+          <declname>addr1</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>perms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="12" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="12" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a27e0457f6556555df746cd097c06d77f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::QueryMemory</definition>
+        <argsstring>(nn::os::MemoryInfo *mem, nn::os::PageInfo *page, u32)</argsstring>
+        <name>QueryMemory</name>
+        <qualifiedname>nn::svc::QueryMemory</qualifiedname>
+        <param>
+          <type><ref refid="structnn_1_1os_1_1_memory_info" kindref="compound">nn::os::MemoryInfo</ref> *</type>
+          <declname>mem</declname>
+        </param>
+        <param>
+          <type><ref refid="structnn_1_1os_1_1_page_info" kindref="compound">nn::os::PageInfo</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="13" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="13" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ae6e5bbefe83e282db4eeda24aed0d6a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::svc::ExitProcess</definition>
+        <argsstring>()</argsstring>
+        <name>ExitProcess</name>
+        <qualifiedname>nn::svc::ExitProcess</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="14" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="14" declcolumn="8"/>
+        <referencedby refid="crt0_8cpp_1a5c8924c0f7a5b185bf9a9a129894a4b7" compoundref="crt0_8cpp" startline="25" endline="36">__ctr_start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a1f220e374c3aaedf6d68c43ede607682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::svc::CreateThread</definition>
+        <argsstring>(Handle *handle, void(*func)(u32), u32 arg, u32 stackTop, s32 prio, s32 processorId)</argsstring>
+        <name>CreateThread</name>
+        <qualifiedname>nn::svc::CreateThread</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>void(*)(<ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref>)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>arg</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>stackTop</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>prio</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>processorId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="15" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="15" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a3f0939d2d0c4f01eb4248258e24c9bce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::svc::SleepThread</definition>
+        <argsstring>(u64 nanos)</argsstring>
+        <name>SleepThread</name>
+        <qualifiedname>nn::svc::SleepThread</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1ad758b7a5c3f18ed79d2fcd23d9f16357" kindref="member">u64</ref></type>
+          <declname>nanos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="16" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="16" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a539393b93f15b94875112de7c8f7686e" compoundref="os___thread_8h" startline="163" endline="166">nn::os::Thread::Yield</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1aad98dff958741befaa21123b2d9580b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::GetThreadPriority</definition>
+        <argsstring>(s32 *prio, Handle thread)</argsstring>
+        <name>GetThreadPriority</name>
+        <qualifiedname>nn::svc::GetThreadPriority</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref> *</type>
+          <declname>prio</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>thread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="17" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="17" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_thread_1ac93f69a16d7c3032570c171044746a73" compoundref="os___thread_8h" startline="189" endline="194">nn::os::Thread::GetCurrentPriority</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a6cf9d428058d9c3a6e5133bf6c83cb9c" compoundref="os___thread_8h" startline="182" endline="187">nn::os::Thread::GetPriority</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a65d788165f4cb1c0c788be5a59accbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::SetThreadPriority</definition>
+        <argsstring>(Handle thread, int prio)</argsstring>
+        <name>SetThreadPriority</name>
+        <qualifiedname>nn::svc::SetThreadPriority</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>thread</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="18" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="18" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a10818520d83dae80c7d41189bd434ef0" compoundref="os___thread_8h" startline="201" endline="204">nn::os::Thread::ChangeCurrentPriority</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a229ac28e5bd2a9d6e87e088208c7c7b4" compoundref="os___thread_8h" startline="196" endline="199">nn::os::Thread::ChangePriority</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1acdaa11ffd76e2b7c672cfb135e73bcd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::svc::GetCurrentProcessorNumber</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentProcessorNumber</name>
+        <qualifiedname>nn::svc::GetCurrentProcessorNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="19" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="19" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac0802458ce7e3e7b50561295029525a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::CreateMutex</definition>
+        <argsstring>(Handle *mutex, bool initialLocked)</argsstring>
+        <name>CreateMutex</name>
+        <qualifiedname>nn::svc::CreateMutex</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>mutex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>initialLocked</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="20" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="20" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a4205239841750b514d67c25d00919ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::ReleaseMutex</definition>
+        <argsstring>(Handle mutex)</argsstring>
+        <name>ReleaseMutex</name>
+        <qualifiedname>nn::svc::ReleaseMutex</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>mutex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="21" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="21" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a67e7269adc4dc1cefdc61470bb154793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::CreateEvent</definition>
+        <argsstring>(Handle *event, nn::os::ResetType type)</argsstring>
+        <name>CreateEvent</name>
+        <qualifiedname>nn::svc::CreateEvent</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>event</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1a5f8d5a17a12bae4027b54d735c25de44" kindref="member">nn::os::ResetType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="22" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="22" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a3afc1af39e8f2364477e21ead0c2f20c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::SignalEvent</definition>
+        <argsstring>(Handle event)</argsstring>
+        <name>SignalEvent</name>
+        <qualifiedname>nn::svc::SignalEvent</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="23" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="23" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" compoundref="os___event_8h" startline="40" endline="43">nn::os::EventBase::Signal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1adc0264c69cb88e3bf0c15eb79d37acb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::ClearEvent</definition>
+        <argsstring>(Handle mutex)</argsstring>
+        <name>ClearEvent</name>
+        <qualifiedname>nn::svc::ClearEvent</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>mutex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="24" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="24" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" compoundref="os___event_8h" startline="44" endline="47">nn::os::EventBase::ClearSignal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a468c37dbcad5ae9d51256ce37055fd9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::CreateMemoryBlock</definition>
+        <argsstring>(Handle *memblock, u32 addr, u32 size, u32 myperms, u32 otherperms)</argsstring>
+        <name>CreateMemoryBlock</name>
+        <qualifiedname>nn::svc::CreateMemoryBlock</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>memblock</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>myperms</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>otherperms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="25" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="25" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a0b094d34976e84bf26be6dce943be373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::MapMemoryBlock</definition>
+        <argsstring>(Handle block, u32 i0, u32 start, u32 end)</argsstring>
+        <name>MapMemoryBlock</name>
+        <qualifiedname>nn::svc::MapMemoryBlock</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="26" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="26" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ae2a31ba81bdde6b9294c29f951bd5260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::UnmapMemoryBlock</definition>
+        <argsstring>(Handle block, u32 i0)</argsstring>
+        <name>UnmapMemoryBlock</name>
+        <qualifiedname>nn::svc::UnmapMemoryBlock</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+          <declname>i0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="27" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="27" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1aef50d227d10b4cd39d2673e17cfe3bf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::CreateAddressArbiter</definition>
+        <argsstring>(Handle *arbiter)</argsstring>
+        <name>CreateAddressArbiter</name>
+        <qualifiedname>nn::svc::CreateAddressArbiter</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>arbiter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="28" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="28" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1a7cf04812ece0eafdf5257d60b5e47757" compoundref="os___waitable_counter_8cpp" startline="10" endline="20">nn::os::WaitableCounter::Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a95dbbb74aa64f40fc1196df6f023db49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::ArbitrateAddress</definition>
+        <argsstring>(Handle arbiter, uptr addr, nn::os::ArbitrationType type, s32 value)</argsstring>
+        <name>ArbitrateAddress</name>
+        <qualifiedname>nn::svc::ArbitrateAddress</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>arbiter</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1ad8356e3fd0372e814a661f7ccaf6d24a" kindref="member">nn::os::ArbitrationType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="29" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="29" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_waitable_counter_1ae155dbcb39558eeb7c012ff83089622b" compoundref="os___waitable_counter_8h" startline="27" endline="30">nn::os::WaitableCounter::ArbitrateAddress</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac88fd6c24a4342d5492114f8bc84b801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::CloseHandle</definition>
+        <argsstring>(Handle handle)</argsstring>
+        <name>CloseHandle</name>
+        <qualifiedname>nn::svc::CloseHandle</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="30" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="30" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" compoundref="os___handle_object_8h" startline="42" endline="48">nn::os::HandleObject::Close</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1af7a3661a38cd75a34d8b4a991b368ca5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::WaitSynchronizationN</definition>
+        <argsstring>(int *pOut, const Handle *handles, s32 handleCount, bool waitAll, s64 timeout_ns)</argsstring>
+        <name>WaitSynchronizationN</name>
+        <qualifiedname>nn::svc::WaitSynchronizationN</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>handles</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref></type>
+          <declname>handleCount</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitAll</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>timeout_ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="31" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="31" declcolumn="8"/>
+        <referencedby refid="namespacenn_1_1svc_1a1b840441e5dcdb2c5d6713348af41146" compoundref="svc___inlines_8h" startline="10" endline="13">WaitSynchronization</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a4e682307fe9c5dec4ecf866473d867c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::WaitSynchronization1</definition>
+        <argsstring>(int *pOut, s64 timeout_ns)</argsstring>
+        <name>WaitSynchronization1</name>
+        <qualifiedname>nn::svc::WaitSynchronization1</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+          <declname>timeout_ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="32" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="32" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac448bb5ef6e17f8a0810e2b9b3abb64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::DuplicateHandle</definition>
+        <argsstring>(Handle *pOut, Handle original)</argsstring>
+        <name>DuplicateHandle</name>
+        <qualifiedname>nn::svc::DuplicateHandle</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>original</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="33" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="33" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a94f28e1213235d1489402360db1a5b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::svc::GetSystemTick</definition>
+        <argsstring>()</argsstring>
+        <name>GetSystemTick</name>
+        <qualifiedname>nn::svc::GetSystemTick</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="34" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="34" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_tick_1aee7005db9dbb6113f047335a07afdf07" compoundref="os___tick_8h" startline="30" endline="33">nn::os::Tick::GetSystemCurrent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac53c5934cc00b053334e0da4ab3d5f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::GetProcessInfo</definition>
+        <argsstring>(u64 *num, Handle handle, nn::os::ProcessInfoType infoType)</argsstring>
+        <name>GetProcessInfo</name>
+        <qualifiedname>nn::svc::GetProcessInfo</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1ad758b7a5c3f18ed79d2fcd23d9f16357" kindref="member">u64</ref> *</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1os_1a30054c8f6ccb0544cf9b2ee5638032b9" kindref="member">nn::os::ProcessInfoType</ref></type>
+          <declname>infoType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="35" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="35" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a8cc39fcbe288950de1c4569f6c4f9fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::ConnectToPort</definition>
+        <argsstring>(Handle *port, const char *portName)</argsstring>
+        <name>ConnectToPort</name>
+        <qualifiedname>nn::svc::ConnectToPort</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>portName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="36" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="36" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a14a5568ea0c54ba52f18fe05bef155ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::SendSyncRequest</definition>
+        <argsstring>(Handle handle)</argsstring>
+        <name>SendSyncRequest</name>
+        <qualifiedname>nn::svc::SendSyncRequest</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="37" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="37" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a0747bb04833522210634c37551a8638f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::GetProcessId</definition>
+        <argsstring>(u32 *id, Handle handle)</argsstring>
+        <name>GetProcessId</name>
+        <qualifiedname>nn::svc::GetProcessId</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="38" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="38" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a158ac882343133d81470158d4293f4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::GetThreadId</definition>
+        <argsstring>(u32 *id, Handle handle)</argsstring>
+        <name>GetThreadId</name>
+        <qualifiedname>nn::svc::GetThreadId</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref> *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="39" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="39" declcolumn="8"/>
+        <referencedby refid="classnn_1_1os_1_1_thread_1ac92c9d6b40dbd428d484e5db014514ea" compoundref="os___thread_8h" startline="175" endline="180">nn::os::Thread::GetCurrentId</referencedby>
+        <referencedby refid="classnn_1_1os_1_1_thread_1a6c76e326cdf10434fc2d89e2a183e96b" compoundref="os___thread_8h" startline="168" endline="173">nn::os::Thread::GetId</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ae6be3868f2af4313ebcfaad9dcff97b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::GetResourceLimit</definition>
+        <argsstring>(Handle *resourceLimit, Handle handle)</argsstring>
+        <name>GetResourceLimit</name>
+        <qualifiedname>nn::svc::GetResourceLimit</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref> *</type>
+          <declname>resourceLimit</declname>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_handle" kindref="compound">Handle</ref></type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_Stub.h" line="40" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_Stub.h" declline="40" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a8106dba6976c0286c2113d6cfb290974" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::Break</definition>
+        <argsstring>(nn::dbg::BreakReason reason)</argsstring>
+        <name>Break</name>
+        <qualifiedname>nn::svc::Break</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1dbg_1a98b7ff020582cf74e66bec52abdf8dc5" kindref="member">nn::dbg::BreakReason</ref></type>
+          <declname>reason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_StubDbg.h" line="9" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_StubDbg.h" declline="9" declcolumn="8"/>
+        <referencedby refid="namespacenn_1_1dbg_1a5118110aea433450a4d3e6626f7ff953" compoundref="dbg___break_8cpp" startline="28" endline="31">nn::dbg::Break</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::OutputDebugString</definition>
+        <argsstring>(void const *data, int length)</argsstring>
+        <name>OutputDebugString</name>
+        <qualifiedname>nn::svc::OutputDebugString</qualifiedname>
+        <param>
+          <type>void const *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/svc/svc_StubDbg.h" line="10" column="8" declfile="lib/CtrSDK/include/nn/svc/svc_StubDbg.h" declline="10" declcolumn="8"/>
+        <referencedby refid="namespacenn_1_1dbg_1_1detail_1a25842a4f24c0bd5ba29804346b0cbfcf" compoundref="dbg___debug_string_8cpp" startline="14" endline="18">nn::dbg::detail::PutString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1aa3b0c124a58df7bbf4c876d1c7fce859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(QueryMemory, &quot;.nn.svc.QueryMemory&quot;)(nn</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a27e0457f6556555df746cd097c06d77f" kindref="member">QueryMemory</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.QueryMemory&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="21" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="21" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a9e49203bb4e6cd8b30d860a40a3a452e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::svc::asm_ext</definition>
+        <argsstring>(ExitProcess, &quot;.nn.svc.ExitProcess&quot;)()</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ae6e5bbefe83e282db4eeda24aed0d6a9" kindref="member">ExitProcess</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.ExitProcess&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="37" column="6" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="37" bodyend="41"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a88dd5c91e3101662fe6b15bacfedbe74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::svc::asm_ext</definition>
+        <argsstring>(CreateThread, &quot;.nn.svc.CreateThread&quot;)(Handle *handle</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a1f220e374c3aaedf6d68c43ede607682" kindref="member">CreateThread</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.CreateThread&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="43" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a9fc3a0288485df077e12f0cd36e85175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::svc::asm_ext</definition>
+        <argsstring>(SleepThread, &quot;.nn.svc.SleepThread&quot;)(u64 nanos)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a3f0939d2d0c4f01eb4248258e24c9bce" kindref="member">SleepThread</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.SleepThread&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="56" column="6" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="56" bodyend="60"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a10ff528bffb53095a2f63ea4c7b58208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(GetThreadPriority, &quot;.nn.svc.GetThreadPriority&quot;)(s32 *prio</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1aad98dff958741befaa21123b2d9580b7" kindref="member">GetThreadPriority</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetThreadPriority&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="62" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a56a5fad211aefaeb41b5444fcb6ae0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(SetThreadPriority, &quot;.nn.svc.SetThreadPriority&quot;)(Handle thread</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a65d788165f4cb1c0c788be5a59accbed" kindref="member">SetThreadPriority</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.SetThreadPriority&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="72" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a762e6e4bd2c8b5325c6263f493ea336a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::svc::asm_ext</definition>
+        <argsstring>(GetCurrentProcessorNumber, &quot;.nn.svc.GetCurrentProcessorNumber&quot;)()</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1acdaa11ffd76e2b7c672cfb135e73bcd9" kindref="member">GetCurrentProcessorNumber</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetCurrentProcessorNumber&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="78" column="5" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="78" bodyend="82"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a788d3534588121be4a7c614f820457c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(CreateMutex, &quot;.nn.svc.CreateMutex&quot;)(Handle *mutex</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ac0802458ce7e3e7b50561295029525a5" kindref="member">CreateMutex</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.CreateMutex&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="84" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a29ff8d0956dad5be9365b7c569c66c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(ReleaseMutex, &quot;.nn.svc.ReleaseMutex&quot;)(Handle mutex)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a4205239841750b514d67c25d00919ab9" kindref="member">ReleaseMutex</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.ReleaseMutex&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="94" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="94" bodyend="98"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a563dc5776f822b4ba60c975ca0ba58da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(CreateEvent, &quot;.nn.svc.CreateEvent&quot;)(Handle *event</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a67e7269adc4dc1cefdc61470bb154793" kindref="member">CreateEvent</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.CreateEvent&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="100" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a6698810170b731597661e10164bc3da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(SignalEvent, &quot;.nn.svc.SignalEvent&quot;)(Handle event)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a3afc1af39e8f2364477e21ead0c2f20c" kindref="member">SignalEvent</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.SignalEvent&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="110" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="110" bodyend="114"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ad4a9cd4627fe2b5267fe00b9fa0372e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(ClearEvent, &quot;.nn.svc.ClearEvent&quot;)(Handle mutex)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1adc0264c69cb88e3bf0c15eb79d37acb8" kindref="member">ClearEvent</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.ClearEvent&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="116" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="116" bodyend="120"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a40f0ca85590ff41e5bfbd85d2621e405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(CreateMemoryBlock, &quot;.nn.svc.CreateMemoryBlock&quot;)(Handle *memblock</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a468c37dbcad5ae9d51256ce37055fd9d" kindref="member">CreateMemoryBlock</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.CreateMemoryBlock&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="122" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac9c5e70af63bf240f56bd8f1051b753c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(MapMemoryBlock, &quot;.nn.svc.MapMemoryBlock&quot;)(Handle block</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a0b094d34976e84bf26be6dce943be373" kindref="member">MapMemoryBlock</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.MapMemoryBlock&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="133" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a3d9870f88a5c97e48fc724b3254c3207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(UnmapMemoryBlock, &quot;.nn.svc.UnmapMemoryBlock&quot;)(Handle block</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ae2a31ba81bdde6b9294c29f951bd5260" kindref="member">UnmapMemoryBlock</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.UnmapMemoryBlock&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="139" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ab412b6f04b73b18fbdd87874a2758642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(CreateAddressArbiter, &quot;.nn.svc.CreateAddressArbiter&quot;)(Handle *arbiter)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1aef50d227d10b4cd39d2673e17cfe3bf6" kindref="member">CreateAddressArbiter</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.CreateAddressArbiter&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="145" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="145" bodyend="153"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a2d1af5f68229a8dc5064f1177ddd7bc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(ArbitrateAddress, &quot;.nn.svc.ArbitrateAddress&quot;)(Handle arbiter</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a95dbbb74aa64f40fc1196df6f023db49" kindref="member">ArbitrateAddress</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.ArbitrateAddress&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="155" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a4da3754278c35fdcb51f9d54d2b8ce6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(CloseHandle, &quot;.nn.svc.CloseHandle&quot;)(Handle handle)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ac88fd6c24a4342d5492114f8bc84b801" kindref="member">CloseHandle</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.CloseHandle&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="161" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="161" bodyend="165"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a950052ca34e65c24bc56a014657cd515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(WaitSynchronizationN, &quot;.nn.svc.WaitSynchronizationN&quot;)(int *pOut</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1af7a3661a38cd75a34d8b4a991b368ca5" kindref="member">WaitSynchronizationN</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.WaitSynchronizationN&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="167" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a6516bef8280610af33e16ff857f29038" compoundref="svc___stub_8cpp" startline="17" endline="17">pop</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1ab399506cfe0efe7f1513a19deefd2c87" compoundref="svc___stub_8cpp" startline="12">r4</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a78e33151855b407a5fd30b3b625f8890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(WaitSynchronization1, &quot;.nn.svc.WaitSynchronization1&quot;)(int *pOut</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a4e682307fe9c5dec4ecf866473d867c8" kindref="member">WaitSynchronization1</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.WaitSynchronization1&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="180" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a003745ddfd85194bba7a8ead30e9e022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(DuplicateHandle, &quot;.nn.svc.DuplicateHandle&quot;)(Handle *pOut</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ac448bb5ef6e17f8a0810e2b9b3abb64f" kindref="member">DuplicateHandle</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.DuplicateHandle&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="186" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a9efec44d6747a42028c9dd6b29e06f1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::svc::asm_ext</definition>
+        <argsstring>(GetSystemTick, &quot;.nn.svc.GetSystemTick&quot;)()</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a94f28e1213235d1489402360db1a5b49" kindref="member">GetSystemTick</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetSystemTick&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="196" column="5" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="196" bodyend="200"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1afea15ff27e74c520738f2bb8b31280af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(GetProcessInfo, &quot;.nn.svc.GetProcessInfo&quot;)(u64 *num</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ac53c5934cc00b053334e0da4ab3d5f59" kindref="member">GetProcessInfo</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetProcessInfo&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="202" column="8"/>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1ac3fc740975c03b0513675028ccbb69c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(ConnectToPort, &quot;.nn.svc.ConnectToPort&quot;)(Handle *port</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a8cc39fcbe288950de1c4569f6c4f9fa2" kindref="member">ConnectToPort</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.ConnectToPort&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="213" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a6b55cabdcbf4a2d005beae36f9ddcdb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(SendSyncRequest, &quot;.nn.svc.SendSyncRequest&quot;)(Handle handle)</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a14a5568ea0c54ba52f18fe05bef155ed" kindref="member">SendSyncRequest</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.SendSyncRequest&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="223" column="8" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" bodystart="223" bodyend="227"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1acc150bb15ce81c0c9b2c7111e4905b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(GetProcessId, &quot;.nn.svc.GetProcessId&quot;)(u32 *id</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a0747bb04833522210634c37551a8638f" kindref="member">GetProcessId</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetProcessId&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="229" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a340b065ec058bd77d04cb108caced1a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(GetThreadId, &quot;.nn.svc.GetThreadId&quot;)(u32 *id</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a158ac882343133d81470158d4293f4a6" kindref="member">GetThreadId</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetThreadId&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="239" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a402b045a1a5c504643c7efd4e4c3955b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(GetResourceLimit, &quot;.nn.svc.GetResourceLimit&quot;)(Handle *resourceLimit</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1ae6be3868f2af4313ebcfaad9dcff97b7" kindref="member">GetResourceLimit</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.GetResourceLimit&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_Stub.cpp" line="249" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a12d4626a5bcdc3c8c4cb631ed15ab403" compoundref="svc___stub_8cpp" startline="11">r0</references>
+        <references refid="namespacenn_1_1svc_1a38e4c75937378d20adaa27f2f9848fec" compoundref="svc___stub_8cpp" startline="15">r1</references>
+        <references refid="namespacenn_1_1svc_1ad1739c8592bcaf14552a7e96982dab12" compoundref="svc___stub_8cpp" startline="14">r2</references>
+        <references refid="namespacenn_1_1svc_1a9f13fd43af14ae04650e7be7524208a2" compoundref="svc___stub_8cpp" startline="16">sp</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1a8ce87f5a1b3bb3a7362d384cde8a281f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(Break, &quot;.nn.svc.Break&quot;)(nn</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a8106dba6976c0286c2113d6cfb290974" kindref="member">Break</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.Break&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_StubDbg.cpp" line="7" column="1" bodyfile="lib/CtrSDK/sources/libraries/svc/ARM/svc_StubDbg.cpp" bodystart="7" bodyend="10"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1svc_1aaf910b82dcefdee9ea610d9a36f89b3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result nn::svc::asm_ext</definition>
+        <argsstring>(OutputDebugString, &quot;.nn.svc.OutputDebugString&quot;)(void const *data</argsstring>
+        <name>asm_ext</name>
+        <qualifiedname>nn::svc::asm_ext</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1svc_1a82692b1ec5a453400868bc0dec9be14d" kindref="member">OutputDebugString</ref></type>
+        </param>
+        <param>
+          <type>&quot;.nn.svc.OutputDebugString&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/svc/ARM/svc_StubDbg.cpp" line="12" column="8"/>
+        <references refid="namespacenn_1_1svc_1a018346145e5286243e6c5bf14e90d6a8" compoundref="svc___stub_8cpp" startline="18">lr</references>
+        <references refid="namespacenn_1_1svc_1a31274d3073324d6f7b000f9c2ea41f40" compoundref="svc___stub_8cpp" startline="13">svc</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/svc/svc_Inlines.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::CameraPositionCalData::Flags</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags_1a39523937088c27ed8e0b69e4abe3934c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::cfg::CTR::detail::CameraPositionCalData::Flags::isValidRotationXY</definition>
+        <argsstring></argsstring>
+        <name>isValidRotationXY</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::Flags::isValidRotationXY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="87" column="22" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags_1a873d85c00f9d43b0ddb010bf8f68e6c4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nn::cfg::CTR::detail::CameraPositionCalData::Flags::reservedFlag[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>reservedFlag</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::Flags::reservedFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="88" column="22" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="85" column="9" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="86" bodyend="89"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags_1a39523937088c27ed8e0b69e4abe3934c" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData::Flags</scope><name>isValidRotationXY</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags_1a873d85c00f9d43b0ddb010bf8f68e6c4" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData::Flags</scope><name>reservedFlag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

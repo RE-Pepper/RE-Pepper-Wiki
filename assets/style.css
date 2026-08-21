@@ -1,0 +1,215 @@
+html {
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  overflow-y: auto;   /* Enable vertical scrolling */
+  height: 100%;
+  background: #111;
+  color: white;
+  font-family: 'M PLUS 1p', sans-serif;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Mario';
+  src: url('{{ config.site_url }}assets/Mario.ttf') format('truetype');
+}
+
+.container {
+  margin: 0;
+  padding-left: 30px;
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  top: 60px;
+  z-index: 1;
+  color: #e0dedd;
+  box-sizing: border-box;
+}
+
+.main-content {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.main-content ul,
+.main-content ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.main-content ul li,
+.main-content ol li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.sub-content {
+  font-size: 13px;
+  margin-top: 28px;
+}
+
+#bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  position: fixed; /* Make sure it stays fixed at the top */
+  color: #DDDDDD; /* Ensure text is visible */
+  background-color: #A34300;
+}
+
+.title-wrapper {
+    display: inline-block;
+    height: 100%;
+}
+#barTitle {
+  font-family: 'Mario', 'Bungee';
+  font-size: 40px;
+  color: #f7da4f;
+  text-decoration: none;
+  margin-left: 13px;
+  margin-right: 18px;
+  transition: transform 0.5s ease;
+}
+
+#folder-view {
+  position: fixed;
+  top: 53px;
+  left: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #cc6312;
+  z-index: 3;
+}
+
+pre {
+  background-color: #292A3A;
+  color: #DDD;
+  padding: 1em;
+  border: 5px dotted #292A6A;
+}
+
+
+button {
+  padding: 3px;
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 3px;
+  border: 0px solid #f28648;
+  color: #f6efb3;
+  background-color: #ad9745;
+  font-size:22px;
+  transition: border 0.1s ease, background-color 0.2s ease, color 0.6s ease, transform 1s ease;
+}
+button:hover {
+  margin-top: 6px;
+  border: 2px solid #f28648;
+  background-color: #f7df0d;
+  color: #9e4109;
+}
+button:active {
+  margin-top: 20px;
+  border: 6px solid #f28648;
+  background-color: #fcf06a;
+  color: #FFFFFF;
+}
+
+p .dash-wrap {
+    display: inline-block;    /* treat the dash + rest as one block */
+    white-space: nowrap;      /* don’t break inside it */
+    vertical-align: top;      /* align nicely with prefix if wrapped */
+}
+
+p {
+  font-size: 20px;
+  margin: 3px;
+  padding-left: 4px;
+  padding-bottom: 2px;
+}
+
+a {
+  color: #FFA455;
+  text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid #fdd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+th, td {
+  padding: 1px 12px;
+  border: none;
+  border-right: 0.1px solid #ffdddd66;
+  border-bottom: 0.1px solid #fdd;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+td:last-child, th:last-child {
+  border-right: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+thead th {
+  padding: 6px 12px;
+  text-align: center;
+  border-right: 0.1px solid #ffdddd66;
+  border-bottom: 1px solid #fdd;
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: transparent; /* transparent background */
+  border: none; /* optional: remove border */
+  z-index: 10;
+
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  background: rgba(255, 255, 255, 0.1); /* slight transparent hover bg */
+  border-radius: 3px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+

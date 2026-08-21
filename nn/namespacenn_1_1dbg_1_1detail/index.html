@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Namespace nn::dbg::detail - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="namespace-nndbgdetail">Namespace nn::dbg::detail</h1>
+<p><a href="../namespaces/"><strong>Namespace List</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1dbg/"><strong>dbg</strong></a> <strong>&gt;</strong> <a href="./"><strong>detail</strong></a></p>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">const char *</td>
+<td style="text-align: left;"><a href="#function-getdescriptionstring"><strong>GetDescriptionString</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">const char *</td>
+<td style="text-align: left;"><a href="#function-getlevelstring"><strong>GetLevelString</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">const char *</td>
+<td style="text-align: left;"><a href="#function-getmodulestring"><strong>GetModuleString</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">const char *</td>
+<td style="text-align: left;"><a href="#function-getresultcommondescriptionstringimpl"><strong>GetResultCommonDescriptionStringImpl</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">const char *</td>
+<td style="text-align: left;"><a href="#function-getsummarystring"><strong>GetSummaryString</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-printresult"><strong>PrintResult</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-printf"><strong>Printf</strong></a> (const char * fmt, ...) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-putstring"><strong>PutString</strong></a> (const char * text, int length) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-putstring"><strong>PutString</strong></a> (const char * text) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-tprintresult"><strong>TPrintResult</strong></a> (<a href="../classnn_1_1_result/"><strong>Result</strong></a> result) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-tprintf"><strong>TPrintf</strong></a> (const char * fmt, ...) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-tvprintf"><strong>TVPrintf</strong></a> (const char * fmt, va_list arg) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="#function-vprintf"><strong>VPrintf</strong></a> (const char * fmt, va_list arg) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-getdescriptionstring">function GetDescriptionString</h3>
+<pre><code class="language-C++">const char * nn::dbg::detail::GetDescriptionString (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getlevelstring">function GetLevelString</h3>
+<pre><code class="language-C++">const char * nn::dbg::detail::GetLevelString (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getmodulestring">function GetModuleString</h3>
+<pre><code class="language-C++">const char * nn::dbg::detail::GetModuleString (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getresultcommondescriptionstringimpl">function GetResultCommonDescriptionStringImpl</h3>
+<pre><code class="language-C++">const char * nn::dbg::detail::GetResultCommonDescriptionStringImpl (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-getsummarystring">function GetSummaryString</h3>
+<pre><code class="language-C++">const char * nn::dbg::detail::GetSummaryString (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-printresult">function PrintResult</h3>
+<pre><code class="language-C++">void nn::dbg::detail::PrintResult (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-printf">function Printf</h3>
+<pre><code class="language-C++">void nn::dbg::detail::Printf (
+    const char * fmt,
+    ...
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-putstring">function PutString</h3>
+<pre><code class="language-C++">void nn::dbg::detail::PutString (
+    const char * text,
+    int length
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-putstring_1">function PutString</h3>
+<pre><code class="language-C++">void nn::dbg::detail::PutString (
+    const char * text
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-tprintresult">function TPrintResult</h3>
+<pre><code class="language-C++">void nn::dbg::detail::TPrintResult (
+    Result result
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-tprintf">function TPrintf</h3>
+<pre><code class="language-C++">void nn::dbg::detail::TPrintf (
+    const char * fmt,
+    ...
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-tvprintf">function TVPrintf</h3>
+<pre><code class="language-C++">void nn::dbg::detail::TVPrintf (
+    const char * fmt,
+    va_list arg
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-vprintf">function VPrintf</h3>
+<pre><code class="language-C++">void nn::dbg::detail::VPrintf (
+    const char * fmt,
+    va_list arg
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/dbg/dbg_DebugString.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

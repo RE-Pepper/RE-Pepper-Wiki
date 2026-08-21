@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File srv_Manager.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-srv_managerh">File srv_Manager.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_2f77558cefdcdd091fbae5ab2d60e6ab/"><strong>srv</strong></a> <strong>&gt;</strong> <a href="../srv___manager_8h/"><strong>srv_Manager.h</strong></a></p>
+<p><a href="../srv___manager_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/Handle.h&gt;
+#include &lt;nn/Result.h&gt;
+
+namespace nn {
+namespace srv {
+namespace detail {
+
+class Manager
+{
+private:
+        Handle s_Session;
+
+public:
+        static Result RegisterClient ();
+        static Result EnableNotification ();
+        static Result RegisterService (Handle*, const char8*, s32, s32);
+        static Result UnregisterService (const char8*, s32);
+        static Result GetServiceHandle (Handle*, const char8*, s32, bit32);
+        static Result RegisterObject (Handle, const char8*, s32);
+        static Result UnregisterObject (const char8*, s32);
+        static Result GetNamedObject (Handle*, const char8*, s32, bool);
+        static Result Subscribe (bit32);
+        static Result Unsubscribe (bit32);
+        static Result ReceiveNotifictions (bit32);
+        static Result PublishToSubscriber (bit32, bit32);
+        static Result PublishAndGetSubscriber (s32, bit32, bit32);
+        static Result IsServiceRegistered (bool*, const char8*, s32);
+        static Result PublishToProcess (Handle, bit32);
+        static Result PublishToAll (bit32);
+        static Result RegisterProcess (bit32, const bit32*, s32);
+        static Result UnregisterProcess (bit32);
+};
+
+} // namespace detail
+} // namespace srv
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

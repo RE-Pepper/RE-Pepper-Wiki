@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1_const___l_s_m_1_1_const" kind="struct" language="C++" prot="public">
+    <compoundname>nn::Const_LSM::Const</compoundname>
+    <basecompoundref refid="structnn_1_1_result_1_1_const" prot="public" virt="non-virtual">nn::Result::Const&lt; TLevel, TSummary, TModule, TDescription &gt;</basecompoundref>
+    <includes refid="_result_8h" local="no">Result.h</includes>
+    <templateparamlist>
+      <param>
+        <type>int</type>
+        <declname>TDescription</declname>
+        <defname>TDescription</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>nn::Const_LSM&lt; TLevel, TSummary, TModule &gt;::Const&lt; TDescription &gt;</label>
+        <link refid="structnn_1_1_const___l_s_m_1_1_const"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::Result</label>
+        <link refid="classnn_1_1_result"/>
+      </node>
+      <node id="2">
+        <label>nn::Result::Const&lt; TLevel, TSummary, TModule, TDescription &gt;</label>
+        <link refid="structnn_1_1_result_1_1_const"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::Const_LSM&lt; TLevel, TSummary, TModule &gt;::Const&lt; TDescription &gt;</label>
+        <link refid="structnn_1_1_const___l_s_m_1_1_const"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::Result</label>
+        <link refid="classnn_1_1_result"/>
+      </node>
+      <node id="2">
+        <label>nn::Result::Const&lt; TLevel, TSummary, TModule, TDescription &gt;</label>
+        <link refid="structnn_1_1_result_1_1_const"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/Result.h" line="288" column="9" bodyfile="lib/CtrSDK/include/nn/Result.h" bodystart="289" bodyend="289"/>
+    <listofallmembers>
+      <member refid="structnn_1_1_result_1_1_const_1ab319bd1d8ef334172565a674bb4abdad" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Const</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbce" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Description</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceace2fef2857d3b87461f8ed61fdd98f22" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_ALREADY_DONE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0fbfc424313b852709d67ce549779ffe" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_ALREADY_EXISTS</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea0e6c740d1dff2c0228125cd011b4a57d" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_ALREADY_INITIALIZED</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea8093a8c31f2fc7b948485bfaad4d7551" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_BUSY</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaeabb620e3aa6714265834adbd26abc11" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_CANCEL_REQUESTED</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceadbfb041d8baf0898af8c1cc886711adf" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_ADDRESS</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9c7194b09bc515f91fd7cc8cd33944de" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_COMBINATION</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceacddececd4e56ddee20491c1f6819d41e" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_ENUM_VALUE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead278d8cc7f498108a45c8982bf44cbed" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_HANDLE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaea5bf7b72087f937c8b8d3c97d56c108" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_POINTER</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea629dba15d34938ffc4cdebaa15ffb1fa" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_RESULT_VALUE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea8b458d2b18f68e607aaeeef0a9db9299" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_SELECTION</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaebc1bf7d105c11fceb6ea8d642a31e16" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_INVALID_SIZE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea93078e5cb4b2ab64fdbae34e05f7d1ad" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_MISALIGNED_ADDRESS</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea4f1c029843f90b2fe80d2b18677cab5c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_MISALIGNED_SIZE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea1028739345ac870802bd76e606e098cc" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_NO_DATA</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaa89bfcd07954b2e7fc3e25e79b326237" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_NOT_AUTHORIZED</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceafa33790770b946a6a44d77aed762442e" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_NOT_FOUND</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaa820b9c13635b44421af691ea096c683" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_NOT_IMPLEMENTED</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea9e4f2bd4c313720b7d1e8dd83ef9aa44" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_NOT_INITIALIZED</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea5929f46b4b1f7f67499de26c55f05e60" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_OUT_OF_MEMORY</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaee4954dadbe61b687630a68a0b2c177f" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_OUT_OF_RANGE</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcead47b175235151831eb9625fd2fed8679" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_SUCCESS</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceaf1d7ba6ff8d4d35fcc2093bd262282c7" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_TIMEOUT</name></member>
+      <member refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbcea1dcbdcf28e013fcebf3ca2b575b4e61f" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>DESCRIPTION_TOO_LARGE</name></member>
+      <member refid="classnn_1_1_result_1ad0d63ab3f0112508b8dd91c8b8f550c2" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>GetCodeBits</name></member>
+      <member refid="classnn_1_1_result_1a926bb007ab0267a4cb517741086b56a1" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>GetDescription</name></member>
+      <member refid="classnn_1_1_result_1a6a8c361e3386827a62d0ab75fe566c22" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>GetLevel</name></member>
+      <member refid="classnn_1_1_result_1a6d1f8529de5c82a4f2aa91d663f063b7" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>GetModule</name></member>
+      <member refid="classnn_1_1_result_1af3514bb539a9b57ae0d270d49bbceb31" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>GetPrintableBits</name></member>
+      <member refid="classnn_1_1_result_1a5ae439aac70c3b46630ad9bdbf97fe0c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>GetSummary</name></member>
+      <member refid="classnn_1_1_result_1a0e211a5799fdbea958249ba7c761cf78" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>IsFailure</name></member>
+      <member refid="classnn_1_1_result_1af6443f9db2ea08dd0678599de8bc1ecb" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>IsSuccess</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Level</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ae65dcc2a506ca5dc91eee537221c5244" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_END</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ac2a40a21a460c07d8027df9f0341bd55" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_FATAL</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a45a09485974dc848079b31320a5fc59b" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_INFO</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913add72d775558ff81a77f1242b784fb904" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_PERMANENT</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a1af3a495340c22bd91614c85c5500ca1" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_REINIT</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a389bf24511ea6d1126759f49931ef262" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_RESET</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913ab6d062faee49d1dccbf015f2c6472138" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_STATUS</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a239493249f44cb95a72092c35fd24cf7" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_SUCCESS</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a8f5f9aa9f6c2ce7ffefae6d2e26839b3" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_TEMPORARY</name></member>
+      <member refid="classnn_1_1_result_1a7e6e57e86c4f6494bf7c60f70a42a913a42b500f16a66f8678425955cfc944af4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>LEVEL_USAGE</name></member>
+      <member refid="classnn_1_1_result_1a74c7cc0e5efea6c92bf27526819ec9c3" prot="protected" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>m_Code</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Module</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa938c6a9dea940c7f2cbb09357635d8a" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_APPLICATION</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab3714b302a040999762f6ccf7fcde8e7" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_COMMON</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4057c78d8d15a825ca92341855818ae1" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_INVALID_RESULT_VALUE</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aca72a8e50899f6f7efd31e78b968bbd4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_AC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7726f892dcd028ab54f1c7815e0228b2" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_ACC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac64dfa1062ed9b2525168cdddd7a9203" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_AM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a872bf7384bd595e14b051f8e1cffbeb0" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_AMLOW</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7210a64fa02512bb51a22c4a4a12f641" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_APPLET</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7fa91406f8c34fbc938107f4658f2d93" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_BOSS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af827383d97675a219950bb977efc1adb" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CAMERA</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8d9960a748c3cfc0e9f9723c488677b4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CARD</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa47649bb7e33acfc640e45f485e124d3" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CARDNOR</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5fa5bdaafec5d16182fb50c8f850fad4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CARDSPI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af2424f2e580c5af53e3250048074804a" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CEC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad78d2847f2c46a8667a400cf87ef6fca" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CFG</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a832631023d6b62f125fa077a3e3ca274" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CODEC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a63151182628746473083969c5860c59f" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CSND</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ae6d5a40e45c67e9f423fa0ac4fe29e75" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_CUP</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8a3f4819653a605669b82e066bad987c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DBG</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a121c4d357f04cf0865b3eeff994af209" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DBM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a44842cd027bf606e3b7f416bc6ba9722" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DD</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a84f490acd5c8175aa1c0a1f1bc6f90d0" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a63e26dc02c8a6bf7550fe7fa9e3e8ac4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DLP</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac3aabb929e011ad6d65fe3901ac911f0" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DMNT</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a2f684309fc6aaf2d2eee5e7a37e16286" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_DSP</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6b3e4e05eaffee535512b96a80c10c47" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_EC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5c3b5437276c02c28613a3a3b1c4d525" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_ENC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4e9cf8e68ce4c8a9f3abcc390c0f4080" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_FATFS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a1ea02b3332842f1bb9e61e40f8977687" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_FILE_SERVER</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f7c7478063428a4915185d6bb65fafc" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_FND</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8f1f754436b3b48c7db6480c7d35be77" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_FRIENDS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6952fe7e3aaa0261190aa1b9d5c8168a" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_FS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a72c361efe38640d556c7ba705ffed467" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_FSI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1accbbcefdfcc2d7b30b54ea79477292be" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_GD</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a7a82bcbf071fd1d189504098ab563c00" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_GPIO</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac7d4dc91c8ef048d1b5e71deb5a5ec74" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_GX</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a917532d1bb793627214872badb9fe502" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_GYROSCOPE</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a3712e2781582bd866575b68d44224f6f" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_HID</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a92ae01de2487004473b7d0a64dd31de0" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_HIO</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4bfd8c217591be88088e590b44ff2a42" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_HIOLOW</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a14dc884a6c38da461feee48a6b13947b" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_HTTP</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0fa3ddf80d5ee4323b433cb60d755339" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_I2C</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4771782e6b19f54fd5a9523767804175" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_IR</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a647c0b85ce6f2e41c501377fd7558737" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_KERNEL</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9db086049b512a9f9355b65c1766b642" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_LDR</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a504147626f872857a9a56100fd863d5c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_LOADER_SERVER</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a3b237ecc8426fcba2059470b345e1c20" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_MC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a4c32a5acaec8d2031effdad59e8d6306" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_MCU</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a89f1788ef0c31ffb0593c7102c67ef73" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_MIC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a8cd1b4a47043148a97674b5ab2d1e4dc" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_MIDI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9e884996cbf1fc84278ba8b512a7ec74" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_MP</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a970178d1d3c6da7f97eeb5c4cce66757" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_MPWL</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af8408886ec2a40650c04be28ddeda76e" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NDM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aacdcd58696b70ec4bee31a4e6108dcf9" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NEWS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6edb9cbada5afdd37b028997680f7770" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NEX</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa435eb73a6603f6b020d4e259f3b22b0" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NGC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ae3127e5e88cc47118678065af01ee1e8" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NIM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a04cc872679b0c2884de88a9064921b6c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a83960efa642ea81e7489ae31174bbf19" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_NWM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5ecc741209cc9239e50cc989d2e52fda" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_OS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aaad11ef38b6f6da35674000b43e4e433" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PDN</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5020d061fbd0df36dc27f915e58166f1" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f51de732bc3f4bfc21b6c92a453a5a3" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PIA</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1af06e10b7fa650f94722d601f05e5d521" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PL</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aa14e054f3b05e89f57d7090a60d2c3ef" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a6e561f99db64a4012e8cc82e662391a4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PMLOW</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1adcd22704c0bc39fb35bc5220b38293a8" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a04ca4061672732a3dead23992ed54eb8" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PTM</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a13ffaddfefd37678e2768162dbe1cbef" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_PXI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aef88933e016222e7179d24235a9889c4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_RDT</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0193353a96186493b7c6b56b2e889067" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_RO</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac1ae6ab43a85dc150d4face6f12ad101" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_ROMFS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a064f77db2044a3e186be727b702dc96d" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SDMC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a9e9d2194fe736614a7cf699d70d2118d" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SND</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a76564da36287e26a140f38c169886d18" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SOCKET</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a523cec1bebe2bef14e29cef7c137f256" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SPI</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1aedd7e96f8b7fa59d37c9ece00db5a9eb" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SRV</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a0b460ea936e7db5c80fad9b0bd0a4c94" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SSL</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ac08f3ce8411df9e2f52a792bdc38912f" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_SWC</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a5f18257bdc92690c6b180e035284c4c8" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_TCB</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad9390555626981c8e408ba04b9e8f935" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_TEST</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a50f998f8321c8d3571a13c4be7ec5ac2" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_UDS</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ad40b11260970f34f97a58fc11bd8b641" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_UPDATER</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1a79a9b6cc97f945be99a0bc84e34f2d5c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_UTIL</name></member>
+      <member refid="classnn_1_1_result_1af65430b2c7e1d1f2de24a600d0ff32a1ab46403d9ee639e70871208568b037533" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>MODULE_NN_WEBBRS</name></member>
+      <member refid="classnn_1_1_result_1a04c6840647eacd10acfecc8c3218bbe5" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>operator nnResult</name></member>
+      <member refid="classnn_1_1_result_1a064118e3bc496581f0fc82d85d4cadc4" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>operator!=</name></member>
+      <member refid="classnn_1_1_result_1a8172ef1f67fa1002d25f5eed8771d1ec" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>operator==</name></member>
+      <member refid="classnn_1_1_result_1af3488e68244b1048fa1a714b063cfc1b" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Result</name></member>
+      <member refid="classnn_1_1_result_1a94fc591eca97dcec3800a193bd7f9e02" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Result</name></member>
+      <member refid="classnn_1_1_result_1a16ac03d9e26b7cf51ca672cbe68198f6" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Result</name></member>
+      <member refid="classnn_1_1_result_1ac20cf616822aaed55dd08ba43a1268d7" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Result</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99c" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>Summary</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca133f2a644c1c7bcc39f72bfd1f072ada" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_CANCELLED</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca02c05dc09762dbba26c3728039750e26" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_INTERNAL</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca199a86b9faf1d7045140c9056663ceb3" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_INVALID_ARGUMENT</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca8e35bc050cd36ac39c99fc655bf370fb" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_INVALID_RESULT_VALUE</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cad8de4fb38f6a4d81ed4493a6ce1bc8c9" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_INVALID_STATE</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca3eefd9f2fdca1c3f5ca27aefa5e9cbca" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_NOT_FOUND</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca74c19945c0d90fbd102b7c6490a3adc0" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_NOT_SUPPORTED</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cace1dbbba81c4ec596420f497f9e3de79" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_NOTHING_HAPPENED</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caa7c0c2915a25db9e4df1fb1adb9ebc93" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_OUT_OF_RESOURCE</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca4fefbac86e8ca0f971d6bf98088c5cb8" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_STATUS_CHANGED</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99ca6cc080e4053ca511b25cf60cf3e0f84a" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_SUCCESS</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99caced84c0acdcd2c08de5415b06c6ac899" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_WOULD_BLOCK</name></member>
+      <member refid="classnn_1_1_result_1ab2660f5ebe99f768ad1159eea593f99cae01ce123880b06a4ce178135eaf05972" prot="public" virt="non-virtual"><scope>nn::Const_LSM::Const</scope><name>SUMMARY_WRONG_ARGUMENT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

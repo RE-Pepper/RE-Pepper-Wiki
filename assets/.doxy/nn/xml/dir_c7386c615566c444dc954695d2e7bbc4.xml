@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c7386c615566c444dc954695d2e7bbc4" kind="dir">
+    <compoundname>init</compoundname>
+    <innerfile refid="init___start_up_8cpp">init_StartUp.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/init/"/>
+  </compounddef>
+</doxygen>

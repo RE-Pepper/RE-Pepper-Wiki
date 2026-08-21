@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::fnd::TimeSpan - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnfndtimespan">Class nn::fnd::TimeSpan</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fnd/"><strong>fnd</strong></a> <strong>&gt;</strong> <a href="./"><strong>TimeSpan</strong></a></p>
+<ul>
+<li><code>#include &lt;fnd_TimeSpan.h&gt;</code></li>
+</ul>
+<h2 id="public-functions">Public Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s64"><strong>s64</strong></a></td>
+<td style="text-align: left;"><a href="#function-gethours"><strong>GetHours</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s64"><strong>s64</strong></a></td>
+<td style="text-align: left;"><a href="#function-getmicroseconds"><strong>GetMicroSeconds</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s64"><strong>s64</strong></a></td>
+<td style="text-align: left;"><a href="#function-getmilliseconds"><strong>GetMilliSeconds</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s64"><strong>s64</strong></a></td>
+<td style="text-align: left;"><a href="#function-getminutes"><strong>GetMinutes</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s64"><strong>s64</strong></a></td>
+<td style="text-align: left;"><a href="#function-getnanoseconds"><strong>GetNanoSeconds</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../types_8h/#typedef-s64"><strong>s64</strong></a></td>
+<td style="text-align: left;"><a href="#function-getseconds"><strong>GetSeconds</strong></a> () const<br></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><a href="#function-timespan"><strong>TimeSpan</strong></a> (<a href="./#typedef-zeroonly"><strong>ZeroOnly</strong></a> zero=0) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a> &amp;</td>
+<td style="text-align: left;"><a href="#function-operator"><strong>operator*=</strong></a> (const <a href="./"><strong>TimeSpan</strong></a> &amp; rhs) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a> &amp;</td>
+<td style="text-align: left;"><a href="#function-operator_1"><strong>operator+=</strong></a> (const <a href="./"><strong>TimeSpan</strong></a> &amp; rhs) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a> &amp;</td>
+<td style="text-align: left;"><a href="#function-operator-"><strong>operator-=</strong></a> (const <a href="./"><strong>TimeSpan</strong></a> &amp; rhs) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a> &amp;</td>
+<td style="text-align: left;"><a href="#function-operator_2"><strong>operator/=</strong></a> (const <a href="./"><strong>TimeSpan</strong></a> &amp; rhs) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a></td>
+<td style="text-align: left;"><a href="#function-fromhours"><strong>FromHours</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> hours) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a></td>
+<td style="text-align: left;"><a href="#function-frommicroseconds"><strong>FromMicroSeconds</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> microSeconds) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a></td>
+<td style="text-align: left;"><a href="#function-frommilliseconds"><strong>FromMilliSeconds</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> milliSeconds) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a></td>
+<td style="text-align: left;"><a href="#function-fromminutes"><strong>FromMinutes</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> minutes) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a></td>
+<td style="text-align: left;"><a href="#function-fromnanoseconds"><strong>FromNanoSeconds</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> nanoSeconds) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>TimeSpan</strong></a></td>
+<td style="text-align: left;"><a href="#function-fromseconds"><strong>FromSeconds</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> seconds) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-functions-documentation">Public Functions Documentation</h2>
+<h3 id="function-gethours">function GetHours</h3>
+<pre><code class="language-C++">inline s64 nn::fnd::TimeSpan::GetHours () const
+</code></pre>
+<hr>
+
+<h3 id="function-getmicroseconds">function GetMicroSeconds</h3>
+<pre><code class="language-C++">inline s64 nn::fnd::TimeSpan::GetMicroSeconds () const
+</code></pre>
+<hr>
+
+<h3 id="function-getmilliseconds">function GetMilliSeconds</h3>
+<pre><code class="language-C++">inline s64 nn::fnd::TimeSpan::GetMilliSeconds () const
+</code></pre>
+<hr>
+
+<h3 id="function-getminutes">function GetMinutes</h3>
+<pre><code class="language-C++">inline s64 nn::fnd::TimeSpan::GetMinutes () const
+</code></pre>
+<hr>
+
+<h3 id="function-getnanoseconds">function GetNanoSeconds</h3>
+<pre><code class="language-C++">inline s64 nn::fnd::TimeSpan::GetNanoSeconds () const
+</code></pre>
+<hr>
+
+<h3 id="function-getseconds">function GetSeconds</h3>
+<pre><code class="language-C++">inline s64 nn::fnd::TimeSpan::GetSeconds () const
+</code></pre>
+<hr>
+
+<h3 id="function-timespan">function TimeSpan</h3>
+<pre><code class="language-C++">inline nn::fnd::TimeSpan::TimeSpan (
+    ZeroOnly zero=0
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-operator">function operator*=</h3>
+<pre><code class="language-C++">inline TimeSpan &amp; nn::fnd::TimeSpan::operator*= (
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-operator_1">function operator+=</h3>
+<pre><code class="language-C++">inline TimeSpan &amp; nn::fnd::TimeSpan::operator+= (
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-operator-">function operator-=</h3>
+<pre><code class="language-C++">inline TimeSpan &amp; nn::fnd::TimeSpan::operator-= (
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-operator_2">function operator/=</h3>
+<pre><code class="language-C++">inline TimeSpan &amp; nn::fnd::TimeSpan::operator/= (
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-fromhours">function FromHours</h3>
+<pre><code class="language-C++">static inline TimeSpan nn::fnd::TimeSpan::FromHours (
+    s64 hours
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-frommicroseconds">function FromMicroSeconds</h3>
+<pre><code class="language-C++">static inline TimeSpan nn::fnd::TimeSpan::FromMicroSeconds (
+    s64 microSeconds
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-frommilliseconds">function FromMilliSeconds</h3>
+<pre><code class="language-C++">static inline TimeSpan nn::fnd::TimeSpan::FromMilliSeconds (
+    s64 milliSeconds
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fromminutes">function FromMinutes</h3>
+<pre><code class="language-C++">static inline TimeSpan nn::fnd::TimeSpan::FromMinutes (
+    s64 minutes
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fromnanoseconds">function FromNanoSeconds</h3>
+<pre><code class="language-C++">static inline TimeSpan nn::fnd::TimeSpan::FromNanoSeconds (
+    s64 nanoSeconds
+) 
+</code></pre>
+<hr>
+
+<h3 id="function-fromseconds">function FromSeconds</h3>
+<pre><code class="language-C++">static inline TimeSpan nn::fnd::TimeSpan::FromSeconds (
+    s64 seconds
+) 
+</code></pre>
+<hr>
+<h2 id="friends-documentation">Friends Documentation</h2>
+<h3 id="friend-operator">friend operator!=</h3>
+<pre><code class="language-C++">inline bool nn::fnd::TimeSpan::operator!= (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator_1">friend operator+</h3>
+<pre><code class="language-C++">inline TimeSpan nn::fnd::TimeSpan::operator+ (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator-">friend operator-</h3>
+<pre><code class="language-C++">inline TimeSpan nn::fnd::TimeSpan::operator- (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator_2">friend operator&lt;</h3>
+<pre><code class="language-C++">inline bool nn::fnd::TimeSpan::operator&lt; (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator_3">friend operator&lt;=</h3>
+<pre><code class="language-C++">inline bool nn::fnd::TimeSpan::operator&lt;= (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator_4">friend operator==</h3>
+<pre><code class="language-C++">inline bool nn::fnd::TimeSpan::operator== (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator_5">friend operator&gt;</h3>
+<pre><code class="language-C++">inline bool nn::fnd::TimeSpan::operator&gt; (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<h3 id="friend-operator_6">friend operator&gt;=</h3>
+<pre><code class="language-C++">inline bool nn::fnd::TimeSpan::operator&gt;= (
+    const TimeSpan &amp; lhs,
+    const TimeSpan &amp; rhs
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

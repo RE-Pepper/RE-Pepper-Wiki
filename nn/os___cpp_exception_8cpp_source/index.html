@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_CppException.cpp - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_cppexceptioncpp">File os_CppException.cpp</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_9d5035ea42e3a15a3c12a88837862b5a/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="../os___cpp_exception_8cpp/"><strong>os_CppException.cpp</strong></a></p>
+<p><a href="../os___cpp_exception_8cpp/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#include &lt;cstdlib&gt;
+#include &lt;exception&gt;
+#include &lt;nn/os/CTR/os_CppException.h&gt;
+#include &lt;nn/os/CTR/os_ThreadLocalRegion.h&gt;
+
+namespace nn {
+namespace os {
+namespace CTR {
+
+namespace {
+
+extern &quot;C&quot; __weak void __ARM_exceptions_buffer_required(void);
+extern &quot;C&quot; void*       __ARM_exceptions_buffer_init(void);
+
+typedef void (*handler)(); // 28
+
+struct __cxa_eh_globals
+{
+        uint32_t                uncaughtExceptions;
+        std::unexpected_handler unexpectedHandler;
+        std::terminate_handler  terminateHandler;
+        bool                    implementation_ever_called_terminate;
+        handler                 call_hook;
+        void*                   caughtExceptions;
+        void*                   propagatingExceptions;
+        void*                   emergency_buffer;
+};
+
+bool IsArmExceptionsBufferNotRequired() // 44
+{
+        return &amp;__ARM_exceptions_buffer_required == NULL;
+}
+
+} // namespace
+
+void force_func_section(_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f23DefaultTerminateHandlerEv) DefaultTerminateHandler() // 49
+{
+        std::abort();
+}
+
+void force_func_section(_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f24DefaultUnexpectedHandlerEv) DefaultUnexpectedHandler() // 53
+{
+        std::terminate();
+}
+
+void SetupThreadCppExceptionEnvironment() // 60
+{
+        ThreadLocalRegion* pTlr = GetThreadLocalRegion(); // 62
+
+        pTlr-&gt;ehGlobalsAddr = pTlr-&gt;ehGlobals;
+
+        // The DWARF and assembly show ehGlobals is at an offset within TLR (likely 0x60)
+        __cxa_eh_globals&amp; ceg = *reinterpret_cast&lt;__cxa_eh_globals*&gt;(pTlr-&gt;ehGlobals);
+
+        ceg.uncaughtExceptions                   = 0;
+        ceg.unexpectedHandler                    = DefaultUnexpectedHandler;
+        ceg.terminateHandler                     = DefaultTerminateHandler;
+        ceg.implementation_ever_called_terminate = false;
+        ceg.call_hook                            = NULL;
+        ceg.caughtExceptions                     = NULL;
+        ceg.propagatingExceptions                = NULL;
+        ceg.emergency_buffer                     = IsArmExceptionsBufferNotRequired() ? NULL : __ARM_exceptions_buffer_init();
+}
+
+} // namespace CTR
+} // namespace os
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e721d6d0970cd65c940d1e7140f4d855" kind="dir">
+    <compoundname>ARM</compoundname>
+    <innerfile refid="svc___stub_8cpp">svc_Stub.cpp</innerfile>
+    <innerfile refid="svc___stub_dbg_8cpp">svc_StubDbg.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/svc/ARM/"/>
+  </compounddef>
+</doxygen>

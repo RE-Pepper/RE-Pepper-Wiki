@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="fnd___heap_base_8h" kind="file" language="C++">
+    <compoundname>fnd_HeapBase.h</compoundname>
+    <includes refid="fnd___linked_list_8h" local="no">nn/fnd/fnd_LinkedList.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="6">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="7">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="1">
+        <label>fnd_HeapBase.h</label>
+        <link refid="fnd___heap_base_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/fnd/fnd_LinkedList.h</label>
+        <link refid="fnd___linked_list_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn/fnd/fnd_Result.h</label>
+        <link refid="fnd___result_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn/util/util_NonCopyable.h</label>
+        <link refid="util___non_copyable_8h"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classnn_1_1fnd_1_1_heap_base" prot="public">nn::fnd::HeapBase</innerclass>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd">nn::fnd</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="fnd___linked_list_8h" kindref="compound">nn/fnd/fnd_LinkedList.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fnd<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396" kindref="member">HeapFillType</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396aedc169559b8ceddfd5da81b5128289d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396aedc169559b8ceddfd5da81b5128289d4" kindref="member">HEAP_FILL_TYPE_NOUSE</ref>,</highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396a2193b10fa47fc3e9740faa55cff25ca1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396a2193b10fa47fc3e9740faa55cff25ca1" kindref="member">HEAP_FILL_TYPE_ALLOC</ref>,</highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396a8b228abfb4f29a5d6a8bc9b9382e23cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396a8b228abfb4f29a5d6a8bc9b9382e23cb" kindref="member">HEAP_FILL_TYPE_FREE</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396ae9cb7b7c855cd8008ff1ecc05bb46cc8" kindref="member">HEAP_FILL_TYPE_MAX</ref></highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396ae9cb7b7c855cd8008ff1ecc05bb46cc8" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classnn_1_1fnd_1_1_heap_base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnn_1_1fnd_1_1_heap_base" kindref="compound">HeapBase</ref><sp/>:<sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list" kindref="compound">IntrusiveLinkedList</ref>&lt;HeapBase&gt;::Item</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="classnn_1_1fnd_1_1_heap_base_1ac9b024d20022397061325a87f2faa1a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base" kindref="compound">HeapBase</ref>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1ac9b024d20022397061325a87f2faa1a5" kindref="member">m_Parent</ref>;</highlight></codeline>
+<codeline lineno="20" refid="classnn_1_1fnd_1_1_heap_base_1a244ddf216480c2114ceb629e83f4074f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_intrusive_linked_list" kindref="compound">IntrusiveLinkedList&lt;HeapBase&gt;</ref><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a244ddf216480c2114ceb629e83f4074f" kindref="member">m_Children</ref>;</highlight></codeline>
+<codeline lineno="21" refid="classnn_1_1fnd_1_1_heap_base_1a29667a4a610418cd8856c11cb52c947e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a29667a4a610418cd8856c11cb52c947e" kindref="member">m_Option</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="classnn_1_1fnd_1_1_heap_base_1ab7fa329f7170b9536f226d6266b2db64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1ab7fa329f7170b9536f226d6266b2db64" kindref="member">GetFillValue</ref><sp/>(<ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396" kindref="member">HeapFillType</ref>);</highlight></codeline>
+<codeline lineno="25" refid="classnn_1_1fnd_1_1_heap_base_1ab5efb9a4a9dc79e626399e72bce60a6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1ab5efb9a4a9dc79e626399e72bce60a6f" kindref="member">~HeapBase</ref><sp/>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classnn_1_1fnd_1_1_heap_base_1a0955fb50bcea3a0f419b7795dc773d0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a0955fb50bcea3a0f419b7795dc773d0d" kindref="member">Initialize</ref><sp/>(<ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/>option);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classnn_1_1fnd_1_1_heap_base_1a07cef9d1bc74c26d634eb5e379469b7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base" kindref="compound">HeapBase</ref>*<sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a07cef9d1bc74c26d634eb5e379469b7d" kindref="member">GetRoot</ref><sp/>();</highlight></codeline>
+<codeline lineno="30" refid="classnn_1_1fnd_1_1_heap_base_1a19f017439601ec0191aa297df0b6b510" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base" kindref="compound">HeapBase</ref>*<sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a19f017439601ec0191aa297df0b6b510" kindref="member">FindHeap</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="31" refid="classnn_1_1fnd_1_1_heap_base_1af7fc2fc4eb0a577f7301e0fd0a828401" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1af7fc2fc4eb0a577f7301e0fd0a828401" kindref="member">Destroy</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_heap_base" kindref="compound">HeapBase</ref>*);</highlight></codeline>
+<codeline lineno="32" refid="classnn_1_1fnd_1_1_heap_base_1af25d0d6744545d81779c78ddf7d930cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1af25d0d6744545d81779c78ddf7d930cc" kindref="member">SetParent</ref><sp/>(<ref refid="classnn_1_1fnd_1_1_heap_base" kindref="compound">HeapBase</ref>*);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classnn_1_1fnd_1_1_heap_base_1a60451f758e3bb8fba14186b9c30906d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a60451f758e3bb8fba14186b9c30906d9" kindref="member">RoundDown</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref>);</highlight></codeline>
+<codeline lineno="35" refid="classnn_1_1fnd_1_1_heap_base_1a3ec491a1773a868890b005408a2c8841" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a3ec491a1773a868890b005408a2c8841" kindref="member">RoundUp</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/><ref refid="types_8h_1a0ce6887c26c1c49ad3be5710dd42bfd6" kindref="member">s32</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classnn_1_1fnd_1_1_heap_base_1a7761c1e9d878ba585a537e6194658f1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a7761c1e9d878ba585a537e6194658f1f" kindref="member">FillMemoryZero</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>DEBUG<sp/>MACRO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1aea12009f2b12818523f4aa02a964f5c2" kindref="member">DebugFillMemory</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">,<sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396" kindref="member">HeapFillType</ref>)<sp/>{}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classnn_1_1fnd_1_1_heap_base_1aea12009f2b12818523f4aa02a964f5c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1aea12009f2b12818523f4aa02a964f5c2" kindref="member">DebugFillMemory</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">,<sp/><ref refid="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396" kindref="member">HeapFillType</ref>)<sp/>{}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classnn_1_1fnd_1_1_heap_base_1a2f5d4d3a0a08b0fa0de466ee67b23804" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1a2f5d4d3a0a08b0fa0de466ee67b23804" kindref="member">FillMemory</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref>);</highlight></codeline>
+<codeline lineno="46" refid="classnn_1_1fnd_1_1_heap_base_1ad0c5d1ed5f7e2f28615b354b40aa20e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1fnd_1_1_heap_base_1ad0c5d1ed5f7e2f28615b354b40aa20e9" kindref="member">FillMemory32</ref><sp/>(<ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref>,<sp/><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>static_assert_<sp/>(sizeof<sp/>(HeapBase)<sp/>==<sp/>0x18);<sp/>needs<sp/>some<sp/>user</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fnd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_HeapBase.h"/>
+  </compounddef>
+</doxygen>

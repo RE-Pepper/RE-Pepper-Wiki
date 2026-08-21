@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File codec_Types.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-codec_typesh">File codec_Types.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_34f807ed914052c98a9a2c2b0fd679dd/"><strong>codec</strong></a> <strong>&gt;</strong> <a href="../dir_f1a93bf7830032cee77a8e20b8729701/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="../codec___types_8h/"><strong>codec_Types.h</strong></a></p>
+<p><a href="../codec___types_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+namespace nn {
+namespace codec {
+namespace CTR {
+
+enum IirFilterTargetEQ // 64
+{
+        HP_32KHZ = 0,
+        HP_48KHZ = 1,
+        SP_32KHZ = 2,
+        SP_48KHZ = 3
+};
+
+typedef struct
+{
+        u16 n0;
+        u16 n1;
+        u16 d1;
+} IirFilterParamHalf; // 185
+static_assert_ (sizeof (IirFilterParamHalf) == 0x6);
+
+typedef struct
+{
+        u16 n0;
+        u16 n1;
+        u16 n2;
+        u16 d1;
+        u16 d2;
+} IirFilterParamBiquad; // 194
+static_assert_ (sizeof (IirFilterParamBiquad) == 0xA);
+
+typedef struct
+{
+        IirFilterParamHalf   half;
+        IirFilterParamBiquad biquadA;
+        IirFilterParamBiquad biquadB;
+        IirFilterParamBiquad biquadC;
+        IirFilterParamBiquad biquadD;
+        IirFilterParamBiquad biquadE;
+} IirFilterParam; // 204
+static_assert_ (sizeof (IirFilterParam) == 0x38);
+
+typedef struct
+{
+        IirFilterParamBiquad biquadA;
+        IirFilterParamBiquad biquadB;
+        IirFilterParamBiquad biquadC;
+} IirFilterParamEQ; // 220
+static_assert_ (sizeof (IirFilterParamEQ) == 0x1E);
+
+} // namespace CTR
+} // namespace codec
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

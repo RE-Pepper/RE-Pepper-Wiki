@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File fnd_DetailHeapHead.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-fnd_detailheapheadh">File fnd_DetailHeapHead.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_896b02bd9724af022fac6ecc9927c6e1/"><strong>fnd</strong></a> <strong>&gt;</strong> <a href="../dir_3da131c86a4fcd1c3423f598aebcaf26/"><strong>detail</strong></a> <strong>&gt;</strong> <a href="../fnd___detail_heap_head_8h/"><strong>fnd_DetailHeapHead.h</strong></a></p>
+<p><a href="../fnd___detail_heap_head_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+namespace nn {
+namespace fnd {
+namespace detail {
+
+typedef struct
+{
+        void* prevObject;
+        void* nextObject;
+} NNSFndLink;
+static_assert_ (sizeof (NNSFndLink) == 0x8);
+
+typedef struct
+{
+        void* headObject;
+        void* tailObject;
+        u16   numObjects;
+        u16   offset;
+} NNSFndList;
+static_assert_ (sizeof (NNSFndList) == 0xC);
+
+struct NNSiFndExpHeapMBlockHead
+{
+        u16                       signature;
+        u16                       attribute;
+        u32                       blockSize;
+        NNSiFndExpHeapMBlockHead* pMBHeadPrev;
+        NNSiFndExpHeapMBlockHead* pMBHeadBext;
+};
+static_assert_ (sizeof (NNSiFndExpHeapMBlockHead) == 0x10);
+
+struct NNSiFndExpMBlockList
+{
+        NNSiFndExpHeapMBlockHead* head;
+        NNSiFndExpHeapMBlockHead* tail;
+};
+static_assert_ (sizeof (NNSiFndExpMBlockList) == 0x8);
+
+struct NNSiFndExpHeapHead
+{
+        NNSiFndExpMBlockList mbFreeList;
+        NNSiFndExpMBlockList mbUsedList;
+        u16                  groupID;
+        u16                  feature;
+        bool                 reuse;
+        u32 : 24;
+};
+static_assert_ (sizeof (NNSiFndExpHeapHead) == 0x18);
+
+struct ExpHeapImpl
+{
+        u32                signature;
+        NNSFndLink         link;
+        NNSFndList         childList;
+        void*              heapStart;
+        void*              heapEnd;
+        u32                attribute;
+        NNSiFndExpHeapHead nnsiFndExpHeapHead;
+
+        ExpHeapImpl () : attribute (0) {}
+};
+static_assert_ (sizeof (ExpHeapImpl) == 0x3C);
+
+} // namespace detail
+} // namespace fnd
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="gl2_8h" kind="file" language="C++">
+    <compoundname>gl2.h</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="gl2_8h_1a1e5eb1ac5e47603cc80ab58338b92393" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void GLvoid</definition>
+        <argsstring></argsstring>
+        <name>GLvoid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="7" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a7efd7809e1632cdae75603fd1fee61c0" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int GLenum</definition>
+        <argsstring></argsstring>
+        <name>GLenum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="8" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1aa010a67382116caf29c29318251ccb6c" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char GLboolean</definition>
+        <argsstring></argsstring>
+        <name>GLboolean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="9" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a0fb936f29008789fb46b434319f68cc9" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int GLbitfield</definition>
+        <argsstring></argsstring>
+        <name>GLbitfield</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="10" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a5ac0f3c4d7fafd42b284b5487a791017" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int GLint</definition>
+        <argsstring></argsstring>
+        <name>GLint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="11" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a9289d5b99dc1f27f01480360f2e18ae0" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int GLsizei</definition>
+        <argsstring></argsstring>
+        <name>GLsizei</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="12" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a0595908be03a8cff881a23cdc9170e7c" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char GLubyte</definition>
+        <argsstring></argsstring>
+        <name>GLubyte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="13" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1ac995a558f6571eb5f98b7a6d2b2a4468" prot="public" static="no">
+        <type>unsigned short</type>
+        <definition>typedef unsigned short GLushort</definition>
+        <argsstring></argsstring>
+        <name>GLushort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="14" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1aa311c7f0d6ec4f1a33f9235c3651b86b" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int GLuint</definition>
+        <argsstring></argsstring>
+        <name>GLuint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="15" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a31aeedaeef29442c9c015ab355c8f5ab" prot="public" static="no">
+        <type>float</type>
+        <definition>typedef float GLfloat</definition>
+        <argsstring></argsstring>
+        <name>GLfloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="16" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1aded4e0631b68d219180490a73d8424c0" prot="public" static="no">
+        <type>float</type>
+        <definition>typedef float GLclampf</definition>
+        <argsstring></argsstring>
+        <name>GLclampf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="17" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1ab07ba1c63912dd53840cc7cc7ac861aa" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int GLintptr</definition>
+        <argsstring></argsstring>
+        <name>GLintptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="18" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="gl2_8h_1a31b679a8acef538a0aed8e8117d19134" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int GLsizeiptr</definition>
+        <argsstring></argsstring>
+        <name>GLsizeiptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/GLES2/gl2.h" line="19" column="24" bodyfile="lib/CtrSDK/include/GLES2/gl2.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="gl2_8h_1a1e5eb1ac5e47603cc80ab58338b92393" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1a1e5eb1ac5e47603cc80ab58338b92393" kindref="member">GLvoid</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>50</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="gl2_8h_1a7efd7809e1632cdae75603fd1fee61c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="gl2_8h_1a7efd7809e1632cdae75603fd1fee61c0" kindref="member">GLenum</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>51</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="gl2_8h_1aa010a67382116caf29c29318251ccb6c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="gl2_8h_1aa010a67382116caf29c29318251ccb6c" kindref="member">GLboolean</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="gl2_8h_1a0fb936f29008789fb46b434319f68cc9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="gl2_8h_1a0fb936f29008789fb46b434319f68cc9" kindref="member">GLbitfield</ref>;<sp/></highlight><highlight class="comment">//<sp/>53</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="gl2_8h_1a5ac0f3c4d7fafd42b284b5487a791017" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1a5ac0f3c4d7fafd42b284b5487a791017" kindref="member">GLint</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>56</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="gl2_8h_1a9289d5b99dc1f27f01480360f2e18ae0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1a9289d5b99dc1f27f01480360f2e18ae0" kindref="member">GLsizei</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>57</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="gl2_8h_1a0595908be03a8cff881a23cdc9170e7c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="gl2_8h_1a0595908be03a8cff881a23cdc9170e7c" kindref="member">GLubyte</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>58</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="gl2_8h_1ac995a558f6571eb5f98b7a6d2b2a4468" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="gl2_8h_1ac995a558f6571eb5f98b7a6d2b2a4468" kindref="member">GLushort</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>59</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="gl2_8h_1aa311c7f0d6ec4f1a33f9235c3651b86b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="gl2_8h_1aa311c7f0d6ec4f1a33f9235c3651b86b" kindref="member">GLuint</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>60</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="gl2_8h_1a31aeedaeef29442c9c015ab355c8f5ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1a31aeedaeef29442c9c015ab355c8f5ab" kindref="member">GLfloat</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>61</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="gl2_8h_1aded4e0631b68d219180490a73d8424c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1aded4e0631b68d219180490a73d8424c0" kindref="member">GLclampf</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>62</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="gl2_8h_1ab07ba1c63912dd53840cc7cc7ac861aa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1ab07ba1c63912dd53840cc7cc7ac861aa" kindref="member">GLintptr</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>67</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="gl2_8h_1a31b679a8acef538a0aed8e8117d19134" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="gl2_8h_1a31b679a8acef538a0aed8e8117d19134" kindref="member">GLsizeiptr</ref>;<sp/></highlight><highlight class="comment">//<sp/>68</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/GLES2/gl2.h"/>
+  </compounddef>
+</doxygen>

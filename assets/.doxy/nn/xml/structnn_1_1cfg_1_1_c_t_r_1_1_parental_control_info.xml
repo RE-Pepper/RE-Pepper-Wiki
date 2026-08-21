@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::ParentalControlInfo</compoundname>
+    <includes refid="cfg___parental_control_8h" local="no">cfg_ParentalControl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1adffc0070585b93b38e236b1ed3743b78" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_flags" kindref="compound">ParentalControlFlags</ref></type>
+        <definition>ParentalControlFlags nn::cfg::CTR::ParentalControlInfo::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="25" column="30" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a32e59e70ebab09419c1d73956ae54b2e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::cfg::CTR::ParentalControlInfo::rsv1</definition>
+        <argsstring></argsstring>
+        <name>rsv1</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::rsv1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="27" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a894dc96ace6df9a5baee597345a7bb8b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::ParentalControlInfo::ogn</definition>
+        <argsstring></argsstring>
+        <name>ogn</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::ogn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="28" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a10a8b97b91e39c271d040d2316401acb" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::ParentalControlInfo::ratingAge</definition>
+        <argsstring></argsstring>
+        <name>ratingAge</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::ratingAge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="29" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a38fc1130626eec2ee3d3a0a766a10dff" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::ParentalControlInfo::secretQuestionID</definition>
+        <argsstring></argsstring>
+        <name>secretQuestionID</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::secretQuestionID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="30" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a7d143572dd093100a9fbcd524aeb24e7" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::ParentalControlInfo::secretAnswerLength</definition>
+        <argsstring></argsstring>
+        <name>secretAnswerLength</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::secretAnswerLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="31" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a05d13a1d70743941e52ec98e44dbe78d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nn::cfg::CTR::ParentalControlInfo::password[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>password</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="32" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a72aa15fc59034654f117e480c264b5ea" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::ParentalControlInfo::rsv2[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>rsv2</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::rsv2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="33" column="14" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a10af9347fdd2053087968fa15cf1f432" prot="public" static="no" mutable="no">
+        <type>wchar_t</type>
+        <definition>wchar_t nn::cfg::CTR::ParentalControlInfo::secretAnswer[65]</definition>
+        <argsstring>[65]</argsstring>
+        <name>secretAnswer</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::secretAnswer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="35" column="17" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a9e8df6a9830886b9f864fb83e55cf050" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::ParentalControlInfo::rsv3[42]</definition>
+        <argsstring>[42]</argsstring>
+        <name>rsv3</name>
+        <qualifiedname>nn::cfg::CTR::ParentalControlInfo::rsv3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="37" column="12" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::cfg::CTR::ParentalControlFlags</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_flags"/>
+      </node>
+      <node id="1">
+        <label>nn::cfg::CTR::ParentalControlInfo</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>flags</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" line="23" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/cfg_ParentalControl.h" bodystart="24" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1adffc0070585b93b38e236b1ed3743b78" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>flags</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a894dc96ace6df9a5baee597345a7bb8b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>ogn</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a05d13a1d70743941e52ec98e44dbe78d" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>password</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a10a8b97b91e39c271d040d2316401acb" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>ratingAge</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a32e59e70ebab09419c1d73956ae54b2e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>rsv1</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a72aa15fc59034654f117e480c264b5ea" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>rsv2</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a9e8df6a9830886b9f864fb83e55cf050" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>rsv3</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a10af9347fdd2053087968fa15cf1f432" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>secretAnswer</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a7d143572dd093100a9fbcd524aeb24e7" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>secretAnswerLength</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1_parental_control_info_1a38fc1130626eec2ee3d3a0a766a10dff" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::ParentalControlInfo</scope><name>secretQuestionID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

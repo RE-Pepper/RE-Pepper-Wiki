@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_rtc_swc_info" kind="struct" language="C++" prot="public">
+    <compoundname>nn::os::RtcSwcInfo</compoundname>
+    <includes refid="os___shared_info_8h" local="no">os_SharedInfo.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_rtc_swc_info_1a4c12ba4870f60bdd5adeb9ecf4f36948" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::os::RtcSwcInfo::rtcBaseMilliSeconds</definition>
+        <argsstring></argsstring>
+        <name>rtcBaseMilliSeconds</name>
+        <qualifiedname>nn::os::RtcSwcInfo::rtcBaseMilliSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="51" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_rtc_swc_info_1adf9f23d5b2819653d03bf5ee93110b8c" prot="public" static="no" mutable="no">
+        <type><ref refid="classnn_1_1os_1_1_tick" kindref="compound">Tick</ref></type>
+        <definition>Tick nn::os::RtcSwcInfo::rtcBaseTicks</definition>
+        <argsstring></argsstring>
+        <name>rtcBaseTicks</name>
+        <qualifiedname>nn::os::RtcSwcInfo::rtcBaseTicks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="52" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_rtc_swc_info_1a4ae24057be45b5bf7c85e13afb9284b9" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::os::RtcSwcInfo::rtcTicksPerSecond</definition>
+        <argsstring></argsstring>
+        <name>rtcTicksPerSecond</name>
+        <qualifiedname>nn::os::RtcSwcInfo::rtcTicksPerSecond</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="53" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_rtc_swc_info_1a0287a4529affeebb74b15e31bb9674f8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref></type>
+        <definition>s64 nn::os::RtcSwcInfo::rtcDiffMilliSeconds</definition>
+        <argsstring></argsstring>
+        <name>rtcDiffMilliSeconds</name>
+        <qualifiedname>nn::os::RtcSwcInfo::rtcDiffMilliSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="54" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::os::RtcSwcInfo</label>
+        <link refid="structnn_1_1os_1_1_rtc_swc_info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>rtcBaseTicks</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::Tick</label>
+        <link refid="classnn_1_1os_1_1_tick"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="49" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="50" bodyend="55"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_rtc_swc_info_1a4c12ba4870f60bdd5adeb9ecf4f36948" prot="public" virt="non-virtual"><scope>nn::os::RtcSwcInfo</scope><name>rtcBaseMilliSeconds</name></member>
+      <member refid="structnn_1_1os_1_1_rtc_swc_info_1adf9f23d5b2819653d03bf5ee93110b8c" prot="public" virt="non-virtual"><scope>nn::os::RtcSwcInfo</scope><name>rtcBaseTicks</name></member>
+      <member refid="structnn_1_1os_1_1_rtc_swc_info_1a0287a4529affeebb74b15e31bb9674f8" prot="public" virt="non-virtual"><scope>nn::os::RtcSwcInfo</scope><name>rtcDiffMilliSeconds</name></member>
+      <member refid="structnn_1_1os_1_1_rtc_swc_info_1a4ae24057be45b5bf7c85e13afb9284b9" prot="public" virt="non-virtual"><scope>nn::os::RtcSwcInfo</scope><name>rtcTicksPerSecond</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

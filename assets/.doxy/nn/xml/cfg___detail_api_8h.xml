@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cfg___detail_api_8h" kind="file" language="C++">
+    <compoundname>cfg_DetailApi.h</compoundname>
+    <includes refid="_handle_8h" local="no">nn/Handle.h</includes>
+    <includes refid="_result_8h" local="no">nn/Result.h</includes>
+    <includedby refid="cfg___detail_api_8cpp" local="no">cfg_DetailApi.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="1">
+        <label>cfg_DetailApi.h</label>
+        <link refid="cfg___detail_api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>cfg_DetailApi.h</label>
+        <link refid="cfg___detail_api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cfg_DetailApi.cpp</label>
+        <link refid="cfg___detail_api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg">nn::cfg</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg_1_1_c_t_r">nn::cfg::CTR</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail">nn::cfg::CTR::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_handle_8h" kindref="compound">nn/Handle.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_result_8h" kindref="compound">nn/Result.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">cfg<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">detail<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69" kindref="member">_IPCPortType</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69af0ef7f7009eaeaccc809e42f40c6f37e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69af0ef7f7009eaeaccc809e42f40c6f37e" kindref="member">PORT_CFG_USER</ref><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69ae775521c84ddcff1249323c96f22d6ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69ae775521c84ddcff1249323c96f22d6ea" kindref="member">PORT_CFG_SYS</ref><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="15" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69ab78af539f04ea8450562203d5e4112e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69ab78af539f04ea8450562203d5e4112e4" kindref="member">PORT_CFG_INIT</ref><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="16" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69a9d3d6e373ab685b49a5888e8bc1018d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69a9d3d6e373ab685b49a5888e8bc1018d5" kindref="member">PORT_CFG_NOR</ref><sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a5edc73715165aeecaad9f1d266c73e69adaab26d2184e8cf9b8d62445ce5c6715" kindref="member">NUM_OF_IPC_PORT</ref><sp/>=<sp/>4</highlight></codeline>
+<codeline lineno="18" refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" refkind="member"><highlight class="normal">}<sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" kindref="member">IPCPortType</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a7919e534cb9f5e5e2447c87148f7860f" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1ab2deadf900e0a32dd831a7253ee35668" kindref="member">InitializeProperPort</ref>(<ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" kindref="member">IPCPortType</ref>*<sp/>pPortType);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a1033654a36482571b13bcae439509499" kindref="member">Finalize</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a26294c214beaee6eb3f6580a8def7f7f" kindref="member">FinalizeProperPort</ref>(<ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a732f0389c366eb8a1203818da82d9d75" kindref="member">IPCPortType</ref><sp/>portType);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="classnn_1_1_result" kindref="compound">Result</ref><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1_1detail_1a9fca2dc3d74f47dea040c5fbcae3b96c" kindref="member">GetConfig</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pData,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref><sp/>key);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>detail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>cfg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_DetailApi.h"/>
+  </compounddef>
+</doxygen>

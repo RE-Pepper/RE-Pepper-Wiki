@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File alActorPoseKeeper.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-alactorposekeeperh">File alActorPoseKeeper.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_06a57bfe438b90fdc9c94a1df001d5d7/"><strong>al</strong></a> <strong>&gt;</strong> <a href="../dir_f7e8efec570a34efc8a6993e55383954/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_ae80ee5cf9da1054faf149dc2356c7ac/"><strong>LiveActor</strong></a> <strong>&gt;</strong> <a href="../al_actor_pose_keeper_8h/"><strong>alActorPoseKeeper.h</strong></a></p>
+<p><a href="../al_actor_pose_keeper_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;math/seadMatrix.h&gt;
+#include &lt;math/seadQuat.h&gt;
+#include &lt;math/seadVector.h&gt;
+
+namespace al
+{
+
+class LiveActor;
+
+class ActorPoseKeeperBase
+{
+private:
+        sead::Vector3f mTrans;
+
+public:
+        inline const sead::Vector3f&amp; getTrans() const
+        {
+                return mTrans;
+        }
+
+        virtual const sead::Vector3f&amp; getRotate() const;
+        virtual const sead::Vector3f&amp; getScale() const;
+        virtual const sead::Vector3f&amp; getVelocity() const;
+        virtual const sead::Vector3f&amp; getFront() const;
+        virtual const sead::Quatf&amp;    getQuat() const;
+        virtual const sead::Vector3f&amp; getGravity() const;
+
+        inline sead::Vector3f* getTransPtr()
+        {
+                return &amp;mTrans;
+        }
+
+        virtual sead::Vector3f* getRotatePtr();
+        virtual sead::Vector3f* getScalePtr();
+        virtual sead::Vector3f* getVelocityPtr();
+        virtual sead::Vector3f* getFrontPtr();
+        virtual sead::Quatf*    getQuatPtr();
+        virtual sead::Vector3f* getGravityPtr();
+
+        virtual void updatePoseRotate( const sead::Vector3f&amp; rot ) = 0;
+        virtual void updatePoseQuat( const sead::Quatf&amp; quat )     = 0;
+        virtual void updatePoseMtx( const sead::Matrix34f* mtx )   = 0;
+        virtual void copyPose( const ActorPoseKeeperBase* from );
+        virtual void calcBaseMtx( sead::Matrix34f* out ) = 0;
+
+public:
+        static const sead::Vector3f sDefaultGravity;
+
+public:
+        ActorPoseKeeperBase();
+};
+
+class ActorPoseKeeperTFSV : public ActorPoseKeeperBase
+{
+private:
+        sead::Vector3f mFront;
+        sead::Vector3f mScale;
+        sead::Vector3f mVelocity;
+
+public:
+        virtual const sead::Vector3f&amp; getScale() const;
+        virtual const sead::Vector3f&amp; getVelocity() const;
+        virtual const sead::Vector3f&amp; getFront() const;
+
+        virtual sead::Vector3f* getScalePtr();
+        virtual sead::Vector3f* getVelocityPtr();
+        virtual sead::Vector3f* getFrontPtr();
+
+        virtual void updatePoseRotate( const sead::Vector3f&amp; rot );
+        virtual void updatePoseQuat( const sead::Quatf&amp; quat );
+        virtual void updatePoseMtx( const sead::Matrix34f* mtx );
+
+        virtual void calcBaseMtx( sead::Matrix34f* out );
+
+public:
+        ActorPoseKeeperTFSV();
+};
+
+class ActorPoseKeeperTFGSV : public ActorPoseKeeperTFSV
+{
+private:
+        sead::Vector3f mGravity;
+
+public:
+        virtual const sead::Vector3f&amp; getGravity() const;
+
+        virtual sead::Vector3f* getGravityPtr();
+
+        virtual void calcBaseMtx( sead::Matrix34f* out );
+
+public:
+        ActorPoseKeeperTFGSV();
+};
+
+class ActorPoseKeeperTQSV : public ActorPoseKeeperBase
+{
+private:
+        sead::Quatf    mQuat;
+        sead::Vector3f mScale;
+        sead::Vector3f mVelocity;
+
+public:
+        virtual const sead::Vector3f&amp; getScale() const;
+        virtual const sead::Vector3f&amp; getVelocity() const;
+        virtual const sead::Quatf&amp;    getQuat() const;
+
+        virtual sead::Vector3f* getScalePtr();
+        virtual sead::Vector3f* getVelocityPtr();
+        virtual sead::Quatf*    getQuatPtr();
+
+        virtual void updatePoseRotate( const sead::Vector3f&amp; rot );
+        virtual void updatePoseQuat( const sead::Quatf&amp; quat );
+        virtual void updatePoseMtx( const sead::Matrix34f* mtx );
+
+        virtual void calcBaseMtx( sead::Matrix34f* out );
+
+public:
+        ActorPoseKeeperTQSV();
+};
+
+class ActorPoseKeeperTRSV : public ActorPoseKeeperBase
+{
+private:
+        sead::Vector3f mRotate;
+        sead::Vector3f mScale;
+        sead::Vector3f mVelocity;
+
+public:
+        virtual const sead::Vector3f&amp; getRotate() const;
+        virtual const sead::Vector3f&amp; getScale() const;
+        virtual const sead::Vector3f&amp; getVelocity() const;
+
+        virtual sead::Vector3f* getRotatePtr();
+        virtual sead::Vector3f* getScalePtr();
+        virtual sead::Vector3f* getVelocityPtr();
+
+        virtual void updatePoseRotate( const sead::Vector3f&amp; rot );
+        virtual void updatePoseQuat( const sead::Quatf&amp; quat );
+        virtual void updatePoseMtx( const sead::Matrix34f* mtx );
+
+        virtual void calcBaseMtx( sead::Matrix34f* out );
+
+public:
+        ActorPoseKeeperTRSV();
+};
+
+void initActorPoseTFSV( LiveActor* actor );
+void initActorPoseTFGSV( LiveActor* actor );
+void initActorPoseTQSV( LiveActor* actor );
+void initActorPoseTRSV( LiveActor* actor );
+
+void resetPosition( LiveActor* actor );
+void setTrans( LiveActor* actor, const sead::Vector3f&amp; trans );
+void setRotate( LiveActor* actor, const sead::Vector3f&amp; rotate );
+void setScale( LiveActor* actor, const sead::Vector3f&amp; scale );
+void setVelocity( LiveActor* actor, const sead::Vector3f&amp; velocity );
+void addVelocityToGravity( LiveActor* actor, float amount );
+void scaleVelocity( LiveActor* actor, float amount );
+void setVelocityZero( LiveActor* actor );
+void setFront( LiveActor* actor, const sead::Vector3f&amp; front );
+void setQuat( LiveActor* actor, const sead::Quatf&amp; quat );
+void setGravity( LiveActor* actor, const sead::Vector3f&amp; gravity );
+
+const sead::Vector3f&amp; getTrans( const LiveActor* actor );
+const sead::Vector3f&amp; getRotate( const LiveActor* actor );
+const sead::Vector3f&amp; getScale( const LiveActor* actor );
+const sead::Vector3f&amp; getVelocity( const LiveActor* actor );
+const sead::Vector3f&amp; getFront( const LiveActor* actor );
+const sead::Quatf&amp;    getQuat( const LiveActor* actor );
+const sead::Vector3f&amp; getGravity( const LiveActor* actor );
+
+sead::Vector3f* getTransPtr( LiveActor* actor );
+sead::Vector3f* getRotatePtr( LiveActor* actor );
+sead::Vector3f* getScalePtr( LiveActor* actor );
+sead::Vector3f* getVelocityPtr( LiveActor* actor );
+sead::Vector3f* getFrontPtr( LiveActor* actor );
+sead::Quatf*    getQuatPtr( LiveActor* actor );
+sead::Vector3f* getGravityPtr( LiveActor* actor );
+
+void makeMtxSRT( sead::Matrix34f* out, const LiveActor* actor );
+
+void updatePoseRotate( LiveActor* actor, const sead::Vector3f&amp; rotate );
+void updatePoseQuat( LiveActor* actor, const sead::Quatf&amp; quat );
+void updatePoseMtx( LiveActor* actor, const sead::Matrix34f* mtx );
+
+void copyPose( LiveActor* to, const LiveActor* from );
+
+void calcSideDir( sead::Vector3f* out, const LiveActor* actor );
+void calcUpDir( sead::Vector3f* out, const LiveActor* actor );
+void calcFrontDir( sead::Vector3f* out, const LiveActor* actor );
+
+} // namespace al
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

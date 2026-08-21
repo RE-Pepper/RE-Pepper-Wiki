@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>nn::fs::CTR::MPCore::IArchive</compoundname>
+    <includes refid="fs___user_archive_8h" local="no">fs_UserArchive.h</includes>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a76da7e6a4fcf74d11b8a6b03e64756a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::OpenFile</definition>
+        <argsstring>(IFile **, const Path &amp;, bit32)=0</argsstring>
+        <name>OpenFile</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::OpenFile</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_file" kindref="compound">IFile</ref> **</type>
+        </param>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="40" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a91de1f281c800c1dcfdd1657a347b592" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::OpenDirectory</definition>
+        <argsstring>(IDirectory **, const Path &amp;)=0</argsstring>
+        <name>OpenDirectory</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::OpenDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_directory" kindref="compound">IDirectory</ref> **</type>
+        </param>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="41" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a2e6801728059bae0bbfcadda34693676" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::DeleteFile</definition>
+        <argsstring>(const Path &amp;)=0</argsstring>
+        <name>DeleteFile</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::DeleteFile</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="42" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1aaceb404503b37e2d709c4daf5d75d12c" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::RenameFile</definition>
+        <argsstring>(const Path &amp;, const Path &amp;)=0</argsstring>
+        <name>RenameFile</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::RenameFile</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="43" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a970abdd843222d62858e2b3b4d6742f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::DeleteDirectory</definition>
+        <argsstring>(const Path &amp;)=0</argsstring>
+        <name>DeleteDirectory</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::DeleteDirectory</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="44" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1ab090ed43a77ff4254a1c87bc8353aa76" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::TryDeleteDirectoryRecursively</definition>
+        <argsstring>(const Path &amp;)=0</argsstring>
+        <name>TryDeleteDirectoryRecursively</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::TryDeleteDirectoryRecursively</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="45" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a6e5a7509b392389cefbe32b7d5e9d78a" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::CreateFile</definition>
+        <argsstring>(const Path &amp;)=0</argsstring>
+        <name>CreateFile</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::CreateFile</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="46" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1ae0de0e56da47605a3713b67cbde7ec9e" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::CreateDirectory</definition>
+        <argsstring>(const Path &amp;)=0</argsstring>
+        <name>CreateDirectory</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::CreateDirectory</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="47" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a4a6465422bcd088f7f15c9302a4a9d53" prot="private" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::RenameDirectory</definition>
+        <argsstring>(const Path &amp;, const Path &amp;)=0</argsstring>
+        <name>RenameDirectory</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::RenameDirectory</qualifiedname>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1a47d407c0adfa949044147b48588934d0" kindref="member">Path</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="48" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1aa399cfdec13f49df8dacd34583740e17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+        <definition>virtual Result nn::fs::CTR::MPCore::IArchive::GetFreeBytes</definition>
+        <argsstring>(s64 *pOut)</argsstring>
+        <name>GetFreeBytes</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::GetFreeBytes</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a4258bfb2c3a440d06c4aaa3c2b450dde" kindref="member">s64</ref> *</type>
+          <declname>pOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="49" column="24" bodyfile="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a6402d8390c29f3841bcb0b8be2113fb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual nn::fs::CTR::MPCore::IArchive::~IArchive</definition>
+        <argsstring>()</argsstring>
+        <name>~IArchive</name>
+        <qualifiedname>nn::fs::CTR::MPCore::IArchive::~IArchive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="50" column="17" bodyfile="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" line="38" column="1" bodyfile="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserArchive.h" bodystart="39" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1ae0de0e56da47605a3713b67cbde7ec9e" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>CreateDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a6e5a7509b392389cefbe32b7d5e9d78a" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>CreateFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a970abdd843222d62858e2b3b4d6742f5" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>DeleteDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a2e6801728059bae0bbfcadda34693676" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>DeleteFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1aa399cfdec13f49df8dacd34583740e17" prot="private" virt="virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>GetFreeBytes</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a91de1f281c800c1dcfdd1657a347b592" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>OpenDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a76da7e6a4fcf74d11b8a6b03e64756a5" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>OpenFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a4a6465422bcd088f7f15c9302a4a9d53" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>RenameDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1aaceb404503b37e2d709c4daf5d75d12c" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>RenameFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1ab090ed43a77ff4254a1c87bc8353aa76" prot="private" virt="pure-virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>TryDeleteDirectoryRecursively</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1_i_archive_1a6402d8390c29f3841bcb0b8be2113fb6" prot="private" virt="virtual"><scope>nn::fs::CTR::MPCore::IArchive</scope><name>~IArchive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

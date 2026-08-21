@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1_time_span_1_1_zero_only_tag" kind="struct" language="C++" prot="private">
+    <compoundname>nn::fnd::TimeSpan::ZeroOnlyTag</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" line="10" column="9" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_TimeSpan.h" bodystart="11" bodyend="12"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

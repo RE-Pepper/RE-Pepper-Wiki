@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half" kind="struct" language="C++" prot="public">
+    <compoundname>nn::codec::CTR::IirFilterParamHalf</compoundname>
+    <includes refid="codec___types_8h" local="no">codec_Types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half_1a551177d33820ad04c5204fc951be3251" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::codec::CTR::IirFilterParamHalf::n0</definition>
+        <argsstring></argsstring>
+        <name>n0</name>
+        <qualifiedname>nn::codec::CTR::IirFilterParamHalf::n0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="17" column="13" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half_1a5e7aa49f0a038df226f9657709683fd8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::codec::CTR::IirFilterParamHalf::n1</definition>
+        <argsstring></argsstring>
+        <name>n1</name>
+        <qualifiedname>nn::codec::CTR::IirFilterParamHalf::n1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="18" column="13" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half_1ada6c8bd04a0e96f2f224f8259997f2bf" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a9e6c91d77e24643b888dbd1a1a590054" kindref="member">u16</ref></type>
+        <definition>u16 nn::codec::CTR::IirFilterParamHalf::d1</definition>
+        <argsstring></argsstring>
+        <name>d1</name>
+        <qualifiedname>nn::codec::CTR::IirFilterParamHalf::d1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="19" column="13" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" line="15" column="1" bodyfile="lib/CtrSDK/include/nn/codec/CTR/codec_Types.h" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half_1ada6c8bd04a0e96f2f224f8259997f2bf" prot="public" virt="non-virtual"><scope>nn::codec::CTR::IirFilterParamHalf</scope><name>d1</name></member>
+      <member refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half_1a551177d33820ad04c5204fc951be3251" prot="public" virt="non-virtual"><scope>nn::codec::CTR::IirFilterParamHalf</scope><name>n0</name></member>
+      <member refid="structnn_1_1codec_1_1_c_t_r_1_1_iir_filter_param_half_1a5e7aa49f0a038df226f9657709683fd8" prot="public" virt="non-virtual"><scope>nn::codec::CTR::IirFilterParamHalf</scope><name>n1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

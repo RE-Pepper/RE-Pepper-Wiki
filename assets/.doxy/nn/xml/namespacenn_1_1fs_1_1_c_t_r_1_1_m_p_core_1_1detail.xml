@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::fs::CTR::MPCore::detail</compoundname>
+    <innerclass refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system" prot="public">nn::fs::CTR::MPCore::detail::UserFileSystem</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1a47e3a1d05b2fde874885ad00a4a24875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fs::CTR::MPCore::detail::var</definition>
+        <argsstring>(nn::fs::CTR::MPCore::detail, s_IsLatencyEmulationEnable, bool)</argsstring>
+        <name>var</name>
+        <qualifiedname>nn::fs::CTR::MPCore::detail::var</qualifiedname>
+        <param>
+          <type>nn::fs::CTR::MPCore::detail</type>
+        </param>
+        <param>
+          <type>s_IsLatencyEmulationEnable</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/fs/CTR/MPCore/fs_UserFileSystem.cpp" line="15" column="1" declfile="lib/CtrSDK/sources/libraries/fs/CTR/MPCore/fs_UserFileSystem.cpp" declline="15" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fs/CTR/MPCore/fs_UserFileSystem.h" line="14" column="1"/>
+  </compounddef>
+</doxygen>

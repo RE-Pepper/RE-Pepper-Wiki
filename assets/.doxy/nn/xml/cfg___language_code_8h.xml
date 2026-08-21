@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="cfg___language_code_8h" kind="file" language="C++">
+    <compoundname>cfg_LanguageCode.h</compoundname>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg">nn::cfg</innernamespace>
+    <innernamespace refid="namespacenn_1_1cfg_1_1_c_t_r">nn::cfg::CTR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">cfg<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CTR<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239" kindref="member">CfgLanguageCode</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a9e5a6481f0515f31c9a8e80c6f28fd34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a9e5a6481f0515f31c9a8e80c6f28fd34" kindref="member">CFG_LANGUAGE_JAPANESE</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="10" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a5e6cd6ddca19b2dac2e0e05871cece26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a5e6cd6ddca19b2dac2e0e05871cece26" kindref="member">CFG_LANGUAGE_ENGLISH</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="11" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239ae7a87c599047b7e982936a0a4ed5afa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239ae7a87c599047b7e982936a0a4ed5afa5" kindref="member">CFG_LANGUAGE_FRENCH</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="12" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a15c349425ac6b3dad578a77106d1e805" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a15c349425ac6b3dad578a77106d1e805" kindref="member">CFG_LANGUAGE_GERMAN</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="13" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239aebcb24ca96ac92f1bb904ad868384dcd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239aebcb24ca96ac92f1bb904ad868384dcd" kindref="member">CFG_LANGUAGE_ITALIAN</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="14" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a7b96d226a7a0171439bde49c8fe12540" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a7b96d226a7a0171439bde49c8fe12540" kindref="member">CFG_LANGUAGE_SPANISH</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="15" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a714585df2d31857c7377b3e60ae98e1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a714585df2d31857c7377b3e60ae98e1a" kindref="member">CFG_LANGUAGE_SIMP_CHINESE</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="16" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a36d61ed23ab3cee9476e3a8287dc1c86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a36d61ed23ab3cee9476e3a8287dc1c86" kindref="member">CFG_LANGUAGE_KOREAN</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="17" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a8fe946c7d67e175e728ed1878a69b13c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a8fe946c7d67e175e728ed1878a69b13c" kindref="member">CFG_LANGUAGE_DUTCH</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="18" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a0e60401194b90a1b7057ae02f9ede964" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a0e60401194b90a1b7057ae02f9ede964" kindref="member">CFG_LANGUAGE_PORTUGUESE</ref><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="19" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a2cd725bf7397a7cbc90242a577863948" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a2cd725bf7397a7cbc90242a577863948" kindref="member">CFG_LANGUAGE_RUSSIAN</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="20" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a035644f0cc66d9e72b3cac8439598ee4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a035644f0cc66d9e72b3cac8439598ee4" kindref="member">CFG_LANGUAGE_TRAD_CHINESE</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="21" refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a5b6f9d438dbef652f61789148dcfee49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacenn_1_1cfg_1_1_c_t_r_1a4c989c3e3abd02a16d0436ede86ec239a5b6f9d438dbef652f61789148dcfee49" kindref="member">CFG_LANGUAGE_CODE_MAX</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>CTR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>cfg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/cfg_LanguageCode.h"/>
+  </compounddef>
+</doxygen>

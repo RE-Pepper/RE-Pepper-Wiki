@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_read_only_shared_info" kind="struct" language="C++" prot="public">
+    <compoundname>nn::os::ReadOnlySharedInfo</compoundname>
+    <includes refid="os___shared_info_8h" local="no">os_SharedInfo.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbda" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Flags</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::Flags</qualifiedname>
+        <enumvalue id="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbdaa4683c403676dda1cb29b70755028a16b" prot="public">
+          <name>FLAGS_SAVE_MODE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbdaadc9cc10e74b86c09943e5ac62dd88543" prot="public">
+          <name>FLAGS_MAX_BITS</name>
+          <initializer>= 2147483648</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="14" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a248205140872353999f7890c1518bc24" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::os::ReadOnlySharedInfo::versionReserve</definition>
+        <argsstring></argsstring>
+        <name>versionReserve</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::versionReserve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="20" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a5159f784d9edafda3f3e8053d5bfc961" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::os::ReadOnlySharedInfo::versionMicro</definition>
+        <argsstring></argsstring>
+        <name>versionMicro</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::versionMicro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="21" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a3e9e2ffbfd41357e60efebde6e88c855" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::os::ReadOnlySharedInfo::versionMinor</definition>
+        <argsstring></argsstring>
+        <name>versionMinor</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::versionMinor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="22" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1ab9d079e9183cf4e32a8bdd98b8cd7f00" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::os::ReadOnlySharedInfo::versionMajor</definition>
+        <argsstring></argsstring>
+        <name>versionMajor</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::versionMajor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="23" column="14" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a34a49ad5bf1fe5a6318228b1a7d3e866" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1os_1_1_flags_enum4" kindref="compound">FlagsEnum4</ref>&lt; <ref refid="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbda" kindref="member">Flags</ref> &gt;</type>
+        <definition>FlagsEnum4&lt;Flags&gt; nn::os::ReadOnlySharedInfo::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="25" column="20" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a14023f615e24478a41bcc5c214e95f7e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacenn_1a2cf656aad61845978ea6e7823b1ac80a" kindref="member">ProgramID</ref></type>
+        <definition>ProgramID nn::os::ReadOnlySharedInfo::firstMainBootProgram</definition>
+        <argsstring></argsstring>
+        <name>firstMainBootProgram</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstMainBootProgram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="27" column="19" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1af57227b0835e8c0179503eefb10a88e3" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::ReadOnlySharedInfo::coreVersion</definition>
+        <argsstring></argsstring>
+        <name>coreVersion</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::coreVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="28" column="19" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1ad6304f6988cc039554a92a6e8a75f220" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::os::ReadOnlySharedInfo::deviceEnv</definition>
+        <argsstring></argsstring>
+        <name>deviceEnv</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::deviceEnv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="29" column="19" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1ad772956770a48994bef420407125d60e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::os::ReadOnlySharedInfo::bootEnv</definition>
+        <argsstring></argsstring>
+        <name>bootEnv</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::bootEnv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="30" column="19" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a14992b84e04ec39b6994bcd1534d94a3" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::os::ReadOnlySharedInfo::previousMode</definition>
+        <argsstring></argsstring>
+        <name>previousMode</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::previousMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="31" column="19" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a2f509dfecd16a0243d0dc98808e3190b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int nn::os::ReadOnlySharedInfo::unk</definition>
+        <argsstring></argsstring>
+        <name>unk</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::unk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="32" column="19" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a4c0c6e8798f097a8d8a703fcca24e23d" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a10e94b422ef0c20dcdec20d31a1f5049" kindref="member">u32</ref></type>
+        <definition>u32 nn::os::ReadOnlySharedInfo::revision</definition>
+        <argsstring></argsstring>
+        <name>revision</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::revision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="34" column="13" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1ae3eb0df0e23a7ac30ee623e41ad4c7bb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int nn::os::ReadOnlySharedInfo::unk1</definition>
+        <argsstring></argsstring>
+        <name>unk1</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::unk1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="35" column="13" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a728895456df49edc99b5044a2b5b0fa6" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::ReadOnlySharedInfo::kParamAck[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>kParamAck</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::kParamAck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="37" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a9f5302811428bb69894a6adf3037f8ee" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::ReadOnlySharedInfo::kParamCurrent[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>kParamCurrent</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::kParamCurrent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="38" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1ab1716f51060a328dc4bc42a949380cd1" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::ReadOnlySharedInfo::kParamValues[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>kParamValues</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::kParamValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="39" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a133397514bdd4ca12669e12adf8d9063" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1af01343b270f3c1b38b44efa0fc4e6c72" kindref="member">bit8</ref></type>
+        <definition>bit8 nn::os::ReadOnlySharedInfo::firstVersionReserve</definition>
+        <argsstring></argsstring>
+        <name>firstVersionReserve</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstVersionReserve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="41" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a65c96671bc18e95aeca1ec69c6ccdb7f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::os::ReadOnlySharedInfo::firstVersionMicro</definition>
+        <argsstring></argsstring>
+        <name>firstVersionMicro</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstVersionMicro</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="42" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a7b4e6fc8123bfced35f20ee875abc047" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::os::ReadOnlySharedInfo::firstVersionMinor</definition>
+        <argsstring></argsstring>
+        <name>firstVersionMinor</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstVersionMinor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="43" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1abe6114398e60ab52e1a3095ca177dd44" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::os::ReadOnlySharedInfo::firstVersionMajor</definition>
+        <argsstring></argsstring>
+        <name>firstVersionMajor</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstVersionMajor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="44" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a19e1d5112b5ed87dbb70d1c6f729488e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::ReadOnlySharedInfo::firstCoreVersion</definition>
+        <argsstring></argsstring>
+        <name>firstCoreVersion</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstCoreVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="45" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1os_1_1_read_only_shared_info_1a01d7479c08de6fae9cf6f79c7cc2d0e2" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::os::ReadOnlySharedInfo::firstRevision</definition>
+        <argsstring></argsstring>
+        <name>firstRevision</name>
+        <qualifiedname>nn::os::ReadOnlySharedInfo::firstRevision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="46" column="15" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::os::FlagsEnum4&lt; Flags &gt;</label>
+        <link refid="structnn_1_1os_1_1_flags_enum4"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; Flags &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::FlagsEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::os::FlagsEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+      </node>
+      <node id="4">
+        <label>nn::os::FlagsEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1os_1_1_flags_enum4"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::FlagsEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+      </node>
+      <node id="1">
+        <label>nn::os::ReadOnlySharedInfo</label>
+        <link refid="structnn_1_1os_1_1_read_only_shared_info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>flags</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_SharedInfo.h" line="12" column="1" bodyfile="lib/CtrSDK/include/nn/os/os_SharedInfo.h" bodystart="13" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1ad772956770a48994bef420407125d60e" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>bootEnv</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1af57227b0835e8c0179503eefb10a88e3" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>coreVersion</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1ad6304f6988cc039554a92a6e8a75f220" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>deviceEnv</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a19e1d5112b5ed87dbb70d1c6f729488e" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstCoreVersion</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a14023f615e24478a41bcc5c214e95f7e" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstMainBootProgram</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a01d7479c08de6fae9cf6f79c7cc2d0e2" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstRevision</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1abe6114398e60ab52e1a3095ca177dd44" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstVersionMajor</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a65c96671bc18e95aeca1ec69c6ccdb7f" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstVersionMicro</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a7b4e6fc8123bfced35f20ee875abc047" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstVersionMinor</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a133397514bdd4ca12669e12adf8d9063" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>firstVersionReserve</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a34a49ad5bf1fe5a6318228b1a7d3e866" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>flags</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbda" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>Flags</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbdaadc9cc10e74b86c09943e5ac62dd88543" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>FLAGS_MAX_BITS</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a20047801978f48a3e2269c11a926bbdaa4683c403676dda1cb29b70755028a16b" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>FLAGS_SAVE_MODE</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a728895456df49edc99b5044a2b5b0fa6" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>kParamAck</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a9f5302811428bb69894a6adf3037f8ee" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>kParamCurrent</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1ab1716f51060a328dc4bc42a949380cd1" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>kParamValues</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a14992b84e04ec39b6994bcd1534d94a3" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>previousMode</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a4c0c6e8798f097a8d8a703fcca24e23d" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>revision</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a2f509dfecd16a0243d0dc98808e3190b" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>unk</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1ae3eb0df0e23a7ac30ee623e41ad4c7bb" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>unk1</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1ab9d079e9183cf4e32a8bdd98b8cd7f00" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>versionMajor</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a5159f784d9edafda3f3e8053d5bfc961" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>versionMicro</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a3e9e2ffbfd41357e60efebde6e88c855" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>versionMinor</name></member>
+      <member refid="structnn_1_1os_1_1_read_only_shared_info_1a248205140872353999f7890c1518bc24" prot="public" virt="non-virtual"><scope>nn::os::ReadOnlySharedInfo</scope><name>versionReserve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

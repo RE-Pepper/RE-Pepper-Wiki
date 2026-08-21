@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="rvct__stdio_8cpp" kind="file" language="C++">
+    <compoundname>rvct_stdio.cpp</compoundname>
+    <includes local="no">cstring</includes>
+    <includes refid="assert_8h" local="no">nn/assert.h</includes>
+    <includes refid="os___thread_local_region_8h" local="no">nn/os/CTR/os_ThreadLocalRegion.h</includes>
+    <includes local="no">rt_misc.h</includes>
+    <includes local="no">rt_sys.h</includes>
+    <includes local="no">typeinfo</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="6">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="3">
+        <label>nn/assert.h</label>
+        <link refid="assert_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn/dbg/dbg_Break.h</label>
+        <link refid="dbg___break_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn/dbg/dbg_DebugString.h</label>
+        <link refid="dbg___debug_string_8h"/>
+      </node>
+      <node id="7">
+        <label>nn/dbg/dbg_Enum.h</label>
+        <link refid="dbg___enum_8h"/>
+      </node>
+      <node id="9">
+        <label>nn/os/CTR/os_ThreadLocalRegion.h</label>
+        <link refid="os___thread_local_region_8h"/>
+      </node>
+      <node id="1">
+        <label>rvct_stdio.cpp</label>
+        <link refid="rvct__stdio_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstring</label>
+      </node>
+      <node id="10">
+        <label>rt_misc.h</label>
+      </node>
+      <node id="11">
+        <label>rt_sys.h</label>
+      </node>
+      <node id="12">
+        <label>typeinfo</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="rvct__stdio_8cpp_1af22c7441fa06a96dfdf200451b1e2b54" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char __stdin_name[]</definition>
+        <argsstring>[]</argsstring>
+        <name>__stdin_name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="9" column="12" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rvct__stdio_8cpp_1ae5bf6f2e974d15a9aff12176856f0469" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char __stdout_name[]</definition>
+        <argsstring>[]</argsstring>
+        <name>__stdout_name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="10" column="12" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="rvct__stdio_8cpp_1ac6078c57807dde61d6f7cc95d2c71ab9" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char __stderr_name[]</definition>
+        <argsstring>[]</argsstring>
+        <name>__stderr_name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="11" column="12" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="rvct__stdio_8cpp_1af0ce7035c7512c42a62da0cb0028d230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FILEHANDLE</type>
+        <definition>FILEHANDLE _sys_open</definition>
+        <argsstring>(const char *name, int openmode)</argsstring>
+        <name>_sys_open</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>openmode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="13" column="12" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1a348549fc916e4d2666c7d9e7580c4f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _sys_close</definition>
+        <argsstring>(FILEHANDLE fh)</argsstring>
+        <name>_sys_close</name>
+        <param>
+          <type>FILEHANDLE</type>
+          <declname>fh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="17" column="5" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1abedcad71350d93fe826e72b6f769c785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _sys_write</definition>
+        <argsstring>(FILEHANDLE fh, const unsigned char *buf, unsigned int len, int mode)</argsstring>
+        <name>_sys_write</name>
+        <param>
+          <type>FILEHANDLE</type>
+          <declname>fh</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="21" column="5" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1a9713b13fd2292979ab8355fea04423f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _sys_read</definition>
+        <argsstring>(FILEHANDLE fh, unsigned char *buf, unsigned int len, int mode)</argsstring>
+        <name>_sys_read</name>
+        <param>
+          <type>FILEHANDLE</type>
+          <declname>fh</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="25" column="5" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1aa920eba5f1470d4495ebe4ff5155515e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _sys_istty</definition>
+        <argsstring>(FILEHANDLE fh)</argsstring>
+        <name>_sys_istty</name>
+        <param>
+          <type>FILEHANDLE</type>
+          <declname>fh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="29" column="5" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1a12ffecb538b9f6ffb8843c02ee7dddfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _sys_seek</definition>
+        <argsstring>(FILEHANDLE fh, long pos)</argsstring>
+        <name>_sys_seek</name>
+        <param>
+          <type>FILEHANDLE</type>
+          <declname>fh</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="33" column="5" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1ae6926bca4a343745cf05da8e303974bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long _sys_flen</definition>
+        <argsstring>(FILEHANDLE fh)</argsstring>
+        <name>_sys_flen</name>
+        <param>
+          <type>FILEHANDLE</type>
+          <declname>fh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="38" column="6" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1afed67bce10bdfa3b1abcb05306b5d293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __rt_raise</definition>
+        <argsstring>(int sig, int type)</argsstring>
+        <name>__rt_raise</name>
+        <param>
+          <type>int</type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="43" column="6" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1ac54f53dc342019e8db34f4aa581a5792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void abort</definition>
+        <argsstring>()</argsstring>
+        <name>abort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="48" column="6" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="48" bodyend="51"/>
+        <references refid="assert_8h_1aca7bdd5d1204fb19edb3231caf965ec3" compoundref="assert_8h" startline="35" endline="39">NN_PANIC_SDK</references>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1a1c69157be94f45c1333897655a3d0527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __aeabi_atexit</definition>
+        <argsstring>(void *object, void(*destructor)(void *), void *dso_handle)</argsstring>
+        <name>__aeabi_atexit</name>
+        <param>
+          <type>void *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>void(*)(void *)</type>
+          <declname>destructor</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dso_handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="53" column="6" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1a981a17d82fd702df784a538d47bbedb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __rt_div0</definition>
+        <argsstring>()</argsstring>
+        <name>__rt_div0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="58" column="6" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="rvct__stdio_8cpp_1af1590b86db46883a5b32a1b87df8f50e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void **</type>
+        <definition>void ** __rt_eh_globals_addr</definition>
+        <argsstring>()</argsstring>
+        <name>__rt_eh_globals_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" line="63" column="6" bodyfile="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp" bodystart="63" bodyend="66"/>
+        <references refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" compoundref="os___thread_local_region_8h" startline="13">nn::os::CTR::ThreadLocalRegion::ehGlobalsAddr</references>
+        <references refid="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" compoundref="os___thread_local_region_8h" startline="21" endline="26">nn::os::CTR::GetThreadLocalRegion</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="assert_8h" kindref="compound">nn/assert.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___thread_local_region_8h" kindref="compound">nn/os/CTR/os_ThreadLocalRegion.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;rt_misc.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;rt_sys.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;typeinfo&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="rvct__stdio_8cpp_1af22c7441fa06a96dfdf200451b1e2b54" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1af22c7441fa06a96dfdf200451b1e2b54" kindref="member">__stdin_name</ref>[]<sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="rvct__stdio_8cpp_1ae5bf6f2e974d15a9aff12176856f0469" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1ae5bf6f2e974d15a9aff12176856f0469" kindref="member">__stdout_name</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11" refid="rvct__stdio_8cpp_1ac6078c57807dde61d6f7cc95d2c71ab9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1ac6078c57807dde61d6f7cc95d2c71ab9" kindref="member">__stderr_name</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="rvct__stdio_8cpp_1af0ce7035c7512c42a62da0cb0028d230" refkind="member"><highlight class="normal">FILEHANDLE<sp/><ref refid="rvct__stdio_8cpp_1af0ce7035c7512c42a62da0cb0028d230" kindref="member">_sys_open</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>openmode)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>39</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="rvct__stdio_8cpp_1a348549fc916e4d2666c7d9e7580c4f1c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1a348549fc916e4d2666c7d9e7580c4f1c" kindref="member">_sys_close</ref>(FILEHANDLE<sp/>fh)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="rvct__stdio_8cpp_1abedcad71350d93fe826e72b6f769c785" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1abedcad71350d93fe826e72b6f769c785" kindref="member">_sys_write</ref>(FILEHANDLE<sp/>fh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>buf,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>41</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="rvct__stdio_8cpp_1a9713b13fd2292979ab8355fea04423f9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1a9713b13fd2292979ab8355fea04423f9" kindref="member">_sys_read</ref>(FILEHANDLE<sp/>fh,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>buf,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>len;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>42</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="rvct__stdio_8cpp_1aa920eba5f1470d4495ebe4ff5155515e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1aa920eba5f1470d4495ebe4ff5155515e" kindref="member">_sys_istty</ref>(FILEHANDLE<sp/>fh)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>44</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="rvct__stdio_8cpp_1a12ffecb538b9f6ffb8843c02ee7dddfd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1a12ffecb538b9f6ffb8843c02ee7dddfd" kindref="member">_sys_seek</ref>(FILEHANDLE<sp/>fh,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>pos)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>45</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="rvct__stdio_8cpp_1ae6926bca4a343745cf05da8e303974bc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1ae6926bca4a343745cf05da8e303974bc" kindref="member">_sys_flen</ref>(FILEHANDLE<sp/>fh)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>47</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="rvct__stdio_8cpp_1afed67bce10bdfa3b1abcb05306b5d293" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1afed67bce10bdfa3b1abcb05306b5d293" kindref="member">__rt_raise</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sig,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type)<sp/></highlight><highlight class="comment">//<sp/>55</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="rvct__stdio_8cpp_1ac54f53dc342019e8db34f4aa581a5792" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1ac54f53dc342019e8db34f4aa581a5792" kindref="member">abort</ref>()<sp/></highlight><highlight class="comment">//<sp/>58</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="assert_8h_1aca7bdd5d1204fb19edb3231caf965ec3" kindref="member">NN_PANIC_SDK</ref>(</highlight><highlight class="stringliteral">&quot;abort()<sp/>called\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="rvct__stdio_8cpp_1a1c69157be94f45c1333897655a3d0527" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1a1c69157be94f45c1333897655a3d0527" kindref="member">__aeabi_atexit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*destructor)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>dso_handle)<sp/></highlight><highlight class="comment">//<sp/>67</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="rvct__stdio_8cpp_1a981a17d82fd702df784a538d47bbedb9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="rvct__stdio_8cpp_1a981a17d82fd702df784a538d47bbedb9" kindref="member">__rt_div0</ref>()<sp/></highlight><highlight class="comment">//<sp/>71</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="rvct__stdio_8cpp_1af1590b86db46883a5b32a1b87df8f50e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/><ref refid="rvct__stdio_8cpp_1af1590b86db46883a5b32a1b87df8f50e" kindref="member">__rt_eh_globals_addr</ref>()<sp/></highlight><highlight class="comment">//<sp/>74</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;<ref refid="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" kindref="member">nn::os::CTR::GetThreadLocalRegion</ref>()-&gt;<ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" kindref="member">ehGlobalsAddr</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="namespacestd" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>type_info::operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>type_info&amp;<sp/>rhs)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="70"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::strcmp(this-&gt;name(),<sp/>rhs.name())<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>type_info::operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>type_info&amp;<sp/>rhs)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="74"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::strcmp(this-&gt;name(),<sp/>rhs.name())<sp/>!=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>type_info::before(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>type_info&amp;<sp/>rhs)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="78"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::strcmp(this-&gt;name(),<sp/>rhs.name())<sp/>&lt;<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>std</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/rtport/rvct/rvct_stdio.cpp"/>
+  </compounddef>
+</doxygen>

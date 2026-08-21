@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File ItemHolder.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-itemholderh">File ItemHolder.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_70d69dea5d1e5ae3147e3b96d60a7ce1/"><strong>backup</strong></a> <strong>&gt;</strong> <a href="../dir_e05fb92cc301336445c4f62f6c4f58b8/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_2096800ae80e9b320e335490a6d8aa70/"><strong>MapObj</strong></a> <strong>&gt;</strong> <a href="../_item_holder_8h/"><strong>ItemHolder.h</strong></a></p>
+<p><a href="../_item_holder_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;Scene/alISceneObj.h&gt;
+#include &lt;container/seadPtrArray.h&gt;
+
+namespace al
+{
+class LiveActor;
+}
+class CoinCharger;
+
+class ItemHolder : public al::ISceneObj
+{
+private:
+        sead::PtrArray&lt;al::LiveActor&gt;* mCoins;
+        sead::PtrArray&lt;al::LiveActor&gt;* mCountUpCoins;
+        sead::PtrArray&lt;al::LiveActor&gt;* mFireFlowers;
+        sead::PtrArray&lt;al::LiveActor&gt;* mKinokoOneUps;
+        sead::PtrArray&lt;al::LiveActor&gt;* mFastKinokoOneUps;
+        sead::PtrArray&lt;al::LiveActor&gt;* mKinokoPoisons;
+        sead::PtrArray&lt;al::LiveActor&gt;* mFastKinokoPoisons;
+        sead::PtrArray&lt;al::LiveActor&gt;* mKinokos;
+        sead::PtrArray&lt;al::LiveActor&gt;* mFastKinokos;
+        sead::PtrArray&lt;al::LiveActor&gt;* mBoomerangFlowers;
+        sead::PtrArray&lt;al::LiveActor&gt;* mPatapataWings;
+        sead::PtrArray&lt;al::LiveActor&gt;* mAssistItems;
+        sead::PtrArray&lt;al::LiveActor&gt;* mSuperLeaves;
+        sead::PtrArray&lt;al::LiveActor&gt;* mSpecialSuperLeaves;
+        sead::PtrArray&lt;al::LiveActor&gt;* mSuperStars;
+        sead::PtrArray&lt;al::LiveActor&gt;* mClocks;
+        sead::PtrArray&lt;al::LiveActor&gt;* mCollectCoins;
+        sead::PtrArray&lt;al::LiveActor&gt;* mKickKouras;
+        CoinCharger*                   mCoinCharger;
+        void*                          _50;
+        void*                          _54;
+        void*                          _58;
+
+public:
+        void initCoinCharger( const al::LayoutInitInfo&amp; info );
+
+        virtual const char* getSceneObjName() const
+        {
+                return &quot;ItemHolder&quot;;
+        }
+
+public:
+        ItemHolder( int, int, int );
+};
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

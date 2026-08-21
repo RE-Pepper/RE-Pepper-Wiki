@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fnd::detail::NNSiFndExpMBlockList</compoundname>
+    <includes refid="fnd___detail_heap_head_8h" local="no">fnd_DetailHeapHead.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a1d5759b509f3cf299690ed80be2f3641" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref> *</type>
+        <definition>NNSiFndExpHeapMBlockHead* nn::fnd::detail::NNSiFndExpMBlockList::head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <qualifiedname>nn::fnd::detail::NNSiFndExpMBlockList::head</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="35" column="34" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a0f59261f596335fb1eaddb40e6503900" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head" kindref="compound">NNSiFndExpHeapMBlockHead</ref> *</type>
+        <definition>NNSiFndExpHeapMBlockHead* nn::fnd::detail::NNSiFndExpMBlockList::tail</definition>
+        <argsstring></argsstring>
+        <name>tail</name>
+        <qualifiedname>nn::fnd::detail::NNSiFndExpMBlockList::tail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="36" column="34" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::fnd::detail::NNSiFndExpHeapMBlockHead</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_heap_m_block_head"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pMBHeadBext</edgelabel>
+          <edgelabel>pMBHeadPrev</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fnd::detail::NNSiFndExpMBlockList</label>
+        <link refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>head</edgelabel>
+          <edgelabel>tail</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" line="33" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/detail/fnd_DetailHeapHead.h" bodystart="34" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a1d5759b509f3cf299690ed80be2f3641" prot="public" virt="non-virtual"><scope>nn::fnd::detail::NNSiFndExpMBlockList</scope><name>head</name></member>
+      <member refid="structnn_1_1fnd_1_1detail_1_1_n_n_si_fnd_exp_m_block_list_1a0f59261f596335fb1eaddb40e6503900" prot="public" virt="non-virtual"><scope>nn::fnd::detail::NNSiFndExpMBlockList</scope><name>tail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

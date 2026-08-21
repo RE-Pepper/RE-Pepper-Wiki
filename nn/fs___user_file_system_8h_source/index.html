@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File fs_UserFileSystem.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-fs_userfilesystemh">File fs_UserFileSystem.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_5853bd49094b28a7d349f2c46e9e7b6c/"><strong>CTR</strong></a> <strong>&gt;</strong> <a href="../dir_0282a2f8222a067606e59c7197458110/"><strong>MPCore</strong></a> <strong>&gt;</strong> <a href="../fs___user_file_system_8h/"><strong>fs_UserFileSystem.h</strong></a></p>
+<p><a href="../fs___user_file_system_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/Handle.h&gt;
+#include &lt;nn/Result.h&gt;
+#include &lt;nn/fslow/fslow_Path.h&gt;
+
+namespace nn {
+namespace fs {
+namespace CTR {
+namespace MPCore {
+
+typedef nn::fslow::LowPath&lt;const char*, const wchar_t*&gt; Path; // 34
+
+namespace detail {
+
+class UserFileSystem
+{
+public:
+        static Result Initialize (Handle handle);
+        static void   Finalize ();
+        static void** OpenDirect (Handle handle);
+        static void   OpenDirect (void*);
+        static Handle GetFileHandle (void*);
+        static void   DetachHandle (void*);
+        static Result DuplicateHandleForFile (Handle* pOut, void*, s64, s64);
+        static Result TryOpenFile (void**, const wchar_t*, bit32);
+        static void   CloseFile (void* p);
+        static Result TryReadFile (s32*, void*, s64, void*, size_t);
+        static Result TryWriteFile (s32*, void*, s64, const void*, size_t, bool);
+        static Result TryGetFileSize (s64*, const void*);
+        static Result TrySetFileSize (void*, s64);
+        static Result TryFlush (void*);
+        static Result TryOpenDirectory (void**, const wchar_t*);
+        static void   CloseDirectory (void*);
+        static Result TryReadDirectory (s32*, void*, class DirectoryEntry*, s32);
+        static Result TryDeleteFile (const wchar_t*);
+        static Result TryRenameFile (const wchar_t*, const wchar_t*);
+        static Result TryDeleteDirectory (const wchar_t*);
+        static Result TryDeleteDirectoryRecursively (const wchar_t*);
+        static Result TryCreateFile (const wchar_t*, s64);
+        static Result TryCreateDirectory (const wchar_t*);
+        static Result TryRenameDirectory (const wchar_t*, const wchar_t*);
+        static Result TryOpenFileRaw (void**, ArchiveHandle, const Path&amp;, bit32);
+        static Result TryOpenFileRawDirectly (void**, bit32, const Path&amp;, const Path&amp;, bit32);
+        static Result TryOpenDirectoryRaw (void**, ArchiveHandle, const Path&amp;);
+        static Result TryDeleteFileRaw (ArchiveHandle, const Path&amp;);
+        static Result TryRenameFileRaw (ArchiveHandle, const Path&amp;, ArchiveHandle, const Path&amp;);
+        static Result TryDeleteDirectoryRaw (ArchiveHandle, const Path&amp;);
+        static Result TryDeleteDirectoryRecursivelyRaw (ArchiveHandle, const Path&amp;);
+        static Result TryCreateDirectoryRaw (ArchiveHandle, const Path&amp;);
+        static Result TryRenameDirectoryRaw (ArchiveHandle, const Path&amp;, ArchiveHandle, const Path&amp;);
+};
+
+} // namespace detail
+} // namespace MPCore
+} // namespace CTR
+
+namespace detail {
+
+// TODO: This cant be right being here.
+void ForceDisableLatencyEmulation ();
+
+} // namespace detail
+
+} // namespace fs
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

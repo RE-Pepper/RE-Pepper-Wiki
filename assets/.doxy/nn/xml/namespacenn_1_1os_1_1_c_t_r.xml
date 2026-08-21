@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1os_1_1_c_t_r" kind="namespace" language="C++">
+    <compoundname>nn::os::CTR</compoundname>
+    <innerclass refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" prot="public">nn::os::CTR::ThreadLocalRegion</innerclass>
+    <innernamespace refid="namespacenn_1_1os_1_1_c_t_r_1_1detail">nn::os::CTR::detail</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CTR::SetupThreadCppExceptionEnvironment</definition>
+        <argsstring>()</argsstring>
+        <name>SetupThreadCppExceptionEnvironment</name>
+        <qualifiedname>nn::os::CTR::SetupThreadCppExceptionEnvironment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="46" column="6" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="46" bodyend="63" declfile="lib/CtrSDK/include/nn/os/CTR/os_CppException.h" declline="7" declcolumn="6"/>
+        <references refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1affeb90883528fdd165669df868b0d826" compoundref="os___thread_local_region_8h" startline="14">nn::os::CTR::ThreadLocalRegion::ehGlobals</references>
+        <references refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region_1a1ce4ccc7ccc434aa3e9ec66b9b5620fc" compoundref="os___thread_local_region_8h" startline="13">nn::os::CTR::ThreadLocalRegion::ehGlobalsAddr</references>
+        <references refid="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" compoundref="os___thread_local_region_8h" startline="21" endline="26">GetThreadLocalRegion</references>
+        <referencedby refid="namespacenn_1_1os_1_1detail_1a45068d00a859dcaa16909a6ff3b8deea" compoundref="os___thread_8cpp" startline="41" endline="46">nn::os::detail::InitializeThreadEnvrionment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1aba5747d3217c7d7a6a159bb6fb3e184d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1os_1_1_c_t_r_1_1_thread_local_region" kindref="compound">ThreadLocalRegion</ref> *</type>
+        <definition>ThreadLocalRegion * nn::os::CTR::GetThreadLocalRegion</definition>
+        <argsstring>()</argsstring>
+        <name>GetThreadLocalRegion</name>
+        <qualifiedname>nn::os::CTR::GetThreadLocalRegion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" line="21" column="26" bodyfile="lib/CtrSDK/include/nn/os/CTR/os_ThreadLocalRegion.h" bodystart="21" bodyend="26"/>
+        <referencedby refid="rvct__stdio_8cpp_1af1590b86db46883a5b32a1b87df8f50e" compoundref="rvct__stdio_8cpp" startline="63" endline="66">__rt_eh_globals_addr</referencedby>
+        <referencedby refid="namespacenn_1_1os_1_1_c_t_r_1a139bb059c32850da31029ca0a66171da" compoundref="os___cpp_exception_8cpp" startline="46" endline="63">SetupThreadCppExceptionEnvironment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1a35b0b9d1425424dcef60617816edd676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CTR::force_func_section</definition>
+        <argsstring>(_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f23DefaultTerminateHandlerEv) DefaultTerminateHandler()</argsstring>
+        <name>force_func_section</name>
+        <qualifiedname>nn::os::CTR::force_func_section</qualifiedname>
+        <param>
+          <type>_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f23DefaultTerminateHandlerEv</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="36" column="6" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1ab84b98bfbc763f89312a9c928746d0cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CTR::force_func_section</definition>
+        <argsstring>(_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f24DefaultUnexpectedHandlerEv) DefaultUnexpectedHandler()</argsstring>
+        <name>force_func_section</name>
+        <qualifiedname>nn::os::CTR::force_func_section</qualifiedname>
+        <param>
+          <type>_ZN2nn2os3CTR43_GLOBAL__N__19_os_CppException_cpp_0201818f24DefaultUnexpectedHandlerEv</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" line="41" column="6" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_CppException.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_CppException.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

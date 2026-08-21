@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fnd_1_1_a_r_mv6" kind="namespace" language="C++">
+    <compoundname>nn::fnd::ARMv6</compoundname>
+    <innerclass refid="classnn_1_1fnd_1_1_a_r_mv6_1_1_interlocked" prot="public">nn::fnd::ARMv6::Interlocked</innerclass>
+    <innernamespace refid="namespacenn_1_1fnd_1_1_a_r_mv6_1_1detail">nn::fnd::ARMv6::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_flags_enum4" kind="struct" language="C++" prot="public">
+    <compoundname>nn::os::FlagsEnum4</compoundname>
+    <basecompoundref refid="classnn_1_1os_1_1_flags_enum" prot="public" virt="non-virtual">nn::os::FlagsEnum&lt; bit32, V &gt;</basecompoundref>
+    <includes refid="util___flags_enum_8h" local="no">util_FlagsEnum.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1os_1_1_flags_enum4_1a517d8ea17fa36427bf1f3092aed8d517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::FlagsEnum4&lt; V &gt;::FlagsEnum4</definition>
+        <argsstring>()</argsstring>
+        <name>FlagsEnum4</name>
+        <qualifiedname>nn::os::FlagsEnum4::FlagsEnum4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_FlagsEnum.h" line="38" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_FlagsEnum.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_flags_enum4_1a531cc63a55c83bcba94889ac14eb6784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::FlagsEnum4&lt; V &gt;::FlagsEnum4</definition>
+        <argsstring>(V e)</argsstring>
+        <name>FlagsEnum4</name>
+        <qualifiedname>nn::os::FlagsEnum4::FlagsEnum4</qualifiedname>
+        <param>
+          <type>V</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_FlagsEnum.h" line="39" column="9" bodyfile="lib/CtrSDK/include/nn/util/util_FlagsEnum.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>nn::os::FlagsEnum4&lt; Flags &gt;</label>
+        <link refid="structnn_1_1os_1_1_flags_enum4"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; Flags &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::FlagsEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::FlagsEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+      </node>
+      <node id="1">
+        <label>nn::os::FlagsEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1os_1_1_flags_enum4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::os::FlagsEnum&lt; bit32, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; bit32, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::FlagsEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1os_1_1_flags_enum"/>
+      </node>
+      <node id="1">
+        <label>nn::os::FlagsEnum4&lt; V &gt;</label>
+        <link refid="structnn_1_1os_1_1_flags_enum4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/util/util_FlagsEnum.h" line="36" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_FlagsEnum.h" bodystart="37" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_flags_enum_1ab71d9ec7088feb23f98123aaf3ec3c1d" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>FlagsEnum</name></member>
+      <member refid="classnn_1_1os_1_1_flags_enum_1aaf4ddc0f3595a5b963d7415f3d00ec7e" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>FlagsEnum</name></member>
+      <member refid="classnn_1_1os_1_1_flags_enum_1ac2b0f2ef6e2b5c96cd73f9c973c4d182" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>FlagsEnum</name></member>
+      <member refid="structnn_1_1os_1_1_flags_enum4_1a517d8ea17fa36427bf1f3092aed8d517" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>FlagsEnum4</name></member>
+      <member refid="structnn_1_1os_1_1_flags_enum4_1a531cc63a55c83bcba94889ac14eb6784" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>FlagsEnum4</name></member>
+      <member refid="classnn_1_1os_1_1_flags_enum_1ad189d1645c6ac3475dbd40dc2c0b6785" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>Get</name></member>
+      <member refid="classnn_1_1os_1_1_flags_enum_1a0e8fe5da2e960b0634ce7c91b5bf84d9" prot="private" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>m_FlagsValue</name></member>
+      <member refid="classnn_1_1os_1_1_flags_enum_1af199b720b51c3fb929c4a6cd0f1dd28b" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>operator bit32</name></member>
+      <member refid="classnn_1_1os_1_1_flags_enum_1ac48f10393544d7178252c5a636f40257" prot="public" virt="non-virtual"><scope>nn::os::FlagsEnum4</scope><name>Set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

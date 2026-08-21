@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Struct al::KCollisionHeader - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="struct-alkcollisionheader">Struct al::KCollisionHeader</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespaceal/"><strong>al</strong></a> <strong>&gt;</strong> <a href="./"><strong>KCollisionHeader</strong></a></p>
+<ul>
+<li><code>#include &lt;alKCollisionServer.h&gt;</code></li>
+</ul>
+<h2 id="public-attributes">Public Attributes</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>union</strong></a> <a href="./"><strong>al::KCollisionHeader</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kcollisionheader-14"><strong>KCollisionHeader</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>union</strong></a> <a href="./"><strong>al::KCollisionHeader</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kcollisionheader-24"><strong>KCollisionHeader</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>union</strong></a> <a href="./"><strong>al::KCollisionHeader</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kcollisionheader-34"><strong>KCollisionHeader</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>union</strong></a> <a href="./"><strong>al::KCollisionHeader</strong></a></td>
+<td style="text-align: left;"><a href="#variable-kcollisionheader-44"><strong>KCollisionHeader</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-normalsoffset"><strong>normalsOffset</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a> *</td>
+<td style="text-align: left;"><a href="#variable-normalssection"><strong>normalsSection</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-spatialindicesoffset"><strong>spatialIndicesOffset</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a> *</td>
+<td style="text-align: left;"><a href="#variable-spatialindicessection"><strong>spatialIndicesSection</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-trianglesoffset"><strong>trianglesOffset</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a> *</td>
+<td style="text-align: left;"><a href="#variable-trianglessection"><strong>trianglesSection</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>u32</strong></a></td>
+<td style="text-align: left;"><a href="#variable-verticesoffset"><strong>verticesOffset</strong></a>  <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a> *</td>
+<td style="text-align: left;"><a href="#variable-verticessection"><strong>verticesSection</strong></a>  <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-static-functions">Public Static Functions</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><a href="./"><strong>KCollisionHeader</strong></a> *</td>
+<td style="text-align: left;"><a href="#function-fromdata"><strong>fromData</strong></a> (<a href="../classal_1_1_functor_v0_m/"><strong>void</strong></a> * data) <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="public-attributes-documentation">Public Attributes Documentation</h2>
+<h3 id="variable-kcollisionheader-14">variable KCollisionHeader [1/4]</h3>
+<pre><code class="language-C++">union al::KCollisionHeader al::KCollisionHeader;
+</code></pre>
+<hr>
+
+<h3 id="variable-kcollisionheader-24">variable KCollisionHeader [2/4]</h3>
+<pre><code class="language-C++">union al::KCollisionHeader al::KCollisionHeader;
+</code></pre>
+<hr>
+
+<h3 id="variable-kcollisionheader-34">variable KCollisionHeader [3/4]</h3>
+<pre><code class="language-C++">union al::KCollisionHeader al::KCollisionHeader;
+</code></pre>
+<hr>
+
+<h3 id="variable-kcollisionheader-44">variable KCollisionHeader [4/4]</h3>
+<pre><code class="language-C++">union al::KCollisionHeader al::KCollisionHeader;
+</code></pre>
+<hr>
+
+<h3 id="variable-normalsoffset">variable normalsOffset</h3>
+<pre><code class="language-C++">u32 al::KCollisionHeader::normalsOffset;
+</code></pre>
+<hr>
+
+<h3 id="variable-normalssection">variable normalsSection</h3>
+<pre><code class="language-C++">void* al::KCollisionHeader::normalsSection;
+</code></pre>
+<hr>
+
+<h3 id="variable-spatialindicesoffset">variable spatialIndicesOffset</h3>
+<pre><code class="language-C++">u32 al::KCollisionHeader::spatialIndicesOffset;
+</code></pre>
+<hr>
+
+<h3 id="variable-spatialindicessection">variable spatialIndicesSection</h3>
+<pre><code class="language-C++">void* al::KCollisionHeader::spatialIndicesSection;
+</code></pre>
+<hr>
+
+<h3 id="variable-trianglesoffset">variable trianglesOffset</h3>
+<pre><code class="language-C++">u32 al::KCollisionHeader::trianglesOffset;
+</code></pre>
+<hr>
+
+<h3 id="variable-trianglessection">variable trianglesSection</h3>
+<pre><code class="language-C++">void* al::KCollisionHeader::trianglesSection;
+</code></pre>
+<hr>
+
+<h3 id="variable-verticesoffset">variable verticesOffset</h3>
+<pre><code class="language-C++">u32 al::KCollisionHeader::verticesOffset;
+</code></pre>
+<hr>
+
+<h3 id="variable-verticessection">variable verticesSection</h3>
+<pre><code class="language-C++">void* al::KCollisionHeader::verticesSection;
+</code></pre>
+<hr>
+<h2 id="public-static-functions-documentation">Public Static Functions Documentation</h2>
+<h3 id="function-fromdata">function fromData</h3>
+<pre><code class="language-C++">static inline KCollisionHeader * al::KCollisionHeader::fromData (
+    void * data
+) 
+</code></pre>
+<hr>
+
+<hr />
+<p>The documentation for this class was generated from the following file <code>/home/runner/work/RE-Pepper/RE-Pepper/lib/al/include/Collision/alKCollisionServer.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

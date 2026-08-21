@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::CameraPositionCalData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <innerclass refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags" prot="public">nn::cfg::CTR::detail::CameraPositionCalData::Flags</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1af7733b567284ae085c12d82a59bbd24e" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags" kindref="compound">nn::cfg::CTR::detail::CameraPositionCalData::Flags</ref></type>
+        <definition>struct nn::cfg::CTR::detail::CameraPositionCalData::Flags nn::cfg::CTR::detail::CameraPositionCalData::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::flags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="89" column="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a95130714946cbd7e1cd799719f1da4be" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::scale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="91" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a103c2c99a6963919235ae78dad618b44" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::rotationZ</definition>
+        <argsstring></argsstring>
+        <name>rotationZ</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::rotationZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="92" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a0592af7ecacb138fb99a7ac9c561f32f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::translationX</definition>
+        <argsstring></argsstring>
+        <name>translationX</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::translationX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="93" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a26185cae97f6a30e63d9d76a0c6231eb" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::translationY</definition>
+        <argsstring></argsstring>
+        <name>translationY</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::translationY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="94" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1ae320bed2b36c3d9323325ff3a53aa362" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::rotationX</definition>
+        <argsstring></argsstring>
+        <name>rotationX</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::rotationX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="95" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1aa9b5475077e1af359017f1f6d9900ba0" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::rotationY</definition>
+        <argsstring></argsstring>
+        <name>rotationY</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::rotationY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="96" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1acc57082fa6164602bcb374a8af0fd62e" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::angleOfViewRight</definition>
+        <argsstring></argsstring>
+        <name>angleOfViewRight</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::angleOfViewRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="97" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1aaeb6542a895c1aef89ecd3f6bb9b0417" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::angleOfViewLeft</definition>
+        <argsstring></argsstring>
+        <name>angleOfViewLeft</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::angleOfViewLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="98" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a78f16caa546f6c018ffc7fe646e67e8f" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::distanceToChart</definition>
+        <argsstring></argsstring>
+        <name>distanceToChart</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::distanceToChart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="99" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a7370af31a848d326c952b2651ba7999b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5f6906312a689f27d70e9d086649d3fd" kindref="member">f32</ref></type>
+        <definition>f32 nn::cfg::CTR::detail::CameraPositionCalData::distanceCameras</definition>
+        <argsstring></argsstring>
+        <name>distanceCameras</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::distanceCameras</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="100" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1add90becc2363aae12fbd0673c3b9a1cb" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraPositionCalData::imageWidth</definition>
+        <argsstring></argsstring>
+        <name>imageWidth</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::imageWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="101" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1ac71c01209273ce1742e28273fee07d9b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::CameraPositionCalData::imageHeight</definition>
+        <argsstring></argsstring>
+        <name>imageHeight</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::imageHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="102" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a7f424acd72b6474a880e8605d82b106d" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1aed742c436da53c1080638ce6ef7d13de" kindref="member">u8</ref></type>
+        <definition>u8 nn::cfg::CTR::detail::CameraPositionCalData::reserved[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>reserved</name>
+        <qualifiedname>nn::cfg::CTR::detail::CameraPositionCalData::reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="103" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>nn::cfg::CTR::detail::CameraPositionCalData</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>flags</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::cfg::CTR::detail::CameraPositionCalData::Flags</label>
+        <link refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1_1_flags"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="83" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="84" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1aaeb6542a895c1aef89ecd3f6bb9b0417" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>angleOfViewLeft</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1acc57082fa6164602bcb374a8af0fd62e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>angleOfViewRight</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a7370af31a848d326c952b2651ba7999b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>distanceCameras</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a78f16caa546f6c018ffc7fe646e67e8f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>distanceToChart</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1af7733b567284ae085c12d82a59bbd24e" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>flags</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1ac71c01209273ce1742e28273fee07d9b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>imageHeight</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1add90becc2363aae12fbd0673c3b9a1cb" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>imageWidth</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a7f424acd72b6474a880e8605d82b106d" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>reserved</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1ae320bed2b36c3d9323325ff3a53aa362" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>rotationX</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1aa9b5475077e1af359017f1f6d9900ba0" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>rotationY</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a103c2c99a6963919235ae78dad618b44" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>rotationZ</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a95130714946cbd7e1cd799719f1da4be" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>scale</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a0592af7ecacb138fb99a7ac9c561f32f" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>translationX</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_camera_position_cal_data_1a26185cae97f6a30e63d9d76a0c6231eb" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::CameraPositionCalData</scope><name>translationY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

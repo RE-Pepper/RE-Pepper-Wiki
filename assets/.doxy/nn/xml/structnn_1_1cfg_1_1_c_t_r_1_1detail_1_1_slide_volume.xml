@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::SlideVolume</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume_1a4fa87e3c73c886aecf4f76098ad48da0" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::SlideVolume::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>nn::cfg::CTR::detail::SlideVolume::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="320" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume_1a042d1e854ea2d949a14dc5c210c034af" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a5ffa4f640862b25ba6d4f635b78bdbe1" kindref="member">s16</ref></type>
+        <definition>s16 nn::cfg::CTR::detail::SlideVolume::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>nn::cfg::CTR::detail::SlideVolume::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="321" column="13" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="318" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="319" bodyend="322"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume_1a042d1e854ea2d949a14dc5c210c034af" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::SlideVolume</scope><name>max</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_slide_volume_1a4fa87e3c73c886aecf4f76098ad48da0" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::SlideVolume</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

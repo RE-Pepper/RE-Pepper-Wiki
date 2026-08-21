@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1fs_1_1detail_1_1_file_system_base_impl" kind="class" language="C++" prot="public">
+    <compoundname>nn::fs::detail::FileSystemBaseImpl</compoundname>
+    <basecompoundref refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system" prot="public" virt="non-virtual">nn::fs::CTR::MPCore::detail::UserFileSystem</basecompoundref>
+    <includes refid="fs___file_system_base_8h" local="no">fs_FileSystemBase.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>nn::fs::CTR::MPCore::detail::UserFileSystem</label>
+        <link refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system"/>
+      </node>
+      <node id="1">
+        <label>nn::fs::detail::FileSystemBaseImpl</label>
+        <link refid="classnn_1_1fs_1_1detail_1_1_file_system_base_impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::fs::CTR::MPCore::detail::UserFileSystem</label>
+        <link refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system"/>
+      </node>
+      <node id="1">
+        <label>nn::fs::detail::FileSystemBaseImpl</label>
+        <link refid="classnn_1_1fs_1_1detail_1_1_file_system_base_impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" line="9" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h" bodystart="10" bodyend="11"/>
+    <listofallmembers>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a714cc010c722f6e4bbbeff8bfe7e4d8c" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>CloseDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a07da1ae2b97d4b8ce6d66d829364ad95" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>CloseFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1accbf8dfa07f3da5c3ba1388cd2be8bb0" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>DetachHandle</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ae0e74dec9cdf082e909cb39c5a54583c" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>DuplicateHandleForFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ae7c5792e94d08749456495d02fbbdb9b" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>Finalize</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a94764b82c0a6d3cb8321a59b235727d7" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>GetFileHandle</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a059fcb51533f817f693b75e8c269fb8b" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>Initialize</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a4f060c1bcfb0f3765c6e17e4485245b1" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>OpenDirect</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1af5785eeda1d86a1056cd848d3d3ba493" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>OpenDirect</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a4ca1fb6498dbbb46ccb30ff8338ccee5" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryCreateDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a9ebd3e4730eab12e869d4bf82fe26af6" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryCreateDirectoryRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a523d3bae302c020612369c20b252bc93" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryCreateFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1afef45ff59161aa19a5bff3a92e9b1bd1" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryDeleteDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a54f2fac39e47cd48414115cd3d39df7a" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryDeleteDirectoryRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ac6d69a09dee4afd5a210242379c58f42" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryDeleteDirectoryRecursively</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ab0f79b65565dd218c448c0fe2c3e4036" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryDeleteDirectoryRecursivelyRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a421971314707a8ae63ae08364e50ff41" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryDeleteFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1af901bd6a86bdf1d9181c1192fa07b030" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryDeleteFileRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a9b02c11bcf451cde0aaf22f7f950f4f0" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryFlush</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a8f9db5e591bd0f1812de50a213f25e31" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryGetFileSize</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a77808255a7c04d805fc2fee35e55d7b3" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryOpenDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1addf2a239eae81d7c8442d747a37713f6" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryOpenDirectoryRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ac1d800a9595616e76fa521a3fecf1217" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryOpenFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a3ac90b271dbfde551b5a9415e964365f" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryOpenFileRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1af6ae29f2a8f3b6124b2c1af0a39df631" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryOpenFileRawDirectly</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a097a989560717bd68c08901ea18efa04" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryReadDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ade761239231a5108b7123a0a7799bbd4" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryReadFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ae204d7ab8697f405a64a4cf8a24c18cd" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryRenameDirectory</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a058c8b78c6c7e4bfc16846beb72bb456" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryRenameDirectoryRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1af09215ce24d8b930eba3a30549efec50" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryRenameFile</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1a2310c86a43b1df3f84107f3fa7263840" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryRenameFileRaw</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1afe7a7bea9de50d829c50af1530b776fe" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TrySetFileSize</name></member>
+      <member refid="classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system_1ae0f4896cb082b8496c8d25305e7e5208" prot="public" virt="non-virtual"><scope>nn::fs::detail::FileSystemBaseImpl</scope><name>TryWriteFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

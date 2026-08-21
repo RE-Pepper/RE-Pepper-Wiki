@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os___light_event_8cpp" kind="file" language="C++">
+    <compoundname>os_LightEvent.cpp</compoundname>
+    <includes refid="os___light_event_8h" local="no">nn/os/os_LightEvent.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>nn/Handle.h</label>
+        <link refid="_handle_8h"/>
+      </node>
+      <node id="5">
+        <label>nn/Result.h</label>
+        <link refid="_result_8h"/>
+      </node>
+      <node id="7">
+        <label>nn/fnd/ARMv6/fnd_Interlocked.h</label>
+        <link refid="_a_r_mv6_2fnd___interlocked_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn/fnd/fnd_Interlocked.h</label>
+        <link refid="fnd___interlocked_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn/os/os_LightEvent.h</label>
+        <link refid="os___light_event_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nn/os/os_MemoryTypes.h</label>
+        <link refid="os___memory_types_8h"/>
+      </node>
+      <node id="12">
+        <label>nn/os/os_SvcTypes.autogen.h</label>
+        <link refid="os___svc_types_8autogen_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>nn/os/os_Types.h</label>
+        <link refid="os___types_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn/os/os_WaitableCounter.h</label>
+        <link refid="os___waitable_counter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>nn/svc/svc_Stub.h</label>
+        <link refid="svc___stub_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>nn/util/util_NonCopyable.h</label>
+        <link refid="util___non_copyable_8h"/>
+      </node>
+      <node id="8">
+        <label>nn/util/util_TypeTraits.h</label>
+        <link refid="util___type_traits_8h"/>
+      </node>
+      <node id="1">
+        <label>os_LightEvent.cpp</label>
+        <link refid="os___light_event_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacenn">nn</innernamespace>
+    <innernamespace refid="namespacenn_1_1os">nn::os</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="os___light_event_8h" kindref="compound">nn/os/os_LightEvent.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="namespace_r_p___s_h_u_t_u_p" kindref="compound">RP_SHUTUP</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenn" kindref="compound">nn</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">os<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1aa588fca5fd99da855d3203c8b7f90831" kindref="member">LightEvent::TryWait</ref><sp/>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{<sp/></highlight><highlight class="comment">//<sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" kindref="member">RESET_UNK1</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>-&gt;<ref refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" kindref="member">CompareAndSwap</ref><sp/>(<ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>,<sp/><ref refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" kindref="member">RESET_AUTO</ref>)<sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1ad26f95cbfd6c01ac0ce0dde3cb549d5b" kindref="member">LightEvent::Wait</ref><sp/>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{<sp/></highlight><highlight class="comment">//<sp/>102</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" kindref="member">RESET_MANUAL</ref>:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>.<ref refid="classnn_1_1os_1_1_waitable_counter_1a329fc9e271f26294d1f4c5bf8448796e" kindref="member">WaitIfLessThan</ref><sp/>(0);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" kindref="member">RESET_UNK1</ref>:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" kindref="member">RESET_AUTO</ref>:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>-&gt;<ref refid="classnn_1_1fnd_1_1_interlocked_variable_1acfa67157c58f4f639ee485ef4aff6396" kindref="member">CompareAndSwap</ref><sp/>(<ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>,<sp/><ref refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" kindref="member">RESET_AUTO</ref>)<sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>.<ref refid="classnn_1_1os_1_1_waitable_counter_1a329fc9e271f26294d1f4c5bf8448796e" kindref="member">WaitIfLessThan</ref><sp/>(0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1ab8d7ba3d0170f36a0913c6c63af7881b" kindref="member">LightEvent::Signal</ref><sp/>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{<sp/></highlight><highlight class="comment">//<sp/>135</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" kindref="member">RESET_AUTO</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>=<sp/><ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>.<ref refid="classnn_1_1os_1_1_waitable_counter_1a769abafdef8faa733d7fba450370b77b" kindref="member">Signal</ref><sp/>(1);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" kindref="member">RESET_MANUAL</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>=<sp/><ref refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" kindref="member">RESET_UNK1</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref>.<ref refid="classnn_1_1os_1_1_waitable_counter_1a8e341ba28b994058d24131cb40064b2b" kindref="member">SignalAll</ref><sp/>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classnn_1_1os_1_1_light_event_1ab24c001825eea06295a9724d259d1722" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1ab24c001825eea06295a9724d259d1722" kindref="member">LightEvent::Pulse</ref><sp/>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>UNUSED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnn_1_1os_1_1_light_event_1a5138b8b56ccdfffd17357bf83f001c36" kindref="member">LightEvent::ClearSignal</ref><sp/>()</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{<sp/></highlight><highlight class="comment">//<sp/>189</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1aff56cad5c5d0bca128c247eae9ae7d23" kindref="member">RESET_UNK1</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>=<sp/><ref refid="classnn_1_1os_1_1_light_event_1ae68d7e25cf7a71320e02e274c6d65dba" kindref="member">RESET_AUTO</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>==<sp/><ref refid="classnn_1_1os_1_1_light_event_1a5ca7ba7d428d89e22654f55ace1bf05c" kindref="member">RESET_UNK0</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="classnn_1_1os_1_1_light_event_1a3d955133e06bb414b98f970bc5ecf0d3" kindref="member">m_Counter</ref><sp/>=<sp/><ref refid="classnn_1_1os_1_1_light_event_1a9dcdcc23db2c393226858b7c8039d4a2" kindref="member">RESET_MANUAL</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>os</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>nn</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/sources/libraries/os/os_LightEvent.cpp"/>
+  </compounddef>
+</doxygen>

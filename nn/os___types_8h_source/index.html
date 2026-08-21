@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File os_Types.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-os_typesh">File os_Types.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_53922fdb85244c81a863dd6ad700ec31/"><strong>os</strong></a> <strong>&gt;</strong> <a href="../os___types_8h/"><strong>os_Types.h</strong></a></p>
+<p><a href="../os___types_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+#include &lt;nn/os/os_MemoryTypes.h&gt;
+
+namespace nn {
+namespace os {
+
+enum HandleInfoType
+{
+        HANDLE_INFO_TYPE_CREATION_TIME     = 0,
+        HANDLE_INFO_TYPE_REFERENCE_COUNT   = 1,
+        HANDLE_INFO_TYPE_PARENT_PROCESS_ID = 2,
+        HANDLE_INFO_TYPE_MAX_BIT           = 2147483648,
+};
+
+enum ProcessInfoType
+{
+        PROCESS_INFO_TYPE_USING_PHYSICAL_MEMORY_SIZE       = 0,
+        PROCESS_INFO_TYPE_MAX_USING_PHYSICAL_MEMORY_SIZE   = 1,
+        PROCESS_INFO_TYPE_PRIVATE_PHYSICAL_MEMORY_SIZE     = 2,
+        PROCESS_INFO_TYPE_MAX_RPIVATE_PHYSICAL_MEMORY_SIZE = 3,
+        PROCESS_INFO_TYPE_NUM_HANDLES                      = 4,
+        PROCESS_INFO_TYPE_MAX_NUM_HANDLES                  = 5,
+        PROCESS_INFO_TYPE_NUM_CREATED_THREADS              = 6,
+        PROCESS_INFO_TYPE_NUM_THREADS                      = 7,
+        PROCESS_INFO_TYPE_MAX_NUM_THREADS                  = 8,
+        PROCESS_INFO_TYPE_CPU_TIME_SYSTEM                  = 9,
+        PROCESS_INFO_TYPE_CPU_TIME_USER                    = 10,
+        PROCESS_INFO_TYPE_CPU_TIME                         = 11,
+        PROCESS_INFO_TYPE_NUM_THREAD_SWITCH                = 12,
+        PROCESS_INFO_TYPE_NUM_FPU_SWITCH                   = 13,
+        PROCESS_INFO_TYPE_NUM_PROCESS_SWITCH               = 14,
+        PROCESS_INFO_TYPE_NUM_SYSTEM_CALL                  = 15,
+        PROCESS_INFO_TYPE_NUM_IPC                          = 16,
+        PROCESS_INFO_TYPE_UPTIME                           = 17,
+        PROCESS_INFO_TYPE_NAME                             = 18,
+        PROCESS_INFO_TYPE_REGION                           = 19,
+        PROCESS_INFO_TYPE_DEVICE_ADDRESS_OFFSET            = 20,
+        PROCESS_INFO_TYPE_WRAM_ADDRESS_OFFSET              = 21,
+        PROCESS_INFO_TYPE_WRAM_ADDRESS                     = 22,
+        PROCESS_INFO_TYPE_WRAM_SIZE                        = 23,
+        PROCESS_INFO_TYPE_MAX_BIT                          = 2147483648,
+};
+
+enum LimitableResource
+{
+        LIMITABLE_RESOURCE_MAX_PRIORITY       = 0,
+        LIMITABLE_RESOURCE_MAX_COMMIT         = 1,
+        LIMITABLE_RESOURCE_MAX_THREAD         = 2,
+        LIMITABLE_RESOURCE_MAX_EVENT          = 3,
+        LIMITABLE_RESOURCE_MAX_MUTEX          = 4,
+        LIMITABLE_RESOURCE_MAX_SEMAPHORE      = 5,
+        LIMITABLE_RESOURCE_MAX_TIMER          = 6,
+        LIMITABLE_RESOURCE_MAX_SHAREDMEMORY   = 7,
+        LIMITABLE_RESOURCE_MAX_ADDRESSARBITER = 8,
+        LIMITABLE_RESOURCE_MAX_CPUTIME        = 9,
+        LIMITABLE_RESOURCE_END                = 10,
+        LIMITABLE_RESOURCE_MAX_BIT            = 2147483648,
+};
+
+enum ResetType
+{
+        RESET_TYPE_ONESHOT = 0, 
+        RESET_TYPE_STICKY  = 1, 
+        RESET_TYPE_PULSE   = 2, 
+        RESET_TYPE_MAX_BIT = 2147483648,
+};
+
+enum ArbitrationType
+{
+        ARBITRATION_TYPE_SIGNAL                                       = 0, 
+        ARBITRATION_TYPE_WAIT_IF_LESS_THAN                            = 1, 
+        ARBITRATION_TYPE_DECREMENT_AND_WAIT_IF_LESS_THAN              = 2, 
+        ARBITRATION_TYPE_WAIT_IF_LESS_THAN_WITH_TIMEOUT               = 3, 
+        ARBITRATION_TYPE_DECREMENT_AND_WAIT_IF_LESS_THAN_WITH_TIMEOUT = 4, 
+        ARBITRATION_TYPE_MAX_BIT                                      = 2147483648,
+};
+
+} // namespace os
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

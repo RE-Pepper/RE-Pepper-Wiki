@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="util___symbol_8h" kind="file" language="C++">
+    <compoundname>util_Symbol.h</compoundname>
+    <includedby refid="module_8h" local="no">module.h</includedby>
+    <includedby refid="util___symbol_8cpp" local="no">util_Symbol.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>module.h</label>
+        <link refid="module_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>util_Symbol.h</label>
+        <link refid="util___symbol_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crt0.cpp</label>
+        <link refid="crt0_8cpp"/>
+      </node>
+      <node id="4">
+        <label>dbg_DebugString.cpp</label>
+        <link refid="dbg___debug_string_8cpp"/>
+      </node>
+      <node id="5">
+        <label>util_Symbol.cpp</label>
+        <link refid="util___symbol_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="util___symbol_8h_1a5b8bd1dad0d52ea65a2648e8a8475e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nnutilReferSymbol_</definition>
+        <argsstring>(const void *sym,...)</argsstring>
+        <name>nnutilReferSymbol_</name>
+        <param>
+          <type>const void *</type>
+          <declname>sym</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/detail/util_Symbol.h" line="7" column="6" declfile="lib/CtrSDK/include/nn/util/detail/util_Symbol.h" declline="7" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="util___symbol_8h_1a5b8bd1dad0d52ea65a2648e8a8475e8b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util___symbol_8h_1a5b8bd1dad0d52ea65a2648e8a8475e8b" kindref="member">nnutilReferSymbol_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>sym,<sp/>...);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="lib/CtrSDK/include/nn/util/detail/util_Symbol.h"/>
+  </compounddef>
+</doxygen>

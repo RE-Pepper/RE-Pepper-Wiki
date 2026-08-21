@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1fs_1_1_title_data_specifier" kind="struct" language="C++" prot="public">
+    <compoundname>nn::fs::TitleDataSpecifier</compoundname>
+    <includes refid="fs___parameters_for_system_8h" local="no">fs_ParametersForSystem.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_title_data_specifier_1a11271e14e93783315d459fc96317b270" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacenn_1_1fs_1a042b347b224d89b5e7c339e26a64d86b" kindref="member">TitleId</ref></type>
+        <definition>TitleId nn::fs::TitleDataSpecifier::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>nn::fs::TitleDataSpecifier::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="27" column="37" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fs_1_1_title_data_specifier_1a660cd28450537dfd287c7642da098d49" compoundref="fs___parameters_for_system_8h" startline="33" endline="39">Make</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_title_data_specifier_1a02384d8828795e79dd43e8c3b77e820a" prot="public" static="no" mutable="no">
+        <type><ref refid="structnn_1_1util_1_1_sized_enum1" kindref="compound">util::SizedEnum1</ref>&lt; <ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref> &gt;</type>
+        <definition>util::SizedEnum1&lt;MediaType&gt; nn::fs::TitleDataSpecifier::media</definition>
+        <argsstring></argsstring>
+        <name>media</name>
+        <qualifiedname>nn::fs::TitleDataSpecifier::media</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="28" column="26" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="structnn_1_1fs_1_1_title_data_specifier_1a660cd28450537dfd287c7642da098d49" compoundref="fs___parameters_for_system_8h" startline="33" endline="39">Make</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_title_data_specifier_1a88b441e76b9a5562414e5bb2cf358391" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int nn::fs::TitleDataSpecifier::unk0</definition>
+        <argsstring></argsstring>
+        <name>unk0</name>
+        <qualifiedname>nn::fs::TitleDataSpecifier::unk0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="30" column="13" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1fs_1_1_title_data_specifier_1aaa23139ec4ce2f195d3920c0ecbc9983" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int nn::fs::TitleDataSpecifier::unk1</definition>
+        <argsstring></argsstring>
+        <name>unk1</name>
+        <qualifiedname>nn::fs::TitleDataSpecifier::unk1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="31" column="13" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structnn_1_1fs_1_1_title_data_specifier_1a660cd28450537dfd287c7642da098d49" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structnn_1_1fs_1_1_title_data_specifier" kindref="compound">TitleDataSpecifier</ref></type>
+        <definition>static TitleDataSpecifier nn::fs::TitleDataSpecifier::Make</definition>
+        <argsstring>(MediaType type, TitleId id)</argsstring>
+        <name>Make</name>
+        <qualifiedname>nn::fs::TitleDataSpecifier::Make</qualifiedname>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a90faefc739dab381df2821fa44025463" kindref="member">MediaType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1fs_1a042b347b224d89b5e7c339e26a64d86b" kindref="member">TitleId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="33" column="35" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="33" bodyend="39"/>
+        <references refid="structnn_1_1fs_1_1_title_data_specifier_1a11271e14e93783315d459fc96317b270" compoundref="fs___parameters_for_system_8h" startline="27">id</references>
+        <references refid="structnn_1_1fs_1_1_title_data_specifier_1a02384d8828795e79dd43e8c3b77e820a" compoundref="fs___parameters_for_system_8h" startline="28">media</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>nn::util::SizedEnum1&lt; MediaType &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum1"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; MediaType &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::util::SizedEnum&lt; bit8, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+        <childnode refid="6" relation="template-instance">
+          <edgelabel>&lt; bit8, V &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::fs::TitleDataSpecifier</label>
+        <link refid="structnn_1_1fs_1_1_title_data_specifier"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>media</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+      <node id="4">
+        <label>nn::util::SizedEnum1&lt; V &gt;</label>
+        <link refid="structnn_1_1util_1_1_sized_enum1"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::SizedEnum&lt; T, V &gt;</label>
+        <link refid="classnn_1_1util_1_1_sized_enum"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" line="25" column="1" bodyfile="lib/CtrSDK/include/nn/fs/fs_ParametersForSystem.h" bodystart="26" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structnn_1_1fs_1_1_title_data_specifier_1a11271e14e93783315d459fc96317b270" prot="public" virt="non-virtual"><scope>nn::fs::TitleDataSpecifier</scope><name>id</name></member>
+      <member refid="structnn_1_1fs_1_1_title_data_specifier_1a660cd28450537dfd287c7642da098d49" prot="public" virt="non-virtual"><scope>nn::fs::TitleDataSpecifier</scope><name>Make</name></member>
+      <member refid="structnn_1_1fs_1_1_title_data_specifier_1a02384d8828795e79dd43e8c3b77e820a" prot="public" virt="non-virtual"><scope>nn::fs::TitleDataSpecifier</scope><name>media</name></member>
+      <member refid="structnn_1_1fs_1_1_title_data_specifier_1a88b441e76b9a5562414e5bb2cf358391" prot="public" virt="non-virtual"><scope>nn::fs::TitleDataSpecifier</scope><name>unk0</name></member>
+      <member refid="structnn_1_1fs_1_1_title_data_specifier_1aaa23139ec4ce2f195d3920c0ecbc9983" prot="public" virt="non-virtual"><scope>nn::fs::TitleDataSpecifier</scope><name>unk1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

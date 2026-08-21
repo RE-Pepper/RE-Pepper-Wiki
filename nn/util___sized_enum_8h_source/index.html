@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>File util_SizedEnum.h - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="file-util_sizedenumh">File util_SizedEnum.h</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_a581c965070d8303a3ac233c6039c11a/"><strong>CtrSDK</strong></a> <strong>&gt;</strong> <a href="../dir_af9254bf4d22366cfccd04cbaa9622aa/"><strong>include</strong></a> <strong>&gt;</strong> <a href="../dir_a185e92459882a1d3c4a0e5724303e75/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../dir_369320240f3428c6f0d988f9f85aef22/"><strong>util</strong></a> <strong>&gt;</strong> <a href="../util___sized_enum_8h/"><strong>util_SizedEnum.h</strong></a></p>
+<p><a href="../util___sized_enum_8h/">Go to the documentation of this file</a></p>
+<pre><code class="language-C++">#pragma once
+
+namespace nn {
+namespace util {
+
+template &lt;typename T, typename V = void&gt;
+class SizedEnum
+{
+private:
+        T m_EnumValue;
+
+public:
+        SizedEnum () {}
+        SizedEnum (T e) : m_EnumValue (e) {}
+        SizedEnum (V e) : m_EnumValue (e) {}
+
+        T    Get () const { return this-&gt;m_EnumValue; }
+        void Set (T e) const { this-&gt;m_EnumValue = e; }
+
+        operator T () { return Get (); }
+};
+
+template &lt;typename V&gt;
+struct SizedEnum1 : public SizedEnum&lt;bit8, V&gt;
+{
+        SizedEnum1 () : SizedEnum&lt;bit8, V&gt; () {}
+        SizedEnum1 (V e) : SizedEnum&lt;bit8, V&gt; (e) {}
+};
+template &lt;typename V&gt;
+struct SizedEnum2 : public SizedEnum&lt;bit16, V&gt;
+{
+        SizedEnum2 () : SizedEnum&lt;bit16, V&gt; () {}
+        SizedEnum2 (V e) : SizedEnum&lt;bit16, V&gt; (e) {}
+};
+template &lt;typename V&gt;
+struct SizedEnum4 : public SizedEnum&lt;bit32, V&gt;
+{
+        SizedEnum4 () : SizedEnum&lt;bit32, V&gt; () {}
+        SizedEnum4 (V e) : SizedEnum&lt;bit32, V&gt; (e) {}
+};
+
+} // namespace util
+} // namespace nn
+</code></pre>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

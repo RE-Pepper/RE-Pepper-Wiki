@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RE:Pepper - Reverse Engineering Super Mario 3D Land Project">
+    <link rel="stylesheet" href="https://rep.moddi.dev/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&disp=swap" rel="stylesheet">
+    <link rel="icon" href="https://rep.moddi.dev/assets/favicon.ico" type="image/x-icon">
+    <title>Class nn::fs::detail::FileSystemBaseImpl - RE:Pepper Wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+        </ul>
+      </nav>
+
+      <div id="bar">
+
+          <div class="title-wrapper">
+            <a id="barTitle" href="https://github.com/RE-Pepper"><b>RE:Pepper</b></a>
+          </div>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_me/'">
+                  About Project
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/about_it/'">
+                  About Game
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/wiki/'">
+                  Full Docs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/files/'">
+                  Filelist
+                </button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.location.href='https://rep.moddi.dev/classes/'">
+                  Classlist
+                </button>
+            </li>
+
+      </div>
+      
+      <h1 id="class-nnfsdetailfilesystembaseimpl">Class nn::fs::detail::FileSystemBaseImpl</h1>
+<p><a href="../annotated/"><strong>ClassList</strong></a> <strong>&gt;</strong> <a href="../namespacenn/"><strong>nn</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fs/"><strong>fs</strong></a> <strong>&gt;</strong> <a href="../namespacenn_1_1fs_1_1detail/"><strong>detail</strong></a> <strong>&gt;</strong> <a href="./"><strong>FileSystemBaseImpl</strong></a></p>
+<ul>
+<li><code>#include &lt;fs_FileSystemBase.h&gt;</code></li>
+</ul>
+<p>Inherits the following classes: <a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/">nn::fs::CTR::MPCore::detail::UserFileSystem</a></p>
+<h2 id="public-static-functions-inherited-from-nnfsctrmpcoredetailuserfilesystem">Public Static Functions inherited from nn::fs::CTR::MPCore::detail::UserFileSystem</h2>
+<p>See <a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/">nn::fs::CTR::MPCore::detail::UserFileSystem</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Type</th>
+<th style="text-align: left;">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-closedirectory"><strong>CloseDirectory</strong></a> (void *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-closefile"><strong>CloseFile</strong></a> (void * p) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-detachhandle"><strong>DetachHandle</strong></a> (void *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-duplicatehandleforfile"><strong>DuplicateHandleForFile</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> * pOut, void *, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a>, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-finalize"><strong>Finalize</strong></a> () <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_handle/"><strong>Handle</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-getfilehandle"><strong>GetFileHandle</strong></a> (void *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-initialize"><strong>Initialize</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> handle) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void **</td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-opendirect-12"><strong>OpenDirect</strong></a> (<a href="../classnn_1_1_handle/"><strong>Handle</strong></a> handle) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;">void</td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-opendirect-22"><strong>OpenDirect</strong></a> (void *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trycreatedirectory"><strong>TryCreateDirectory</strong></a> (const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trycreatedirectoryraw"><strong>TryCreateDirectoryRaw</strong></a> (<a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trycreatefile"><strong>TryCreateFile</strong></a> (const wchar_t *, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trydeletedirectory"><strong>TryDeleteDirectory</strong></a> (const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trydeletedirectoryraw"><strong>TryDeleteDirectoryRaw</strong></a> (<a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trydeletedirectoryrecursively"><strong>TryDeleteDirectoryRecursively</strong></a> (const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trydeletedirectoryrecursivelyraw"><strong>TryDeleteDirectoryRecursivelyRaw</strong></a> (<a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trydeletefile"><strong>TryDeleteFile</strong></a> (const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trydeletefileraw"><strong>TryDeleteFileRaw</strong></a> (<a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryflush"><strong>TryFlush</strong></a> (void *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trygetfilesize"><strong>TryGetFileSize</strong></a> (<a href="../types_8h/#typedef-s64"><strong>s64</strong></a> *, const void *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryopendirectory"><strong>TryOpenDirectory</strong></a> (void **, const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryopendirectoryraw"><strong>TryOpenDirectoryRaw</strong></a> (void **, <a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryopenfile"><strong>TryOpenFile</strong></a> (void **, const wchar_t *, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryopenfileraw"><strong>TryOpenFileRaw</strong></a> (void **, <a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryopenfilerawdirectly"><strong>TryOpenFileRawDirectly</strong></a> (void **, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;, <a href="../types_8h/#typedef-bit32"><strong>bit32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryreaddirectory"><strong>TryReadDirectory</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> *, void *, class <a href="../structnn_1_1fs_1_1_directory_entry/"><strong>DirectoryEntry</strong></a> *, <a href="../types_8h/#typedef-s32"><strong>s32</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryreadfile"><strong>TryReadFile</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> *, void *, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a>, void *, size_t) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryrenamedirectory"><strong>TryRenameDirectory</strong></a> (const wchar_t *, const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryrenamedirectoryraw"><strong>TryRenameDirectoryRaw</strong></a> (<a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;, <a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryrenamefile"><strong>TryRenameFile</strong></a> (const wchar_t *, const wchar_t *) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-tryrenamefileraw"><strong>TryRenameFileRaw</strong></a> (<a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;, <a href="../namespacenn_1_1fs/#typedef-archivehandle"><strong>ArchiveHandle</strong></a>, const <a href="../namespacenn_1_1fs_1_1_c_t_r_1_1_m_p_core/#typedef-path"><strong>Path</strong></a> &amp;) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trysetfilesize"><strong>TrySetFileSize</strong></a> (void *, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a>) <br></td>
+</tr>
+<tr>
+<td style="text-align: right;"><a href="../classnn_1_1_result/"><strong>Result</strong></a></td>
+<td style="text-align: left;"><a href="../classnn_1_1fs_1_1_c_t_r_1_1_m_p_core_1_1detail_1_1_user_file_system/#function-trywritefile"><strong>TryWriteFile</strong></a> (<a href="../types_8h/#typedef-s32"><strong>s32</strong></a> *, void *, <a href="../types_8h/#typedef-s64"><strong>s64</strong></a>, const void *, size_t, bool) <br></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>The documentation for this class was generated from the following file <code>lib/CtrSDK/include/nn/fs/fs_FileSystemBase.h</code></p>
+        <script src="../../search/main.js"></script>
+    </div>
+  </body>
+</html>

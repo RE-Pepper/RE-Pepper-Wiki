@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_f5f58bbdde99f1620da85a5357502216" kind="dir">
+    <compoundname>dbg</compoundname>
+    <innerfile refid="dbg___break_8cpp">dbg_Break.cpp</innerfile>
+    <innerfile refid="dbg___debug_string_8cpp">dbg_DebugString.cpp</innerfile>
+    <innerfile refid="dbg___print_result_8cpp">dbg_PrintResult.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/sources/libraries/dbg/"/>
+  </compounddef>
+</doxygen>

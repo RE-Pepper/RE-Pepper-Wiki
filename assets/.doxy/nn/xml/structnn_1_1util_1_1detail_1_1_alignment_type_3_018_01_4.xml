@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1util_1_1detail_1_1_alignment_type_3_018_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>nn::util::detail::AlignmentType&lt; 8 &gt;</compoundname>
+    <includes refid="util___type_traits_8h" local="no">util_TypeTraits.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structnn_1_1util_1_1detail_1_1_alignment_type_3_018_01_4_1aa828ce42313aa497c499b3bc663d0c2f" prot="public" static="no">
+        <type><ref refid="types_8h_1ad758b7a5c3f18ed79d2fcd23d9f16357" kindref="member">u64</ref></type>
+        <definition>typedef u64 nn::util::detail::AlignmentType&lt; 8 &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>nn::util::detail::AlignmentType&lt; 8 &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="13" column="21" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/util/util_TypeTraits.h" line="11" column="1" bodyfile="lib/CtrSDK/include/nn/util/util_TypeTraits.h" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structnn_1_1util_1_1detail_1_1_alignment_type_3_018_01_4_1aa828ce42313aa497c499b3bc663d0c2f" prot="public" virt="non-virtual"><scope>nn::util::detail::AlignmentType&lt; 8 &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

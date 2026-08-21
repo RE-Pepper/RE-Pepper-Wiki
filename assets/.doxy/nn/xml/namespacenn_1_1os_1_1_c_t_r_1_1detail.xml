@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1os_1_1_c_t_r_1_1detail" kind="namespace" language="C++">
+    <compoundname>nn::os::CTR::detail</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1_1detail_1a5a993d64053b3adde98e2c421c592402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CTR::detail::HandleInternalError</definition>
+        <argsstring>(Result result, const char *filename, int lineno)</argsstring>
+        <name>HandleInternalError</name>
+        <qualifiedname>nn::os::CTR::detail::HandleInternalError</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp" line="16" column="6" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp" bodystart="16" bodyend="20" declfile="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1_1detail_1aadb1ed307aa16e016d36c06fa896650c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CTR::detail::HandleInternalError</definition>
+        <argsstring>(Result result)</argsstring>
+        <name>HandleInternalError</name>
+        <qualifiedname>nn::os::CTR::detail::HandleInternalError</qualifiedname>
+        <param>
+          <type><ref refid="classnn_1_1_result" kindref="compound">Result</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp" line="22" column="6" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp" bodystart="22" bodyend="26" declfile="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h" declline="11" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1os_1_1_c_t_r_1_1detail_1aeb8241468ed4be6f706d93d1986e1f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::os::CTR::detail::SetInternalErrorHandlingMode</definition>
+        <argsstring>(bool preferFatal)</argsstring>
+        <name>SetInternalErrorHandlingMode</name>
+        <qualifiedname>nn::os::CTR::detail::SetInternalErrorHandlingMode</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>preferFatal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp" line="28" column="6" bodyfile="lib/CtrSDK/sources/libraries/os/CTR/os_ErrorHandler.cpp" bodystart="28" bodyend="31" declfile="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h" declline="13" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/os/CTR/os_ErrorHandler.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1os_1_1_critical_section_1_1_scoped_lock" kind="struct" language="C++" prot="public">
+    <compoundname>nn::os::CriticalSection::ScopedLock</compoundname>
+    <includes refid="os___critical_section_8h" local="no">os_CriticalSection.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1ac86c57790320b69a5d6a93451e4b95dd" prot="private" static="no" mutable="no">
+        <type><ref refid="structnn_1_1os_1_1_critical_section" kindref="compound">CriticalSection</ref> &amp;</type>
+        <definition>CriticalSection&amp; nn::os::CriticalSection::ScopedLock::m_Reference</definition>
+        <argsstring></argsstring>
+        <name>m_Reference</name>
+        <qualifiedname>nn::os::CriticalSection::ScopedLock::m_Reference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="123" column="33" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1adc39710ade037281b0bd5484e001cfa6" compoundref="os___critical_section_8h" startline="126" endline="130">ScopedLock</referencedby>
+        <referencedby refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1aaa312fa790830e5941720d7296b4f5ae" compoundref="os___critical_section_8h" startline="131" endline="134">~ScopedLock</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1adc39710ade037281b0bd5484e001cfa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::CriticalSection::ScopedLock::ScopedLock</definition>
+        <argsstring>(CriticalSection &amp;section)</argsstring>
+        <name>ScopedLock</name>
+        <qualifiedname>nn::os::CriticalSection::ScopedLock::ScopedLock</qualifiedname>
+        <param>
+          <type><ref refid="structnn_1_1os_1_1_critical_section" kindref="compound">CriticalSection</ref> &amp;</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="126" column="17" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="126" bodyend="130"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1a12c8a42014eb406db6330dc034690fac" compoundref="os___critical_section_8h" startline="57" endline="64">nn::os::CriticalSection::Enter</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1ac86c57790320b69a5d6a93451e4b95dd" compoundref="os___critical_section_8h" startline="123">m_Reference</references>
+      </memberdef>
+      <memberdef kind="function" id="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1aaa312fa790830e5941720d7296b4f5ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::os::CriticalSection::ScopedLock::~ScopedLock</definition>
+        <argsstring>()</argsstring>
+        <name>~ScopedLock</name>
+        <qualifiedname>nn::os::CriticalSection::ScopedLock::~ScopedLock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="131" column="17" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="131" bodyend="134"/>
+        <references refid="structnn_1_1os_1_1_critical_section_1a024bcfffbb6f0e4a6c3b73d2932e1cf5" compoundref="os___critical_section_8h" startline="74" endline="90">nn::os::CriticalSection::Leave</references>
+        <references refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1ac86c57790320b69a5d6a93451e4b95dd" compoundref="os___critical_section_8h" startline="123">m_Reference</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>nn::fnd::InterlockedVariable&lt; s32 &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+        <childnode refid="8" relation="template-instance">
+          <edgelabel>&lt; s32 &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; CriticalSection &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="4" relation="template-instance">
+          <edgelabel>&lt; CriticalSection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::fnd::InterlockedVariable&lt; T &gt;</label>
+        <link refid="classnn_1_1fnd_1_1_interlocked_variable"/>
+      </node>
+      <node id="2">
+        <label>nn::os::CriticalSection</label>
+        <link refid="structnn_1_1os_1_1_critical_section"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_Counter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::os::CriticalSection::ScopedLock</label>
+        <link refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_Reference</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::WaitableCounter</label>
+        <link refid="classnn_1_1os_1_1_waitable_counter"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>s_Handle</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+      <node id="6">
+        <label>nnHandle</label>
+        <link refid="structnn_handle"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/os/os_CriticalSection.h" line="120" column="9" bodyfile="lib/CtrSDK/include/nn/os/os_CriticalSection.h" bodystart="121" bodyend="135"/>
+    <listofallmembers>
+      <member refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1ac86c57790320b69a5d6a93451e4b95dd" prot="private" virt="non-virtual"><scope>nn::os::CriticalSection::ScopedLock</scope><name>m_Reference</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1adc39710ade037281b0bd5484e001cfa6" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection::ScopedLock</scope><name>ScopedLock</name></member>
+      <member refid="structnn_1_1os_1_1_critical_section_1_1_scoped_lock_1aaa312fa790830e5941720d7296b4f5ae" prot="public" virt="non-virtual"><scope>nn::os::CriticalSection::ScopedLock</scope><name>~ScopedLock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

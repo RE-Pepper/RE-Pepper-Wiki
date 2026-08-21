@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data" kind="struct" language="C++" prot="public">
+    <compoundname>nn::cfg::CTR::detail::SystemInfoCfgData</compoundname>
+    <includes refid="cfg___data_structures_8h" local="no">cfg_DataStructures.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data_1a7559975583729643df9ffcbb6c62650b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a128aa1b4b30a96c3abe587811a5d4ea1" kindref="member">bit64</ref></type>
+        <definition>bit64 nn::cfg::CTR::detail::SystemInfoCfgData::debugMonitorProgramId</definition>
+        <argsstring></argsstring>
+        <name>debugMonitorProgramId</name>
+        <qualifiedname>nn::cfg::CTR::detail::SystemInfoCfgData::debugMonitorProgramId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="245" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data_1a5c47a7cd74815f153cdb7957a894dae8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::cfg::CTR::detail::SystemInfoCfgData::kernelParam</definition>
+        <argsstring></argsstring>
+        <name>kernelParam</name>
+        <qualifiedname>nn::cfg::CTR::detail::SystemInfoCfgData::kernelParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="246" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data_1a69d6d7d61d4cade1074aad54e59adad8" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a4e27f2a167cac8e5f17f598460db040b" kindref="member">bit32</ref></type>
+        <definition>bit32 nn::cfg::CTR::detail::SystemInfoCfgData::devParam</definition>
+        <argsstring></argsstring>
+        <name>devParam</name>
+        <qualifiedname>nn::cfg::CTR::detail::SystemInfoCfgData::devParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="247" column="15" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" line="243" column="1" bodyfile="lib/CtrSDK/include/nn/cfg/CTR/detail/cfg_DataStructures.h" bodystart="244" bodyend="248"/>
+    <listofallmembers>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data_1a7559975583729643df9ffcbb6c62650b" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::SystemInfoCfgData</scope><name>debugMonitorProgramId</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data_1a69d6d7d61d4cade1074aad54e59adad8" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::SystemInfoCfgData</scope><name>devParam</name></member>
+      <member refid="structnn_1_1cfg_1_1_c_t_r_1_1detail_1_1_system_info_cfg_data_1a5c47a7cd74815f153cdb7957a894dae8" prot="public" virt="non-virtual"><scope>nn::cfg::CTR::detail::SystemInfoCfgData</scope><name>kernelParam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

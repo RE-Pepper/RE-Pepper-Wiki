@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classnn_1_1hid_1_1_c_t_r_1_1_hid_base" kind="class" language="C++" prot="public">
+    <compoundname>nn::hid::CTR::HidBase</compoundname>
+    <basecompoundref refid="classnn_1_1os_1_1_event_base" prot="private" virt="non-virtual">nn::os::EventBase</basecompoundref>
+    <includes refid="hid___hid_base_8h" local="no">hid_HidBase.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a0d469418f19527adcf5f2569e9dc6454" prot="private" static="no" mutable="no">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::hid::CTR::HidBase::m_pResource</definition>
+        <argsstring></argsstring>
+        <name>m_pResource</name>
+        <qualifiedname>nn::hid::CTR::HidBase::m_pResource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" line="12" column="14" bodyfile="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1af2f380abd9685746a8a52366022e4860" compoundref="hid___hid_base_8h" startline="15" endline="15">GetResource</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1af2f380abd9685746a8a52366022e4860" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+        <definition>uptr nn::hid::CTR::HidBase::GetResource</definition>
+        <argsstring>() const</argsstring>
+        <name>GetResource</name>
+        <qualifiedname>nn::hid::CTR::HidBase::GetResource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" line="15" column="14" bodyfile="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" bodystart="15" bodyend="15"/>
+        <references refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a0d469418f19527adcf5f2569e9dc6454" compoundref="hid___hid_base_8h" startline="12">m_pResource</references>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a7a05127766eb47174972dd61fbbbfda9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void nn::hid::CTR::HidBase::SetResource</definition>
+        <argsstring>(uptr resource)</argsstring>
+        <name>SetResource</name>
+        <qualifiedname>nn::hid::CTR::HidBase::SetResource</qualifiedname>
+        <param>
+          <type><ref refid="types_8h_1a93a1409151dffdb2c15147214279817a" kindref="member">uptr</ref></type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" line="17" column="14" bodyfile="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1ab97e194aa4e8fa44aa760508b23ae9a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::hid::CTR::HidBase::HidBase</definition>
+        <argsstring>()</argsstring>
+        <name>HidBase</name>
+        <qualifiedname>nn::hid::CTR::HidBase::HidBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" line="22" column="9" bodyfile="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a186b7e531fba207fab9e8a0971a8b256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>nn::hid::CTR::HidBase::~HidBase</definition>
+        <argsstring>()</argsstring>
+        <name>~HidBase</name>
+        <qualifiedname>nn::hid::CTR::HidBase::~HidBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" line="23" column="9" bodyfile="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>nn::hid::CTR::HidBase</label>
+        <link refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::EventBase</label>
+        <link refid="classnn_1_1os_1_1_event_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="6" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; HandleObject &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+        <childnode refid="7" relation="template-instance">
+          <edgelabel>&lt; HandleObject &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>nn::Handle</label>
+        <link refid="classnn_1_1_handle"/>
+      </node>
+      <node id="1">
+        <label>nn::hid::CTR::HidBase</label>
+        <link refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>nn::os::EventBase</label>
+        <link refid="classnn_1_1os_1_1_event_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nn::os::HandleObject</label>
+        <link refid="classnn_1_1os_1_1_handle_object"/>
+        <childnode refid="6" relation="private-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_Handle</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>nn::os::InterruptEvent</label>
+        <link refid="classnn_1_1os_1_1_interrupt_event"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>nn::os::WaitObject</label>
+        <link refid="classnn_1_1os_1_1_wait_object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>nn::util::ADLFireWall::NonCopyable&lt; T &gt;</label>
+        <link refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" line="9" column="1" bodyfile="lib/CtrSDK/include/nn/hid/CTR/hid_HidBase.h" bodystart="10" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classnn_1_1os_1_1_handle_object_1af84a9d4f2fef70ad098b03e2efa91376" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>ClearHandle</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1aa8a63cae143df6ac8978a66f733ba3c0" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>ClearSignal</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a14fa1d4ff4d5e863873b2d976a108029" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>Close</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1abcfb647ff901420d863332253e64b53c" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>EventBase</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1ab305b68d0cbde4f4d340571b61ac5884" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>EventBase</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a86e818fce3818298933d737885c7a60c" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>Finalize</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a1456108a1067d003fdb021e823f4b660" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>GetHandle</name></member>
+      <member refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1af2f380abd9685746a8a52366022e4860" prot="public" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>GetResource</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a3d865d35c5adb99186c09d6b971da4eb" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>HandleObject</name></member>
+      <member refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1ab97e194aa4e8fa44aa760508b23ae9a4" prot="public" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>HidBase</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1ae2ace1d03afca02515e78dfc4acdccd0" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>Initialize</name></member>
+      <member refid="classnn_1_1os_1_1_interrupt_event_1a4a29a377519314ee1eca53a7a5438268" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>InterruptEvent</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a99d58e3e1c711fb9c43182aa9ab462c6" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>IsValid</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1af67b3008356477c8060389469c563af3" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>m_Handle</name></member>
+      <member refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a0d469418f19527adcf5f2569e9dc6454" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>m_pResource</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a6e79d83a5af86f6962a757286eec8891" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>NonCopyable</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a62a6b75677a9056bcedf28d83049a102" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>NonCopyable</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a2a272a0b0037154dac2c7d1f1cf5309a" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>SetHandle</name></member>
+      <member refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a7a05127766eb47174972dd61fbbbfda9" prot="public" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>SetResource</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1a2ed1650be83e4f005ff1feb38ae53a14" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>Signal</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1a74c50a60b3a111a27404f30740a64015" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>TryInitialize</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1acd9bc3a7c6f53d9ecd94ebd3b03454c0" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>TryInitializeImpl</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1a4e14bc72c1e48828ea0d4e34ebfc878c" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>WaitAny</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1af3c57ecc264ffa8b9f1e86ab2c4417a5" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>WaitMultiple</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1afe3b3b397cb04cc1db44e5ac0bc1393a" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>WaitObject</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1ac6195ab5342a72323405c926fb98785e" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>WaitOne</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1aff200001e82129149664df5ed61ba218" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>WaitOne</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1a6eb934a8913d20c620de7645ee559053" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>WaitOneImpl</name></member>
+      <member refid="classnn_1_1os_1_1_event_base_1acb9a2c2bf7a4a24c95f28b6766297336" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>~EventBase</name></member>
+      <member refid="classnn_1_1os_1_1_handle_object_1a7de277bda977b4bff718d4e689826087" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>~HandleObject</name></member>
+      <member refid="classnn_1_1hid_1_1_c_t_r_1_1_hid_base_1a186b7e531fba207fab9e8a0971a8b256" prot="public" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>~HidBase</name></member>
+      <member refid="classnn_1_1os_1_1_interrupt_event_1a22d53c2fdc928b8e0cd1dfd0173e53dd" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>~InterruptEvent</name></member>
+      <member refid="structnn_1_1util_1_1_a_d_l_fire_wall_1_1_non_copyable_1a69e6691c4e375e46294371d26402b615" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>~NonCopyable</name></member>
+      <member refid="classnn_1_1os_1_1_wait_object_1a33d7562ef128bb2ee66e4e66333cf702" prot="private" virt="non-virtual"><scope>nn::hid::CTR::HidBase</scope><name>~WaitObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

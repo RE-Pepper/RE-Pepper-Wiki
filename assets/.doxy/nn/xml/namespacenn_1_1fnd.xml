@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacenn_1_1fnd" kind="namespace" language="C++">
+    <compoundname>nn::fnd</compoundname>
+    <innerclass refid="classnn_1_1fnd_1_1_heap_base" prot="public">nn::fnd::HeapBase</innerclass>
+    <innerclass refid="classnn_1_1fnd_1_1_interlocked_variable" prot="public">nn::fnd::InterlockedVariable</innerclass>
+    <innerclass refid="classnn_1_1fnd_1_1_intrusive_linked_list" prot="public">nn::fnd::IntrusiveLinkedList</innerclass>
+    <innerclass refid="classnn_1_1fnd_1_1_time_span" prot="public">nn::fnd::TimeSpan</innerclass>
+    <innernamespace refid="namespacenn_1_1fnd_1_1_a_r_mv6">nn::fnd::ARMv6</innernamespace>
+    <innernamespace refid="namespacenn_1_1fnd_1_1detail">nn::fnd::detail</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396" prot="public" static="no" strong="no">
+        <type></type>
+        <name>HeapFillType</name>
+        <qualifiedname>nn::fnd::HeapFillType</qualifiedname>
+        <enumvalue id="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396aedc169559b8ceddfd5da81b5128289d4" prot="public">
+          <name>HEAP_FILL_TYPE_NOUSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396a2193b10fa47fc3e9740faa55cff25ca1" prot="public">
+          <name>HEAP_FILL_TYPE_ALLOC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396a8b228abfb4f29a5d6a8bc9b9382e23cb" prot="public">
+          <name>HEAP_FILL_TYPE_FREE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fnd_1ae52769b6c5d3ff73285b4215a5dbb396ae9cb7b7c855cd8008ff1ecc05bb46cc8" prot="public">
+          <name>HEAP_FILL_TYPE_MAX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_HeapBase.h" line="8" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_HeapBase.h" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Description</name>
+        <qualifiedname>nn::fnd::Description</qualifiedname>
+        <enumvalue id="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184baaa4bd38104c8605078d667ea94a9cd91" prot="public">
+          <name>DESCRIPTION_UNK1</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184badb2804c181b8b17ecd99b260c3cc9b71" prot="public">
+          <name>DESCRIPTION_UNK2</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Result.h" line="8" column="1" bodyfile="lib/CtrSDK/include/nn/fnd/fnd_Result.h" bodystart="9" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacenn_1_1fnd_1acebee64743ceb50005264f69f2aebcef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::_NN_FND_RESULT_DEF_CONST</definition>
+        <argsstring>(ResultInvalidAddress, LEVEL_USAGE, SUMMARY_INVALID_ARGUMENT, Result::DESCRIPTION_INVALID_ADDRESS)</argsstring>
+        <name>_NN_FND_RESULT_DEF_CONST</name>
+        <qualifiedname>nn::fnd::_NN_FND_RESULT_DEF_CONST</qualifiedname>
+        <param>
+          <type>ResultInvalidAddress</type>
+        </param>
+        <param>
+          <type>LEVEL_USAGE</type>
+        </param>
+        <param>
+          <type>SUMMARY_INVALID_ARGUMENT</type>
+        </param>
+        <param>
+          <type><ref refid="classnn_1_1_result_1a39e72c6762fed20b6964a327ee19cbceadbfb041d8baf0898af8c1cc886711adf" kindref="member">Result::DESCRIPTION_INVALID_ADDRESS</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Result.h" line="17" column="1" declfile="lib/CtrSDK/include/nn/fnd/fnd_Result.h" declline="17" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacenn_1_1fnd_1a17ffc381215b2587eb5861aefc574d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nn::fnd::_NN_FND_RESULT_DEF_CONST</definition>
+        <argsstring>(ResultFndUnk0, LEVEL_USAGE, SUMMARY_INVALID_ARGUMENT, DESCRIPTION_UNK2)</argsstring>
+        <name>_NN_FND_RESULT_DEF_CONST</name>
+        <qualifiedname>nn::fnd::_NN_FND_RESULT_DEF_CONST</qualifiedname>
+        <param>
+          <type>ResultFndUnk0</type>
+        </param>
+        <param>
+          <type>LEVEL_USAGE</type>
+        </param>
+        <param>
+          <type>SUMMARY_INVALID_ARGUMENT</type>
+        </param>
+        <param>
+          <type><ref refid="namespacenn_1_1fnd_1a5c63f4dd8e6fa704c1aa4a764da9184badb2804c181b8b17ecd99b260c3cc9b71" kindref="member">DESCRIPTION_UNK2</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="lib/CtrSDK/include/nn/fnd/fnd_Result.h" line="19" column="1" declfile="lib/CtrSDK/include/nn/fnd/fnd_Result.h" declline="19" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="lib/CtrSDK/include/nn/fnd/ARMv6/fnd_Interlocked.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>
